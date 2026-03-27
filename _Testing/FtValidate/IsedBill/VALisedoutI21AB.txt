@@ -1,0 +1,970 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2021.04.23  11:52
+Project Code [pcode1] Process Id: 14188
+
+PDF Name: isedoutI21AB
+
+
+
+                ----------- WARNINGS -----------
+
+
+XOA499L->%CF01 Band:7B Chid:B998
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (DFLT05).
+MERGE 30 - Must change RX traffic field from remote active TX side. Validate will use the value in the remote active TX traffic field (D7505).
+
+XOA499L->%CF01 Band:7B Chid:B999
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (DFLT05).
+MERGE 30 - Must change RX traffic field from remote active TX side. Validate will use the value in the remote active TX traffic field (D7505).
+
+XOO21->%CF01 Band:7B Chid:B998
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (DFLT05).
+MERGE 30 - Must change RX traffic field from remote active TX side. Validate will use the value in the remote active TX traffic field (D7505).
+
+XOO21->%CF01 Band:7B Chid:B999
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (DFLT05).
+MERGE 30 - Must change RX traffic field from remote active TX side. Validate will use the value in the remote active TX traffic field (D7505).
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site call: CFA761
+Lat & Long for site is the same as for PDF site: CHX439
+
+Site call: CFA773
+Lat & Long for site is the same as for PDF site: CKG472
+
+Site call: CFA777
+Lat & Long for site is the same as for PDF site: XLA717
+
+Site Call: CFC505
+Lat & Long for site is the same as for existing site:- 
+	CKY479 UNKNOWN BCHY
+Check to ensure coordinates are correct.
+
+Site Call: CFC509
+Lat & Long for site is the same as for existing site:- 
+	CKY479 UNKNOWN BCHY
+Check to ensure coordinates are correct.
+
+Site call: CFD631
+Lat & Long for site is the same as for PDF site: XNY83
+
+Site call: CFE221
+Lat & Long for site is the same as for PDF site: XOA231
+
+Site Call: CFE838
+Lat & Long for site is the same as for existing site:- 
+	CKT934 STONY MOUNTAIN. ALTA.-NE 24 85 9 XCI
+Check to ensure coordinates are correct.
+
+Site call: CFG590
+Lat & Long for site is the same as for PDF site: XOF783A
+
+Site Call: CFG785
+Lat & Long for site is the same as for existing site:- 
+	CZL377 BON ACCORD NE XCI
+Check to ensure coordinates are correct.
+
+Site Call: CFG786
+Lat & Long for site is the same as for existing site:- 
+	CZL377 BON ACCORD NE XCI
+Check to ensure coordinates are correct.
+
+Site Call: CFH869
+Lat & Long for site is the same as for existing site:- 
+	VYA767 WOLF'S DEN RCTL
+Check to ensure coordinates are correct.
+
+Site Call: CFH954
+Lat & Long for site is the same as for existing site:- 
+	CZL772 SAND RIVER BMCE
+Check to ensure coordinates are correct.
+
+Site Call: CFI590
+Lat & Long for site is the same as for existing site:- 
+	CHQ568 VANCOUVER WEST GEORGIA TLUSMC
+Check to ensure coordinates are correct.
+
+Site Call: CFN317
+Lat & Long for site is the same as for existing site:- 
+	CFN524 TORONTO (DUNDAS STREET EAST) ON SCISOL
+Check to ensure coordinates are correct.
+
+Site call: CFN322
+Lat & Long for site is the same as for PDF site: XOF857
+
+Site Call: CFN524
+Lat & Long for site is the same as for existing site:- 
+	CFN317 TORONTO (DUNDAS STREET EAST  REG SCISOL
+Check to ensure coordinates are correct.
+
+Site Call: CFN525
+Lat & Long for site is the same as for existing site:- 
+	CFU868 TORONTO (1801 SHEPPARD AVENUE) O SCISOL
+Check to ensure coordinates are correct.
+
+Site Call: CFQ809
+Lat & Long for site is the same as for existing site:- 
+	WQMI91102 FORT FRANCES A13390
+Check to ensure coordinates are correct.
+
+Site Call: CFQ810
+Lat & Long for site is the same as for existing site:- 
+	WQLT72602 RANIER A13390
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQMI91101 RANIER A13390
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WRJK48802 RANIER A13390
+Check to ensure coordinates are correct.
+
+Site call: CFS386
+Lat & Long for site is the same as for PDF site: XOH283
+
+Site Call: CFS767
+Lat & Long for site is the same as for existing site:- 
+	VYC901 CAAB0070  06 25 59 20 W5M WIREIE
+Check to ensure coordinates are correct.
+
+Site Call: CFU868
+Lat & Long for site is the same as for existing site:- 
+	CFN525 TORONTO (1801 SHEPPARD AVENUE) O SCISOL
+Check to ensure coordinates are correct.
+
+Site Call: CFW765
+Lat & Long for site is the same as for existing site:- 
+	CGM435 SASKATOON MOUNTAIN. ALBERTA XCI
+Check to ensure coordinates are correct.
+
+Site Call: CFX232
+Lat & Long for site is the same as for existing site:- 
+	=XCI1265 TURNER VALLEY POP XCI
+Check to ensure coordinates are correct.
+
+Site call: CGA419
+Lat & Long for site is the same as for PDF site: XOZ25
+
+Site Call: CGA652
+Lat & Long for site is the same as for existing site:- 
+	WQVG67402 OLCOTT T10852
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQVH66501 OLCOTT T10852
+Check to ensure coordinates are correct.
+
+Site Call: CGM289
+Lat & Long for site is the same as for existing site:- 
+	VYC980 HOLLAND MB XCI
+Check to ensure coordinates are correct.
+
+Site Call: CGM291
+Lat & Long for site is the same as for existing site:- 
+	VYB530 MANITOU MB 322 CARRIE STREET XCI
+Check to ensure coordinates are correct.
+
+Site Call: CGM295
+Lat & Long for site is the same as for existing site:- 
+	VYB577 ST. CLAUDE MB. PR 240 XCI
+Check to ensure coordinates are correct.
+
+Site Call: CGM412
+Lat & Long for site is the same as for existing site:- 
+	CGU733 BURNABY BC BURNABY MTN WATER TOW BCHY
+Check to ensure coordinates are correct.
+
+Site Call: CGM431
+Lat & Long for site is the same as for existing site:- 
+	CGM435 SASKATOON MOUNTAIN. ALBERTA XCI
+Check to ensure coordinates are correct.
+
+Site Call: CGS322
+Lat & Long for site is the same as for existing site:- 
+	CHQ568 VANCOUVER WEST GEORGIA TLUSMC
+Check to ensure coordinates are correct.
+
+Site Call: CGS862
+Lat & Long for site is the same as for existing site:- 
+	CGV795 SUMAS MTN - SUMAS PK(BC HYDRO SI BCHY
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	XOA529 SMS BCHY
+Check to ensure coordinates are correct.
+
+Site Call: CGU519
+Lat & Long for site is the same as for existing site:- 
+	CGY876 CHICONAJILH REPEATER TLUSMC
+Check to ensure coordinates are correct.
+
+Site Call: CGU631
+Lat & Long for site is the same as for existing site:- 
+	CGM435 SASKATOON MOUNTAIN. ALBERTA XCI
+Check to ensure coordinates are correct.
+
+Site Call: CGV254
+Lat & Long for site is the same as for existing site:- 
+	CGY875 MT MILLIGAN TLUSMC
+Check to ensure coordinates are correct.
+
+Site Call: CGV853
+Lat & Long for site is the same as for existing site:- 
+	VFE393 DUCHESS HILL. AB XCI
+Check to ensure coordinates are correct.
+
+Site Call: CGW863
+Lat & Long for site is the same as for existing site:- 
+	WREZ52701 LYNDONVILLE C99631
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WREZ52802 LYNDONVILLE C99631
+Check to ensure coordinates are correct.
+
+Site Call: CGY202
+Lat & Long for site is the same as for existing site:- 
+	CKT658 MELLICK BELL TBAY
+Check to ensure coordinates are correct.
+
+Site Call: CGY366
+Lat & Long for site is the same as for existing site:- 
+	CKT934 STONY MOUNTAIN. ALTA.-NE 24 85 9 XCI
+Check to ensure coordinates are correct.
+
+Site Call: CGY367
+Lat & Long for site is the same as for existing site:- 
+	CKT933 ANZAC. ALBERTA XCI
+Check to ensure coordinates are correct.
+
+Site Call: CGY931
+Lat & Long for site is the same as for existing site:- 
+	CHQ568 VANCOUVER WEST GEORGIA TLUSMC
+Check to ensure coordinates are correct.
+
+Site Call: CHX597
+Lat & Long for site is the same as for existing site:- 
+	=GLWL1622 OLO1622 GLW
+Check to ensure coordinates are correct.
+
+Site Call: CHX973
+Lat & Long for site is the same as for existing site:- 
+	CIO342 FERNIE BC (VHCM AML) SHAW
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	CIO355 FERNIE BC SHAW
+Check to ensure coordinates are correct.
+
+Site Call: CIJ981
+Lat & Long for site is the same as for existing site:- 
+	VFF652 STOKKE CREEK. BC BCHY
+Check to ensure coordinates are correct.
+
+Site Call: CIN891
+Lat & Long for site is the same as for existing site:- 
+	CKT349 BOWEN ISLAND BC GMR BCHY
+Check to ensure coordinates are correct.
+
+Site Call: CIN980B
+Lat & Long for site is the same as for existing site:- 
+	CGM435 SASKATOON MOUNTAIN. ALBERTA XCI
+Check to ensure coordinates are correct.
+
+Site Call: CIO267
+Lat & Long for site is the same as for existing site:- 
+	CKY852 ALBAN BMCE
+Check to ensure coordinates are correct.
+
+Site Call: CIO906
+Lat & Long for site is the same as for existing site:- 
+	CKY852 ALBAN BMCE
+Check to ensure coordinates are correct.
+
+Site Call: CJL554
+Lat & Long for site is the same as for existing site:- 
+	CKY348 HAMPTON. NS BRAGG
+Check to ensure coordinates are correct.
+
+Site Call: CJL814
+Lat & Long for site is the same as for existing site:- 
+	VFE393 DUCHESS HILL. AB XCI
+Check to ensure coordinates are correct.
+
+Site Call: CJN69
+Lat & Long for site is the same as for existing site:- 
+	CIE755 NEYS ON TBAY
+Check to ensure coordinates are correct.
+
+Site Call: CJX685
+Lat & Long for site is the same as for existing site:- 
+	PPTGREIE1 REIE1 TERAGO
+Check to ensure coordinates are correct.
+
+Site Call: CKG945
+Lat & Long for site is the same as for existing site:- 
+	CGY719 MARWAYNE 7 33 AB HUSKY
+Check to ensure coordinates are correct.
+
+Site Call: CKT352
+Lat & Long for site is the same as for existing site:- 
+	CGM435 SASKATOON MOUNTAIN. ALBERTA XCI
+Check to ensure coordinates are correct.
+
+Site Call: CKT664
+Lat & Long for site is the same as for existing site:- 
+	WQUJ38902 MOUNT HAYS A14963
+Check to ensure coordinates are correct.
+
+Site Call: CKT874
+Lat & Long for site is the same as for existing site:- 
+	CKJ371 AB0917 LONG LAKE TLUSMC
+Check to ensure coordinates are correct.
+
+Site Call: CKT911
+Lat & Long for site is the same as for existing site:- 
+	CGM435 SASKATOON MOUNTAIN. ALBERTA XCI
+Check to ensure coordinates are correct.
+
+Site Call: CKY479L
+Lat & Long for site is the same as for existing site:- 
+	CKY479 UNKNOWN BCHY
+Check to ensure coordinates are correct.
+
+Site Call: CKY808
+Lat & Long for site is the same as for existing site:- 
+	CGM435 SASKATOON MOUNTAIN. ALBERTA XCI
+Check to ensure coordinates are correct.
+
+Site Call: CZL727
+Lat & Long for site is the same as for existing site:- 
+	CHG214 BEHAN (AB1085) TLUSMC
+Check to ensure coordinates are correct.
+
+Site Call: CZV28
+Lat & Long for site is the same as for existing site:- 
+	=XCIS86 TEMISCOUATA XCI
+Check to ensure coordinates are correct.
+
+Site Call: SALOL MN
+Lat & Long for site is the same as for existing site:- 
+	WEG48001 SALOL MN A01853
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WEG48503 SALOL MN A01853
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQNJ63702 SALOL A04609
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WREB54102 SALOL A01853
+Check to ensure coordinates are correct.
+
+Site call: VBS263
+Lat & Long for site is the same as for PDF site: XOZ35
+
+Site call: VEA905
+Lat & Long for site is the same as for PDF site: XOZ75
+
+Site Call: VEO200Y
+Lat & Long for site is the same as for existing site:- 
+	VEO200 DELTA  BC(CJNW-AM TRANSMITTER SI SHAW
+Check to ensure coordinates are correct.
+
+Site Call: VEO440
+Lat & Long for site is the same as for existing site:- 
+	CHQ568 VANCOUVER WEST GEORGIA TLUSMC
+Check to ensure coordinates are correct.
+
+Site Call: VFE469
+Lat & Long for site is the same as for existing site:- 
+	VFF649 UPPER HARRISON LAKE. BC BCHY
+Check to ensure coordinates are correct.
+
+Site Call: VFG470
+Lat & Long for site is the same as for existing site:- 
+	CGM992 HWY 3 & RUTHVEN RCTL
+Check to ensure coordinates are correct.
+
+Site Call: VYA206A
+Lat & Long for site is the same as for existing site:- 
+	WPXI70101 LEWISTON E11157
+Check to ensure coordinates are correct.
+
+Site Call: VYA208
+Lat & Long for site is the same as for existing site:- 
+	WPXI69801 WHIRLPOOL BRIDGE E11157
+Check to ensure coordinates are correct.
+
+Site Call: VYA210
+Lat & Long for site is the same as for existing site:- 
+	WQVH66502 BELL TOWER T10852
+Check to ensure coordinates are correct.
+
+Site Call: VYA984
+Lat & Long for site is the same as for existing site:- 
+	CZL770 TIVERTON BMCE
+Check to ensure coordinates are correct.
+
+Site Call: VYB249
+Lat & Long for site is the same as for existing site:- 
+	CZL772 SAND RIVER BMCE
+Check to ensure coordinates are correct.
+
+Site Call: VYB508
+Lat & Long for site is the same as for existing site:- 
+	CII572 JOYCEVILLE BMCE
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	VEL452 JOYCEVILLE RCTL
+Check to ensure coordinates are correct.
+
+Site Call: VYB621
+Lat & Long for site is the same as for existing site:- 
+	WQSA71202 HIGH MTN A14963
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQUJ38901 HIGH MTN A14963
+Check to ensure coordinates are correct.
+
+Site Call: VYC961
+Lat & Long for site is the same as for existing site:- 
+	CKY348 HAMPTON. NS BRAGG
+Check to ensure coordinates are correct.
+
+Site Call: VYD325
+Lat & Long for site is the same as for existing site:- 
+	CIN840 BURNABY BC- 6540 BURLINGTON AVE TERAGO
+Check to ensure coordinates are correct.
+
+Site Call: XNY35
+Lat & Long for site is the same as for existing site:- 
+	VXJ568 WH CANYON BMCE
+Check to ensure coordinates are correct.
+
+Site Call: XOA217B
+Lat & Long for site is the same as for existing site:- 
+	XOA217 EEL RIVER  NB HYQU
+Check to ensure coordinates are correct.
+
+Site Call: XOA637
+Lat & Long for site is the same as for existing site:- 
+	VOH675 VICTORIA BC (861 CLOVERDALE AVE. SHAW
+Check to ensure coordinates are correct.
+
+Site Call: XOF804BK
+Lat & Long for site is the same as for existing site:- 
+	=XCIT76 HOLDEN XCI
+Check to ensure coordinates are correct.
+
+Site Call: XOF804BL
+Lat & Long for site is the same as for existing site:- 
+	=XCIT76 HOLDEN XCI
+Check to ensure coordinates are correct.
+
+Site Call: XOR776
+Lat & Long for site is the same as for existing site:- 
+	CGJ846 EDMONTON RCTL
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 96 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+VAJ663 XOZ85 6B 78
+Could not retrieve remote Antenna
+
+VAJ663 XOZ85 6B 79
+Could not retrieve remote Antenna
+
+XOZ85 VAJ663 6A 78
+Could not retrieve remote Antenna
+
+XOZ85 VAJ663 6A 79
+Could not retrieve remote Antenna
+
+                ----------- WARNINGS -----------
+
+
+Antenna CFN466 CFN465 7B 79
+Antenna height (306.100000) outside recommended range of 0 to 300m
+
+Antenna CFY200A CHL280 08A 79
+Antenna height (329.000000) outside recommended range of 0 to 300m
+
+Antenna CFY203 CJZ244 08A 79
+Antenna height (328.000000) outside recommended range of 0 to 300m
+
+Antenna CFY66 CHK995 08A 79
+Antenna height (329.000000) outside recommended range of 0 to 300m
+
+Antenna CGR624 CGR625 2A 79
+Antenna height (330.000000) outside recommended range of 0 to 300m
+
+Antenna CHX430 CHX429 6B 79
+Antenna height (445.000000) outside recommended range of 0 to 300m
+
+Antenna CJX812 CJZ204 6B 79
+Antenna height (329.000000) outside recommended range of 0 to 300m
+
+Antenna CJZ229 VYB426 22A 79
+Antenna height (330.000000) outside recommended range of 0 to 300m
+
+Antenna CYF571 CYF570 08A 79
+Antenna height (380.000000) outside recommended range of 0 to 300m
+
+Antenna CZV24 VAN756 2A 79
+Antenna height (329.000000) outside recommended range of 0 to 300m
+
+Antenna VBT220 CFQ491 22A 79
+Antenna height (328.000000) outside recommended range of 0 to 300m
+
+Antenna VEQ837 VEQ838 08A 79
+Antenna height (345.000000) outside recommended range of 0 to 300m
+
+Antenna VEQ838 VEQ837 08A 79
+Antenna height (348.000000) outside recommended range of 0 to 300m
+
+Antenna VFE222A CFV893 8A 79
+Antenna height (328.000000) outside recommended range of 0 to 300m
+
+Antenna VFE222A CFW262 14C 79
+Antenna height (328.000000) outside recommended range of 0 to 300m
+
+Antenna VFE222A CFW283 11B 79
+Antenna height (328.000000) outside recommended range of 0 to 300m
+
+Antenna VFE222A CKJ738A 8A 79
+Antenna height (328.000000) outside recommended range of 0 to 300m
+
+Antenna VFE222A VFE227 11B 79
+Antenna height (328.000000) outside recommended range of 0 to 300m
+
+Antenna VFE222B VYC773 8A 79
+Antenna height (328.000000) outside recommended range of 0 to 300m
+
+Antenna VFE222B VYD225 11B 79
+Antenna height (328.000000) outside recommended range of 0 to 300m
+
+Antenna XJO24 VXJ665 08A 79
+Antenna height (330.000000) outside recommended range of 0 to 300m
+
+Antenna XNR47 CJZ220 08A 79
+Antenna height (327.000000) outside recommended range of 0 to 300m
+
+%INLB01 XOD250 6B 79
+Distance (94.9) is greater than 90km.
+
+%INLB02 XOD250 6B 79
+Distance (98.5) is greater than 90km.
+
+CFA843 CFA844 08A 78
+Licence fields differ between CFA843 and CFA844.
+
+CFA843 CFA844 08A 79
+Licence fields differ between CFA843 and CFA844.
+
+CFA844 CFA843 08A 78
+Licence fields differ between CFA844 and CFA843.
+
+CFA844 CFA843 08A 79
+Licence fields differ between CFA844 and CFA843.
+
+CFG792 CFG794 08A 79
+Distance (128.5) is greater than 90km.
+
+CFG794 CFG792 08A 79
+Distance (128.5) is greater than 90km.
+
+CFH545 VDH713 08A 79
+Licence fields differ between CFH545 and VDH713.
+
+CFJ824 CFJ825 22A 79
+Licence fields differ between CFJ824 and CFJ825.
+
+CFJ825 CFJ824 22A 79
+Licence fields differ between CFJ825 and CFJ824.
+
+CFS340 CFS341 6B 79
+Distance (102.8) is greater than 90km.
+
+CFS341 CFS340 6B 79
+Distance (102.8) is greater than 90km.
+
+CFS341 CGS363 6B 79
+Distance (93.5) is greater than 90km.
+
+CFS342A CGZ795 6B 79
+Distance (123.2) is greater than 90km.
+
+CFX613 CFX614 7B 79
+Distance (102.8) is greater than 90km.
+
+CFX614 CFX613 7B 78
+Distance (102.8) is greater than 90km.
+
+CFX614 CFX613 7B 79
+Distance (102.8) is greater than 90km.
+
+CFX69 XLJ446 08A 79
+Licence fields differ between CFX69 and XLJ446.
+
+CFY204A VAN795 08A 79
+Licence fields differ between CFY204A and VAN795.
+
+CFY65 VCN829 08A 79
+Licence fields differ between CFY65 and VCN829.
+
+CGP357 VDP234 8B 79
+Distance (96.0) is greater than 90km.
+
+CGQ910 CGQ912 08A 79
+Distance (90.8) is greater than 90km.
+
+CGQ912 CGQ910 08A 79
+Distance (90.8) is greater than 90km.
+
+CGS363 CFS341 6B 79
+Distance (93.5) is greater than 90km.
+
+CGS363 CGS431 6B 79
+Distance (122.7) is greater than 90km.
+
+CGS431 CGS363 6B 79
+Distance (122.7) is greater than 90km.
+
+CGS431 CGZ225 6B 79
+Distance (139.2) is greater than 90km.
+
+CGS483 CGZ225 6B 79
+Distance (95.5) is greater than 90km.
+
+CGU334 CKO944 08A 79
+Licence fields differ between CGU334 and CKO944.
+
+CGZ225 CGS431 6B 79
+Distance (139.2) is greater than 90km.
+
+CGZ225 CGS483 6B 79
+Distance (95.5) is greater than 90km.
+
+CGZ795 CFS342A 6B 79
+Distance (123.2) is greater than 90km.
+
+CHG627 CHG628 18A 79
+Licence fields differ between CHG627 and CHG628.
+
+CHG628 CHG627 18A 79
+Licence fields differ between CHG628 and CHG627.
+
+CHG632 VFF756 18A 79
+Licence fields differ between CHG632 and VFF756.
+
+CHL534 CHL535 11B 79
+Distance (105.1) is greater than 90km.
+
+CHL535 CHL534 11B 79
+Distance (105.1) is greater than 90km.
+
+CIH937 CIH938L 7B 79
+Distance (110.9) is greater than 90km.
+
+CIH938L CIH937 7B 79
+Distance (110.9) is greater than 90km.
+
+CIH938L CIJ880L 7B 79
+Distance (105.3) is greater than 90km.
+
+CIJ328 CIJ329 6B 79
+Distance (121.1) is greater than 90km.
+
+CIJ329 CIJ328 6B 79
+Distance (121.1) is greater than 90km.
+
+CIJ880L CIH938L 7B 79
+Distance (105.3) is greater than 90km.
+
+CIN939 CIN938 08A 79
+Licence fields differ between CIN939 and CIN938.
+
+CIN939 CIN940 08A 79
+Licence fields differ between CIN939 and CIN940.
+
+CIN940 CIN939 08A 79
+Licence fields differ between CIN940 and CIN939.
+
+CIO665 VXJ804 08A 79
+Licence fields differ between CIO665 and VXJ804.
+
+CJN30 VBP368 08A 79
+Licence fields differ between CJN30 and VBP368.
+
+CJS797 XOX642 08A 79
+Licence fields differ between CJS797 and XOX642.
+
+CJX482 VEC771 2A 79
+Licence fields differ between CJX482 and VEC771.
+
+CJX543 CJY208 6B 79
+Licence fields differ between CJX543 and CJY208.
+
+CJX558A CJX559 7B 79
+Distance (90.9) is greater than 90km.
+
+CJX559 CJX558A 7B 79
+Distance (90.9) is greater than 90km.
+
+CJX693 VBP651 08A 79
+Licence fields differ between CJX693 and VBP651.
+
+CJX721 XKX583 08A 79
+Licence fields differ between CJX721 and XKX583.
+
+CJX806 XJI52 08A 79
+Licence fields differ between CJX806 and XJI52.
+
+CJX840 XJT33 08A 79
+Licence fields differ between CJX840 and XJT33.
+
+CJY208 CJX543 6B 79
+Licence fields differ between CJY208 and CJX543.
+
+CJY578 CJY579 6B 78
+Licence fields differ between CJY578 and CJY579.
+
+CJY578 CJY579 6B 79
+Licence fields differ between CJY578 and CJY579.
+
+CJY579 CJY578 6B 78
+Licence fields differ between CJY579 and CJY578.
+
+CJY579 CJY578 6B 79
+Licence fields differ between CJY579 and CJY578.
+
+CJZ675 VBT284 6B 79
+Licence fields differ between CJZ675 and VBT284.
+
+CKG700 CKG701 8A 79
+Distance (124.8) is greater than 90km.
+
+CKG701 CKG700 8A 79
+Distance (124.8) is greater than 90km.
+
+CKO944 CGU334 08A 79
+Licence fields differ between CKO944 and CGU334.
+
+CKT200L VYB441 18A 79
+Licence fields differ between CKT200L and VYB441.
+
+CKT695 CKT700 08A 79
+Licence fields differ between CKT695 and CKT700.
+
+CKT700 CKT695 08A 79
+Licence fields differ between CKT700 and CKT695.
+
+CKY231 CKY232 8A 79
+Licence fields differ between CKY231 and CKY232.
+
+CKY232 CKY231 8A 79
+Licence fields differ between CKY232 and CKY231.
+
+CYV694 XOF806K 7B 79
+Distance (111.8) is greater than 90km.
+
+CZL694 CZL695 18A 79
+Licence fields differ between CZL694 and CZL695.
+
+CZL695 CZL694 18A 79
+Licence fields differ between CZL695 and CZL694.
+
+CZV91 VGP211 6B 79
+Distance (150.3) is greater than 90km.
+
+VAN795 CFY204A 08A 79
+Licence fields differ between VAN795 and CFY204A.
+
+VBP368 CJN30 08A 79
+Licence fields differ between VBP368 and CJN30.
+
+VBP651 CJX693 08A 79
+Licence fields differ between VBP651 and CJX693.
+
+VBT284 CJZ675 6B 79
+Licence fields differ between VBT284 and CJZ675.
+
+VCN829 CFY65 08A 79
+Licence fields differ between VCN829 and CFY65.
+
+VDC406 VBA726 08A 79
+Licence fields differ between VDC406 and VBA726.
+
+VDC406 XKQ585 08A 79
+Licence fields differ between VDC406 and XKQ585.
+
+VDH713 CFH545 08A 79
+Licence fields differ between VDH713 and CFH545.
+
+VDK412 XKQ580 08A 79
+Licence fields differ between VDK412 and XKQ580.
+
+VDP234 CGP357 8B 79
+Distance (96.0) is greater than 90km.
+
+VEA904 VEA905 08A 79
+Licence fields differ between VEA904 and VEA905.
+
+VEA905 VEA904 08A 79
+Licence fields differ between VEA905 and VEA904.
+
+VEC771 CJX482 2A 79
+Licence fields differ between VEC771 and CJX482.
+
+VEL209 VEL210 08A 79
+Licence fields differ between VEL209 and VEL210.
+
+VEL210 VEL209 08A 79
+Licence fields differ between VEL210 and VEL209.
+
+VEQ858 VEQ859 08A 79
+Licence fields differ between VEQ858 and VEQ859.
+
+VEQ859 VEQ858 08A 79
+Licence fields differ between VEQ859 and VEQ858.
+
+VFE906 VFE908 08A 79
+Licence fields differ between VFE906 and VFE908.
+
+VFE908 VFE906 08A 79
+Licence fields differ between VFE908 and VFE906.
+
+VFF756 CHG632 18A 79
+Licence fields differ between VFF756 and CHG632.
+
+VFG639 VFG640 18A 79
+Licence fields differ between VFG639 and VFG640.
+
+VFG640 VFG639 18A 79
+Licence fields differ between VFG640 and VFG639.
+
+VGO912 VGO913 8B 79
+Distance (150.3) is greater than 90km.
+
+VGO913 VGO912 8B 79
+Distance (150.3) is greater than 90km.
+
+VGO914 VGP200 8B 79
+Distance (92.9) is greater than 90km.
+
+VGP200 VGO914 8B 79
+Distance (92.9) is greater than 90km.
+
+VGP200 VGP201 8B 79
+Distance (118.4) is greater than 90km.
+
+VGP201 VGP200 8B 79
+Distance (118.4) is greater than 90km.
+
+VGP211 CZV91 6B 79
+Distance (150.3) is greater than 90km.
+
+VYB441 CKT200L 18A 79
+Licence fields differ between VYB441 and CKT200L.
+
+XJ9AKK XJ9AKL 3B 79
+Licence fields differ between XJ9AKK and XJ9AKL.
+
+XJ9AKL XJ9AKK 3B 79
+Licence fields differ between XJ9AKL and XJ9AKK.
+
+XJI52 CJX806 08A 79
+Licence fields differ between XJI52 and CJX806.
+
+XKQ580 VDK412 08A 79
+Licence fields differ between XKQ580 and VDK412.
+
+XKQ585 VDC406 08A 79
+Licence fields differ between XKQ585 and VDC406.
+
+XKX583 CJX721 08A 79
+Licence fields differ between XKX583 and CJX721.
+
+XLA626 XLA717 2A 79
+Distance (123.9) is greater than 90km.
+
+XLA627K XLA733K 2A 79
+Distance (116.5) is greater than 90km.
+
+XLA627L XLA628 2A 79
+Distance (93.6) is greater than 90km.
+
+XLA627L XLA733L 2A 79
+Distance (116.5) is greater than 90km.
+
+XLA628 XLA627L 2A 79
+Distance (93.6) is greater than 90km.
+
+XLA717 XLA626 2A 79
+Distance (123.9) is greater than 90km.
+
+XLA733K XLA627K 2A 79
+Distance (116.5) is greater than 90km.
+
+XLA733L XLA627L 2A 79
+Distance (116.5) is greater than 90km.
+
+XLB546 XOA759 08A 79
+Licence fields differ between XLB546 and XOA759.
+
+XLJ446 CFX69 08A 79
+Licence fields differ between XLJ446 and CFX69.
+
+XOA499L XOJ712L 2A 79
+Distance (203.6) is greater than 90km.
+
+XOA759 XLB546 08A 79
+Licence fields differ between XOA759 and XLB546.
+
+XOD250 %INLB01 6B 79
+Distance (94.9) is greater than 90km.
+
+XOD250 %INLB02 6B 79
+Distance (98.5) is greater than 90km.
+
+XOF551 XOF364 7B 79
+Licence fields differ between XOF551 and XOF364.
+
+XOF806K CYV694 7B 79
+Distance (111.8) is greater than 90km.
+
+XOJ712L XOA499L 2A 79
+Distance (203.6) is greater than 90km.
+
+XOX642 CJS797 08A 79
+Licence fields differ between XOX642 and CJS797.
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 152 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+FtValidate.Main(): ERROR: unhandled Managed Exception:
+mscorlib
+Index was outside the bounds of the array.
+   at System.String.get_Chars(Int32 index)
+   at _Utillib.ValErrs.AddMess(String cFormat, String cKey, String cType, String[] pList)
+   at FtValidate.ValPassive.FindNextStation(String pdfName, FtChan[]& chanArray, Int64[][]& chanNulls, Int32 curChan, Int32 nextChan, Int32& lastChan, Double targetFreq)
+   at FtValidate.ValPassive.FindNextStation(String pdfName, FtChan[]& chanArray, Int64[][]& chanNulls, Int32 curChan, Int32 nextChan, Int32& lastChan, Double targetFreq)
+   at FtValidate.ValPassive.BuildChanArray(String pdfName, FtChan[] chanArray, Int64[][] nullArray, Int32 curChan, Int32& leftEnd, Int32& rightEnd)
+   at FtValidate.ValPassive.FtCalcPassivePwrs(String pdfName, FtChan& curChan, Int64[]& ftChanNulls)
+   at FtValidate.ValChan.ChannelCalculations(String pdfName, FtChan chanLoc, Int64[] nullIndLoc, FtChan chanRem, Int64[] nullIndRem, Int16& warnCount, String keyLine)
+   at FtValidate.ValChan.FtValChanAddTS(FtChan& ftChan, Int64[]& nArrayFW, String pdfName, Int16& errCount, Int16& warnCount, Int16& valLevel, String keyLine)
+   at FtValidate.ValChan.FtValChanTS(String pdfName, Int16& errCount, Int16& warnCount, Int16& valLevel)
+   at FtValidate.FtValidate.Main(String[] args)
+Execution of FtValidate.exe has been terminated.

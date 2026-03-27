@@ -1,0 +1,96 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:08
+Project Code [hulme1_0] Process Id: 652
+
+PDF Name: ftest31
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+XMCWAIK VAN785 10A 10
+Antenna Code (P8-105V) not present in the Antenna Table.
+
+SUMMARY OF ANTENNA RECORDS:  1 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: XMCWAIK VAN785 10A 1000
+AFSLTX1 must be present.
+
+                ----------- WARNINGS -----------
+
+
+Channel: VAN785 XMCWAIK 10A 1000
+Could not read remote channel's Antenna TX1 data.
+
+Channel: XMCWAIK VAN785 10A 1000
+Could not read Antenna RX1 data.
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking VAN785 (HESPELER/BMCE) in proposed file ...
+Checking proposed file Site VAN785 band 10A.
+  Band 10A OK, checking adjacent bands.
+  Adjacent Band 11A OK.
+  Adjacent Band 11B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XMCWAIK (AIKENSVILLE/BMCE) in proposed file ...
+Checking proposed file Site XMCWAIK band 10A.
+  Band 10A OK, checking adjacent bands.
+  Adjacent Band 11A OK.
+  Adjacent Band 11B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VXJ481 (AIKENSVILLE/BMCE) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	VXJ481 to VXJ482 band 11A chid 1001 is first TX HiLo violation.
+	Violation for Band 11A
+	Band 11B
+	Band 11B OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 1 hilo violations.
+
+
+
+There were a total of 2 errors and 2 warnings.
+The PDF 'ftest31' is invalid
+PDF Validation Completed - 16:08

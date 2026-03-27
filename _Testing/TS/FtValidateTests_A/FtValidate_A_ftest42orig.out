@@ -1,0 +1,90 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:40
+Project Code [HULME1_0] Process Id: 12812
+
+PDF Name: ftest42orig
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: CGG371
+
+Site does not exist in MDB
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+CFX96 CGG371 6A 11
+Antenna does not exist in MDB.
+
+CGG371 CFX96 6A 11
+Antenna does not exist in MDB.
+
+SUMMARY OF ANTENNA RECORDS:  2 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: CFX96 CGG371 6A 1001
+Channel does not exist in MDB
+
+Channel: CFX96 CGG371 6A 1002
+Channel does not exist in MDB
+
+Channel: CGG371 CFX96 6A 1001
+Channel does not exist in MDB
+
+Channel: CGG371 CFX96 6A 1002
+Channel does not exist in MDB
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking CFX96 (TIMMINS/ONT) in proposed file ...
+Checking proposed file Site CFX96 band 6A.
+CFX96 to CGG371 band 6A chid 1002 is first RX HiLo violation.
+  Band 6A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking CGG371 (GEARY/ONT) in proposed file ...
+Checking proposed file Site CGG371 band 6A.
+CGG371 to CFX96 band 6A chid 1002 is first TX HiLo violation.
+  Band 6A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+2 Site(s) checked.
+There were 2 hilo violations.
+
+
+
+There were a total of 7 errors and 0 warnings.
+The PDF 'ftest42orig' is invalid
+PDF Validation Completed - 21:40

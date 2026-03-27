@@ -1,0 +1,43 @@
+		SDB TOWER NOTES UPDATE REPORT Build 160705-2101/64-R		Date: 2019.07.08 13:37
+
+SDF Name: test_update
+
+		TOWER NOTES SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/8/2019 1:37:38 PM
+
+
+Tower Note SDF: test_update
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Tower note SDF test_update is valid
+
+SDF Validation completed - 7/8/2019 1:37:38 PM
+
+		SDF TOWER NOTES UPDATE RESULTS
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_update      User Name: hulme1     *****
+
+
+	 Records Processed: 8
+	     Records Added: 0
+	   Records Updated: 8
+	   Records Deleted: 0
+	 Records No Action: 0insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'town', 'test_update', '2019.07.08', '13:37') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\town\test_update.20190708_1337) of changes to the database
+
+
+	************     End of Summary Information     ************

@@ -1,0 +1,63 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-2025/64-R
+RUN DATE: 2020.09.14  20:25
+Project Code [hulme1_0] Process Id: 1312
+
+PDF Name: tstest08a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =TLUSAB1A (SNUFF MTN/TLUSAB) in proposed file ...
+Checking proposed file Site =TLUSAB1A band 08A.
+  Band 08A OK, checking adjacent bands.
+  Adjacent Band 09A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =TLUSAB2A (VALLEYVIEW/TLUSAB) in proposed file ...
+Checking proposed file Site =TLUSAB2A band 08A.
+  Band 08A OK, checking adjacent bands.
+  Adjacent Band 09A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest08a' is validated for :UPDATE:
+
+PDF Validation Completed - 20:25

@@ -1,0 +1,9 @@
+D:\inetpub\micsdev\SQLtoFlat\bin\x86\Release\SQLtoFlat.exe.config
+D:\inetpub\micsdev\SQLtoFlat\bin\x86\Release\SQLtoFlat.exe
+D:\inetpub\micsdev\SQLtoFlat\bin\x86\Release\SQLtoFlat.pdb
+D:\inetpub\micsdev\SQLtoFlat\bin\x86\Release\Microsoft.SQLServer.ManagedDTS.dll
+D:\inetpub\micsdev\SQLtoFlat\bin\x86\Release\Microsoft.SqlServer.PipelineHost.dll
+D:\inetpub\micsdev\SQLtoFlat\obj\x86\Release\SQLtoFlat.csprojResolveAssemblyReference.cache
+D:\inetpub\micsdev\SQLtoFlat\obj\x86\Release\SQLtoFlat.exe
+D:\inetpub\micsdev\SQLtoFlat\obj\x86\Release\SQLtoFlat.pdb
+D:\inetpub\micsdev\SQLtoFlat\bin\x86\Release\Microsoft.SqlServer.Dts.Design.dll

@@ -1,0 +1,135 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:07
+Project Code [HULME1_0] Process Id: 11644
+
+PDF Name: wrngcallnh
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =TLUSMSFX
+Characters following = in call1 must agree with oper code field
+
+                ----------- WARNINGS -----------
+
+
+Site Call: =TLUSMSFX
+Lat & Long for site is the same as for existing site:- 
+	CFW864 BURNABY MTN(SFU) TLUSMC
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  1 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =TLUSMSFX (BURNABY MTN (SFU/TLUSMC) in proposed file ...
+Checking proposed file Site =TLUSMSFX band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFW864 (BURNABY MTN(SFU)/TLUSMC) 
+	Band 14A
+	Band 14A OK
+	Band 14B
+	Band 14B OK
+	Band 14C
+	Band 14C OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CGE813 (VAN CENTER/TLUSMC) in proposed file ...
+Checking proposed file Site CGE813 band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: =GLWVA551 (BVA0551_A/GLW) 
+	Band 14A
+	Band 14A OK
+	Band 14B
+	Band 14B OK
+	Band 14C
+	Band 14C OK
+        Site OK
+
+	Database Site: CGE813 (VAN CENTER/TLUSMC) 
+	Band 14A
+	Band 14A OK
+	Band 14B
+	Band 14B OK
+	Band 14C
+	Band 14C OK
+        Site OK
+
+	Database Site: CHQ568 (VANCOUVER WEST GEORGIA/TLUSMC) 
+	Band 14A
+	Band 14A OK
+	Band 14B
+	Band 14B OK
+	Band 14C
+	Band 14C OK
+        Site OK
+
+	Database Site: VCZ547 (LOWER MAINLAND BC ENG TRANSPORTA/WCTV) 
+	Band 14A
+	Band 14A OK
+	Band 14B
+	Band 14B OK
+	Band 14C
+	VCZ547 to CJZ482 band 14C chid 0541 is first TX HiLo violation.
+	Violation for Band 14C
+        Site Has HiLo violation(s).
+
+	Database Site: VCZ548 (LOWER MAINLAND BC ENG TRANSPORTA/WCTV) 
+	Band 14A
+	Band 14A OK
+	Band 14B
+	Band 14B OK
+	Band 14C
+	VCZ548 to CJZ482 band 14C chid 5417 is first TX HiLo violation.
+	Violation for Band 14C
+        Site Has HiLo violation(s).
+
+There were 5 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 2 hilo violations.
+
+
+
+There were a total of 1 errors and 1 warnings.
+The PDF 'wrngcallnh' is invalid
+PDF Validation Completed - 16:07

@@ -1,0 +1,3169 @@
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 11932
+
+PDF Name: dlat
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %TLUSBCX8
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 26 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 27 warnings.
+The PDF 'dlat' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dlat, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:10
+*
+TT,U,DLAT,,,,
+*##############################################################################
+SK,U,U,%TLUSBCX8,ISHKHEENICKH PAS,55-15-23.18N,129-34-58.49W,347.0,2014.02.07,08:30
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 64.79, At. Loss = 0.67
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,218.47,0.31,41.38,P,198.93,-0.27,58.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,2.2,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-10.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,2.2,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-10.2, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 60.48, At. Loss = 0.41
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,179.39,-0.82,25.21,P,198.93,-0.27,58.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-10.3,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,2.2, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-10.2,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,2.2, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 64.79, At. Loss = 0.67
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,38.14,-0.59,41.38,P,35.04,-5.12,58.8, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,19.2,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-26.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,19.2,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-26.8, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,35.04,-5.12,58.7, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-26.9,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,19.2, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-26.8,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,19.2, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 60.48, At. Loss = 0.41
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,359.40,0.65,25.21,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-46.0, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-46.0, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-45.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-45.7, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 196
+
+PDF Name: dlong
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %TLUSBCX8
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 26 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 27 warnings.
+The PDF 'dlong' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dlong, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:13
+*
+TT,U,DLONG,,NAD83,,
+*##############################################################################
+SK,U,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.25N,129-38-58.49W,347.0,2007.02.02,12:05
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 59.28, At. Loss = 0.35
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,257.93,0.78,21.96,P,338.56,-8.71,50.8, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2007.02.02,12:05
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,8.4,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-13.0, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2007.02.02,12:05
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,8.4,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-12.9, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 46.85, At. Loss = 0.08
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,59.85,-3.54,5.25,P,338.56,-8.71,50.8, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2007.02.02,12:05
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-13.0,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,8.4, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2007.02.02,12:05
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-12.9,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,8.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 59.28, At. Loss = 0.35
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,77.65,-0.92,21.96,P,54.94,-5.73,58.5, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2007.02.02,12:05
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-22.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2007.02.02,12:05
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-22.9, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,54.94,-5.73,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2007.02.02,12:05
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-22.9,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2007.02.02,12:05
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-22.9,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 46.85, At. Loss = 0.08
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,239.91,3.50,5.25,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2007.02.02,12:05
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-42.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2007.02.02,12:05
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-42.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-42.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-42.1, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 11328
+
+PDF Name: dgrnd
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %TLUSBCX8
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 26 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 27 warnings.
+The PDF 'dgrnd' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dgrnd, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:16
+*
+TT,U,DGRND,,,,
+*##############################################################################
+SK,U,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,100.0,2014.02.07,08:30
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,1.17,26.15,P,312.85,-0.39,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.89, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,-1.64,2.64,P,312.85,-0.39,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-1.34,26.15,P,55.92,-6.00,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.7, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.92,-6.00,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-6.8,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-6.7,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 40.89, At. Loss = 0.04
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,185.79,1.62,2.64,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.0, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 13568
+
+PDF Name: dacode
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+%TLUSBCX8 %TLUSBCX9 11A 11
+This Antenna record has been modified since you retrieved it.
+
+%TLUSBCX8 CGF981A 11A 11
+This Antenna record has been modified since you retrieved it.
+
+%TLUSBCX9 %TLUSBCX8 11A 11
+This Antenna record has been modified since you retrieved it.
+
+CGF981A %TLUSBCX8 11A 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 26 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 30 warnings.
+The PDF 'dacode' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dacode, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:18
+*
+TT,U,DACODE,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2014.02.07,08:30
+AQ,TR,30F32FA%,8.0,259.93,0.63,26.15,P,312.58,-5.24,59.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,23.1,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-5.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,23.1,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-5.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2014.02.07,08:30
+AQ,TR,30F32FA%,8.0,5.79,-6.96,2.66,P,312.58,-5.24,59.3, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-5.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,23.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-5.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,23.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2014.02.07,08:30
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-1.0, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-0.9, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-1.0,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-0.9,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2014.02.07,08:30
+AQ,TR,HP12-107C,8.0,185.79,6.94,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-20.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-20.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-20.2, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-20.2, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 4884
+
+PDF Name: dahtv2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Antenna %TLUSBCX8 %TLUSBCX9 11A 11
+Antenna height (999.000000) outside recommended range of 0 to 300m
+
+Antenna %TLUSBCX8 CGF981A 11A 11
+Antenna height (999.000000) outside recommended range of 0 to 300m
+
+%TLUSBCX8 %TLUSBCX9 11A 11
+This Antenna record has been modified since you retrieved it.
+
+%TLUSBCX8 CGF981A 11A 11
+This Antenna record has been modified since you retrieved it.
+
+%TLUSBCX9 %TLUSBCX8 11A 11
+This Antenna record has been modified since you retrieved it.
+
+CGF981A %TLUSBCX8 11A 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 6 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 26 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 32 warnings.
+The PDF 'dahtv2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dahtv2, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:21
+*
+TT,U,DAHTV2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2014.02.07,08:30
+AQ,TR,20F24FB%,999.0,259.93,-1.55,26.16,P,308.70,-22.40,56.7, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,19.4,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,19.4,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.6, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 41.85, At. Loss = 0.05
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2014.02.07,08:30
+AQ,TR,20F24FB%,999.0,5.79,-26.44,2.95,P,308.70,-22.40,56.7, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,19.4, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.6,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,19.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2014.02.07,08:30
+AQ,TR,20F24FB%,7.0,79.60,1.37,26.16,P,55.92,-4.52,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-7.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-7.6, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.92,-4.52,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-7.6,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-7.6,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 41.85, At. Loss = 0.05
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2014.02.07,08:30
+AQ,TR,HP12-107C,8.0,185.79,26.42,2.95,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-27.4, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-27.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.8, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 1020
+
+PDF Name: dtxpwr
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 18 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 18 warnings.
+The PDF 'dtxpwr' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dtxpwr, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:23
+*
+TT,U,DTXPWR,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,-6.96,2.66,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.8, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-6.9,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-6.8,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,185.79,6.94,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 2504
+
+PDF Name: dtxfreq
+
+
+
+                *********** ERRORS ***********
+
+
+%TLUSBCX8->%TLUSBCX9 Band:11A Chid:1001
+MERGE 22 - Must change transmit frequency field at the TX end.
+Power calculations will not be done.
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 %TLUSBCX9 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 %TLUSBCX8 11A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 20 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 20 warnings.
+The PDF 'dtxfreq' is invalid
+PDF Validation Completed - 18:17
+* TS-PDF: dtxfreq, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:25
+*
+TT,N,DTXFREQ,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,-6.96,2.66,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.8, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-6.9,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-6.8,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,185.79,6.94,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 6196
+
+PDF Name: dlata
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: CGF981A
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 20 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 21 warnings.
+The PDF 'dlata' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dlata, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:28
+*
+TT,U,DLATA,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,310.36,-0.31,56.9, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,2.9,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,2.9,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.5, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 58.18, At. Loss = 0.31
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,0.79,-1.02,19.33,P,310.36,-0.31,56.9, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.6,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,2.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.5,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,2.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-24.0, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-24.0, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-24.0,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-24.0,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,CGF981A,GREENVILLE RADIO,55-10-48.23N,129-34-43.49W,25.0,2014.02.07,08:30
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 58.18, At. Loss = 0.31
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,180.79,0.89,19.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-43.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-43.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-43.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-43.2, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 12008
+
+PDF Name: dlonga
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: CGF981A
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 20 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 21 warnings.
+The PDF 'dlonga' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dlonga, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:30
+*
+TT,U,DLONGA,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,292.20,-3.01,58.1, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,20.1,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-7.4, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.1,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-7.3, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 42.66, At. Loss = 0.05
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,324.64,-5.72,3.24,P,292.20,-3.01,58.0, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-7.4,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-7.3,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-5.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-5.6, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-5.6,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-5.6,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-36-43.49W,25.0,2014.02.07,08:30
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 42.66, At. Loss = 0.05
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,144.62,5.69,3.24,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-25.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-25.2, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-24.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-24.8, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 6224
+
+PDF Name: dgrnda
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: CGF981A
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 20 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 21 warnings.
+The PDF 'dgrnda' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dgrnda, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:33
+*
+TT,U,DGRNDA,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,312.62,-4.80,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.94, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,-6.42,2.66,P,312.62,-4.80,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.8, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-6.9,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-6.8,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,50.0,2014.02.07,08:30
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 40.94, At. Loss = 0.04
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,185.79,6.41,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 13604
+
+PDF Name: dacodea
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+CGF981A %TLUSBCX8 11A 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 20 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 21 warnings.
+The PDF 'dacodea' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dacodea, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:35
+*
+TT,U,DACODEA,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,21.4,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,21.4,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,-6.96,2.66,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,21.4, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,21.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-5.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-5.7, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-5.8,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-5.7,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 50.9, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2014.02.07,08:30
+AQ,TR,HP12-122C,8.0,185.79,6.94,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-25.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-25.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-25.0, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-25.0, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 12384
+
+PDF Name: dahta2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Antenna CGF981A %TLUSBCX8 11A 11
+Antenna height (999.000000) outside recommended range of 0 to 300m
+
+CGF981A %TLUSBCX8 11A 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 20 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 22 warnings.
+The PDF 'dahta2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dahta2, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:38
+*
+TT,U,DAHTA2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,311.69,12.18,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,20.1,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.1,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 41.16, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,14.20,2.73,P,311.69,12.18,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2014.02.07,08:30
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2014.02.07,08:30
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-7.0, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-7.0, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-7.0,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-7.0,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 41.16, At. Loss = 0.04
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2014.02.07,08:30
+AQ,TR,HP12-107C,999.0,185.79,-14.22,2.73,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2014.02.07,08:30
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.2, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 9064
+
+PDF Name: drxfslav2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 9 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 9 warnings.
+The PDF 'drxfslav2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: drxfslav2, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:40
+*
+TT,U,DRXFSLAV2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,N,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,-6.96,2.66,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,N,U,%TLUSBCX8,CGF981A,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,N,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.8, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-6.9,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,N,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-6.8,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 40.95, At. Loss = 0.04
+AK,N,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,185.79,6.94,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,3.5,-27.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,N,U,CGF981A,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,N,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,N,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 12872
+
+PDF Name: dtxfslav2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 17 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 17 warnings.
+The PDF 'dtxfslav2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dtxfslav2, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:42
+*
+TT,U,DTXFSLAV2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,19.1,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,-6.96,2.66,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,19.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.8, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-8.1,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-6.8,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,185.79,6.94,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,3.5, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-27.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 13636
+
+PDF Name: dtxpwrav2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 17 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 17 warnings.
+The PDF 'dtxpwrav2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dtxpwrav2, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:44
+*
+TT,U,DTXPWRAV2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,17.3,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,-6.96,2.66,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,17.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX8,CGF981A,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-9.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.8, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-9.9,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-6.8,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,185.79,6.94,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,35.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,U,U,CGF981A,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-29.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,U,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:17
+Project Code [FMDA20] Process Id: 13892
+
+PDF Name: dtxfreqav2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 9 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 9 warnings.
+The PDF 'dtxfreqav2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:17
+* TS-PDF: dtxfreqav2, By FtPrint (190619-1555/64-R) at 2019.06.20 18:17:46
+*
+TT,U,DTXFREQAV2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2019.06.20,18:11
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  LANDSLIP 5  ====== Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX8,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.13, Rx=80.62
+CK,U,U,%TLUSBCX8,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,2,1,11385000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,N,U,%TLUSBCX8,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.04
+AK,U,U,%TLUSBCX8,CGF981A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,8.0,5.79,-6.96,2.66,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.13
+CK,U,U,%TLUSBCX8,CGF981A,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11385000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,N,U,%TLUSBCX8,CGF981A,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,U,U,%TLUSBCX9,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.13
+CK,U,U,%TLUSBCX9,%TLUSBCX8,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11385000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,N,U,%TLUSBCX9,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.8, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,%TLUSBCX9,CGF983A,11A,11,2019.06.20,18:11
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.13, Rx=80.62
+CK,U,U,%TLUSBCX9,CGF983A,11A,1001,2019.06.20,18:11
+CT,06,2,1,11385000.00,V,11, , , ,11G905,A,-6.7,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,N,U,%TLUSBCX9,CGF983A,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-6.8,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 49.8, Dist Loss = 40.95, At. Loss = 0.04
+AK,N,U,CGF981A,%TLUSBCX8,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,8.0,185.79,6.94,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.13, Rx=80.62
+CK,U,U,CGF981A,%TLUSBCX8,11A,1001,2014.02.07,08:30
+CT,06,2,1,11385000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,N,U,CGF981A,%TLUSBCX8,11A,1002,2019.06.20,18:11
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2019.06.20,18:11
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  LANDSLIP 5  ====== Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,U,U,CGF983A,%TLUSBCX9,11A,11,2019.06.20,18:11
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.13
+CK,U,U,CGF983A,%TLUSBCX9,11A,1001,2019.06.20,18:11
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11385000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.0, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,N,U,CGF983A,%TLUSBCX9,11A,1002,2019.06.20,18:11
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,

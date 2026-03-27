@@ -1,0 +1,124 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:10
+Project Code [HULME1_0] Process Id: 20328
+
+PDF Name: ftest46
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: CFX24 VEK982 6D 1001
+Hop Number (100) must be between 1 and 99.
+Route 100 not defined for operator ONT.
+Frequency (6445000.00) does not agree with the Plan, hiLo, VH combination.
+
+                ----------- WARNINGS -----------
+
+
+Channel: CFX24 VEK982 6D 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: VEK982 CFX24 6D 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  3 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking CFX24 (OTTER RPDS/ONT) in proposed file ...
+Checking proposed file Site CFX24 band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFX24 (OTTER RPDS/ONT) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VEK982 (SMOKY FALLS/ONT) in proposed file ...
+Checking proposed file Site VEK982 band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VEK982 (SMOKY FALLS/ONT) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 3 errors and 2 warnings.
+The PDF 'ftest46' is invalid
+PDF Validation Completed - 16:10

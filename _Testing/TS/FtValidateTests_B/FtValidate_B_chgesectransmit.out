@@ -1,0 +1,97 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2133/64-R
+RUN DATE: 2020.09.09  21:36
+Project Code [hulme1_0] Process Id: 24744
+
+PDF Name: chgesectransmit
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: VEL986
+
+Site does not exist in MDB
+
+                ----------- WARNINGS -----------
+
+
+Site Call: VFC443
+Could not set bandword
+
+SUMMARY OF SITE RECORDS:  1 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+VEL986 VFC443 14 20
+Antenna to update does not exist in MDB
+
+VEL986 VFC443 14 21
+Antenna to update does not exist in MDB
+
+VEL986 VFC443 14 22
+Antenna to update does not exist in MDB
+
+VFC443 VEL986 14 22
+Antenna to update does not exist in MDB
+
+VFC443 VEL986 14 23
+Antenna to update does not exist in MDB
+
+VFC443 VEL986 14 24
+Antenna to update does not exist in MDB
+
+SUMMARY OF ANTENNA RECORDS:  6 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: VEL986 VFC443 14 A5
+Channel does not exist in MDB.
+
+Channel: VFC443 VEL986 14 A5
+Channel does not exist in MDB.
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking VEL986 (PETITOT/NMIMOB) in proposed file ...
+Could not retrieve Band 14
+
+---------------------------
+
+
+Checking VFC443 (WILDBOY/BMCE) in proposed file ...
+Could not retrieve Band 14
+
+---------------------------
+
+2 Site(s) checked.
+WARNING - There were hilo processing errors in the file.
+
+
+
+There were a total of 9 errors and 1 warnings.
+The PDF 'chgesectransmit' is invalid
+PDF Validation Completed - 21:36

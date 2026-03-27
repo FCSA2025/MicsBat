@@ -1,0 +1,73 @@
+﻿//======= Call Signs Referenced (GK and/or CK) but not SK added ========
+$BCTV019
+$BCTV300
+%BCHYCOMS
+=RCTL0713
+=RCTL083
+=TLUSMCFR
+=TLUSMCFY
+=TLUSMCZ2
+CFA717
+CFA718
+CFX24
+CGD091
+CGE813
+CGG418
+DJDJB
+DJDJD
+DJDJDV
+DJDJDVI
+DJDJH
+DJDKD
+DJUJD
+DODJD
+PJDJD
+VEK982
+VFF950
+VXJ495
+WLA5703
+XOJ710
+XOJ711
+XOJ713
+
+//======= Manually Added ==========
+
+//===== sadd.txt
+CFS341
+CFX614
+CGA276
+%TLUSBC11
+XOA699
+
+//===== regadd.txt
+CHK306
+
+//===== owsadd.txt
+XNR43
+%INLB02
+
+//=====regadddvant.txt
+VBB567
+XOJ737
+
+// testelevadddb.txt
+VAM878
+
+// chgelong.txt
+//=TLUSMCR2
+//=TLUSMCZZ
+
+// chgelat.txt
+//VEB444
+
+//---------------- Batch: tsUpdatesDEL_AH.cmd ------------------------
+//---------------- PDF:   testelevadddb.txt   ------------------------
+//CGJ846X
+CGJ846
+CHK285
+VAM878
+//VAM878X
+
+//---------------- Batch: newOtherTests_AH.cmd -----------------------
+//---------------- PDF:   wrngcallnh.txt       -----------------------
+CFW864

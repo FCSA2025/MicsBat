@@ -1,0 +1,164 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2133/64-R
+RUN DATE: 2020.09.09  21:42
+Project Code [hulme1_0] Process Id: 8380
+
+PDF Name: orighop
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =TLUSMCR2
+
+tSite does not exist in MDB
+
+                ----------- WARNINGS -----------
+
+
+KEY: =TLUSMCZ2
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  1 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=TLUSMCR2 =TLUSMCZ2 14C 1
+Antenna to update does not exist in MDB
+
+=TLUSMCR2 =TLUSMCZ2 14C 2
+Antenna to update does not exist in MDB
+
+=TLUSMCZ2 =TLUSMCR2 14C 1
+Antenna to update does not exist in MDB
+
+=TLUSMCZ2 =TLUSMCR2 14C 2
+Antenna to update does not exist in MDB
+
+                ----------- WARNINGS -----------
+
+
+=TLUSMCZ2 CHK621 8A 21
+Distance (655.4) is greater than 90km.
+
+CHK621 =TLUSMCZ2 8A 21
+Distance (655.4) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =TLUSMCR2 =TLUSMCZ2 14C 1
+Channel does not exist in MDB.
+
+Channel: =TLUSMCR2 =TLUSMCZ2 14C 2
+Channel does not exist in MDB.
+
+Channel: =TLUSMCZ2 =TLUSMCR2 14C 1
+Channel does not exist in MDB.
+
+Channel: =TLUSMCZ2 =TLUSMCR2 14C 2
+Channel does not exist in MDB.
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =TLUSMCR2 (BC418/TLUSMC) in proposed file ...
+Checking proposed file Site =TLUSMCR2 band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =TLUSMCZ2 (BC009/TLUSMC) in proposed file ...
+Checking proposed file Site =TLUSMCZ2 band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHK306 (BVA0055_A/GLW) 
+	Band 14A
+	Band 14A OK
+	Band 14B
+	Band 14B OK
+	Band 14C
+	Band 14C OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site =TLUSMCZ2 band 8A.
+  Band 8A OK, checking adjacent bands.
+  Adjacent Band 7B OK.
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHK306 (BVA0055_A/GLW) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CHK621 (HIGH RIVER CNET(AB0481)/TLUSMC) in proposed file ...
+Checking proposed file Site CHK621 band 8A.
+  Band 8A OK, checking adjacent bands.
+  Adjacent Band 7B OK.
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHK621 (HIGH RIVER CNET(AB0481)/TLUSMC) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 9 errors and 3 warnings.
+The PDF 'orighop' is invalid
+PDF Validation Completed - 21:42

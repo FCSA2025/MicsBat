@@ -1,0 +1,1329 @@
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   1
+                    Proposed as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+ 
+          === FROM PROPOSED FILE AS INTERFERER ===
+ 
+=D12783A1 LONDON                           D12783 42-55-22.00  081-11-58.70   262
+=D12783A2 LONDON                           D12783 42-55-22.00  081-11-58.70   262
+=D12783A3 LONDON                           D12783 42-55-22.00  081-11-58.70   262
+ 
+ 
+          === FROM ENVIRONMENT FILE AS VICTIM ===
+ 
+CGS344    BPGG1                            TERAGO 43-50-48.00  079-21-45.00    10
+CGS479    125 EAST BEAVER CREEK RD         TERAGO 43-51-04.24  079-22-40.98    12
+ 
+5 Records.
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   1
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+ 
+          === FROM PROPOSED FILE AS VICTIM ===
+ 
+=D12783A1 LONDON                           D12783 42-55-22.00  081-11-58.70   262
+=D12783A2 LONDON                           D12783 42-55-22.00  081-11-58.70   262
+=D12783A3 LONDON                           D12783 42-55-22.00  081-11-58.70   262
+ 
+ 
+          === FROM ENVIRONMENT FILE AS INTERFERER ===
+ 
+;A0801403 2734                             A08014 40-25-20.20  080-03-51.10   363
+;A0801404 1434                             A08014 40-25-20.20  080-03-51.10   363
+=BMCE3725 MURRAY ST                        BMCE   42-34-10.70  082-22-33.32   175
+=BMCE5218 FOUR MILE CREEK                  BMCE   43-11-31.40  079-06-06.60    95
+=BMCE5219 NIAGARA STONE RD                 BMCE   43-11-14.60  079-09-21.60    96
+=BMCEDT   DETROIT RPL                      BMCE   42-20-13.15  083-01-39.72   178
+=GLWB1561 OBF1561                          GLW    43-08-28.83  080-15-35.69   207
+=GLWB1562 OBF1562                          GLW    43-10-22.48  080-14-55.53   224
+=GLWB1564 OBF1564                          GLW    43-10-34.02  080-19-28.53   251
+=GLWB1565 OBF1565                          GLW    43-07-51.70  080-18-36.30   241
+=GLWL1601 OLO1601_A                        GLW    42-58-58.08  081-14-58.20   254
+=GLWL1602 OLO1602_B                        GLW    42-59-05.26  081-14-16.46   256
+=GLWL1603 OLO1603                          GLW    42-58-22.88  081-14-50.09   252
+=GLWL1605 OLO1605_D                        GLW    43-00-40.55  081-15-52.20   247
+=GLWL1610 OLO1610                          GLW    42-56-42.18  081-17-21.40   283
+=GLWL1611 OLO1611                          GLW    42-57-22.65  081-15-47.50   270
+=GLWL1612 OLO1612_A                        GLW    42-58-57.48  081-16-04.73   245
+=GLWL1617 OLO1617                          GLW    42-57-00.28  081-13-59.70   282
+=GLWL1622 OLO1622                          GLW    42-56-28.82  081-08-02.51   270
+=GLWL1626 OLO1626_A                        GLW    42-58-15.60  081-12-23.40   250
+=GLWL1628 OLO1628_B                        GLW    42-59-14.86  081-13-20.50   256
+=GLWL1630 OLO1630_B                        GLW    43-00-12.23  081-12-52.79   273
+=GLWL1632 OLO1632_A                        GLW    43-00-52.96  081-14-29.44   252
+=GLWL1634 OLO1634_C                        GLW    43-00-37.59  081-11-55.12   270
+=GLWL1639 OLO1639_A                        GLW    42-59-46.52  081-11-47.76   273
+=GLWL1640 OLO1640                          GLW    42-54-20.58  081-17-58.40   263
+=GLWL1642 OLO1642                          GLW    42-57-54.16  081-17-20.50   256
+=GLWL1647 OLO1647                          GLW    42-59-42.98  081-17-50.13   280
+=GLWL1653 OLO1653_B                        GLW    43-02-09.05  081-15-16.66   258
+=GLWL1654 OLO1654                          GLW    42-51-34.09  081-11-59.10   261
+=GLWL1658 OLO1658_A                        GLW    42-47-40.88  081-10-00.48   235
+=GLWL1664 OLO1664                          GLW    42-45-55.30  081-11-59.10   229
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   2
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=GLWL1667 OLO1667                          GLW    42-54-14.75  081-14-30.08   259
+=GLWL607  OLO1607_H                        GLW    42-59-09.68  081-17-40.82   256
+=GLWO1623 OLO1623_B                        GLW    43-00-09.43  081-08-49.96   267
+=GLWO1624 OLO1624_B                        GLW    43-01-25.38  081-09-53.12   271
+=GLWOB503 OBA1503                          GLW    44-23-24.00  079-32-38.40   240
+=GLWOB505 OBA1505                          GLW    44-21-13.06  079-38-39.08   255
+=GLWOB507 OBA1507                          GLW    44-19-49.48  079-40-58.50   291
+=GLWOB510 OBA1510                          GLW    44-23-10.36  079-42-34.65   240
+=GLWOB511 OBA1511                          GLW    44-23-27.05  079-44-02.05   305
+=GLWOB512 OBA1512                          GLW    44-23-28.96  079-41-50.84   242
+=GLWOB516 OBA1516                          GLW    44-24-36.46  079-40-26.18   280
+=GLWOB517 OBA1517                          GLW    44-26-05.46  079-43-57.54   236
+=GLWOB518 OBA1518                          GLW    44-23-44.76  079-39-21.58   247
+=GLWOB519 OBA1519                          GLW    44-22-40.44  079-42-09.14   224
+=GLWOB520 OBA1520                          GLW    44-22-32.90  079-45-44.59   287
+=GLWOB522 OBA1522                          GLW    44-18-18.72  079-51-59.76   202
+=GLWOB523 OBA1523                          GLW    44-24-14.76  079-42-24.28   291
+=GLWOB524 OBA1524                          GLW    44-19-20.38  079-34-49.06    48
+=GLWOB525 OBA1525_A                        GLW    44-15-13.25  079-36-10.04   296
+=GLWOB526 OBA1526                          GLW    44-10-27.72  079-35-31.48   286
+=GLWOB527 OBA1527                          GLW    44-06-44.54  079-30-56.30    48
+=GLWOB529 OBA1529                          GLW    44-14-39.40  079-28-11.86   244
+=GLWOB533 OBA1533                          GLW    44-06-58.90  079-26-20.00    47
+=GLWOB534 OBA1534                          GLW    44-17-32.86  079-40-36.00   298
+=GLWOB536 OBA1536_A                        GLW    44-11-29.88  079-41-31.21   273
+=GLWOB539 OBA1539                          GLW    44-06-41.08  079-38-07.58   254
+=GLWOB541 OBA1541                          GLW    44-06-44.63  079-34-22.71   256
+=GLWOB542 OBA1542                          GLW    44-17-41.21  079-32-13.80    37
+=GLWOB543 OBA1543                          GLW    44-11-28.16  079-27-45.71   233
+=GLWOB544 OBA1544                          GLW    44-10-12.10  079-46-05.10   290
+=GLWOB545 OBA1545                          GLW    44-19-16.87  079-44-15.09   284
+=GLWOB547 OBA1547                          GLW    44-21-41.32  079-35-18.41    55
+=GLWOB566 OBA1566                          GLW    44-06-00.95  079-34-21.64    20
+=GLWOB950 OBA1950                          GLW    44-22-16.16  079-40-12.88   233
+=GLWOCO06 OCO3406                          GLW    43-57-43.86  078-09-25.06    20
+=GLWOCO07 OCO3407                          GLW    44-01-33.01  078-08-11.70    55
+=GLWOCO18 OCO3418                          GLW    43-58-02.14  078-17-13.92   116
+=GLWOCO19 OCO3419                          GLW    43-57-44.39  078-10-44.69    86
+=GLWOCO20 OCO3420                          GLW    43-58-55.95  078-10-40.77   100
+=GLWOK401 OKT1401                          GLW    43-28-17.38  080-32-03.47   345
+=GLWOK402 OKT1402                          GLW    43-27-42.68  080-32-01.17   330
+=GLWOK404 OKT1404                          GLW    43-27-18.48  080-30-55.25   300
+=GLWOK406 OKT1406                          GLW    43-26-23.98  080-31-20.45   352
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   3
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=GLWOK407 OKT1407                          GLW    43-26-07.98  080-30-13.75   339
+=GLWOK408 OKT1408                          GLW    43-27-04.48  080-29-14.27   248
+=GLWOK412 OKT1412                          GLW    43-25-47.18  080-27-56.87   330
+=GLWOK413 OKT1413                          GLW    43-25-17.48  080-30-02.48   352
+=GLWOK414 OKT1414                          GLW    43-25-31.06  080-26-24.84   331
+=GLWOK417 OKT1417                          GLW    43-23-23.46  080-24-08.68   295
+=GLWOK418 OKT1418                          GLW    43-24-08.33  080-32-04.36   384
+=GLWOK420 OKT1420                          GLW    43-25-33.08  080-33-47.67   380
+=GLWOK421 OKT1421                          GLW    43-27-08.18  080-33-39.70   360
+=GLWOK422 OKT1422                          GLW    43-28-33.10  080-36-28.90    45
+=GLWOK423 OKT1423                          GLW    43-28-16.78  080-30-43.35   330
+=GLWOK424 OKT1424                          GLW    43-27-51.48  080-29-46.75   350
+=GLWOK425 OKT1425                          GLW    43-28-42.98  080-31-23.70   330
+=GLWOK426 OKT1426                          GLW    43-29-54.56  080-32-07.06    30
+=GLWOK428 OKT1428                          GLW    43-30-47.06  080-31-10.01    40
+=GLWOK430 OKT1430                          GLW    43-29-49.20  080-29-17.83    22
+=GLWOK436 OKT1436                          GLW    43-35-07.20  080-12-45.50    40
+=GLWOK439 OKT1439                          GLW    43-25-02.48  080-18-25.47   325
+=GLWOK443 OKT1443                          GLW    43-28-02.70  080-24-30.40    33
+=GLWOK444 OKT1444                          GLW    43-29-11.08  080-32-47.70   150
+=GLWOK445 OKT1445                          GLW    43-24-11.30  080-28-28.25    40
+=GLWOK447 OKT1447                          GLW    43-25-13.57  080-23-05.53   312
+=GLWOK448 OKT1448                          GLW    43-23-33.50  080-21-05.48   283
+=GLWOK450 OKT1450                          GLW    43-23-35.58  080-18-51.57   305
+=GLWOK451 OKT1451                          GLW    43-21-49.98  080-18-45.87   278
+=GLWOK453 OKT1453                          GLW    43-20-10.38  080-17-15.87   321
+=GLWOK454 OKT1454                          GLW    43-27-26.78  080-18-32.51    31
+=GLWOK455 OKT1455                          GLW    43-22-58.58  080-19-13.17   300
+=GLWOK456 OKT1456                          GLW    43-26-41.05  080-27-37.35   330
+=GLWOK459 OKT1459_B                        GLW    43-24-53.65  080-21-09.70   294
+=GLWOK462 OKT1462                          GLW    43-26-20.38  080-15-20.67   320
+=GLWOK463 OKT1463                          GLW    43-18-01.54  080-07-45.21    35
+=GLWOK465 OKT1465                          GLW    43-32-44.95  080-15-06.65   330
+=GLWOK468 OKT1468                          GLW    43-33-45.58  080-12-22.65   331
+=GLWOK469 OKT1469                          GLW    43-34-37.69  080-15-34.65   355
+=GLWOK471 OKT1471                          GLW    43-33-23.78  080-16-18.87   335
+=GLWOK473 OKT1473                          GLW    43-32-47.04  080-18-23.40    28
+=GLWOK474 OKT1474                          GLW    43-32-01.69  080-17-12.35   340
+=GLWOK475 OKT1475                          GLW    43-31-01.99  080-16-13.25   330
+=GLWOK478 OKT1478                          GLW    43-31-32.55  080-13-27.15   340
+=GLWOK480 OKT1480                          GLW    43-37-47.10  080-08-45.72   386
+=GLWOK481 OKT1481                          GLW    43-37-40.00  080-05-23.82   361
+=GLWOK482 OKT1482                          GLW    43-37-55.33  080-02-07.89   354
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   4
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=GLWOK485 OKT1485                          GLW    43-34-29.14  079-57-39.89    20
+=GLWOK486 OKT1486                          GLW    43-31-59.45  079-54-31.59   210
+=GLWOK491 OKT1491                          GLW    43-20-13.48  080-10-56.47   256
+=GLWOK493 OKT1493                          GLW    43-16-43.07  080-03-50.09    45
+=GLWOL161 OLO1616                          GLW    43-02-10.85  081-17-35.96    25
+=GLWOL610 OLO1610                          GLW    42-56-42.17  081-17-21.43   282
+=GLWOL633 OLO1633                          GLW    43-00-54.75  081-13-16.90   261
+=GLWOL637 OLO1637                          GLW    42-58-55.60  081-09-11.06   260
+=GLWOL645 OLO1645                          GLW    43-00-25.09  081-20-15.00   273
+=GLWOL646 OLO1646                          GLW    42-58-28.92  081-19-09.84   272
+=GLWOL670 OLO1670                          GLW    42-58-19.20  081-03-06.78    42
+=GLWOL673 OLO1673                          GLW    42-59-08.07  080-54-55.05    65
+=GLWOL675 OLO1675                          GLW    43-02-51.20  080-52-40.79    52
+=GLWOL677 OLO1677                          GLW    43-01-21.76  080-51-04.18    74
+=GLWOL678 OLO1678                          GLW    43-06-29.43  080-44-46.97    30
+=GLWOL680 OLO1680                          GLW    43-07-52.07  080-44-19.28   313
+=GLWOL685 OLO1685                          GLW    43-12-04.38  080-37-59.96    78
+=GLWOL686 OLO1686                          GLW    43-14-16.95  080-34-36.00    73
+=GLWOL691 OLO1691                          GLW    43-03-07.85  081-13-55.61    50
+=GLWOP702 OPB1702                          GLW    44-16-10.83  078-20-13.22   190
+=GLWOP703 OPB1703                          GLW    44-16-53.66  078-20-17.09   196
+=GLWOP704 OPB1704                          GLW    44-17-13.48  078-20-54.69   204
+=GLWOP707 OPB1707                          GLW    44-20-02.53  078-19-23.54    29
+=GLWOP708 OPB1708                          GLW    44-22-09.09  078-17-45.93   237
+=GLWOP713 OPB1713                          GLW    44-16-27.90  078-19-08.10    43
+=GLWOP714 OPB1714                          GLW    44-19-53.04  078-20-26.00   271
+=GLWOP715 OPB1715                          GLW    44-17-25.50  078-22-10.01   285
+=GLWOP719 OPB1719                          GLW    44-17-37.21  078-19-11.18    41
+=GLWOP721 OPB1721                          GLW    44-17-58.52  078-20-51.35   235
+=GLWOP722 OPB1722                          GLW    44-18-39.43  078-20-31.28   233
+=GLWOP723 OPB1723                          GLW    44-18-26.71  078-19-20.47   205
+=GLWOP725 OPB1725                          GLW    43-58-09.82  078-36-31.69   150
+=GLWOP726 OPB1726                          GLW    44-02-07.69  078-36-53.82   290
+=GLWOP729 OPB1729                          GLW    44-10-34.78  078-27-19.01   244
+=GLWOP731 OPB1731                          GLW    44-13-53.29  078-23-26.67   200
+=GLWOP950 OPB1950                          GLW    44-16-30.53  078-20-28.41   192
+=GLWOS301 OSC1301                          GLW    42-54-15.66  078-55-08.25   190
+=GLWOS304 OSC1304                          GLW    42-55-28.14  078-58-07.58    50
+=GLWOS305 OSC1305                          GLW    42-54-14.06  079-03-12.97   180
+=GLWOS306 OSC1306                          GLW    42-53-13.10  079-00-44.30    40
+=GLWOS308 OSC1308                          GLW    42-53-58.16  079-10-32.07   182
+=GLWOS309 OSC1309                          GLW    43-09-23.12  079-12-48.26    25
+=GLWOS311 OSC1311                          GLW    42-53-08.48  078-57-07.60   190
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   5
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=GLWOS312 OSC1312                          GLW    43-10-59.02  079-28-29.46    35
+=GLWOS313 OSC1313                          GLW    43-10-56.00  079-21-56.88    30
+=GLWOS314 OSC1314                          GLW    43-12-46.88  079-38-16.44    23
+=GLWOS315 OSC1315                          GLW    43-11-51.00  079-34-16.68    96
+=GLWOS317 OSC1317                          GLW    43-04-41.96  079-04-56.55   205
+=GLWOS319 OSC1319                          GLW    43-06-22.36  079-03-52.95   180
+=GLWOS320 OSC1320                          GLW    43-06-57.66  079-05-58.56   200
+=GLWOS321 OSC1321                          GLW    43-05-19.56  079-05-55.56   215
+=GLWOS322 OSC1322                          GLW    43-04-13.55  079-07-53.33   180
+=GLWOS323 OSC1323                          GLW    43-05-40.04  079-08-17.00    31
+=GLWOS326 OSC1326                          GLW    43-06-17.28  079-05-15.65    15
+=GLWOS329 OSC1329                          GLW    42-57-04.00  079-00-13.80    45
+=GLWOS332 OSC1332                          GLW    43-09-20.85  079-02-58.93   172
+=GLWOS333 OSC1333                          GLW    43-12-55.76  079-07-39.37    95
+=GLWOS335 OSC1335                          GLW    43-14-51.46  079-05-19.27    90
+=GLWOS337 OSC1337                          GLW    42-53-14.96  079-15-22.86    30
+=GLWOS338 OSC1338                          GLW    42-53-27.66  079-16-40.27   180
+=GLWOS341 OSC1341                          GLW    42-55-59.16  079-15-22.06   178
+=GLWOS342 OSC1342                          GLW    43-12-38.46  079-13-36.41    90
+=GLWOS343 OSC1343                          GLW    43-10-07.99  079-16-14.16   105
+=GLWOS346 OSC1346                          GLW    43-07-52.86  079-13-24.07   135
+=GLWOS351 OSC1351                          GLW    43-09-51.76  079-13-38.91   115
+=GLWOS352 OSC1352                          GLW    43-10-42.06  079-12-57.37   106
+=GLWOS357 OSC1357                          GLW    43-07-21.56  079-12-00.47   175
+=GLWOS359 OSC1359                          GLW    43-03-48.66  079-13-58.46   190
+=GLWOS362 OSC1362                          GLW    42-59-08.96  079-15-20.37   180
+=GLWOS364 OSC1364                          GLW    42-49-09.38  079-14-23.59   300
+=GLWOS368 OSC1368                          GLW    43-00-09.06  079-16-15.27   185
+=GLWOS370 OSC1370                          GLW    43-01-05.56  079-14-54.77   185
+=GLWOS374 OSC1374                          GLW    43-08-31.06  079-14-12.37   115
+=GLWOS375 OSC1375                          GLW    43-09-41.16  079-09-45.87   116
+=GLWOS377 OSC1377                          GLW    42-53-29.56  079-07-01.98   190
+=GLWOS378 OSC1378                          GLW    42-56-52.26  079-12-03.97   180
+=GLWOS380 OSC1380                          GLW    43-08-26.66  079-05-19.55   190
+=GLWOS385 OSC1385                          GLW    43-08-01.17  079-07-59.94    40
+=GLWOS386 OSC1386                          GLW    43-09-22.45  079-06-27.50    38
+=GLWOT024 OTR0024                          GLW    43-38-04.00  079-25-44.00    88
+=GLWOT028 OTR0028                          GLW    43-15-44.28  079-57-24.12   100
+=GLWOT069 OTR0069                          GLW    43-15-57.20  079-47-29.76    73
+=GLWOT077 OTR0077                          GLW    43-13-19.80  079-46-45.70   107
+=GLWOT082 OTR0082                          GLW    43-39-40.61  079-46-24.35   214
+=GLWOT087 OTR0087                          GLW    43-42-04.42  079-45-29.52   232
+=GLWOT113 OTR0113                          GLW    43-25-59.58  079-42-17.56   110
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   6
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=GLWOT125 OTR0125                          GLW    43-26-37.03  079-41-48.93   107
+=GLWOT130 OTR0130                          GLW    43-13-32.70  079-41-21.84    83
+=GLWOT170 OTR0170                          GLW    43-40-39.50  079-38-09.40   170
+=GLWOT175 OTR0175                          GLW    43-32-52.08  079-37-04.21   100
+=GLWOT184 OTR0184                          GLW    43-47-20.21  079-36-04.24   169
+=GLWOT202 OTR0202                          GLW    43-47-15.54  079-33-16.96   190
+=GLWOT207 OTR0207                          GLW    43-37-30.03  079-33-29.27   101
+=GLWOT208 OTR0208                          GLW    43-45-01.84  079-33-30.53   150
+=GLWOT211 OTR0211                          GLW    43-36-35.03  079-33-02.51   110
+=GLWOT212 OTR0212                          GLW    43-35-37.00  079-32-10.00    87
+=GLWOT228 OTR0228                          GLW    43-48-02.49  079-31-38.67   205
+=GLWOT229 OTR0229                          GLW    43-37-24.96  079-30-59.05   110
+=GLWOT235 OTR0235                          GLW    43-39-48.20  079-31-12.61   126
+=GLWOT240 OTR0240                          GLW    43-48-09.32  079-30-03.18   205
+=GLWOT243 OTR0243                          GLW    43-40-41.88  079-29-46.73   118
+=GLWOT244 OTR0244                          GLW    43-38-18.78  079-30-30.85   106
+=GLWOT250 OTR0250                          GLW    43-51-33.01  079-28-56.64   224
+=GLWOT251 OTR0251                          GLW    43-43-29.14  079-29-38.44   160
+=GLWOT255 OTR0255                          GLW    43-38-57.08  079-29-01.43   110
+=GLWOT256 OTR0256                          GLW    43-39-54.67  079-28-44.03   121
+=GLWOT263 OTR0263                          GLW    43-08-26.05  079-55-13.80   219
+=GLWOT264 OTR0264                          GLW    43-40-55.56  079-28-18.12   123
+=GLWOT289 OTR0289                          GLW    44-03-38.48  079-25-15.76   281
+=GLWOT293 OTR0293                          GLW    43-43-19.67  079-25-53.08   180
+=GLWOT303 OTR0303                          GLW    44-00-45.87  079-24-28.53   305
+=GLWOT304 OTR0304                          GLW    43-44-00.45  079-24-13.95   170
+=GLWOT309 OTR0309                          GLW    43-42-35.74  079-23-54.24   162
+=GLWOT314 OTR0314                          GLW    43-52-29.27  079-23-20.79   210
+=GLWOT321 OTR0321                          GLW    43-47-24.90  079-22-12.36   150
+=GLWOT325 OTR0325                          GLW    43-44-02.30  079-20-55.70   150
+=GLWOT326 OTR0326                          GLW    43-42-02.00  079-20-35.01   142
+=GLWOT327 OTR0327                          GLW    43-53-01.96  079-21-30.47   204
+=GLWOT341 OTR0341                          GLW    43-39-57.24  079-18-57.02    78
+=GLWOT345 OTR0345                          GLW    43-47-44.20  079-18-50.44   178
+=GLWOT354 OTR0354                          GLW    43-56-26.09  079-17-58.20   226
+=GLWOT359 OTR0359                          GLW    43-52-35.76  079-15-43.47   184
+=GLWOT360 OTR0360                          GLW    43-45-45.54  079-16-16.39   160
+=GLWOT366 OTR0366                          GLW    43-46-28.61  079-15-23.87   173
+=GLWOT367 OTR0367                          GLW    43-51-12.20  079-15-04.68   178
+=GLWOT371 OTR0371                          GLW    43-44-27.67  079-14-29.91   159
+=GLWOT381 OTR0381                          GLW    43-46-01.21  079-11-19.26   126
+=GLWOT383 OTR0383                          GLW    43-50-12.43  079-08-42.99   139
+=GLWOT386 OTR0386                          GLW    43-51-18.08  079-07-08.70   142
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   7
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=GLWOT389 OTR0389                          GLW    43-49-27.23  079-04-05.52    84
+=GLWOT391 OTR0391                          GLW    43-53-11.00  079-01-28.90   120
+=GLWOT398 OTR0398                          GLW    43-51-16.77  078-56-42.59    83
+=GLWOT419 OTR0419                          GLW    43-39-57.60  079-22-43.30   108
+=GLWOT424 OTR0424                          GLW    43-15-49.82  079-55-01.70    90
+=GLWOT428 OTR0428                          GLW    43-38-49.24  079-23-43.23    88
+=GLWOT431 OTR0431                          GLW    43-38-54.44  079-22-38.64    82
+=GLWOT446 OTR0446                          GLW    43-09-50.47  079-55-03.43   234
+=GLWOT456 OTR0456                          GLW    43-50-51.58  079-01-08.98    99
+=GLWOT466 OTR0466                          GLW    43-36-47.11  079-41-23.42   180
+=GLWOT475 OTR0475                          GLW    43-48-47.76  079-44-14.45   229
+=GLWOT481 OTR0481                          GLW    43-59-12.08  078-52-18.41   232
+=GLWOT488 OTR0488                          GLW    43-53-44.80  079-45-49.53   260
+=GLWOT491 OTR0491                          GLW    43-38-30.10  079-25-29.69    90
+=GLWOT495 OTR0495                          GLW    43-49-11.10  079-13-52.06   164
+=GLWOT501 OTR0501                          GLW    43-39-50.40  079-20-24.68    81
+=GLWOT509 OTR0509                          GLW    43-11-06.45  079-52-29.35   226
+=GLWOT513 OTR0513                          GLW    43-49-21.02  079-37-57.09   169
+=GLWOT526 OTR0526                          GLW    43-26-03.48  079-44-22.13   137
+=GLWOT537 OTR0537                          GLW    44-03-58.64  079-28-56.89   275
+=GLWOT538 OTR0538                          GLW    44-03-36.66  079-27-12.11   244
+=GLWOT539 OTR0539                          GLW    43-56-09.08  079-23-51.19   272
+=GLWOT551 OTR0551                          GLW    43-33-20.52  079-45-42.48   189
+=GLWOT552 OTR0552                          GLW    43-38-50.64  079-40-57.72   196
+=GLWOT555 OTR0555                          GLW    43-54-25.70  078-43-21.01   123
+=GLWOT557 OTR0557                          GLW    43-54-44.34  078-51-39.88   114
+=GLWOT561 OTR0561                          GLW    43-56-46.85  078-52-25.06   154
+=GLWOT563 OTR0563                          GLW    43-57-45.01  079-12-53.00   262
+=GLWOT581 OTR0581                          GLW    43-43-42.49  079-41-09.43   188
+=GLWOT591 OTR0591                          GLW    43-39-08.89  079-28-16.04   101
+=GLWOT600 OTR0600                          GLW    43-13-38.88  079-50-24.42   193
+=GLWOT605 OTR0605                          GLW    43-24-25.00  079-44-17.02   107
+=GLWOT609 OTR0609                          GLW    43-33-39.99  079-46-19.46    19
+=GLWOT610 OTR0610                          GLW    43-42-20.05  079-25-34.03   176
+=GLWOT618 OTR0618                          GLW    43-15-06.05  079-51-12.96    96
+=GLWOT637 OTR0637                          GLW    43-44-09.65  079-15-23.15   163
+=GLWOT644 OTR0644                          GLW    43-39-56.94  079-23-02.19   109
+=GLWOT649 OTR0649                          GLW    43-46-49.86  079-18-14.26   174
+=GLWOT651 OTR0651                          GLW    43-36-21.96  079-53-44.88   263
+=GLWOT652 OTR0652                          GLW    43-38-02.32  079-50-46.66   221
+=GLWOT653 OTR0653                          GLW    43-49-31.87  079-42-10.34   221
+=GLWOT654 OTR0654                          GLW    43-51-07.74  079-38-19.58   233
+=GLWOT656 OTR0656                          GLW    43-59-07.50  079-29-34.00    38
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   8
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=GLWOT659 OTR0659                          GLW    43-54-43.06  078-41-12.95   109
+=GLWOT662 OTR0662                          GLW    43-54-13.77  078-38-17.94   115
+=GLWOT663 OTR0663                          GLW    43-31-32.86  079-50-51.23   202
+=GLWOT667 OTR0667                          GLW    43-11-27.86  080-02-23.67   227
+=GLWOT668 OTR0668                          GLW    43-10-29.18  080-06-46.10   214
+=GLWOT670 OTR0670                          GLW    43-12-27.10  079-46-30.80   202
+=GLWOT672 OTR0672                          GLW    43-35-56.36  079-35-44.86   130
+=GLWOT680 OTR0680                          GLW    43-54-12.51  079-10-35.92   188
+=GLWOT684 OTR0684                          GLW    43-42-52.12  079-16-04.76   150
+=GLWOT688 OTR0688                          GLW    43-41-44.87  079-26-55.00   175
+=GLWOT691 OTR0691                          GLW    43-37-00.88  079-29-57.77   100
+=GLWOT695 OTR0695                          GLW    43-43-52.57  079-36-43.39   177
+=GLWOT706 OTR0706                          GLW    43-51-41.22  079-42-53.29   244
+=GLWOT711 OTR0711                          GLW    43-53-43.11  078-59-52.62   105
+=GLWOT717 OTR0717                          GLW    43-45-49.79  079-12-12.96   145
+=GLWOT718 OTR0718                          GLW    43-42-41.23  079-43-41.08   228
+=GLWOT728 OTR0728                          GLW    43-41-22.75  079-20-30.75   130
+=GLWOT734 OTR0734                          GLW    43-39-30.69  079-23-55.41   103
+=GLWOT747 OTR0747                          GLW    43-40-40.76  079-26-35.22   150
+=GLWOT754 OTR0754                          GLW    43-45-21.47  079-24-35.62   182
+=GLWOT759 OTR0759                          GLW    43-34-07.72  079-40-05.41   152
+=GLWOT760 OTR0760                          GLW    43-33-21.50  079-38-45.56   130
+=GLWOT761 OTR0761                          GLW    43-34-51.34  079-37-31.92   133
+=GLWOT763 OTR0763                          GLW    43-14-53.50  079-52-00.46   130
+=GLWOT764 OTR0764                          GLW    43-13-15.97  079-51-09.72   213
+=GLWOT766 OTR0766                          GLW    43-14-33.86  079-49-52.38   110
+=GLWOT772 OTR0772                          GLW    43-49-19.08  079-00-47.66    98
+=GLWOT780 OTR0780                          GLW    43-35-33.64  079-37-49.32   130
+=GLWOT787 OTR0787                          GLW    43-42-58.16  079-30-21.56   130
+=GLWOT797 OTR0797                          GLW    43-26-37.46  079-47-08.30   163
+=GLWOT799 OTR0799                          GLW    43-43-13.07  079-47-00.96   239
+=GLWOT809 OTR0809                          GLW    43-31-28.48  079-42-20.78   183
+=GLWOT813 OTR0813                          GLW    43-46-53.28  079-35-02.36   167
+=GLWOT845 OTR0845                          GLW    43-54-30.33  079-14-30.20   203
+=GLWOT847 OTR0847                          GLW    43-52-59.15  079-22-56.30   218
+=GLWOT858 OTR0858                          GLW    43-42-57.66  079-19-49.72   121
+=GLWOT862 OTR0862                          GLW    44-05-42.62  079-28-25.61   247
+=GLWOT863 OTR0863                          GLW    44-05-37.40  079-25-09.10   285
+=GLWOT873 OTR0873                          GLW    43-38-35.88  079-22-44.04    80
+=GLWOT877 OTR0877                          GLW    43-15-33.66  079-52-09.37    95
+=GLWOT878 OTR0878                          GLW    43-10-17.04  079-46-53.04   209
+=GLWOT881 OTR0881                          GLW    43-43-27.21  079-30-43.67   130
+=GLWOT882 OTR0882                          GLW    43-46-05.43  079-22-17.98    70
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:   9
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=GLWOT885 OTR0885                          GLW    43-47-01.21  079-09-55.26   112
+=GLWOT889 OTR0889                          GLW    43-48-14.00  079-39-55.00   204
+=GLWOT923 OTR0923                          GLW    44-03-22.07  079-29-08.06   278
+=GLWSC321 OSC1321                          GLW    43-05-24.25  079-05-28.24    35
+=GLWSC372 OSC1372                          GLW    43-03-12.60  079-16-08.04    46
+=GLWSR504 OSR2504                          GLW    42-56-14.50  082-21-22.13    45
+=GLWSR508 OSR2508                          GLW    42-57-38.58  082-21-02.27    35
+=GLWSR515 OSR2515                          GLW    42-59-26.76  082-23-40.55    25
+=GLWSR517 OSR2517                          GLW    43-00-05.49  082-24-34.93    35
+=GLWSR519 OSR2519                          GLW    42-59-55.59  082-21-55.54    20
+=GLWSR521 OSR2521                          GLW    42-59-11.17  082-22-48.40    35
+=GLWWD202 OWD2202                          GLW    42-19-31.46  082-59-47.58   185
+=GLWWD206 OWD2206                          GLW    42-19-07.65  083-02-34.09   188
+=GLWWD209 OWD2209                          GLW    42-18-12.95  082-48-11.19   180
+=GLWWD213 OWD2213                          GLW    42-19-02.29  083-02-53.41   188
+=GLWWD215 OWD2215                          GLW    42-18-22.59  083-03-30.69   186
+=GLWWD217 OWD2217                          GLW    42-18-12.09  083-01-49.89   186
+=GLWWD222 OWD2222                          GLW    42-16-41.19  082-52-32.69   185
+=GLWWD225 OWD2225                          GLW    42-19-06.66  082-56-05.68   180
+=GLWWD226 OWD2226                          GLW    42-16-56.62  082-58-37.18   189
+=GLWWD228 OWD2228                          GLW    42-18-38.89  083-00-38.88   188
+=GLWWD234 OWD2234                          GLW    42-15-45.09  082-57-49.08   192
+=GLWWD244 OWD2244                          GLW    42-11-16.95  083-04-37.89   178
+=GLWWD245 OWD2245                          GLW    42-17-19.66  082-57-11.17   186
+=GLWWD252 OWD2252                          GLW    42-15-29.59  083-00-15.18   189
+=GLWWD253 OWD2253                          GLW    42-15-05.25  083-05-32.59   178
+=GLWWD255 OWD2255                          GLW    42-19-55.26  082-56-32.28   178
+=GLWWD271 OWD2271                          GLW    42-19-44.76  082-57-57.58   218
+=GLWWD273 OWD2273                          GLW    42-18-07.13  082-47-00.95    40
+=GLWWD276 OWD2276                          GLW    42-17-24.08  082-42-40.32    28
+=GLWWD279 OWD2279                          GLW    42-06-59.95  083-06-18.09   182
+=GLWWD283 OWD2283                          GLW    42-18-46.08  082-53-41.98   180
+=GLWWD343 OWD2343                          GLW    42-12-37.08  083-03-40.46    45
+=HYONE01  MILTON GS                        HYONE  43-32-14.80  079-51-07.90   204
+=NYPWX1   NATIONAL GRID MOUNTAIN SUB       NYPW   43-09-12.00  079-01-16.00    55
+=RCTL3258 VINELAND TOWN                    RCTL   43-09-45.30  079-24-25.90    95
+=RCTL4071 WESTMOUNT RD @ BEARINGER RD      RCTL   43-29-27.60  080-34-11.00   348
+=RCTL4263 CENTRAL & YPRES                  RCTL   42-18-02.10  082-58-43.10   185
+=RCTL4338 GEORGIAN MANOR                   RCTL   44-30-44.80  080-15-40.70   185
+=RCTL4387 HOILE & ASHBORY                  RCTL   43-50-34.90  078-58-46.60    82
+=RCTL4412 RICHMOND & MEDWAY                RCTL   43-03-21.30  081-18-03.80   279
+=RCTL4489 WALKERS LINE & UPPER MID         RCTL   43-22-38.60  079-48-31.80   139
+=RCTL4653 QEW & QAKES                      RCTL   43-12-35.90  079-36-48.60    83
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  10
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=RCTL4729 INGERSOLL & THOMAS               RCTL   43-01-40.00  080-53-50.40   278
+=RCTL4882 WOODLAWN & RICE                  RCTL   43-00-59.60  079-16-06.30   186
+=RCTL4944 GARRISON & PETTIT                RCTL   42-54-07.50  078-58-31.10   190
+=RCTL4945 SLEEPY HOLLOW RD & GREY RD 19    RCTL   44-31-19.70  080-17-35.80   182
+=RCTL5706 HWY 11 & LINE 9                  RCTL   44-29-46.40  079-30-09.78   280
+=RCTL6181 YORK DOWNS COW                   RCTL   43-53-05.76  079-18-59.55   200
+=RCTL6424 WALLACEBURY DOWNTOWN             RCTL   42-35-13.80  082-23-17.30   177
+=RCTL6546 CLARKWAY & COLERAINE             RCTL   43-49-31.89  079-42-10.52   222
+=RCTL6679 LANGDON HALL COW                 RCTL   43-22-50.80  080-22-23.07   295
+=RCTL6840 HWY 400 & 18TH COW               RCTL   43-59-07.93  079-34-24.53   311
+=RCTL7634 LAKESHORE & BURLINGTON           RCTL   43-19-19.53  079-48-01.73    84
+=RCTL7857 BURLS CREEK COW                  RCTL   44-28-42.87  079-30-44.20   277
+=RCTL8051 CENTER ISLAND COW                RCTL   43-37-24.08  079-22-51.25    75
+=RCTLAN08 HWY 400/KIRBY                    RCTL   43-53-01.03  079-33-29.05   252
+=RCTLK05  DVP/BROADVIEW                    RCTL   43-39-13.07  079-20-55.37    80
+=RCTLN010 WALLACEBURY WALMART              RCTL   42-35-08.79  082-23-09.20   180
+=SILOWI01 MAXTOWER 2                       SILOWI 43-07-01.31  080-07-35.00   199
+=SILOWI02 SN WATER TOWER                   SILOWI 43-04-01.96  080-07-26.44   211
+=SILOWI03 INDIAN LINE                      SILOWI 43-01-27.37  080-12-57.56   226
+=SILOWI04 BOSTON                           SILOWI 43-00-02.05  080-16-30.32   238
+=SILOWI05 MUIR                             SILOWI 43-06-40.14  080-35-27.13   284
+=SILOWI06 GLOBAL                           SILOWI 43-15-39.46  080-26-44.84   300
+=TLUSMC02 WINDSOR(AQUATICCENTER-ON4041)ON  TLUSMC 42-19-02.36  083-02-40.78   183
+=TLUSMC0A LONDON OFFICE                    TLUSMC 42-56-05.99  081-12-44.74   266
+=TLUSMC6O ON4056                           TLUSMC 42-16-59.11  082-45-30.72   180
+=TLUSMC9F ON1477                           TLUSMC 42-13-38.67  083-06-11.89   175
+=WIREIEB9 CAON0588 (90 7TH AV)HANOVER      WIREIE 44-08-28.16  081-01-45.91   288
+=XCI07    PETERBOROUGH TV TOWER            XCI    44-19-42.00  078-17-57.00   238
+=XCI10    FIFES BAY                        XCI    44-20-36.13  078-22-53.22   280
+=XCI100   BRACEBRIDGE TOWER                XCI    45-02-07.55  079-15-14.04   308
+=XCI101   BRACEBRIDGE POP                  XCI    45-02-56.81  079-17-35.61   293
+=XCI128   BRACEBRIDGE MCNAUGHTON           XCI    45-03-14.12  079-17-35.28   300
+=XCI136   BEATRICE                         XCI    45-10-21.97  079-23-04.38   325
+=XCI3783  THAMESVILLE                      XCI    42-33-06.59  081-58-23.87   185
+=XCI7452  SUNNIDALE                        XCI    44-21-58.79  079-56-32.31   195
+=XCI7536  LOCKERBY POP                     XCI    44-17-14.74  081-15-58.76   243
+=XCI7543  UNDERWOOD                        XCI    44-17-58.70  081-24-42.47   255
+=XCI7553  EMBRO NE                         XCI    43-09-26.28  080-52-59.52   331
+=XCI7554  HARROW NORTH                     XCI    42-06-24.05  082-55-07.46   184
+=XCI7555  CAMBRIDGE EAST                   XCI    43-19-50.70  080-13-42.41   264
+=XCI7564  BALTIMORE SE                     XCI    44-01-21.79  078-06-03.27   270
+=XCI7565  PENVILLE                         XCI    44-03-01.62  079-37-12.53     0
+=XCI7566  HEIDI?S CAMP                     XCI    44-30-08.46  079-28-59.44   265
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  11
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=XCI7567  GRAND VALLEY                     XCI    43-52-03.00  080-22-45.01   473
+=XCI7568  HOPEVILLE                        XCI    44-07-23.99  080-31-00.00   493
+=XCI7570  WOODVILLE                        XCI    44-23-59.64  078-59-36.67   291
+=XCI7577  HARROW WEST                      XCI    42-02-19.25  083-01-14.80   181
+=XCI7579  HIAWATHA                         XCI    44-10-43.32  078-13-10.91   229
+=XCI7600  SIMCOE SE                        XCI    42-49-52.61  080-16-51.09   229
+=XCI7611  CONN                             XCI    44-00-53.89  080-34-33.56   475
+=XCI7640  MOUNT FOREST POP                 XCI    43-57-53.35  080-43-05.98   430
+=XCI7642  MOSSLEY                          XCI    42-57-09.61  081-01-18.65   280
+=XCI7653  CEYLON SOUTH POP                 XCI    44-13-38.10  080-35-22.09   485
+=XCIP10   CAYUGA SOUTH                     XCI    42-52-52.24  079-40-59.14   199
+=XCIP13   FLY ROAD                         XCI    43-08-12.37  079-30-19.72   202
+=XCIP20   THORNDALE                        XCI    43-05-29.94  081-08-07.08   290
+=XCIP21   NIAGARA FALLS                    XCI    43-04-59.16  079-04-59.52   195
+=XCIP22   ST. CATHARINES POP               XCI    43-09-25.31  079-14-48.94   109
+=XCIP29   ROCKFORD POP                     XCI    44-32-17.77  080-55-05.12   274
+=XCIP30   WINONA                           XCI    43-11-30.85  079-38-24.22   205
+=XCIP32   MILTON W                         XCI    43-33-28.66  080-07-35.04   343
+=XCIP33   MILTON SOUTH X                   XCI    43-32-24.61  080-02-11.08   352
+=XCIP39   JORDAN                           XCI    43-08-03.25  079-21-28.26   121
+=XCIP42   FONTHILL                         XCI    43-03-14.54  079-18-36.14   251
+=XCIP43   ERIEAU MARINA                    XCI    42-15-37.80  081-54-32.39   174
+=XCIP44   JUBILEE                          XCI    42-56-19.68  079-39-56.92   181
+=XCIP45   MINORDUNN                        XCI    42-59-38.12  079-40-42.70   182
+=XCIP48   DUNNVILLE POP                    XCI    42-54-03.35  079-36-01.87   176
+=XCIP50   KENT BRIDGE                      XCI    42-31-19.01  082-08-34.49   185
+=XCIP52   ZAVCOR                           XCI    42-56-52.62  079-28-44.36   173
+=XCIP53   WALLACEBURG CKXS                 XCI    42-37-38.93  082-18-42.12   178
+=XCIP56   PELHAM SOUTH WEST                XCI    43-01-50.54  079-23-14.94   189
+=XCIP59   CRL                              XCI    42-53-15.68  079-21-11.66   186
+=XCIP60   MORI                             XCI    43-13-41.08  079-06-47.54    92
+=XCIP61   STEVENSVILLE CENTRAL             XCI    42-56-57.98  079-03-17.78   178
+=XCIP62   BALTIMORE                        XCI    44-04-23.41  078-08-39.51   342
+=XCIP64   ST ELMO                          XCI    45-00-48.15  079-23-30.48   263
+=XCIP65   SERENITY SHORES                  XCI    42-14-43.30  082-06-06.69   198
+=XCIP68   PERRY'S POND                     XCI    44-17-39.80  080-17-28.28   530
+=XCIP79   MILTON S TEMP                    XCI    43-31-05.45  080-05-43.98     0
+=XCIS126  WINGHAM POP                      XCI    43-53-59.99  081-19-06.29   321
+=XCIS127  BLUEVALE                         XCI    43-53-42.84  081-13-06.06   339
+=XCIS128  LUCKNOW                          XCI    43-57-54.91  081-28-28.91   310
+=XCIS13   WHIPPOORWILL BAY POP             XCI    45-01-22.64  081-18-36.58   204
+=XCIS145  MILLER LAKE POP                  XCI    45-05-51.90  081-27-01.98   201
+=XCIS146  MCVICAR                          XCI    45-09-36.00  081-29-45.04   215
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  12
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+=XCIS15   SPRY                             XCI    44-56-57.44  081-19-52.52   200
+=XCIS16   PIKE BAY                         XCI    44-52-52.10  081-19-57.70   181
+=XCIS30   CLINTON POP                      XCI    43-36-44.11  081-31-15.78   296
+=XCIS31   EGMONDVILLE                      XCI    43-32-32.79  081-22-17.72   315
+=XCIS7    RIVER CANARD SOUTH               XCI    42-11-19.32  083-04-40.80   177
+=XCIS70   GOOSE ROCK POP                   XCI    44-51-47.63  079-20-04.56   255
+=XCIS71   RILEY LAKE                       XCI    44-50-36.35  079-12-27.72   264
+=XCIS97   ESSA POP                         XCI    44-21-17.17  079-48-41.93   225
+CFA364    GRIMSBY (401 RIDGE RD W) ON      CANMIC 43-11-15.00  079-36-00.50   200
+CFA365    BEAMSVILLE (3679 WALKER ROAD) ON CANMIC 43-08-12.00  079-30-19.00   202
+CFB705    CHATHAM                          XCI    42-24-06.36  082-11-05.43   183
+CFC627    PIGRAM                           XCI    42-59-08.52  080-54-55.43   295
+CFE529    BARRIE (38 HOOPER RD) ON         PTPCOM 44-20-08.10  079-40-29.00   283
+CFE534    BARRIE (93 BERCZY ST) ON         PTPCOM 44-23-39.30  079-40-59.10   264
+CFE538    EDGAR (2746 LINE 3 NORTH) ON     PTPCOM 44-31-55.10  079-39-44.10   404
+CFE539    BARRIE (450 BAYFIELD ST) ON      PTPCOM 44-24-33.40  079-42-30.70   292
+CFE830    WALLACEBURG                      XCI    42-34-41.59  082-20-54.38   175
+CFE831    WALLACEBURG WT POP               XCI    42-36-16.45  082-23-05.27   179
+CFF335    OSHAWA (5201 REGIONAL RD 4) ON   209420 43-57-16.00  078-48-22.00   211
+CFF336    ORONO (7044 BEST RD) ON          209420 44-00-36.00  078-37-49.00   241
+CFJ447    LEAMINGTON (300 SHERK ST) ON     WAVDIR 42-02-13.24  082-36-18.76   197
+CFJ448    LEAMINGTON (MERSEA ROAD C) ON    WAVDIR 42-00-37.70  082-33-42.88   176
+CFK251    BORDEN                           BMCE   44-16-13.92  079-53-39.00   223
+CFK409    WELLAND (65 3RD ST) ON           NWIC   42-58-46.57  079-14-55.07   177
+CFK410    WAINFLEET (MISENER RD) ON        NWIC   42-56-50.49  079-23-14.90   175
+CFQ211    OLD FRONT ROAD 2160              BMCE   42-52-28.63  079-15-07.55   175
+CFQ212    PORT COLBORNE NORTH              BMCE   42-54-21.50  079-15-10.25   176
+CFV315    TORONTO (700 ARROW RD) ON        TTCOM  43-44-45.10  079-31-59.10   150
+CFV316    TORONTO (3300 BLOOR ST W) ON     TTCOM  43-38-43.40  079-31-22.10   120
+CFV678    GEORGINA (1 CHURCH STREET) ON    TOGEOR 44-14-40.00  079-28-12.00   244
+CFV679    GEORGINA (5402 OLD HOMESTEAD RD) TOGEOR 44-17-21.00  079-19-59.00   239
+CFV794    CAON0876 245 CHARLOTTE STREET    WIREIE 44-18-10.63  078-19-24.74   199
+CFV795    CAON0826  28 KAWARTHA DOWNS RACE WIREIE 44-12-28.83  078-23-34.60   203
+CFV799    WINDSOR DT                       TLUSMC 42-19-01.15  083-01-40.72   176
+CFW226    STRATHROY (PIKE RD) ON           CCINET 42-58-00.48  081-39-02.16   236
+CFW227    STRATHROY (SECOND ST) ON         CCINET 42-58-48.51  081-37-38.77   242
+CFW672    KING E & MT. AVE                 RCTL   43-13-05.00  079-45-20.12   100
+CFW687    VICTORIA@LACKNER                 RCTL   43-27-40.67  080-26-28.53   330
+CFW690    KITCHENER POP                    TLUSMC 43-27-04.17  080-30-01.44   330
+CFW692    KITCHENER DT                     TLUSMC 43-27-17.17  080-29-11.44   334
+CFW734    YONGE&BIG BAY                    RCTL   44-21-40.69  079-35-16.94   256
+CFW774    MINDEN (ON411) ON                W3CONN 44-56-08.00  078-42-36.00   329
+CFW789    WOODSTOCK DT                     RCTL   43-07-46.10  080-45-32.10   301
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  13
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CFW823    STONEY CREEK-467                 TLUSMC 43-13-40.20  079-43-10.32    83
+CFW827    ISLINGTON-IRWIN                  TLUSMC 43-43-25.20  079-33-29.30   140
+CFW845    BURLGTN TRNS-453                 TLUSMC 43-19-42.19  079-50-06.34   100
+CFW894    TD CREEKSIDE                     RCTL   43-38-31.01  079-36-35.51   158
+CFW897    KIPLING-ALBION                   TLUSMC 43-44-14.20  079-34-51.30   153
+CFW961    HWY 401/HIGHBURY                 TLUSMC 42-56-01.16  081-10-50.53   269
+CFW989    WOODBINE/BETHES                  RCTL   43-57-15.64  079-23-29.58   282
+CFZ562    COLLINGWOOD (45 HERITAGE DRIVE)  PTPCOM 44-30-38.84  080-13-19.31   182
+CFZ563    THE BLUE MOUNTAINS (115 GORD CAN PTPCOM 44-29-32.82  080-19-04.19   453
+CGG589    FRYG PAN IS                      BELL   45-10-06.18  080-08-05.41   183
+CGG598    LENT ISLAND                      BELL   45-13-35.18  080-08-43.42   183
+CGG599    WAHSOUNE IS                      BELL   45-09-39.18  080-05-47.41   183
+CGM332    BLACKSTOCK (132 GREENSBORO DR.)  RDWD   44-06-55.00  078-49-42.00   285
+CGM342    BURKETON (2173 CONCESSION RD 9)  RDWD   44-01-47.00  078-47-10.00   298
+CGM344    BOWMANVILLE (PORT DARLINGTON RD) RDWD   43-53-27.00  078-39-45.00    80
+CGM345    ORONO (24 MILL LANE) ON          RDWD   43-59-10.00  078-37-07.00   180
+CGM347    NEWCASTLE (3742 HIGHWAY 2) ON    RDWD   43-55-21.00  078-34-07.00   110
+CGM348    NEWCASTLE (5 LAKEBREEZE DRIVE) O RDWD   43-53-46.00  078-34-50.00    79
+CGM353    MISSISSAUGA (5400 DIXIE RD) ON   ICASYS 43-38-35.00  079-37-49.00   160
+CGM354    TORONTO (10 SAN ROMANOWAY) ON    ICASYS 43-45-30.00  079-31-00.00   180
+CGM361    CHATHAM (9470 BOUNDARY LINE) ON  INVLLC 42-23-17.00  082-05-42.00   185
+CGM366    HOWARD @ DOUGALL                 RCTL   42-15-04.12  082-59-45.37   187
+CGM483    LONGWOODS TS                     XCI    42-51-21.96  081-35-08.16   226
+CGM522    220 OAK ST                       TERAGO 43-39-46.26  079-21-27.76    81
+CGM760    BURLINGTON BRIDGE                RCTL   43-18-08.90  079-47-59.80    77
+CGM822    INGRSL-PEMBERTON                 RCTL   43-02-52.72  080-52-27.88   270
+CGM874    STRATHROY (100 HEAD ST S) ON     MSTRAT 42-57-20.00  081-36-59.00   229
+CGM961    BALLANTRAE 14162 9TH LINE        BMCE   44-01-01.92  079-16-00.80   360
+CGM976    MT BRYDGES (576 RAILROAD ST) ON  MSTRAT 42-54-16.00  081-29-45.00   250
+CGS291    CAMBRIDGE (705 FOUNTAIN ST) ON   PRIHOL 43-24-22.00  080-22-15.00   306
+CGS292    NORTH DUMFRIES (2130 W RIVER RD) PRIHOL 43-17-55.00  080-20-20.00   332
+CGS293    KITCHENER (490 PINNACLE DR) ON   PRIHOL 43-22-52.00  080-24-43.00   343
+CGS295    PARIS (PARIS PLAINS CHURCH RD) O PRIHOL 43-13-48.00  080-25-08.00   284
+CGS297    PRINCETON (75 MAIN ST N - COWAN) PRIHOL 43-10-29.00  080-31-40.00   286
+CGS348    RICHMOND HILL (15 WERTHELM CRT)  ICASYS 43-50-40.00  079-23-07.00   203
+CGS349    TORONTO (10 SAN ROMANO WAY) ON   ICASYS 43-45-30.00  079-31-00.00   177
+CGS356    OWEN SOUND TS                    XCI    44-33-43.92  080-55-13.83   246
+CGS379    MT.PLEASANT&DAVI                 RCTL   43-41-56.12  079-23-30.88   150
+CGS383    350 BLOOR                        RCTL   43-40-20.31  079-22-44.08   115
+CGS395    SPADINA/DUNDAS                   RCTL   43-39-12.21  079-23-51.28    97
+CGS397    RICHMOND & JOHN                  RCTL   43-39-04.01  079-23-25.58    92
+CGS464    ROYAL YORK/DUNAS                 RCTL   43-39-38.60  079-31-05.94   126
+CGS468    401 & WARDEN                     RCTL   43-46-19.51  079-17-56.88   182
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  14
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CGS469    401&MIDLAND                      RCTL   43-46-36.01  079-16-29.77   166
+CGS475    KINGSTON RD&MIDL                 RCTL   43-42-45.89  079-14-51.54   162
+CGU395    BEVERLY TIRE_BEV                 TERAGO 44-20-42.00  079-40-35.00   281
+CGU404    KEADY                            XCI    44-26-39.61  081-02-35.74   271
+CGU450    BOWER HILL SOUTH POP             XCI    43-06-05.00  080-46-17.00   376
+CGU498    BURFORD (246 MUIR RD S) ON       SILOWI 43-06-40.00  080-35-27.00   283
+CGU499    SIX NATIONS RES# 40(43 MOHAWK RD SILOWI 43-01-27.00  080-12-58.00   221
+CGU500    FAIRFIELD PLAIN (50 FAIRFIELD RD SILOWI 43-03-30.00  080-24-24.00   253
+CGU501    BRANTFORD(521 OLD ONONDAGA RD.E) SILOWI 43-07-01.00  080-07-35.00   194
+CGU502    TUSCARORA TWP(MOHAWK ROAD) ON    SILOWI 43-04-02.00  080-07-26.00   209
+CGU503    SOUTH DUMFRIES( LOT 35) BRANT ON SILOWI 43-15-39.00  080-26-38.00   307
+CGU504    BRANTFORD ( 5 EDMONDSON ST) ON   SILOWI 43-10-05.00  080-14-49.00   222
+CGU507    WILSONVILLE (BOSTON) ON          SILOWI 43-00-02.00  080-16-30.00   234
+CGU668    MOOREFIELD POP                   XCI    43-44-07.76  080-46-01.88   425
+CGU670    BELWOOD                          XCI    43-48-06.58  080-20-06.48   468
+CGU672    ARTHUR GE                        XCI    43-49-36.91  080-30-53.74   468
+CGU676    UNIONDALE                        XCI    43-13-42.00  081-02-17.00   365
+CGU677    STRATFORD AUCTION HOUSE POP      XCI    43-20-42.86  080-59-56.83   365
+CGU732    DUNCAN                           XCI    44-24-46.12  080-28-29.06   451
+CGU779    WELLINGTON NORTH                 XCI    43-56-05.89  080-35-28.39   480
+CGU785    MINTO DRIVE 02                   XCI    44-34-46.63  081-03-01.80   255
+CGU787    GRIERSVILLE                      XCI    44-31-15.28  080-33-56.59   430
+CGU788    PROTON EAST                      XCI    44-11-14.82  080-26-22.03   510
+CGU792    GIBRALTAR                        XCI    44-28-47.60  080-20-59.64   516
+CGU809    BECK 345KV YARD                  HYONE  43-08-31.00  079-02-54.00   172
+CGV237    EMBRO(UTILITY POLE 33 LINE/78 RD EXCTEL 43-08-53.00  080-56-00.00   326
+CGV267    WEST LORNE                       XCI    42-37-36.85  081-40-22.09   210
+CGV268    PARKHILL RR                      BMCE   43-05-51.00  081-40-45.84   242
+CGV274    HAMPSTEAD                        XCI    43-26-43.92  080-51-50.28   380
+CGV281    ROCKLYN                          XCI    44-27-31.50  080-38-05.31   430
+CGV282    CHATSWORTH EAST                  XCI    44-28-01.60  080-49-43.93   361
+CGV286    NEWRY                            XCI    43-37-19.49  081-02-41.28   359
+CGV287    LISTOWEL POP                     XCI    43-44-01.79  080-57-39.05   380
+CGV409    ABERFOYLE                        XCI    43-28-48.43  080-07-23.48   336
+CGV424    PEFFERS                          XCI    43-38-19.50  080-53-25.17   393
+CGV425    BORNHOLM                         XCI    43-32-05.28  081-08-51.93   351
+CGV427    ETHEL                            XCI    43-42-15.01  081-08-34.01   361
+CGV432    TEVIOTDALE                       XCI    43-50-40.34  080-46-03.65   421
+CGV433    HARRISTON WT                     XCI    43-54-25.63  080-52-11.68   380
+CGV435    LITTLE LAKE                      XCI    43-26-11.65  080-15-53.38   310
+CGV439    ARKWRIGHT                        XCI    44-26-14.24  081-12-48.70   251
+CGV454    PORT CARLING (3841 HWY 118 E) ON COREBB 45-05-43.00  079-36-09.00   271
+CGV460    HOLSTEIN                         XCI    44-03-17.71  080-45-41.18   414
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  15
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CGV461    TORRANCE (2684 HWY 169) ON       COREBB 44-59-29.00  079-34-33.00   241
+CGV518    MAPLE GROVE                      XCI    44-01-57.32  080-24-39.92   496
+CGV956    STONYWOOD                        XCI    43-57-42.19  080-28-57.14   495
+CGV964    COFFIN HILL                      XCI    44-40-03.04  080-49-14.84   275
+CGV966    MAXWELL                          XCI    44-16-41.09  080-21-42.58   537
+CGY207    NEWMARKET (10-17705 LESLIE ST) O CAWINT 44-04-15.00  079-25-54.00   275
+CGY208    BALANTRAE (3621 AURORA RD) ON    CAWINT 44-01-28.00  079-20-59.00   327
+CGY246    WOODLAWN & ELMIRA RD             BMCE   43-32-18.96  080-18-51.84   340
+CGY249    QUEENSVILLE SDRD                 BMCE   44-07-37.09  079-30-43.60   222
+CGY250    BRADFORD NORTH                   BMCE   44-08-08.99  079-34-09.98   279
+CGY427    BIEMAN'S CORNERS                 XCI    44-03-13.39  080-53-58.05   361
+CGY438    HOLE GROUP TOWER                 TERAGO 43-10-06.00  079-13-07.00   103
+CGY439    ONE ST. PAUL                     TERAGO 43-09-20.00  079-14-47.00   111
+CGY458    HALTON HILLS (43 ALICE STREET) O HALTHY 43-37-59.00  080-02-28.00   350
+CGY464    HALTON HILLS (1/ 5TH LINE NORTH) HALTHY 43-39-26.00  080-00-26.00   360
+CGY517    WJET29                           TERAGO 43-50-47.37  079-20-00.86    11
+CGY522    ALLISTON (ADJALA & CONCS RD 4) O CAWINT 44-07-15.00  079-56-41.00   301
+CGY523    ALLISTON (13 LINE & SIDE RD 10)  CAWINT 44-08-13.00  079-47-54.00   251
+CGY707    FANSHAWE                         TERAGO 43-00-51.00  081-11-14.00   267
+CGY708    SCOTT/BUNTING                    RCTL   43-11-20.90  079-12-33.00    96
+CGY709    STRATFORD DOWNTOWN               BMCE   43-22-19.00  080-58-52.00   363
+CGY743    ONT_80 ONTARIO ST N              TERAGO 43-31-07.53  079-52-50.31   198
+CGY768    ELMIRA DT                        BMCE   43-35-08.56  080-33-15.77   354
+CGY867    ALLISTON (ADJALA & CONCS RD 4) O CAWINT 44-07-15.00  079-56-41.00   301
+CGY945    HWY 401/MAVIS RD                 RCTL   43-37-08.00  079-42-23.30   187
+CGY980    TWT TWIN TOWER T                 TERAGO 43-33-21.83  080-16-21.17   335
+CHG232    HWY 407/MISSISSAUGA              RCTL   43-37-01.50  079-46-06.60   190
+CHG358    WATERDOWN                        BMCE   43-19-51.00  079-53-42.00   231
+CHG360    HWY 8 HWY 5                      BMCE   43-16-58.94  080-04-15.70   241
+CHG362    NEYAGAWA UPPER MIDDLE            BMCE   43-27-19.08  079-43-21.72   131
+CHG363    DUNDAS NEYAGAWA                  BMCE   43-27-52.00  079-44-56.00   158
+CHG368    LAIRD MILWOOD                    BMCE   43-42-07.74  079-21-23.40   126
+CHG369    PHARMACY AVENUE 865              BMCE   43-43-40.08  079-17-48.84   160
+CHG397    BALLANTRAE                       BMCE   44-01-06.80  079-17-49.00   335
+CHG438    ZORRA (335-151 35TH LINE RD) ON  EXCTEL 43-06-13.00  080-53-48.00   303
+CHG444    PIGEON LAKE                      XCI    44-26-42.68  078-31-59.05   284
+CHG482    OTR0549                          GLW    43-47-46.93  079-25-32.23   198
+CHG483    HWY04782                         RCTL   42-38-37.61  081-33-22.80   216
+CHG496    OAK HEIGHTS                      XCI    44-09-42.84  077-56-30.15   255
+CHG497    ROSENEATH                        XCI    44-12-15.12  078-03-49.28   290
+CHG605    TILLSONBURG MRS                  XCI    42-53-17.95  080-47-04.99   278
+CHG606    INGERSOLL (EASY 101 FM)          XCI    43-00-43.70  080-50-10.89   306
+CHG630    OTR0285                          GLW    43-38-31.74  079-26-10.64   100
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  16
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CHG711    OTR0294                          GLW    43-49-31.08  079-25-23.88   184
+CHG738    OTR0302                          GLW    43-52-30.22  079-24-56.52   232
+CHG739    OTR0340                          GLW    43-46-41.66  079-19-25.18   179
+CHG744    OTR0361                          GLW    43-44-08.16  079-16-06.96   173
+CHG757    OTR0275                          GLW    43-40-14.52  079-27-12.96   127
+CHG776    OTR0182                          GLW    43-43-11.40  079-36-13.04   173
+CHG778    OTR0197                          GLW    43-34-27.59  079-34-10.56    91
+CHG779    OTR0189                          GLW    43-33-18.72  079-35-13.60    86
+CHG803    OTR0315                          GLW    43-47-19.28  079-23-29.14   181
+CHG804    OTR0504                          GLW    43-16-25.56  079-51-27.67    94
+CHG805    OTR0049                          GLW    43-14-24.65  079-50-55.72   198
+CHG809    OTR0048                          GLW    43-21-05.00  079-50-05.24   146
+CHG839    OTR0527                          GLW    43-21-50.20  079-44-16.40    85
+CHG840    OTR0238                          GLW    43-42-29.77  079-30-15.98   123
+CHG842    OTR0281                          GLW    43-42-05.95  079-26-31.05   170
+CHG843    OTR0620                          GLW    43-19-40.84  079-47-27.71    84
+CHG855    OTR0150                          GLW    43-36-45.60  079-39-43.80   176
+CHG861    OTR0392                          GLW    43-52-05.40  079-01-25.30   115
+CHG869    OTR0111                          GLW    43-43-16.00  079-43-09.16   220
+CHG882    OTR0338                          GLW    43-43-48.97  079-19-55.02   138
+CHG883    OTR0242                          GLW    43-36-04.76  079-30-04.74    83
+CHG886    OTR0525                          GLW    43-18-10.69  079-50-55.32    92
+CHG887    OTR0531                          GLW    43-19-23.45  079-49-44.47   102
+CHG888    OTR0038                          GLW    43-14-15.00  079-52-35.04   202
+CHG891    OTR0098                          GLW    43-36-09.86  079-44-32.32   186
+CHG894    OTR0063                          GLW    43-19-58.08  079-48-35.32    92
+CHG895    OTR0532                          GLW    43-21-22.28  079-46-09.52    94
+CHG896    OTR0187                          GLW    43-37-16.36  079-35-28.46   137
+CHG897    OTR0193                          GLW    43-38-34.61  079-35-32.32   141
+CHG899    OTR0083                          GLW    43-41-24.72  079-45-38.20   212
+CHG902    OTR0102                          GLW    43-39-11.16  079-44-25.13   205
+CHG904    OTR0346                          GLW    43-44-26.16  079-18-36.00   165
+CHG906    OTR0351                          GLW    43-46-56.28  079-17-29.98   175
+CHG913    OTR0518                          GLW    43-47-11.04  079-11-40.20   123
+CHG915    OTR0008                          GLW    43-38-47.57  079-22-29.03    83
+CHG916    OTR0333                          GLW    43-40-27.34  079-20-23.60   105
+CHG925    OTR0157                          GLW    43-39-26.89  079-39-03.96   174
+CHG928    OTR0169                          GLW    43-42-55.27  079-37-52.39   161
+CHG931    OTR0192                          GLW    43-45-22.90  079-35-14.71   147
+CHG935    OTR0516                          GLW    43-45-10.04  079-26-17.09   181
+CHG936    OTR0247                          GLW    43-45-52.16  079-29-48.19   196
+CHG937    OTR0331                          GLW    43-47-46.72  079-20-46.97   183
+CHG938    OTR0230                          GLW    43-46-25.39  079-31-20.03   185
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  17
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CHG939    OTR0276                          GLW    43-48-36.50  079-26-57.73   206
+CHG940    OTR0328                          GLW    43-46-45.57  079-20-58.91   178
+CHG942    OTR0378                          GLW    43-48-22.79  079-13-04.55   171
+CHG944    OTR0368                          GLW    43-42-43.92  079-14-53.16   176
+CHK296    OTR0374                          GLW    43-46-50.66  079-13-55.16   154
+CHK297    OTR0535                          GLW    43-48-31.54  079-15-16.16   176
+CHK299    OTR0199                          GLW    43-39-29.88  079-34-03.03   145
+CHK303    OTR0117                          GLW    43-38-58.04  079-42-13.57   202
+CHK650    OTR0162                          GLW    43-31-44.30  079-39-01.90   123
+CHK651    OTR0310                          GLW    43-50-28.70  079-23-56.40   207
+CHK652    OTR0323                          GLW    43-45-41.30  079-21-47.80   139
+CHK653    OTR0365                          GLW    43-49-30.10  079-16-25.30   189
+CHK656    OTR0322                          GLW    43-42-09.80  079-22-28.30   149
+CHK657    OTR0334                          GLW    43-42-57.28  079-20-09.92   130
+CHK661    OTR0353                          GLW    43-43-33.50  079-18-13.30   152
+CHK664    OTR0014                          GLW    43-39-23.00  079-22-32.90    89
+CHK667    OTR0269                          GLW    43-47-30.27  079-26-47.04   204
+CHK672    OTR0286                          GLW    43-51-26.90  079-26-06.20   210
+CHK673    OTR0519                          GLW    43-52-58.50  078-54-52.68   110
+CHK675    OTR0013                          GLW    43-39-24.48  079-21-56.16    85
+CHK678    OTR0262                          GLW    44-02-23.30  079-28-30.00   272
+CHK679    OTR0265                          GLW    43-59-29.80  079-27-59.60   264
+CHK681    OTR0317                          GLW    43-50-38.40  079-22-40.80   197
+CHK682    OTR0337                          GLW    43-50-16.10  079-19-48.00   186
+CHK683    OTR0387                          GLW    43-50-01.30  079-05-16.80    90
+CHK684    OTR0550                          GLW    43-50-22.80  079-00-56.50    90
+CHK690    OTR0336                          GLW    43-45-17.35  079-19-59.63   161
+CHK692    OTR0320                          GLW    43-43-17.65  079-22-29.89   143
+CHK695    OTR0382                          GLW    43-48-16.00  079-10-12.30   127
+CHK699    OTR0390                          GLW    43-51-01.73  079-03-19.08    82
+CHK700    OTR0395                          GLW    43-52-26.23  078-57-52.06    81
+CHK704    OTR0528                          GLW    43-23-54.30  079-42-20.90    82
+CHK706    OTR0190                          GLW    43-41-23.30  079-35-26.00   160
+CHK708    OTR0224                          GLW    43-41-01.72  079-31-34.82   142
+CHK733    OTR0953                          GLW    43-38-19.68  079-23-25.69    81
+CHK735    OTR0140                          GLW    43-34-39.00  079-40-57.63   160
+CHK736    OTR0094                          GLW    43-34-29.14  079-44-29.00   190
+CHK737    OTR0080                          GLW    43-34-54.70  079-45-13.39   196
+CHK746    FEDERAL WHITE CEMENT             XCI    43-06-11.48  080-53-45.16   303
+CHK754    OTR0086                          GLW    43-13-51.96  079-45-21.85    87
+CHK756    OTR0273                          GLW    43-52-08.46  079-27-00.66   227
+CHK758    OTR0350                          GLW    43-40-42.66  079-17-55.68   124
+CHK764    OTR0043                          GLW    43-31-26.00  079-51-54.40   203
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  18
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CHK765    OTR0062                          GLW    43-34-15.37  079-49-55.35   198
+CHK767    OTR0112                          GLW    43-13-55.60  079-43-21.00    81
+CHK785    OTR0037                          GLW    43-39-02.16  079-52-50.88   233
+CHK787    OTR0040                          GLW    43-12-37.60  079-52-38.90   218
+CHK788    OTR0050                          GLW    43-12-59.60  079-49-50.70   197
+CHK789    OTR0060                          GLW    43-24-35.60  079-48-33.10   158
+CHK802    OTR0524                          GLW    43-13-22.48  079-53-35.92   224
+CHK806    OTR0375                          GLW    43-52-08.94  079-13-44.58   184
+CHK808    OTR0402                          GLW    43-54-28.91  078-54-06.66   135
+CHK853    OTR0174                          GLW    43-46-25.38  079-37-22.23   176
+CHK859    OTR0507                          GLW    43-15-46.10  079-50-38.00    82
+CHK881    OTR0523                          GLW    43-14-03.37  079-55-12.86   217
+CHK904    OTR0004                          GLW    43-38-32.78  079-22-27.80    76
+CHK905    OTR0352                          GLW    43-42-25.34  079-17-41.50   137
+CHK928    OTR0148                          GLW    43-30-24.12  079-40-09.37   150
+CHK930    OTR0194                          GLW    43-34-50.52  079-35-16.80   102
+CHK932    OTR0033                          GLW    43-20-06.76  079-53-56.60   237
+CHK961    OTR0136                          GLW    43-37-42.17  079-40-33.85   193
+CHK973    OTR0290                          GLW    43-53-07.58  079-26-31.74   240
+CHK974    OTR0553                          GLW    43-54-58.75  079-28-35.08   320
+CHK975    OTR0408                          GLW    43-55-17.26  078-51-16.27   116
+CHK976    OTR0547                          GLW    43-52-11.80  078-51-12.20   100
+CHL218    WEST HOLLAND LANDING             BMCE   44-05-33.80  079-30-14.00   260
+CHL253    GORE RD 6542                     BMCE   43-23-35.13  080-15-36.07   304
+CHL268    OTR0044                          GLW    43-11-41.10  079-51-53.06   220
+CHL270    OTR0413                          GLW    43-54-26.89  078-48-27.72   133
+CHL273    OTR0218                          GLW    43-38-10.28  079-32-19.54   124
+CHL274    OTR0154                          GLW    43-45-46.79  079-39-35.77   182
+CHL277    OTR0092                          GLW    43-43-42.89  079-45-59.47   242
+CHL283    OTR0099                          GLW    43-44-48.84  079-44-40.20   241
+CHL288    OTR0142                          GLW    43-44-32.80  079-41-18.30   188
+CHL328    OTR0305                          GLW    43-41-43.50  079-23-49.80   150
+CHL329    ORANGEVILLE NORTH                RCTL   43-56-23.83  080-06-55.56   449
+CHL336    HWY 404 VANDORF                  BMCE   43-59-46.32  079-23-40.56   310
+CHL340    MCFARLANE DR 20                  BMCE   43-39-02.88  079-52-45.12   239
+CHL341    BRIGHTS GROVE                    BMCE   43-01-06.80  082-15-11.00   180
+CHL390    OTR0536                          GLW    43-28-05.59  079-41-38.46   131
+CHL392    OTR0078                          GLW    43-43-40.30  079-47-48.40   245
+CHL428    OTR0450                          GLW    43-28-01.20  079-48-27.72   179
+CHL462    GUELPH LAKE                      BMCE   43-36-43.00  080-10-48.00   365
+CHL468    OTR0279                          GLW    43-55-26.00  079-26-49.80   310
+CHL474    OTR0166                          GLW    43-44-46.63  079-38-05.56   170
+CHL478    OTR0626                          GLW    43-30-20.16  079-53-05.10   200
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  19
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CHL491    SCAR H BIRCHMOUNT                RCTL   43-48-06.00  079-18-32.00   179
+CHL508    GTAA TERMINAL 1/3                RCTL   43-40-58.21  079-36-39.95   171
+CHL512    EGLIGTON & LAIR                  RCTL   43-42-47.00  079-21-58.00   135
+CHL569    ALLISTON WEST                    BMCE   44-08-56.09  079-53-53.09   239
+CHL579    KSN                              TERAGO 43-28-54.12  080-31-35.04    85
+CHL627    BEWDLEY                          XCI    44-05-12.48  078-20-04.56   247
+CHL668    OTR0447                          GLW    43-55-46.16  079-05-54.35   200
+CHL670    BRANTFORD (5 EDMONDSON ST) ON    SILOWI 43-10-05.00  080-14-49.00   222
+CHL671    FAIRFIELD PLAIN (50 FAIRFIELD RD SILOWI 43-03-30.00  080-24-24.00   253
+CHL672    ST.GEORGE (50 MCLEAN SCHOOL RD)  SILOWI 43-15-45.00  080-18-39.00   298
+CHL677    THAMESFORD                       XCI    43-03-21.06  080-59-53.51   288
+CHL680    TORONTO (4 FOREST LANEWAY) ON    TORHYD 43-45-45.00  079-24-36.00   173
+CHL682    BRESLAU                          XCI    43-29-00.00  080-21-59.58   334
+CHL684    WALLENSTEIN                      XCI    43-35-17.26  080-36-40.52   390
+CHL685    TORONTO (3077 WESTON ROAD) ON    TORHYD 43-43-56.00  079-32-13.00   135
+CHL688    TORONTO (1300 ISLINGTON AVE) ON  TORHYD 43-38-59.00  079-31-36.00   117
+CHL689    TORONTO (500 DUPLEX AVE.) ON     TORHYD 43-42-36.00  079-24-05.00   165
+CHL690    TORONTO (6 FOREST LANEWAY) ON    TORHYD 43-45-44.00  079-24-31.00   171
+CHL726    PAISLEY                          XCI    44-20-16.37  081-14-47.50   273
+CHL776    BRITANNIA & APPLEBY              RCTL   43-26-46.00  079-51-04.40   185
+CHL846    STEPHENSON (5605 HIGHWAY 11 S) O COREBB 45-09-10.00  079-18-47.00   335
+CHL888    HWY 50 & RUTHERFORD RD           RCTL   43-48-13.91  079-39-55.73   202
+CHL984    LESLIE &SHEPPARD                 RCTL   43-46-10.40  079-21-45.90   139
+CHX228    DON MILLS/BOND                   RCTL   43-44-48.30  079-20-47.10   134
+CHX242    CEYLON POP                       XCI    44-13-40.04  080-35-27.60   497
+CHX269    HILL RD 60                       BMCE   43-59-22.50  078-07-31.20   162
+CHX345    KITCHENER CBC                    XCI    43-27-00.00  080-36-07.92   401
+CHX385    TORONTO EGLINTON AVE 3434        BMCE   43-44-44.22  079-12-40.14   161
+CHX387    TORONTO GALLOWAY RD              BMCE   43-45-21.46  079-11-32.24   128
+CHX406    PUSLINCH                         RCTL   43-25-47.00  080-05-54.80   307
+CHX445    ST CLAIR/OAKWOOD                 RCTL   43-40-46.11  079-26-05.79   150
+CHX446    HWY10&EGLINTON                   RCTL   43-36-29.56  079-39-23.68   171
+CHX591    TALBOT SUBSTATION (SITE 1)       TALBOT 42-26-15.00  081-47-48.00   229
+CHX592    CHATHAM ON                       TALBOT 42-29-50.00  081-53-15.00   198
+CHX604    HWY27/NASHVILLE RD               RCTL   43-51-07.70  079-38-19.30   229
+CHX704    BRACEBRIDGE (115 MANITOBA ST) ON COREBB 45-02-35.00  079-18-47.00   263
+CHX757    GOODWOOD                         RCTL   44-01-41.00  079-11-56.00   351
+CHX911    PORT COLBORNE (1595 3RD CONC) ON CANMIC 42-55-34.00  079-12-03.00   194
+CHX918    ROSSEAU BAY                      BMCE   45-13-37.13  079-38-05.53   278
+CHX919    SUCKERS LAKE                     BMCE   45-14-44.45  079-40-25.93   279
+CHX926    LITTLE LAKE JOSEPH               BMCE   45-11-16.10  079-40-47.98   269
+CHX928    HURONTARIO/DUNDAS                TERAGO 43-34-48.00  079-37-28.00   130
+CHX992    RIM TOWER                        BMCE   43-28-46.01  080-32-39.06   344
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  20
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CHX993    NIAGARA FALLS (6039 FALLSVIEW BL CANMIC 43-05-14.00  079-05-03.00   194
+CIH523    BRIGHTON BEACH-S                 TLUSMC 42-16-23.61  083-05-25.90   178
+CIH524    3155 HURONCHURCH                 TLUSMC 42-15-33.15  083-02-26.72   181
+CIH528    MATHEW BRADY                     TLUSMC 42-19-11.15  082-56-11.71   180
+CIH530    RIVERSIDE DRIVE                  TLUSMC 42-20-29.83  082-56-21.99   175
+CIH531    WYANDOTTE ST E                   TLUSMC 42-19-41.15  082-58-33.71   177
+CIH532    JEFFERSON BLVD                   TLUSMC 42-17-31.15  082-56-18.71   184
+CIH533    WILDWOOD DRIVE                   TLUSMC 42-18-21.15  082-54-55.71   181
+CIH534    COUNTY ROAD 42                   TLUSMC 42-16-34.69  082-48-15.30   182
+CIH539    WINDSOR-DIVISION                 TLUSMC 42-16-03.05  082-59-30.52   188
+CIH541    TEMPLE DRIVE                     TLUSMC 42-17-21.15  082-58-30.71   187
+CIH555    120 OAK AVENUE                   TLUSMC 42-19-01.15  083-03-07.72   175
+CIH557    1855 HURONCHURCH                 TLUSMC 42-16-54.15  083-03-22.72   182
+CIH558    MORTON IND                       TLUSMC 42-14-56.15  083-05-32.73   175
+CII526    HWY10&BRITANNIA                  RCTL   43-37-26.99  079-40-52.72   190
+CII529    401 & WINSTON C                  RCTL   43-36-05.50  079-47-19.84   209
+CII540    KENNEDY & 14TH                   RCTL   43-50-38.11  079-18-22.38   204
+CII573    QEW @ SCOTT                      RCTL   43-10-48.90  079-15-26.25    94
+CII582    LONDON AIRPORT                   TLUSMC 43-00-40.16  081-10-38.53   266
+CII592    LUNDY'SL@DRUMMND                 RCTL   43-05-19.54  079-05-53.43   211
+CII607    BARTON@BAY ST                    RCTL   43-16-01.09  079-52-13.04    78
+CII653    COLLEGE&SPADINA                  RCTL   43-39-26.81  079-24-11.38   105
+CII672    ENGLEHARD/INDUST                 RCTL   43-59-20.66  079-27-21.13   270
+CII674    KENNEDY/19 TH                    RCTL   43-55-43.10  079-19-57.70   229
+CII675    DUFFERIN/KING-VA                 RCTL   43-54-50.48  079-30-04.56   310
+CII678    KEELE/KIRBY                      RCTL   43-53-48.32  079-31-27.42   298
+CII680    JANE/CREDITSTONE                 RCTL   43-48-52.84  079-30-59.51   208
+CIJ223    DERRY&TOMKEN                     RCTL   43-39-55.68  079-41-10.72   183
+CIJ312    TORONTO (2180 YO                 TERAGO 43-42-16.20  079-23-54.28   162
+CIJ332    RIVERSIDE/PILLET                 RCTL   42-19-40.85  082-58-48.81   180
+CIJ376    KING&KINGSWAY CO                 RCTL   43-54-26.79  078-49-10.54   130
+CIJ532    HWY 7 & 9TH LINE                 RCTL   43-53-09.21  079-13-52.38   199
+CIJ603    407/UPPER MID RD                 RCTL   43-21-03.89  079-50-03.24   145
+CIJ744    CHRISTIES CORNER                 RCTL   43-16-27.70  080-02-43.70   250
+CIJ751    MURRAY HILL                      XCI    44-07-42.01  077-39-47.10   238
+CIJ877    DERRY & MAVIS                    RCTL   43-38-11.10  079-43-08.17   198
+CIJ953    GEORGIAN MALL                    RCTL   44-24-53.89  079-42-41.35   286
+CIJ964    BARTON @ GRAY                    RCTL   43-13-58.78  079-44-40.23    80
+CIJ991    UPR MIDDLE/BRANT                 RCTL   43-21-31.72  079-50-34.58   163
+CIN209    HWY93& WYEBRIDGE                 RCTL   44-42-37.80  079-53-04.10   211
+CIN216    HURONTARIO                       TERAGO 43-37-15.00  079-40-26.00   185
+CIN221    GORDON BAY                       BMCE   45-11-34.18  079-47-23.37   247
+CIN222    KTNR WEBER ST N                  BMCE   43-29-59.17  080-32-53.45   348
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  21
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CIN234    PARRY SND 69 124                 BMCE   45-22-39.18  080-02-31.40   229
+CIN269    CREDIT VALLEY                    TLUSMC 43-34-05.21  079-39-52.31   145
+CIN278    DUNDAS ST/MAVIS                  TLUSMC 43-33-59.21  079-38-15.31   131
+CIN300    QEW/HWY 10                       TLUSMC 43-34-22.21  079-36-47.30   105
+CIN312    LAKESHORE/3RD LN                 RCTL   43-23-59.86  079-42-15.43    76
+CIN317    CHARTWELL/COMWAL                 RCTL   43-28-00.22  079-40-22.25    98
+CIN329    WATSON @ YORK                    RCTL   43-33-46.30  080-12-17.43   331
+CIN362    VICTORIA@WODLAWN                 RCTL   43-34-38.48  080-15-35.08   349
+CIN365    WCLIFF@COMMISSNR                 RCTL   42-57-15.56  081-15-18.91   279
+CIN501    CHEMICAL VALLEY                  RCTL   42-56-49.50  082-24-51.51   184
+CIN514    GREEN VALLY                      RCTL   43-23-52.24  080-25-51.74   299
+CIN515    SPORTSWORLD@HWY8                 RCTL   43-24-45.88  080-23-31.29   319
+CIN535    PARLIAMENT/KG II                 RCTL   43-38-58.21  079-21-44.38    78
+CIN564    KINGST E@PRESTNS                 RCTL   43-26-25.78  080-27-57.94   328
+CIN594    LAKE ON& WALKERS                 RCTL   43-21-21.08  079-46-10.86    93
+CIN712    HOWARD@S TALBOT                  RCTL   42-13-36.30  082-59-59.62   183
+CIN783    WATERDWN/403                     TLUSMC 43-18-46.89  079-51-25.74   111
+CIN862    FOWLERS CORNERS                  RCTL   44-19-27.14  078-25-34.29   285
+CIN958    HORNER/30TH                      RCTL   43-36-11.70  079-31-54.98   100
+CIO240    HARROW                           XCI    42-02-22.09  082-55-11.02   191
+CIO261    STONEY POINT                     XCI    42-16-53.11  082-32-51.55   180
+CIO263    ROCHESTER                        XCI    42-15-04.68  082-42-27.13   188
+CIO275    ESSEX                            XCI    42-11-10.33  082-50-04.38   194
+CIO291    CAMBERLAND BEACH                 RCTL   44-42-56.62  079-22-57.14   228
+CIO318    KIPLING/STEELES                  TERAGO 43-45-12.60  079-35-09.96   152
+CIO389    TRAFALGAR 10TH                   BMCE   43-36-22.20  079-53-44.35   351
+CIO394    ST CATH LAKE ST                  BMCE   43-11-55.21  079-15-04.25    81
+CIO636    BLENHEIM WATER TOWER POP         XCI    42-20-01.97  082-00-15.98   205
+CIO646    DUNDAS DT                        RCTL   43-15-49.17  079-57-22.17    92
+CIO682    MIDLAND & LAWRENCE               RCTL   43-45-14.40  079-15-54.50   161
+CIO728    TRAFALGAR GS                     HYONE  43-31-40.50  079-43-55.00   186
+CIO749    KEELE & TESTON                   RCTL   43-52-18.77  079-30-51.95   268
+CIO799    MELVILLE                         RCTL   43-54-08.44  080-04-17.34   486
+CIO839    CHURCH'S FARM                    RCTL   44-16-21.20  079-40-46.35   289
+CIO855    COPETOWN                         BMCE   43-14-15.52  080-04-29.09   237
+CIO890    CENTENNIAL/ROBB                  RCTL   43-54-42.00  080-06-47.00   450
+CIO992    ZEPHYR                           XCI    44-12-08.89  079-14-20.68   280
+CIO993    KESWICK                          XCI    44-11-20.76  079-25-21.10   277
+CIO994    BRADFORD POP                     XCI    44-08-10.79  079-34-08.21   278
+CIZ331    BOUGH BEECHES                    TERAGO 43-37-38.70  079-36-26.72   150
+CIZ332    WEST MALL                        TERAGO 43-37-31.21  079-33-31.30   122
+CJL624    BALLANTRAE                       XCI    44-02-56.58  079-17-48.83   346
+CJL626    ON2002-LONDON POP                TLUSMC 42-59-13.16  081-15-03.54   245
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  22
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CJL627    LONDON HAM-CLARK                 TLUSMC 42-58-40.16  081-09-18.53   254
+CJL648    LONDON DOWNTOWN                  TLUSMC 42-58-39.88  081-14-36.34   249
+CJL652    LONDON KING ST                   TLUSMC 42-59-05.15  081-14-41.54   246
+CJL694    DUFFERIN-16TH                    TLUSMC 43-58-51.20  079-31-32.31   334
+CJL781    HWY 400-17TH                     TLUSMC 43-59-09.20  079-34-56.32   314
+CJL858    CASINO RAMA                      RCTL   44-38-50.40  079-20-26.31   223
+CJL865    HWY 401 407                      BMCE   43-34-55.75  079-48-38.39   208
+CJL868    ST CATH-LAKE POP                 TLUSMC 43-09-20.21  079-14-45.25   102
+CJL881    ST CATHERINE 550                 TLUSMC 43-09-37.21  079-14-34.25   106
+CJL891    LEAMINGTON CBC                   XCI    42-06-46.01  082-39-51.98   198
+CJL892    QEW/WELLAND C                    TLUSMC 43-10-42.21  079-12-49.25   101
+CJL916    ST CATHERINE 385                 TLUSMC 43-07-12.21  079-14-54.25   175
+CJL945    HOMER WATSON@401                 RCTL   43-22-52.36  080-24-43.04   339
+CJL989    NIAGARA FLS CAS                  RCTL   43-05-00.11  079-04-55.53   174
+CKG249    EVERETT (SIDEROAD 5 & CONC 7) ON CAWINT 44-10-46.00  079-54-26.00   265
+CKG276    EUGENIA SOUTH                    XCI    44-18-06.41  080-29-48.70   435
+CKG296    HARRIS RD                        BMCE   42-58-13.80  081-04-30.00   263
+CKG297    BIGGAR                           BMCE   43-15-41.00  079-49-45.01    78
+CKG298    DOFASCO                          BMCE   43-15-59.00  079-48-22.00    75
+CKG300    BOSWELL DR AND IRELAND RD        BMCE   42-49-52.82  080-16-51.17   319
+CKG308    GLEN EDEN                        BMCE   43-30-33.48  079-57-20.88   259
+CKG385    ONEIDA TWP (CAYUGA TOWER) ON     SILOWI 43-00-09.00  080-03-36.00   205
+CKG389    TUSCARORA (SN WATER TOWER) ON    SILOWI 43-04-02.00  080-07-26.00   209
+CKG449    KINGSVILLE POP                   XCI    42-02-28.75  082-44-13.34   193
+CKG450    LEAMINGTON                       XCI    42-02-51.24  082-38-19.18   216
+CKG477    ST CAT RLRD                      BMCE   43-13-17.21  079-04-22.23    97
+CKG479    MINETT                           BMCE   45-11-38.00  079-37-28.27   275
+CKG620    MILTONT_7385 APPLEBY LINE        TERAGO 43-28-36.00  079-55-00.00   321
+CKG635    GLANBROOK TWP (9519 CHIPPEWA RD) ICAN   43-08-05.00  079-56-32.00   220
+CKG687    TORONTO (55 WYNFORD HEIGHTS CR)  ICASYS 43-43-38.00  079-19-29.00   135
+CKG704    WESTNEY & TAUNTON                BMCE   43-53-16.10  079-02-02.05   120
+CKG706    CAON0372 (37935 MACDONALD ROAD)  WIREIE 43-21-57.35  081-37-04.03   250
+CKG755    GREENWOOD                        BMCE   44-32-38.00  078-34-09.00   272
+CKG764    BOND HEAD (3569 COUNTY RD 27) ON CAWINT 44-06-53.00  079-40-44.00   265
+CKG828    TARA DT                          BMCE   44-28-50.48  081-08-49.25   229
+CKG829    WASAUKSING                       BMCE   45-18-28.00  080-12-57.16   184
+CKG830    PARRY SOUND ISLAND               BMCE   45-19-25.80  080-10-33.96   195
+CKG863    STAPLES                          XCI    42-11-55.25  082-37-06.31   183
+CKG875    DALE RD                          BMCE   44-01-24.56  078-10-55.06   170
+CKG884    HPR - 190 HESPLER RD.            TERAGO 43-22-59.70  080-19-16.28    76
+CKG929    PORT HOPE WT POP                 XCI    43-57-55.12  078-19-36.51   345
+CKG930    COBOURG WT                       XCI    43-58-02.83  078-10-39.57   105
+CKG934    FENELLA POP                      XCI    44-08-35.66  078-05-32.89   293
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  23
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CKG972    ZORRA TOWER (27TH LINE & HWY 19) EXCTEL 43-02-38.00  080-55-23.00   297
+CKG992    CHATSWORTH DT                    BMCE   44-27-07.56  080-53-39.84   289
+CKJ212    90 BISCAYNE CRESCENT             TERAGO 43-40-53.76  079-42-49.68   198
+CKJ315    FRYING PAN                       BMCE   45-10-05.99  080-08-06.00   182
+CKJ403    BURKETON (R)                     BMCE   44-01-46.92  078-47-10.32   298
+CKJ505    CAON0324 (TELUS COLO PORT PERRY) WIREIE 44-06-29.00  078-55-07.51   288
+CKJ506    CAON0321 (ISLAND RD PORT PERRY)  WIREIE 44-10-53.34  078-53-17.73   270
+CKJ507    CAON0322 (VAN EDWARD PORT PERRY) WIREIE 44-05-43.64  078-56-26.86   254
+CKJ549    FARMINGDON CHURCH                BMCE   43-06-59.00  080-16-48.00   230
+CKJ551    TELFER RD                        BMCE   43-01-01.00  082-17-50.00   182
+CKJ591    CRYSTAL BEACH                    XCI    42-18-53.42  082-26-17.02   177
+CKJ739    COVERDALE                        BMCE   43-57-40.11  078-07-25.22    84
+CKJ754    TORONTO (2045 LAKESHORE BLVD) ON ICASYS 43-37-53.00  079-28-27.00    88
+CKJ798    CAON0301 (266 DUNDAS ST TRENTON) WIREIE 44-06-21.28  077-33-29.32    79
+CKJ803    IVY                              BMCE   44-16-45.70  079-46-16.20   279
+CKJ824    FISHER DR                        BMCE   44-15-47.44  078-21-11.53   199
+CKJ825    HWY7 AND HWY115                  BMCE   44-13-53.29  078-23-26.67   200
+CKJ852    THORNTON                         BMCE   44-15-09.00  079-42-38.99   295
+CKJ861    ULLSWATER                        BMCE   45-12-30.00  079-30-35.00   307
+CKJ895    CAON0344(1520 HWY 3 CAYUGA)      WIREIE 42-57-05.16  079-50-28.10   193
+CKJ896    CAON0496 (5345 HWY 6 CALEDONIA)  WIREIE 43-02-49.20  079-58-44.04   200
+CKJ902    NEWPARK X2                       XCI    44-09-21.96  078-43-45.84   303
+CKJ908    CAON0569 (TELUS COLO PUCE)       WIREIE 42-16-34.68  082-48-15.25   181
+CKJ911    CAON0587(TELUS COLO BELLE RIVER) WIREIE 42-15-34.09  082-42-21.56   180
+CKJ939    CAYUGA (551 IRISH LINE RD) ON    ICAN   42-55-38.00  079-52-51.00   210
+CKO420    LEAMINGTON                       TLUSMC 42-04-43.21  082-36-18.11   193
+CKO432    1333 OUELLETTE                   TLUSMC 42-18-12.15  083-01-48.72   181
+CKO452    BRANTFORD POP                    XCI    43-10-05.66  080-14-49.19   221
+CKO834    KENNEDY AURORA                   BMCE   44-01-28.21  079-20-58.29   327
+CKO915    FERGUS TS                        XCI    43-42-24.74  080-20-28.78   422
+CKT212    ST. GEORGE (150 HOWELL ROAD) ON  SILOWI 43-15-31.00  080-15-21.00   269
+CKT213    WHITE SWAN (1739 COLBORNE ST E)  SILOWI 43-09-55.00  080-08-03.00   212
+CKT221    NEWMARKET HUB                    TERAGO 44-02-23.00  079-28-29.00   270
+CKT222    AURORA                           TERAGO 43-59-28.30  079-28-01.33   262
+CKT226    MUNN'S & 6TH LIN                 RCTL   43-29-09.90  079-43-10.70   147
+CKT227    DON MILLS                        TERAGO 43-45-18.00  079-20-50.00   133
+CKT229    YSC                              TERAGO 43-41-11.00  079-23-28.00   136
+CKT303    BROS3 1500 MAX BROSE DR          TERAGO 42-56-14.00  081-10-02.00   272
+CKT345    CAON0478 (TELUS CO-LO PENETANG)  WIREIE 44-47-28.00  079-57-19.00   240
+CKT447    BADDOW                           XCI    44-36-55.08  078-45-17.99   291
+CKT470    FOUR MILE LAKE EAST              XCI    44-40-30.00  078-43-43.32   289
+CKT473    HWY141&ULLSWATER                 RCTL   45-12-30.02  079-30-35.65   317
+CKT561    MILTON NORTH                     BMCE   43-31-39.36  079-53-25.74   204
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  24
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+CKT592    LAKEHURST                        XCI    44-31-37.06  078-25-59.73   271
+CKT701    BALLINAFAD                       RCTL   43-41-11.27  080-00-09.46   359
+CKT822    LAKE JOSEPH                      BMCE   45-13-25.50  079-45-47.56   245
+CKT823    OUTER HARBOR                     RCTL   44-47-31.70  079-57-10.60   218
+CKT827    RIVERSIDE & MICHELLE             RCTL   42-58-46.00  079-16-12.70   177
+CKT852    WESTCOURT PLACE                  TERAGO 42-19-06.40  083-02-15.70   181
+CKT862    ERIE BEACH                       XCI    42-16-21.94  081-59-38.36   178
+CKT863    ERIEAU                           XCI    42-18-17.21  081-56-13.09   180
+CKY203    ST MARYS WT                      BMCE   43-15-08.01  081-08-18.39   324
+CKY213    WALKERTON WEST                   BMCE   44-07-53.15  081-09-50.16   286
+CKY217    MISSISSAUGA (72 STANDISH COURT)  WINMER 43-37-30.00  079-40-58.00   188
+CKY288    HOLIDAY PINES                    BMCE   44-16-38.39  078-03-12.60   194
+CKY443    ROCKWOOD                         BMCE   43-37-46.85  080-08-45.74   386
+CKY451    GRAPHITE                         BMCE   45-12-51.60  077-52-04.60   428
+CKY465    SEM_6625 KENNEDY RD_MISSISSAUGA  TERAGO 43-38-51.04  079-40-58.72   195
+CKY495    CAON0650 (621 CONCE 8 )TEESWATER WIREIE 44-00-54.00  081-16-41.00   309
+CKY498    CAON0663 (HARTMAN TWR)WALKERTON  WIREIE 44-07-44.51  081-07-25.87   312
+CKY512    INNISFIL (1578 ST JOHNS ROAD) ON INSFIL 44-17-38.00  079-32-08.00   225
+CKY513    INNISFIL (2168 125TH SIDE RD) ON INSFIL 44-19-09.00  079-32-22.00   224
+CKY515    INNISFIL (YONGE & 7285 SIMCOE 4) INSFIL 44-17-41.00  079-36-38.00   288
+CKY517    INNISFIL(YONGE ST & 7285SIMCOE 4 INSFIL 44-17-41.00  079-36-38.00   288
+CKY525    LAKE CHARLES                     BMCE   44-45-25.74  081-00-34.67   258
+CKY526    WOLSELEY                         BMCE   44-42-58.46  081-00-45.28   245
+CKY529    BROCK RD DERSAN STR              BMCE   43-53-11.67  079-04-48.83   130
+CKY608    LAKESHORE & THIRD ST.            RCTL   43-11-09.10  079-17-35.60    90
+CKY664    INNISFIL (2033 COMMERCE PARK DR) INSFIL 44-17-01.00  079-40-29.00   295
+CKY689    INNISFIL (2255 HWY 89 / YONGE ST INSFIL 44-12-50.00  079-35-29.00   300
+CKY745    ADELAIDE ST N 1570               BMCE   43-02-09.80  081-15-16.00   258
+CKY746    LONDON GOSPEL CHURCH             BMCE   43-02-36.80  081-13-16.90   258
+CKY793    KITCHENER (381 PLAINS RD) ON     CONSER 43-22-28.00  080-29-05.00   352
+CKY796    KITCHENER (81 CHURCH ST) ON      CONSER 43-26-48.00  080-29-16.00   343
+CKY820    YOF_YONGE/401                    TERAGO 43-45-33.48  079-24-36.72   176
+CKY918    ANCONA POINT W5090               BMCE   44-30-09.50  078-35-39.70   281
+CKY985    MTSA5                            TERAGO 43-31-27.11  080-13-37.34   335
+CYF200    MCCOWAN/STEELES                  RCTL   43-49-29.21  079-16-28.28   191
+CYF202    FREEPORT                         RCTL   43-25-35.57  080-26-22.43   328
+CYF204    CENTENNIAL P.S.                  RCTL   43-12-27.10  079-46-30.73   188
+CYF329    KEELE & 407                      RCTL   43-47-22.80  079-29-34.20   204
+CYF349    404/16AV                         RCTL   43-51-54.01  079-22-43.99   197
+CYF359    HARRY WALKER PKW                 BMCE   44-03-37.20  079-25-16.30   281
+CYF393    E.C ROW & WALKER                 RCTL   42-16-57.35  082-58-34.91   187
+CYF395    QEW/ERIN MILLS                   RCTL   43-31-39.71  079-38-46.61   118
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2019.06.25
+MASTER DATA BASE -- Interference Study Report -                         Page:  25
+                    Environment as Interferer - Station Summary
+Project Code [FMDA20]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+1023 Records.

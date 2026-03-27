@@ -1,0 +1,3446 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 13972
+
+PDF Name: addwrngcall
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKXA
+Characters following = in call1 must agree with oper code field
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'addwrngcall' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: addwrngcall, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:17
+*
+TT,N,ADDWRNGCALL,UNKC,NAD83  THIS IS A TEST,,
+*##############################################################################
+SK,A,U,=UNKNXB,SITE B,50-09-59.54N,121-09-12.57W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 64.19, At. Loss = 0.35
+AK,A,U,=UNKNXB,=UNKXA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,16.23,0.26,38.64,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNXB,=UNKXA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-29.0, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKXA,SITE A,50-29-59.56N,121-00-04.59W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 64.19, At. Loss = 0.35
+AK,A,U,=UNKXA,=UNKNXB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,196.35,-0.52,38.64,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 64.19, At. Loss = 0.35
+AK,A,U,=UNKXA,=UNKNXB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,196.35,-0.52,38.64,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKXA,=UNKNXB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-28.6,2.8,-28.4, , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 5888
+
+PDF Name: wrngcallnh
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =TLUSMSFX
+Characters following = in call1 must agree with oper code field
+
+                ----------- WARNINGS -----------
+
+
+Site Call: =TLUSMSFX
+Lat & Long for site is the same as for existing site:- 
+	CFW864 BURNABY MTN(SFU) TLUSMC
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  1 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 1 warnings.
+The PDF 'wrngcallnh' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: wrngcallnh, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:18
+*
+TT,N,WRNGCALLNH,,NAD83,,
+*##############################################################################
+SK,A,U,=TLUSMSFX,BURNABY MTN (SFU,49-16-38.00N,122-55-11.73W,334.0, ,
+SD,BC,TLUSMC,2,BC0913, , , ,1,4, , ,FT
+*====  VAN CENTER  ====== Ant Gain = 36.3, Dist Loss = 55.62, At. Loss = 0.42
+AK,A,U,=TLUSMSFX,CGE813,14C,10, ,
+AQ,TR,HP2-144,23.0,272.21,-0.77,14.40,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.42, Rx=83.69
+CK,A,U,=TLUSMSFX,CGE813,14C,1010, ,
+CT, , , ,14825000.00,V,10,8.9, , ,ATI8D15G,H,28.0,0.0,D7128A, ,2,D
+CR,15300000.00,V,10, , ,ATI8D15G,H,D7128A, ,2,D
+CQ,8.9,-47.6, , , , , ,
+CO, , , , , , , ,2003.10.01
+*##############################################################################
+SK,N,U,CGE813,VAN CENTER,49-16-55.38N,123-07-03.76W,33.0,2009.04.02,13:40
+SD,BC,TLUSMC,5,BC2158,112-3268489, , ,1, ,0000,1992.08.26,FT
+*====  ------ Not Found -----   Ant Gain = 42.5, Dist Loss = 55.62, At. Loss = 0.42
+AK,A,U,CGE813,=TLUSMSFX,14C,99, ,
+AQ,TR,P4-144D,142.0,92.06,0.68,14.40,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.69, Rx=83.42
+CK,A,U,CGE813,=TLUSMSFX,14C,1010, ,
+CT, , , ,15300000.00,V,99,5.7, , ,ATI8D15G,H,28.0,0.0,D7128A, ,2,D
+CR,14825000.00,V,99, , ,ATI8D15G,H,D7128A, ,2,D
+CQ,5.7,-47.3, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 6304
+
+PDF Name: wrngcall
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+                *********** ERRORS ***********
+
+
+Change Call Sign: :=TLUSMCR2: to :=TLUSMXR2:
+The operator code in the new call sign must be the same as the operator code for this site.
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  1 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'wrngcall' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: wrngcall, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:19
+*
+TT,N,WRNGCALL,,NAD83,2003.07.31,09:49
+GK,=TLUSMCR2,=TLUSMXR2,BC418
+*##############################################################################
+SK,N,U,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2020.01.14,08:21
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2020.01.14,08:21
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2020.01.14,08:21
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2020.01.14,08:21
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2020.01.14,08:21
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-37.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2020.01.14,08:21
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2020.01.14,08:21
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2020.01.14,08:21
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2020.01.14,08:21
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2020.01.14,08:21
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 13920
+
+PDF Name: delhop
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: XVBB567
+
+A site must have at least one antenna and one channel.
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+XXOJ737 XVBB567 2G 21
+Could not retrieve remote Antenna
+You are deleting all channels for this antenna.
+
+XXOJ737 XVBB567 2G 22
+Could not retrieve remote Antenna
+You are deleting all channels for this antenna.
+
+                ----------- WARNINGS -----------
+
+
+XXOJ737 XVBB567 2G 21
+This Antenna record has been modified since you retrieved it.
+
+XXOJ737 XVBB567 2G 22
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 5 errors and 2 warnings.
+The PDF 'delhop' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: delhop, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:21
+*
+TT,N,DELHOPNEW,,,,
+*##############################################################################
+SK,U,U,XVBB567,JOUTEL T.,49-33-36.32N,078-06-52.11W,330.0,2020.01.14,08:21
+SD,QC,HYQU,5,1992,551-3708579,2F,3866,1, , ,1992.01.01,FT
+*====  CASTAGNIER T.  === Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,D,U,XVBB567,XXOJ737,2G,21,2015.06.17,14:03
+AQ,TR,PL8-23D,94.8,170.82,-0.21,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*----  CASTAGNIER T.  === Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,D,U,XVBB567,XXOJ737,2G,22,2015.06.17,14:03
+AQ,DV1,PL8-23D,116.8,170.82,-0.24,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.05, Rx=67.22
+CK,D,U,XVBB567,XXOJ737,2G,2001,2015.06.17,14:03
+CT, , , ,2525000.00,V,21,6.3, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2295000.00,V,21, , ,QDR254, ,D7007,4DS1,5,C
+CQ,6.7,-47.6, , , , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.25, Rx=67.44
+CK,D,U,XVBB567,XXOJ737,2G,2002,2015.06.17,14:03
+CT, , , ,2585000.00,V,21,6.3, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2355000.00,V,21,22, ,QDR254, ,D7007,4DS1,5,C
+CQ,6.7,-47.8,7.0,-48.1, , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*##############################################################################
+SK,N,U,XXOJ737,CASTAGNIER T.,48-50-17.33N,077-56-16.13W,396.2,2020.01.14,08:21
+SD,QC,HYQU,5,1979,551-2351485,2F,4032,1, , ,1979.01.01,FT
+*====  JOUTEL T.  ======= Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,U,XXOJ737,XVBB567,2G,21,2015.06.17,14:03
+AQ,DV1,PL8-23D,118.0,350.96,-0.34,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*----  JOUTEL T.  ======= Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,U,XXOJ737,XVBB567,2G,22,2015.06.17,14:03
+AQ,TR,PL8-23D,95.9,350.96,-0.31,81.32,N, , , , , , ,2005.05.30
+AO, , , , , , , , , , , , , ,1996,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.22, Rx=68.05
+CK,D,U,XXOJ737,XVBB567,2G,2001,2015.06.17,14:03
+CT, , , ,2295000.00,V,22,6.8, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2525000.00,V,22, , ,QDR254, ,D7007,4DS1,5,C
+CQ,6.0,-47.2, , , , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.44, Rx=68.25
+CK,D,U,XXOJ737,XVBB567,2G,2002,2015.06.17,14:03
+CT, , , ,2355000.00,V,22,6.8, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2585000.00,V,22,21, ,QDR254, ,D7007,4DS1,5,C
+CQ,6.0,-47.4,7.0,-48.4, , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+Error - line #23, call1 field MUST be present.
+
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 8460
+
+PDF Name: ftest1
+
+ERROR - pdf 'ftest1' does not exist
+* TS-PDF: ftest1, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:21
+*
+Filename does not exist for EXPORT/PRINT
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 4260
+
+PDF Name: ftest2
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKNA
+Must Enter Name field.
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest2' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest2, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:22
+*
+TT,N,FTEST2,FMDA,NAD83PDF EXAMPLE,,
+*##############################################################################
+SK,A,U,=UNKNA, ,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,2, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,2,X
+CR,6565000.00,H,1,2, ,RD-U6C,A,D7138,3DS3,2,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,2, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,2,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,2,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 16224
+
+PDF Name: ftest3
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: =UNKNA
+Lat/Long outside our area.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=UNKNA =UNKNB 6D 1
+Distance (11034.9) is greater than 90km.
+
+=UNKNA =UNKNB 6D 2
+Distance (11034.9) is greater than 90km.
+
+=UNKNB =UNKNA 6D 1
+Distance (11034.9) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 3 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 4 warnings.
+The PDF 'ftest3' is validated for :UPDATE:
+
+PDF Validation Completed - 08:30
+* TS-PDF: ftest3, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:23
+*
+TT,U,FTEST3,,NAD83,1996.05.24,14:00
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,00-00-00.00N,000-00-00.00W,999.0, ,
+SD,BC,UNKN,2, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 113.31, At. Loss = 101.01
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,320.45,-44.95,11034.88,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 113.31, At. Loss = 101.01
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,320.45,-44.95,11034.88,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C, ,31.0,0.0,D7138,3DS3,2,X
+CR,6565000.00,H,1,2, ,RD-U6C, ,D7138,3DS3,2,X
+CQ,3.0,-177.1,2.8,-176.9, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,2, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 113.31, At. Loss = 101.01
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,89.18,-44.94,11034.88,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,2,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,2,X
+CQ,3.0,-181.4, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 13424
+
+PDF Name: ftest3a
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKNA
+Must Enter Latitude field.
+Must Enter Longitude field.
+
+SUMMARY OF SITE RECORDS:  2 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=UNKNA =UNKNB 6D 1
+Distance (11034.9) is greater than 90km.
+
+=UNKNA =UNKNB 6D 2
+Distance (11034.9) is greater than 90km.
+
+=UNKNB =UNKNA 6D 1
+Distance (11034.9) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 3 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 2 errors and 3 warnings.
+The PDF 'ftest3a' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest3a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:24
+*
+TT,N,FTEST3A,,NAD83,1998.10.02,08:53
+*##############################################################################
+SK,A,U,=UNKNA,SITE A, , ,999.0, ,
+SD,BC,UNKN,2, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 113.31, At. Loss = 101.01
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,320.45,-44.95,11034.88,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 113.31, At. Loss = 101.01
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,320.45,-44.95,11034.88,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C, ,31.0,0.0,D7138,3DS3,2,X
+CR,6565000.00,H,1,2, ,RD-U6C, ,D7138,3DS3,2,X
+CQ,3.0,-177.1,2.8,-176.9, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,2, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 113.31, At. Loss = 101.01
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,89.18,-44.94,11034.88,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,2,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,2,X
+CQ,3.0,-181.4, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 16476
+
+PDF Name: ftest4
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+TX Frequency present but no TX Power.
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest4' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest4, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:25
+*
+TT,N,FTEST4,FMDA,NAD83PDF EXAMPLE,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A, ,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-63.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 16508
+
+PDF Name: ftest5
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKNA
+Must Enter Ground Height field.
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest5' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest5, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:26
+*
+TT,N,FTEST5,FMDA,NAD83PDF EXAMPLE,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W, , ,
+SD,BC,UNKN,2, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,0.58,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,0.59,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C, ,31.0,0.0,D7138,3DS3,2,X
+CR,6565000.00,H,1,2, ,RD-U6C, ,D7138,3DS3,2,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,2, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,-0.95,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,2,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,2,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 10100
+
+PDF Name: ftest15
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=UNKNA =UNKNB 6D 1
+Must enter Antenna Use field.
+Must enter Antenna Code field.
+Must enter Antenna Height field.
+Antenna Code () not present in the Antenna Table.
+Could not retrieve remote Antenna
+
+SUMMARY OF ANTENNA RECORDS:  5 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Invalid Antenna Use () for main TX Antenna 1
+Invalid Ause () for main RX Antenna 1.
+
+                ----------- WARNINGS -----------
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Could not read Antenna RX1 data.
+
+Channel: =UNKNB =UNKNA 6D 1A
+Could not read remote channel's Antenna TX1 data.
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 7 errors and 2 warnings.
+The PDF 'ftest15' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest15, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:27
+*
+TT,N,FTEST15,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = (Not Found), Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ, , , ,191.34,-0.44,54.89,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.3,2.8,-31.1, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-31.7, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 7672
+
+PDF Name: ftest16
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKNA
+Operator Code must be present.
+Operator Code () not present in SDB
+
+SUMMARY OF SITE RECORDS:  2 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 2 errors and 0 warnings.
+The PDF 'ftest16' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest16, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:28
+*
+TT,N,FTEST16,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC, ,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+Error - line #4, Change Call Sign station name field MUST be present in order to import.
+
+Error - line #5, Change Call Sign name field, end of data found
+
+Error - line #6, Change Call Sign station name field MUST be present in order to import.
+
+Error - line #7, Change Call Sign station name field MUST be present in order to import.
+
+Error - line #8, Change Call Sign station name field MUST be present in order to import.
+
+Error - line #9, Change Call Sign station name field MUST be present in order to import.
+
+Error - line #10, Change Call Sign station name field MUST be present in order to import.
+
+Error - line #11, Change Call Sign station name field MUST be present in order to import.
+
+Error - line #12, Change Call Sign station name field MUST be present in order to import.
+
+Error - line #13, Change Call Sign station name field MUST be present in order to import.
+
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 15628
+
+PDF Name: ftest17
+
+ERROR - pdf 'ftest17' does not exist
+* TS-PDF: ftest17, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:29
+*
+Filename does not exist for EXPORT/PRINT
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 3044
+
+PDF Name: ftest17a
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKNA Name: SITE A
+Missing Command; must be A, B, D, N or U.
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna =UNKNA =UNKNB 6D 2
+Missing Command; must be A, B, D, N or U.
+
+SUMMARY OF ANTENNA RECORDS:  1 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Missing Command; must be A, B, D, N or U.
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 3 errors and 0 warnings.
+The PDF 'ftest17a' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest17a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:30
+*
+TT,N,FTEST17A,,NAD83,,
+*##############################################################################
+SK, ,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK, ,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.89,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK, , ,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.3,2.8,-31.1, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+Error - line #30, call1 field MUST be present in order to import.
+
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 14164
+
+PDF Name: ftest18
+
+ERROR - pdf 'ftest18' does not exist
+* TS-PDF: ftest18, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:30
+*
+Filename does not exist for EXPORT/PRINT
+Error - line #8, call2 field MUST be present in order to import.
+
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 11464
+
+PDF Name: ftest19
+
+ERROR - pdf 'ftest19' does not exist
+* TS-PDF: ftest19, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:31
+*
+Filename does not exist for EXPORT/PRINT
+Error - line #8, band code MUST be present in order to import.
+
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 11956
+
+PDF Name: ftest20
+
+ERROR - pdf 'ftest20' does not exist
+* TS-PDF: ftest20, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:31
+*
+Filename does not exist for EXPORT/PRINT
+Error - line #16, chid field MUST be present in order to import.
+
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 1620
+
+PDF Name: ftest21
+
+ERROR - pdf 'ftest21' does not exist
+* TS-PDF: ftest21, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:32
+*
+Filename does not exist for EXPORT/PRINT
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 15416
+
+PDF Name: ftest22
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKNA
+Must have a transmitting frequency if CALL1 begins with '=' (=UNKNA)
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest22' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest22, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:33
+*
+TT,N,FTEST22,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , , ,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR, ,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0, , , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 12996
+
+PDF Name: ftest23
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+TX Frequency present but no polarization
+
+Channel: =UNKNB =UNKNA 6D 1A
+RX Frequency present but no polarization.
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 2 errors and 0 warnings.
+The PDF 'ftest23' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest23, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:34
+*
+TT,N,FTEST23,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00, ,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00, ,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 1084
+
+PDF Name: ftest24
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+TX Frequency present but no TX Power.
+TX Frequency present but no TX Equipment.
+No main TX Antenna for this channel.
+FeeTX must be 1-9 or A-T,V,X
+
+
+                ----------- WARNINGS -----------
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Local transmit () and Remote receive (D7138) traffic codes do not agree.
+Local transmit () and Remote receive (X) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 4 errors and 2 warnings.
+The PDF 'ftest24' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest24, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:35
+*
+TT,N,FTEST24,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H, , , , , ,A, ,0.0, ,3DS3,3,
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-8.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 14536
+
+PDF Name: ftest25
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+TX Frequency present but no TX Status Code.
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest25' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest25, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:36
+*
+TT,N,FTEST25,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3, ,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3, ,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 12328
+
+PDF Name: ftest26
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'ftest26' is validated for :UPDATE:
+
+PDF Validation Completed - 08:30
+* TS-PDF: ftest26, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:37
+*
+TT,U,FTEST26,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138, ,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138, ,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 6168
+
+PDF Name: ftest27
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=UNKNA =UNKNB 6D 2
+Could not retrieve remote Antenna
+
+SUMMARY OF ANTENNA RECORDS:  1 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+ANTNUMBRX1 must be present.
+No Main RX Antenna for this channel
+RX Equipment not present.
+
+RX Traffic not present.
+
+                ----------- WARNINGS -----------
+
+
+Channel: =UNKNB =UNKNA 6D 1A
+Local transmit (D7138) and Remote receive () traffic codes do not agree.
+Local transmit (X) and Remote receive () fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+*ERROR* Antenna from =UNKNA to =UNKNB band 6D, anum 2 is not referenced by any channel.
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 6 errors and 2 warnings.
+The PDF 'ftest27' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest27, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:38
+*
+TT,N,FTEST27,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.89,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H, , , , ,B, ,3DS3,3,
+CQ,3.0,-75.8,2.8, , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 6444
+
+PDF Name: ftest28
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: =UNKNA
+Lat/Long outside our area.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna =UNKNB =UNKNA 6D 1
+Azimuth (361.040009) must be between 0.00 and 360.00
+
+                ----------- WARNINGS -----------
+
+
+=UNKNA =UNKNB 6D 1
+Distance (4826.9) is greater than 90km.
+
+=UNKNA =UNKNB 6D 2
+Distance (4826.9) is greater than 90km.
+
+=UNKNB =UNKNA 6D 1
+Distance (4826.9) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  1 errors and 3 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 4 warnings.
+The PDF 'ftest28' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest28, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:39
+*
+TT,N,FTEST28,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,90-00-00.00N,180-00-00.00W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 106.12, At. Loss = 44.18
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,124.71,-16.69,4826.91,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 106.12, At. Loss = 44.18
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,124.71,-16.69,4826.91,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-113.8,2.8,-113.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 106.12, At. Loss = 44.18
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,361.03,-16.68,4826.91,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-115.9, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 15856
+
+PDF Name: ftest28a
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKNA Name: SITE A
+Ground height (6201.000000) must be between 0.0 and 6200.0
+
+                ----------- WARNINGS -----------
+
+
+Site Call: =UNKNA
+Lat/Long outside our area.
+
+SUMMARY OF SITE RECORDS:  1 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=UNKNA =UNKNB 6D 1
+Distance (4320.3) is greater than 90km.
+
+=UNKNA =UNKNB 6D 2
+Distance (4320.3) is greater than 90km.
+
+=UNKNB =UNKNA 6D 1
+Distance (4320.3) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 3 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 4 warnings.
+The PDF 'ftest28a' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest28a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:40
+*
+TT,N,FTEST28A,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,90-00-00.00N,120-00-00.00W,6201.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 105.16, At. Loss = 39.55
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,180.15,-14.92,4320.31,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 105.16, At. Loss = 39.55
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,180.15,-14.92,4320.31,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-108.3,2.8,-108.1, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 105.16, At. Loss = 39.55
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,0.00,-14.78,4320.31,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-110.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 6156
+
+PDF Name: ftest28b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+AFSLRX1 must be present.
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest28b' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest28b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:41
+*
+TT,N,FTEST28B,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ, ,-28.8, ,-28.8, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 10492
+
+PDF Name: ftest29
+
+
+                *********** ERRORS ***********
+
+
+=UNKNA->=UNKNB Band:6D
+PURGE 13 - Antenna has at least one of call1, call2, band code, or anum blank.
+
+
+The above errors in the first pass preclude continuing.
+* TS-PDF: ftest29, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:41
+*
+TT,N,FTEST29,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,0, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.89,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.89,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,0,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,0,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.3,2.8,-31.1, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.89,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-31.7, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 17124
+
+PDF Name: ftest29a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna =UNKNA =UNKNB 6D 2
+Antenna height (1001.00) must be greater than 0m and no more than 1000m
+
+SUMMARY OF ANTENNA RECORDS:  1 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest29a' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest29a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:42
+*
+TT,N,FTEST29A,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,1001.0,191.34,-1.49,54.92,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,1.12,54.92,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 11556
+
+PDF Name: ftest29b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna =UNKNA =UNKNB 6D 2
+Antenna Use (XV1) must be TX, STX, TR, RX, DV1, DV2.
+Antenna height (1001.00) must be greater than 0m and no more than 1000m
+
+=UNKNA =UNKNB 6D 2
+Could not retrieve remote Antenna
+
+SUMMARY OF ANTENNA RECORDS:  3 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Invalid ause (XV1) for RX or DV1 Antenna 2
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 4 errors and 0 warnings.
+The PDF 'ftest29b' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest29b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:43
+*
+TT,N,FTEST29B,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,XV1,UHX10-65EL,1001.0,191.34,-1.49,54.89,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,1.12,54.92,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 5212
+
+PDF Name: ftest30
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+AFSLTX1 (100.699997) must be between 0 and 99.9
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest30' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest30, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:44
+*
+TT,N,FTEST30,,NAD83,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,100.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-129.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 1384
+
+PDF Name: ftest31
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+XMCWAIK VAN785 10A 10
+Antenna Code (P8-105V) not present in the Antenna Table.
+
+SUMMARY OF ANTENNA RECORDS:  1 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: XMCWAIK VAN785 10A 1000
+AFSLTX1 must be present.
+
+                ----------- WARNINGS -----------
+
+
+Channel: VAN785 XMCWAIK 10A 1000
+Could not read remote channel's Antenna TX1 data.
+
+Channel: XMCWAIK VAN785 10A 1000
+Could not read Antenna RX1 data.
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 2 errors and 2 warnings.
+The PDF 'ftest31' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest31, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:45
+*
+TT,N,FTEST31,,NAD83,1995.08.27,17:36
+*##############################################################################
+SK,A,U,VAN785,HESPELER,43-25-52.17N,080-20-04.42W,310.0,1995.06.07,11:13
+SD,ON,BMCE,5, ,441-0000000,5, ,1, ,0000,1992.11.26,FT
+*====  ------ Not Found -----   Ant Gain = 43.5, Dist Loss = 52.52, At. Loss = 0.15
+AK,A,U,VAN785,XMCWAIK,10A,10,1995.06.07,11:13
+AQ,TR,UHX6-105,36.0,80.57,0.09,10.08,N, , , , , , ,1992.11.26
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=80.47
+CK,A,U,VAN785,XMCWAIK,10A,1000,1995.06.07,11:13
+CT, , , , ,V,10,6.5, , ,DMC108, ,18.5,0.0,D7014,2D2,3,D
+CR,10557550.00,V,10, , ,DMC108, ,D7014,2D2,3,D
+CQ,6.5,-31.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,XMCWAIK,AIKENSVILLE,43-26-45.45N,080-12-42.25W,320.0,1995.06.07,11:13
+SD,ON,BMCE,3, , , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = (Not Found), Dist Loss = 52.52, At. Loss = 0.15
+AK,A,U,XMCWAIK,VAN785,10A,10,1995.06.07,11:13
+AQ,TR,P8-105V,47.4,260.65,-0.16,10.08,N, , , , , , ,1992.11.26
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.47
+CK,A,U,XMCWAIK,VAN785,10A,1000,1995.06.07,11:13
+CT, , , ,10557550.00,V,10, , , ,DMC108, ,18.5,0.0,D7014,2D2,3,D
+CR, ,V,10, , ,DMC108, ,D7014,2D2,3,D
+CQ,6.6, , , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 11648
+
+PDF Name: ftest32
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =TLUSMCR2
+Site =TLUSMCR2 already exists in MDB
+
+Site Call: =TLUSMCZZ
+Site =TLUSMCZZ already exists in MDB
+
+SUMMARY OF SITE RECORDS:  2 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=TLUSMCR2 =TLUSMCZZ 14C 1
+Antenna already exists in MDB
+
+=TLUSMCR2 =TLUSMCZZ 14C 2
+Antenna already exists in MDB
+
+=TLUSMCZZ =TLUSMCR2 14C 1
+Antenna already exists in MDB
+
+=TLUSMCZZ =TLUSMCR2 14C 2
+Antenna already exists in MDB
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =TLUSMCR2 =TLUSMCZZ 14C 1
+Channel already exists in MDB.
+
+Channel: =TLUSMCR2 =TLUSMCZZ 14C 2
+Channel already exists in MDB.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+Channel already exists in MDB.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 2
+Channel already exists in MDB.
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 10 errors and 0 warnings.
+The PDF 'ftest32' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest32, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:46
+*
+TT,N,REGADD,,NAD83,2008.04.24,14:14
+*##############################################################################
+SK,A,U,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0, ,
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,A,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,A,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2001.08.03,10:41
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,A,U,=TLUSMCR2,=TLUSMCZZ,14C,1, ,
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,A,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2001.08.03,10:40
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-37.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0, ,
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,A,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,A,U,=TLUSMCZZ,=TLUSMCR2,14C,2, ,
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,A,U,=TLUSMCZZ,=TLUSMCR2,14C,1, ,
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,A,U,=TLUSMCZZ,=TLUSMCR2,14C,2, ,
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 11756
+
+PDF Name: ftest33
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: $BMCETCMA =BMCEBSMT 6A 1
+Afslrx1 is 0
+
+Channel: =BMCEBSMT $BMCETCMA 6A 1
+Afsltx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'ftest33' is validated for :UPDATE:
+
+PDF Validation Completed - 08:30
+* TS-PDF: ftest33, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:47
+*
+TT,U,FTEST33,,NAD83,1996.05.24,09:40
+*##############################################################################
+SK,A,U,$BMCETCMA,TACOMA WA,47-14-31.31N,122-28-01.40W,122.0, ,
+SD,BC,BMCE,5, , , , , , , , ,FT
+*====  ------ Not Found -----   Ant Gain = 41.5, Dist Loss = 65.47, At. Loss = 0.39
+AK,A,U,$BMCETCMA,=BMCEBSMT,6A,1, ,
+AQ,RX,PL8-59D,67.0,234.17,-0.11,44.76,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=75.97
+CK,A,U,$BMCETCMA,=BMCEBSMT,6A,1, ,
+CT, , , , , , , , , , , , , , , , ,
+CR,6286190.00,H,1, , ,109E, ,A2700, ,5,L
+CQ,0.0,-21.8, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=BMCEBSMT,BUSH MTN WA,47-00-19.26N,122-56-39.42W,152.0, ,
+SD,BC,BMCE,5, , , , , , , , ,FT
+*====  ------ Not Found -----   Ant Gain = 41.5, Dist Loss = 65.47, At. Loss = 0.39
+AK,A,U,=BMCEBSMT,$BMCETCMA,6A,1, ,
+AQ,TX,PL8-59D,67.0,53.82,-0.19,44.76,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.97
+CK,A,U,=BMCEBSMT,$BMCETCMA,6A,1, ,
+CT, , , ,6286190.00,H,1,0.0, , ,109E, ,37.0,0.0,A2700, ,5,L
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 1636
+
+PDF Name: ftest34
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =TLUSMCR2 =TLUSMCZZ 14C 3
+Channel does not exist in MDB.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 3
+Channel does not exist in MDB.
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 2 errors and 0 warnings.
+The PDF 'ftest34' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest34, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:48
+*
+TT,N,REGADD,,NAD83,2008.04.24,14:14
+*##############################################################################
+SK,N,U,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2020.01.14,08:21
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2020.01.14,08:21
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2020.01.14,08:21
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2020.01.14,08:21
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,U,U,=TLUSMCR2,=TLUSMCZZ,14C,3,2001.08.03,10:40
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, , ,D
+CQ,3.8, , , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2020.01.14,08:21
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2020.01.14,08:21
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2020.01.14,08:21
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2020.01.14,08:21
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,3, ,
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, , ,D
+CQ,4.6, , , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 14868
+
+PDF Name: ftest35
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =BMCETCMA WBMCEBSMT 6A 1
+Afslrx1 is 0
+
+Channel: =BMCETCMA WBMCEBSMT 6A 2
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: WBMCEBSMT =BMCETCMA 6A 1
+Afsltx1 is 0
+
+Channel: WBMCEBSMT =BMCETCMA 6A 2
+Local transmit (5) and Remote receive (L) fee codes do not agree.
+Afsltx1 is 0
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 7 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 7 warnings.
+The PDF 'ftest35' is validated for :UPDATE:
+
+PDF Validation Completed - 08:30
+* TS-PDF: ftest35, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:50
+*
+TT,U,FTEST35,,NAD83,1996.05.24,09:45
+*##############################################################################
+SK,A,U,=BMCETCMA,TACOMA WA,47-14-31.31N,122-28-01.40W,122.0, ,
+SD,BC,BMCE,5, , , , , , , , ,FT
+*====  ------ Not Found -----   Ant Gain = 41.5, Dist Loss = 65.47, At. Loss = 0.39
+AK,A,U,=BMCETCMA,WBMCEBSMT,6A,1, ,
+AQ,TR,PL8-59D,67.0,234.17,-0.11,44.76,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=75.97
+CK,A,U,=BMCETCMA,WBMCEBSMT,6A,1, ,
+CT, , , , , , , , , , , , , , , , ,
+CR,6286190.00,H,1, , ,109E, ,A2700, ,5,L
+CQ,0.0,-21.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.97, Rx=75.97
+CK,A,U,=BMCETCMA,WBMCEBSMT,6A,2, ,
+CT, , , ,6286130.00,H,1,0.0, , ,109E, ,37.0,0.0,A2700, ,5,L
+CR,6286100.00,H,1, , ,109E, ,A2700, ,5,L
+CQ,0.0,-21.8, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,WBMCEBSMT,BUSH MTN WA,47-00-19.26N,122-56-39.42W,152.0, ,
+SD,BC,BMCE,5, , , , , , , , ,FT
+*====  ------ Not Found -----   Ant Gain = 41.5, Dist Loss = 65.47, At. Loss = 0.39
+AK,A,U,WBMCEBSMT,=BMCETCMA,6A,1, ,
+AQ,TR,PL8-59D,67.0,53.82,-0.19,44.76,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.97
+CK,A,U,WBMCEBSMT,=BMCETCMA,6A,1, ,
+CT, , , ,6286190.00,H,1,0.0, , ,109E, ,37.0,0.0,A2700, ,5,L
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.97, Rx=75.97
+CK,A,U,WBMCEBSMT,=BMCETCMA,6A,2, ,
+CT, , , ,6286100.00,H,1,0.0, , ,109E, ,37.0,0.0,A2700, ,5,5
+CR,6286130.00,H,1, , ,109E, ,A2700, ,5,L
+CQ,0.0,-21.8, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 14544
+
+PDF Name: ftest36
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKNA
+Must Enter Province field.
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest36' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest36, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:51
+*
+TT,N,FTEST36,FMDA,NAD83PDF EXAMPLE,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD, ,UNKN,3, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 8772
+
+PDF Name: ftest37
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: =UNKNA
+Must Enter Status field.
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest37' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest37, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:52
+*
+TT,N,FTEST37,FMDA,NAD83PDF EXAMPLE,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN, , , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 1588
+
+PDF Name: ftest39
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+TX Frequency present but no TX Equipment.
+
+                ----------- WARNINGS -----------
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+TX Traffic code (D7138) & Equipment () pair not present in the SDB.
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 1 warnings.
+The PDF 'ftest39' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest39, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:53
+*
+TT,N,FTEST39,FMDA,NAD83PDF EXAMPLE,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , , ,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 16872
+
+PDF Name: ftest40
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=UNKNA =UNKNB 6D 1
+Must enter Antenna Use field.
+Could not retrieve remote Antenna
+
+SUMMARY OF ANTENNA RECORDS:  2 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Invalid Antenna Use () for main TX Antenna 1
+Invalid Ause () for main RX Antenna 1.
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 4 errors and 0 warnings.
+The PDF 'ftest40' is invalid
+PDF Validation Completed - 08:30
+* TS-PDF: ftest40, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:54
+*
+TT,N,FTEST40,FMDA,NAD83PDF EXAMPLE,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-59-59.63N,120-00-04.44W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ, ,UHX10-65EL,20.0,191.34,-0.46,54.89,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,191.34,-0.46,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-31.8,2.8,-31.6, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-30-57.60N,120-09-12.43W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.10.10,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 67.24, At. Loss = 0.50
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,11.23,0.09,54.90,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-32.2, , , , , ,
+CO, , , , , , , ,
+Error - line #12, chid field MUST be present in order to import.
+
+Error - line #25, chid field MUST be present in order to import.
+
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 9064
+
+PDF Name: ftest41
+
+ERROR - pdf 'ftest41' does not exist
+* TS-PDF: ftest41, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:55
+*
+Filename does not exist for EXPORT/PRINT
+* TS-PDF: ftest42ic1, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:55
+*
+TT,N,FTEST42IC1,,,,
+*##############################################################################
+SK,N,U,CFX24,OTTER RPDS,50-14-41.38N,081-40-38.45W,215.0,2008.05.03,09:21
+SD,ON,ONT,3, ,R38294832K12, , ,1, ,0000,1984.02.18,FT
+*====  SMOKY FALLS  ===== Ant Gain = 42.0, Dist Loss = 67.37, At. Loss = 0.51
+AK,N,U,CFX24,VEK982,6D,20,2008.05.03,09:21
+AQ,TR,HP8-65,90.0,249.91,-0.20,55.74,N, , , , , ,1,
+AO, , , , , , , , , , , , , , ,837432917-947
+*----  SMOKY FALLS  ===== Ant Gain = 42.3, Dist Loss = 65.07, At. Loss = 0.39
+AK,N,U,CFX24,VEK982,6D,21,2008.05.03,09:21
+AQ,DV1,HP8-65E,70.1,255.91,-0.10,42.74,N, , , , , ,1,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.18, Rx=76.63
+CK,N,U,CFX24,VEK982,6D,1001,2008.05.03,09:21
+CT,03,1,2,6443000.00,H,22,5.0, , ,MR4108, ,31.0,3.0,X48MBS,OPG,5,X
+CR,6787000.00,V,21,20, ,MR41U6EC,B,X48MBS,OPG,3,F
+CQ,20.0,-38.7,4.8,-40.5, , , ,
+CO,ONT3346X,1,1, , , , ,2001.07.01
+*##############################################################################
+SK,N,U,VEK982,SMOKY FALLS,50-03-40.38N,082-10-07.49W,170.7,2008.05.03,09:21
+SD,ON,ONT,3, , , , ,1, , ,2001.03.23,FT
+*====  OTTER RPDS  ====== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,VEK982,CFX24,6D,20,2008.05.03,09:21
+AQ,TR,HP8-65E,86.9,70.50,-0.18,39.74,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  OTTER RPDS  ====== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,VEK982,CFX24,6D,21,2008.05.03,09:21
+AQ,DV1,HP8-65E,67.1,70.50,-0.15,39.74,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,DIWE48329-2E2
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.63, Rx=76.18
+CK,N,U,VEK982,CFX24,6D,1001,2008.05.03,09:21
+CT,03,2,2,6785000.00,H,20,5.3, , ,MR41U6EC,B,29.0,0.0,D48MBS,OPG,3,F
+CR,6445000.00,H,23,25, ,MR41U6EX,B,D48MBX,OPG,9,X
+CQ,5.3,-36.9,4.4,-36.0, , , ,
+CO,2,2,1, , , , ,2001.07.01
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 6360
+
+PDF Name: ftest42ic1
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'ftest42ic1' is validated for :UPDATE:
+
+PDF Validation Completed - 08:30
+* TS-PDF: ftest42ic1, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:56
+*
+TT,U,FTEST42IC1,,,,
+*##############################################################################
+SK,N,U,CFX24,OTTER RPDS,50-10-45.38N,081-38-39.45W,137.0,2008.05.03,09:21
+SD,ON,ONT,5, ,447-0001908, , ,1, ,0000,1984.02.18,FT
+*====  SMOKY FALLS  ===== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,CFX24,VEK982,6D,20,2008.05.03,09:21
+AQ,TR,HP8-65E,86.9,250.91,-0.09,39.74,N, , , , , ,1,
+AO, , , , , , , , , , , , , , ,
+*----  SMOKY FALLS  ===== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,CFX24,VEK982,6D,21,2008.05.03,09:21
+AQ,DV1,HP8-65E,70.1,250.91,-0.06,39.74,N, , , , , ,1,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.18, Rx=76.63
+CK,N,U,CFX24,VEK982,6D,1001,2008.05.03,09:21
+CT,03,1,2,6445000.00,H,20,5.2, , ,MR41U6EC,B,30.0,0.0,D48MBS,OPG,3,F
+CR,6785000.00,H,20,21, ,MR41U6EC,B,D48MBS,OPG,3,F
+CQ,5.2,-38.3,4.4,-37.5, , , ,
+CO,2,1,1, , , , ,2001.07.01
+*##############################################################################
+SK,N,U,VEK982,SMOKY FALLS,50-03-40.38N,082-10-07.49W,170.7,2008.05.03,09:21
+SD,ON,ONT,3, , , , ,1, , ,2001.03.23,FT
+*====  OTTER RPDS  ====== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,VEK982,CFX24,6D,20,2008.05.03,09:21
+AQ,TR,HP8-65E,86.9,70.50,-0.18,39.74,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  OTTER RPDS  ====== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,VEK982,CFX24,6D,21,2008.05.03,09:21
+AQ,DV1,HP8-65E,67.1,70.50,-0.15,39.74,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.63, Rx=76.18
+CK,N,U,VEK982,CFX24,6D,1001,2008.05.03,09:21
+CT,03,2,2,6785000.00,H,20,5.3, , ,MR41U6EC,B,29.0,0.0,D48MBS,OPG,3,F
+CR,6445000.00,H,20,21, ,MR41U6EC,B,D48MBS,OPG,3,F
+CQ,5.3,-36.9,4.4,-36.0, , , ,
+CO,2,2,1, , , , ,2001.07.01
+* TS-PDF: ftest42ic2, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:56
+*
+TT,N,FTEST42IC2,,,,
+*##############################################################################
+SK,N,U,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0, ,
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = (No Dist.), At. Loss = (No Atten.)
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,55.0, , , ,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = (No Dist.), At. Loss = (No Atten.)
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2001.08.03,10:41
+AQ,TR,P4-144D,55.0, , , ,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1, ,
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR, , ,1, , ,ATI45M15, ,D8045M, , ,F
+CQ,3.8, , , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2001.08.03,10:40
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, , ,D
+CQ,3.8, , , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0, ,
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = (No Dist.), At. Loss = (No Atten.)
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,70.0, , , ,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = (No Dist.), At. Loss = (No Atten.)
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2, ,
+AQ,TR,P4-144D,70.0, , , ,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1, ,
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR, , ,1, , ,ATI45M15, ,D8045M, , ,F
+CQ,4.6, , , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2, ,
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, , ,D
+CQ,4.6, , , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 3904
+
+PDF Name: ftest42ic2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'ftest42ic2' is validated for :UPDATE:
+
+PDF Validation Completed - 08:30
+* TS-PDF: ftest42ic2, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:57
+*
+TT,U,FTEST42IC2,,,,
+*##############################################################################
+SK,N,U,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2020.01.14,08:21
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2020.01.14,08:21
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2020.01.14,08:21
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2020.01.14,08:21
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2020.01.14,08:21
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-37.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2020.01.14,08:21
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2020.01.14,08:21
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2020.01.14,08:21
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2020.01.14,08:21
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2020.01.14,08:21
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+* TS-PDF: ftest42ic3, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:58
+*
+TT,N,FTEST42IC3,,,,
+*##############################################################################
+SK,U,U,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0, ,
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = (No Dist.), At. Loss = (No Atten.)
+AK,U,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,55.0, , , ,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = (No Dist.), At. Loss = (No Atten.)
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2001.08.03,10:41
+AQ,TR,P4-144D,55.0, , , ,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1, ,
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR, , ,1, , ,ATI45M15, ,D8045M, , ,F
+CQ,3.8, , , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2001.08.03,10:40
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, , ,D
+CQ,3.8, , , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0, ,
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = (No Dist.), At. Loss = (No Atten.)
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,70.0, , , ,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = (No Dist.), At. Loss = (No Atten.)
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2, ,
+AQ,TR,P4-144D,70.0, , , ,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1, ,
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR, , ,1, , ,ATI45M15, ,D8045M, , ,F
+CQ,4.6, , , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2, ,
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, , ,D
+CQ,4.6, , , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:30
+Project Code [fmda20] Process Id: 17352
+
+PDF Name: ftest42ic3
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=TLUSMCR2 =TLUSMCZZ 14C 1
+This Antenna record has been modified since you retrieved it.
+
+=TLUSMCZZ =TLUSMCR2 14C 1
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'ftest42ic3' is validated for :UPDATE:
+
+PDF Validation Completed - 08:30
+* TS-PDF: ftest42ic3, By FtPrint (190122-1739/64-R) at 2020.01.14 08:30:58
+*
+TT,U,FTEST42IC3,,,,
+*##############################################################################
+SK,U,U,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2020.01.14,08:21
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2020.01.14,08:21
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2020.01.14,08:21
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2020.01.14,08:21
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-37.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2020.01.14,08:21
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2020.01.14,08:21
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2020.01.14,08:21
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2020.01.14,08:21
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,

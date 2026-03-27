@@ -1,0 +1,7 @@
+D:\inetpub\micstest\mics\userdirs\hulme\hulme1\TpRunTsip.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\TpRunTsip.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\TpRunTsip.exe
+D:\Users\ahulme\MICS#\_bin\Release\TpRunTsip.pdb
+D:\Users\ahulme\MICS#\TpRunTsip\obj\Release\TpRunTsip.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\TpRunTsip\obj\Release\TpRunTsip.exe
+D:\Users\ahulme\MICS#\TpRunTsip\obj\Release\TpRunTsip.pdb

@@ -1,0 +1,420 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:34
+Project Code [HULME1_0] Process Id: 13876
+
+PDF Name: bchy2vcrv2a1028
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: XOA589
+
+This Site record has been modified since you retrieved it.
+
+KEY: XOK974
+
+This Site record has been modified since you retrieved it.
+
+KEY: XOK977
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 3 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+XOA589 XOK977 7B 50
+This Antenna record has been modified since you retrieved it.
+
+XOK973 XOK977 7B 50
+This Antenna record has been modified since you retrieved it.
+
+XOK974 XOK977 7B 50
+This Antenna record has been modified since you retrieved it.
+
+XOK974 XOK977 8A 2
+This Antenna record has been modified since you retrieved it.
+
+XOK977 XOA589 7B 50
+This Antenna record has been modified since you retrieved it.
+
+XOK977 XOK973 7B 50
+This Antenna record has been modified since you retrieved it.
+
+XOK977 XOK974 7B 50
+This Antenna record has been modified since you retrieved it.
+
+XOK977 XOK974 8A 1
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 8 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: XOA589 XOK977 7B A175
+Channel does not exist in MDB.
+
+Channel: XOA589 XOK977 7B A176
+Channel does not exist in MDB.
+
+Channel: XOA589 XOK977 7B C11H
+Channel already exists in MDB.
+
+Channel: XOA589 XOK977 7B C26H
+Channel already exists in MDB.
+
+Channel: XOK973 XOK977 7B A177
+Channel does not exist in MDB.
+
+Channel: XOK973 XOK977 7B A178
+Channel does not exist in MDB.
+
+Channel: XOK973 XOK977 7B A1H
+Channel already exists in MDB.
+
+Channel: XOK973 XOK977 7B A5H
+Channel already exists in MDB.
+
+Channel: XOK974 XOK977 7B A1
+Channel already exists in MDB.
+
+Channel: XOK974 XOK977 7B A179
+Channel does not exist in MDB.
+
+Channel: XOK974 XOK977 7B A180
+Channel does not exist in MDB.
+
+Channel: XOK974 XOK977 7B A5
+Channel already exists in MDB.
+
+Channel: XOK974 XOK977 8A 1001
+Channel does not exist in MDB.
+
+Channel: XOK974 XOK977 8A 1002
+Channel does not exist in MDB.
+
+Channel: XOK974 XOK977 8A 8A1
+Channel already exists in MDB.
+
+Channel: XOK974 XOK977 8A 8A7
+Channel already exists in MDB.
+
+Channel: XOK974 XOK977 8A 9988
+Channel does not exist in MDB.
+
+Channel: XOK974 XOK977 8A 9990
+Channel does not exist in MDB.
+
+Channel: XOK974 XOK977 8A 9991
+Channel does not exist in MDB.
+
+Channel: XOK974 XOK977 8A 9998
+Channel does not exist in MDB.
+
+Channel: XOK977 XOA589 7B A175
+Channel does not exist in MDB.
+
+Channel: XOK977 XOA589 7B A176
+Channel does not exist in MDB.
+
+Channel: XOK977 XOA589 7B C11H
+Channel already exists in MDB.
+
+Channel: XOK977 XOA589 7B C26H
+Channel already exists in MDB.
+
+Channel: XOK977 XOK973 7B A177
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK973 7B A178
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK973 7B A1H
+Channel already exists in MDB.
+
+Channel: XOK977 XOK973 7B A5H
+Channel already exists in MDB.
+
+Channel: XOK977 XOK974 7B A1
+Channel already exists in MDB.
+
+Channel: XOK977 XOK974 7B A179
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK974 7B A180
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK974 7B A5
+Channel already exists in MDB.
+
+Channel: XOK977 XOK974 8A 1001
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK974 8A 1002
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK974 8A 8A1
+Channel already exists in MDB.
+
+Channel: XOK977 XOK974 8A 8A7
+Channel already exists in MDB.
+
+Channel: XOK977 XOK974 8A 9988
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK974 8A 9990
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK974 8A 9991
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK974 8A 9998
+Channel does not exist in MDB.
+
+
+SUMMARY OF CHANNEL RECORDS:  40 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking XOA589 (PIK/BCHY) in proposed file ...
+Checking proposed file Site XOA589 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOA589 (PIK/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK973 (HSY/BCHY) in proposed file ...
+Checking proposed file Site XOK973 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK973 (HSY/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK974 (BRU/BCHY) in proposed file ...
+Checking proposed file Site XOK974 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VDY324 (SALTSPRING ISLAND. BC ( BRUCE PE/SHAW) 
+	Band 6B
+	VDY324 to VDY325 band 6B chid A748 is first TX HiLo violation.
+	VDY324 to VDY325 band 6B chid A748 is first RX HiLo violation.
+	VDY324 has both tx and rx violations.  Stopping scanning band 6B.
+	Violation for Band 6B
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+	Database Site: XOB95 (BRU2/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: XOK974 (BRU/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	XOK974 to CHL326 band 7B chid F27 is first TX HiLo violation.
+	XOK974 to CHL326 band 7B chid F27 is first RX HiLo violation.
+	XOK974 has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+There were 3 nearby sites checked in the database.
+Checking proposed file Site XOK974 band 8A.
+  Band 8A OK, checking adjacent bands.
+  HiLo Failure in Band 7B
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VDY324 (SALTSPRING ISLAND. BC ( BRUCE PE/SHAW) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: XOB95 (BRU2/BCHY) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: XOK974 (BRU/BCHY) 
+	Band 7B
+	XOK974 to CHG656 band 7B chid E18V is first RX HiLo violation.
+	XOK974 to CHG656 band 7B chid E48V is first TX HiLo violation.
+	XOK974 has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+There were 3 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK977 (VCR/BCHY) in proposed file ...
+Checking proposed file Site XOK977 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK977 (VCR/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site XOK977 band 8A.
+  Band 8A OK, checking adjacent bands.
+  HiLo Failure in Band 7B
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK977 (VCR/BCHY) 
+	Band 7B
+	XOK977 to XOA589 band 7B chid 7C22 is first RX HiLo violation.
+	XOK977 to XOA589 band 7B chid 7C4H is first TX HiLo violation.
+	XOK977 has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+4 Site(s) checked.
+There were 6 hilo violations.
+
+
+
+There were a total of 40 errors and 11 warnings.
+The PDF 'bchy2vcrv2a1028' is invalid
+PDF Validation Completed - 21:34

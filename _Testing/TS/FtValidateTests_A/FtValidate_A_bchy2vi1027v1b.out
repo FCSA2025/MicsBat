@@ -1,0 +1,1710 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:35
+Project Code [HULME1_0] Process Id: 19280
+
+PDF Name: bchy2vi1027v1b
+
+
+
+                *********** ERRORS ***********
+
+
+hulme.ft_bchy2vi1027v1b_chan
+MERGE 13 - An incomplete passive link is being validated. You may be adding a new channel with command 'U'.
+MERGE 13 - An incomplete passive link is being validated. You may be adding a new channel with command 'U'.
+MERGE 13 - An incomplete passive link is being validated. You may be adding a new channel with command 'U'.
+MERGE 13 - An incomplete passive link is being validated. You may be adding a new channel with command 'U'.
+
+%BCHYCCBP->XOK967 Band:7B Chid:1V13
+MERGE 16 - An incomplete passive link is being validated.
+
+%BCHYCCBP->XOK967 Band:7B Chid:2V13
+MERGE 16 - An incomplete passive link is being validated.
+
+%BCHYCCBP->XOK967 Band:7B Chid:CH1
+MERGE 16 - An incomplete passive link is being validated.
+
+%BCHYCCBP->XOK967 Band:7B Chid:CH2
+MERGE 16 - An incomplete passive link is being validated.
+
+                ----------- WARNINGS -----------
+
+
+hulme.ft_bchy2vi1027v1b_chan
+MERGE 20 - Error fetching passive channel for:-
+	call1 != 'XOK961' and call2 = '%BCHYCCBP' and bndcde = '7B' and chid = '1V13'
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: XOA589
+
+This Site record has been modified since you retrieved it.
+
+KEY: XOK973
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 2 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+%BCHYCCBP XOK961 7B 11
+Antenna to update does not exist in MDB
+
+CHG656 XOK974 7B 1
+Antenna does not exist in MDB.
+
+XOK894 XOK974 7B 1
+Antenna does not exist in MDB.
+
+XOK894 XOK974 7B 50
+Antenna does not exist in MDB.
+
+XOK951 XOK974 7B 12
+Antenna does not exist in MDB.
+
+XOK951 XOK974 7B 50
+Antenna does not exist in MDB.
+
+XOK951 XOK974 8A 11
+Antenna does not exist in MDB.
+
+XOK951 XOK974 8A 51
+Antenna does not exist in MDB.
+
+XOK961 %BCHYCCBP 7B 11
+Antenna to update does not exist in MDB
+
+XOK961 XOK969 7B 50
+Antenna does not exist in MDB.
+
+XOK961 XOK972 8A 11
+Antenna does not exist in MDB.
+
+XOK961 XOK972 8A 12
+Antenna does not exist in MDB.
+
+XOK969 XOK961 7B 50
+Antenna does not exist in MDB.
+
+XOK972 XOK961 8A 11
+Antenna does not exist in MDB.
+
+XOK972 XOK961 8A 12
+Antenna does not exist in MDB.
+
+XOK972 XOK974 7B 12
+Antenna does not exist in MDB.
+
+XOK972 XOK974 7B 50
+Antenna does not exist in MDB.
+
+XOK972 XOK974 8A 1
+Antenna does not exist in MDB.
+
+XOK972 XOK974 8A 51
+Antenna does not exist in MDB.
+
+XOK974 CHG656 7B 1
+Antenna does not exist in MDB.
+
+XOK974 XOK894 7B 50
+Antenna does not exist in MDB.
+
+XOK974 XOK951 7B 12
+Antenna does not exist in MDB.
+
+XOK974 XOK951 7B 50
+Antenna does not exist in MDB.
+
+XOK974 XOK951 8A 11
+Antenna does not exist in MDB.
+
+XOK974 XOK951 8A 51
+Antenna does not exist in MDB.
+
+XOK974 XOK972 7B 12
+Antenna does not exist in MDB.
+
+XOK974 XOK972 7B 50
+Antenna does not exist in MDB.
+
+XOK974 XOK972 8A 2
+Antenna does not exist in MDB.
+
+XOK974 XOK972 8A 51
+Antenna does not exist in MDB.
+
+%BCHYCCBP->XOK961 Band:7B
+SetPassiveNormals - Could not get other end of Passive link.
+
+                ----------- WARNINGS -----------
+
+
+%BCHYMSAP XOK961 7B 11
+This Antenna record has been modified since you retrieved it.
+
+%BCHYTIRP XOK961 11A 11
+This Antenna record has been modified since you retrieved it.
+
+%BCHYTIRP XOK961 7B 11
+This Antenna record has been modified since you retrieved it.
+
+XOA589 XOK977 7B 50
+This Antenna record has been modified since you retrieved it.
+
+XOK961 %BCHYMSAP 7B 11
+This Antenna record has been modified since you retrieved it.
+
+XOK961 %BCHYTIRP 11A 11
+This Antenna record has been modified since you retrieved it.
+
+XOK961 %BCHYTIRP 7B 11
+This Antenna record has been modified since you retrieved it.
+
+XOK973 XOK977 7B 50
+This Antenna record has been modified since you retrieved it.
+
+XOK977 XOA589 7B 50
+This Antenna record has been modified since you retrieved it.
+
+XOK977 XOK973 7B 50
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  30 errors and 10 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: %BCHYCCBP XOK961 7B 1V13
+Channel does not exist in MDB
+
+Channel: %BCHYCCBP XOK961 7B 2V13
+Channel does not exist in MDB
+
+Channel: %BCHYCCBP XOK961 7B CH1
+Channel does not exist in MDB
+
+Channel: %BCHYCCBP XOK961 7B CH2
+Channel does not exist in MDB
+
+Channel: =BCHYSTNB XOK961 7B 730A
+Channel does not exist in MDB
+
+Channel: =BCHYSTNB XOK961 7B 730B
+Channel does not exist in MDB
+
+Channel: =BCHYSTNB XOK961 8A 830A
+Channel does not exist in MDB
+
+Channel: =BCHYSTNB XOK961 8A 830B
+Channel does not exist in MDB
+
+Channel: CHG654 XOK972 7B 9997
+Channel does not exist in MDB
+
+Channel: CHG654 XOK972 7B 9998
+Channel does not exist in MDB
+
+Channel: CHG654 XOK972 7B 9999
+Channel does not exist in MDB
+
+Channel: CHG656 XOK974 7B 9998
+Channel does not exist in MDB
+
+Channel: CHG656 XOK974 7B 9999
+Channel does not exist in MDB
+
+Channel: CHL326 XOK974 7B 9998
+Channel does not exist in MDB
+
+Channel: CHL326 XOK974 7B 9999
+Channel does not exist in MDB
+
+Channel: XOA589 XOK977 7B A175
+Channel does not exist in MDB.
+
+Channel: XOA589 XOK977 7B A176
+Channel does not exist in MDB.
+
+Channel: XOK894 XOK974 7B A163
+Channel does not exist in MDB
+
+Channel: XOK894 XOK974 7B A164
+Channel does not exist in MDB
+
+Channel: XOK951 XOK974 7B A165
+Channel does not exist in MDB
+
+Channel: XOK951 XOK974 7B A166
+Channel does not exist in MDB
+
+Channel: XOK951 XOK974 8A 1001
+Channel does not exist in MDB
+
+Channel: XOK951 XOK974 8A 1002
+Channel does not exist in MDB
+
+Channel: XOK951 XOK974 8A 9995
+Channel does not exist in MDB
+
+Channel: XOK961 %BCHYCCBP 7B 1V13
+Channel does not exist in MDB
+
+Channel: XOK961 %BCHYCCBP 7B 2V13
+Channel does not exist in MDB
+
+Channel: XOK961 %BCHYCCBP 7B CH1
+Channel does not exist in MDB
+
+Channel: XOK961 %BCHYCCBP 7B CH2
+Channel does not exist in MDB
+
+Channel: XOK961 =BCHYSTNB 7B 730A
+Channel does not exist in MDB
+
+Channel: XOK961 =BCHYSTNB 7B 730B
+Channel does not exist in MDB
+
+Channel: XOK961 =BCHYSTNB 8A 830A
+Channel does not exist in MDB
+
+Channel: XOK961 =BCHYSTNB 8A 830B
+Channel does not exist in MDB
+
+Channel: XOK961 XOK969 7B A149
+Channel does not exist in MDB
+
+Channel: XOK961 XOK969 7B A150
+Channel does not exist in MDB
+
+Channel: XOK961 XOK969 7B CH1
+Channel does not exist in MDB
+
+Channel: XOK961 XOK969 7B CH2
+Channel does not exist in MDB
+
+Channel: XOK961 XOK972 7B CH1
+Channel does not exist in MDB
+
+Channel: XOK961 XOK972 7B CH2
+Channel does not exist in MDB
+
+Channel: XOK961 XOK972 7B E23
+Channel does not exist in MDB
+
+Channel: XOK961 XOK972 7B E53
+Channel does not exist in MDB
+
+Channel: XOK961 XOK972 8A CH1
+Channel does not exist in MDB
+
+Channel: XOK961 XOK972 8A CH2
+Channel does not exist in MDB
+
+Channel: XOK969 XOK961 7B A149
+Channel does not exist in MDB
+
+Channel: XOK969 XOK961 7B A150
+Channel does not exist in MDB
+
+Channel: XOK969 XOK961 7B CH1
+Channel does not exist in MDB
+
+Channel: XOK969 XOK961 7B CH2
+Channel does not exist in MDB
+
+Channel: XOK970 XOK972 7B A157
+Channel does not exist in MDB
+
+Channel: XOK970 XOK972 7B A158
+Channel does not exist in MDB
+
+Channel: XOK970 XOK972 8A 1001
+Channel does not exist in MDB
+
+Channel: XOK970 XOK972 8A 1002
+Channel does not exist in MDB
+
+Channel: XOK970 XOK972 8A 9998
+Channel does not exist in MDB
+
+Channel: XOK970 XOK972 8A 9999
+Channel does not exist in MDB
+
+Channel: XOK972 CHG654 7B 9997
+Channel does not exist in MDB
+
+Channel: XOK972 CHG654 7B 9998
+Channel does not exist in MDB
+
+Channel: XOK972 CHG654 7B 9999
+Channel does not exist in MDB
+
+Channel: XOK972 XOK961 7B CH1
+Channel does not exist in MDB
+
+Channel: XOK972 XOK961 7B CH2
+Channel does not exist in MDB
+
+Channel: XOK972 XOK961 7B E23
+Channel does not exist in MDB
+
+Channel: XOK972 XOK961 7B E53
+Channel does not exist in MDB
+
+Channel: XOK972 XOK961 8A CH1
+Channel does not exist in MDB
+
+Channel: XOK972 XOK961 8A CH2
+Channel does not exist in MDB
+
+Channel: XOK972 XOK970 7B A157
+Channel does not exist in MDB
+
+Channel: XOK972 XOK970 7B A158
+Channel does not exist in MDB
+
+Channel: XOK972 XOK970 8A 1001
+Channel does not exist in MDB
+
+Channel: XOK972 XOK970 8A 1002
+Channel does not exist in MDB
+
+Channel: XOK972 XOK970 8A 9998
+Channel does not exist in MDB
+
+Channel: XOK972 XOK970 8A 9999
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 7B A167
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 7B A168
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 8A 9990
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 8A 9991
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 8A 9998
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 8A 9999
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 8A F376
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 8A F377
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 8A F864
+Channel does not exist in MDB
+
+Channel: XOK972 XOK974 8A F865
+Channel does not exist in MDB
+
+Channel: XOK973 XOK977 7B A177
+Channel does not exist in MDB.
+
+Channel: XOK973 XOK977 7B A178
+Channel does not exist in MDB.
+
+Channel: XOK974 CHG656 7B 9998
+Channel does not exist in MDB
+
+Channel: XOK974 CHG656 7B 9999
+Channel does not exist in MDB
+
+Channel: XOK974 CHL326 7B 9998
+Channel does not exist in MDB
+
+Channel: XOK974 CHL326 7B 9999
+Channel does not exist in MDB
+
+Channel: XOK974 XOK894 7B A163
+Channel does not exist in MDB
+
+Channel: XOK974 XOK894 7B A164
+Channel does not exist in MDB
+
+Channel: XOK974 XOK951 7B A165
+Channel does not exist in MDB
+
+Channel: XOK974 XOK951 7B A166
+Channel does not exist in MDB
+
+Channel: XOK974 XOK951 8A 1001
+Channel does not exist in MDB
+
+Channel: XOK974 XOK951 8A 1002
+Channel does not exist in MDB
+
+Channel: XOK974 XOK951 8A 9995
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 7B A167
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 7B A168
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 8A 9990
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 8A 9991
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 8A 9998
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 8A 9999
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 8A F376
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 8A F377
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 8A F864
+Channel does not exist in MDB
+
+Channel: XOK974 XOK972 8A F865
+Channel does not exist in MDB
+
+Channel: XOK974 XOK975 7B A173
+Channel does not exist in MDB
+
+Channel: XOK974 XOK975 7B A174
+Channel does not exist in MDB
+
+Channel: XOK974 XOK977 7B A179
+Channel does not exist in MDB
+
+Channel: XOK974 XOK977 7B A180
+Channel does not exist in MDB
+
+Channel: XOK974 XOK977 8A 1001
+Channel does not exist in MDB
+
+Channel: XOK974 XOK977 8A 1002
+Channel does not exist in MDB
+
+Channel: XOK974 XOK977 8A 9988
+Channel does not exist in MDB
+
+Channel: XOK974 XOK977 8A 9990
+Channel does not exist in MDB
+
+Channel: XOK974 XOK977 8A 9991
+Channel does not exist in MDB
+
+Channel: XOK974 XOK977 8A 9998
+Channel does not exist in MDB
+
+Channel: XOK975 XOK974 7B A173
+Channel does not exist in MDB
+
+Channel: XOK975 XOK974 7B A174
+Channel does not exist in MDB
+
+Channel: XOK977 XOA589 7B A175
+Channel does not exist in MDB.
+
+Channel: XOK977 XOA589 7B A176
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK973 7B A177
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK973 7B A178
+Channel does not exist in MDB.
+
+Channel: XOK977 XOK974 7B A179
+Channel does not exist in MDB
+
+Channel: XOK977 XOK974 7B A180
+Channel does not exist in MDB
+
+Channel: XOK977 XOK974 8A 1001
+Channel does not exist in MDB
+
+Channel: XOK977 XOK974 8A 1002
+Channel does not exist in MDB
+
+Channel: XOK977 XOK974 8A 9988
+Channel does not exist in MDB
+
+Channel: XOK977 XOK974 8A 9990
+Channel does not exist in MDB
+
+Channel: XOK977 XOK974 8A 9991
+Channel does not exist in MDB
+
+Channel: XOK977 XOK974 8A 9998
+Channel does not exist in MDB
+
+
+SUMMARY OF CHANNEL RECORDS:  124 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %BCHYCCBP (CCBP/BCHY) in proposed file ...
+Checking proposed file Site %BCHYCCBP band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: %BCHYCCBP (CCBP/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	%BCHYCCBP to XOK968 band 7B chid 7E22 is first TX HiLo violation.
+	%BCHYCCBP to XOK968 band 7B chid 7E22 is first RX HiLo violation.
+	%BCHYCCBP has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	%BCHYCCBP to XOK968 band 8A chid 8C1 is first TX HiLo violation.
+	%BCHYCCBP to XOK968 band 8A chid 8C1 is first RX HiLo violation.
+	%BCHYCCBP has both tx and rx violations.  Stopping scanning band 8A.
+	Violation for Band 8A
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking %BCHYMSAP (MSAP/BCHY) in proposed file ...
+Checking proposed file Site %BCHYMSAP band 7B.
+%BCHYMSAP to XOK966 band 7B chid 1V14 is first TX HiLo violation.
+%BCHYMSAP to XOK966 band 7B chid 1V14 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking %BCHYTIRP (TIRP/BCHY) in proposed file ...
+Checking proposed file Site %BCHYTIRP band 11A.
+%BCHYTIRP to XOK967 band 11A chid CH1 is first TX HiLo violation.
+%BCHYTIRP to XOK967 band 11A chid CH1 is first RX HiLo violation.
+  Band 11A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+Checking proposed file Site %BCHYTIRP band 7B.
+%BCHYTIRP to XOK967 band 7B chid 1V15 is first TX HiLo violation.
+%BCHYTIRP to XOK967 band 7B chid 1V15 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking =BCHYSTNB (STNA/BCHY) in proposed file ...
+Checking proposed file Site =BCHYSTNB band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: =BCHYSTNB (STNA/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: CFZ43 (STRATHCONA MTN/TLUSBC) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+Checking proposed file Site =BCHYSTNB band 8A.
+  Band 8A OK, checking adjacent bands.
+  Adjacent Band 7B OK.
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: =BCHYSTNB (STNA/BCHY) 
+	Band 7B
+	=BCHYSTNB to %BCHYJRN band 7B chid 7C17 is first RX HiLo violation.
+	=BCHYSTNB to %BCHYJRN band 7B chid 7C5 is first TX HiLo violation.
+	=BCHYSTNB has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+	Database Site: CFZ43 (STRATHCONA MTN/TLUSBC) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CHG654 (LTZ/BCHY) in proposed file ...
+Checking proposed file Site CHG654 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHG654 (LTZ/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CHG656 (HWW/BCHY) in proposed file ...
+Checking proposed file Site CHG656 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHG656 (HWW/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CHG706 (SAY/BCHY) in proposed file ...
+Checking proposed file Site CHG706 band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  Adjacent Band 11B OK.
+  Adjacent Band 11C OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHG706 (SAY/BCHY) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site CHG706 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHG706 (SAY/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CHL326 (KTG/BCHY) in proposed file ...
+Checking proposed file Site CHL326 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHL326 (KTG/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VFE880 (PKR/BCHY) in proposed file ...
+Checking proposed file Site VFE880 band 08A.
+  Band 08A OK, checking adjacent bands.
+  Adjacent Band 09A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VFE880 (PKR/BCHY) 
+	Band 08A
+	Band 08A OK
+	Band 09A
+	Band 09A OK
+        Site OK
+
+	Database Site: XOK220 (PARKER IS BC/BCHY) 
+	Band 08A
+	Band 08A OK
+	Band 09A
+	Band 09A OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VFF950 (SER/BCHY) in proposed file ...
+Checking proposed file Site VFF950 band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  Adjacent Band 11B OK.
+  Adjacent Band 11C OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VFF950 (SER/BCHY) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	VFF950 to %BCHYCOMS band 11A chid 1001 is first TX HiLo violation.
+	VFF950 to %BCHYCOMS band 11A chid 1001 is first RX HiLo violation.
+	VFF950 has both tx and rx violations.  Stopping scanning band 11A.
+	Violation for Band 11A
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOA589 (PIK/BCHY) in proposed file ...
+Checking proposed file Site XOA589 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOA589 (PIK/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK894 (SAT/BCHY) in proposed file ...
+Checking proposed file Site XOK894 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK894 (SAT/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK951 (ARN/BCHY) in proposed file ...
+Checking proposed file Site XOK951 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK951 (ARN/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	XOK951 to XOK870 band 7B chid 9998 is first TX HiLo violation.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site XOK951 band 8A.
+  Band 8A OK, checking adjacent bands.
+  HiLo Failure in Band 7B
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK951 (ARN/BCHY) 
+	Band 7B
+	XOK951 to XOK870 band 7B chid 9997 is first RX HiLo violation.
+	XOK951 to XOK870 band 7B chid 9998 is first TX HiLo violation.
+	XOK951 has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK961 (PCH/BCHY) in proposed file ...
+Checking proposed file Site XOK961 band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  Adjacent Band 11B OK.
+  Adjacent Band 11C OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: =RCTL3036 (MT POCAHONTAS/RCTL) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+	Database Site: XOK961 (PCH/BCHY) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+Checking proposed file Site XOK961 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: =RCTL3036 (MT POCAHONTAS/RCTL) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: XOK961 (PCH/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+Checking proposed file Site XOK961 band 8A.
+  Band 8A OK, checking adjacent bands.
+  Adjacent Band 7B OK.
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: =RCTL3036 (MT POCAHONTAS/RCTL) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: XOK961 (PCH/BCHY) 
+	Band 7B
+	XOK961 to %BCHYCCBP band 7B chid 7E22 is first RX HiLo violation.
+	XOK961 to %BCHYCCBP band 7B chid 7E52 is first TX HiLo violation.
+	XOK961 has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK966 (MSA/BCHY) in proposed file ...
+Checking proposed file Site XOK966 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK966 (MSA/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK967 (TIR/BCHY) in proposed file ...
+Checking proposed file Site XOK967 band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  Adjacent Band 11B OK.
+  Adjacent Band 11C OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: %BCHYTIRP (TIRP/BCHY) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	%BCHYTIRP to XOK967 band 11A chid CH1 is first TX HiLo violation.
+	%BCHYTIRP to XOK967 band 11A chid CH1 is first RX HiLo violation.
+	%BCHYTIRP has both tx and rx violations.  Stopping scanning band 11A.
+	Violation for Band 11A
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site Has HiLo violation(s).
+
+	Database Site: XOK967 (TIR/BCHY) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+Checking proposed file Site XOK967 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: %BCHYTIRP (TIRP/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	%BCHYTIRP to XOK967 band 7B chid 1V15 is first TX HiLo violation.
+	%BCHYTIRP to XOK967 band 7B chid 1V15 is first RX HiLo violation.
+	%BCHYTIRP has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+	Database Site: XOK967 (TIR/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK969 (DMR/BCHY) in proposed file ...
+Checking proposed file Site XOK969 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK969 (DMR/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK970 (JPT/BCHY) in proposed file ...
+Checking proposed file Site XOK970 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK970 (JPT/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site XOK970 band 8A.
+  Band 8A OK, checking adjacent bands.
+  HiLo Failure in Band 7B
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK970 (JPT/BCHY) 
+	Band 7B
+	XOK970 to XOK972 band 7B chid 7A2H is first RX HiLo violation.
+	XOK970 to XOK972 band 7B chid 7A6H is first TX HiLo violation.
+	XOK970 has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK971 (JHM/BCHY) in proposed file ...
+Checking proposed file Site XOK971 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK971 (JHM/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK972 (CTL/BCHY) in proposed file ...
+Checking proposed file Site XOK972 band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  Adjacent Band 11B OK.
+  Adjacent Band 11C OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CGS528 (COTTLE HILL  BC/TC4) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+	Database Site: VOQ571 (COTTLE HILL/DND) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+	Database Site: XOA726 (NANAIMO/RCTL) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+	Database Site: XOK972 (CTL/BCHY) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+There were 4 nearby sites checked in the database.
+Checking proposed file Site XOK972 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CGS528 (COTTLE HILL  BC/TC4) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: VOQ571 (COTTLE HILL/DND) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: XOA726 (NANAIMO/RCTL) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: XOK972 (CTL/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 4 nearby sites checked in the database.
+Checking proposed file Site XOK972 band 8A.
+  Band 8A OK, checking adjacent bands.
+  HiLo Failure in Band 7B
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CGS528 (COTTLE HILL  BC/TC4) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: VOQ571 (COTTLE HILL/DND) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: XOA726 (NANAIMO/RCTL) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: XOK972 (CTL/BCHY) 
+	Band 7B
+	XOK972 to CHG654 band 7B chid E17V is first TX HiLo violation.
+	XOK972 to CHG654 band 7B chid E47V is first RX HiLo violation.
+	XOK972 has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+There were 4 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK973 (HSY/BCHY) in proposed file ...
+Checking proposed file Site XOK973 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK973 (HSY/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK974 (BRU/BCHY) in proposed file ...
+Checking proposed file Site XOK974 band 08A.
+  Band 08A OK, checking adjacent bands.
+  Adjacent Band 09A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VDY324 (SALTSPRING ISLAND. BC ( BRUCE PE/SHAW) 
+	Band 08A
+	Band 08A OK
+	Band 09A
+	Band 09A OK
+        Site OK
+
+	Database Site: XOB95 (BRU2/BCHY) 
+	Band 08A
+	Band 08A OK
+	Band 09A
+	Band 09A OK
+        Site OK
+
+	Database Site: XOK974 (BRU/BCHY) 
+	Band 08A
+	Band 08A OK
+	Band 09A
+	Band 09A OK
+        Site OK
+
+There were 3 nearby sites checked in the database.
+Checking proposed file Site XOK974 band 7B.
+XOK974 to CHL326 band 7B chid 9998 is first TX HiLo violation.
+XOK974 to CHL326 band 7B chid 9999 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+Checking proposed file Site XOK974 band 8A.
+  Band 8A OK, checking adjacent bands.
+  HiLo Failure in Band 7B
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VDY324 (SALTSPRING ISLAND. BC ( BRUCE PE/SHAW) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: XOB95 (BRU2/BCHY) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: XOK974 (BRU/BCHY) 
+	Band 7B
+	XOK974 to CHG656 band 7B chid E18V is first RX HiLo violation.
+	XOK974 to CHG656 band 7B chid E48V is first TX HiLo violation.
+	XOK974 has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+There were 3 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK975 (VIT/BCHY) in proposed file ...
+Checking proposed file Site XOK975 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK975 (VIT/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOK977 (VCR/BCHY) in proposed file ...
+Checking proposed file Site XOK977 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK977 (VCR/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site XOK977 band 8A.
+  Band 8A OK, checking adjacent bands.
+  HiLo Failure in Band 7B
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOK977 (VCR/BCHY) 
+	Band 7B
+	XOK977 to XOA589 band 7B chid 7C22 is first RX HiLo violation.
+	XOK977 to XOA589 band 7B chid 7C4H is first TX HiLo violation.
+	XOK977 has both tx and rx violations.  Stopping scanning band 7B.
+	Violation for Band 7B
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+24 Site(s) checked.
+There were 25 hilo violations.
+
+
+
+There were a total of 162 errors and 12 warnings.
+The PDF 'bchy2vi1027v1b' is invalid
+PDF Validation Completed - 21:35
+
+ODBC Diagnostic:
+[HY010] [Microsoft][ODBC Driver Manager] Function sequence error
+Diagnostic message:-
+ODBC Diagnostic:
+[HY010] [Microsoft][ODBC Driver Manager] Function sequence error
+  Ct  Ind Function                           Line/File
+Current Connection List:-
+  There were 0 open connections.

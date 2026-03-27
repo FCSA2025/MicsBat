@@ -1,0 +1,16 @@
+D:\MicsBatchProgs\MICS#\SMTP\obj\x64\Debug\SMTP.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\SMTP\obj\x64\Debug\SMTP.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\SMTP.exe.config
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\SMTP.exe
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\SMTP.pdb
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\_DataStructures.dll
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\_DataStructures.pdb
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\SMTP\bin\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\SMTP\obj\x64\Debug\SMTP.csproj.Up2Date
+D:\MicsBatchProgs\MICS#\SMTP\obj\x64\Debug\SMTP.exe
+D:\MicsBatchProgs\MICS#\SMTP\obj\x64\Debug\SMTP.pdb

@@ -1,0 +1,212 @@
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2019.07.25  14:13
+Project Code [hulme1_0]
+
+Checking file: fccmirxpwr
+Full Listing Requested.
+Debugging Output Requested.
+-------------------------------------------------------------
+1) Site WQMP43601:-
+
+24700 BLDG Oper: P36662 
+L/L: 42-28-17.90N/083-14-17.30W Grnd: 205.0m
+Links:-
+Site WQMP43601 name 24700 BLDG has 2 Link(s)...
+  To: WQMP43607 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 9 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 0 chid APVY
+  To: WQMP43607 band 18B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 9 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 1 chid AOYV
+      1 Chan index 2 chid AOYW
+      2 Chan index 3 chid APVX
+
+  Link 0 to WQMP43607, band 18A:-
+--Other End...
+Site WQMP43607 name FBT has 2 Link(s)...
+  To: WQMP43601 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 0 chid APVY
+  To: WQMP43601 band 18B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 1 chid AOYV
+      1 Chan index 2 chid AOYW
+      2 Chan index 3 chid APVX
+    Ground distance: 9.6880, azimuth: 98.5515, back-azimuth: 278.6302
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    9   34.400   98.5515     0.0389     9.6883
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) APVY 17965000.000                  15.500            0.100        
+
+  Link 1 to WQMP43607, band 18B:-
+--Other End...
+Site WQMP43607 name FBT has 2 Link(s)...
+  To: WQMP43601 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 0 chid APVY
+  To: WQMP43601 band 18B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 1 chid AOYV
+      1 Chan index 2 chid AOYW
+      2 Chan index 3 chid APVX
+    Ground distance: 9.6880, azimuth: 98.5515, back-azimuth: 278.6302
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    9   34.400   98.5515     0.0389     9.6883
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) AOYV 18015000.000                  15.500            0.100        
+ 1( 2) AOYW 17865000.000                  15.500            0.100        
+ 2( 3) APVX 18115000.000                  15.500            0.100        
+
+-------------------------------------------------------------
+2) Site WQMP43607:-
+
+FBT Oper: P36662 
+L/L: 42-27-31.00N/083-07-18.00W Grnd: 193.5m
+Links:-
+Site WQMP43607 name FBT has 2 Link(s)...
+  To: WQMP43601 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 0 chid APVY
+  To: WQMP43601 band 18B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 1 chid AOYV
+      1 Chan index 2 chid AOYW
+      2 Chan index 3 chid APVX
+
+  Link 0 to WQMP43601, band 18A:-
+--Other End...
+Site WQMP43601 name 24700 BLDG has 2 Link(s)...
+  To: WQMP43607 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 9 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 0 chid APVY
+  To: WQMP43607 band 18B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 9 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 1 chid AOYV
+      1 Chan index 2 chid AOYW
+      2 Chan index 3 chid APVX
+    Ground distance: 9.6880, azimuth: 278.6302, back-azimuth: 98.5515
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   58.000  278.6302    -0.1042     9.6883
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) APVY               17965000.000            -33.029                 
+    *WARNING* RX Feed System Loss is zero.
+
+  Link 1 to WQMP43601, band 18B:-
+--Other End...
+Site WQMP43601 name 24700 BLDG has 2 Link(s)...
+  To: WQMP43607 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 9 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 0 chid APVY
+  To: WQMP43607 band 18B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 9 acode ANT-MW-18-4
+      Channels:-
+      0 Chan index 1 chid AOYV
+      1 Chan index 2 chid AOYW
+      2 Chan index 3 chid APVX
+    Ground distance: 9.6880, azimuth: 278.6302, back-azimuth: 98.5515
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   58.000  278.6302    -0.1042     9.6883
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) AOYV               18015000.000            -33.162            0.100 
+ 1( 2) AOYW               17865000.000            -33.065            0.100 
+ 2( 3) APVX               18115000.000            -33.226            0.100 
+
+-------------------------------------------------------------
+3) Site WQNE96901:-
+
+HANCOCK Oper: A01749 
+L/L: 42-32-59.50N/083-26-32.10W Grnd: 289.6m
+Links:-
+Site WQNE96901 name HANCOCK has 1 Link(s)...
+  To: WQNE96904 band 11B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 3 acode 04F0812A
+      Channels:-
+      0 Chan index 0 chid AOYP
+      1 Chan index 1 chid APKG
+
+  Link 0 to WQNE96904, band 11B:-
+--Other End...
+Site WQNE96904 name MILFORD M12 has 1 Link(s)...
+  To: WQNE96901 band 11B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode 04F0812A
+      Channels:-
+      0 Chan index 0 chid AOYP
+      1 Chan index 1 chid APKG
+    Ground distance: 20.7303, azimuth: 272.1240, back-azimuth: 91.9534
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    3   44.200  272.1240     0.1794    20.7317
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) AOYP 11235000.000                  19.000            0.100        
+ 1( 1) APKG 11645000.000                  29.000            0.100        
+
+-------------------------------------------------------------
+4) Site WQNE96904:-
+
+MILFORD M12 Oper: A01749 
+L/L: 42-33-23.40N/083-41-40.20W Grnd: 360.6m
+Links:-
+Site WQNE96904 name MILFORD M12 has 1 Link(s)...
+  To: WQNE96901 band 11B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode 04F0812A
+      Channels:-
+      0 Chan index 0 chid AOYP
+      1 Chan index 1 chid APKG
+
+  Link 0 to WQNE96901, band 11B:-
+--Other End...
+Site WQNE96901 name HANCOCK has 1 Link(s)...
+  To: WQNE96904 band 11B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 3 acode 04F0812A
+      Channels:-
+      0 Chan index 0 chid AOYP
+      1 Chan index 1 chid APKG
+    Ground distance: 20.7303, azimuth: 91.9534, back-azimuth: 272.1240
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   63.400   91.9534    -0.3192    20.7317
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) AOYP               11235000.000            -46.530            0.100 
+ 1( 1) APKG               11645000.000            -36.761                 
+    *WARNING* RX Feed System Loss is zero.
+
+---------------------------------------------------------------
+Sites Read...:      4
+Antennas Read:      6
+Channels Read:     12
+
+0 Errors were found
+2 Warnings were issued.
+

@@ -1,0 +1,66 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2133/64-R
+RUN DATE: 2020.09.09  21:34
+Project Code [hulme1_0] Process Id: 23532
+
+PDF Name: b070419av2
+
+
+
+                *********** ERRORS ***********
+
+
+WDU620->%BTPAA2 Band:6A Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+WDU620->%BTPAA2 Band:6A Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+KFK20->%BTPAA2 Band:6A Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+KFK20->%BTPAA2 Band:6A Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%BTPAA2->WDU620 Band:6A Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%BTPAA2->WDU620 Band:6A Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%BTPAA2->KFK20 Band:6A Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%BTPAA2->KFK20 Band:6A Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%BTPAA2->KFK20 Band:6A Chid:1001
+MERGE 21 - No mdb channel.
+
+%BTPAA2->KFK20 Band:6A Chid:1002
+MERGE 21 - No mdb channel.
+
+%BTPAA2->WDU620 Band:6A Chid:1001
+MERGE 21 - No mdb channel.
+
+%BTPAA2->WDU620 Band:6A Chid:1002
+MERGE 21 - No mdb channel.
+
+KFK20->%BTPAA2 Band:6A Chid:1001
+MERGE 21 - No mdb channel.
+
+KFK20->%BTPAA2 Band:6A Chid:1002
+MERGE 21 - No mdb channel.
+
+WDU620->%BTPAA2 Band:6A Chid:1001
+MERGE 21 - No mdb channel.
+
+WDU620->%BTPAA2 Band:6A Chid:1002
+MERGE 21 - No mdb channel.
+
+Unable to merge passive data. Validate cancelled

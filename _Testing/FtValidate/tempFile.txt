@@ -1,0 +1,7 @@
+d:\Users\tsdatafiles\sadd.txt          
+d:\Users\tsdatafiles\owsadd.txt        
+d:\Users\tsdatafiles\dbleadd.txt       
+d:\Users\tsdatafiles\owdadd.txt        
+d:\Users\tsdatafiles\regadd.txt        
+d:\Users\tsdatafiles\regadddvant.txt   
+d:\Users\tsdatafiles\testelevadddb.txt 

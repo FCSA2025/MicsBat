@@ -1,0 +1,22 @@
+esmiss 5
+
+Processing: D:\Inetpub\wwwroot\mics\userdirs\fmda2\fwmda\esmiss5.tmp
+in TE:TE,U,emiss5, , ,
+in TD:TD,
+in SK:SK,A,U,LOCAX,LOCATION A,AB,UNKN,UE, ,
+in SD:SD,51-02-29.00N,114-03-08.00W,1044.0,A,2,3, , ,08-jun-1994
+in AK:AK,A,U,,=UNKN1X, ,3, , , ,
+Error - line 10, Missing location value:AK,A,U,,=UNKN1X, ,3, , , ,
+in AT:AT,6A,TS050C06,0.5,-3.6,300.00,300.00,4.0,174.79,31.4
+in AR:AR,3C,TS050C04,0.0,-4.3,300.00,300.00, ,
+in AS:AS,ANIK D2,TS,GS,110.00W,111.00,1.00
+ANIK D2
+
+GS
+in ZK:ZK,N,A,U,LOCAX,=UNKN1X,0.00,0.00,1.00, , ,
+in ZK:ZK,N,A,U,LOCAX,=UNKN1X,174.79,0.00,1.00, , ,
+in ZK:ZK,N,A,U,LOCAX,=UNKN1X,180.00,0.00,1.00, , ,
+in CK:CK,A,U,LOCAX,=UNKN1X,1, , ,
+in CT:CT,6385000.0,V,26.0,26.00,27.0,UNKNOWN,D7901,3,2DS3,H
+in CR:CR,4160000.0,H,-120.00,UNKNOWN,D7901,-158.0,-138.0,-138.0,3,2DS3,H
+

@@ -1,0 +1,53 @@
+		SDB TRAFFIC UPDATE REPORT Build 160705-2122/64-R		Date: 2019.07.11 12:56
+
+SDF Name: test_noop
+
+		TRAFFIC SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/11/2019 12:56:27 PM
+
+
+Traffic SDF: test_noop
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Traffic SDF test_noop is valid
+
+SDF Validation completed - 7/11/2019 12:56:27 PM
+
+		SDF TRAFFIC UPDATE RESULTS
+
+TRAFFIC RECORD NO ACTION: :A0002/UNKNOWN: 
+
+TRAFFIC RECORD NO ACTION: :A0003/MD960A3: 
+
+TRAFFIC RECORD NO ACTION: :A0005/LD1506: 
+
+TRAFFIC RECORD NO ACTION: :A0005/LD1512: 
+
+TRAFFIC RECORD NO ACTION: :A0005/UNKNOWN: 
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_noop        User Name: hulme1     *****
+
+
+	 Records Processed: 5
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 5insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'traf', 'test_noop', '2019.07.11', '12:56') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\traf\test_noop.20190711_1256) of changes to the database
+
+
+	************     End of Summary Information     ************

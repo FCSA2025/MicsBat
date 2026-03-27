@@ -1,0 +1,52 @@
+
+Frequency Coordination System Association                                                                      Page:  1
+MASTER DATA BASE -- TSTS Interference Study Report - Case Summary                                              Date:2023.07.13
+Project Code [hulme1_0]
+-                                                                                                                            -
+Case/Sub Interferer Station TX                  I->V    Off    Off   RX    Ana P P   TX ->  RX       Calc.    Reqd.   Margn
+          --> Victim Station RX                 Dist    AX>    AX>   RSL   Typ O O   Freq.Sep.    -I or C/I    -I           Check
+                                                (km)    TX     RX   (dBm)      L L   (MHz)       COPL   XPOL   C/I    (dBm) Detail
+--- ---  ---------------------------------    ------ ------ ------ ------ ---  I>V ----------- ------ ------ ------  -----  ------
+  1    1 WESTWOOD RD (P)                        2.54    0.0    0.0 -28.74 I  H H       9.776  -28.7  -58.7  -95.2  -66.5
+         --> HANLON/24 (E)
+ 
+  2    1 HANLON/24 (E)                          2.54    0.0    0.0 -28.31 I  H H       9.776  -28.3  -58.3  -80.4  -52.1
+         --> WESTWOOD RD (P)
+ 
+  3    1 CHRISTOPHERCOURT (P)                   1.91    0.0    0.0 -39.18 I  H H       0.000  -39.2  -69.2 -106.7  -67.5
+         --> HANLON/24 (E)
+ 
+  4    1 HANLON/24 (E)                          1.91    0.0    0.0 -38.75 I  H H       0.000  -38.7  -68.7 -106.9  -68.1
+         --> CHRISTOPHERCOURT (P)
+ 
+  5    1 VICTORIA@WODLAWN (P)                  39.30    0.3  -24.8 -40.40 I  H B       0.000 -100.9 -117.3 -103.3   -2.5
+         --> 2487793 ONTARIO INC (E)
+ 
+  6    1 2487793 ONTARIO INC (E)               39.30  -24.8    0.3 -36.34 I  B H       0.000  -93.3 -109.7 -106.8  -13.5
+         --> VICTORIA@WODLAWN (P)
+ 
+  7    1 VICTORIA@WODLAWN (P)                   3.02    0.0    0.0 -36.58 I  H H       9.813  -36.9  -66.9  -96.2  -59.3
+         --> GUELPH (E)
+ 
+  8    1 GUELPH (E)                             3.02    0.0    0.0 -36.34 I  H H       9.813  -36.0  -66.0  -80.0  -44.0
+         --> VICTORIA@WODLAWN (P)
+ 
+  9    1 HANLON/24 (P)                          2.54    0.0    0.0 -28.30 I  H H       9.776  -28.3  -58.3  -95.2  -66.9
+         --> WESTWOOD RD (E)
+ 
+ 10    1 WESTWOOD RD (E)                        2.54    0.0    0.0 -28.75 I  H H       9.776  -28.7  -58.7  -80.4  -51.6
+         --> HANLON/24 (P)
+ 
+ 11    1 HANLON/24 (P)                          1.91    0.0    0.0 -38.75 I  H H       0.000  -38.7  -68.7 -106.7  -68.0
+         --> CHRISTOPHERCOURT (E)
+ 
+ 12    1 CHRISTOPHERCOURT (E)                   1.91    0.0    0.0 -39.18 I  H H       0.000  -39.2  -69.2 -106.9  -67.7
+         --> HANLON/24 (P)
+ 
+ 13    1 GUELPH (P)                             3.02    0.0    0.0 -35.75 I  H H       9.813  -36.0  -66.0  -96.2  -60.2
+         --> VICTORIA@WODLAWN (E)
+ 
+ 14    1 VICTORIA@WODLAWN (E)                   3.02    0.0    0.0 -37.17 I  H H       9.813  -36.9  -66.9  -80.0  -43.1
+         --> GUELPH (P)
+ 
+Number of reporting cases: 14

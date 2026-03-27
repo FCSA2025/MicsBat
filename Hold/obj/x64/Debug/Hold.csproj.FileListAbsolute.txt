@@ -1,0 +1,16 @@
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\Hold.exe.config
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\Hold.exe
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\Hold.pdb
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\_DataStructures.dll
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\Hold\bin\x64\Debug\_DataStructures.pdb
+D:\MicsBatchProgs\MICS#\Hold\obj\x64\Debug\Hold.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\Hold\obj\x64\Debug\Hold.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\Hold\obj\x64\Debug\Hold.csproj.Up2Date
+D:\MicsBatchProgs\MICS#\Hold\obj\x64\Debug\Hold.exe
+D:\MicsBatchProgs\MICS#\Hold\obj\x64\Debug\Hold.pdb

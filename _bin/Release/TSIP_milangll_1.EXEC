@@ -1,0 +1,43 @@
+                    FREQUENCY COORDINATION SYSTEM ASSOCIATION 230713-1314/64-R
+                      MICS TSIP Ts-Ts Execution Information
+   Inputs:
+             Project Code:         hulme1_0
+             Parameter File Name:  milangll
+             TSIP Run Name:        1
+   Outputs:
+             Interference Tables
+                 tt_milangll_1_parm Table
+                 tt_milangll_1_site Table
+                 tt_milangll_1_ante Table
+                 tt_milangll_1_chan Table
+             Report files
+                 TSIP_milangll_1.EXEC (Execution Report)
+                 TSIP_milangll_1.STUDY (TSIP Study Report)
+                 TSIP_milangll_1.STATSUM (Station Summary Report)
+                 TSIP_milangll_1.CASEDET (Case Detail Report)
+                 TSIP_milangll_1.CASESUM (Case Summary Report)
+                 TSIP_milangll_1.AGGINTREP (Aggregate Interference Report)
+                 TSIP_milangll_1_AGGINT.CSV (Aggregate Interference CSV)
+                 TSIP_milangll_1.ORBIT (Orbit Report)
+
+   Propagation Loss Calculation Model:  Free Space
+   Maximum Frequency Separation      :    300.0
+   Coordination Distance             :    200.0
+   Culling Margin used               :      2.0
+   Number of Station Groups Passed to Analysis:  53044
+   Number of Interference Cases Reported:        14
+
+
+   Start of TSIP Run                                End of TSIP Run
+    Date: 2023.07.13                                 Date: 2023.07.13  
+    Time: 13:32                                      Time: 13:42       
+
+Cache info:-
+Cache       Calls  Hits  Size  Used
+Antennas.: 271336270690   100   100
+Equipment:  67672 66721   100   100
+CTX Curve:      0     0   100     0
+CTX Xref.:  18250     0   100     0
+Analog...:      0     0   100     0
+Digital..:  20126 19231   100   100
+

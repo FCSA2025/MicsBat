@@ -1,0 +1,8 @@
+D:\Users\ahulme\MyCsharp\ComparePDFs\bin\Release\ComparePDFs.exe.config
+D:\Users\ahulme\MyCsharp\ComparePDFs\bin\Release\ComparePDFs.exe
+D:\Users\ahulme\MyCsharp\ComparePDFs\bin\Release\ComparePDFs.pdb
+D:\Users\ahulme\MyCsharp\ComparePDFs\obj\Release\ComparePDFs.exe
+D:\Users\ahulme\MyCsharp\ComparePDFs\obj\Release\ComparePDFs.pdb
+D:\Users\ahulme\MyCsharp\bin\x64\Release\ComparePDFs.exe.config
+D:\Users\ahulme\MyCsharp\bin\x64\Release\ComparePDFs.exe
+D:\Users\ahulme\MyCsharp\bin\x64\Release\ComparePDFs.pdb

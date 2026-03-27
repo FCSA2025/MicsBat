@@ -1,0 +1,9 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2058/64-R
+RUN DATE: 2020.09.09  21:18
+Project Code [hulme1_0] Process Id: 20256
+
+PDF Name: testimport
+
+ERROR - pdf 'testimport' does not exist

@@ -1,0 +1,38 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2058/64-R
+RUN DATE: 2020.09.09  21:15
+Project Code [hulme1_0] Process Id: 19892
+
+PDF Name: passive2_18b
+
+
+
+                *********** ERRORS ***********
+
+
+XOA756->%NAVI64 Band:18B Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+CHF50->%NAVI64 Band:18B Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%NAVI64->XOA756 Band:18B Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%NAVI64->CHF50 Band:18B Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+MERGE 21 - No mdb channel.
+
+%NAVI64->XOA756 Band:18B Chid:1001
+MERGE 21 - No mdb channel.
+
+CHF50->%NAVI64 Band:18B Chid:1001
+MERGE 21 - No mdb channel.
+
+XOA756->%NAVI64 Band:18B Chid:1001
+MERGE 21 - No mdb channel.
+
+Unable to merge passive data. Validate cancelled

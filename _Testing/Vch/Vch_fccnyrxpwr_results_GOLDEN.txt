@@ -1,0 +1,86 @@
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2019.07.25  14:13
+Project Code [hulme1_0]
+
+Checking file: fccnyrxpwr
+Full Listing Requested.
+Debugging Output Requested.
+-------------------------------------------------------------
+1) Site KMK4201:-
+
+STATION Oper: A73995 
+L/L: 41-01-50.30N/073-46-03.40W Grnd: 68.3m
+Links:-
+Site KMK4201 name STATION has 1 Link(s)...
+  To: KMK4202 band 22A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPLP1-18
+      1 Ant index 1 anum 2 acode HPLP1-18
+      Channels:-
+      0 Chan index 0 chid AOYN
+      1 Chan index 1 chid AOYO
+
+  Link 0 to KMK4202, band 22A:-
+--Other End...
+Site KMK4202 name 1572 has 1 Link(s)...
+  To: KMK4201 band 22A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode TYP042G
+      1 Ant index 1 anum 2 acode TYP042G
+      Channels:-
+      0 Chan index 0 chid AOYN
+      1 Chan index 1 chid AOYO
+    Ground distance: 0.3012, azimuth: 157.1829, back-azimuth: 337.1838
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   38.100  157.1829    -3.8188     0.3019
+  1    2   45.400  157.1829    -5.2742     0.3025
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) AOYN 23125000.000                  14.000            0.100        
+ 1( 1) AOYO 23475000.000                  17.000            0.100        
+
+-------------------------------------------------------------
+2) Site KMK4202:-
+
+1572 Oper: A73995 
+L/L: 41-01-41.30N/073-45-58.40W Grnd: 64.0m
+Links:-
+Site KMK4202 name 1572 has 1 Link(s)...
+  To: KMK4201 band 22A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode TYP042G
+      1 Ant index 1 anum 2 acode TYP042G
+      Channels:-
+      0 Chan index 0 chid AOYN
+      1 Chan index 1 chid AOYO
+
+  Link 0 to KMK4201, band 22A:-
+--Other End...
+Site KMK4201 name STATION has 1 Link(s)...
+  To: KMK4202 band 22A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPLP1-18
+      1 Ant index 1 anum 2 acode HPLP1-18
+      Channels:-
+      0 Chan index 0 chid AOYN
+      1 Chan index 1 chid AOYO
+    Ground distance: 0.3012, azimuth: 337.1838, back-azimuth: 157.1829
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   22.300  337.1838     3.8167     0.3019
+  1    2   21.900  337.1838     5.2721     0.3025
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) AOYN               23125000.000            -36.187            0.100 
+    *ERROR* Rx Power 1 does not agree with calcs, (-36.1866) vs (-36.2043).
+ 1( 1) AOYO               23475000.000            -26.833                 
+    *WARNING* RX Feed System Loss is zero.
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      4
+Channels Read:      4
+
+1 Errors were found
+1 Warnings were issued.
+

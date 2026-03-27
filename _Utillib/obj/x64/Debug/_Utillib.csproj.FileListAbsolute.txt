@@ -1,0 +1,15 @@
+D:\Users\ahulme\MICS#\_bin\Debug\_Utillib.dll
+D:\Users\ahulme\MICS#\_bin\Debug\_Utillib.pdb
+D:\Users\ahulme\MICS#\Utillib\obj\x64\Debug\_Utillib.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\Utillib\obj\x64\Debug\_Utillib.dll
+D:\Users\ahulme\MICS#\Utillib\obj\x64\Debug\_Utillib.pdb
+D:\Users\ahulme\MICS#\_Utillib\obj\x64\Debug\_Utillib.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\_Utillib\obj\x64\Debug\_Utillib.dll
+D:\Users\ahulme\MICS#\_Utillib\obj\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\_Utillib\obj\x64\Debug\_Utillib.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\_Utillib\obj\x64\Debug\_Utillib.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\_Utillib\obj\x64\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\_Utillib\obj\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\_bin\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\_bin\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\_Utillib\obj\x64\Debug\_Utillib.csproj.Up2Date

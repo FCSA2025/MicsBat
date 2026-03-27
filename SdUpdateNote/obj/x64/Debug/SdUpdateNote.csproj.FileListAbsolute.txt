@@ -1,0 +1,16 @@
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\SdUpdateNote.exe.config
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\SdUpdateNote.exe
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\SdUpdateNote.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\_DataStructures.dll
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\_DataStructures.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateNote\bin\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateNote\obj\x64\Debug\SdUpdateNote.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\SdUpdateNote\obj\x64\Debug\SdUpdateNote.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\SdUpdateNote\obj\x64\Debug\SdUpdate.07F1F2CE.Up2Date
+D:\MicsBatchProgs\MICS#\SdUpdateNote\obj\x64\Debug\SdUpdateNote.exe
+D:\MicsBatchProgs\MICS#\SdUpdateNote\obj\x64\Debug\SdUpdateNote.pdb

@@ -1,0 +1,36 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:14
+Project Code [HULME1_0] Process Id: 5004
+
+PDF Name: owsorig
+
+
+
+                *********** ERRORS ***********
+
+
+$INLB01->%INLB02 Band:6E Chid:1001
+MERGE 21 - No mdb channel.
+
+%INLB02->$INLB01 Band:6E Chid:1001
+MERGE 21 - No mdb channel.
+MERGE 22 - Must change transmit frequency field at the TX end.
+Power calculations will not be done.
+
+                ----------- WARNINGS -----------
+
+
+$INLB01->%INLB02 Band:6E Chid:1001
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (MA-6G).
+MERGE 30 - Must change RX traffic field from remote active TX side. Validate will use the value in the remote active TX traffic field (A5250).
+
+%INLB02->$INLB01 Band:6E Chid:1001
+MERGE 23 - Must change polarization field at the originator.
+Validate will use the originating transmit field for thisvalue (V).
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (MA-6G).
+
+%INLB02->XNR43 Band:6E Chid:1001
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (MA-6G).
+
+Unable to merge passive data. Validate cancelled

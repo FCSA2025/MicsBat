@@ -1,0 +1,87 @@
+ES PDF VALIDATION REPORT    Build 160428-1318/64-D    DATE: 2019.01.07  20:05
+Project Code [HULME1_0] Process ID [6576]
+PDF Name: esvalsite
+
+
+
+                      ES SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY:  =TELSUX
+Invalid province code (XX).
+Ground Height (7000.0) must be between 0.0 and 4999.9.
+Radio (Z) must be A, B or C.
+Rain (999) must be between 0 and 99
+Status (9) must be between 0 and 8.
+
+Location: =TELSUX
+SITE already exists in MDB, cannot ADD
+
+Location: =TELSUX-2
+SITE already exists in MDB, cannot ADD
+Nots (IC1) not present in Note table for that Operator :ALA:
+Operator (ALA) is not a coordinating member
+
+Location: =TELSUY-2
+Cannot delete if antenna being Added or Updated
+Cannot delete if azimuth being Added or Updated
+Cannot delete if azimuth being Added or Updated
+Cannot delete if channel being Added or Updated
+
+                ----------- WARNINGS -----------
+
+
+Location: =TELSUX
+SITE Rain (999) out of range (1-9), TSIP will use 9.
+
+SUMMARY OF SITE RECORDS: 13 errors and 1 warnings
+
+
+                      ES ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna: =TELSUY-2 CH751
+Antenna already exists in MDB, cannot ADD
+
+                ----------- WARNINGS -----------
+
+
+Antenna: =TELSUY-2 CH751
+Call Sign is already used in Location =TELSUY-2 (MTLTELEPORT, QC by TELS)
+
+SUMMARY OF ANTENNA RECORDS: 1 errors and 1 warnings
+
+
+                      ES CHANNEL RECORDS
+
+SUMMARY OF CHANNEL RECORDS: 0 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =TELSUY-2 CH751 0.0
+Azimuth record already exists in MDB, cannot ADD.
+
+SUMMARY OF AZIMUTH RECORDS: 1 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 15 errors and 2 warnings.
+The PDF 'esvalsite' is invalid
+PDF Validation Completed -  20:05

@@ -1,0 +1,506 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:38
+Project Code [HULME1_0] Process Id: 22772
+
+PDF Name: fccmirxpwr
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: WQMP43601
+
+This Site record has been modified since you retrieved it.
+
+Site Call: WQMP43601
+Lat & Long for site is the same as for existing site:- 
+	WQMP43502 24700 BLDG P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQPG89903 24700 BLDG P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQQV51003 24700 BLDG P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQRV54002 24700 BLDG P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQRV55103 24700 BLDG P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQSZ35802 24700 BLDG P36662
+Check to ensure coordinates are correct.
+
+KEY: WQMP43607
+
+This Site record has been modified since you retrieved it.
+
+Site Call: WQMP43607
+Lat & Long for site is the same as for existing site:- 
+	WQRV55101 FBT P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQRV55603 FBT P36662
+Check to ensure coordinates are correct.
+
+KEY: WQNE96901
+
+This Site record has been modified since you retrieved it.
+
+Site Call: WQNE96901
+Lat & Long for site is the same as for existing site:- 
+	WPNJ84904 HANCOCK A01749
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQNR49902 HANCOCK A01749
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQOM65502 HANCOCK A01749
+Check to ensure coordinates are correct.
+
+KEY: WQNE96904
+
+This Site record has been modified since you retrieved it.
+
+Site Call: WQNE96904
+Lat & Long for site is the same as for existing site:- 
+	WNTS72103 MILFORD M12 A01749
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQMC26207 MLL P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQOM65302 MILFORD M12 A01749
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQOM65501 MILFORD M12 A01749
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQQF47602 DE03XC087 B52704
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQQF47702 DE03XC087 B52704
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQQF79001 DE03XC087 B52704
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQQL37103 MLL P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQRY90501 MLL P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQSZ35902 MLL P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WQWG51402 MLL P36662
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WREP66402 MLL P36662
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 27 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+WQMP43601 WQMP43607 18A 9
+Antenna to update does not exist in MDB
+
+WQMP43607 WQMP43601 18A 1
+Antenna to update does not exist in MDB
+
+WQNE96901 WQNE96904 11B 3
+Antenna to update does not exist in MDB
+
+WQNE96904 WQNE96901 11B 1
+Antenna to update does not exist in MDB
+
+                ----------- WARNINGS -----------
+
+
+WQMP43601 WQMP43607 18B 9
+This Antenna record has been modified since you retrieved it.
+
+WQMP43607 WQMP43601 18B 1
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: WQMP43601 WQMP43607 18B AOYW
+Channel does not exist in MDB.
+
+Channel: WQMP43607 WQMP43601 18B AOYW
+Channel does not exist in MDB.
+
+Channel: WQNE96901 WQNE96904 11B AOYP
+Channel does not exist in MDB.
+
+Channel: WQNE96901 WQNE96904 11B APKG
+Channel does not exist in MDB.
+
+Channel: WQNE96904 WQNE96901 11B AOYP
+Channel does not exist in MDB.
+
+Channel: WQNE96904 WQNE96901 11B APKG
+Channel does not exist in MDB.
+
+                ----------- WARNINGS -----------
+
+
+Channel: WQMP43601 WQMP43607 18A APVY
+This Channel record has been modified since you retrieved it.
+
+Channel: WQMP43601 WQMP43607 18B AOYV
+This Channel record has been modified since you retrieved it.
+
+Channel: WQMP43601 WQMP43607 18B APVX
+This Channel record has been modified since you retrieved it.
+
+Channel: WQMP43607 WQMP43601 18A APVY
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+Channel: WQMP43607 WQMP43601 18B AOYV
+This Channel record has been modified since you retrieved it.
+
+Channel: WQMP43607 WQMP43601 18B APVX
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  6 errors and 7 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking WQMP43601 (24700 BLDG/P36662) in proposed file ...
+Checking proposed file Site WQMP43601 band 18A.
+  Band 18A OK, checking adjacent bands.
+  Adjacent Band 18B OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: WQKD52801 (ZING CORE/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQKK48402 (ZING CORE/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQMP43502 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQMP43601 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQPG89903 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQQV51003 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQRV54002 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQRV55103 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQSZ35802 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 9 nearby sites checked in the database.
+Checking proposed file Site WQMP43601 band 18B.
+  Band 18B OK, checking adjacent bands.
+  Adjacent Band 18A OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: WQKD52801 (ZING CORE/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQKK48402 (ZING CORE/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQMP43502 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQMP43601 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQPG89903 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQQV51003 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQRV54002 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQRV55103 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQSZ35802 (24700 BLDG/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 9 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking WQMP43607 (FBT/P36662) in proposed file ...
+Checking proposed file Site WQMP43607 band 18A.
+  Band 18A OK, checking adjacent bands.
+  Adjacent Band 18B OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: WQMP43607 (FBT/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQRV55101 (FBT/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+Checking proposed file Site WQMP43607 band 18B.
+  Band 18B OK, checking adjacent bands.
+  Adjacent Band 18A OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: WQMP43607 (FBT/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: WQRV55101 (FBT/P36662) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking WQNE96901 (HANCOCK/A01749) in proposed file ...
+Checking proposed file Site WQNE96901 band 11B.
+WQNE96901 to WQNE96904 band 11B chid APKG is first TX HiLo violation.
+  Band 11B HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking WQNE96904 (MILFORD M12/A01749) in proposed file ...
+Checking proposed file Site WQNE96904 band 11B.
+WQNE96904 to WQNE96901 band 11B chid APKG is first RX HiLo violation.
+  Band 11B HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+4 Site(s) checked.
+There were 2 hilo violations.
+
+
+
+There were a total of 10 errors and 36 warnings.
+The PDF 'fccmirxpwr' is invalid
+PDF Validation Completed - 21:38

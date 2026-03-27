@@ -1,0 +1,194 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:05
+Project Code [HULME1_0] Process Id: 24940
+
+PDF Name: bandwddelpashop
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %BCHYCOMS VFF950 11A 1001
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+
+Channel: %BCHYCOMS VFF950 11A 1002
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+
+Channel: %BCHYCOMS VXJ495 11A 1001
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+
+Channel: %BCHYCOMS VXJ495 11A 1002
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+
+Channel: VFF950 %BCHYCOMS 11A 1001
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+
+Channel: VFF950 %BCHYCOMS 11A 1002
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+
+Channel: VXJ495 %BCHYCOMS 11A 1001
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+
+Channel: VXJ495 %BCHYCOMS 11A 1002
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 16 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %BCHYCOMS (COMS RPTR/BCHY) in proposed file ...
+Checking proposed file Site %BCHYCOMS band 11A.
+%BCHYCOMS to VXJ495 band 11A chid 1001 is first TX HiLo violation.
+%BCHYCOMS to VXJ495 band 11A chid 1001 is first RX HiLo violation.
+  Band 11A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+Checking proposed file Site %BCHYCOMS band 7B.
+%BCHYCOMS to VXJ495 band 7B chid 1001 is first TX HiLo violation.
+%BCHYCOMS to VXJ495 band 7B chid 1001 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking VFF950 (SER/BCHY) in proposed file ...
+Checking proposed file Site VFF950 band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  Adjacent Band 11B OK.
+  Adjacent Band 11C OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VFF950 (SER/BCHY) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	VFF950 to XOK972 band 11A chid 9992 is first RX HiLo violation.
+	VFF950 to XOK972 band 11A chid 9994 is first TX HiLo violation.
+	VFF950 has both tx and rx violations.  Stopping scanning band 11A.
+	Violation for Band 11A
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site VFF950 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VFF950 (SER/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VXJ495 (CLOWHAM LAKE. BC/BCHY) in proposed file ...
+Checking proposed file Site VXJ495 band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  Adjacent Band 11B OK.
+  Adjacent Band 11C OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VXJ495 (CLOWHAM LAKE. BC/BCHY) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site VXJ495 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VXJ495 (CLOWHAM LAKE. BC/BCHY) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 5 hilo violations.
+
+
+
+There were a total of 0 errors and 16 warnings.
+The PDF 'bandwddelpashop' is validated for :UPDATE:
+
+PDF Validation Completed - 16:06

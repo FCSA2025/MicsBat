@@ -1,0 +1,8 @@
+D:\users\ahulme\MICS#\_bin\Release\ComsearchToTAFL.exe.config
+D:\users\ahulme\MICS#\_bin\Release\ComsearchToTAFL.exe
+D:\users\ahulme\MICS#\_bin\Release\ComsearchToTAFL.pdb
+D:\users\ahulme\MICS#\ComsearchToTAFL\obj\Release\ComsearchToTAFL.csproj.AssemblyReference.cache
+D:\users\ahulme\MICS#\ComsearchToTAFL\obj\Release\ComsearchToTAFL.csproj.CoreCompileInputs.cache
+D:\users\ahulme\MICS#\ComsearchToTAFL\obj\Release\ComsearchToTAFL.csproj.CopyComplete
+D:\users\ahulme\MICS#\ComsearchToTAFL\obj\Release\ComsearchToTAFL.exe
+D:\users\ahulme\MICS#\ComsearchToTAFL\obj\Release\ComsearchToTAFL.pdb

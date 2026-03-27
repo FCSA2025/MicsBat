@@ -1,0 +1,113 @@
+		SDB CTX UPDATE REPORT Build 160705-2108/64-R		Date: 2019.05.22 17:02
+
+SDF Name: test_combo
+SDF Type: CTX
+
+
+		SDF VALIDATION RESULTS
+
+
+		SDF CTX UPDATE RESULTS
+
+CTX RECORD UPDATE: :A0005/DRB147/LD1506: 
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/0.000: 
+
+  CTX POINTS RECORD ADD: :A0005/DRB147/LD1506/69.00: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_ctxd', database 'fcsa', schema 'main'.
+
+  CTX POINTS RECORD ADD: :A0005/DRB147/LD1506/96.00: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_ctxd', database 'fcsa', schema 'main'.
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/620.000: 
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/680.000: 
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/720.000: 
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/760.000: 
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/1000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/2000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/3000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/4000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/5000.000: 
+::	- Successful DELETE of points record
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The UPDATE permission was denied on the object 'sd_ctx', database 'fcsa', schema 'main'.
+
+CTX RECORD DELETE: :A0012/D75100/UNKNOWN: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/120.000: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/160.000: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/200.000: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/240.000: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/280.000: 
+
+  CTX POINT RECORD DELETE: :A0012/D75100/UNKNOWN/1000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0012/D75100/UNKNOWN/2000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0012/D75100/UNKNOWN/3000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINTS RECORD ADD: :A0012/D75100/UNKNOWN/300001.00: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_ctxd', database 'fcsa', schema 'main'.
+::	- Successful DELETE of master and points records
+
+CTX RECORD ADD: :B0012/E75100/TARZAN: 
+
+  CTX POINTS RECORD ADD: :B0012/E75100/TARZAN/0.00: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_ctxd', database 'fcsa', schema 'main'.
+
+  CTX POINTS RECORD ADD: :B0012/E75100/TARZAN/120.00: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_ctxd', database 'fcsa', schema 'main'.
+
+  CTX POINTS RECORD ADD: :B0012/E75100/TARZAN/140.00: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_ctxd', database 'fcsa', schema 'main'.
+
+  CTX POINTS RECORD ADD: :B0012/E75100/TARZAN/160.00: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_ctxd', database 'fcsa', schema 'main'.
+
+  CTX POINTS RECORD ADD: :B0012/E75100/TARZAN/180.00: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_ctxd', database 'fcsa', schema 'main'.
+::	- Warning no data points for the current record
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_ctx', database 'fcsa', schema 'main'.
+
+SDB UPDATE SUMMARY: 10 errors and 1 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_combo       User Name: hulme1     *****
+
+
+	 Records Processed: 3
+	 ******** ALL CHANGES ROLLED BACK ***********
+
+
+	************     End of Summary Information     ************

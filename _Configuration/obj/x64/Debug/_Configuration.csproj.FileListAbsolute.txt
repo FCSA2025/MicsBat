@@ -1,0 +1,13 @@
+D:\Users\ahulme\MICS#\_bin\Release\_Configuration.dll
+D:\Users\ahulme\MICS#\_bin\Release\_Configuration.pdb
+D:\Users\ahulme\MICS#\_Configuration\obj\x64\Debug\_Configuration.dll
+D:\Users\ahulme\MICS#\_Configuration\obj\x64\Debug\_Configuration.pdb
+D:\Users\ahulme\MICS#\_bin\Debug\_Configuration.dll
+D:\Users\ahulme\MICS#\_bin\Debug\_Configuration.pdb
+D:\Users\ahulme\MICS#\_Configuration\obj\x64\Debug\_Configuration.csprojResolveAssemblyReference.cache
+D:\MicsBatchProgs\MICS#\_bin\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\_bin\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\_Configuration\obj\x64\Debug\_Configuration.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\_Configuration\obj\x64\Debug\_Configuration.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\_Configuration\obj\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\_Configuration\obj\x64\Debug\_Configuration.pdb

@@ -1,0 +1,1741 @@
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 12204
+
+PDF Name: owslat
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %INLB02X
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+$INLB01X %INLB02X 6E 11
+Distance (98.3) is greater than 90km.
+
+%INLB02X $INLB01X 6E 11
+Distance (98.3) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: $INLB01X %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X $INLB01X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 7 warnings.
+The PDF 'owslat' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owslat, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:22
+*
+TT,U,OWSLAT,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 72.30, At. Loss = 0.92
+AK,U,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,27.03,-0.06,98.26,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-46.4, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,U,U,%INLB02X,CLEARWATER,50-50-05.61N,120-07-45.48W,1146.0,2014.02.07,08:36
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 72.30, At. Loss = 0.92
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,207.52,-0.60,98.26,P,193.26,4.23,53.4, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,9.3,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 44.22, At. Loss = 0.04
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,178.83,8.80,3.88,P,193.26,4.23,53.4, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,9.3, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 44.22, At. Loss = 0.04
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,358.83,-8.82,3.88,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 9636
+
+PDF Name: owslong
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %INLB02X
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: $INLB01X %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X $INLB01X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 5 warnings.
+The PDF 'owslong' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owslong, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:24
+*
+TT,U,OWSLONG,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 71.26, At. Loss = 0.81
+AK,U,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,35.57,0.01,87.15,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-62.3, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,U,U,%INLB02X,CLEARWATER,50-41-05.61N,120-02-45.46W,1146.0,2014.02.07,08:36
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 71.26, At. Loss = 0.81
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,216.12,-0.60,87.15,P,275.89,1.75,50.6, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-4.9,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 55.45, At. Loss = 0.13
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,335.73,2.36,14.12,P,275.89,1.75,50.6, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-4.9, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 55.45, At. Loss = 0.13
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,155.67,-2.46,14.12,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 10796
+
+PDF Name: owsgrnd
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %INLB02X
+
+This Site record has been modified since you retrieved it.
+
+Site Call: %INLB02X
+Lat & Long for site is the same as for existing site:- 
+	%INLB02 CLEARWATER INLB
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 2 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: $INLB01X %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X $INLB01X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 6 warnings.
+The PDF 'owsgrnd' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owsgrnd, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:25
+*
+TT,U,OWSGRND,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,-0.24,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-66.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,U,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,746.0,2014.02.07,08:36
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.33,83.82,P,286.29,7.21,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-6.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.66, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,4.38,12.90,P,286.29,7.21,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-6.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.66, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,180.35,-4.46,12.90,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 6812
+
+PDF Name: owsacode
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+%INLB02X $INLB01X 6E 11
+This Antenna record has been modified since you retrieved it.
+
+%INLB02X XOD250A 6E 11
+This Antenna record has been modified since you retrieved it.
+
+XOD250A %INLB02X 6E 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 3 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: $INLB01X %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X $INLB01X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 7 warnings.
+The PDF 'owsacode' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owsacode, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:26
+*
+TT,U,OWSACODE,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-58.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2014.02.07,08:36
+AQ,TX,30F32FA%,5.0,212.80,-0.60,83.82,P,286.48,3.57,52.0, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-2.7,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2014.02.07,08:36
+AQ,RX,30F32FA%,5.0,0.35,2.60,12.87,P,286.48,3.57,52.0, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-2.7, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2014.02.07,08:36
+AQ,TX,P8-65D,2.0,180.35,-2.69,12.87,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 4700
+
+PDF Name: owsaht
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Antenna %INLB02X $INLB01X 6E 11
+Antenna height (900.000000) outside recommended range of 0 to 300m
+
+Antenna %INLB02X XOD250A 6E 11
+Antenna height (900.000000) outside recommended range of 0 to 300m
+
+%INLB02X $INLB01X 6E 11
+This Antenna record has been modified since you retrieved it.
+
+%INLB02X XOD250A 6E 11
+This Antenna record has been modified since you retrieved it.
+
+XOD250A %INLB02X 6E 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 5 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: $INLB01X %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X $INLB01X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 9 warnings.
+The PDF 'owsaht' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owsaht, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:27
+*
+TT,U,OWSAHT,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.65,83.84,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-66.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2014.02.07,08:36
+AQ,TX,16F24FA%,900.0,212.80,-1.21,83.84,P,286.57,-4.64,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-6.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2014.02.07,08:36
+AQ,RX,16F24FA%,900.0,0.35,-1.38,12.86,P,286.57,-4.64,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-6.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2014.02.07,08:36
+AQ,TX,P8-65D,2.0,180.35,1.30,12.86,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 4488
+
+PDF Name: owstxpwr
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %INLB02X $INLB01X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'owstxpwr' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owstxpwr, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:28
+*
+TT,U,OWSTXPWR,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-66.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-6.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,2.60,12.87,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-6.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,180.35,-2.69,12.87,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 10900
+
+PDF Name: owstxfreq
+
+
+
+                *********** ERRORS ***********
+
+
+%INLB02X->$INLB01X Band:6E Chid:1001
+MERGE 22 - Must change transmit frequency field at the TX end.
+Power calculations will not be done.
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %INLB02X $INLB01X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 2 warnings.
+The PDF 'owstxfreq' is invalid
+PDF Validation Completed - 17:56
+
+* TS-PDF: owstxfreq, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:29
+*
+TT,N,OWSTXFREQ,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-66.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-6.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,2.60,12.87,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-6.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,180.35,-2.69,12.87,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 14004
+
+PDF Name: owslata
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: XOD250A
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 3 warnings.
+The PDF 'owslata' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owslata, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:30
+*
+TT,U,OWSLATA,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,N,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-69.3, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.48,2.11,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-9.8,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 57.76, At. Loss = 0.17
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.24,1.78,18.43,P,286.48,2.11,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-9.8, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,U,U,XOD250A,MT LOLO,50-51-01.62N,120-07-41.47W,1743.0,2014.02.07,08:36
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 57.76, At. Loss = 0.17
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,180.24,-1.91,18.43,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 14156
+
+PDF Name: owslonga
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: XOD250A
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 3 warnings.
+The PDF 'owslonga' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owslonga, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:31
+*
+TT,U,OWSLONGA,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,N,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-64.3, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,255.83,0.40,52.2, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-8.9,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 61.00, At. Loss = 0.25
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,298.86,1.18,26.76,P,255.83,0.40,52.2, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-8.9, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,U,U,XOD250A,MT LOLO,50-48-01.61N,120-27-41.52W,1743.0,2014.02.07,08:36
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 61.00, At. Loss = 0.25
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,118.60,-1.36,26.76,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 4084
+
+PDF Name: owsgrnda
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: XOD250A
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 3 warnings.
+The PDF 'owsgrnda' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owsgrnda, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:33
+*
+TT,U,OWSGRNDA,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,N,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-66.1, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.25,-9.42,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-6.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.66, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,-4.71,12.90,P,286.25,-9.42,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-6.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,U,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,100.0,2014.02.07,08:36
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.66, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,180.35,4.62,12.90,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 5952
+
+PDF Name: owsacodea
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+XOD250A %INLB02X 6E 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 3 warnings.
+The PDF 'owsacodea' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owsacodea, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:34
+*
+TT,U,OWSACODEA,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,N,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-72.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-12.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,2.60,12.87,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-12.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 36.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2014.02.07,08:36
+AQ,TX,P4-65D,2.0,180.35,-2.69,12.87,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 11228
+
+PDF Name: owsahta
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Antenna XOD250A %INLB02X 6E 11
+Antenna height (999.000000) outside recommended range of 0 to 300m
+
+XOD250A %INLB02X 6E 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %INLB02X XOD250A 6E 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 4 warnings.
+The PDF 'owsahta' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owsahta, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:35
+*
+TT,U,OWSAHTA,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,N,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-66.1, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,285.84,11.33,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-6.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.70, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,7.01,12.96,P,285.84,11.33,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-6.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.70, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2014.02.07,08:36
+AQ,TX,P8-65D,999.0,180.35,-7.10,12.96,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 3092
+
+PDF Name: owsrxfsla
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: $INLB01X %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'owsrxfsla' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owsrxfsla, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:36
+*
+TT,U,OWSRXFSLA,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,N,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,8.5,-73.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-6.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,2.60,12.87,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-6.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,N,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,180.35,-2.69,12.87,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 13656
+
+PDF Name: owstxfsla
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'owstxfsla' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owstxfsla, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:37
+*
+TT,U,OWSTXFSLA,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,N,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-73.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-13.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,2.60,12.87,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-13.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,180.35,-2.69,12.87,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6640000.00,V,11,8.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 10172
+
+PDF Name: owstxpwra
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'owstxpwra' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owstxpwra, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:38
+*
+TT,U,OWSTXPWRA,,NAD83,2007.02.07,09:42
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,N,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-56.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2019.09.19,17:41
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,3.4,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,2.60,12.87,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,U,U,%INLB02X,XOD250A,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,3.4, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,180.35,-2.69,12.87,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,U,U,XOD250A,%INLB02X,6E,1001,2007.02.06,15:22
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,46.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:56
+Project Code [fmda20] Process Id: 9956
+
+PDF Name: owstxfreqa
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: XOD250A %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'owstxfreqa' is validated for :UPDATE:
+
+PDF Validation Completed - 17:56
+
+* TS-PDF: owstxfreqa, By FtPrint (190919-1339/64-R) at 2019.09.19 17:56:39
+*
+TT,U,OWSTXFREQA,,,,
+*##############################################################################
+SK,N,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,N,U,$INLB01X,%INLB02X,6E,11,2019.09.19,17:41
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.50
+CK,U,U,$INLB01X,%INLB02X,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6680000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-66.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  IRON MTN  ======== Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,U,U,%INLB02X,$INLB01X,6E,11,2019.09.19,17:41
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.50
+CK,U,U,%INLB02X,$INLB01X,6E,1001,2019.09.19,17:41
+CT, , , ,6680000.00,V,11,0.0, , ,MA-6G, ,-6.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  MT LOLO  ========= Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,U,U,%INLB02X,XOD250A,6E,11,2019.09.19,17:41
+AQ,RX,16F24FA%,5.0,0.35,2.60,12.87,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.50
+CK,U,U,%INLB02X,XOD250A,6E,1001,2019.09.19,17:41
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6680000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-6.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,N,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2019.09.19,17:41
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  CLEARWATER  ====== Ant Gain = 42.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,N,U,XOD250A,%INLB02X,6E,11,2019.09.19,17:41
+AQ,TX,P8-65D,2.0,180.35,-2.69,12.87,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.50
+CK,U,U,XOD250A,%INLB02X,6E,1001,2014.02.07,08:36
+CT, , , ,6680000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06

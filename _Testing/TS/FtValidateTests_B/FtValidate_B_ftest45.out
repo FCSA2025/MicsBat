@@ -1,0 +1,63 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:10
+Project Code [hulme1_0] Process Id: 8180
+
+PDF Name: ftest45
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+                *********** ERRORS ***********
+
+
+Change Call Sign: :$BCTV019: to :$BCTV300:
+SITE does not exist.
+
+Change Call Sign: :WLA5703: to :$BCTV301:
+The operator code in the new call sign must be the same as the operator code for this site.
+
+Change Call Sign: :=RCTL0713: to :$RCTL0713:
+A site beginning with '$' must have all RX frequencies.
+
+=RCTL083
+MDB antenna not passive in passive link.
+
+Change Call Sign: :=RCTL083: to :%RCTL083:
+A site beginning with '%' must have passive antennas only.
+
+Change Call Sign: :$BCTV300: to :=BCTV300:
+SITE does not exist.
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  5 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+0 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 5 errors and 0 warnings.
+The PDF 'ftest45' is invalid
+PDF Validation Completed - 16:10

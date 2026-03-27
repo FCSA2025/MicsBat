@@ -1,0 +1,161 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:10
+Project Code [hulme1_0] Process Id: 20932
+
+PDF Name: owdgrnd
+
+
+
+                *********** ERRORS ***********
+
+
+KZN95XA->%DUQU04XA Band:6E Chid:1009
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+KZN95XA->%DUQU04XA Band:6E Chid:1012
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%DUQU15XA->KZN80XA Band:6E Chid:1012
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1009
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+KZN80XA->%DUQU15XA Band:6E Chid:1009
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+KZN80XA->%DUQU15XA Band:6E Chid:1012
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+KZN80XA->%DUQU15XA Band:6E Chid:1009
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%DUQU04XA->KZN95XA Band:6E Chid:1009
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+KZN80XA->%DUQU15XA Band:6E Chid:1012
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+KZN95XA->%DUQU04XA Band:6E Chid:1009
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1012
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+KZN95XA->%DUQU04XA Band:6E Chid:1012
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1009
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU04XA->KZN95XA Band:6E Chid:1009
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1012
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU15XA->KZN80XA Band:6E Chid:1012
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 21 - No mdb channel.
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1012
+MERGE 21 - No mdb channel.
+
+%DUQU04XA->KZN95XA Band:6E Chid:1009
+MERGE 21 - No mdb channel.
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 21 - No mdb channel.
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1009
+MERGE 21 - No mdb channel.
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 21 - No mdb channel.
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 21 - No mdb channel.
+
+%DUQU15XA->KZN80XA Band:6E Chid:1012
+MERGE 21 - No mdb channel.
+
+KZN80XA->%DUQU15XA Band:6E Chid:1009
+MERGE 21 - No mdb channel.
+
+KZN80XA->%DUQU15XA Band:6E Chid:1012
+MERGE 21 - No mdb channel.
+
+KZN95XA->%DUQU04XA Band:6E Chid:1009
+MERGE 21 - No mdb channel.
+
+KZN95XA->%DUQU04XA Band:6E Chid:1012
+MERGE 21 - No mdb channel.
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1012
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1009
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+KZN80XA->%DUQU15XA Band:6E Chid:1009
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+KZN95XA->%DUQU04XA Band:6E Chid:1012
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+Unable to merge passive data. Validate cancelled

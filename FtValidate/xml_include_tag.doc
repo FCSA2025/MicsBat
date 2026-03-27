@@ -1,0 +1,29 @@
+<MyDocs> 
+
+<MyMembers name="test"> 
+
+<summary>
+The main terrestrial input validation program: its function is to ensure that the user-input, read 
+in and stored in the database by ftImport, comprises a “well-formed” set of site descriptions that can be 
+successfully used by the interference calculation routines and also in the administrative and billing functions. 
+</summary>
+<remarks> 
+By “well-formed” we mean that they contain all the data needed to perform interference calculations, 
+billing functions, and other administrative functions; and that all the information they contain is 
+correct and reasonable.  To do this, it must check various codes, check the ordering and completeness 
+of data and calculate fields that would be used in the interference calculations.  Finally the output 
+of ftValidate is the input to the database update program, and becomesthe version stored in the database.
+<para>The program is called from the command line with the following sequence:-</para>
+<code>ftValidate &lt;dbname&gt; &lt;pCode&gt; [-o&lt;outfile&gt;] [-m&lt;hilodist&gt;] &lt;filename&gt; [&lt;filename&gt; ...]
+Where:
+    &lt;dbname&gt;    The database name we will operate on.
+    &lt;pCode&gt;     The project code stored in the billing log.
+  -o&lt;outfile&gt;	  Write output to file (default is stream to stdout).
+  -m&lt;hilodist&gt;  When Hilocheck is run after the validation, this gives the distance that will be used to check for locality.
+    &lt;filename&gt;  The name of an imported file to be validated. 
+</code>
+</remarks>
+
+</MyMembers> 
+
+</MyDocs> 

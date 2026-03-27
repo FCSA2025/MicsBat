@@ -1,0 +1,5 @@
+D:\Users\ahulme\bin\CompFxValidateOutputs.exe.config
+D:\Users\ahulme\MICS#\CompareResults\obj\Release\CompFxValidateOutputs.exe
+D:\Users\ahulme\MICS#\CompareResults\obj\Release\CompFxValidateOutputs.pdb
+D:\Users\ahulme\bin\CompareResults.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\CompareResults.exe.config

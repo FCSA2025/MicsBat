@@ -1,0 +1,4809 @@
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2019.07.25  14:13
+Project Code [hulme1_0]
+
+Checking file: bchy2vi1027v1b
+Full Listing Requested.
+Debugging Output Requested.
+-------------------------------------------------------------
+1) Site %BCHYCCBP:-
+
+CCBP Oper: BCHY 
+L/L: 49-42-40.66N/124-26-24.00W Grnd: 449.0m
+Links:-
+Site %BCHYCCBP name CCBP has 1 Link(s)...
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 14F16FA%
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+
+  Link 0 to XOK961, band 7B:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 1.4152, azimuth: 177.6952, back-azimuth: 357.6959
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11    7.000  177.6952     3.1134     1.4174
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: 3.0900
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 177.7100
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1V13  7407500.000   7232500.000   -15.000     6.900                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (  6.9000) vs (-43.7797).
+ 1( 1) 2V13  7707500.000   7557500.000   -15.000     6.900                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (  6.9000) vs (-44.1620).
+ 2( 2)  CH1  7305000.000   7130000.000   -12.800     9.100                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (  9.1000) vs (-41.4555).
+ 3( 3)  CH2  7580000.000   7430000.000   -12.800     9.100                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (  9.1000) vs (-41.8140).
+
+-------------------------------------------------------------
+2) Site %BCHYMSAP:-
+
+MSAP Oper: BCHY 
+L/L: 49-40-34.00N/123-57-06.00W Grnd: 503.0m
+Links:-
+Site %BCHYMSAP name MSAP has 2 Link(s)...
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 14F16FA%
+      Channels:-
+      0 Chan index 0 chid 1V14
+      1 Chan index 1 chid 2V14
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: XOK966 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode 14F16FA%
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+
+  Link 0 to XOK961, band 7B:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 35.2698, azimuth: 274.2491, back-azimuth: 93.8774
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11    7.000  274.2491    -0.0815    35.2727
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1V14  7392500.000   7217500.000    14.062   -18.570                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (-18.5701) vs (-69.7094).
+ 1( 1) 2V14  7692500.000   7542500.000    14.035   -18.583                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (-18.5831) vs (-70.1051).
+ 2( 2)  CH1  7650000.000   7500000.000    13.439   -19.181                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (-19.1814) vs (-70.6542).
+ 3( 3)  CH2  7345000.000   7170000.000    13.465   -19.168                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (-19.1682) vs (-70.2502).
+
+  Link 1 to XOK966, band 7B:-
+--Other End...
+Site XOK966 name MSA has 1 Link(s)...
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode UHX10-71WL
+      Channels:-
+      0 Chan index 0 chid 1V14
+      1 Chan index 1 chid 2V14
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+    Ground distance: 0.9469, azimuth: 219.4416, back-azimuth: 39.4352
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11    7.000  219.4416   -16.5313     0.9878
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 4) 1V14  7217500.000   7392500.000   -18.570    14.062                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, ( 14.0615) vs (-37.4286).
+ 1( 5) 2V14  7542500.000   7692500.000   -18.583    14.035                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, ( 14.0346) vs (-37.7745).
+ 2( 6)  CH1  7500000.000   7650000.000   -19.181    13.439                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, ( 13.4390) vs (-38.3263).
+ 3( 7)  CH2  7170000.000   7345000.000   -19.168    13.465                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, ( 13.4648) vs (-37.9726).
+
+-------------------------------------------------------------
+3) Site %BCHYTIRP:-
+
+TIRP Oper: BCHY 
+L/L: 49-37-02.50N/124-19-44.50W Grnd: 516.0m
+Links:-
+Site %BCHYTIRP name TIRP has 4 Link(s)...
+  To: XOK961 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 2 chid 1V15
+      1 Chan index 3 chid 2V15
+      2 Chan index 4 chid CH1
+      3 Chan index 5 chid CH2
+  To: XOK967 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 6 chid CH1
+      1 Chan index 7 chid CH2
+  To: XOK967 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 8 chid 1V15
+      1 Chan index 9 chid 2V15
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+
+  Link 0 to XOK961, band 11A:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 12.0372, azimuth: 318.6722, back-azimuth: 138.5882
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   11.000  318.6722     0.0546    12.0383
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0)  CH1 10765000.000  11255000.000    20.688   -16.519   1.000   1.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-16.5186) vs (-64.9836).
+ 1( 1)  CH2 10905000.000  11395000.000    20.683   -16.522   1.000   1.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-16.5225) vs (-65.0949).
+
+  Link 1 to XOK961, band 7B:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 12.0372, azimuth: 318.6722, back-azimuth: 138.5882
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   11.000  318.6722     0.0546    12.0383
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 1V15  7407500.000   7232500.000    17.921   -19.240                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (-19.2404) vs (-62.8643).
+ 1( 3) 2V15  7707500.000   7557500.000    17.902   -19.245                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (-19.2449) vs (-63.2506).
+ 2( 4)  CH1  7335000.000   7160000.000    20.424   -16.239                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (-16.2395) vs (-59.7758).
+ 3( 5)  CH2  7610000.000   7460000.000    20.409   -16.244                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, (-16.2435) vs (-60.1364).
+
+  Link 2 to XOK967, band 11A:-
+--Other End...
+Site XOK967 name TIR has 2 Link(s)...
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode HPX6-71GD
+      Channels:-
+      0 Chan index 2 chid 1V15
+      1 Chan index 3 chid 2V15
+      2 Chan index 4 chid CH1
+      3 Chan index 5 chid CH2
+    Ground distance: 0.1746, azimuth: 231.7377, back-azimuth: 51.7362
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   11.000  231.7377    -6.2103     0.1757
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 6)  CH1 11255000.000  10765000.000   -16.519    20.688   2.600   2.600 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *ERROR* Rx Power 1 does not agree with calcs, ( 20.6877) vs (-28.3862).
+ 1( 7)  CH2 11395000.000  10905000.000   -16.522    20.683   2.600   2.600 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *ERROR* Rx Power 1 does not agree with calcs, ( 20.6828) vs (-28.4985).
+
+  Link 3 to XOK967, band 7B:-
+--Other End...
+Site XOK967 name TIR has 2 Link(s)...
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode HPX6-71GD
+      Channels:-
+      0 Chan index 2 chid 1V15
+      1 Chan index 3 chid 2V15
+      2 Chan index 4 chid CH1
+      3 Chan index 5 chid CH2
+    Ground distance: 0.1746, azimuth: 231.7377, back-azimuth: 51.7362
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   11.000  231.7377    -6.2103     0.1757
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 8) 1V15  7232500.000   7407500.000   -19.240    17.921                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, ( 17.9205) vs (-25.9385).
+ 1( 9) 2V15  7557500.000   7707500.000   -19.245    17.902                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, ( 17.9022) vs (-26.2834).
+ 2(10)  CH1  7160000.000   7335000.000   -16.239    20.424                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, ( 20.4237) vs (-23.3530).
+ 3(11)  CH2  7460000.000   7610000.000   -16.244    20.409                 
+    *WARNING* Transmit Power is out of recommended range (0 - 50dbm).
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+    *ERROR* Rx Power 1 does not agree with calcs, ( 20.4090) vs (-23.6728).
+
+-------------------------------------------------------------
+4) Site =BCHYSTNB:-
+
+STNA Oper: BCHY 
+L/L: 49-54-03.12N/125-35-15.01W Grnd: 944.9m
+Links:-
+Site =BCHYSTNB name STNA has 2 Link(s)...
+  To: XOK961 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 71 acode HPX10-71W
+      1 Ant index 1 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 0 chid 730A
+      1 Chan index 1 chid 730B
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 81 acode HPX10-71W
+      1 Ant index 3 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 2 chid 830A
+      1 Chan index 3 chid 830B
+
+  Link 0 to XOK961, band 7B:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 85.6765, azimuth: 104.7864, back-azimuth: 285.6634
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   71   27.500  104.7864    -0.5762    85.6871
+  1   72    7.000  104.7864    -0.5625    85.6868
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 730A  7345000.000   7170000.000    32.000   -32.400   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.4000) vs (-32.4473).
+    *ERROR* Rx Power 2 does not agree with calculations, (-31.5000) vs (-31.5473).
+ 1( 1) 730B  7620000.000   7470000.000    32.000   -32.300   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.3000) vs (-32.3323).
+    *ERROR* Rx Power 2 does not agree with calculations, (-31.4000) vs (-31.4323).
+
+  Link 1 to XOK961, band 8A:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 85.6765, azimuth: 104.7864, back-azimuth: 285.6634
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   81   27.500  104.7864    -0.5762    85.6871
+  1   82   14.000  104.7864    -0.5672    85.6869
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 830A  8070000.000   7770000.000    32.000   -33.200   2.900   2.900 
+ 1( 3) 830B  8190000.000   7890000.000    32.000   -32.800   2.000   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.8000) vs (-32.8506).
+    *ERROR* Rx Power 2 does not agree with calculations, (-31.9000) vs (-31.9506).
+
+-------------------------------------------------------------
+5) Site CHG654:-
+
+LTZ Oper: BCHY 
+L/L: 49-13-37.88N/124-04-30.00W Grnd: 141.0m
+Links:-
+Site CHG654 name LTZ has 1 Link(s)...
+  To: XOK972 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+
+  Link 0 to XOK972, band 7B:-
+--Other End...
+Site XOK972 name CTL has 8 Link(s)...
+  To: CHG654 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+  To: VFF950 band 11A with 2 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UHX8-107J
+      1 Ant index 2 anum 2 acode UHX8-107J
+      Channels:-
+      0 Chan index 3 chid 9992
+      1 Chan index 4 chid 9993
+      2 Chan index 5 chid 9994
+      3 Chan index 6 chid 9995
+      4 Chan index 7 chid F664
+  To: XOK961 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX8-107J
+      1 Ant index 4 anum 12 acode UHX8-107J
+      Channels:-
+      0 Chan index 8 chid A1
+      1 Chan index 9 chid A5
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+      4 Chan index 12 chid E23
+      5 Chan index 13 chid E53
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 5 anum 11 acode HSX10-71
+      1 Ant index 6 anum 12 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid CH1
+      1 Chan index 15 chid CH2
+  To: XOK970 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 7 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 16 chid A157
+      1 Chan index 17 chid A158
+  To: XOK970 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 51 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid 1001
+      1 Chan index 19 chid 1002
+      2 Chan index 20 chid 9998
+      3 Chan index 21 chid 9999
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 12 acode HPX10-71W
+      1 Ant index 10 anum 50 acode HPX10-71W
+      Channels:-
+      0 Chan index 22 chid A167
+      1 Chan index 23 chid A168
+  To: XOK974 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 1 acode UHX8-71WL
+      1 Ant index 12 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 24 chid 9990
+      1 Chan index 25 chid 9991
+      2 Chan index 26 chid 9998
+      3 Chan index 27 chid 9999
+      4 Chan index 28 chid F376
+      5 Chan index 29 chid F377
+      6 Chan index 30 chid F864
+      7 Chan index 31 chid F865
+    Ground distance: 5.2486, azimuth: 96.5806, back-azimuth: 276.6348
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   24.000   96.5806     1.2484     5.2500
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9997  7532500.000   7682500.000    15.000   -40.800   9.200   9.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-40.8000) vs (-40.8172).
+ 1( 1) 9998                7682500.000            -40.800            9.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-40.8000) vs (-40.8172).
+ 2( 2) 9999  7207500.000   7382500.000    15.000   -40.500   9.200   9.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-40.5000) vs (-40.4693).
+
+-------------------------------------------------------------
+6) Site CHG656:-
+
+HWW Oper: BCHY 
+L/L: 49-07-20.88N/123-57-06.66W Grnd: 130.0m
+Links:-
+Site CHG656 name HWW has 1 Link(s)...
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+
+  Link 0 to XOK974, band 7B:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 51.2346, azimuth: 140.3792, back-azimuth: 320.7143
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   55.000  140.3792     0.4144    51.2408
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998  7387500.000   7212500.000    28.000   -37.000   4.200   4.200 
+ 1( 1) 9999  7687500.000   7537500.000    28.000   -37.400   4.200   4.200 
+
+-------------------------------------------------------------
+7) Site CHG706:-
+
+SAY Oper: BCHY 
+L/L: 49-47-13.33N/124-10-35.00W Grnd: 80.0m
+Links:-
+Site CHG706 name SAY has 2 Link(s)...
+  To: XOK961 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: XOK961 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode HP8-71GE
+      Channels:-
+      0 Chan index 2 chid 9996
+      1 Chan index 3 chid 9998
+      2 Chan index 4 chid 9999
+
+  Link 0 to XOK961, band 11A:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 21.3461, azimuth: 242.6551, back-azimuth: 62.4545
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   40.000  242.6551     1.0713    21.3515
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0)  CH1 10765000.000  11255000.000    30.000   -40.512   6.100   6.100 
+ 1( 1)  CH2 10905000.000  11395000.000    30.000   -40.626   6.100   6.100 
+
+  Link 1 to XOK961, band 7B:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 21.3461, azimuth: 242.6551, back-azimuth: 62.4545
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   46.000  242.6551     1.0686    21.3515
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 9996  7636250.000   7486250.000    32.000   -30.438   5.700   5.700 
+ 1( 3) 9998  7336250.000   7161250.000    32.000   -30.045   5.700   5.700 
+ 2( 4) 9999                7161250.000            -30.045            5.700 
+
+-------------------------------------------------------------
+8) Site CHL326:-
+
+KTG Oper: BCHY 
+L/L: 48-34-00.33N/123-24-41.33W Grnd: 65.0m
+Links:-
+Site CHL326 name KTG has 1 Link(s)...
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-71GE
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+
+  Link 0 to XOK974, band 7B:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 23.3338, azimuth: 342.4095, back-azimuth: 162.3374
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   50.100  342.4095     1.4308    23.3434
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998                7666250.000            -38.500            6.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.5000) vs (-38.5440).
+ 1( 1) 9999  7191250.000   7366250.000    28.000   -38.200   6.200   6.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.2000) vs (-38.1891).
+
+-------------------------------------------------------------
+9) Site VFE880:-
+
+PKR Oper: BCHY 
+L/L: 48-53-34.00N/123-25-34.00W Grnd: 15.0m
+Links:-
+Site VFE880 name PKR has 1 Link(s)...
+  To: XOK974 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 0 chid A879
+
+  Link 0 to XOK974, band 08A:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 15.2346, azimuth: 203.0964, back-azimuth: 23.0352
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   52   15.000  203.0964     2.5418    15.2511
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) A879   934400.000    943400.000    30.000   -54.482   2.400   2.400 
+
+-------------------------------------------------------------
+10) Site VFF950:-
+
+SER Oper: BCHY 
+L/L: 49-35-51.00N/123-52-36.00W Grnd: 1129.0m
+Links:-
+Site VFF950 name SER has 1 Link(s)...
+  To: XOK972 band 11A with 3 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UHX8-107J
+      1 Ant index 1 anum 2 acode UHX8-107J
+      2 Ant index 2 anum 3 acode UHX8-107J
+      Channels:-
+      0 Chan index 0 chid 9992
+      1 Chan index 1 chid 9993
+      2 Chan index 2 chid 9994
+      3 Chan index 3 chid 9995
+      4 Chan index 4 chid F664
+
+  Link 0 to XOK972, band 11A:-
+--Other End...
+Site XOK972 name CTL has 8 Link(s)...
+  To: CHG654 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+  To: VFF950 band 11A with 2 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UHX8-107J
+      1 Ant index 2 anum 2 acode UHX8-107J
+      Channels:-
+      0 Chan index 3 chid 9992
+      1 Chan index 4 chid 9993
+      2 Chan index 5 chid 9994
+      3 Chan index 6 chid 9995
+      4 Chan index 7 chid F664
+  To: XOK961 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX8-107J
+      1 Ant index 4 anum 12 acode UHX8-107J
+      Channels:-
+      0 Chan index 8 chid A1
+      1 Chan index 9 chid A5
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+      4 Chan index 12 chid E23
+      5 Chan index 13 chid E53
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 5 anum 11 acode HSX10-71
+      1 Ant index 6 anum 12 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid CH1
+      1 Chan index 15 chid CH2
+  To: XOK970 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 7 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 16 chid A157
+      1 Chan index 17 chid A158
+  To: XOK970 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 51 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid 1001
+      1 Chan index 19 chid 1002
+      2 Chan index 20 chid 9998
+      3 Chan index 21 chid 9999
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 12 acode HPX10-71W
+      1 Ant index 10 anum 50 acode HPX10-71W
+      Channels:-
+      0 Chan index 22 chid A167
+      1 Chan index 23 chid A168
+  To: XOK974 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 1 acode UHX8-71WL
+      1 Ant index 12 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 24 chid 9990
+      1 Chan index 25 chid 9991
+      2 Chan index 26 chid 9998
+      3 Chan index 27 chid 9999
+      4 Chan index 28 chid F376
+      5 Chan index 29 chid F377
+      6 Chan index 30 chid F864
+      7 Chan index 31 chid F865
+    Ground distance: 42.7897, azimuth: 192.4624, back-azimuth: 12.3661
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1    5.000  192.4624    -1.3102    42.8032
+  1    2    6.000  192.4624    -1.3116    42.8032
+  2    3    9.000  192.4624    -1.3116    42.8033
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9992               11375000.000            -33.705            1.700 
+ 1( 1) 9993               11275000.000            -34.119            1.400 
+ 2( 2) 9994 10885000.000                  15.100            1.700        
+ 3( 3) 9995 10785000.000                  15.100            1.400        
+ 4( 4) F664 10785000.000                  15.100            1.400        
+
+-------------------------------------------------------------
+11) Site XOA589:-
+
+PIK Oper: BCHY 
+L/L: 48-29-29.33N/123-27-32.05W Grnd: 84.0m
+Links:-
+Site XOA589 name PIK has 1 Link(s)...
+  To: XOK977 band 7B with 1 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX4-71GE
+      Channels:-
+      0 Chan index 0 chid 7C22
+      1 Chan index 1 chid 7C4H
+      2 Chan index 2 chid 7C7V
+      3 Chan index 3 chid A175
+      4 Chan index 4 chid A176
+      5 Chan index 5 chid C11H
+      6 Chan index 6 chid C16H
+      7 Chan index 7 chid C26H
+
+  Link 0 to XOK977, band 7B:-
+--Other End...
+Site XOK977 name VCR has 4 Link(s)...
+  To: XOA589 band 7B with 1 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode HPX6-71GD
+      Channels:-
+      0 Chan index 0 chid 7C22
+      1 Chan index 1 chid 7C4H
+      2 Chan index 2 chid 7C7V
+      3 Chan index 3 chid A175
+      4 Chan index 4 chid A176
+      5 Chan index 5 chid C11H
+      6 Chan index 6 chid C16H
+      7 Chan index 7 chid C26H
+  To: XOK973 band 7B with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 50 acode UHX6-71GD
+      Channels:-
+      0 Chan index 8 chid 7C1V
+      1 Chan index 9 chid A177
+      2 Chan index 10 chid A178
+      3 Chan index 11 chid A1H
+      4 Chan index 12 chid A5H
+      5 Chan index 13 chid C13V
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 50 acode UHX10-71WR
+      Channels:-
+      0 Chan index 14 chid A179
+      1 Chan index 15 chid A180
+  To: XOK974 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 1 acode UHX10-71WR
+      Channels:-
+      0 Chan index 16 chid 1001
+      1 Chan index 17 chid 1002
+      2 Chan index 18 chid 9988
+      3 Chan index 19 chid 9990
+      4 Chan index 20 chid 9991
+      5 Chan index 21 chid 9998
+    Ground distance: 3.3902, azimuth: 91.6431, back-azimuth: 271.6775
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   51.000   91.6431    -0.2311     3.3903
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 7C22  7520000.000   7670000.000    15.000   -36.185   4.000   4.000 
+ 1( 1) 7C4H  7160000.000   7335000.000    15.000   -35.796   4.000   4.000 
+ 2( 2) 7C7V  7190000.000   7365000.000    15.000   -35.832   4.000   4.000 
+ 3( 3) A175  7230000.000   7405000.000    14.800   -36.100   4.000   4.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-36.1000) vs (-36.0789).
+ 4( 4) A176  7560000.000   7710000.000    14.800   -36.400   4.000   4.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-36.4000) vs (-36.4307).
+ 5( 5) C11H  7230000.000   7405000.000    14.800   -36.079   4.000   4.000 
+ 6( 6) C16H  7460000.000   7610000.000    15.000   -36.117   4.000   4.000 
+ 7( 7) C26H  7560000.000   7710000.000    14.800   -36.431   4.000   4.000 
+
+-------------------------------------------------------------
+12) Site XOK894:-
+
+SAT Oper: BCHY 
+L/L: 48-48-25.00N/123-48-05.88W Grnd: 168.0m
+Links:-
+Site XOK894 name SAT has 1 Link(s)...
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UHX12-34D
+      1 Ant index 1 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 0 chid A163
+      1 Chan index 1 chid A164
+
+  Link 0 to XOK974, band 7B:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 22.0785, azimuth: 101.5739, back-azimuth: 281.7952
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   24.000  101.5739     1.3058    22.0865
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: 1.2800
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 101.8500
+  1   50   23.000  101.5739     1.3084    22.0865
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: 1.2800
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 101.8500
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) A163  7395000.000   7220000.000    28.000   -33.800   2.500   2.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-33.8000) vs (-33.6181).
+ 1( 1) A164  7700000.000   7550000.000    28.000   -34.900   3.200   3.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.9000) vs (-34.7146).
+
+-------------------------------------------------------------
+13) Site XOK951:-
+
+ARN Oper: BCHY 
+L/L: 49-05-26.18N/123-02-28.88W Grnd: 2.0m
+Links:-
+Site XOK951 name ARN has 2 Link(s)...
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 12 acode UHX12-71GD
+      1 Ant index 1 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 0 chid A165
+      1 Chan index 1 chid A166
+  To: XOK974 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode UHX12-71WR
+      1 Ant index 3 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 2 chid 1001
+      1 Chan index 3 chid 1002
+      2 Chan index 4 chid 9995
+
+  Link 0 to XOK974, band 7B:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 49.6336, azimuth: 223.6518, back-azimuth: 43.3005
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   12   24.000  223.6518     0.6384    49.6413
+  1   50   12.000  223.6518     0.6522    49.6414
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) A165  7315000.000   7140000.000    28.000   -27.500   2.100   2.100 
+    *ERROR* Rx Power 1 does not agree with calcs, (-27.5000) vs (-27.5193).
+    *ERROR* Could not retrieve diversity antenna 1 for this channel.
+ 1( 1) A166  7590000.000   7440000.000    28.000   -27.900   2.100   2.100 
+    *ERROR* Could not retrieve diversity antenna 1 for this channel.
+
+  Link 1 to XOK974, band 8A:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 49.6336, azimuth: 223.6518, back-azimuth: 43.3005
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   32.000  223.6518     0.6384    49.6413
+  1   51   32.000  223.6518     0.6384    49.6413
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 1001  8040000.000   7740000.000    23.500   -36.200   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-36.2000) vs (-36.1544).
+ 1( 3) 1002  8250000.000   7950000.000    23.500   -36.300   2.900   2.800 
+ 2( 4) 9995                7950000.000            -38.600            2.800 
+
+-------------------------------------------------------------
+14) Site XOK961:-
+
+PCH Oper: BCHY 
+L/L: 49-41-54.89N/124-26-21.16W Grnd: 520.0m
+Links:-
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+
+  Link 0 to %BCHYCCBP, band 7B:-
+--Other End...
+Site %BCHYCCBP name CCBP has 1 Link(s)...
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 14F16FA%
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+    Ground distance: 1.4152, azimuth: 357.6959, back-azimuth: 177.6952
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   13.100  357.6959    -3.1229     1.4174
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: -3.1000
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 357.7100
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1V13  7232500.000   7407500.000    30.000   -38.100   1.500   1.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.1000) vs (-88.9876).
+ 1( 1) 2V13  7557500.000   7707500.000    30.000   -38.100   1.500   1.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.1000) vs (-89.3329).
+ 2( 2)  CH1  7130000.000   7305000.000    33.000   -36.700   2.300   2.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-36.7000) vs (-87.4664).
+ 3( 3)  CH2  7430000.000   7580000.000    33.000   -36.700   2.300   2.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-36.7000) vs (-87.7878).
+
+  Link 1 to %BCHYMSAP, band 7B:-
+--Other End...
+Site %BCHYMSAP name MSAP has 2 Link(s)...
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 14F16FA%
+      Channels:-
+      0 Chan index 0 chid 1V14
+      1 Chan index 1 chid 2V14
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: XOK966 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode 14F16FA%
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+    Ground distance: 35.2698, azimuth: 93.8774, back-azimuth: 274.2491
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   13.000   93.8774    -0.1562    35.2727
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 4) 1V14  7217500.000   7392500.000    30.000   -34.515   1.700   1.700 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.5155) vs (-85.8629).
+ 1( 5) 2V14  7542500.000   7692500.000    30.000   -34.555   1.700   1.700 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.5548) vs (-86.2478).
+ 2( 6)  CH1  7500000.000   7650000.000    32.000   -37.749   4.300   4.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.7486) vs (-89.3934).
+ 3( 7)  CH2  7170000.000   7345000.000    32.000   -37.710   4.300   4.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.7103) vs (-89.0017).
+
+  Link 2 to %BCHYTIRP, band 11A:-
+--Other End...
+Site %BCHYTIRP name TIRP has 4 Link(s)...
+  To: XOK961 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 2 chid 1V15
+      1 Chan index 3 chid 2V15
+      2 Chan index 4 chid CH1
+      3 Chan index 5 chid CH2
+  To: XOK967 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 6 chid CH1
+      1 Chan index 7 chid CH2
+  To: XOK967 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 8 chid 1V15
+      1 Chan index 9 chid 2V15
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+    Ground distance: 12.0372, azimuth: 138.5882, back-azimuth: 318.6722
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   27.000  138.5882    -0.1358    12.0383
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 8)  CH1 11255000.000  10765000.000    30.000   -25.818   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-25.8181) vs (-73.8964).
+ 1( 9)  CH2 11395000.000  10905000.000    30.000   -25.827   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-25.8265) vs (-74.0171).
+
+  Link 3 to %BCHYTIRP, band 7B:-
+--Other End...
+Site %BCHYTIRP name TIRP has 4 Link(s)...
+  To: XOK961 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 2 chid 1V15
+      1 Chan index 3 chid 2V15
+      2 Chan index 4 chid CH1
+      3 Chan index 5 chid CH2
+  To: XOK967 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 6 chid CH1
+      1 Chan index 7 chid CH2
+  To: XOK967 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 8 chid 1V15
+      1 Chan index 9 chid 2V15
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+    Ground distance: 12.0372, azimuth: 138.5882, back-azimuth: 318.6722
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   27.000  138.5882    -0.1358    12.0383
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(10) 1V15  7232500.000   7407500.000    30.000   -31.322   2.000   2.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-31.3223) vs (-75.1538).
+ 1(11) 2V15  7557500.000   7707500.000    30.000   -31.345   2.000   2.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-31.3448) vs (-75.5212).
+ 2(12)  CH1  7160000.000   7335000.000    33.000   -28.818   2.000   2.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-28.8181) vs (-72.5642).
+ 3(13)  CH2  7460000.000   7610000.000    33.000   -28.837   2.000   2.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-28.8366) vs (-72.9024).
+
+  Link 4 to =BCHYSTNB, band 7B:-
+--Other End...
+Site =BCHYSTNB name STNA has 2 Link(s)...
+  To: XOK961 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 71 acode HPX10-71W
+      1 Ant index 1 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 0 chid 730A
+      1 Chan index 1 chid 730B
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 81 acode HPX10-71W
+      1 Ant index 3 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 2 chid 830A
+      1 Chan index 3 chid 830B
+    Ground distance: 85.6765, azimuth: 285.6634, back-azimuth: 104.7864
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   71   22.500  285.6634    -0.0013    85.6871
+  1   72   12.500  285.6634     0.0054    85.6871
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(14) 730A  7170000.000   7345000.000    32.000   -32.700   2.300   2.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.7000) vs (-32.6735).
+    *ERROR* Rx Power 2 does not agree with calculations, (-32.2000) vs (-32.1735).
+ 1(15) 730B  7470000.000   7620000.000    32.000   -33.000   1.800   2.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-33.0000) vs (-33.0201).
+    *ERROR* Rx Power 2 does not agree with calculations, (-32.5000) vs (-32.5201).
+
+  Link 5 to =BCHYSTNB, band 8A:-
+--Other End...
+Site =BCHYSTNB name STNA has 2 Link(s)...
+  To: XOK961 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 71 acode HPX10-71W
+      1 Ant index 1 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 0 chid 730A
+      1 Chan index 1 chid 730B
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 81 acode HPX10-71W
+      1 Ant index 3 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 2 chid 830A
+      1 Chan index 3 chid 830B
+    Ground distance: 85.6765, azimuth: 285.6634, back-azimuth: 104.7864
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   81   22.500  285.6634    -0.0013    85.6871
+  1   82   12.500  285.6634     0.0054    85.6871
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(16) 830A  7770000.000   8070000.000    32.000   -33.600   2.300   2.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-33.6000) vs (-33.5661).
+    *ERROR* Rx Power 2 does not agree with calculations, (-33.1000) vs (-33.0661).
+ 1(17) 830B  7890000.000   8190000.000    32.000   -32.800   1.800   2.300 
+
+  Link 6 to CHG706, band 11A:-
+--Other End...
+Site CHG706 name SAY has 2 Link(s)...
+  To: XOK961 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: XOK961 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode HP8-71GE
+      Channels:-
+      0 Chan index 2 chid 9996
+      1 Chan index 3 chid 9998
+      2 Chan index 4 chid 9999
+    Ground distance: 21.3461, azimuth: 62.4545, back-azimuth: 242.6551
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   26.000   62.4545    -1.2152    21.3515
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(18)  CH1 11255000.000  10765000.000    30.000   -40.103   4.400   4.400 
+ 1(19)  CH2 11395000.000  10905000.000    30.000   -40.221   4.400   4.400 
+
+  Link 7 to CHG706, band 7B:-
+--Other End...
+Site CHG706 name SAY has 2 Link(s)...
+  To: XOK961 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: XOK961 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode HP8-71GE
+      Channels:-
+      0 Chan index 2 chid 9996
+      1 Chan index 3 chid 9998
+      2 Chan index 4 chid 9999
+    Ground distance: 21.3461, azimuth: 62.4545, back-azimuth: 242.6551
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   31.000   62.4545    -1.2125    21.3515
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(20) 9996  7486250.000   7636250.000    32.000   -30.614   5.000   5.000 
+ 1(21) 9998  7161250.000   7336250.000    32.000   -30.258   5.000   5.000 
+ 2(22) 9999  7161250.000                  32.000            5.000        
+
+  Link 8 to XOK969, band 7B:-
+--Other End...
+Site XOK969 name DMR has 1 Link(s)...
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode HPX6-71GD
+      Channels:-
+      0 Chan index 0 chid A149
+      1 Chan index 1 chid A150
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+    Ground distance: 37.7431, azimuth: 205.8867, back-azimuth: 25.7140
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   24.800  205.8867    -0.7318    37.7472
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(23) A149  7217500.000   7392500.000    28.000   -38.200   2.400   2.400 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.2000) vs (-38.2379).
+ 1(24) A150  7542500.000   7692500.000    28.000   -38.500   2.300   2.300 
+ 2(25)  CH1  7170000.000   7345000.000    28.000   -32.200   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.2000) vs (-32.1799).
+ 3(26)  CH2  7470000.000   7620000.000    28.000   -32.500   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.5000) vs (-32.5112).
+
+  Link 9 to XOK971, band 7B:-
+--Other End...
+Site XOK971 name JHM has 1 Link(s)...
+  To: XOK961 band 7B with 2 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 21 acode HSX10-71
+      1 Ant index 1 anum 22 acode HSX10-71
+      Channels:-
+      0 Chan index 0 chid A3
+      1 Chan index 1 chid A7
+      2 Chan index 2 chid E23
+      3 Chan index 3 chid E53
+    Ground distance: 73.6126, azimuth: 301.7744, back-azimuth: 121.1064
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   27.000  301.7744    -0.5952    73.6172
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(27)   A3  7200000.000   7375000.000    32.000   -32.974   2.400   2.400 
+ 1(28)   A7  7500000.000   7650000.000    32.000   -32.915   2.400   2.400 
+ 2(29)  E23  7237500.000   7412500.000    28.000   -37.021   2.400   2.400 
+ 3(30)  E53  7562500.000   7712500.000    28.000   -36.991   2.400   2.400 
+
+  Link 10 to XOK972, band 7B:-
+--Other End...
+Site XOK972 name CTL has 8 Link(s)...
+  To: CHG654 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+  To: VFF950 band 11A with 2 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UHX8-107J
+      1 Ant index 2 anum 2 acode UHX8-107J
+      Channels:-
+      0 Chan index 3 chid 9992
+      1 Chan index 4 chid 9993
+      2 Chan index 5 chid 9994
+      3 Chan index 6 chid 9995
+      4 Chan index 7 chid F664
+  To: XOK961 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX8-107J
+      1 Ant index 4 anum 12 acode UHX8-107J
+      Channels:-
+      0 Chan index 8 chid A1
+      1 Chan index 9 chid A5
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+      4 Chan index 12 chid E23
+      5 Chan index 13 chid E53
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 5 anum 11 acode HSX10-71
+      1 Ant index 6 anum 12 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid CH1
+      1 Chan index 15 chid CH2
+  To: XOK970 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 7 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 16 chid A157
+      1 Chan index 17 chid A158
+  To: XOK970 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 51 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid 1001
+      1 Chan index 19 chid 1002
+      2 Chan index 20 chid 9998
+      3 Chan index 21 chid 9999
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 12 acode HPX10-71W
+      1 Ant index 10 anum 50 acode HPX10-71W
+      Channels:-
+      0 Chan index 22 chid A167
+      1 Chan index 23 chid A168
+  To: XOK974 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 1 acode UHX8-71WL
+      1 Ant index 12 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 24 chid 9990
+      1 Chan index 25 chid 9991
+      2 Chan index 26 chid 9998
+      3 Chan index 27 chid 9999
+      4 Chan index 28 chid F376
+      5 Chan index 29 chid F377
+      6 Chan index 30 chid F864
+      7 Chan index 31 chid F865
+    Ground distance: 61.7289, azimuth: 149.0509, back-azimuth: 329.3821
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   57.200  149.0509    -0.4802    61.7335
+  1   12   49.600  149.0509    -0.4731    61.7334
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(31)   A1  7140000.000   7315000.000    28.000   -37.252   4.600   4.600 
+ 1(32)   A5  7440000.000   7590000.000    28.000   -37.192   4.200   4.200 
+ 2(33)  CH1  7230000.000   7405000.000    32.000   -33.400   4.600   4.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-33.4000) vs (-33.3641).
+    *ERROR* Rx Power 2 does not agree with calculations, (-33.0000) vs (-32.9641).
+ 3(34)  CH2  7530000.000   7685000.000    32.000   -33.700   4.600   4.600 
+ 4(35)  E23  7140000.000   7412500.000    28.000   -37.400   4.600   4.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.4000) vs (-37.3735).
+    *ERROR* Rx Power 2 does not agree with calculations, (-37.0000) vs (-36.9735).
+ 5(36)  E53  7440000.000   7712500.000    28.000   -37.300   4.200   4.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.3000) vs (-37.3399).
+    *ERROR* Rx Power 2 does not agree with calculations, (-37.7000) vs (-37.7399).
+
+  Link 11 to XOK972, band 8A:-
+--Other End...
+Site XOK972 name CTL has 8 Link(s)...
+  To: CHG654 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+  To: VFF950 band 11A with 2 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UHX8-107J
+      1 Ant index 2 anum 2 acode UHX8-107J
+      Channels:-
+      0 Chan index 3 chid 9992
+      1 Chan index 4 chid 9993
+      2 Chan index 5 chid 9994
+      3 Chan index 6 chid 9995
+      4 Chan index 7 chid F664
+  To: XOK961 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX8-107J
+      1 Ant index 4 anum 12 acode UHX8-107J
+      Channels:-
+      0 Chan index 8 chid A1
+      1 Chan index 9 chid A5
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+      4 Chan index 12 chid E23
+      5 Chan index 13 chid E53
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 5 anum 11 acode HSX10-71
+      1 Ant index 6 anum 12 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid CH1
+      1 Chan index 15 chid CH2
+  To: XOK970 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 7 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 16 chid A157
+      1 Chan index 17 chid A158
+  To: XOK970 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 51 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid 1001
+      1 Chan index 19 chid 1002
+      2 Chan index 20 chid 9998
+      3 Chan index 21 chid 9999
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 12 acode HPX10-71W
+      1 Ant index 10 anum 50 acode HPX10-71W
+      Channels:-
+      0 Chan index 22 chid A167
+      1 Chan index 23 chid A168
+  To: XOK974 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 1 acode UHX8-71WL
+      1 Ant index 12 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 24 chid 9990
+      1 Chan index 25 chid 9991
+      2 Chan index 26 chid 9998
+      3 Chan index 27 chid 9999
+      4 Chan index 28 chid F376
+      5 Chan index 29 chid F377
+      6 Chan index 30 chid F864
+      7 Chan index 31 chid F865
+    Ground distance: 61.7289, azimuth: 149.0509, back-azimuth: 329.3821
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   57.200  149.0509    -0.4802    61.7335
+  1   12   49.600  149.0509    -0.4731    61.7334
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(37)  CH1  7830000.000   8130000.000    32.000   -32.800   4.600   4.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.8000) vs (-32.8301).
+    *ERROR* Rx Power 2 does not agree with calculations, (-32.4000) vs (-32.4301).
+ 1(38)  CH2  7950000.000   8250000.000    32.000   -33.000   4.600   4.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-33.0000) vs (-32.9670).
+    *ERROR* Rx Power 2 does not agree with calculations, (-32.6000) vs (-32.5670).
+
+-------------------------------------------------------------
+15) Site XOK966:-
+
+MSA Oper: BCHY 
+L/L: 49-40-10.33N/123-57-36.00W Grnd: 206.0m
+Links:-
+Site XOK966 name MSA has 1 Link(s)...
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode UHX10-71WL
+      Channels:-
+      0 Chan index 0 chid 1V14
+      1 Chan index 1 chid 2V14
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+
+  Link 0 to %BCHYMSAP, band 7B:-
+--Other End...
+Site %BCHYMSAP name MSAP has 2 Link(s)...
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 14F16FA%
+      Channels:-
+      0 Chan index 0 chid 1V14
+      1 Chan index 1 chid 2V14
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: XOK966 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode 14F16FA%
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+    Ground distance: 0.9469, azimuth: 39.4352, back-azimuth: 219.4416
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   23.000   39.4352    16.5249     0.9878
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1V14  7392500.000   7217500.000    30.000   -34.498   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.4978) vs (-85.7904).
+ 1( 1) 2V14  7692500.000   7542500.000    30.000   -34.534   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.5338) vs (-86.1864).
+ 2( 2)  CH1  7650000.000   7500000.000    32.000   -37.728   5.200   5.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.7283) vs (-89.3355).
+ 3( 3)  CH2  7345000.000   7170000.000    32.000   -37.694   5.200   5.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.6937) vs (-88.9312).
+
+-------------------------------------------------------------
+16) Site XOK967:-
+
+TIR Oper: BCHY 
+L/L: 49-36-59.00N/124-19-51.33W Grnd: 498.0m
+Links:-
+Site XOK967 name TIR has 2 Link(s)...
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode HPX6-71GD
+      Channels:-
+      0 Chan index 2 chid 1V15
+      1 Chan index 3 chid 2V15
+      2 Chan index 4 chid CH1
+      3 Chan index 5 chid CH2
+
+  Link 0 to %BCHYTIRP, band 11A:-
+--Other End...
+Site %BCHYTIRP name TIRP has 4 Link(s)...
+  To: XOK961 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 2 chid 1V15
+      1 Chan index 3 chid 2V15
+      2 Chan index 4 chid CH1
+      3 Chan index 5 chid CH2
+  To: XOK967 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 6 chid CH1
+      1 Chan index 7 chid CH2
+  To: XOK967 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 8 chid 1V15
+      1 Chan index 9 chid 2V15
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+    Ground distance: 0.1746, azimuth: 51.7362, back-azimuth: 231.7377
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   10.000   51.7362     6.2091     0.1757
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0)  CH1 10765000.000  11255000.000    30.000   -25.848   1.700   1.700 
+    *ERROR* Rx Power 1 does not agree with calcs, (-25.8484) vs (-75.2917).
+ 1( 1)  CH2 10905000.000  11395000.000    30.000   -25.858   1.700   1.700 
+    *ERROR* Rx Power 1 does not agree with calcs, (-25.8575) vs (-75.4030).
+
+  Link 1 to %BCHYTIRP, band 7B:-
+--Other End...
+Site %BCHYTIRP name TIRP has 4 Link(s)...
+  To: XOK961 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 0 chid CH1
+      1 Chan index 1 chid CH2
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 2 chid 1V15
+      1 Chan index 3 chid 2V15
+      2 Chan index 4 chid CH1
+      3 Chan index 5 chid CH2
+  To: XOK967 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 6 chid CH1
+      1 Chan index 7 chid CH2
+  To: XOK967 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode 06F08FA%
+      Channels:-
+      0 Chan index 8 chid 1V15
+      1 Chan index 9 chid 2V15
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+    Ground distance: 0.1746, azimuth: 51.7362, back-azimuth: 231.7377
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   10.000   51.7362     6.2091     0.1757
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 1V15  7407500.000   7232500.000    30.000   -31.313   1.500   1.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-31.3131) vs (-74.9712).
+ 1( 3) 2V15  7707500.000   7557500.000    30.000   -31.333   1.500   1.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-31.3325) vs (-75.3575).
+ 2( 4)  CH1  7335000.000   7160000.000    33.000   -28.310   2.000   1.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-28.3102) vs (-71.8827).
+ 3( 5)  CH2  7610000.000   7460000.000    33.000   -28.326   2.000   1.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-28.3256) vs (-72.2433).
+
+-------------------------------------------------------------
+17) Site XOK969:-
+
+DMR Oper: BCHY 
+L/L: 49-23-35.00N/124-39-58.33W Grnd: 110.0m
+Links:-
+Site XOK969 name DMR has 1 Link(s)...
+  To: XOK961 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode HPX6-71GD
+      Channels:-
+      0 Chan index 0 chid A149
+      1 Chan index 1 chid A150
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+
+  Link 0 to XOK961, band 7B:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 37.7431, azimuth: 25.7140, back-azimuth: 205.8867
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   36.500   25.7140     0.4774    37.7472
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) A149  7392500.000   7217500.000    28.000   -38.000   2.700   2.700 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.0000) vs (-38.0224).
+ 1( 1) A150  7692500.000   7542500.000    28.000   -38.300   2.700   2.700 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.3000) vs (-38.3190).
+ 2( 2)  CH1  7345000.000   7170000.000    35.000   -39.000   3.500   3.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-39.0000) vs (-38.9631).
+ 3( 3)  CH2  7620000.000   7470000.000    35.000   -39.300   3.500   3.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-39.3000) vs (-39.3319).
+
+-------------------------------------------------------------
+18) Site XOK970:-
+
+JPT Oper: BCHY 
+L/L: 49-10-18.00N/124-01-16.00W Grnd: 154.0m
+Links:-
+Site XOK970 name JPT has 2 Link(s)...
+  To: XOK972 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX8-71WL
+      Channels:-
+      0 Chan index 0 chid A157
+      1 Chan index 1 chid A158
+  To: XOK972 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 2 chid 1001
+      1 Chan index 3 chid 1002
+      2 Chan index 4 chid 9998
+      3 Chan index 5 chid 9999
+
+  Link 0 to XOK972, band 7B:-
+--Other End...
+Site XOK972 name CTL has 8 Link(s)...
+  To: CHG654 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+  To: VFF950 band 11A with 2 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UHX8-107J
+      1 Ant index 2 anum 2 acode UHX8-107J
+      Channels:-
+      0 Chan index 3 chid 9992
+      1 Chan index 4 chid 9993
+      2 Chan index 5 chid 9994
+      3 Chan index 6 chid 9995
+      4 Chan index 7 chid F664
+  To: XOK961 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX8-107J
+      1 Ant index 4 anum 12 acode UHX8-107J
+      Channels:-
+      0 Chan index 8 chid A1
+      1 Chan index 9 chid A5
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+      4 Chan index 12 chid E23
+      5 Chan index 13 chid E53
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 5 anum 11 acode HSX10-71
+      1 Ant index 6 anum 12 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid CH1
+      1 Chan index 15 chid CH2
+  To: XOK970 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 7 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 16 chid A157
+      1 Chan index 17 chid A158
+  To: XOK970 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 51 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid 1001
+      1 Chan index 19 chid 1002
+      2 Chan index 20 chid 9998
+      3 Chan index 21 chid 9999
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 12 acode HPX10-71W
+      1 Ant index 10 anum 50 acode HPX10-71W
+      Channels:-
+      0 Chan index 22 chid A167
+      1 Chan index 23 chid A168
+  To: XOK974 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 1 acode UHX8-71WL
+      1 Ant index 12 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 24 chid 9990
+      1 Chan index 25 chid 9991
+      2 Chan index 26 chid 9998
+      3 Chan index 27 chid 9999
+      4 Chan index 28 chid F376
+      5 Chan index 29 chid F377
+      6 Chan index 30 chid F864
+      7 Chan index 31 chid F865
+    Ground distance: 5.7181, azimuth: 13.0215, back-azimuth: 193.0348
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   18.200   13.0215     1.1258     5.7194
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) A157  7170000.000   7345000.000    14.800   -28.400   1.500   1.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-28.4000) vs (-28.3733).
+ 1( 1) A158  7470000.000   7620000.000    14.800   -28.700   1.500   1.000 
+
+  Link 1 to XOK972, band 8A:-
+--Other End...
+Site XOK972 name CTL has 8 Link(s)...
+  To: CHG654 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+  To: VFF950 band 11A with 2 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UHX8-107J
+      1 Ant index 2 anum 2 acode UHX8-107J
+      Channels:-
+      0 Chan index 3 chid 9992
+      1 Chan index 4 chid 9993
+      2 Chan index 5 chid 9994
+      3 Chan index 6 chid 9995
+      4 Chan index 7 chid F664
+  To: XOK961 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX8-107J
+      1 Ant index 4 anum 12 acode UHX8-107J
+      Channels:-
+      0 Chan index 8 chid A1
+      1 Chan index 9 chid A5
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+      4 Chan index 12 chid E23
+      5 Chan index 13 chid E53
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 5 anum 11 acode HSX10-71
+      1 Ant index 6 anum 12 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid CH1
+      1 Chan index 15 chid CH2
+  To: XOK970 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 7 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 16 chid A157
+      1 Chan index 17 chid A158
+  To: XOK970 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 51 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid 1001
+      1 Chan index 19 chid 1002
+      2 Chan index 20 chid 9998
+      3 Chan index 21 chid 9999
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 12 acode HPX10-71W
+      1 Ant index 10 anum 50 acode HPX10-71W
+      Channels:-
+      0 Chan index 22 chid A167
+      1 Chan index 23 chid A168
+  To: XOK974 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 1 acode UHX8-71WL
+      1 Ant index 12 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 24 chid 9990
+      1 Chan index 25 chid 9991
+      2 Chan index 26 chid 9998
+      3 Chan index 27 chid 9999
+      4 Chan index 28 chid F376
+      5 Chan index 29 chid F377
+      6 Chan index 30 chid F864
+      7 Chan index 31 chid F865
+    Ground distance: 5.7181, azimuth: 13.0215, back-azimuth: 193.0348
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   51   18.200   13.0215     1.1258     5.7194
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 1001  7740000.000   8040000.000    21.000   -25.000   2.400   2.400 
+    *ERROR* Rx Power 1 does not agree with calcs, (-25.0000) vs (-24.9634).
+ 1( 3) 1002  7770000.000   8070000.000    21.000   -25.000   2.400   2.400 
+ 2( 4) 9998  7770000.000                  21.000            2.400        
+ 3( 5) 9999  7740000.000                  21.000            2.400        
+
+-------------------------------------------------------------
+19) Site XOK971:-
+
+JHM Oper: BCHY 
+L/L: 50-02-37.66N/125-18-46.33W Grnd: 61.0m
+Links:-
+Site XOK971 name JHM has 1 Link(s)...
+  To: XOK961 band 7B with 2 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 21 acode HSX10-71
+      1 Ant index 1 anum 22 acode HSX10-71
+      Channels:-
+      0 Chan index 0 chid A3
+      1 Chan index 1 chid A7
+      2 Chan index 2 chid E23
+      3 Chan index 3 chid E53
+
+  Link 0 to XOK961, band 7B:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 73.6126, azimuth: 121.1064, back-azimuth: 301.7744
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   21   40.000  121.1064     0.0990    73.6172
+  1   22   34.000  121.1064     0.1037    73.6172
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0)   A3  7375000.000   7200000.000    32.000   -32.751   3.500   3.500 
+ 1( 1)   A7  7650000.000   7500000.000    32.000   -32.730   3.100   3.100 
+    *ERROR* Could not retrieve diversity antenna 1 for this channel.
+ 2( 2)  E23  7412500.000   7237500.000    28.000   -36.799   3.500   3.500 
+ 3( 3)  E53  7712500.000   7562500.000    28.000   -36.808   3.100   3.100 
+    *ERROR* Could not retrieve diversity antenna 1 for this channel.
+
+-------------------------------------------------------------
+20) Site XOK972:-
+
+CTL Oper: BCHY 
+L/L: 49-13-18.33N/124-00-12.33W Grnd: 256.0m
+Links:-
+Site XOK972 name CTL has 8 Link(s)...
+  To: CHG654 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+  To: VFF950 band 11A with 2 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UHX8-107J
+      1 Ant index 2 anum 2 acode UHX8-107J
+      Channels:-
+      0 Chan index 3 chid 9992
+      1 Chan index 4 chid 9993
+      2 Chan index 5 chid 9994
+      3 Chan index 6 chid 9995
+      4 Chan index 7 chid F664
+  To: XOK961 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX8-107J
+      1 Ant index 4 anum 12 acode UHX8-107J
+      Channels:-
+      0 Chan index 8 chid A1
+      1 Chan index 9 chid A5
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+      4 Chan index 12 chid E23
+      5 Chan index 13 chid E53
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 5 anum 11 acode HSX10-71
+      1 Ant index 6 anum 12 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid CH1
+      1 Chan index 15 chid CH2
+  To: XOK970 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 7 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 16 chid A157
+      1 Chan index 17 chid A158
+  To: XOK970 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 51 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid 1001
+      1 Chan index 19 chid 1002
+      2 Chan index 20 chid 9998
+      3 Chan index 21 chid 9999
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 12 acode HPX10-71W
+      1 Ant index 10 anum 50 acode HPX10-71W
+      Channels:-
+      0 Chan index 22 chid A167
+      1 Chan index 23 chid A168
+  To: XOK974 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 1 acode UHX8-71WL
+      1 Ant index 12 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 24 chid 9990
+      1 Chan index 25 chid 9991
+      2 Chan index 26 chid 9998
+      3 Chan index 27 chid 9999
+      4 Chan index 28 chid F376
+      5 Chan index 29 chid F377
+      6 Chan index 30 chid F864
+      7 Chan index 31 chid F865
+
+  Link 0 to CHG654, band 7B:-
+--Other End...
+Site CHG654 name LTZ has 1 Link(s)...
+  To: XOK972 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+    Ground distance: 5.2486, azimuth: 276.6348, back-azimuth: 96.5806
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   25.000  276.6348    -1.2838     5.2500
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9997  7682500.000   7532500.000    15.000   -40.700   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-40.7000) vs (-40.6450).
+ 1( 1) 9998  7682500.000                  15.000            2.600        
+ 2( 2) 9999  7382500.000   7207500.000    15.000   -40.300   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-40.3000) vs (-40.2599).
+
+  Link 1 to VFF950, band 11A:-
+--Other End...
+Site VFF950 name SER has 1 Link(s)...
+  To: XOK972 band 11A with 3 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UHX8-107J
+      1 Ant index 1 anum 2 acode UHX8-107J
+      2 Ant index 2 anum 3 acode UHX8-107J
+      Channels:-
+      0 Chan index 0 chid 9992
+      1 Chan index 1 chid 9993
+      2 Chan index 2 chid 9994
+      3 Chan index 3 chid 9995
+      4 Chan index 4 chid F664
+    Ground distance: 42.7897, azimuth: 12.3661, back-azimuth: 192.4624
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1    7.000   12.3661     1.0231    42.8032
+  1    2   10.000   12.3661     1.0231    42.8033
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 3) 9992 11375000.000                  23.000            1.700        
+ 1( 4) 9993 11275000.000                  23.000            2.500        
+ 2( 5) 9994               10885000.000            -41.176            1.700 
+ 3( 6) 9995               10785000.000            -41.587            2.500 
+ 4( 7) F664               10785000.000            -40.487            1.400 
+
+  Link 2 to XOK961, band 7B:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 61.7289, azimuth: 329.3821, back-azimuth: 149.0509
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   28.000  329.3821     0.0641    61.7335
+  1   12   17.100  329.3821     0.0742    61.7335
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 8)   A1  7315000.000   7140000.000    28.000   -37.029   2.900   2.900 
+ 1( 9)   A5  7590000.000   7440000.000    28.000   -37.008   2.900   2.900 
+ 2(10)  CH1  7405000.000   7230000.000    32.000   -33.100   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-33.1000) vs (-33.1443).
+    *ERROR* Rx Power 2 does not agree with calculations, (-32.3000) vs (-32.3443).
+ 3(11)  CH2  7685000.000   7530000.000    32.000   -33.500   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-33.5000) vs (-33.5185).
+    *ERROR* Rx Power 2 does not agree with calculations, (-32.7000) vs (-32.7185).
+ 4(12)  E23  7412500.000   7140000.000    28.000   -37.000   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.0000) vs (-37.0293).
+    *ERROR* Rx Power 2 does not agree with calculations, (-36.2000) vs (-36.2293).
+ 5(13)  E53  7712500.000   7440000.000    28.000   -37.000   2.900   2.900 
+
+  Link 3 to XOK961, band 8A:-
+--Other End...
+Site XOK961 name PCH has 12 Link(s)...
+  To: %BCHYCCBP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 11 acode HPX6-71W
+      Channels:-
+      0 Chan index 0 chid 1V13
+      1 Chan index 1 chid 2V13
+      2 Chan index 2 chid CH1
+      3 Chan index 3 chid CH2
+  To: %BCHYMSAP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 11 acode UHX8-71WL
+      Channels:-
+      0 Chan index 4 chid 1V14
+      1 Chan index 5 chid 2V14
+      2 Chan index 6 chid CH1
+      3 Chan index 7 chid CH2
+  To: %BCHYTIRP band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode HSX6-107L
+      Channels:-
+      0 Chan index 8 chid CH1
+      1 Chan index 9 chid CH2
+  To: %BCHYTIRP band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX6-71GD
+      Channels:-
+      0 Chan index 10 chid 1V15
+      1 Chan index 11 chid 2V15
+      2 Chan index 12 chid CH1
+      3 Chan index 13 chid CH2
+  To: =BCHYSTNB band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 71 acode HPX10-71W
+      1 Ant index 5 anum 72 acode HPX10-71W
+      Channels:-
+      0 Chan index 14 chid 730A
+      1 Chan index 15 chid 730B
+  To: =BCHYSTNB band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 81 acode HPX10-71W
+      1 Ant index 7 anum 82 acode HPX10-71W
+      Channels:-
+      0 Chan index 16 chid 830A
+      1 Chan index 17 chid 830B
+  To: CHG706 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 11 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid CH1
+      1 Chan index 19 chid CH2
+  To: CHG706 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 1 acode HPX10-71W
+      Channels:-
+      0 Chan index 20 chid 9996
+      1 Chan index 21 chid 9998
+      2 Chan index 22 chid 9999
+  To: XOK969 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 50 acode HSX4-107B3AL
+      Channels:-
+      0 Chan index 23 chid A149
+      1 Chan index 24 chid A150
+      2 Chan index 25 chid CH1
+      3 Chan index 26 chid CH2
+  To: XOK971 band 7B with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 11 acode HP8-71GE
+      Channels:-
+      0 Chan index 27 chid A3
+      1 Chan index 28 chid A7
+      2 Chan index 29 chid E23
+      3 Chan index 30 chid E53
+  To: XOK972 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 11 acode HPX6-71GD
+      1 Ant index 13 anum 12 acode HPX6-71GD
+      Channels:-
+      0 Chan index 31 chid A1
+      1 Chan index 32 chid A5
+      2 Chan index 33 chid CH1
+      3 Chan index 34 chid CH2
+      4 Chan index 35 chid E23
+      5 Chan index 36 chid E53
+  To: XOK972 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 11 acode HPX10-71
+      1 Ant index 15 anum 12 acode HPX10-71
+      Channels:-
+      0 Chan index 37 chid CH1
+      1 Chan index 38 chid CH2
+    Ground distance: 61.7289, azimuth: 329.3821, back-azimuth: 149.0509
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   28.000  329.3821     0.0641    61.7335
+  1   12   17.100  329.3821     0.0742    61.7335
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(14)  CH1  8130000.000   7830000.000    32.000   -32.500   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.5000) vs (-32.4800).
+    *ERROR* Rx Power 2 does not agree with calculations, (-31.7000) vs (-31.6800).
+ 1(15)  CH2  8250000.000   7950000.000    32.000   -32.600   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.6000) vs (-32.6214).
+    *ERROR* Rx Power 2 does not agree with calculations, (-31.8000) vs (-31.8214).
+
+  Link 4 to XOK970, band 7B:-
+--Other End...
+Site XOK970 name JPT has 2 Link(s)...
+  To: XOK972 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX8-71WL
+      Channels:-
+      0 Chan index 0 chid A157
+      1 Chan index 1 chid A158
+  To: XOK972 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 2 chid 1001
+      1 Chan index 3 chid 1002
+      2 Chan index 4 chid 9998
+      3 Chan index 5 chid 9999
+    Ground distance: 5.7181, azimuth: 193.0348, back-azimuth: 13.0215
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   30.500  193.0348    -1.1644     5.7194
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(16) A157  7345000.000   7170000.000    14.800   -28.700   3.000   3.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-28.7000) vs (-28.6627).
+ 1(17) A158  7620000.000   7470000.000    14.800   -29.000   3.000   3.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-29.0000) vs (-29.0207).
+
+  Link 5 to XOK970, band 8A:-
+--Other End...
+Site XOK970 name JPT has 2 Link(s)...
+  To: XOK972 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX8-71WL
+      Channels:-
+      0 Chan index 0 chid A157
+      1 Chan index 1 chid A158
+  To: XOK972 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 2 chid 1001
+      1 Chan index 3 chid 1002
+      2 Chan index 4 chid 9998
+      3 Chan index 5 chid 9999
+    Ground distance: 5.7181, azimuth: 193.0348, back-azimuth: 13.0215
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   51   30.500  193.0348    -1.1644     5.7194
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(18) 1001  8040000.000   7740000.000    21.000   -24.600   3.600   3.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-24.6000) vs (-24.6309).
+ 1(19) 1002  8070000.000   7770000.000    21.000   -24.700   3.600   3.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-24.7000) vs (-24.6647).
+ 2(20) 9998                7770000.000            -23.500            2.400 
+    *ERROR* Rx Power 1 does not agree with calcs, (-23.5000) vs (-23.4647).
+ 3(21) 9999                7740000.000            -23.400            2.400 
+    *ERROR* Rx Power 1 does not agree with calcs, (-23.4000) vs (-23.4309).
+
+  Link 6 to XOK974, band 7B:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 62.2758, azimuth: 144.1599, back-azimuth: 324.5342
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   12   12.000  144.1599     0.2170    62.2822
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 144.1700
+  1   50   20.000  144.1599     0.2096    62.2822
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 144.1700
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(22) A167  7315000.000   7140000.000    28.000   -30.500   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-30.5000) vs (-30.5115).
+    *ERROR* Rx Power 2 does not agree with calculations, (-29.4000) vs (-29.4115).
+ 1(23) A168  7590000.000   7440000.000    28.000   -30.900   2.600   2.600 
+    *ERROR* Rx Power 1 does not agree with calcs, (-30.9000) vs (-30.8899).
+    *ERROR* Rx Power 2 does not agree with calculations, (-29.8000) vs (-29.7899).
+
+  Link 7 to XOK974, band 8A:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 62.2758, azimuth: 144.1599, back-azimuth: 324.5342
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   32.000  144.1599     0.1986    62.2822
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 144.1700
+  1   51   20.000  144.1599     0.2096    62.2822
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 144.1700
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(24) 9990                7915000.000            -37.700            3.800 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.7000) vs (-37.6630).
+ 1(25) 9991                7795000.000            -37.500            3.800 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.5000) vs (-37.5210).
+ 2(26) 9998  8270000.000   7970000.000    23.000   -37.400   3.000   3.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.4000) vs (-37.4275).
+ 3(27) 9999  8210000.000   7910000.000    23.000   -37.400   3.000   3.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.4000) vs (-37.3571).
+ 4(28) F376  8210000.000                  23.000            3.000        
+ 5(29) F377  8270000.000                  23.000            3.000        
+ 6(30) F864  8210000.000                  23.000            3.000        
+ 7(31) F865  8270000.000                  23.000            3.000        
+
+-------------------------------------------------------------
+21) Site XOK973:-
+
+HSY Oper: BCHY 
+L/L: 48-26-34.22N/123-22-00.05W Grnd: 20.0m
+Links:-
+Site XOK973 name HSY has 1 Link(s)...
+  To: XOK977 band 7B with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX6-71GD
+      Channels:-
+      0 Chan index 0 chid 7C1V
+      1 Chan index 1 chid A177
+      2 Chan index 2 chid A178
+      3 Chan index 3 chid A1H
+      4 Chan index 4 chid A5H
+      5 Chan index 5 chid C13V
+
+  Link 0 to XOK977, band 7B:-
+--Other End...
+Site XOK977 name VCR has 4 Link(s)...
+  To: XOA589 band 7B with 1 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode HPX6-71GD
+      Channels:-
+      0 Chan index 0 chid 7C22
+      1 Chan index 1 chid 7C4H
+      2 Chan index 2 chid 7C7V
+      3 Chan index 3 chid A175
+      4 Chan index 4 chid A176
+      5 Chan index 5 chid C11H
+      6 Chan index 6 chid C16H
+      7 Chan index 7 chid C26H
+  To: XOK973 band 7B with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 50 acode UHX6-71GD
+      Channels:-
+      0 Chan index 8 chid 7C1V
+      1 Chan index 9 chid A177
+      2 Chan index 10 chid A178
+      3 Chan index 11 chid A1H
+      4 Chan index 12 chid A5H
+      5 Chan index 13 chid C13V
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 50 acode UHX10-71WR
+      Channels:-
+      0 Chan index 14 chid A179
+      1 Chan index 15 chid A180
+  To: XOK974 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 1 acode UHX10-71WR
+      Channels:-
+      0 Chan index 16 chid 1001
+      1 Chan index 17 chid 1002
+      2 Chan index 18 chid 9988
+      3 Chan index 19 chid 9990
+      4 Chan index 20 chid 9991
+      5 Chan index 21 chid 9998
+    Ground distance: 6.3218, azimuth: 327.1647, back-azimuth: 147.1300
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   17.000  327.1647     0.5587     6.3222
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 7C1V  7130000.000   7305000.000    20.000   -32.702   3.600   3.600 
+ 1( 1) A177  7140000.000   7315000.000    28.000   -19.900   1.200   1.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-19.9000) vs (-19.9137).
+ 2( 2) A178  7440000.000   7590000.000    28.000   -20.200   1.200   1.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-20.2000) vs (-20.2363).
+ 3( 3)  A1H  7140000.000   7315000.000    28.000   -19.914   1.200   1.200 
+ 4( 4)  A5H  7440000.000   7590000.000    28.000   -20.236   1.200   1.200 
+ 5( 5) C13V  7430000.000   7580000.000    20.000   -33.025   3.600   3.600 
+
+-------------------------------------------------------------
+22) Site XOK974:-
+
+BRU Oper: BCHY 
+L/L: 48-46-00.25N/123-30-26.66W Grnd: 700.0m
+Links:-
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+
+  Link 0 to CHG656, band 7B:-
+--Other End...
+Site CHG656 name HWW has 1 Link(s)...
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+    Ground distance: 51.2346, azimuth: 320.7143, back-azimuth: 140.3792
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   10.000  320.7143    -0.7597    51.2408
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 320.7000
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998  7212500.000   7387500.000    28.000   -37.200   1.700   1.700 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.2000) vs (-37.2202).
+ 1( 1) 9999  7537500.000   7687500.000    28.000   -37.600   1.700   1.700 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.6000) vs (-37.5840).
+
+  Link 1 to CHL326, band 7B:-
+--Other End...
+Site CHL326 name KTG has 1 Link(s)...
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-71GE
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+    Ground distance: 23.3338, azimuth: 162.3374, back-azimuth: 342.4095
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   30.000  162.3374    -1.5881    23.3434
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 9998  7666250.000                  28.000            5.300        
+ 1( 3) 9999  7366250.000   7191250.000    28.000   -38.000   5.300   5.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.0000) vs (-37.9757).
+
+  Link 2 to VFE880, band 08A:-
+--Other End...
+Site VFE880 name PKR has 1 Link(s)...
+  To: XOK974 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 0 chid A879
+    Ground distance: 15.2346, azimuth: 23.0352, back-azimuth: 203.0964
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   52   20.000   23.0352    -2.6445    15.2511
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 4) A879   943400.000    934400.000    30.000   -54.398   2.800   2.800 
+
+  Link 3 to XOK894, band 7B:-
+--Other End...
+Site XOK894 name SAT has 1 Link(s)...
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UHX12-34D
+      1 Ant index 1 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 0 chid A163
+      1 Chan index 1 chid A164
+    Ground distance: 22.0785, azimuth: 281.7952, back-azimuth: 101.5739
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   24.000  281.7952    -1.4547    22.0865
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: -1.4300
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 282.0700
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 5) A163  7220000.000   7395000.000    28.000   -34.000   3.200   3.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.0000) vs (-33.8304).
+ 1( 6) A164  7550000.000   7700000.000    28.000   -35.100   3.200   3.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-35.1000) vs (-34.8894).
+
+  Link 4 to XOK951, band 7B:-
+--Other End...
+Site XOK951 name ARN has 2 Link(s)...
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 12 acode UHX12-71GD
+      1 Ant index 1 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 0 chid A165
+      1 Chan index 1 chid A166
+  To: XOK974 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode UHX12-71WR
+      1 Ant index 3 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 2 chid 1001
+      1 Chan index 3 chid 1002
+      2 Chan index 4 chid 9995
+    Ground distance: 49.6336, azimuth: 43.3005, back-azimuth: 223.6518
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   12   18.000   43.3005    -0.9799    49.6413
+  1   50   24.000   43.3005    -0.9730    49.6413
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 7) A165  7140000.000   7315000.000    28.000   -27.700   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-27.7000) vs (-27.7392).
+    *ERROR* Rx Power 2 does not agree with calculations, (-28.8000) vs (-28.8392).
+ 1( 8) A166  7440000.000   7590000.000    28.000   -28.100   2.900   2.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-28.1000) vs (-28.0755).
+    *ERROR* Rx Power 2 does not agree with calculations, (-29.2000) vs (-29.1755).
+
+  Link 5 to XOK951, band 8A:-
+--Other End...
+Site XOK951 name ARN has 2 Link(s)...
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 12 acode UHX12-71GD
+      1 Ant index 1 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 0 chid A165
+      1 Chan index 1 chid A166
+  To: XOK974 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 11 acode UHX12-71WR
+      1 Ant index 3 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 2 chid 1001
+      1 Chan index 3 chid 1002
+      2 Chan index 4 chid 9995
+    Ground distance: 49.6336, azimuth: 43.3005, back-azimuth: 223.6518
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11   32.000   43.3005    -0.9729    49.6413
+  1   51   32.000   43.3005    -0.9729    49.6413
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 9) 1001  7740000.000   8040000.000    23.500   -36.500   2.800   2.800 
+ 1(10) 1002  7950000.000   8250000.000    23.500   -36.700   2.800   2.800 
+    *ERROR* Rx Power 1 does not agree with calcs, (-36.7000) vs (-36.7408).
+ 2(11) 9995  7950000.000                  23.500            2.800        
+
+  Link 6 to XOK972, band 7B:-
+--Other End...
+Site XOK972 name CTL has 8 Link(s)...
+  To: CHG654 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+  To: VFF950 band 11A with 2 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UHX8-107J
+      1 Ant index 2 anum 2 acode UHX8-107J
+      Channels:-
+      0 Chan index 3 chid 9992
+      1 Chan index 4 chid 9993
+      2 Chan index 5 chid 9994
+      3 Chan index 6 chid 9995
+      4 Chan index 7 chid F664
+  To: XOK961 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX8-107J
+      1 Ant index 4 anum 12 acode UHX8-107J
+      Channels:-
+      0 Chan index 8 chid A1
+      1 Chan index 9 chid A5
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+      4 Chan index 12 chid E23
+      5 Chan index 13 chid E53
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 5 anum 11 acode HSX10-71
+      1 Ant index 6 anum 12 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid CH1
+      1 Chan index 15 chid CH2
+  To: XOK970 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 7 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 16 chid A157
+      1 Chan index 17 chid A158
+  To: XOK970 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 51 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid 1001
+      1 Chan index 19 chid 1002
+      2 Chan index 20 chid 9998
+      3 Chan index 21 chid 9999
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 12 acode HPX10-71W
+      1 Ant index 10 anum 50 acode HPX10-71W
+      Channels:-
+      0 Chan index 22 chid A167
+      1 Chan index 23 chid A168
+  To: XOK974 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 1 acode UHX8-71WL
+      1 Ant index 12 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 24 chid 9990
+      1 Chan index 25 chid 9991
+      2 Chan index 26 chid 9998
+      3 Chan index 27 chid 9999
+      4 Chan index 28 chid F376
+      5 Chan index 29 chid F377
+      6 Chan index 30 chid F864
+      7 Chan index 31 chid F865
+    Ground distance: 62.2758, azimuth: 324.5342, back-azimuth: 144.1599
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   12   24.000  324.5342    -0.6220    62.2821
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 324.5500
+  1   50   32.000  324.5342    -0.6294    62.2822
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 324.5500
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(12) A167  7140000.000   7315000.000    28.000   -30.700   3.300   3.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-30.7000) vs (-30.7339).
+    *ERROR* Rx Power 2 does not agree with calculations, (-29.9000) vs (-29.9339).
+ 1(13) A168  7440000.000   7590000.000    28.000   -31.100   3.300   3.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-31.1000) vs (-31.0742).
+    *ERROR* Rx Power 2 does not agree with calculations, (-30.3000) vs (-30.2742).
+
+  Link 7 to XOK972, band 8A:-
+--Other End...
+Site XOK972 name CTL has 8 Link(s)...
+  To: CHG654 band 7B with 1 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX6-71
+      Channels:-
+      0 Chan index 0 chid 9997
+      1 Chan index 1 chid 9998
+      2 Chan index 2 chid 9999
+  To: VFF950 band 11A with 2 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UHX8-107J
+      1 Ant index 2 anum 2 acode UHX8-107J
+      Channels:-
+      0 Chan index 3 chid 9992
+      1 Chan index 4 chid 9993
+      2 Chan index 5 chid 9994
+      3 Chan index 6 chid 9995
+      4 Chan index 7 chid F664
+  To: XOK961 band 7B with 2 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 11 acode UHX8-107J
+      1 Ant index 4 anum 12 acode UHX8-107J
+      Channels:-
+      0 Chan index 8 chid A1
+      1 Chan index 9 chid A5
+      2 Chan index 10 chid CH1
+      3 Chan index 11 chid CH2
+      4 Chan index 12 chid E23
+      5 Chan index 13 chid E53
+  To: XOK961 band 8A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 5 anum 11 acode HSX10-71
+      1 Ant index 6 anum 12 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid CH1
+      1 Chan index 15 chid CH2
+  To: XOK970 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 7 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 16 chid A157
+      1 Chan index 17 chid A158
+  To: XOK970 band 8A with 1 antenna(s) and 4 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 51 acode HPX10-71W
+      Channels:-
+      0 Chan index 18 chid 1001
+      1 Chan index 19 chid 1002
+      2 Chan index 20 chid 9998
+      3 Chan index 21 chid 9999
+  To: XOK974 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 9 anum 12 acode HPX10-71W
+      1 Ant index 10 anum 50 acode HPX10-71W
+      Channels:-
+      0 Chan index 22 chid A167
+      1 Chan index 23 chid A168
+  To: XOK974 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 11 anum 1 acode UHX8-71WL
+      1 Ant index 12 anum 51 acode UHX8-71WL
+      Channels:-
+      0 Chan index 24 chid 9990
+      1 Chan index 25 chid 9991
+      2 Chan index 26 chid 9998
+      3 Chan index 27 chid 9999
+      4 Chan index 28 chid F376
+      5 Chan index 29 chid F377
+      6 Chan index 30 chid F864
+      7 Chan index 31 chid F865
+    Ground distance: 62.2758, azimuth: 324.5342, back-azimuth: 144.1599
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   32.000  324.5342    -0.6184    62.2822
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 324.5500
+  1   51   32.000  324.5342    -0.6294    62.2822
+    *ERROR* Calculated Azimuth differs by more than 0.01 degrees from stored: 324.5500
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(14) 9990  7915000.000                  23.500            3.800        
+ 1(15) 9991  7795000.000                  23.500            3.800        
+ 2(16) 9998  7970000.000   8270000.000    23.000   -38.000   3.800   3.800 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.0000) vs (-37.9726).
+ 3(17) 9999  7910000.000   8210000.000    23.000   -37.900   3.800   3.800 
+ 4(18) F376                8210000.000            -36.900            3.000 
+ 5(19) F377                8270000.000            -37.000            3.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.0000) vs (-36.9726).
+ 6(20) F864                8210000.000            -37.300            3.000 
+ 7(21) F865                8270000.000            -37.400            3.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.4000) vs (-37.3726).
+
+  Link 8 to XOK975, band 7B:-
+--Other End...
+Site XOK975 name VIT has 1 Link(s)...
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX8-71WL
+      Channels:-
+      0 Chan index 0 chid A173
+      1 Chan index 1 chid A174
+    Ground distance: 16.6801, azimuth: 294.0784, back-azimuth: 113.9223
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   21.000  294.0784    -2.2020    16.6929
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(22) A173  7170000.000   7345000.000    28.000   -26.800   2.700   2.700 
+    *ERROR* Rx Power 1 does not agree with calcs, (-26.8000) vs (-26.7851).
+ 1(23) A174  7470000.000   7620000.000    28.000   -27.100   2.700   2.700 
+
+  Link 9 to XOK977, band 7B:-
+--Other End...
+Site XOK977 name VCR has 4 Link(s)...
+  To: XOA589 band 7B with 1 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode HPX6-71GD
+      Channels:-
+      0 Chan index 0 chid 7C22
+      1 Chan index 1 chid 7C4H
+      2 Chan index 2 chid 7C7V
+      3 Chan index 3 chid A175
+      4 Chan index 4 chid A176
+      5 Chan index 5 chid C11H
+      6 Chan index 6 chid C16H
+      7 Chan index 7 chid C26H
+  To: XOK973 band 7B with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 50 acode UHX6-71GD
+      Channels:-
+      0 Chan index 8 chid 7C1V
+      1 Chan index 9 chid A177
+      2 Chan index 10 chid A178
+      3 Chan index 11 chid A1H
+      4 Chan index 12 chid A5H
+      5 Chan index 13 chid C13V
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 50 acode UHX10-71WR
+      Channels:-
+      0 Chan index 14 chid A179
+      1 Chan index 15 chid A180
+  To: XOK974 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 1 acode UHX10-71WR
+      Channels:-
+      0 Chan index 16 chid 1001
+      1 Chan index 17 chid 1002
+      2 Chan index 18 chid 9988
+      3 Chan index 19 chid 9990
+      4 Chan index 20 chid 9991
+      5 Chan index 21 chid 9998
+    Ground distance: 31.4852, azimuth: 167.2029, back-azimuth: 347.2737
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   32.000  167.2029    -1.2225    31.4933
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(24) A179  7140000.000   7315000.000    28.000   -28.900   3.200   3.200 
+ 1(25) A180  7440000.000   7590000.000    28.000   -29.200   3.200   3.200 
+    *ERROR* Rx Power 1 does not agree with calcs, (-29.2000) vs (-29.2388).
+
+  Link 10 to XOK977, band 8A:-
+--Other End...
+Site XOK977 name VCR has 4 Link(s)...
+  To: XOA589 band 7B with 1 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode HPX6-71GD
+      Channels:-
+      0 Chan index 0 chid 7C22
+      1 Chan index 1 chid 7C4H
+      2 Chan index 2 chid 7C7V
+      3 Chan index 3 chid A175
+      4 Chan index 4 chid A176
+      5 Chan index 5 chid C11H
+      6 Chan index 6 chid C16H
+      7 Chan index 7 chid C26H
+  To: XOK973 band 7B with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 50 acode UHX6-71GD
+      Channels:-
+      0 Chan index 8 chid 7C1V
+      1 Chan index 9 chid A177
+      2 Chan index 10 chid A178
+      3 Chan index 11 chid A1H
+      4 Chan index 12 chid A5H
+      5 Chan index 13 chid C13V
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 50 acode UHX10-71WR
+      Channels:-
+      0 Chan index 14 chid A179
+      1 Chan index 15 chid A180
+  To: XOK974 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 1 acode UHX10-71WR
+      Channels:-
+      0 Chan index 16 chid 1001
+      1 Chan index 17 chid 1002
+      2 Chan index 18 chid 9988
+      3 Chan index 19 chid 9990
+      4 Chan index 20 chid 9991
+      5 Chan index 21 chid 9998
+    Ground distance: 31.4852, azimuth: 167.2029, back-azimuth: 347.2737
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   32.000  167.2029    -1.2225    31.4933
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(26) 1001  7740000.000   8040000.000    23.500   -34.200   3.500   3.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.2000) vs (-34.1565).
+ 1(27) 1002  7920000.000   8220000.000    23.500   -34.400   3.500   3.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.4000) vs (-34.3562).
+ 2(28) 9988                8040000.000            -34.200            3.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.2000) vs (-34.1565).
+ 3(29) 9990  7920000.000                  23.500            3.500        
+ 4(30) 9991  7740000.000                  23.500            3.500        
+ 5(31) 9998                8220000.000            -34.400            3.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.4000) vs (-34.3562).
+
+-------------------------------------------------------------
+23) Site XOK975:-
+
+VIT Oper: BCHY 
+L/L: 48-49-39.88N/123-42-53.33W Grnd: 61.0m
+Links:-
+Site XOK975 name VIT has 1 Link(s)...
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX8-71WL
+      Channels:-
+      0 Chan index 0 chid A173
+      1 Chan index 1 chid A174
+
+  Link 0 to XOK974, band 7B:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 16.6801, azimuth: 113.9223, back-azimuth: 294.0784
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   35.000  113.9223     2.0895    16.6929
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) A173  7345000.000   7170000.000    28.000   -26.600   3.500   3.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-26.6000) vs (-26.5724).
+ 1( 1) A174  7620000.000   7470000.000    28.000   -26.900   3.500   3.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-26.9000) vs (-26.9341).
+
+-------------------------------------------------------------
+24) Site XOK977:-
+
+VCR Oper: BCHY 
+L/L: 48-29-26.15N/123-24-47.00W Grnd: 84.0m
+Links:-
+Site XOK977 name VCR has 4 Link(s)...
+  To: XOA589 band 7B with 1 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode HPX6-71GD
+      Channels:-
+      0 Chan index 0 chid 7C22
+      1 Chan index 1 chid 7C4H
+      2 Chan index 2 chid 7C7V
+      3 Chan index 3 chid A175
+      4 Chan index 4 chid A176
+      5 Chan index 5 chid C11H
+      6 Chan index 6 chid C16H
+      7 Chan index 7 chid C26H
+  To: XOK973 band 7B with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 50 acode UHX6-71GD
+      Channels:-
+      0 Chan index 8 chid 7C1V
+      1 Chan index 9 chid A177
+      2 Chan index 10 chid A178
+      3 Chan index 11 chid A1H
+      4 Chan index 12 chid A5H
+      5 Chan index 13 chid C13V
+  To: XOK974 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 50 acode UHX10-71WR
+      Channels:-
+      0 Chan index 14 chid A179
+      1 Chan index 15 chid A180
+  To: XOK974 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 1 acode UHX10-71WR
+      Channels:-
+      0 Chan index 16 chid 1001
+      1 Chan index 17 chid 1002
+      2 Chan index 18 chid 9988
+      3 Chan index 19 chid 9990
+      4 Chan index 20 chid 9991
+      5 Chan index 21 chid 9998
+
+  Link 0 to XOA589, band 7B:-
+--Other End...
+Site XOA589 name PIK has 1 Link(s)...
+  To: XOK977 band 7B with 1 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX4-71GE
+      Channels:-
+      0 Chan index 0 chid 7C22
+      1 Chan index 1 chid 7C4H
+      2 Chan index 2 chid 7C7V
+      3 Chan index 3 chid A175
+      4 Chan index 4 chid A176
+      5 Chan index 5 chid C11H
+      6 Chan index 6 chid C16H
+      7 Chan index 7 chid C26H
+    Ground distance: 3.3902, azimuth: 271.6775, back-azimuth: 91.6431
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   38.000  271.6775     0.2083     3.3903
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 7C22  7670000.000   7520000.000    15.000   -36.013   3.300   3.300 
+ 1( 1) 7C4H  7335000.000   7160000.000    15.000   -35.586   3.300   3.300 
+ 2( 2) 7C7V  7365000.000   7190000.000    15.000   -35.622   3.300   3.300 
+ 3( 3) A175  7405000.000   7230000.000    14.800   -35.900   3.300   3.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-35.9000) vs (-35.8705).
+ 4( 4) A176  7710000.000   7560000.000    14.800   -36.300   3.300   3.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-36.3000) vs (-36.2595).
+ 5( 5) C11H  7405000.000   7230000.000    14.800   -35.871   3.300   3.300 
+ 6( 6) C16H  7610000.000   7460000.000    15.000   -35.943   3.300   3.300 
+ 7( 7) C26H  7710000.000   7560000.000    14.800   -36.260   3.300   3.300 
+
+  Link 1 to XOK973, band 7B:-
+--Other End...
+Site XOK973 name HSY has 1 Link(s)...
+  To: XOK977 band 7B with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX6-71GD
+      Channels:-
+      0 Chan index 0 chid 7C1V
+      1 Chan index 1 chid A177
+      2 Chan index 2 chid A178
+      3 Chan index 3 chid A1H
+      4 Chan index 4 chid A5H
+      5 Chan index 5 chid C13V
+    Ground distance: 6.3218, azimuth: 147.1300, back-azimuth: 327.1647
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   17.000  147.1300    -0.6013     6.3222
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 8) 7C1V  7305000.000   7130000.000    20.000   -32.490   4.300   4.300 
+ 1( 9) A177  7315000.000   7140000.000    28.000   -19.700   1.900   1.900 
+ 2(10) A178  7590000.000   7440000.000    28.000   -20.000   1.900   1.900 
+    *ERROR* Rx Power 1 does not agree with calcs, (-20.0000) vs (-20.0618).
+ 3(11)  A1H  7315000.000   7140000.000    28.000   -19.702   1.900   1.900 
+ 4(12)  A5H  7590000.000   7440000.000    28.000   -20.062   1.900   1.900 
+ 5(13) C13V  7580000.000   7430000.000    20.000   -32.850   4.300   4.300 
+
+  Link 2 to XOK974, band 7B:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 31.4852, azimuth: 347.2737, back-azimuth: 167.2029
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   34.400  347.2737     1.0103    31.4933
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(14) A179  7315000.000   7140000.000    28.000   -28.700   3.500   3.500 
+ 1(15) A180  7590000.000   7440000.000    28.000   -29.100   3.500   3.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-29.1000) vs (-29.0599).
+
+  Link 3 to XOK974, band 8A:-
+--Other End...
+Site XOK974 name BRU has 11 Link(s)...
+  To: CHG656 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HSX8-71
+      Channels:-
+      0 Chan index 0 chid 9998
+      1 Chan index 1 chid 9999
+  To: CHL326 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-71
+      Channels:-
+      0 Chan index 2 chid 9998
+      1 Chan index 3 chid 9999
+  To: VFE880 band 08A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 52 acode KP4F-820
+      Channels:-
+      0 Chan index 4 chid A879
+  To: XOK894 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 50 acode UHX12-34D
+      Channels:-
+      0 Chan index 5 chid A163
+      1 Chan index 6 chid A164
+  To: XOK951 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 12 acode UHX10-71GD
+      1 Ant index 5 anum 50 acode UHX10-71GD
+      Channels:-
+      0 Chan index 7 chid A165
+      1 Chan index 8 chid A166
+  To: XOK951 band 8A with 2 antenna(s) and 3 channel(s):
+      Antennas:-
+      0 Ant index 6 anum 11 acode UHX12-71WR
+      1 Ant index 7 anum 51 acode UHX12-71WR
+      Channels:-
+      0 Chan index 9 chid 1001
+      1 Chan index 10 chid 1002
+      2 Chan index 11 chid 9995
+  To: XOK972 band 7B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 8 anum 12 acode HSX10-71
+      1 Ant index 9 anum 50 acode HSX10-71
+      Channels:-
+      0 Chan index 12 chid A167
+      1 Chan index 13 chid A168
+  To: XOK972 band 8A with 2 antenna(s) and 8 channel(s):
+      Antennas:-
+      0 Ant index 10 anum 2 acode HSX10-71
+      1 Ant index 11 anum 51 acode HSX10-71
+      Channels:-
+      0 Chan index 14 chid 9990
+      1 Chan index 15 chid 9991
+      2 Chan index 16 chid 9998
+      3 Chan index 17 chid 9999
+      4 Chan index 18 chid F376
+      5 Chan index 19 chid F377
+      6 Chan index 20 chid F864
+      7 Chan index 21 chid F865
+  To: XOK975 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 12 anum 50 acode UHX12-71GD
+      Channels:-
+      0 Chan index 22 chid A173
+      1 Chan index 23 chid A174
+  To: XOK977 band 7B with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 13 anum 50 acode UHX12-71WR
+      Channels:-
+      0 Chan index 24 chid A179
+      1 Chan index 25 chid A180
+  To: XOK977 band 8A with 1 antenna(s) and 6 channel(s):
+      Antennas:-
+      0 Ant index 14 anum 2 acode HSX12-71
+      Channels:-
+      0 Chan index 26 chid 1001
+      1 Chan index 27 chid 1002
+      2 Chan index 28 chid 9988
+      3 Chan index 29 chid 9990
+      4 Chan index 30 chid 9991
+      5 Chan index 31 chid 9998
+    Ground distance: 31.4852, azimuth: 347.2737, back-azimuth: 167.2029
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   34.400  347.2737     1.0103    31.4933
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0(16) 1001  8040000.000   7740000.000    23.500   -33.800   3.100   3.100 
+    *ERROR* Rx Power 1 does not agree with calcs, (-33.8000) vs (-33.8144).
+ 1(17) 1002  8220000.000   7920000.000    23.500   -34.000   3.100   3.100 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.0000) vs (-34.0211).
+ 2(18) 9988  8040000.000                  23.500            3.100        
+ 3(19) 9990                7920000.000            -34.000            3.100 
+    *ERROR* Rx Power 1 does not agree with calcs, (-34.0000) vs (-34.0211).
+ 4(20) 9991                7740000.000            -33.800            3.100 
+    *ERROR* Rx Power 1 does not agree with calcs, (-33.8000) vs (-33.8144).
+ 5(21) 9998  8220000.000                  23.500            3.100        
+
+---------------------------------------------------------------
+Sites Read...:     24
+Antennas Read:     85
+Channels Read:    218
+
+174 Errors were found
+54 Warnings were issued.
+

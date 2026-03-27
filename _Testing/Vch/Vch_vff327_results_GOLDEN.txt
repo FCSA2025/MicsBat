@@ -1,0 +1,86 @@
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2019.07.25  14:11
+Project Code [hulme1_0]
+
+Checking file: vff327
+Full Listing Requested.
+Debugging Output Requested.
+-------------------------------------------------------------
+1) Site VFF327:-
+
+RYAN (HWY17/ PANCAKE BAY PROV PK Oper: TBAY 
+L/L: 46-59-02.94N/084-41-53.47W Grnd: 305.0m
+Links:-
+Site VFF327 name RYAN (HWY17/ PANCAKE BAY PROV PK has 1 Link(s)...
+  To: VFF328 band 6B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX12X-59CR
+      1 Ant index 1 anum 51 acode UHX12X-59CR
+      Channels:-
+      0 Chan index 0 chid 0296
+      1 Chan index 1 chid 0300
+
+  Link 0 to VFF328, band 6B:-
+--Other End...
+Site VFF328 name BELLEVUE ON has 1 Link(s)...
+  To: VFF327 band 6B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX12X-59CR
+      1 Ant index 1 anum 51 acode UHX12X-59CR
+      Channels:-
+      0 Chan index 0 chid 0296
+      1 Chan index 1 chid 0300
+    Ground distance: 47.0675, azimuth: 129.6410, back-azimuth: 309.9868
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   49.000  129.6410     0.0203    47.0708
+  1   51   59.000  129.6410     0.0081    47.0708
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 0296  6226890.000   5974850.000    30.000   -32.231   3.500   3.500 
+ 1( 1) 0300  6286190.000   6034150.000    30.000   -32.320   3.500   3.500 
+
+-------------------------------------------------------------
+2) Site VFF328:-
+
+BELLEVUE ON Oper: TBAY 
+L/L: 46-42-47.00N/084-13-27.00W Grnd: 442.0m
+Links:-
+Site VFF328 name BELLEVUE ON has 1 Link(s)...
+  To: VFF327 band 6B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX12X-59CR
+      1 Ant index 1 anum 51 acode UHX12X-59CR
+      Channels:-
+      0 Chan index 0 chid 0296
+      1 Chan index 1 chid 0300
+
+  Link 0 to VFF327, band 6B:-
+--Other End...
+Site VFF327 name RYAN (HWY17/ PANCAKE BAY PROV PK has 1 Link(s)...
+  To: VFF328 band 6B with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 50 acode UHX12X-59CR
+      1 Ant index 1 anum 51 acode UHX12X-59CR
+      Channels:-
+      0 Chan index 0 chid 0296
+      1 Chan index 1 chid 0300
+    Ground distance: 47.0675, azimuth: 309.9868, back-azimuth: 129.6410
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   50   49.000  309.9868    -0.3132    47.0707
+  1   51   59.000  309.9868    -0.3254    47.0708
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 0296  5974850.000   6226890.000    29.000   -31.601   5.500   5.500 
+    *ERROR* Could not retrieve diversity antenna 1 for this channel.
+ 1( 1) 0300  6034150.000   6286190.000    29.000   -31.686   5.500   5.500 
+    *ERROR* Could not retrieve diversity antenna 1 for this channel.
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      4
+Channels Read:      4
+
+2 Errors were found
+0 Warnings were issued.
+

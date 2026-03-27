@@ -1,0 +1,125 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:05
+Project Code [HULME1_0] Process Id: 6668
+
+PDF Name: bandwdaddpashop
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: %TLUSBCX8
+
+Site does not exist in MDB
+
+KEY: CGF981A
+
+Site does not exist in MDB
+
+KEY: CGF983A
+
+Site does not exist in MDB
+
+SUMMARY OF SITE RECORDS:  3 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+%TLUSBCX8 CGF981A 7B 11
+Distance (703.3) is greater than 90km.
+
+%TLUSBCX8 CGF983A 7B 11
+Distance (716.8) is greater than 90km.
+
+CGF981A %TLUSBCX8 7B 11
+Distance (703.3) is greater than 90km.
+
+CGF983A %TLUSBCX8 7B 11
+Distance (716.8) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 7B 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: %TLUSBCX8 CGF983A 7B 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 7B 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX8 7B 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %TLUSBCX8 (WHISTLER PASS/TLUSBC) in proposed file ...
+Checking proposed file Site %TLUSBCX8 band 7B.
+%TLUSBCX8 to CGF983A band 7B chid 1001 is first TX HiLo violation.
+%TLUSBCX8 to CGF983A band 7B chid 1001 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking CGF981A (GREENVILLE RADIO/TLUSBC) in proposed file ...
+Checking proposed file Site CGF981A band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CGF983A (KINCOLITH/TLUSBC) in proposed file ...
+Checking proposed file Site CGF983A band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 3 errors and 8 warnings.
+The PDF 'bandwdaddpashop' is invalid
+PDF Validation Completed - 16:05

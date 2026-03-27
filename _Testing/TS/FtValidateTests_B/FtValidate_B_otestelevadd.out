@@ -1,0 +1,110 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2058/64-R
+RUN DATE: 2020.09.09  21:12
+Project Code [hulme1_0] Process Id: 10748
+
+PDF Name: otestelevadd
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: VAM878X
+Lat & Long for site is the same as for existing site:- 
+	VAM878 DOUGLAS RCTL
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking CGJ846X (EDMONTON/RCTL) in proposed file ...
+Checking proposed file Site CGJ846X band 18B.
+  Band 18B OK, checking adjacent bands.
+  Adjacent Band 18A OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CGJ846 (EDMONTON/RCTL) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: CHK285 (AED0081_B/GLW) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VAM878X (DOUGLAS/RCTL) in proposed file ...
+Checking proposed file Site VAM878X band 18B.
+  Band 18B OK, checking adjacent bands.
+  Adjacent Band 18A OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VAM878 (DOUGLAS/RCTL) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'otestelevadd' is validated for :UPDATE:
+
+PDF Validation Completed - 21:12

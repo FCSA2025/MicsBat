@@ -1,0 +1,4011 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 8328
+
+PDF Name: tstest08a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest08a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest08a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:05
+*
+TT,U,TSTEST08A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.21
+AK,A,U,=TLUSAB1A,=TLUSAB2A,08A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=57.29, Rx=58.01
+CK,A,U,=TLUSAB1A,=TLUSAB2A,08A,1001,1993.01.28,20:34
+CT, , , ,732000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,795000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-51.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.21
+AK,A,U,=TLUSAB2A,=TLUSAB1A,08A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=58.01, Rx=57.29
+CK,A,U,=TLUSAB2A,=TLUSAB1A,08A,1001,1993.01.28,20:53
+CT, , , ,795000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,732000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-50.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 6412
+
+PDF Name: tstest09a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest09a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest09a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:05
+*
+TT,U,TSTEST09A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.22
+AK,A,U,=TLUSAB1A,=TLUSAB2A,09A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=59.51, Rx=59.55
+CK,A,U,=TLUSAB1A,=TLUSAB2A,09A,1001,1993.01.28,20:34
+CT, , , ,945000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,950000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-53.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.22
+AK,A,U,=TLUSAB2A,=TLUSAB1A,09A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=59.55, Rx=59.51
+CK,A,U,=TLUSAB2A,=TLUSAB1A,09A,1001,1993.01.28,20:53
+CT, , , ,950000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,945000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-52.8, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 5964
+
+PDF Name: tstest1a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest1a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest1a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:06
+*
+TT,U,TSTEST1A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.26
+AK,A,U,=TLUSAB1A,=TLUSAB2A,1A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=63.09, Rx=63.38
+CK,A,U,=TLUSAB1A,=TLUSAB2A,1A,1001,1993.01.28,20:34
+CT, , , ,1427000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1476000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-57.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.26
+AK,A,U,=TLUSAB2A,=TLUSAB1A,1A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=63.38, Rx=63.09
+CK,A,U,=TLUSAB2A,=TLUSAB1A,1A,1001,1993.01.28,20:53
+CT, , , ,1476000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1427000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-56.4, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 15996
+
+PDF Name: tstest1b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest1b' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest1b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:07
+*
+TT,U,TSTEST1B,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.27
+AK,A,U,=TLUSAB1A,=TLUSAB2A,1B,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=63.68, Rx=64.15
+CK,A,U,=TLUSAB1A,=TLUSAB2A,1B,1001,1993.01.28,20:34
+CT, , , ,1527000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1612000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-57.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.27
+AK,A,U,=TLUSAB2A,=TLUSAB1A,1B,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=64.15, Rx=63.68
+CK,A,U,=TLUSAB2A,=TLUSAB1A,1B,1001,1993.01.28,20:53
+CT, , , ,1612000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1527000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-57.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 6876
+
+PDF Name: tstest1c
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest1c' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest1c, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:08
+*
+TT,U,TSTEST1C,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.26
+AK,A,U,=TLUSAB1A,=TLUSAB2A,1C,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=63.69, Rx=63.86
+CK,A,U,=TLUSAB1A,=TLUSAB2A,1C,1001,1993.01.28,20:34
+CT, , , ,1530000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1559000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-57.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.26
+AK,A,U,=TLUSAB2A,=TLUSAB1A,1C,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=63.86, Rx=63.69
+CK,A,U,=TLUSAB2A,=TLUSAB1A,1C,1001,1993.01.28,20:53
+CT, , , ,1559000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1530000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-57.1, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 15088
+
+PDF Name: tstest1d
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest1d' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest1d, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:09
+*
+TT,U,TSTEST1D,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.27
+AK,A,U,=TLUSAB1A,=TLUSAB2A,1D,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=64.23, Rx=64.32
+CK,A,U,=TLUSAB1A,=TLUSAB2A,1D,1001,1993.01.28,20:34
+CT, , , ,1626500.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1643500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-58.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.27
+AK,A,U,=TLUSAB2A,=TLUSAB1A,1D,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=64.32, Rx=64.23
+CK,A,U,=TLUSAB2A,=TLUSAB1A,1D,1001,1993.01.28,20:53
+CT, , , ,1643500.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1626500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-57.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 5880
+
+PDF Name: tstest1e
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest1e' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest1e, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:10
+*
+TT,U,TSTEST1E,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.27
+AK,A,U,=TLUSAB1A,=TLUSAB2A,1E,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=64.61, Rx=65.11
+CK,A,U,=TLUSAB1A,=TLUSAB2A,1E,1001,1993.01.28,20:34
+CT, , , ,1700500.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1801500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-58.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.27
+AK,A,U,=TLUSAB2A,=TLUSAB1A,1E,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=65.11, Rx=64.61
+CK,A,U,=TLUSAB2A,=TLUSAB1A,1E,1001,1993.01.28,20:53
+CT, , , ,1801500.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1700500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-58.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 7140
+
+PDF Name: tstest2a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest2a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest2a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:11
+*
+TT,U,TSTEST2A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB1A,=TLUSAB2A,2A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=64.61, Rx=65.11
+CK,A,U,=TLUSAB1A,=TLUSAB2A,2A,1001,1993.01.28,20:34
+CT, , , ,1700500.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1801500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-58.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB2A,=TLUSAB1A,2A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=65.11, Rx=64.61
+CK,A,U,=TLUSAB2A,=TLUSAB1A,2A,1001,1993.01.28,20:53
+CT, , , ,1801500.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1700500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-58.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 7876
+
+PDF Name: tstest2b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest2b' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest2b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:12
+*
+TT,U,TSTEST2B,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB1A,=TLUSAB2A,2B,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=65.34, Rx=66.34
+CK,A,U,=TLUSAB1A,=TLUSAB2A,2B,1001,1993.01.28,20:34
+CT, , , ,1850000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2075000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-60.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB2A,=TLUSAB1A,2B,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=66.34, Rx=65.34
+CK,A,U,=TLUSAB2A,=TLUSAB1A,2B,1001,1993.01.28,20:53
+CT, , , ,2075000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1850000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-58.7, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 2708
+
+PDF Name: tstest2c
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest2c' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest2c, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:13
+*
+TT,U,TSTEST2C,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB1A,=TLUSAB2A,2C,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=65.98, Rx=66.34
+CK,A,U,=TLUSAB1A,=TLUSAB2A,2C,1001,1993.01.28,20:34
+CT, , , ,1990000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2075000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-60.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB2A,=TLUSAB1A,2C,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=66.34, Rx=65.98
+CK,A,U,=TLUSAB2A,=TLUSAB1A,2C,1001,1993.01.28,20:53
+CT, , , ,2075000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,1990000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-59.4, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 5776
+
+PDF Name: tstest2d
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest2d' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest2d, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:14
+*
+TT,U,TSTEST2D,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB1A,=TLUSAB2A,2D,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=66.13, Rx=66.34
+CK,A,U,=TLUSAB1A,=TLUSAB2A,2D,1001,1993.01.28,20:34
+CT, , , ,2025000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2075000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-60.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB2A,=TLUSAB1A,2D,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=66.34, Rx=66.13
+CK,A,U,=TLUSAB2A,=TLUSAB1A,2D,1001,1993.01.28,20:53
+CT, , , ,2075000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2025000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-59.5, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 13024
+
+PDF Name: tstest2e
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest2e' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest2e, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:15
+*
+TT,U,TSTEST2E,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB1A,=TLUSAB2A,2E,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=66.13, Rx=66.34
+CK,A,U,=TLUSAB1A,=TLUSAB2A,2E,1001,1993.01.28,20:34
+CT, , , ,2025000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2075000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-60.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.28
+AK,A,U,=TLUSAB2A,=TLUSAB1A,2E,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=66.34, Rx=66.13
+CK,A,U,=TLUSAB2A,=TLUSAB1A,2E,1001,1993.01.28,20:53
+CT, , , ,2075000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2025000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-59.5, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 16360
+
+PDF Name: tstest2f
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest2f' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest2f, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:16
+*
+TT,U,TSTEST2F,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.29
+AK,A,U,=TLUSAB1A,=TLUSAB2A,2F,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.20, Rx=67.59
+CK,A,U,=TLUSAB1A,=TLUSAB2A,2F,1001,1993.01.28,20:34
+CT, , , ,2290000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2395000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-61.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.29
+AK,A,U,=TLUSAB2A,=TLUSAB1A,2F,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.59, Rx=67.20
+CK,A,U,=TLUSAB2A,=TLUSAB1A,2F,1001,1993.01.28,20:53
+CT, , , ,2395000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2290000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-60.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 7456
+
+PDF Name: tstest2g
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest2g' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest2g, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:17
+*
+TT,U,TSTEST2G,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.29
+AK,A,U,=TLUSAB1A,=TLUSAB2A,2G,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.20, Rx=67.59
+CK,A,U,=TLUSAB1A,=TLUSAB2A,2G,1001,1993.01.28,20:34
+CT, , , ,2290000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2395000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-61.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.29
+AK,A,U,=TLUSAB2A,=TLUSAB1A,2G,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.59, Rx=67.20
+CK,A,U,=TLUSAB2A,=TLUSAB1A,2G,1001,1993.01.28,20:53
+CT, , , ,2395000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2290000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-60.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 6048
+
+PDF Name: tstest2h
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest2h' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest2h, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:18
+*
+TT,U,TSTEST2H,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.30
+AK,A,U,=TLUSAB1A,=TLUSAB2A,2H,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.27, Rx=68.30
+CK,A,U,=TLUSAB1A,=TLUSAB2A,2H,1001,1993.01.28,20:34
+CT, , , ,2590000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2600000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-62.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.30
+AK,A,U,=TLUSAB2A,=TLUSAB1A,2H,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.30, Rx=68.27
+CK,A,U,=TLUSAB2A,=TLUSAB1A,2H,1001,1993.01.28,20:53
+CT, , , ,2600000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,2590000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-61.7, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 12552
+
+PDF Name: tstest3a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest3a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest3a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:19
+*
+TT,U,TSTEST3A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.32
+AK,A,U,=TLUSAB1A,=TLUSAB2A,3A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=70.63, Rx=71.36
+CK,A,U,=TLUSAB1A,=TLUSAB2A,3A,1001,1993.01.28,20:34
+CT, , , ,3400000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,3700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-65.2, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.32
+AK,A,U,=TLUSAB2A,=TLUSAB1A,3A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=71.36, Rx=70.63
+CK,A,U,=TLUSAB2A,=TLUSAB1A,3A,1001,1993.01.28,20:53
+CT, , , ,3700000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,3400000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-64.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 14204
+
+PDF Name: tstest3b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest3b' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest3b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:19
+*
+TT,U,TSTEST3B,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.33
+AK,A,U,=TLUSAB1A,=TLUSAB2A,3B,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=70.63, Rx=71.36
+CK,A,U,=TLUSAB1A,=TLUSAB2A,3B,1001,1993.01.28,20:34
+CT, , , ,3400000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,3700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-65.2, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.33
+AK,A,U,=TLUSAB2A,=TLUSAB1A,3B,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=71.36, Rx=70.63
+CK,A,U,=TLUSAB2A,=TLUSAB1A,3B,1001,1993.01.28,20:53
+CT, , , ,3700000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,3400000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-64.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 8184
+
+PDF Name: tstest3c
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest3c' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest3c, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:20
+*
+TT,U,TSTEST3C,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.33
+AK,A,U,=TLUSAB1A,=TLUSAB2A,3C,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=70.98, Rx=71.75
+CK,A,U,=TLUSAB1A,=TLUSAB2A,3C,1001,1993.01.28,20:34
+CT, , , ,3540000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,3870000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-65.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.33
+AK,A,U,=TLUSAB2A,=TLUSAB1A,3C,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=71.75, Rx=70.98
+CK,A,U,=TLUSAB2A,=TLUSAB1A,3C,1001,1993.01.28,20:53
+CT, , , ,3870000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,3540000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-64.4, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 14040
+
+PDF Name: tstest3d
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest3d' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest3d, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:21
+*
+TT,U,TSTEST3D,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.32
+AK,A,U,=TLUSAB1A,=TLUSAB2A,3D,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=71.13, Rx=71.17
+CK,A,U,=TLUSAB1A,=TLUSAB2A,3D,1001,1993.01.28,20:34
+CT, , , ,3600000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,3620000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-65.0, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.32
+AK,A,U,=TLUSAB2A,=TLUSAB1A,3D,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=71.17, Rx=71.13
+CK,A,U,=TLUSAB2A,=TLUSAB1A,3D,1001,1993.01.28,20:53
+CT, , , ,3620000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,3600000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-64.5, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 6444
+
+PDF Name: tstest4a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest4a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest4a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:22
+*
+TT,U,TSTEST4A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.35
+AK,A,U,=TLUSAB1A,=TLUSAB2A,4A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=72.87, Rx=73.43
+CK,A,U,=TLUSAB1A,=TLUSAB2A,4A,1001,1993.01.28,20:34
+CT, , , ,4400000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,4695000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-67.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.35
+AK,A,U,=TLUSAB2A,=TLUSAB1A,4A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=73.43, Rx=72.87
+CK,A,U,=TLUSAB2A,=TLUSAB1A,4A,1001,1993.01.28,20:53
+CT, , , ,4695000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,4400000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-66.3, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 8272
+
+PDF Name: tstest5a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest5a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest5a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:23
+*
+TT,U,TSTEST5A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.39
+AK,A,U,=TLUSAB1A,=TLUSAB2A,5A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.16, Rx=75.23
+CK,A,U,=TLUSAB1A,=TLUSAB2A,5A,1001,1993.01.28,20:34
+CT, , , ,5725000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,5775000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-69.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.39
+AK,A,U,=TLUSAB2A,=TLUSAB1A,5A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.23, Rx=75.16
+CK,A,U,=TLUSAB2A,=TLUSAB1A,5A,1001,1993.01.28,20:53
+CT, , , ,5775000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,5725000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-68.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 13468
+
+PDF Name: tstest6a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest6a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest6a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:24
+*
+TT,U,TSTEST6A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.41
+AK,A,U,=TLUSAB1A,=TLUSAB2A,6A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.34, Rx=75.76
+CK,A,U,=TLUSAB1A,=TLUSAB2A,6A,1001,1993.01.28,20:34
+CT, , , ,5850000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,6137500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-69.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.41
+AK,A,U,=TLUSAB2A,=TLUSAB1A,6A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.76, Rx=75.34
+CK,A,U,=TLUSAB2A,=TLUSAB1A,6A,1001,1993.01.28,20:53
+CT, , , ,6137500.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,5850000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-68.8, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 11576
+
+PDF Name: tstest6b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest6b' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest6b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:25
+*
+TT,U,TSTEST6B,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.42
+AK,A,U,=TLUSAB1A,=TLUSAB2A,6B,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.34, Rx=75.76
+CK,A,U,=TLUSAB1A,=TLUSAB2A,6B,1001,1993.01.28,20:34
+CT, , , ,5850000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,6137500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-69.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.42
+AK,A,U,=TLUSAB2A,=TLUSAB1A,6B,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.76, Rx=75.34
+CK,A,U,=TLUSAB2A,=TLUSAB1A,6B,1001,1993.01.28,20:53
+CT, , , ,6137500.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,5850000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-68.8, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 15616
+
+PDF Name: tstest6c
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest6c' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest6c, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:26
+*
+TT,U,TSTEST6C,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.42
+AK,A,U,=TLUSAB1A,=TLUSAB2A,6C,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.16, Rx=76.18
+CK,A,U,=TLUSAB1A,=TLUSAB2A,6C,1001,1993.01.28,20:34
+CT, , , ,6425000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,6439500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-70.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.42
+AK,A,U,=TLUSAB2A,=TLUSAB1A,6C,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.18, Rx=76.16
+CK,A,U,=TLUSAB2A,=TLUSAB1A,6C,1001,1993.01.28,20:53
+CT, , , ,6439500.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,6425000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-69.7, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 6440
+
+PDF Name: tstest6d
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest6d' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest6d, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:27
+*
+TT,U,TSTEST6D,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.43
+AK,A,U,=TLUSAB1A,=TLUSAB2A,6D,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.18, Rx=76.16
+CK,A,U,=TLUSAB1A,=TLUSAB2A,6D,1001,1993.01.28,20:34
+CT, , , ,6439500.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,6425000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-70.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.43
+AK,A,U,=TLUSAB2A,=TLUSAB1A,6D,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.16, Rx=76.18
+CK,A,U,=TLUSAB2A,=TLUSAB1A,6D,1001,1993.01.28,20:53
+CT, , , ,6425000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,6439500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-69.7, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 5812
+
+PDF Name: tstest6e
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest6e' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest6e, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:28
+*
+TT,U,TSTEST6E,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.44
+AK,A,U,=TLUSAB1A,=TLUSAB2A,6E,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.38, Rx=76.72
+CK,A,U,=TLUSAB1A,=TLUSAB2A,6E,1001,1993.01.28,20:34
+CT, , , ,6590000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,6857500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-70.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.44
+AK,A,U,=TLUSAB2A,=TLUSAB1A,6E,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.72, Rx=76.38
+CK,A,U,=TLUSAB2A,=TLUSAB1A,6E,1001,1993.01.28,20:53
+CT, , , ,6857500.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,6590000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-69.9, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 16368
+
+PDF Name: tstest7a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest7a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest7a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:29
+*
+TT,U,TSTEST7A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.45
+AK,A,U,=TLUSAB1A,=TLUSAB2A,7A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.75, Rx=76.90
+CK,A,U,=TLUSAB1A,=TLUSAB2A,7A,1001,1993.01.28,20:34
+CT, , , ,6875000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,7000000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-70.8, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.45
+AK,A,U,=TLUSAB2A,=TLUSAB1A,7A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.90, Rx=76.75
+CK,A,U,=TLUSAB2A,=TLUSAB1A,7A,1001,1993.01.28,20:53
+CT, , , ,7000000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,6875000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-70.3, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 10632
+
+PDF Name: tstest7b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest7b' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest7b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:30
+*
+TT,U,TSTEST7B,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.47
+AK,A,U,=TLUSAB1A,=TLUSAB2A,7B,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.06, Rx=77.41
+CK,A,U,=TLUSAB1A,=TLUSAB2A,7B,1001,1993.01.28,20:34
+CT, , , ,7125000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,7425000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-71.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.47
+AK,A,U,=TLUSAB2A,=TLUSAB1A,7B,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.41, Rx=77.06
+CK,A,U,=TLUSAB2A,=TLUSAB1A,7B,1001,1993.01.28,20:53
+CT, , , ,7425000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,7125000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-70.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 17120
+
+PDF Name: tstest8a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest8a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest8a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:31
+*
+TT,U,TSTEST8A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.50
+AK,A,U,=TLUSAB1A,=TLUSAB2A,8A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=78.06
+CK,A,U,=TLUSAB1A,=TLUSAB2A,8A,1001,1993.01.28,20:34
+CT, , , ,7725000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,8000000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-72.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.50
+AK,A,U,=TLUSAB2A,=TLUSAB1A,8A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=78.06, Rx=77.76
+CK,A,U,=TLUSAB2A,=TLUSAB1A,8A,1001,1993.01.28,20:53
+CT, , , ,8000000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,7725000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-71.3, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 14888
+
+PDF Name: tstest8b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest8b' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest8b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:32
+*
+TT,U,TSTEST8B,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.52
+AK,A,U,=TLUSAB1A,=TLUSAB2A,8B,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=78.36, Rx=78.47
+CK,A,U,=TLUSAB1A,=TLUSAB2A,8B,1001,1993.01.28,20:34
+CT, , , ,8275000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,8387500.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-72.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.52
+AK,A,U,=TLUSAB2A,=TLUSAB1A,8B,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=78.47, Rx=78.36
+CK,A,U,=TLUSAB2A,=TLUSAB1A,8B,1001,1993.01.28,20:53
+CT, , , ,8387500.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,8275000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-72.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 2700
+
+PDF Name: tstest10a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest10a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest10a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:33
+*
+TT,U,TSTEST10A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.70
+AK,A,U,=TLUSAB1A,=TLUSAB2A,10A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.42, Rx=80.51
+CK,A,U,=TLUSAB1A,=TLUSAB2A,10A,1001,1993.01.28,20:34
+CT, , , ,10500000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,10600000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-74.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.70
+AK,A,U,=TLUSAB2A,=TLUSAB1A,10A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.51, Rx=80.42
+CK,A,U,=TLUSAB2A,=TLUSAB1A,10A,1001,1993.01.28,20:53
+CT, , , ,10600000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,10500000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-74.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 14544
+
+PDF Name: tstest11a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest11a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest11a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:34
+*
+TT,U,TSTEST11A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.76
+AK,A,U,=TLUSAB1A,=TLUSAB2A,11A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.59, Rx=81.18
+CK,A,U,=TLUSAB1A,=TLUSAB2A,11A,1001,1993.01.28,20:34
+CT, , , ,10700000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,11450000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-75.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.76
+AK,A,U,=TLUSAB2A,=TLUSAB1A,11A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.18, Rx=80.59
+CK,A,U,=TLUSAB2A,=TLUSAB1A,11A,1001,1993.01.28,20:53
+CT, , , ,11450000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,10700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-74.4, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 6712
+
+PDF Name: tstest11b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest11b' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest11b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:35
+*
+TT,U,TSTEST11B,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.78
+AK,A,U,=TLUSAB1A,=TLUSAB2A,11B,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.59, Rx=81.18
+CK,A,U,=TLUSAB1A,=TLUSAB2A,11B,1001,1993.01.28,20:34
+CT, , , ,10700000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,11450000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-75.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.78
+AK,A,U,=TLUSAB2A,=TLUSAB1A,11B,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.18, Rx=80.59
+CK,A,U,=TLUSAB2A,=TLUSAB1A,11B,1001,1993.01.28,20:53
+CT, , , ,11450000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,10700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-74.4, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 1588
+
+PDF Name: tstest11c
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest11c' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest11c, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:36
+*
+TT,U,TSTEST11C,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.84
+AK,A,U,=TLUSAB1A,=TLUSAB2A,11C,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.36, Rx=81.55
+CK,A,U,=TLUSAB1A,=TLUSAB2A,11C,1001,1993.01.28,20:34
+CT, , , ,11700000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,11950000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-75.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.84
+AK,A,U,=TLUSAB2A,=TLUSAB1A,11C,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.55, Rx=81.36
+CK,A,U,=TLUSAB2A,=TLUSAB1A,11C,1001,1993.01.28,20:53
+CT, , , ,11950000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,11700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-75.3, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 15760
+
+PDF Name: tstest12a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest12a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest12a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:37
+*
+TT,U,TSTEST12A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.91
+AK,A,U,=TLUSAB1A,=TLUSAB2A,12A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=82.08, Rx=81.90
+CK,A,U,=TLUSAB1A,=TLUSAB2A,12A,1001,1993.01.28,20:34
+CT, , , ,12700000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,12450000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-76.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 0.91
+AK,A,U,=TLUSAB2A,=TLUSAB1A,12A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.90, Rx=82.08
+CK,A,U,=TLUSAB2A,=TLUSAB1A,12A,1001,1993.01.28,20:53
+CT, , , ,12450000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,12700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-76.1, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 17148
+
+PDF Name: tstest13a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest13a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest13a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:38
+*
+TT,U,TSTEST13A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 1.02
+AK,A,U,=TLUSAB1A,=TLUSAB2A,13A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=82.08, Rx=82.43
+CK,A,U,=TLUSAB1A,=TLUSAB2A,13A,1001,1993.01.28,20:34
+CT, , , ,12700000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,13225000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-76.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 1.02
+AK,A,U,=TLUSAB2A,=TLUSAB1A,13A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=82.43, Rx=82.08
+CK,A,U,=TLUSAB2A,=TLUSAB1A,13A,1001,1993.01.28,20:53
+CT, , , ,13225000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,12700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-76.1, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 15872
+
+PDF Name: tstest14a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest14a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest14a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:39
+*
+TT,U,TSTEST14A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 1.19
+AK,A,U,=TLUSAB1A,=TLUSAB2A,14A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=82.77, Rx=83.00
+CK,A,U,=TLUSAB1A,=TLUSAB2A,14A,1001,1993.01.28,20:34
+CT, , , ,13750000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,14125000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-77.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 1.19
+AK,A,U,=TLUSAB2A,=TLUSAB1A,14A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.00, Rx=82.77
+CK,A,U,=TLUSAB2A,=TLUSAB1A,14A,1001,1993.01.28,20:53
+CT, , , ,14125000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,13750000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-77.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 14172
+
+PDF Name: tstest14b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest14b' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest14b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:40
+*
+TT,U,TSTEST14B,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 1.21
+AK,A,U,=TLUSAB1A,=TLUSAB2A,14B,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.23, Rx=82.92
+CK,A,U,=TLUSAB1A,=TLUSAB2A,14B,1001,1993.01.28,20:34
+CT, , , ,14500000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,14000000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-77.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 1.21
+AK,A,U,=TLUSAB2A,=TLUSAB1A,14B,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=82.92, Rx=83.23
+CK,A,U,=TLUSAB2A,=TLUSAB1A,14B,1001,1993.01.28,20:53
+CT, , , ,14000000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,14500000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-77.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 16520
+
+PDF Name: tstest14c
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest14c' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest14c, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:41
+*
+TT,U,TSTEST14C,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 1.37
+AK,A,U,=TLUSAB1A,=TLUSAB2A,14C,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.23, Rx=83.46
+CK,A,U,=TLUSAB1A,=TLUSAB2A,14C,1001,1993.01.28,20:34
+CT, , , ,14500000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,14900000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-78.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 1.37
+AK,A,U,=TLUSAB2A,=TLUSAB1A,14C,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.46, Rx=83.23
+CK,A,U,=TLUSAB2A,=TLUSAB1A,14C,1001,1993.01.28,20:53
+CT, , , ,14900000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,14500000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-77.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 12220
+
+PDF Name: tstest18a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest18a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest18a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:42
+*
+TT,U,TSTEST18A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 3.16
+AK,A,U,=TLUSAB1A,=TLUSAB2A,18A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=84.71, Rx=85.53
+CK,A,U,=TLUSAB1A,=TLUSAB2A,18A,1001,1993.01.28,20:34
+CT, , , ,17200000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,18900000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-82.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 3.16
+AK,A,U,=TLUSAB2A,=TLUSAB1A,18A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.53, Rx=84.71
+CK,A,U,=TLUSAB2A,=TLUSAB1A,18A,1001,1993.01.28,20:53
+CT, , , ,18900000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,17200000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-80.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 6732
+
+PDF Name: tstest18b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest18b' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest18b, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:43
+*
+TT,U,TSTEST18B,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 3.41
+AK,A,U,=TLUSAB1A,=TLUSAB2A,18B,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=84.96, Rx=85.53
+CK,A,U,=TLUSAB1A,=TLUSAB2A,18B,1001,1993.01.28,20:34
+CT, , , ,17700000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,18900000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-82.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 3.41
+AK,A,U,=TLUSAB2A,=TLUSAB1A,18B,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.53, Rx=84.96
+CK,A,U,=TLUSAB2A,=TLUSAB1A,18B,1001,1993.01.28,20:53
+CT, , , ,18900000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,17700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-80.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 7080
+
+PDF Name: tstest18c
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest18c' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest18c, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:44
+*
+TT,U,TSTEST18C,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 3.60
+AK,A,U,=TLUSAB1A,=TLUSAB2A,18C,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.44, Rx=85.53
+CK,A,U,=TLUSAB1A,=TLUSAB2A,18C,1001,1993.01.28,20:34
+CT, , , ,18700000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,18900000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-82.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 3.60
+AK,A,U,=TLUSAB2A,=TLUSAB1A,18C,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.53, Rx=85.44
+CK,A,U,=TLUSAB2A,=TLUSAB1A,18C,1001,1993.01.28,20:53
+CT, , , ,18900000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,18700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-81.9, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 3280
+
+PDF Name: tstest19a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest19a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest19a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:45
+*
+TT,U,TSTEST19A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 5.14
+AK,A,U,=TLUSAB1A,=TLUSAB2A,19A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.89, Rx=85.98
+CK,A,U,=TLUSAB1A,=TLUSAB2A,19A,1001,1993.01.28,20:34
+CT, , , ,19700000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,19900000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-84.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 5.14
+AK,A,U,=TLUSAB2A,=TLUSAB1A,19A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.98, Rx=85.89
+CK,A,U,=TLUSAB2A,=TLUSAB1A,19A,1001,1993.01.28,20:53
+CT, , , ,19900000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,19700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-83.7, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 14200
+
+PDF Name: tstest22a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest22a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest22a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:46
+*
+TT,U,TSTEST22A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 9.18
+AK,A,U,=TLUSAB1A,=TLUSAB2A,22A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=86.53, Rx=87.00
+CK,A,U,=TLUSAB1A,=TLUSAB2A,22A,1001,1993.01.28,20:34
+CT, , , ,21200000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,22400000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-89.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 9.18
+AK,A,U,=TLUSAB2A,=TLUSAB1A,22A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=87.00, Rx=86.53
+CK,A,U,=TLUSAB2A,=TLUSAB1A,22A,1001,1993.01.28,20:53
+CT, , , ,22400000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,21200000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-87.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 14400
+
+PDF Name: tstest24a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest24a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest24a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:47
+*
+TT,U,TSTEST24A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 7.24
+AK,A,U,=TLUSAB1A,=TLUSAB2A,24A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=87.69, Rx=87.85
+CK,A,U,=TLUSAB1A,=TLUSAB2A,24A,1001,1993.01.28,20:34
+CT, , , ,24250000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,24700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-88.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 7.24
+AK,A,U,=TLUSAB2A,=TLUSAB1A,24A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=87.85, Rx=87.69
+CK,A,U,=TLUSAB2A,=TLUSAB1A,24A,1001,1993.01.28,20:53
+CT, , , ,24700000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,24250000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-88.6, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 7756
+
+PDF Name: tstest26a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest26a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest26a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:48
+*
+TT,U,TSTEST26A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 5.43
+AK,A,U,=TLUSAB1A,=TLUSAB2A,26A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=88.08, Rx=89.04
+CK,A,U,=TLUSAB1A,=TLUSAB2A,26A,1001,1993.01.28,20:34
+CT, , , ,25350000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,28300000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-87.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 5.43
+AK,A,U,=TLUSAB2A,=TLUSAB1A,26A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=89.04, Rx=88.08
+CK,A,U,=TLUSAB2A,=TLUSAB1A,26A,1001,1993.01.28,20:53
+CT, , , ,28300000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,25350000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-87.8, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 8416
+
+PDF Name: tstest28a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest28a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest28a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:49
+*
+TT,U,TSTEST28A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 4.89
+AK,A,U,=TLUSAB1A,=TLUSAB2A,28A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=88.71, Rx=89.16
+CK,A,U,=TLUSAB1A,=TLUSAB2A,28A,1001,1993.01.28,20:34
+CT, , , ,27250000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,28700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-87.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 4.89
+AK,A,U,=TLUSAB2A,=TLUSAB1A,28A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=89.16, Rx=88.71
+CK,A,U,=TLUSAB2A,=TLUSAB1A,28A,1001,1993.01.28,20:53
+CT, , , ,28700000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,27250000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-87.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 13616
+
+PDF Name: tstest29a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest29a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest29a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:49
+*
+TT,U,TSTEST29A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 4.64
+AK,A,U,=TLUSAB1A,=TLUSAB2A,29A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=89.41, Rx=89.46
+CK,A,U,=TLUSAB1A,=TLUSAB2A,29A,1001,1993.01.28,20:34
+CT, , , ,29550000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,29700000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-87.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 4.64
+AK,A,U,=TLUSAB2A,=TLUSAB1A,29A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=89.46, Rx=89.41
+CK,A,U,=TLUSAB2A,=TLUSAB1A,29A,1001,1993.01.28,20:53
+CT, , , ,29700000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,29550000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-87.2, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 12472
+
+PDF Name: tstest31a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest31a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest31a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:50
+*
+TT,U,TSTEST31A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 4.60
+AK,A,U,=TLUSAB1A,=TLUSAB2A,31A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=89.83, Rx=89.91
+CK,A,U,=TLUSAB1A,=TLUSAB2A,31A,1001,1993.01.28,20:34
+CT, , , ,31000000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,31300000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-88.0, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 4.60
+AK,A,U,=TLUSAB2A,=TLUSAB1A,31A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=89.91, Rx=89.83
+CK,A,U,=TLUSAB2A,=TLUSAB1A,31A,1001,1993.01.28,20:53
+CT, , , ,31300000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,31000000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-87.5, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 12164
+
+PDF Name: tstest39a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest39a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest39a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:51
+*
+TT,U,TSTEST39A,,NAD83,2008.06.10,08:16
+*##############################################################################
+SK,A,U,=TLUSAB1A,SNUFF MTN,55-45-44.14N,117-31-00.77W,800.0,2000.08.03,15:46
+SD,AB,TLUSAB,5,STEL527, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 6.18
+AK,A,U,=TLUSAB1A,=TLUSAB2A,39A,11,1993.01.28,14:26
+AQ,TR,GP6F-17,39.0,15.91,-0.46,47.01,N, , , , , , ,1992.05.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=91.73, Rx=91.89
+CK,A,U,=TLUSAB1A,=TLUSAB2A,39A,1001,1993.01.28,20:34
+CT, , , ,38600000.00,H,11,5.6, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,39300000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.4,-91.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSAB2A,VALLEYVIEW,56-10-05.17N,117-18-33.82W,552.0,2000.08.04,07:57
+SD,AB,TLUSAB,5,STEL61, , , ,1, , , ,FT
+*====  ------ Not Found -----   Ant Gain = 28.5, Dist Loss = 65.89, At. Loss = 6.18
+AK,A,U,=TLUSAB2A,=TLUSAB1A,39A,11,1993.01.28,14:29
+AQ,TR,GP6F-17,40.0,196.09,0.14,47.01,N, , , , , , ,1992.12.03
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=91.89, Rx=91.73
+CK,A,U,=TLUSAB2A,=TLUSAB1A,39A,1001,1993.01.28,20:53
+CT, , , ,39300000.00,H,11,6.2, , ,LR4200, ,30.0,0.0,D7064,1D2,5,C
+CR,38600000.00,H,11, , ,LR4200, ,D7064,1D2,5,C
+CQ,8.6,-90.8, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 3328
+
+PDF Name: tstest78a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest78a' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: tstest78a, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:52
+*
+TT,U,TEST78A,,,,
+*##############################################################################
+SK,A,U,VFG822X,WARDEN_SHEPPARD(ON1298),43-46-49.54N,079-18-14.25W,179.8,2011.11.11,16:30
+SD,ON,TLUSMC,5, , , , , , , , ,FT
+*====  ------ Not Found -----   Ant Gain = 43.8, Dist Loss = 43.89, At. Loss = 1.50
+AK,A,U,VFG822X,VFG872X,78A,18,2011.11.11,16:30
+AQ,TR,HPCPE-80,54.6,76.94,-0.15,3.73,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=98.64, Rx=97.56
+CK,A,U,VFG822X,VFG872X,78A,1008,2011.11.11,16:30
+CT, , , ,85500000.00,V,18,2.0, , ,MPT80120, ,19.0, ,DMP120,1OC3,5,E
+CR,75500000.00,V,18, , ,MPT80120, ,DMP120,1OC3,5,E
+CQ,2.0,-40.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,VFG872X,MCCOWAN_HWY401(ON1126),43-47-16.84N,079-15-31.66W,167.6,2011.11.11,16:30
+SD,ON,TLUSMC,5, , , , , , , , ,FT
+*====  ------ Not Found -----   Ant Gain = 43.8, Dist Loss = 43.89, At. Loss = 1.50
+AK,A,U,VFG872X,VFG822X,78A,18,2011.11.11,16:30
+AQ,TR,HPCPE-80,58.0,256.97,0.12,3.73,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=97.56, Rx=98.64
+CK,A,U,VFG872X,VFG822X,78A,1008,2011.11.11,16:30
+CT, , , ,75500000.00,V,18,2.0, , ,MPT80120, ,19.0, ,DMP120,1OC3,5,E
+CR,85500000.00,V,18, , ,MPT80120, ,DMP120,1OC3,5,E
+CQ,2.0,-41.5, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 5160
+
+PDF Name: bandwdaddreghop
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'bandwdaddreghop' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: bandwdaddreghop, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:53
+*
+TT,U,BANDWDADDREGHOP,,,,
+*##############################################################################
+SK,U,U,CGD091,WUMMUMMIN LAKE,52-56-00.22N,089-18-06.08W,256.0,2008.05.03,08:45
+SD,ON,BELL,5, ,441-0003522,8, ,1, ,BAO,2000.11.01,FT
+*====  SUMMER BEAVER  === Ant Gain = 46.8, Dist Loss = 67.53, At. Loss = 0.91
+AK,A,U,CGD091,CGG418,11A,11,2009.11.14,08:08
+AQ,TR,UHX8-107J,5.0,111.43,-0.21,56.75,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.12, Rx=80.74
+CK,A,U,CGD091,CGG418,11A,1001,2009.11.14,08:07
+CT, , , ,11375000.00,V,11,1.5, , ,RF-11000, ,17.2,0.0,DRF11G, ,3,D
+CR,10885000.00,V,11, , ,TP521129, ,D5229T, ,3,D
+CQ,1.5,-39.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,CGG418,SUMMER BEAVER,52-44-40.22N,088-31-09.97W,233.0,2008.05.03,08:45
+SD,ON,BELL,5, ,441-0856668,8, ,1, ,BAO,1984.07.05,FT
+*====  WUMMUMMIN LAKE  == Ant Gain = 46.8, Dist Loss = 67.53, At. Loss = 0.91
+AK,A,U,CGG418,CGD091,11A,11,2009.11.14,08:08
+AQ,TR,UHX8-107J,8.0,292.05,-0.17,56.75,N, , , , , , ,1988.12.22
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.74, Rx=81.12
+CK,A,U,CGG418,CGD091,11A,1001,2009.11.14,08:07
+CT, , , ,10885000.00,V,11,3.6, , ,TP521129, ,21.0, ,D5229T, ,3,D
+CR,11375000.00,V,11, , ,RF-11000, ,DRF11G, ,3,D
+CQ,3.6,-43.9, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 4432
+
+PDF Name: bandwddelreghop
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'bandwddelreghop' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: bandwddelreghop, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:54
+*
+TT,U,BANDWDDELREGHOP,,,,
+*##############################################################################
+SK,U,U,CGD091,WUMMUMMIN LAKE,52-56-00.22N,089-18-06.08W,256.0,2008.05.03,08:45
+SD,ON,BELL,5, ,441-0003522,8, ,1, ,BAO,2000.11.01,FT
+*====  SUMMER BEAVER  === Ant Gain = 29.0, Dist Loss = 67.53, At. Loss = 0.31
+AK,D,U,CGD091,CGG418,1A,21,2008.05.03,08:44
+AQ,TR,P8F-15D,83.5,111.43,-0.14,56.75,N, , , ,6.5,1.33, ,1996.06.01
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=63.16, Rx=63.56
+CK,D,U,CGD091,CGG418,1A,2010,2008.05.03,08:44
+CT, , , ,1439250.00,H,21,7.8, ,0.0,SR500R,H,35.0,0.0,D7049,CSRS,5,C
+CR,1505750.00,H,21, , ,SR500R,H,D7049,CSRS,5,C
+CQ,7.8,-56.5,0.0, ,0.0, , ,
+CO,93,5,4, , , , ,
+*----  SUMMER BEAVER  === Ant Gain = 38.8, Dist Loss = 67.53, At. Loss = 0.40
+AK,N,U,CGD091,CGG418,3C,15,2008.05.03,08:44
+AQ,TR,HP10-36,67.4,111.43,-0.12,56.75,N, , , , , , ,2000.11.01
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=71.47, Rx=72.04
+CK,N,U,CGD091,CGG418,3C,D002,2008.05.03,08:44
+CT, , , ,3745000.00,H,15,3.0, , ,MR4304EC, ,32.0,0.0,D3D3L4,3DS3,5,K
+CR,4000000.00,H,15, , ,MR4304EC, ,D3D3L4,3DS3,5,K
+CQ,3.0,-36.1, , , , , ,
+CO,460,81,15, , , , ,2000.11.01
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=71.88, Rx=72.42
+CK,N,U,CGD091,CGG418,3C,D008,2008.05.03,08:44
+CT, , , ,3925000.00,H,15,3.0, , ,MR4304EC, ,32.0,0.0,D3D3L4,3DSP,5,K
+CR,4180000.00,H,15, , ,MR4304EC, ,D3D3L4,3DSP,5,K
+CQ,3.0,-36.5, , , , , ,
+CO,460,81,15, , , , ,2000.11.01
+*##############################################################################
+SK,U,U,CGG418,SUMMER BEAVER,52-44-40.22N,088-31-09.97W,233.0,2008.05.03,08:45
+SD,ON,BELL,5, ,441-0856668,8, ,1, ,BAO,1984.07.05,FT
+*====  WUMMUMMIN LAKE  == Ant Gain = 29.0, Dist Loss = 67.53, At. Loss = 0.31
+AK,D,U,CGG418,CGD091,1A,21,2008.05.03,08:45
+AQ,TR,P8F-15D,153.9,292.05,-0.24,56.75,N, , , ,6.5,1.33, ,1996.06.01
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=63.56, Rx=63.16
+CK,D,U,CGG418,CGD091,1A,2010,2008.05.03,08:44
+CT, , , ,1505750.00,H,21,10.6, ,0.0,SR500R,H,35.0,0.0,D7049,CSRS,5,C
+CR,1439250.00,H,21, , ,SR500R,H,D7049,CSRS,5,C
+CQ,10.6,-56.1,0.0, ,0.0, , ,
+CO,93,6,4, , , , ,
+*----  WUMMUMMIN LAKE  == Ant Gain = 40.6, Dist Loss = 67.53, At. Loss = 0.40
+AK,N,U,CGG418,CGD091,3C,15,2008.05.03,08:45
+AQ,TR,HP12-36,158.5,292.05,-0.26,56.75,N, , , , , , ,2000.11.01
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=72.04, Rx=71.47
+CK,N,U,CGG418,CGD091,3C,D002,2008.05.03,08:44
+CT, , , ,4000000.00,H,15,4.5, , ,MR4304EC, ,32.0,0.0,D3D3L4,3DS3,5,K
+CR,3745000.00,H,15, , ,MR4304EC, ,D3D3L4,3DS3,5,K
+CQ,4.5,-35.5, , , , , ,
+CO,460,82,15, , , , ,2000.11.01
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=72.42, Rx=71.88
+CK,N,U,CGG418,CGD091,3C,D008,2008.05.03,08:44
+CT, , , ,4180000.00,H,15,4.5, , ,MR4304EC, ,32.0,0.0,D3D3L4,3DSP,5,K
+CR,3925000.00,H,15, , ,MR4304EC, ,D3D3L4,3DSP,5,K
+CQ,4.5,-35.9, , , , , ,
+CO,460,82,15, , , , ,2000.11.01
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 11124
+
+PDF Name: bandwdaddpashop
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 7B 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: %TLUSBCX8 CGF983A 7B 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 7B 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX8 7B 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 4 warnings.
+The PDF 'bandwdaddpashop' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: bandwdaddpashop, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:56
+*
+TT,U,BANDWDADDPASHOP,,NAD83,,
+*##############################################################################
+SK,U,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0,2020.01.14,08:21
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  GREENVILLE RADIO   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.03
+AK,A,U,%TLUSBCX8,CGF981A,7B,11,1999.11.24,07:16
+AQ,TR,14F16FA%,6.0,5.79,-6.74,2.66,P,316.16,-5.84,50.1, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,A,U,%TLUSBCX8,CGF981A,7B,1001,1999.11.24,07:16
+CT, , , ,7200500.00,V,11, , , ,RD-3A,A,-7.1,0.0,D7900A,PROT,5,X
+CR,7368000.00,V,11, , ,RD-3A,A,D7900A,PROT,5,X
+CQ, ,12.1, , , , , ,
+CO, , , , , , , ,
+*----  KINCOLITH  ======= Ant Gain = 0.0, Dist Loss = 59.94, At. Loss = 0.24
+AK,A,U,%TLUSBCX8,CGF983A,7B,11,1999.11.24,07:16
+AQ,TR,14F16FA%,6.0,267.00,-0.88,23.68,P,316.16,-5.84,50.1, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,A,U,%TLUSBCX8,CGF983A,7B,1001,1999.11.24,07:16
+CT, , , ,7368000.00,V,11, , , ,RD-3A,A,12.1,0.0,D7900A,PROT,5,X
+CR,7200500.00,V,11, , ,RD-3A,A,D7900A,PROT,5,X
+CQ, ,-7.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0,2020.01.14,08:21
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 45.6, Dist Loss = 40.95, At. Loss = 0.03
+AK,A,U,CGF981A,%TLUSBCX8,7B,11,1999.11.24,07:16
+AQ,TR,HP10-77GD,16.0,185.79,6.73,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,A,U,CGF981A,%TLUSBCX8,7B,1001,1999.11.24,07:16
+CT, , , ,7368000.00,V,11,5.2, , ,RD-3A,A,40.0,0.0,D7900A,PROT,5,H
+CR,7200500.00,V,11, , ,RD-3A,A,D7900A,PROT,5,H
+CQ,5.2,-35.0, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0,2020.01.14,08:21
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  ISHKHEENICKH PAS   Ant Gain = 45.6, Dist Loss = 59.94, At. Loss = 0.24
+AK,A,U,CGF983A,%TLUSBCX8,7B,11,1999.11.24,07:16
+AQ,TR,HP10-77GD,15.0,86.69,0.72,23.68,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,A,U,CGF983A,%TLUSBCX8,7B,1001,1999.11.24,07:16
+CT, , , ,7200500.00,V,11,5.2, , ,RD-3A,A,40.0,0.0,D7900A,PROT,5,H
+CR,7368000.00,V,11, , ,RD-3A,A,D7900A,PROT,5,H
+CQ,5.2,-35.0, , , , , ,
+CO, , , , , , , ,
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200113-1125/64-R
+RUN DATE: 2020.01.14  08:29
+Project Code [fmda20] Process Id: 11744
+
+PDF Name: bandwddelpashop
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %BCHYCOMS VFF950 11A 1001
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+
+Channel: %BCHYCOMS VFF950 11A 1002
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+
+Channel: %BCHYCOMS VXJ495 11A 1001
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+
+Channel: %BCHYCOMS VXJ495 11A 1002
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+
+Channel: VFF950 %BCHYCOMS 11A 1001
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+
+Channel: VFF950 %BCHYCOMS 11A 1002
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+
+Channel: VXJ495 %BCHYCOMS 11A 1001
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+
+Channel: VXJ495 %BCHYCOMS 11A 1002
+Local transmit (D) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (D) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 16 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 16 warnings.
+The PDF 'bandwddelpashop' is validated for :UPDATE:
+
+PDF Validation Completed - 08:29
+* TS-PDF: bandwddelpashop, By FtPrint (190122-1739/64-R) at 2020.01.14 08:29:58
+*
+TT,U,BANDWDDELPASHOP,,,,
+*##############################################################################
+SK,U,U,%BCHYCOMS,COMS RPTR,49-42-08.60N,123-31-01.26W,395.8,2015.01.13,06:31
+SD,BC,BCHY,3, , , , , , ,FC, ,FT
+*====  SER  ============= Ant Gain = 0.0, Dist Loss = 61.54, At. Loss = 0.46
+AK,U,U,%BCHYCOMS,VFF950,11A,11,2016.01.10,07:41
+AQ,TR,16F24FA%,8.0,245.95,1.37,28.48,P,276.46,-5.91,57.2, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.74, Rx=81.12
+CK,U,U,%BCHYCOMS,VFF950,11A,1001,2014.04.05,08:21
+CT, , , ,10885000.00,V,11,0.0, , ,TP521129, ,2.9,0.0,D5229T, ,3,X
+CR,11375000.00,V,11, , ,RF-11000, ,DRF11G, ,3,X
+CQ,0.0,-23.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.66, Rx=81.04
+CK,U,U,%BCHYCOMS,VFF950,11A,1002,2014.04.05,08:21
+CT, , , ,10785000.00,H,11,0.0, , ,TP521129, ,2.9,0.0,D5229T, ,3,X
+CR,11275000.00,H,11, , ,RF-11000, ,DRF11G, ,3,X
+CQ,0.0,-23.3, , , , , ,
+CO, , , , , , , ,
+*----  SER  ============= Ant Gain = 0.0, Dist Loss = 61.54, At. Loss = 0.28
+AK,D,U,%BCHYCOMS,VFF950,7B,11,2009.11.14,08:08
+AQ,TR,16F24FA%,8.0,245.95,1.37,28.48,P,276.46,-5.91,53.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.52, Rx=77.69
+CK,D,U,%BCHYCOMS,VFF950,7B,1001,2009.11.14,08:07
+CT, , , ,7517500.00,V,11,0.0, , ,TP7G8DS1, ,7.1,0.0,D7G8D, ,3,X
+CR,7667500.00,V,11, , ,RF8000E, ,DRF7G, ,3,X
+CQ,0.0,-19.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.06, Rx=77.27
+CK,D,U,%BCHYCOMS,VFF950,7B,1002,2009.11.14,08:07
+CT, , , ,7127500.00,H,11,0.0, , ,TP7G8DS1, ,7.1,0.0,D7G8D, ,3,X
+CR,7302500.00,H,11, , ,RF8000E, ,DRF7G, ,3,X
+CQ,0.0,-19.6, , , , , ,
+CO, , , , , , , ,
+*----  CLOWHAM LAKE. BC   Ant Gain = 0.0, Dist Loss = 37.44, At. Loss = 0.03
+AK,U,U,%BCHYCOMS,VXJ495,11A,11,2016.01.10,07:41
+AQ,TR,16F24FA%,8.0,307.66,-11.53,1.78,P,276.46,-5.91,56.9, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.12, Rx=80.74
+CK,U,U,%BCHYCOMS,VXJ495,11A,1001,2014.04.05,08:21
+CT, , , ,11375000.00,V,11,0.0, , ,RF-11000, ,-23.3,0.0,DRF11G, ,3,X
+CR,10885000.00,V,11, , ,TP521129, ,D5229T, ,3,X
+CQ,0.0,2.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.04, Rx=80.66
+CK,U,U,%BCHYCOMS,VXJ495,11A,1002,2014.04.05,08:21
+CT, , , ,11275000.00,H,11,0.0, , ,RF-11000, ,-23.3,0.0,DRF11G, ,3,X
+CR,10785000.00,H,11, , ,TP521129, ,D5229T, ,3,X
+CQ,0.0,2.9, , , , , ,
+CO, , , , , , , ,
+*----  CLOWHAM LAKE. BC   Ant Gain = 0.0, Dist Loss = 37.46, At. Loss = 0.02
+AK,D,U,%BCHYCOMS,VXJ495,7B,11,2009.11.14,08:08
+AQ,TR,16F24FA%,8.0,307.66,-11.53,1.78,P,276.46,-5.91,53.5, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.69, Rx=77.52
+CK,D,U,%BCHYCOMS,VXJ495,7B,1001,2009.11.14,08:07
+CT, , , ,7667500.00,V,11,0.0, , ,RF8000E, ,-19.6,0.0,DRF7G, ,3,X
+CR,7517500.00,V,11, , ,TP7G8DS1, ,D7G8D, ,3,X
+CQ,0.0,7.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.27, Rx=77.06
+CK,D,U,%BCHYCOMS,VXJ495,7B,1002,2009.11.14,08:07
+CT, , , ,7302500.00,H,11,0.0, , ,RF8000E, ,-19.6,0.0,DRF7G, ,3,X
+CR,7127500.00,H,11, , ,TP7G8DS1, ,D7G8D, ,3,X
+CQ,0.0,7.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,VFF950,SER,49-35-51.00N,123-52-36.00W,1129.0,2017.03.15,11:25
+SD,BC,BCHY,5,SECHELT. BC  REPEATER,5083445, , ,1, ,I12B,2009.05.14,FT
+*====  COMS RPTR  ======= Ant Gain = 46.8, Dist Loss = 61.54, At. Loss = 0.46
+AK,U,U,VFF950,%BCHYCOMS,11A,11,2014.04.05,08:21
+AQ,TR,UHX8-107J,5.0,65.67,-1.56,28.48,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.12, Rx=80.74
+CK,U,U,VFF950,%BCHYCOMS,11A,1001,2014.04.05,08:21
+CT, , , ,11375000.00,V,11,1.5, , ,RF-11000, ,17.2,0.0,DRF11G, ,3,D
+CR,10885000.00,V,11, , ,TP521129, ,D5229T, ,3,D
+CQ,1.5,-37.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.04, Rx=80.66
+CK,U,U,VFF950,%BCHYCOMS,11A,1002,2014.04.05,08:21
+CT, , , ,11275000.00,H,11,1.5, , ,RF-11000, ,17.2,0.0,DRF11G, ,3,D
+CR,10785000.00,H,11, , ,TP521129, ,D5229T, ,3,D
+CQ,1.5,-37.6, , , , , ,
+CO, , , , , , , ,
+*----  COMS RPTR  ======= Ant Gain = 44.8, Dist Loss = 61.54, At. Loss = 0.28
+AK,D,U,VFF950,%BCHYCOMS,7B,11,2009.11.14,08:08
+AQ,TR,HPX10-71E,5.0,65.67,-1.56,28.48,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.69, Rx=77.52
+CK,D,U,VFF950,%BCHYCOMS,7B,1001,2009.11.14,08:07
+CT, , , ,7667500.00,V,11,1.1, , ,RF8000E, ,22.1,0.0,DRF7G, ,3,D
+CR,7517500.00,V,11, , ,TP7G8DS1, ,D7G8D, ,3,D
+CQ,1.1,-34.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.27, Rx=77.06
+CK,D,U,VFF950,%BCHYCOMS,7B,1002,2009.11.14,08:07
+CT, , , ,7302500.00,H,11,1.1, , ,RF8000E, ,22.1,0.0,DRF7G, ,3,D
+CR,7127500.00,H,11, , ,TP7G8DS1, ,D7G8D, ,3,D
+CQ,1.1,-34.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,VXJ495,CLOWHAM LAKE. BC,49-42-43.00N,123-32-10.00W,41.0,2015.01.13,06:31
+SD,BC,BCHY,5, ,5083453, , ,1, ,I12B,2009.05.14,FT
+*====  COMS RPTR  ======= Ant Gain = 46.8, Dist Loss = 37.44, At. Loss = 0.03
+AK,U,U,VXJ495,%BCHYCOMS,11A,11,2014.04.05,08:21
+AQ,TR,UHX8-107J,8.0,127.65,11.52,1.78,N, , , , , , ,1989.12.22
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.74, Rx=81.12
+CK,U,U,VXJ495,%BCHYCOMS,11A,1001,2014.04.05,08:21
+CT, , , ,10885000.00,V,11,3.6, , ,TP521129, ,21.0, ,D5229T, ,3,D
+CR,11375000.00,V,11, , ,RF-11000, ,DRF11G, ,3,D
+CQ,3.6,-41.4, , , , , ,
+CO,720, , , , ,720, ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.66, Rx=81.04
+CK,U,U,VXJ495,%BCHYCOMS,11A,1002,2014.04.05,08:21
+CT, , , ,10785000.00,H,11,3.6, , ,TP521129, ,21.0, ,D5229T, ,3,D
+CR,11275000.00,H,11, , ,RF-11000, ,DRF11G, ,3,D
+CQ,3.6,-41.4, , , , , ,
+CO,720, , , , ,720, ,
+*----  COMS RPTR  ======= Ant Gain = 44.8, Dist Loss = 37.46, At. Loss = 0.02
+AK,D,U,VXJ495,%BCHYCOMS,7B,11,2009.11.14,08:08
+AQ,TR,HPX10-71E,8.0,127.65,11.52,1.78,N, , , , , , ,1989.12.22
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.52, Rx=77.69
+CK,D,U,VXJ495,%BCHYCOMS,7B,1001,2009.11.14,08:07
+CT, , , ,7517500.00,V,11,2.3, , ,TP7G8DS1, ,25.5, ,D7G8D, ,3,D
+CR,7667500.00,V,11, , ,RF8000E, ,DRF7G, ,3,D
+CQ,2.3,-38.0, , , , , ,
+CO,720, , , , ,720, ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.06, Rx=77.27
+CK,D,U,VXJ495,%BCHYCOMS,7B,1002,2009.11.14,08:07
+CT, , , ,7127500.00,H,11,2.3, , ,TP7G8DS1, ,25.5, ,D7G8D, ,3,D
+CR,7302500.00,H,11, , ,RF8000E, ,DRF7G, ,3,D
+CQ,2.3,-38.0, , , , , ,
+CO,720, , , , ,720, ,

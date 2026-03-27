@@ -1,0 +1,59 @@
+
+sdUpdateTowr Build 160706-1102/64-R
+		SDB TOWER UPDATE REPORT Build 160706-1102/64-R		Date: 2019.07.09 20:50
+
+SDF Name: test_delete
+SDF Type: Tower
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/9/2019 8:50:41 PM
+
+
+Tower SDF: test_delete
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Tower SDF test_delete is valid
+
+SDF Validation completed - 7/9/2019 8:50:41 PM
+
+		SDF UPDATE RESULTS
+::	- Successful DELETE of Tower CP
+::	- Successful DELETE of Tower GS
+::	- Successful DELETE of Tower GY
+::	- Successful DELETE of Tower MT
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'towr', 'test_delete', '2019.07.09', '20:50') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\towr\test_delete.20190709_2050) of changes to the database
+
+
+	************ Summary Information for SDB Tower Update ****
+	***** SDF Name: test_delete      User Name: hulme1     *****
+	************            Master Records          ************
+
+	 Records Processed: 4
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 4
+	 Records No Action: 0
+
+	************            Detail Records          ************
+
+	 Records Processed: 0
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************     End of Summary Information     ************

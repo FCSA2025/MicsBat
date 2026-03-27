@@ -1,0 +1,180 @@
+﻿PDF VALIDATION REPORT - Build 150624-1810/64-D
+RUN DATE: 2015.10.29  14:20
+Project Code [FMDA20] Process Id: 1448
+
+PDF Name: b070419a
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: %BTPAA2
+
+A site must have at least one antenna and one channel.
+
+KEY: KFK20
+
+A site must have at least one antenna and one channel.
+
+KEY: WDU620
+
+A site must have at least one antenna and one channel.
+
+SUMMARY OF SITE RECORDS:  3 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+%BTPAA2->KFK20 Band:6A Anum:11
+Cannot delete Antenna with channels. The channels are:
+Channel: %BTPAA2 -> KFK20 6A 11 1001:
+
+%BTPAA2->WDU620 Band:6A Anum:11
+Cannot delete Antenna with channels. The channels are:
+Channel: %BTPAA2 -> WDU620 6A 11 1001:
+
+KFK20->%BTPAA2 Band:6A Anum:11
+Cannot delete Antenna with channels. The channels are:
+Channel: KFK20 -> %BTPAA2 6A 11 1001:
+
+WDU620->%BTPAA2 Band:6A Anum:11
+Cannot delete Antenna with channels. The channels are:
+Channel: WDU620 -> %BTPAA2 6A 11 1001:
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %BTPAA2 (CLEARFLD PR/BTPA) in proposed file ...
+Checking proposed file Site %BTPAA2 band 6A.
+%BTPAA2 to KFK20 band 6A chid 1002 is first RX HiLo violation.
+%BTPAA2 to WDU620 band 6A chid 1001 is first TX HiLo violation.
+  Band 6A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking KFK20 (SNYDER/A01232) in proposed file ...
+Checking proposed file Site KFK20 band 6A.
+KFK20 to %BTPAA2 band 6A chid 1002 is first TX HiLo violation.
+  Band 6A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking WDU620 (CLEARFIELD/A01232) in proposed file ...
+Checking proposed file Site WDU620 band 6A.
+WDU620 to %BTPAA2 band 6A chid 1002 is first RX HiLo violation.
+  Band 6A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+3 Site(s) checked.
+There were 4 hilo violations.
+
+
+
+There were a total of 7 errors and 0 warnings.
+The PDF 'b070419a' is invalid
+PDF Validation Completed - 14:20
+
+* TS-PDF: b070419a, By ftPrint (150624-1810/64-D) at 2015.10.29 14:21:53
+*
+TT,N,B070419A,,,,
+*##############################################################################
+SK,U,U,%BTPAA2,CLEARFLD PR,41-01-30.18N,078-27-20.22W,460.0,1993.01.25,16:00
+SD,PA,BTPA,0, ,0-0000000, , ,1, ,0000,1984.10.18,UT
+*====  SNYDER  ========== Ant Gain = 0.0, Dist Loss = 63.28, At. Loss = 0.30
+AK,D,U,%BTPAA2,KFK20,6A,11,2014.04.05,08:56
+AQ,TR,20F24FA%,27.0,161.02,-0.47,34.80,P,133.27,-7.64,53.0, , , ,1984.10.18
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.91, Rx=75.68
+CK,U,U,%BTPAA2,KFK20,6A,1001,2014.04.05,08:56
+CT, , , ,6241700.00,H,11,0.0, , ,6G78MB, ,14.7,0.0,D7781,MESS,0,X
+CR,6078600.00,V,11, , ,6G78MB, ,D7781,MESS,0,X
+CQ,0.0,-11.2, , , , , ,
+CO, , ,9, , , , ,1984.10.18
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.99, Rx=75.76
+CK,D,U,%BTPAA2,KFK20,6A,1002,2010.05.05,14:53
+CT, , , ,6301000.00,H,11,0.0, , ,6G78MB, ,14.9,0.0,D7781,MESS,0,X
+CR,6137900.00,H,11, , ,6G78MB, ,D7781,MESS,0,X
+CQ,0.0,-10.9, , , , , ,
+CO, , ,9, , , , ,1984.10.18
+*----  CLEARFIELD  ====== Ant Gain = 0.0, Dist Loss = 36.62, At. Loss = 0.01
+AK,D,U,%BTPAA2,WDU620,6A,11,2014.04.05,08:56
+AQ,TR,20F24FA%,27.0,104.72,-13.01,1.62,P,133.27,-7.64,52.9, , , ,1984.10.18
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.68, Rx=75.91
+CK,U,U,%BTPAA2,WDU620,6A,1001,2014.04.05,08:56
+CT, , , ,6078600.00,V,11,0.0, , ,6G78MB, ,-11.2,0.0,D7781,MESS,0,X
+CR,6241700.00,H,11, , ,6G78MB, ,D7781,MESS,0,X
+CQ,0.0,14.7, , , , , ,
+CO, , ,9, , , , ,1984.10.18
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.76, Rx=75.99
+CK,D,U,%BTPAA2,WDU620,6A,1002,2010.05.05,14:53
+CT, , , ,6137900.00,H,11,0.0, , ,6G78MB, ,-10.9,0.0,D7781,MESS,0,X
+CR,6301000.00,H,11, , ,6G78MB, ,D7781,MESS,0,X
+CQ,0.0,14.9, , , , , ,
+CO, , ,9, , , , ,1984.10.18
+*##############################################################################
+SK,U,U,KFK20,SNYDER,40-43-43.20N,078-19-18.00W,242.7,2015.05.07,05:43
+SD,PA,A01232,5, ,0-0000000, , ,1, ,U14A,1991.09.17,UT
+*====  CLEARFLD PR  ===== Ant Gain = 43.1, Dist Loss = 63.28, At. Loss = 0.30
+AK,D,U,KFK20,%BTPAA2,6A,11,2014.04.05,08:56
+AQ,TR,USR10P-3J23C,29.0,341.11,0.24,34.80, , , , , , , ,1991.09.17
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.68, Rx=75.91
+CK,U,U,KFK20,%BTPAA2,6A,1001,2014.04.05,08:56
+CT, , , ,6078600.00,V,11,2.0, , ,6G78MB, ,34.0,0.0,D7781,MESS,0,X
+CR,6241700.00,H,11, , ,6G78MB, ,D7781,MESS,0,X
+CQ,2.0,-30.5, , , , , ,
+CO, , ,9, , , , ,1991.09.17
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.76, Rx=75.99
+CK,D,U,KFK20,%BTPAA2,6A,1002,2010.05.05,14:53
+CT, , , ,6137900.00,H,11,2.0, , ,6G78MB, ,34.0,0.0,D7781,MESS,0,X
+CR,6301000.00,H,11, , ,6G78MB, ,D7781,MESS,0,X
+CQ,2.0,-30.1, , , , , ,
+CO, , ,9, , , , ,1991.09.17
+*##############################################################################
+SK,U,U,WDU620,CLEARFIELD,41-01-17.20N,078-26-15.00W,103.1,2015.05.07,05:43
+SD,PA,A01232,5, ,0-0000000, , ,1, ,U14A,1984.10.18,UT
+*====  CLEARFLD PR  ===== Ant Gain = 42.0, Dist Loss = 36.62, At. Loss = 0.01
+AK,D,U,WDU620,%BTPAA2,6A,11,2014.04.05,08:57
+AQ,TR,USR8P-3J23C,20.0,284.73,13.00,1.62, , , , , , , ,1984.10.18
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.91, Rx=75.68
+CK,U,U,WDU620,%BTPAA2,6A,1001,2014.04.05,08:56
+CT, , , ,6241700.00,H,11,2.0, , ,6G78MB, ,34.0,0.0,D7781,MESS,0,X
+CR,6078600.00,V,11, , ,6G78MB, ,D7781,MESS,0,X
+CQ,2.0,-30.5, , , , , ,
+CO, , ,9, , , , ,1984.10.18
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=75.99, Rx=75.76
+CK,D,U,WDU620,%BTPAA2,6A,1002,2010.05.05,14:53
+CT, , , ,6301000.00,H,11,2.0, , ,6G78MB, ,34.0,0.0,D7781,MESS,0,X
+CR,6137900.00,H,11, , ,6G78MB, ,D7781,MESS,0,X
+CQ,2.0,-30.0, , , , , ,
+CO, , ,9, , , , ,1984.10.18
+

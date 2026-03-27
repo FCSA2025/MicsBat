@@ -1,0 +1,5 @@
+D:\Users\ahulme\bin\CompFxValidateOutputs.exe.config
+D:\Users\ahulme\bin\CompFxValidateOutputs.exe
+D:\Users\ahulme\bin\CompFxValidateOutputs.pdb
+D:\Users\ahulme\MyCsharp\CompFtValOuts\obj\Release\CompFxValidateOutputs.exe
+D:\Users\ahulme\MyCsharp\CompFtValOuts\obj\Release\CompFxValidateOutputs.pdb

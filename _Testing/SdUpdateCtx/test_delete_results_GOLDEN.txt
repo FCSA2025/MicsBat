@@ -1,0 +1,56 @@
+		SDB CTX UPDATE REPORT Build 160705-2108/64-R		Date: 2019.05.22 16:42
+
+SDF Name: test_delete
+SDF Type: CTX
+
+
+		SDF VALIDATION RESULTS
+
+
+		SDF CTX UPDATE RESULTS
+
+CTX RECORD NO ACTION: :A0005/DRB147/LD1506: 
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/1000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/2000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/3000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/4000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0005/DRB147/LD1506/5000.000: 
+::	- Successful DELETE of points record
+No-op Updating Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The UPDATE permission was denied on the object 'sd_ctx', database 'fcsa', schema 'main'.
+
+CTX RECORD DELETE: :A0012/D75100/UNKNOWN: 
+
+  CTX POINT RECORD DELETE: :A0012/D75100/UNKNOWN/1000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0012/D75100/UNKNOWN/2000.000: 
+::	- Successful DELETE of points record
+
+  CTX POINT RECORD DELETE: :A0012/D75100/UNKNOWN/3000.000: 
+::	- Successful DELETE of points record
+::	- Successful DELETE of master and points records
+
+SDB UPDATE SUMMARY: 1 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_delete      User Name: hulme1     *****
+
+
+	 Records Processed: 2
+	 ******** ALL CHANGES ROLLED BACK ***********
+
+
+	************     End of Summary Information     ************

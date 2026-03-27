@@ -1,0 +1,272 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2058/64-R
+RUN DATE: 2020.09.09  21:15
+Project Code [hulme1_0] Process Id: 8920
+
+PDF Name: passive1dist
+
+
+
+                *********** ERRORS ***********
+
+
+WKS50->%ALAS001 Band:6A Chid:1009
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%ALAS002->WKS50 Band:6A Chid:1009
+MERGE 16 - An incomplete passive link is being validated.
+
+hulme.ft_passive1dist_chan
+MERGE 13 - An incomplete passive link is being validated. You may be adding a new channel with command 'U'.
+
+%ALAS001->WKS50 Band:6A Chid:1009
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%ALAS001->%ALAS002 Band:6A Chid:1009
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%ALAS002->%ALAS002 Band:6A Chid:1009
+MERGE 16 - An incomplete passive link is being validated.
+
+%ALAS001->%ALAS002 Band:6A Chid:1009
+MERGE 21 - No mdb channel.
+
+%ALAS002
+MERGE 27 - Active site not found.
+
+                ----------- WARNINGS -----------
+
+
+%ALAS001->%ALAS002 Band:6A Chid:1009
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (778A2).
+MERGE 30 - Must change RX traffic field from remote active TX side. Validate will use the value in the remote active TX traffic field (A0602).
+
+hulme.ft_passive1dist_chan
+MERGE 20 - Error fetching passive channel for:-
+	call1 != '%ALAS001' and call2 = '%ALAS002' and bndcde = '6A' and chid = '1009'
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: %ALAS001
+
+tSite does not exist in MDB
+
+KEY: %ALAS002
+
+tSite does not exist in MDB
+
+KEY: WKS50
+
+tSite does not exist in MDB
+
+SUMMARY OF SITE RECORDS:  3 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+%ALAS001 %ALAS002 6A 11
+Antenna to update does not exist in MDB
+
+%ALAS001 WKS50 6A 11
+Antenna to update does not exist in MDB
+
+%ALAS002 %ALAS001 6A 11
+Antenna to update does not exist in MDB
+
+WKS50 %ALAS001 6A 11
+Antenna to update does not exist in MDB
+
+%ALAS002->%ALAS001 Band:6A
+SetPassiveNormals - Other end of passive link not found.
+SetPassiveNormals - Could not get other end of Passive link.
+
+SUMMARY OF ANTENNA RECORDS:  6 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: %ALAS001 %ALAS002 6A 1009
+Channel does not exist in MDB.
+
+Channel: %ALAS001 WKS50 6A 1009
+Channel does not exist in MDB.
+
+Channel: %ALAS002 %ALAS001 6A 1009
+Channel does not exist in MDB.
+
+Channel: WKS50 %ALAS001 6A 1009
+Channel does not exist in MDB.
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %ALAS001 (TERN PEAK P/ALAS) in proposed file ...
+Checking proposed file Site %ALAS001 band 6A.
+  Band 6A OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: ;A1622501 (TERN PK PASSIVE/A16225) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: ;A1622511 (TERN PK PASSIVE/A16225) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	;A1622511 to WKS5001 band 6A chid AOYO is first RX HiLo violation.
+	;A1622511 to WKS5002 band 6A chid AOYO is first TX HiLo violation.
+	;A1622511 has both tx and rx violations.  Stopping scanning band 6A.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site Has HiLo violation(s).
+
+	Database Site: KFJ2702 (TERN PK PASSIVE/A16225) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: WKS5003 (TERN PK PASSIVE/A16225) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	WKS5003 to WKS5001 band 6A chid AOYO is first RX HiLo violation.
+	WKS5003 to WKS5002 band 6A chid AOYO is first TX HiLo violation.
+	WKS5003 has both tx and rx violations.  Stopping scanning band 6A.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site Has HiLo violation(s).
+
+There were 4 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking %ALAS002 (PENQUIN PR/ALAS) in proposed file ...
+Checking proposed file Site %ALAS002 band 6A.
+  Band 6A OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking WKS50 (TERN LK/A16225) in proposed file ...
+Checking proposed file Site WKS50 band 6A.
+  Band 6A OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: KFJ2703 (TERN LK/A16225) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: WKS5001 (TERN LK/A16225) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	WKS5001 to ;A1622511 band 6A chid AOYO is first TX HiLo violation.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site Has HiLo violation(s).
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 3 hilo violations.
+
+
+
+There were a total of 21 errors and 2 warnings.
+The PDF 'passive1dist' is invalid
+PDF Validation Completed - 21:15

@@ -1,0 +1,133 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:06
+Project Code [HULME1_0] Process Id: 21868
+
+PDF Name: dtxpwr
+
+
+
+                *********** ERRORS ***********
+
+
+CGF981A->%TLUSBCX8 Band:11A Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%TLUSBCX9->CGF983A Band:11A Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+CGF981A->%TLUSBCX8 Band:11A Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%TLUSBCX9->CGF983A Band:11A Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX9->%TLUSBCX8 Band:11A Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+CGF983A->%TLUSBCX9 Band:11A Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%TLUSBCX9->%TLUSBCX8 Band:11A Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+CGF983A->%TLUSBCX9 Band:11A Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+CGF983A->%TLUSBCX9 Band:11A Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%TLUSBCX8->CGF981A Band:11A Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+CGF983A->%TLUSBCX9 Band:11A Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%TLUSBCX8->CGF981A Band:11A Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX8->%TLUSBCX9 Band:11A Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+CGF981A->%TLUSBCX8 Band:11A Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%TLUSBCX8->%TLUSBCX9 Band:11A Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+CGF981A->%TLUSBCX8 Band:11A Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%TLUSBCX8->%TLUSBCX9 Band:11A Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX9->CGF983A Band:11A Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX8->%TLUSBCX9 Band:11A Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX9->CGF983A Band:11A Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX9->%TLUSBCX8 Band:11A Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX8->CGF981A Band:11A Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX9->%TLUSBCX8 Band:11A Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX8->CGF981A Band:11A Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBCX8->%TLUSBCX9 Band:11A Chid:1001
+MERGE 21 - No mdb channel.
+
+%TLUSBCX8->%TLUSBCX9 Band:11A Chid:1002
+MERGE 21 - No mdb channel.
+
+%TLUSBCX8->CGF981A Band:11A Chid:1001
+MERGE 21 - No mdb channel.
+
+%TLUSBCX8->CGF981A Band:11A Chid:1002
+MERGE 21 - No mdb channel.
+
+%TLUSBCX9->%TLUSBCX8 Band:11A Chid:1001
+MERGE 21 - No mdb channel.
+
+%TLUSBCX9->%TLUSBCX8 Band:11A Chid:1002
+MERGE 21 - No mdb channel.
+
+%TLUSBCX9->CGF983A Band:11A Chid:1001
+MERGE 21 - No mdb channel.
+
+%TLUSBCX9->CGF983A Band:11A Chid:1002
+MERGE 21 - No mdb channel.
+
+CGF981A->%TLUSBCX8 Band:11A Chid:1001
+MERGE 21 - No mdb channel.
+
+CGF981A->%TLUSBCX8 Band:11A Chid:1002
+MERGE 21 - No mdb channel.
+
+CGF983A->%TLUSBCX9 Band:11A Chid:1001
+MERGE 21 - No mdb channel.
+
+CGF983A->%TLUSBCX9 Band:11A Chid:1002
+MERGE 21 - No mdb channel.
+
+Unable to merge passive data. Validate cancelled

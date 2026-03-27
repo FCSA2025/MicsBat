@@ -1,0 +1,46 @@
+ES PDF VALIDATION REPORT    Build 190107-1935/64-R    DATE: 2019.01.07  20:05
+Project Code [HULME1_0] Process ID [10904]
+PDF Name: esvalccal03
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS: 0 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+SUMMARY OF CHANNEL RECORDS: 0 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =HYQU8TVZ to $VMX3329.
+A site beginning with '$' ($VMX3329) must have all RX frequencies.
+The operator code in the new call sign must be the same as the operator code for this site.
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 2 errors and 0 warnings.
+
+
+There were a total of 2 errors and 0 warnings.
+The PDF 'esvalccal03' is invalid
+PDF Validation Completed -  20:05

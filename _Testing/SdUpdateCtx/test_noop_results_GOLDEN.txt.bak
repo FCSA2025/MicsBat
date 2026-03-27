@@ -1,0 +1,42 @@
+		SDB CTX UPDATE REPORT Build 160705-2108/64-R		Date: 2019.05.21 19:51
+
+SDF Name: test_noop
+SDF Type: CTX
+
+
+		SDF VALIDATION RESULTS
+
+
+		SDF CTX UPDATE RESULTS
+
+CTX RECORD NO ACTION: :A0012/PS2M2/SS9WR: 
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_noop        User Name: hulme1     *****
+
+
+	 Records Processed: 1
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 1
+
+	************            Detail Records          ************
+
+	 Records Processed: 28
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 28insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'ctx', 'test_noop', '2019.05.21', '19:51') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\ctx\test_noop.20190521_1951) of changes to the database
+
+
+	************     End of Summary Information     ************

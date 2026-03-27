@@ -1,0 +1,16 @@
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\SdUpdateRout.exe.config
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\SdUpdateRout.exe
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\SdUpdateRout.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\_DataStructures.dll
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\_DataStructures.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateRout\bin\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateRout\obj\x64\Debug\SdUpdateRout.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\SdUpdateRout\obj\x64\Debug\SdUpdateRout.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\SdUpdateRout\obj\x64\Debug\SdUpdate.0C437C95.Up2Date
+D:\MicsBatchProgs\MICS#\SdUpdateRout\obj\x64\Debug\SdUpdateRout.exe
+D:\MicsBatchProgs\MICS#\SdUpdateRout\obj\x64\Debug\SdUpdateRout.pdb

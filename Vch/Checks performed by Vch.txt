@@ -1,0 +1,81 @@
+a site must be have one more antennae. (ERROR)
+
+a site must be have one more channels.  (ERROR)
+
+each link must have at least one local antenna. (?)
+
+each link must have at least one local channel. (?)
+
+a link must have a matching link from the remote end's POV. (WARNING)
+
+the antenna height should be between 0 and 300m. (WARNING)
+
+The Vch calculated distance from the local antenna to the remote antenna
+must be within 1 m of the value calculated by FtValidate and stored in the 'dist' column of table
+ft_XXX_ante. (ERROR)
+
+the distance between the two antennae in a link must be between 0 and 90 Km. (WARNING)
+
+The Vch calculated elevation angle from the local antenna to the remote antenna
+must be within 0.01 degrees of the value calculated by FtValidate and stored in the 'elvtn' 
+column of table ft_XXX_ante. (ERROR)
+
+The Vch calculated azimuth angle from the local antenna to the remote antenna
+must be within 0.01 degrees of the value calculated by FtValidate and stored in the 'azmth' 
+column of table ft_XXX_ante. (ERROR)
+
+a channel cannot have the same Tx and Rx Frequencies. (WARNING)
+
+a channel cannot have a non-zero Tx power if its Tx frequency is zero.
+
+
+a channel's Tx power should be within the range 0 - 50 dBm. (WARNING) 
+
+a channel's Tx power must be non-zero. (WARNING)
+
+a channel cannot have a zero Rx power if its Rx frequency is non-zero. (WARNING)
+
+a channel cannot have non-zero Rx power if its Rx frequency is zero. (ERROR)
+
+a channel cannot have a zero feed system loss *to* its antenna if
+its Tx frequency is non-zero. (WARNING)
+
+a channel cannot have a non-zero feed system loss *to* its antenna if
+its Tx frequency is zero. (WARNING)	
+
+a channel cannot have a non-zero feed system loss *from* its antenna if
+its Rx frequency is zero. (WARNING)
+
+an Rx channel must have a designated primary Rx antenna. (ERROR)
+
+the usage (ause) of the primary Rx antenna must be either 'RX' or 'TR'. (WARNING)
+
+a link's local channel Rx frequency and the remote Tx frequency must be the same. (ERROR)
+
+
+the remote end Tx antenna's 'acode' must already exist in the SDB table main.sd_ante. (ERROR)
+
+a link's local Rx antenna 'acode' must already exist in the SDB table main.sd_ante. (ERROR)
+
+Vch calculated Rx power must agree with the value stored in the 'pwrrx1'
+column of table ft_XXX_chan within a tolerance of 0.01 dBm. (ERROR)
+
+if a channel has antnumbrx2 != 0 then diversity antenna 1 (DV1) must exist in the
+ft_XXX_ante table. (ERROR)  
+
+the antenna code (acode) of DV1 must exist in the SDB main.sd_ante. (ERROR) (?)
+
+the DV1 antenna's Rx power must be within 0.01 dBm of that calculated by
+FtValidate and stored in column 'pwrrx2' of ft_XXX_chan.
+
+if a channel has antnumbrx3 != 0 then diversity antenna 2 (DV2) must exist in the
+ft_XXX_ante table. (ERROR)  
+
+the antenna code (acode) of DV2 must exist in the SDB main.sd_ante. (ERROR) (?)
+
+the DV2 antenna's Rx power must be within 0.01 dBm of that calculated by
+FtValidate and stored in column 'pwrrx3' of ft_XXX_chan.
+
+a channel whose Rx frequency is non-zero must have a primary antenna in table ft_XXX_ante. (ERROR)
+
+the remote end of a link must exist. (WARNING)

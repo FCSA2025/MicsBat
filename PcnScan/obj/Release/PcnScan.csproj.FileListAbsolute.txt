@@ -1,0 +1,14 @@
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\PcnScan.exe.config
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\PcnScan.exe
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\PcnScan.pdb
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\_Configuration.dll
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\_DataStructures.dll
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\_NewLib.dll
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\_Utillib.dll
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\_Configuration.pdb
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\_DataStructures.pdb
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\_NewLib.pdb
+D:\Users\ahulme\MICS#\PcnScan\bin\Release\_Utillib.pdb
+D:\Users\ahulme\MICS#\PcnScan\obj\Release\PcnScan.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\PcnScan\obj\Release\PcnScan.exe
+D:\Users\ahulme\MICS#\PcnScan\obj\Release\PcnScan.pdb

@@ -1,0 +1,146 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:14
+Project Code [hulme1_0] Process Id: 22924
+
+PDF Name: slonga
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: CGA276A
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 22 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %TLUSBCX1 (HARTELY BAY PASS/TLUSBC) in proposed file ...
+Checking proposed file Site %TLUSBCX1 band 7B.
+%TLUSBCX1 to XOA699A band 7B chid 1001 is first TX HiLo violation.
+%TLUSBCX1 to XOA699A band 7B chid 1001 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking CGA276A (TRUTCH ISLAND/TLUSBC) in proposed file ...
+Checking proposed file Site CGA276A band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOA699A (HARTLEY BAY CO/TLUSBC) in proposed file ...
+Checking proposed file Site XOA699A band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOA699A (HARTLEY BAY CO/TLUSBC) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 2 hilo violations.
+
+
+
+There were a total of 0 errors and 23 warnings.
+The PDF 'slonga' is validated for :UPDATE:
+
+PDF Validation Completed - 16:14

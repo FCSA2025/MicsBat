@@ -1,0 +1,61 @@
+HiLoCheck Report for aardvark for distance: 0.22Km (7 Seconds)
+At 2023.07.13, 13:03
+
+
+====================================================================================
+=========== HiLo analysis of site HULME1 (KANATA/RCTL) in proposed file. ===========
+====================================================================================
+
+Internal to PDF file; site HULME1:    
+    
+    Band 1E is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 1801500 KHz:        
+        #1:      HULME1,    HULME2,   1E,   11,   1800000 /         0   (Lo / --)
+        Channel group: OK  (Lo / --)        
+        Band 1E OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site HULME1 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site HULME1 and nearby sites:    
+    
+    There are 0 existing MDB sites that are closer than 216 m ...    
+    
+    External HiLo summary for site HULME1 : 
+                                                [a] Same     band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+====================================================================================
+=========== HiLo analysis of site HULME2 (OTTAWA/RCTL) in proposed file. ===========
+====================================================================================
+
+Internal to PDF file; site HULME2:    
+    
+    Band 1E is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 1801500 KHz:        
+        #1:      HULME2,    HULME1,   1E,   11,         0 /   1800000   (-- / Lo)
+        Channel group: OK  (-- / Lo)        
+        Band 1E OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site HULME2 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site HULME2 and nearby sites:    
+    
+    There are 0 existing MDB sites that are closer than 216 m ...    
+    
+    External HiLo summary for site HULME2 : 
+                                                [a] Same     band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+===================================================================
+===== Summary of HiLo Analysis for PDF file aardvark          =====
+=====                                                         =====
+=====     Number of proposed file sites analyzed :      2     =====
+=====     Coordination distance for MDB sites    :    216 m   =====
+=====                                                         =====
+=====     Potential HiLo violations encountered:              =====
+=====         [a] channels internal to PDF file  :      0     =====
+=====         [b] existing/nearby MDB channels   :      0     =====
+===================================================================
+There were 0 hilo violations.

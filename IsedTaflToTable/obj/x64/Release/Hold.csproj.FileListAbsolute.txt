@@ -1,0 +1,16 @@
+D:\Users\ahulme\MICS#\Hold\bin\x64\Release\Hold.exe.config
+D:\inetpub\micstest\mics\userdirs\hulme\hulme1\Hold.exe.config
+D:\inetpub\micstest\mics\userdirs\hulme\hulme1\Hold.exe
+D:\inetpub\micstest\mics\userdirs\hulme\hulme1\Hold.pdb
+D:\Users\ahulme\MICS#\_bin\Release\Hold.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\Hold.exe
+D:\Users\ahulme\MICS#\_bin\Release\Hold.pdb
+D:\Users\ahulme\MICS#\Hold\obj\x64\Release\Hold.csproj.CoreCompileInputs.cache
+D:\Users\ahulme\MICS#\Hold\obj\x64\Release\Hold.exe
+D:\Users\ahulme\MICS#\Hold\obj\x64\Release\Hold.pdb
+D:\Users\ahulme\NewMICS\_bin\Release\Hold.exe.config
+D:\Users\ahulme\NewMICS\_bin\Release\Hold.exe
+D:\Users\ahulme\NewMICS\_bin\Release\Hold.pdb
+D:\Users\ahulme\NewMICS\Hold\obj\x64\Release\Hold.csproj.CoreCompileInputs.cache
+D:\Users\ahulme\NewMICS\Hold\obj\x64\Release\Hold.exe
+D:\Users\ahulme\NewMICS\Hold\obj\x64\Release\Hold.pdb

@@ -1,0 +1,88 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:13
+Project Code [hulme1_0] Process Id: 956
+
+PDF Name: chgeaht
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+chgeaht
+Site =TLUSMCZZ has no opposing site: =TLUSMCR2 in the PDF.
+This link will not be processed by TSIP.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=TLUSMCZZ =TLUSMCR2 14C 1
+Antenna to update does not exist in MDB
+
+=TLUSMCZZ =TLUSMCR2 14C 2
+Antenna does not exist in MDB.
+
+SUMMARY OF ANTENNA RECORDS:  2 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+Channel does not exist in MDB
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 2
+Channel does not exist in MDB
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =TLUSMCZZ (AB0216 CARMANGAY/TLUSMC) in proposed file ...
+Checking proposed file Site =TLUSMCZZ band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: =TLUSMCZZ (AB0216 CARMANGAY/TLUSMC) 
+	Band 14A
+	Band 14A OK
+	Band 14B
+	Band 14B OK
+	Band 14C
+	Band 14C OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+1 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 4 errors and 1 warnings.
+The PDF 'chgeaht' is invalid
+PDF Validation Completed - 16:13

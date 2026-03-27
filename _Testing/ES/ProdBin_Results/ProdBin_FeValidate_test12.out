@@ -1,0 +1,52 @@
+ES PDF VALIDATION REPORT    Build 160428-1318/64-D    DATE: 2019.01.07  20:06
+Project Code [HULME1_0] Process ID [3592]
+PDF Name: test12
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna: XMCCOM =TELS23
+RX Antenna Code (TS050C20) not present in the Antenna table.
+
+SUMMARY OF ANTENNA RECORDS: 1 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: XMCCOM =TELS23 10A
+RX Equipment (IS3600X) not present in SDB.
+RX Traffic (DX395) not present in the SDB.
+
+SUMMARY OF CHANNEL RECORDS: 2 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 3 errors and 0 warnings.
+The PDF 'test12' is invalid
+PDF Validation Completed -  20:06

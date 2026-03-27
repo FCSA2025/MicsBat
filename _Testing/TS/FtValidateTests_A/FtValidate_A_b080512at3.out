@@ -1,0 +1,110 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:10
+Project Code [HULME1_0] Process Id: 12056
+
+PDF Name: b080512at3
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: VFC443X
+Lat & Long for site is the same as for existing site:- 
+	VFC443 WILDBOY BMCE
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking VEL986X (PETITOT/NMIMOB) in proposed file ...
+Checking proposed file Site VEL986X band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VXJ555 (EAST PETITOT/BMCE) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VFC443X (WILDBOY/NMIMOB) in proposed file ...
+Checking proposed file Site VFC443X band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VFC443 (WILDBOY/BMCE) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'b080512at3' is validated for :UPDATE:
+
+PDF Validation Completed - 16:10

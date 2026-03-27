@@ -1,0 +1,161 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:34
+Project Code [HULME1_0] Process Id: 1784
+
+PDF Name: bandwdaddpashopo
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: %TLUSBC84
+
+Site does not exist in MDB
+
+KEY: CHE301
+
+Site does not exist in MDB
+
+SUMMARY OF SITE RECORDS:  2 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+%TLUSBC84 CFW363 7B 11
+Distance (1771.8) is greater than 90km.
+
+CFW363 %TLUSBC84 7B 11
+Distance (1771.8) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBC84 CFW363 7B 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: %TLUSBC84 CHE301 7B 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CFW363 %TLUSBC84 7B 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CHE301 %TLUSBC84 7B 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %TLUSBC84 (WHISTLER PASS/TLUSBC) in proposed file ...
+Checking proposed file Site %TLUSBC84 band 7B.
+%TLUSBC84 to CHE301 band 7B chid 1001 is first TX HiLo violation.
+%TLUSBC84 to CHE301 band 7B chid 1001 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking CFW363 (HIGH BLUFF MB. ROAD 31 W/XCI) in proposed file ...
+Checking proposed file Site CFW363 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: =XCI2887 (HIGH BLUFF (NS)/XCI) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: CFW363 (HIGH BLUFF MB. ROAD 31 W/XCI) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: CFW363ZZ (HIGH BLUFF MB. ROAD 31 W/XCI) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 3 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CHE301 (WHISTLER CO/TLUSBC) in proposed file ...
+Checking proposed file Site CHE301 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 1 hilo violations.
+
+
+
+There were a total of 2 errors and 6 warnings.
+The PDF 'bandwdaddpashopo' is invalid
+PDF Validation Completed - 21:34

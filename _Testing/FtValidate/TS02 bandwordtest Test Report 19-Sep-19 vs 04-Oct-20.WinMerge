@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+   <paths>
+      <left>D:\Users\tests ftValidate latest test documents\c#ftValidate testing\TS Validate C# tests new version 19sep19\bandwordtest19sep2019.txt</left>
+      <right>D:\Users\ahulme\temp\bandwordtest04-Oct-2020.txt</right>
+      <filter>*.*</filter>
+      <subfolders>0</subfolders>
+      <left-readonly>0</left-readonly>
+      <right-readonly>0</right-readonly>
+   </paths>
+</project>

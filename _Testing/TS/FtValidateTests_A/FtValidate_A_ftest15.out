@@ -1,0 +1,97 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:07
+Project Code [HULME1_0] Process Id: 21904
+
+PDF Name: ftest15
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=UNKNA =UNKNB 6D 1
+Must enter Antenna Use field.
+Must enter Antenna Code field.
+Must enter Antenna Height field.
+Antenna Code () not present in the Antenna Table.
+Could not retrieve remote Antenna
+
+SUMMARY OF ANTENNA RECORDS:  5 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Invalid Antenna Use () for main TX Antenna 1
+Invalid Ause () for main RX Antenna 1.
+
+                ----------- WARNINGS -----------
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Could not read Antenna RX1 data.
+
+Channel: =UNKNB =UNKNA 6D 1A
+Could not read remote channel's Antenna TX1 data.
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =UNKNA (SITE A/UNKN) in proposed file ...
+Checking proposed file Site =UNKNA band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =UNKNB (SITE B/UNKN) in proposed file ...
+Checking proposed file Site =UNKNB band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 7 errors and 2 warnings.
+The PDF 'ftest15' is invalid
+PDF Validation Completed - 16:07

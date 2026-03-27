@@ -1,0 +1,296 @@
+HiLoCheck Report for milangll for distance: 0.22Km (7 Seconds)
+At 2023.07.13, 13:42
+
+
+==========================================================================================
+=========== HiLo analysis of site XCIN228 (WESTWOOD RD/RCTL) in proposed file. ===========
+==========================================================================================
+
+Internal to PDF file; site XCIN228:    
+    
+    Band 22A is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 22400000 KHz:        
+        #1:     XCIN228,   XVAD472,  22A, 1001,  23475000 /  22275000   (Hi / Lo)
+        Channel group: OK  (Hi / Lo)        
+        Band 22A OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site XCIN228 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site XCIN228 and nearby sites:    
+    
+    There are 2 existing MDB sites that are closer than 216 m ...    
+    
+    Band 22A is used by 3 MDB channels in 2 existing sites:        
+        #1. =GLWOK474, =GLWOK403,  22A,    1,  23300000 /  22100000   (Hi / Lo)          
+        #2. =GLWOK474, =GLWOK470,  22A,    1,  23325000 /  22125000   (Hi / Lo)          
+        #3.    CIN228,    VAD472,  22A, 1002,  23465000 /  22265000   (Hi / Lo)          
+        File site   XCIN228 channel group with bndcde  22A has HiLo = (Hi / Lo)        
+        There are no same-band PDF file <--> MDB violations for bndcde 22A.        
+        Band 22A OK ... now checking adjacent MDB channels for HiLo conflict w.r.t. file site's band 22A:                
+    
+    External HiLo summary for site XCIN228 : 
+                                                [a] Same     band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+===============================================================================================
+=========== HiLo analysis of site XCIN229 (CHRISTOPHERCOURT/RCTL) in proposed file. ===========
+===============================================================================================
+
+Internal to PDF file; site XCIN229:    
+    
+    Band 22A is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 22400000 KHz:        
+        #1:     XCIN229,   XVAD472,  22A, 1001,  23575000 /  22375000   (Hi / Lo)
+        Channel group: OK  (Hi / Lo)        
+        Band 22A OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site XCIN229 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site XCIN229 and nearby sites:    
+    
+    There are 2 existing MDB sites that are closer than 216 m ...    
+    
+    Band 22A is used by 3 MDB channels in 2 existing sites:        
+        #1. =GLWOK477, =GLWOK475,  22A,    1,  23525000 /  22325000   (Hi / Lo)          
+        #2. =GLWOK477, =GLWOK492,  22A,    1,  23325000 /  22125000   (Hi / Lo)          
+        #3.    CIN229,    VAD472,  22A, 1002,  23575000 /  22375000   (Hi / Lo)          
+        File site   XCIN229 channel group with bndcde  22A has HiLo = (Hi / Lo)        
+        There are no same-band PDF file <--> MDB violations for bndcde 22A.        
+        Band 22A OK ... now checking adjacent MDB channels for HiLo conflict w.r.t. file site's band 22A:                
+    
+    External HiLo summary for site XCIN229 : 
+                                                [a] Same     band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+===============================================================================================
+=========== HiLo analysis of site XCIN230 (VICTORIA@STONERD/RCTL) in proposed file. ===========
+===============================================================================================
+
+Internal to PDF file; site XCIN230:    
+    
+    Band 22A is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 22400000 KHz:        
+        #1:     XCIN230,   XCIO247,  22A, 1001,  22275000 /  23475000   (Lo / Hi)
+        Channel group: OK  (Lo / Hi)        
+        Band 22A OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site XCIN230 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site XCIN230 and nearby sites:    
+    
+    There are 0 existing MDB sites that are closer than 216 m ...    
+    
+    External HiLo summary for site XCIN230 : 
+                                                [a] Same     band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+============================================================================================
+=========== HiLo analysis of site XCIN329 (WATSON @ YORK/RCTL) in proposed file. ===========
+============================================================================================
+
+Internal to PDF file; site XCIN329:    
+    
+    Band 18B is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 18700000 KHz:        
+        #1:     XCIN329,   XCIO247,  18B, 1001,  19365000 /  17805000   (Hi / Lo)
+        Channel group: OK  (Hi / Lo)        
+        Band 18B OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site XCIN329 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site XCIN329 and nearby sites:    
+    
+    There are 2 existing MDB sites that are closer than 216 m ...    
+    
+    Band 18B is used by 3 MDB channels in 2 existing sites:        
+        #1. =GLWOK468, =GLWOK436,  18B,    1,  18040000 /  19600000   (Lo / Hi)          
+        #2. =GLWOK468, =GLWOK478,  18B,    1,  18040000 /  19600000   (Lo / Hi)          
+        #3.    CIN329,    CYF672,  18B, 1001,  17835000 /  19395000   (Lo / Hi)          
+        File site   XCIN329 channel group with bndcde  18B has HiLo = (Hi / Lo)        
+        Tx HiLo potential VIOLATION starting at channel #1, above.
+        Rx HiLo potential VIOLATION starting at channel #1, above.    
+    
+    File site XCIN329 has primary band potential HiLo violations with existing MDB channels: adjacent bands were not checked.    
+    
+    External HiLo summary for site XCIN329 : 
+                                                [a] Same     band potential VIOLATIONs : 2
+                                                [b] Adjacent band potential VIOLATIONs : N/A.
+
+===============================================================================================
+=========== HiLo analysis of site XCIN360 (ERAMOSA@STEVENSN/RCTL) in proposed file. ===========
+===============================================================================================
+
+Internal to PDF file; site XCIN360:    
+    
+    Band 14C is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 14925000 KHz:        
+        #1:     XCIN360,   XXKU588,  14C, 1001,  14855000 /  15330000   (Lo / Hi)
+        Channel group: OK  (Lo / Hi)        
+        Band 14C OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site XCIN360 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site XCIN360 and nearby sites:    
+    
+    There are 1 existing MDB sites that are closer than 216 m ...    
+    
+    Band 14C is used by 1 MDB channels in 1 existing sites:        
+        #1.    CIN360,    XKU588,  14C, 1001,  14645000 /  15120000   (Lo / Hi)          
+        File site   XCIN360 channel group with bndcde  14C has HiLo = (Lo / Hi)        
+        There are no same-band PDF file <--> MDB violations for bndcde 14C.        
+        Band 14C OK ... now checking adjacent MDB channels for HiLo conflict w.r.t. file site's band 14C:                
+    
+    External HiLo summary for site XCIN360 : 
+                                                [a] Same     band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+===============================================================================================
+=========== HiLo analysis of site XCIN362 (VICTORIA@WODLAWN/RCTL) in proposed file. ===========
+===============================================================================================
+
+Internal to PDF file; site XCIN362:    
+    
+    Band 18B is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 18700000 KHz:        
+        #1:     XCIN362,   XXKU588,  18B, 1001,  19365000 /  17805000   (Hi / Lo)
+        Channel group: OK  (Hi / Lo)        
+        Band 18B OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site XCIN362 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site XCIN362 and nearby sites:    
+    
+    There are 2 existing MDB sites that are closer than 216 m ...    
+    
+    Band 18B is used by 2 MDB channels in 2 existing sites:        
+        #1. =GLWOK469, =GLWOK471,  18B,    1,  18040000 /  19600000   (Lo / Hi)          
+        #2.    CIN362,    XKU588,  18B, 1001,  19375000 /  17815000   (Hi / Lo)          
+        File site   XCIN362 channel group with bndcde  18B has HiLo = (Hi / Lo)        
+        Tx HiLo potential VIOLATION starting at channel #1, above.
+        Rx HiLo potential VIOLATION starting at channel #1, above.    
+    
+    File site XCIN362 has primary band potential HiLo violations with existing MDB channels: adjacent bands were not checked.    
+    
+    External HiLo summary for site XCIN362 : 
+                                                [a] Same     band potential VIOLATIONs : 2
+                                                [b] Adjacent band potential VIOLATIONs : N/A.
+
+==========================================================================================
+=========== HiLo analysis of site XCIO247 (UNIV GUELPH/RCTL) in proposed file. ===========
+==========================================================================================
+
+Internal to PDF file; site XCIO247:    
+    
+    Band 18B is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 18700000 KHz:        
+        #1:     XCIO247,   XCIN329,  18B, 1001,  17805000 /  19365000   (Lo / Hi)
+        Channel group: OK  (Lo / Hi)        
+        Band 18B OK, checking adjacent bands:                
+    
+    Band 22A is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 22400000 KHz:        
+        #1:     XCIO247,   XCIN230,  22A, 1001,  23475000 /  22275000   (Hi / Lo)
+        Channel group: OK  (Hi / Lo)        
+        Band 22A OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site XCIO247 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site XCIO247 and nearby sites:    
+    
+    There are 0 existing MDB sites that are closer than 216 m ...    
+    
+    External HiLo summary for site XCIO247 : 
+                                                [a] Same     band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+========================================================================================
+=========== HiLo analysis of site XVAD472 (HANLON/24/RCTL) in proposed file. ===========
+========================================================================================
+
+Internal to PDF file; site XVAD472:    
+    
+    Band 22A is used by 2 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 22400000 KHz:        
+        #1:     XVAD472,   XCIN228,  22A, 1001,  22275000 /  23475000   (Lo / Hi)
+        #2:     XVAD472,   XCIN229,  22A, 1001,  22375000 /  23575000   (Lo / Hi)
+        Channel group: OK  (Lo / Hi)        
+        Band 22A OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site XVAD472 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site XVAD472 and nearby sites:    
+    
+    There are 1 existing MDB sites that are closer than 216 m ...    
+    
+    Band 22A is used by 3 MDB channels in 1 existing sites:        
+        #1.    VAD472, =RCTLC430,  22A, 1001,  22180000 /  23380000   (Lo / Hi)          
+        #2.    VAD472,    CIN228,  22A, 1002,  22265000 /  23465000   (Lo / Hi)          
+        #3.    VAD472,    CIN229,  22A, 1002,  22375000 /  23575000   (Lo / Hi)          
+        File site   XVAD472 channel group with bndcde  22A has HiLo = (Lo / Hi)        
+        There are no same-band PDF file <--> MDB violations for bndcde 22A.        
+        Band 22A OK ... now checking adjacent MDB channels for HiLo conflict w.r.t. file site's band 22A:                
+    
+    External HiLo summary for site XVAD472 : 
+                                                [a] Same     band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+=====================================================================================
+=========== HiLo analysis of site XXKU588 (GUELPH/RCTL) in proposed file. ===========
+=====================================================================================
+
+Internal to PDF file; site XXKU588:    
+    
+    Band 14C is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 14925000 KHz:        
+        #1:     XXKU588,   XCIN360,  14C, 1001,  15330000 /  14855000   (Hi / Lo)
+        Channel group: OK  (Hi / Lo)        
+        Band 14C OK, checking adjacent bands:                
+    
+    Band 18B is used by 1 channel(s); HiLo (Tx/Rx) analysis for this channel group using bmidf = 18700000 KHz:        
+        #1:     XXKU588,   XCIN362,  18B, 1001,  17805000 /  19365000   (Lo / Hi)
+        Channel group: OK  (Lo / Hi)        
+        Band 18B OK, checking adjacent bands:                
+    
+    Internal HiLo summary for site XXKU588 : 
+                                                [a] Primary  band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+Existing MDB channels for site XXKU588 and nearby sites:    
+    
+    There are 1 existing MDB sites that are closer than 216 m ...    
+    
+    Band 14C is used by 3 MDB channels in 1 existing sites:        
+        #1.    XKU588, =RCTL4404,  14C, 1001,  14995000 /  14520000   (Hi / Lo)          
+        #2.    XKU588, =RCTL4404,  14C, 1002,  15115000 /  14640000   (Hi / Lo)          
+        #3.    XKU588,    CIN360,  14C, 1001,  15120000 /  14645000   (Hi / Lo)          
+        File site   XXKU588 channel group with bndcde  14C has HiLo = (Hi / Lo)        
+        There are no same-band PDF file <--> MDB violations for bndcde 14C.        
+        Band 14C OK ... now checking adjacent MDB channels for HiLo conflict w.r.t. file site's band 14C:                
+    
+    Band 18B is used by 1 MDB channels in 1 existing sites:        
+        #1.    XKU588,    CIN362,  18B, 1001,  17815000 /  19375000   (Lo / Hi)          
+        File site   XXKU588 channel group with bndcde  18B has HiLo = (Lo / Hi)        
+        There are no same-band PDF file <--> MDB violations for bndcde 18B.        
+        Band 18B OK ... now checking adjacent MDB channels for HiLo conflict w.r.t. file site's band 18B:                
+    
+    External HiLo summary for site XXKU588 : 
+                                                [a] Same     band potential VIOLATIONs : 0
+                                                [b] Adjacent band potential VIOLATIONs : 0
+
+===================================================================
+===== Summary of HiLo Analysis for PDF file milangll          =====
+=====                                                         =====
+=====     Number of proposed file sites analyzed :      9     =====
+=====     Coordination distance for MDB sites    :    216 m   =====
+=====                                                         =====
+=====     Potential HiLo violations encountered:              =====
+=====         [a] channels internal to PDF file  :      0     =====
+=====         [b] existing/nearby MDB channels   :      4     =====
+===================================================================
+There were 4 hilo violations.

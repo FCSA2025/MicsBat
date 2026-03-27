@@ -1,0 +1,55 @@
+ES PDF VALIDATION REPORT    Build 160428-1318/64-D    DATE: 2019.01.07  20:03
+Project Code [HULME1_0] Process ID [9376]
+PDF Name: es2chgeofcall
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS: 0 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+SUMMARY OF CHANNEL RECORDS: 0 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =HYQU8TVZ to $HYQUXX3.
+A site beginning with '$' ($HYQUXX3) must have all RX frequencies.
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 1 errors and 0 warnings.
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'es2chgeofcall' is invalid
+PDF Validation Completed -  20:03
+
+ODBC Diagnostic:
+[HY010] [Microsoft][ODBC Driver Manager] Function sequence error
+Diagnostic message:-
+ODBC Diagnostic:
+[HY010] [Microsoft][ODBC Driver Manager] Function sequence error
+  Ct  Ind Function                           Line/File
+Current Connection List:-
+   1    2 feSelectChan                     113   58/..\..\Filew\es\dynfeChan.cpp                                          
+  There were 1 open connections.

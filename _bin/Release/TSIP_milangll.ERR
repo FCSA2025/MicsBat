@@ -1,0 +1,28 @@
+
+*
+* TSIP PARAMETER FILE NAME: milangll
+* Project Code [hulme1_0]
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION
+
+TSIP build 230713-1314/64-R Error Report for Run Name '1', at 2023.07.13 13:32
+Project Code [hulme1_0] Process ID 10504
+Proposed type...........: T
+Environment type........: MDB_TS
+Proposed Name...........: milangll
+Environment Name........: 
+TSORB Report............: Y
+Loss Calculation Type...: 3
+Frequency Separation....: 300.00
+Coordination Distance...: 200.00
+Analysis Option.........: CHAN
+Margin Requested........: 0.00
+Channel Status Codes....: (10) 0,1,2,3,4,5,6,7,8,9
+Country Selection.......: ALL
+Site Selection..........: ALL
+Codes...................: (0) 
+Run Name................: 1
+Keyword Parameter Field.: "CM=2,HILO=7"
+Date....................: 2022.04.07
+Time....................: 10:46
+Working . . .

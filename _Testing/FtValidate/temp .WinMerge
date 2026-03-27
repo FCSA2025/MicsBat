@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+   <paths>
+      <left>D:\Users\Bugs Closed\2015\b150722A TS Validate missing cmd28jan2020\jan 2020 Claudia tests\TS Validate test suite results\deltsupdates14jan2020.txt</left>
+      <right>D:\Users\ahulme\temp\deltsupdates04-Oct-2020.txt</right>
+      <filter>*.*</filter>
+      <subfolders>0</subfolders>
+      <left-readonly>0</left-readonly>
+      <right-readonly>0</right-readonly>
+   </paths>
+</project>

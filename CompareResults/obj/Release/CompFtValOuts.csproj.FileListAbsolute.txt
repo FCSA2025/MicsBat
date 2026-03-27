@@ -1,0 +1,9 @@
+D:\Users\ahulme\MyCsharp\bin\x64\Release\CompFtValOuts.exe.config
+D:\Users\ahulme\MyCsharp\bin\x64\Release\CompFtValOuts.exe
+D:\Users\ahulme\MyCsharp\bin\x64\Release\CompFtValOuts.pdb
+D:\Users\ahulme\bin\CompFtValOuts.exe.config
+D:\Users\ahulme\bin\CompFtValOuts.exe
+D:\Users\ahulme\bin\CompFtValOuts.pdb
+D:\Users\ahulme\MyCsharp\CompFtValOuts\obj\Release\CompFtValOuts.exe
+D:\Users\ahulme\MyCsharp\CompFtValOuts\obj\Release\CompFtValOuts.pdb
+D:\Users\ahulme\MyCsharp\CompFtValOuts\obj\Release\CompFtValOuts.csprojResolveAssemblyReference.cache

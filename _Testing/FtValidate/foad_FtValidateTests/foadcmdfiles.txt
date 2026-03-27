@@ -1,0 +1,17 @@
+addone.cmd
+delOne.cmd
+elevangle.cmd
+FCCAdd.cmd
+newBandWordTests.cmd
+newdpasscals.cmd
+newotherpassives.cmd
+newOtherTests.cmd
+newOtherTests2.cmd
+newowdpasscals.cmd
+newowspasscals.cmd
+newregularcals.cmd
+newspasscals.cmd
+newTestselevadd.cmd
+testadd.cmd
+tsUpdatesADD.cmd
+tsUpdatesDEL.cmd

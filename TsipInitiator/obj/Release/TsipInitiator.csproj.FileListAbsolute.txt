@@ -1,0 +1,7 @@
+D:\Users\ahulme\MICS#\TsipInitiator\bin\Release\TsipInitiator.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\TsipInitiator.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\TsipInitiator.exe
+D:\Users\ahulme\MICS#\_bin\Release\TsipInitiator.pdb
+D:\Users\ahulme\MICS#\TsipInitiator\obj\Release\TsipInitiator.exe
+D:\Users\ahulme\MICS#\TsipInitiator\obj\Release\TsipInitiator.pdb
+D:\Users\ahulme\MICS#\TsipInitiator\obj\Release\TsipInitiator.csprojResolveAssemblyReference.cache

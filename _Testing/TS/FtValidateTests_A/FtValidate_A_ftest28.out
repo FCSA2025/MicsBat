@@ -1,0 +1,95 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:08
+Project Code [HULME1_0] Process Id: 22412
+
+PDF Name: ftest28
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: =UNKNA
+Lat/Long outside our area.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna =UNKNB =UNKNA 6D 1
+Azimuth (361.040009) must be between 0.00 and 360.00
+
+                ----------- WARNINGS -----------
+
+
+=UNKNA =UNKNB 6D 1
+Distance (4826.9) is greater than 90km.
+
+=UNKNA =UNKNB 6D 2
+Distance (4826.9) is greater than 90km.
+
+=UNKNB =UNKNA 6D 1
+Distance (4826.9) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  1 errors and 3 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =UNKNA (SITE A/UNKN) in proposed file ...
+Checking proposed file Site =UNKNA band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =UNKNB (SITE B/UNKN) in proposed file ...
+Checking proposed file Site =UNKNB band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 1 errors and 4 warnings.
+The PDF 'ftest28' is invalid
+PDF Validation Completed - 16:08

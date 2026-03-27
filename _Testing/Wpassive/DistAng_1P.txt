@@ -1,0 +1,27 @@
+Passive run at Mon Oct  7 20:20:23 2019
+
+
+
+PASSIVE Program
+
+NOTE: Distances in Meters and Power in dBm
+
+INPUTS:
+   Frequency:   333.0
+   Num Passives: 1
+
+
+               Name    Power     Ant.Gain    Feed.Loss   DistToNext(KM)
+   Active 1: Active#1  14.0        15.0        1.0          69.00
+
+               Name     Width   Height   DistToNext(KM)    Inc.Angle
+   Pasive 1: Passive#1   10.0     11.0       56.00           90.0
+
+               Name    Power     Ant.Gain    Feed.Loss
+   Active 2: Active#2  10.0        18.0        2.0
+
+RESULTS:
+   Name    Angle   FarGn  ActGn  Eirp12  Eirp21  DistToNextKM  Field  PathLoss
+Active#1                   14.0   28.0   -136.4      69.00       F     -119.8
+Passive#1   90.0    61.4   61.4  -30.4    -30.6      56.00       F     -118.0
+Active#2                   16.0  -132.4     26.0

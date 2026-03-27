@@ -1,0 +1,16 @@
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\SdUpdateBand.exe.config
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\SdUpdateBand.exe
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\SdUpdateBand.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\_DataStructures.dll
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\_DataStructures.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateBand\bin\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\SdUpdateBand\obj\x64\Debug\SdUpdateBand.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\SdUpdateBand\obj\x64\Debug\SdUpdateBand.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\SdUpdateBand\obj\x64\Debug\SdUpdate.32FCDA70.Up2Date
+D:\MicsBatchProgs\MICS#\SdUpdateBand\obj\x64\Debug\SdUpdateBand.exe
+D:\MicsBatchProgs\MICS#\SdUpdateBand\obj\x64\Debug\SdUpdateBand.pdb

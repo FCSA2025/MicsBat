@@ -1,0 +1,28 @@
+
+*
+* TSIP PARAMETER FILE NAME: aardvark
+* Project Code [hulme1_0]
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION
+
+TSIP build 230713-1303/64-R Error Report for Run Name '3', at 2023.07.13 13:03
+Project Code [hulme1_0] Process ID 12108
+Proposed type...........: T
+Environment type........: MDB_TS
+Proposed Name...........: aardvark
+Environment Name........: 
+TSORB Report............: N
+Loss Calculation Type...: 3
+Frequency Separation....: 300.00
+Coordination Distance...: 200.00
+Analysis Option.........: CHAN
+Margin Requested........: 0.00
+Channel Status Codes....: (0) 0,1,2,3,4,5,6,7,8,9
+Country Selection.......: ALL
+Site Selection..........: ALL
+Codes...................: (0) 
+Run Name................: 3
+Keyword Parameter Field.: "HILO=7"
+Date....................: 2022.06.29
+Time....................: 18:50
+Working . . .

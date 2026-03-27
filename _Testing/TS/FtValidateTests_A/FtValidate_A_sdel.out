@@ -1,0 +1,65 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:16
+Project Code [HULME1_0] Process Id: 20336
+
+PDF Name: sdel
+
+
+
+                *********** ERRORS ***********
+
+
+XOA699->%TLUSBC11 Band:7B Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+XOA699->%TLUSBC11 Band:7B Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+CGA276->%TLUSBC11 Band:7B Chid:1001
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+CGA276->%TLUSBC11 Band:7B Chid:1002
+MERGE 40: You have a passive in the input file that is not in the mdb, and it is not an add.
+
+%TLUSBC11->XOA699 Band:7B Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBC11->XOA699 Band:7B Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBC11->CGA276 Band:7B Chid:1001
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBC11->CGA276 Band:7B Chid:1002
+MERGE 41: You have a passive in the input file that is not in the mdb, and it is not an add.
+Passive calculations cannot continue.
+
+%TLUSBC11->CGA276 Band:7B Chid:1001
+MERGE 21 - No mdb channel.
+
+%TLUSBC11->CGA276 Band:7B Chid:1002
+MERGE 21 - No mdb channel.
+
+%TLUSBC11->XOA699 Band:7B Chid:1001
+MERGE 21 - No mdb channel.
+
+%TLUSBC11->XOA699 Band:7B Chid:1002
+MERGE 21 - No mdb channel.
+
+CGA276->%TLUSBC11 Band:7B Chid:1001
+MERGE 21 - No mdb channel.
+
+CGA276->%TLUSBC11 Band:7B Chid:1002
+MERGE 21 - No mdb channel.
+
+XOA699->%TLUSBC11 Band:7B Chid:1001
+MERGE 21 - No mdb channel.
+
+XOA699->%TLUSBC11 Band:7B Chid:1002
+MERGE 21 - No mdb channel.
+
+Unable to merge passive data. Validate cancelled

@@ -1,0 +1,7 @@
+D:\Users\ahulme\MICS#\_DataStructures\bin\Release\_DataStructures.dll
+D:\Users\ahulme\MICS#\_DataStructures\bin\Release\_DataStructures.pdb
+D:\Users\ahulme\MICS#\_DataStructures\bin\Release\_Configuration.dll
+D:\Users\ahulme\MICS#\_DataStructures\bin\Release\_Configuration.pdb
+D:\Users\ahulme\MICS#\_DataStructures\obj\Release\_DataStructures.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\_DataStructures\obj\Release\_DataStructures.dll
+D:\Users\ahulme\MICS#\_DataStructures\obj\Release\_DataStructures.pdb

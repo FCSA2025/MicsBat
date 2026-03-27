@@ -1,0 +1,17 @@
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\Testing.exe.config
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\Testing.exe
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\Testing.pdb
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\_Configuration.dll
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\_NewLib.dll
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\_Utillib.dll
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\_DataStructures.dll
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\_Utillib.pdb
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\_Configuration.pdb
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\_NewLib.pdb
+D:\Users\ahulme\MICS#\Testing\bin\x64\Release\_DataStructures.pdb
+D:\Users\ahulme\MICS#\_bin\Release\Testing.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\Testing.exe
+D:\Users\ahulme\MICS#\_bin\Release\Testing.pdb
+D:\Users\ahulme\MICS#\Testing\obj\x64\Release\Testing.exe
+D:\Users\ahulme\MICS#\Testing\obj\x64\Release\Testing.pdb
+D:\Users\ahulme\MICS#\Testing\obj\x64\Release\Testing.csprojResolveAssemblyReference.cache

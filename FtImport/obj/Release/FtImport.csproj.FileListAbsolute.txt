@@ -1,0 +1,10 @@
+D:\Users\ahulme\MICS#\_bin\Release\FtImport.exe
+D:\Users\ahulme\MICS#\_bin\Release\FtImport.pdb
+D:\Users\ahulme\MICS#\FtImport\obj\Release\FtImport.exe
+D:\Users\ahulme\MICS#\FtImport\obj\Release\FtImport.pdb
+C:\Users\Andrew\Downloads\MICS#\FtImport\obj\Release\FtImport.exe
+C:\Users\Andrew\Downloads\MICS#\FtImport\obj\Release\FtImport.pdb
+C:\Users\Andrew\Downloads\MICS#\_bin\Release\FtImport.exe
+C:\Users\Andrew\Downloads\MICS#\_bin\Release\FtImport.pdb
+C:\Users\Andrew\Downloads\MICS#\FtImport\obj\Release\FtImport.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\FtImport\obj\Release\FtImport.csprojResolveAssemblyReference.cache

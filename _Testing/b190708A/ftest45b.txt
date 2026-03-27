@@ -1,0 +1,44 @@
+* TS-PDF: ftest45b, By FtPrint (190701-1415/64-R) at 2019.07.08 14:05:17
+*
+TT,N,FTEST45B,,,,
+*
+******* Missing new CallSign field.
+GK,VYB460,,AB2628HWY564HWY840
+*
+****** Missing new StationName field.
+GK,VYB287,$BCTV666,
+*
+****** Missing old CallSign field.
+GK,,$BCTV666,MT WASHINGTON
+*
+****** $BCTV019 does not exist in MDB.
+GK,$BCTV019,$BCTV300,MT WASHINGTON
+*
+****** WLA5703 exists and StationName is correct; operator is A08549.
+****** Record is invalid because ficticious new CallSign does not start with A08549. 
+GK,WLA5703,$BCTV301,MT WASHINGTO
+*
+****** =RCTL0713 exists and StationName is correct; operator is RCTL.
+****** Old CallSign has one antenna with AUSE = TR and one channel that is locally Tx.
+****** Record is invalid because new CallSign is a ficticious passive only.
+GK,=RCTL0713,$RCTL0713,BROADWAY & CAMBIE
+*
+****** =RCTL083 exists and StationName is correct; operator is RCTL.
+****** Old CallSign has one antenna with AUSE = TR and one channel that is locally Tx and Rx.
+****** Record is invalid because new CallSign is a ficticious passive repeater.
+GK,=RCTL083,%RCTL083,RIDGEWOOD
+*
+****** $BCTV300 does not exist in MDB.
+GK,$BCTV300,=BCTV300,MT HORNE
+*
+****** VYB358 exists and StationName is correct; operator is VYB.
+****** Record is valid.
+GK,VYB358,VYBXXX,WABASCA AB SUBSTATION
+*         
+****** VYB463 exists and StationName is correct.
+****** The record is invalid because the new CallSign VYBXXX has been used before.        
+GK,VYB463,VYBXXX,BOOTH ST
+*
+****** VYB464 exists and StationName is correct.
+****** The record is invalid because the old and new CallSigns are identical.
+GK,VYB464,VYB464,LAKESHORE DR                       

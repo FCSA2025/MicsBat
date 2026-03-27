@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5707F2AE-910F-4522-A9A6-8BB3B472547E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TpRunTsip</RootNamespace>
+    <AssemblyName>TpRunTsip</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EMULATE_LEGACY_BUGS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\_bin\Release\</OutputPath>
+    <DefineConstants>TRACE;EMULATE_LEGACY_BUGS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EMULATE_LEGACY_BUGS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\_bin\Release\</OutputPath>
+    <DefineConstants>TRACE;EMULATE_LEGACY_BUGS</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AggInt.cs" />
+    <Compile Include="Estsrp1.cs" />
+    <Compile Include="Estsrp3.cs" />
+    <Compile Include="PrintLine.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TeBuildSH.cs" />
+    <Compile Include="TeCalcs.cs" />
+    <Compile Include="TeDynAnte.cs" />
+    <Compile Include="TeDynChan.cs" />
+    <Compile Include="TeDynSite.cs" />
+    <Compile Include="TeDynTemp1.cs" />
+    <Compile Include="TeSubCalc.cs" />
+    <Compile Include="TeVects.cs" />
+    <Compile Include="TpKeyhole.cs" />
+    <Compile Include="TpMdbPdfGet.cs" />
+    <Compile Include="TpPlanChan.cs" />
+    <Compile Include="TpRunTsip.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tsesenv.cs" />
+    <Compile Include="Tsesprop.cs" />
+    <Compile Include="Tsesrp1.cs" />
+    <Compile Include="Tsesrp3.cs" />
+    <Compile Include="TsipUtils.cs" />
+    <Compile Include="Tstsrp1.cs" />
+    <Compile Include="Tstsrp2.cs" />
+    <Compile Include="Tstsrp3.cs" />
+    <Compile Include="Tstsrp4.cs" />
+    <Compile Include="TtBuildSH.cs" />
+    <Compile Include="TtCalcPassive.cs" />
+    <Compile Include="TtCalcs.cs" />
+    <Compile Include="TtDynAnte.cs" />
+    <Compile Include="TtDynChan.cs" />
+    <Compile Include="TtDynSite.cs" />
+    <Compile Include="TtDynTemp1.cs" />
+    <Compile Include="TtDynTemp2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_Auxlib\_Auxlib.csproj">
+      <Project>{4675302E-E1D4-4EDA-AC77-FC0A6B0248B3}</Project>
+      <Name>_Auxlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_OHloss\_OHloss.csproj">
+      <Project>{04a34624-8f33-4685-8944-794b6fb7c3bf}</Project>
+      <Name>_OHloss</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_Utillib\_Utillib.csproj">
+      <Project>{9C18BD59-6DA7-4E8F-9550-71B3AC086C74}</Project>
+      <Name>_Utillib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_Configuration\_Configuration.csproj">
+      <Project>{7BD937CD-26C6-4622-817F-BDA9F88BA8BC}</Project>
+      <Name>_Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_DataStructures\_DataStructures.csproj">
+      <Project>{35A1E0EF-230A-4575-B8E6-1AD62C88D470}</Project>
+      <Name>_DataStructures</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_NewLib\_NewLib.csproj">
+      <Project>{A37061E1-FEAC-494F-9DA2-144350ED806D}</Project>
+      <Name>_NewLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

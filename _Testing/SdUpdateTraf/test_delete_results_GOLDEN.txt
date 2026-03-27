@@ -1,0 +1,46 @@
+		SDB TRAFFIC UPDATE REPORT Build 160705-2122/64-R		Date: 2019.07.11 12:57
+
+SDF Name: test_delete
+
+		TRAFFIC SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/11/2019 12:57:39 PM
+
+
+Traffic SDF: test_delete
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Traffic SDF test_delete is valid
+
+SDF Validation completed - 7/11/2019 12:57:39 PM
+
+		SDF TRAFFIC UPDATE RESULTS
+::	- Successful DELETE of traffic A0002
+::	- Successful DELETE of traffic A0003
+::	- Successful DELETE of traffic A0005
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_delete      User Name: hulme1     *****
+
+
+	 Records Processed: 3
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 3
+	 Records No Action: 0insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'traf', 'test_delete', '2019.07.11', '12:57') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\traf\test_delete.20190711_1257) of changes to the database
+
+
+	************     End of Summary Information     ************

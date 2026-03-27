@@ -1,0 +1,1569 @@
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 5344
+
+PDF Name: newoper1
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'newoper1' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: newoper1, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:19
+*
+TT,U,NEWOPER1,UNKN,NAD83 THIS IS A TEST,,
+*##############################################################################
+SK,A,U,=UNKNA,SITE A,50-29-59.56N,121-00-04.59W,999.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 64.19, At. Loss = 0.35
+AK,A,U,=UNKNA,=UNKNB,6D,1, ,
+AQ,TR,UHX10-65EL,20.0,196.35,-0.52,38.64,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 64.19, At. Loss = 0.35
+AK,A,U,=UNKNA,=UNKNB,6D,2, ,
+AQ,DV1,UHX10-65EL,15.0,196.35,-0.52,38.64,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.78, Rx=76.34
+CK,A,U,=UNKNA,=UNKNB,6D,1A, ,
+CT, , , ,6905000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6565000.00,H,1,2, ,RD-U6C,B,D7138,3DS3,3,X
+CQ,3.0,-28.6,2.8,-28.4, , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=UNKNB,SITE B,50-09-59.54N,121-09-12.57W,734.0, ,
+SD,BC,UNKN,3, , , , , , , ,1994.06.08,UT
+*====  ------ Not Found -----   Ant Gain = 44.0, Dist Loss = 64.19, At. Loss = 0.35
+AK,A,U,=UNKNB,=UNKNA,6D,1, ,
+AQ,TR,UHX10-65ER,20.0,16.23,0.26,38.64,N, , , , , , ,1994.06.08
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.34, Rx=76.78
+CK,A,U,=UNKNB,=UNKNA,6D,1A, ,
+CT, , , ,6565000.00,H,1,3.7, , ,RD-U6C,A,31.0,0.0,D7138,3DS3,3,X
+CR,6905000.00,H,1, , ,RD-U6C,A,D7138,3DS3,3,X
+CQ,3.0,-29.0, , , , , ,
+CO, , , , , , , ,
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20]
+
+Checking file: newoper1
+-------------------------------------------------------------
+1) Site =UNKNA:-
+
+SITE A Oper: UNKN 
+L/L: 50-29-59.56N/121-00-04.59W Grnd: 999.0m
+
+  Link 0 to =UNKNB, band 6D:-
+    Ground distance: 38.6306, azimuth: 196.3514, back-azimuth: 16.2343
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   20.000  196.3514    -0.5232    38.6369
+  1    2   15.000  196.3514    -0.5158    38.6368
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0)   1A  6905000.000   6565000.000    31.000   -28.584   3.700   3.000 
+
+-------------------------------------------------------------
+2) Site =UNKNB:-
+
+SITE B Oper: UNKN 
+L/L: 50-09-59.54N/121-09-12.57W Grnd: 734.0m
+
+  Link 0 to =UNKNA, band 6D:-
+    Ground distance: 38.6306, azimuth: 16.2343, back-azimuth: 196.3514
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   20.000   16.2343     0.2628    38.6369
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0)   1A  6565000.000   6905000.000    31.000   -29.036   3.700   3.000 
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      3
+Channels Read:      2
+
+0 Errors were found
+0 Warnings were issued.
+
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 3444
+
+PDF Name: chgelat
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: =TLUSMCZZ
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=TLUSMCR2 =TLUSMCZZ 14C 1
+Distance (113.4) is greater than 90km.
+
+=TLUSMCR2 =TLUSMCZZ 14C 2
+Distance (113.4) is greater than 90km.
+
+=TLUSMCZZ =TLUSMCR2 14C 1
+Distance (113.4) is greater than 90km.
+
+=TLUSMCZZ =TLUSMCR2 14C 2
+Distance (113.4) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 2
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 7 warnings.
+The PDF 'chgelat' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgelat, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:20
+*
+TT,U,CHGELAT,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 73.54, At. Loss = 3.30
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,349.79,-0.44,113.37,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 73.54, At. Loss = 3.30
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,349.79,-0.44,113.37,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-55.4, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-55.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,=TLUSMCZZ,BC009,50-11-37.46N,122-47-56.71W,90.0,2014.02.07,08:30
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 73.54, At. Loss = 3.30
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,169.58,-0.33,113.37,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 73.54, At. Loss = 3.30
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,169.58,-0.33,113.37,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-54.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2014.02.07,08:30
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-55.0, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 11356
+
+PDF Name: chgelong
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: =TLUSMCZZ
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=TLUSMCR2 =TLUSMCZZ 14C 1
+Distance (93.4) is greater than 90km.
+
+=TLUSMCR2 =TLUSMCZZ 14C 2
+Distance (93.4) is greater than 90km.
+
+=TLUSMCZZ =TLUSMCR2 14C 1
+Distance (93.4) is greater than 90km.
+
+=TLUSMCZZ =TLUSMCR2 14C 2
+Distance (93.4) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 2
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 7 warnings.
+The PDF 'chgelong' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgelong, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:21
+*
+TT,U,CHGELONG,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 71.86, At. Loss = 2.72
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.58,-0.38,93.41,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 71.86, At. Loss = 2.72
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.58,-0.38,93.41,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-53.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-53.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,=TLUSMCZZ,BC009,49-11-32.40N,123-47-56.87W,90.0,2014.02.07,08:30
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 71.86, At. Loss = 2.72
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,89.61,-0.25,93.41,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 71.86, At. Loss = 2.72
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,89.61,-0.25,93.41,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-52.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2014.02.07,08:30
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-52.8, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 5316
+
+PDF Name: chgegrnd
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: =TLUSMCZZ
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 2
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 3 warnings.
+The PDF 'chgegrnd' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgegrnd, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:22
+*
+TT,U,CHGEGRND,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.06,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.06,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-37.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,U,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,200.0,2014.02.07,08:30
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,-0.08,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,-0.08,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2014.02.07,08:30
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 9604
+
+PDF Name: chgeacode
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=TLUSMCZZ =TLUSMCR2 14C 1
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'chgeacode' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgeacode, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:23
+*
+TT,U,CHGEACODE,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-44.0, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 36.3, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+AQ,TR,HP2-144,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-43.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 13876
+
+PDF Name: chgeaht
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=TLUSMCZZ =TLUSMCR2 14C 1
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'chgeaht' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgeaht, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:24
+*
+TT,U,CHGEAHT,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.28,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+AQ,TR,P4-144D,100.0,90.32,0.14,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 11056
+
+PDF Name: chgepss
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCR2 =TLUSMCZZ 14C 1
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 3 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 3 warnings.
+The PDF 'chgepss' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgepss, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:25
+*
+TT,U,CHGEPSS,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,H,1, , ,ATI45M15, ,D8045M,PROT,3,F
+CQ,3.8,-34.8, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,H,1,3.2, , ,ATI45M15, ,30.0,0.0,D8045M,PROT,3,X
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 3780
+
+PDF Name: chgerxanum
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=TLUSMCZZ =TLUSMCR2 14C 2
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 2
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 3 warnings.
+The PDF 'chgerxanum' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgerxanum, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:25
+*
+TT,U,CHGERXANUM,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-44.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 36.3, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2014.02.07,08:30
+AQ,TR,HP2-144,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,2, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-43.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2014.02.07,08:30
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-43.8, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 8628
+
+PDF Name: chgetxanum
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=TLUSMCZZ =TLUSMCR2 14C 2
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'chgetxanum' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgetxanum, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:26
+*
+TT,U,CHGETXANUM,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-44.0, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-44.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 36.3, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2014.02.07,08:30
+AQ,TR,HP2-144,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,V,2,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,U,C,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-43.8, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 9548
+
+PDF Name: chgeause
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+=TLUSMCZZ =TLUSMCR2 14C 2
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 2
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'chgeause' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgeause, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:27
+*
+TT,U,CHGEAUSE,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-37.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2014.02.07,08:30
+AQ,DV1,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2014.02.07,08:30
+CT, , , ,15160000.00,V,1,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,1,2, ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6,4.6,-37.6, , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 13376
+
+PDF Name: chgefreqtx
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'chgefreqtx' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgefreqtx, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:28
+*
+TT,U,CHGEFREQTX,,,,
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.72
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,15350000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-38.1, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.72, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,15350000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 4232
+
+PDF Name: chgerxfsl
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'chgerxfsl' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgerxfsl, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:29
+*
+TT,U,CHGERXFSL,,NAD83,2003.07.31,09:49
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,7.0,-39.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 12200
+
+PDF Name: chgetxfsl
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'chgetxfsl' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgetxfsl, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:30
+*
+TT,U,CHGETXFSL,,NAD83,2003.07.31,09:49
+*##############################################################################
+SK,N,C,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,U,C,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-41.6, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC418  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,U,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2014.02.07,08:30
+CT, , , ,14995000.00,V,1,7.0, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,N,U,=TLUSMCZZ,=TLUSMCR2,14C,2,2019.06.20,18:11
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 10040
+
+PDF Name: chgedvaht
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+XVBB567 XXOJ737 2G 22
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: XVBB567 XXOJ737 2G 2002
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'chgedvaht' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgedvaht, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:31
+*
+TT,U,CHGEDVAHT,,,,
+*##############################################################################
+SK,N,U,XVBB567,JOUTEL T.,49-33-36.32N,078-06-52.11W,330.0,2019.06.20,18:11
+SD,QC,HYQU,5,1992,551-3708579,2F,3866,1, , ,1992.01.01,FT
+*====  CASTAGNIER T.  === Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,U,XVBB567,XXOJ737,2G,21,2019.06.20,18:11
+AQ,TR,PL8-23D,94.8,170.82,-0.21,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*----  CASTAGNIER T.  === Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,U,XVBB567,XXOJ737,2G,22,2015.06.17,14:03
+AQ,DV1,PL8-23D,250.0,170.82,-0.34,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.05, Rx=67.22
+CK,U,U,XVBB567,XXOJ737,2G,2001,2019.06.20,18:11
+CT, , , ,2525000.00,V,21,6.3, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2295000.00,V,21, , ,QDR254, ,D7007,4DS1,5,C
+CQ,6.7,-47.6, , , , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.25, Rx=67.44
+CK,U,U,XVBB567,XXOJ737,2G,2002,2015.06.17,14:03
+CT, , , ,2585000.00,V,21,6.3, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2355000.00,V,21,22, ,QDR254, ,D7007,4DS1,5,C
+CQ,6.7,-47.8,7.0,-48.1, , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*##############################################################################
+SK,N,C,XXOJ737,CASTAGNIER T.,48-50-17.33N,077-56-16.13W,396.2,2019.06.20,18:11
+SD,QC,HYQU,5,1979,551-2351485,2F,4032,1, , ,1979.01.01,FT
+*====  JOUTEL T.  ======= Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,C,XXOJ737,XVBB567,2G,21,2019.06.20,18:11
+AQ,DV1,PL8-23D,118.0,350.96,-0.34,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*----  JOUTEL T.  ======= Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,C,XXOJ737,XVBB567,2G,22,2019.06.20,18:11
+AQ,TR,PL8-23D,95.9,350.96,-0.21,81.32,N, , , , , , ,2005.05.30
+AO, , , , , , , , , , , , , ,1996,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.22, Rx=68.05
+CK,U,C,XXOJ737,XVBB567,2G,2001,2019.06.20,18:11
+CT, , , ,2295000.00,V,22,6.8, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2525000.00,V,22, , ,QDR254, ,D7007,4DS1,5,C
+CQ,6.0,-47.2, , , , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.44, Rx=68.25
+CK,U,C,XXOJ737,XVBB567,2G,2002,2019.06.20,18:11
+CT, , , ,2355000.00,V,22,6.8, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2585000.00,V,22,21, ,QDR254, ,D7007,4DS1,5,C
+CQ,6.0,-47.4,7.0,-48.4, , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 852
+
+PDF Name: chgedvacode
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+XVBB567 XXOJ737 2G 22
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: XVBB567 XXOJ737 2G 2002
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'chgedvacode' is validated for :UPDATE:
+
+PDF Validation Completed - 18:22
+* TS-PDF: chgedvacode, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:32
+*
+TT,U,CHGEDVACODE,,,,
+*##############################################################################
+SK,N,U,XVBB567,JOUTEL T.,49-33-36.32N,078-06-52.11W,330.0,2019.06.20,18:11
+SD,QC,HYQU,5,1992,551-3708579,2F,3866,1, , ,1992.01.01,FT
+*====  CASTAGNIER T.  === Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,U,XVBB567,XXOJ737,2G,21,2019.06.20,18:11
+AQ,TR,PL8-23D,94.8,170.82,-0.21,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*----  CASTAGNIER T.  === Ant Gain = 35.5, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,U,XVBB567,XXOJ737,2G,22,2015.06.17,14:03
+AQ,DV1,PAF10-23,116.8,170.82,-0.24,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.05, Rx=67.22
+CK,U,U,XVBB567,XXOJ737,2G,2001,2019.06.20,18:11
+CT, , , ,2525000.00,V,21,6.3, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2295000.00,V,21, , ,QDR254, ,D7007,4DS1,5,C
+CQ,6.7,-47.6, , , , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.25, Rx=67.44
+CK,U,U,XVBB567,XXOJ737,2G,2002,2015.06.17,14:03
+CT, , , ,2585000.00,V,21,6.3, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2355000.00,V,21,22, ,QDR254, ,D7007,4DS1,5,C
+CQ,6.7,-47.8,7.0,-46.0, , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*##############################################################################
+SK,N,C,XXOJ737,CASTAGNIER T.,48-50-17.33N,077-56-16.13W,396.2,2019.06.20,18:11
+SD,QC,HYQU,5,1979,551-2351485,2F,4032,1, , ,1979.01.01,FT
+*====  JOUTEL T.  ======= Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,C,XXOJ737,XVBB567,2G,21,2019.06.20,18:11
+AQ,DV1,PL8-23D,118.0,350.96,-0.34,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*----  JOUTEL T.  ======= Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,U,C,XXOJ737,XVBB567,2G,22,2019.06.20,18:11
+AQ,TR,PL8-23D,95.9,350.96,-0.31,81.32,N, , , , , , ,2005.05.30
+AO, , , , , , , , , , , , , ,1996,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.22, Rx=68.05
+CK,U,C,XXOJ737,XVBB567,2G,2001,2019.06.20,18:11
+CT, , , ,2295000.00,V,22,6.8, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2525000.00,V,22, , ,QDR254, ,D7007,4DS1,5,C
+CQ,6.0,-47.2, , , , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.44, Rx=68.25
+CK,U,C,XXOJ737,XVBB567,2G,2002,2019.06.20,18:11
+CT, , , ,2355000.00,V,22,6.8, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2585000.00,V,22,21, ,QDR254, ,D7007,4DS1,5,C
+CQ,6.0,-47.4,7.0,-48.4, , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.20  18:22
+Project Code [FMDA20] Process Id: 3084
+
+PDF Name: addunusedant
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+addunusedant
+Site =TLUSMCR2 has no opposing site: =TLUSMCZZ in the PDF.
+This link will not be processed by TSIP.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=TLUSMCR2 =TLUSMCZZ 14C 3
+Could not retrieve remote Antenna
+
+SUMMARY OF ANTENNA RECORDS:  1 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+*ERROR* Antenna from =TLUSMCR2 to =TLUSMCZZ band 14C, anum 3 is not referenced by any channel.
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 2 errors and 1 warnings.
+The PDF 'addunusedant' is invalid
+PDF Validation Completed - 18:22
+* TS-PDF: addunusedant, By FtPrint (190619-1555/64-R) at 2019.06.20 18:22:32
+*
+TT,N,ADDUNUSEDANT,,,,
+*##############################################################################
+SK,N,U,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0,2019.06.20,18:11
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  BC009  =========== Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,A,U,=TLUSMCR2,=TLUSMCZZ,14C,3, ,
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2019.06.20,18:11
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,N,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2019.06.20,18:11
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-37.9, , , , , ,
+CO, , , , , , , ,

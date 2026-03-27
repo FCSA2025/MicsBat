@@ -1,0 +1,47 @@
+		SDB BAND UPDATE REPORT Build 160705-2054/64-R		Date: 2019.05.15 14:55
+
+SDF Name: test_combo
+SDF Type: Band
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 5/15/2019 2:55:32 PM
+
+
+Band SDF: test_combo
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Band SDF test_combo is valid
+
+SDF Validation completed - 5/15/2019 2:55:32 PM
+
+		SDF BAND UPDATE RESULTS
+
+BAND RECORD NO ACTION: :10A: 
+
+SDB UPDATE SUMMARY: 32 errors and 0 warnings
+
+
+insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'band', 'test_combo', '2019.05.15', '14:55') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\band\test_combo.20190515_1455) of changes to the database
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_combo       User Name: hulme1     *****
+
+
+	 Records Processed: 35
+	     Records Added: 31
+	   Records Updated: 1
+	   Records Deleted: 2
+	 Records No Action: 1
+
+	************     End of Summary Information     ************

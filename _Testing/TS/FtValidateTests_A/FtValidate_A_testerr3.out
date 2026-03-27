@@ -1,0 +1,108 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:10
+Project Code [HULME1_0] Process Id: 13852
+
+PDF Name: testerr3
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Site Call: XTLUSMCR2
+Must Enter Name field.
+Must Enter Province field.
+Must Enter Latitude field.
+Must Enter Longitude field.
+Must Enter Ground Height field.
+Must Enter Status field.
+Operator Code must be present.
+Operator Code () not present in SDB
+
+SUMMARY OF SITE RECORDS:  8 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+XTLUSMCR2 XTLUSMCZZ 14C 1
+Distance (11153.3) is greater than 90km.
+
+XTLUSMCZZ XTLUSMCR2 14C 1
+Distance (11153.3) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: XTLUSMCR2 XTLUSMCZZ 14C 1
+TX Frequency present but no TX Equipment.
+AFSLTX1 must be present.
+
+                ----------- WARNINGS -----------
+
+
+Channel: XTLUSMCR2 XTLUSMCZZ 14C 1
+Local transmit () and Remote receive (D8045M) traffic codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking XTLUSMCR2 (/) in proposed file ...
+Checking proposed file Site XTLUSMCR2 band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XTLUSMCZZ (BC009/TLUSMC) in proposed file ...
+Checking proposed file Site XTLUSMCZZ band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHK306 (BVA0055_A/GLW) 
+	Band 14A
+	Band 14A OK
+	Band 14B
+	Band 14B OK
+	Band 14C
+	Band 14C OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 10 errors and 3 warnings.
+The PDF 'testerr3' is invalid
+PDF Validation Completed - 16:10

@@ -1,0 +1,6 @@
+D:\Users\ahulme\MICS\_bin\Release\ftValidate.exe.config
+D:\Users\ahulme\MICS\_bin\Release\ftValidate.exe
+D:\Users\ahulme\MICS\_bin\Release\ftValidate.pdb
+D:\Users\ahulme\MICS\ftValidate\obj\Release\ftValidate.exe
+D:\Users\ahulme\MICS\ftValidate\obj\Release\ftValidate.pdb
+D:\Users\ahulme\MICS\ftValidate\obj\Release\ftValidate.csprojResolveAssemblyReference.cache

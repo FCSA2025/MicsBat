@@ -1,0 +1,3 @@
+* * TS-PDF NAME : tsImportTestTTfieldsTooLong, Produced by ftPrint build 020414-1915
+*
+TT,N!,ADDWRNGCALL!!!!!!,UNKC!!!,NAD83  THIS IS A TEST!!!!!!!!!!!!!!!!!!!!,19-jun-200100000000000000000,11:4333

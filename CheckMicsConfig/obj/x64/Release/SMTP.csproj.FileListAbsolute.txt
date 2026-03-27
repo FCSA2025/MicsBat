@@ -1,0 +1,8 @@
+D:\users\ahulme\MICS#\_bin\Release\SMTP.exe.config
+D:\users\ahulme\MICS#\_bin\Release\SMTP.exe
+D:\users\ahulme\MICS#\_bin\Release\SMTP.pdb
+D:\users\ahulme\MICS#\SMTP\obj\x64\Release\SMTP.csproj.AssemblyReference.cache
+D:\users\ahulme\MICS#\SMTP\obj\x64\Release\SMTP.csproj.CoreCompileInputs.cache
+D:\users\ahulme\MICS#\SMTP\obj\x64\Release\SMTP.csproj.CopyComplete
+D:\users\ahulme\MICS#\SMTP\obj\x64\Release\SMTP.exe
+D:\users\ahulme\MICS#\SMTP\obj\x64\Release\SMTP.pdb

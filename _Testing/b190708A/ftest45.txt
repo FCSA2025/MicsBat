@@ -1,0 +1,23 @@
+* TS-PDF: ftest45, By FtPrint (190701-1415/64-R) at 2019.07.08 14:05:17
+*
+TT,N,FTEST45,,,,
+*
+****** $BCTV019 does not exist in MDB.
+GK,$BCTV019,$BCTV300,MT WASHINGTON
+*
+****** WLA5703 exists and StationName is correct; operator is A08549.
+****** Record is invalid because ficticious new CallSign does not start with A08549. 
+GK,WLA5703,$BCTV301,MT WASHINGTO
+*
+****** =RCTL0713 exists and StationName is correct; operator is RCTL.
+****** Old CallSign has one antenna with AUSE = TR and one channel that is locally Tx.
+****** Record is invalid because new CallSign is a ficticious passive only.
+GK,=RCTL0713,$RCTL0713,BROADWAY & CAMBIE
+*
+****** =RCTL083 exists and StationName is correct; operator is RCTL.
+****** Old CallSign has one antenna with AUSE = TR and one channel that is locally Tx and Rx.
+****** Record is invalid because new CallSign is a ficticious passive repeater.
+GK,=RCTL083,%RCTL083,RIDGEWOOD
+*
+****** $BCTV300 does not exist in MDB.
+GK,$BCTV300,=BCTV300,MT HORNE

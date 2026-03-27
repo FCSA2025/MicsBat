@@ -1,0 +1,3173 @@
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:06
+Project Code [FMDA0] Process Id: 5564
+
+PDF Name: owdlat
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %DUQU04XA
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA %DUQU15XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA %DUQU15XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 14 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 19 warnings.
+The PDF 'owdlat' is validated for :UPDATE:
+
+PDF Validation Completed - 16:06
+* TS-PDF: owdlat, By ftPrint (160428-1416/64-D) at 2016.06.01 16:06:18
+*
+TT,U,OWDLAT,,,,
+*##############################################################################
+SK,U,U,%DUQU04XA,SHIPPINGS P,40-38-01.17N,080-26-21.52W,344.0,2014.02.07,08:30
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.99, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,101.01,-0.12,16.86,P,127.96,-3.85,54.0, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,5.7,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.2, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 36.40, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,155.12,-6.75,1.58,P,127.96,-3.85,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,5.7, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.2,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.99, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,281.14,0.00,16.86,P,252.02,-5.45,53.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-20.2, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.9,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,252.02,-5.45,49.0, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-20.2,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.9, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-29.6, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 36.40, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,335.12,6.74,1.58,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-29.5, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:06
+Project Code [FMDA0] Process Id: 5984
+
+PDF Name: owdlong
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %DUQU04XA
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA %DUQU15XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA %DUQU15XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 14 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 19 warnings.
+The PDF 'owdlong' is validated for :UPDATE:
+
+PDF Validation Completed - 16:06
+* TS-PDF: owdlong, By ftPrint (160428-1416/64-D) at 2016.06.01 16:06:25
+*
+TT,U,OWDLONG,,,,
+*##############################################################################
+SK,U,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-30-21.53W,344.0,2014.02.07,08:30
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 59.39, At. Loss = 0.21
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,93.49,-0.12,22.24,P,89.78,-0.91,54.5, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-5.8,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-16.4, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 48.46, At. Loss = 0.06
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,86.05,-1.70,6.32,P,89.78,-0.91,54.5, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-5.8, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-16.4,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 59.39, At. Loss = 0.21
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,273.67,-0.03,22.24,P,248.25,-5.28,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-33.5, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.5,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.25,-5.28,48.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-33.5,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.5, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-43.3, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 48.46, At. Loss = 0.06
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,266.10,1.66,6.32,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-43.2, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:06
+Project Code [FMDA0] Process Id: 6500
+
+PDF Name: owdgrnd
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %DUQU04XA
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA %DUQU15XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA %DUQU15XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 14 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 19 warnings.
+The PDF 'owdgrnd' is validated for :UPDATE:
+
+PDF Validation Completed - 16:06
+* TS-PDF: owdgrnd, By ftPrint (160428-1416/64-D) at 2016.06.01 16:06:31
+*
+TT,U,OWDGRND,,,,
+*##############################################################################
+SK,U,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,644.0,2014.02.07,08:30
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-1.15,16.61,P,77.31,-17.28,54.2, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,10.2,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.1, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 31.77, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,-31.64,0.92,P,77.31,-17.28,53.7, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,10.2, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.1,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,1.04,16.61,P,248.85,-4.72,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-15.3, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-4.72,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-15.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-25.0, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 31.77, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,236.73,31.63,0.92,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-24.9, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:06
+Project Code [FMDA0] Process Id: 8056
+
+PDF Name: owdacode
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA %DUQU15XA 6E 11
+This Antenna record has been modified since you retrieved it.
+
+%DUQU04XA KZN95XA 6E 31
+This Antenna record has been modified since you retrieved it.
+
+%DUQU15XA %DUQU04XA 6E 11
+This Antenna record has been modified since you retrieved it.
+
+KZN95XA %DUQU04XA 6E 31
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA %DUQU15XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA %DUQU15XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 14 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 22 warnings.
+The PDF 'owdacode' is validated for :UPDATE:
+
+PDF Validation Completed - 16:06
+* TS-PDF: owdacode, By ftPrint (160428-1416/64-D) at 2016.06.01 16:06:38
+*
+TT,U,OWDACODE,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2014.02.07,08:30
+AQ,TR,18F23FA%,74.0,94.73,-0.12,16.61,P,75.99,-7.05,53.6, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,10.8,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2014.02.07,08:30
+AQ,TR,18F23FA%,76.0,56.73,-13.23,0.81,P,75.99,-7.05,53.2, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,10.8, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2014.02.07,08:30
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-15.3, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-15.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-25.0, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2014.02.07,08:30
+AQ,TR,PL10-65C,7.0,236.73,13.22,0.81,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-24.9, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:06
+Project Code [FMDA0] Process Id: 4636
+
+PDF Name: owdaht
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Antenna %DUQU04XA %DUQU15XA 6E 11
+Antenna height (999.000000) outside recommended range of 0 to 300m
+
+Antenna %DUQU04XA KZN95XA 6E 31
+Antenna height (999.000000) outside recommended range of 0 to 300m
+
+%DUQU04XA %DUQU15XA 6E 11
+This Antenna record has been modified since you retrieved it.
+
+%DUQU04XA KZN95XA 6E 31
+This Antenna record has been modified since you retrieved it.
+
+%DUQU15XA %DUQU04XA 6E 11
+This Antenna record has been modified since you retrieved it.
+
+KZN95XA %DUQU04XA 6E 31
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 6 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA %DUQU15XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA %DUQU15XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 14 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 24 warnings.
+The PDF 'owdaht' is validated for :UPDATE:
+
+PDF Validation Completed - 16:06
+* TS-PDF: owdaht, By ftPrint (160428-1416/64-D) at 2016.06.01 16:06:45
+*
+TT,U,OWDAHT,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.87, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2014.02.07,08:30
+AQ,TR,20F24FZ%,999.0,94.73,-3.31,16.64,P,80.96,-30.23,53.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,7.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.3, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 35.12, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2014.02.07,08:30
+AQ,TR,20F24FZ%,999.0,56.73,-54.61,1.36,P,80.96,-30.23,53.6, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,7.0, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.87, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2014.02.07,08:30
+AQ,TR,20F24FZ%,44.0,274.86,3.19,16.64,P,248.83,-3.52,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-18.8, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.83,-3.52,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-18.8,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-28.5, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 35.12, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2014.02.07,08:30
+AQ,TR,PL10-65C,7.0,236.73,54.60,1.36,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-28.3, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:06
+Project Code [FMDA0] Process Id: 5484
+
+PDF Name: owdtxpwr
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA %DUQU15XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 6 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 10 warnings.
+The PDF 'owdtxpwr' is validated for :UPDATE:
+
+PDF Validation Completed - 16:06
+* TS-PDF: owdtxpwr, By ftPrint (160428-1416/64-D) at 2016.06.01 16:06:50
+*
+TT,U,OWDTXPWR,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,75.99,-7.05,54.3, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,11.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.0, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,-13.23,0.81,P,75.99,-7.05,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.3, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.1, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-14.1,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-23.9, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,236.73,13.22,0.81,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-23.7, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:06
+Project Code [FMDA0] Process Id: 4452
+
+PDF Name: owdtxfreq
+
+
+
+                *********** ERRORS ***********
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 22 - Must change transmit frequency field at the TX end.
+Power calculations will not be done.
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA %DUQU15XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU15XA KZN80XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 12 warnings.
+The PDF 'owdtxfreq' is invalid
+PDF Validation Completed - 16:06
+* TS-PDF: owdtxfreq, By ftPrint (160428-1416/64-D) at 2016.06.01 16:06:55
+*
+TT,N,OWDTXFREQ,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,75.99,-7.05,54.3, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,11.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.0, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,-13.23,0.81,P,75.99,-7.05,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.3, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.1, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-14.1,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-23.9, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,236.73,13.22,0.81,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-23.7, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:06
+Project Code [FMDA0] Process Id: 7460
+
+PDF Name: owdlata
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: KZN95XA
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 13 warnings.
+The PDF 'owdlata' is validated for :UPDATE:
+
+PDF Validation Completed - 16:07
+* TS-PDF: owdlata, By ftPrint (160428-1416/64-D) at 2016.06.01 16:07:01
+*
+TT,U,OWDLATA,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,134.66,-1.08,53.4, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-7.8,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.9, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 49.36, At. Loss = 0.07
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,174.60,-1.54,7.01,P,134.66,-1.08,53.4, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-7.8, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.9,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-34.1, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-34.1,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-43.9, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,U,U,KZN95XA,BEAVER VALL,40-33-15.16N,080-25-53.52W,228.0,2014.02.07,08:30
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 49.36, At. Loss = 0.07
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,354.61,1.49,7.01,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-43.7, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:07
+Project Code [FMDA0] Process Id: 9016
+
+PDF Name: owdlonga
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: KZN95XA
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 13 warnings.
+The PDF 'owdlonga' is validated for :UPDATE:
+
+PDF Validation Completed - 16:07
+* TS-PDF: owdlonga, By ftPrint (160428-1416/64-D) at 2016.06.01 16:07:08
+*
+TT,U,OWDLONGA,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,183.19,-18.52,38.7, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-28.2,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-29.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 55.03, At. Loss = 0.13
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,271.89,-0.83,13.45,P,183.19,-18.52,38.7, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-28.2, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-29.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-69.2, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-69.2,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-78.9, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,U,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-35-53.55W,228.0,2014.02.07,08:30
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 55.03, At. Loss = 0.13
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,91.79,0.74,13.45,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-78.8, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:07
+Project Code [FMDA0] Process Id: 1044
+
+PDF Name: owdgrnda
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: KZN95XA
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 13 warnings.
+The PDF 'owdgrnda' is validated for :UPDATE:
+
+PDF Validation Completed - 16:07
+* TS-PDF: owdgrnda, By ftPrint (160428-1416/64-D) at 2016.06.01 16:07:14
+*
+TT,U,OWDGRNDA,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,76.08,8.01,54.3, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,11.2,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.0, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 30.68, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,15.27,0.82,P,76.08,8.01,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.2, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.2, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-14.2,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-23.9, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,U,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,628.0,2014.02.07,08:30
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 30.68, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,236.73,-15.28,0.82,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-23.8, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:07
+Project Code [FMDA0] Process Id: 2296
+
+PDF Name: owdacodea
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KZN95XA %DUQU04XA 6E 31
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 13 warnings.
+The PDF 'owdacodea' is validated for :UPDATE:
+
+PDF Validation Completed - 16:07
+* TS-PDF: owdacodea, By ftPrint (160428-1416/64-D) at 2016.06.01 16:07:19
+*
+TT,U,OWDACODEA,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,75.99,-7.05,54.3, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,9.8,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.0, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,-13.23,0.81,P,75.99,-7.05,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-15.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-15.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-25.3, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 42.3, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2014.02.07,08:30
+AQ,TR,PL8-65D,7.0,236.73,13.22,0.81,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-25.2, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:07
+Project Code [FMDA0] Process Id: 4880
+
+PDF Name: owdahta
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Antenna KZN95XA %DUQU04XA 6E 31
+Antenna height (999.000000) outside recommended range of 0 to 300m
+
+KZN95XA %DUQU04XA 6E 31
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %DUQU04XA KZN95XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: %DUQU04XA KZN95XA 6E 1012
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 14 warnings.
+The PDF 'owdahta' is validated for :UPDATE:
+
+PDF Validation Completed - 16:07
+* TS-PDF: owdahta, By ftPrint (160428-1416/64-D) at 2016.06.01 16:07:25
+*
+TT,U,OWDAHTA,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,79.23,23.92,54.0, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,8.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.3, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 33.49, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,45.71,1.13,P,79.23,23.92,53.6, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,8.6, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2014.02.07,08:30
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-17.1, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-17.1,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-26.8, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 33.49, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2014.02.07,08:30
+AQ,TR,PL10-65C,999.0,236.73,-45.71,1.13,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-26.6, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:07
+Project Code [FMDA0] Process Id: 7584
+
+PDF Name: owdrxfsla
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+Afsltx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 6 warnings.
+The PDF 'owdrxfsla' is validated for :UPDATE:
+
+PDF Validation Completed - 16:07
+* TS-PDF: owdrxfsla, By ftPrint (160428-1416/64-D) at 2016.06.01 16:07:29
+*
+TT,U,OWDRXFSLA,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,75.99,-7.05,54.3, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,UNKNOWN, ,11.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,N,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,UNKNOWN, ,A0300, ,5,X
+CQ,0.0,-14.0, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,-13.23,0.81,P,75.99,-7.05,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.3, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,N,U,%DUQU04XA,KZN95XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,31,0.0, , ,UNKNOWN, ,-14.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,UNKNOWN, ,A0300, ,5,X
+CQ,0.0,-14.1, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,N,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,UNKNOWN, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,UNKNOWN, ,-14.1,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,N,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,N,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2014.02.07,08:30
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,UNKNOWN, ,A0300, ,5,X
+CQ,3.5,-27.4, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,N,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 30.61, At. Loss = 0.01
+AK,N,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,236.73,13.22,0.81,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,N,U,KZN95XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,UNKNOWN, ,A0300, ,5,X
+CQ,0.0,-23.7, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:07
+Project Code [FMDA0] Process Id: 7252
+
+PDF Name: owdtxfsla
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 8 warnings.
+The PDF 'owdtxfsla' is validated for :UPDATE:
+
+PDF Validation Completed - 16:07
+* TS-PDF: owdtxfsla, By ftPrint (160428-1416/64-D) at 2016.06.01 16:07:35
+*
+TT,U,OWDTXFSLA,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,75.99,-7.05,54.3, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,7.8,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.0, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,-13.23,0.81,P,75.99,-7.05,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,7.8, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-17.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,-17.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-27.4, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,236.73,13.22,0.81,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,3.5, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-23.7, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:07
+Project Code [FMDA0] Process Id: 5764
+
+PDF Name: owdtxpwra
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 5 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 9 warnings.
+The PDF 'owdtxpwra' is validated for :UPDATE:
+
+PDF Validation Completed - 16:07
+* TS-PDF: owdtxpwra, By ftPrint (160428-1416/64-D) at 2016.06.01 16:07:41
+*
+TT,U,OWDTXPWRA,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,75.99,-7.05,54.3, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,29.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.0, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,-13.23,0.81,P,75.99,-7.05,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,29.3, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU04XA,KZN95XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,31,0.0, , ,778B3, ,-14.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,3.9, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6825000.00,H,11,0.0, , ,778B3, ,3.9,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-5.9, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,U,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,236.73,13.22,0.81,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,39.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,U,U,KZN95XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-23.7, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:07
+Project Code [FMDA0] Process Id: 8648
+
+PDF Name: owdtxfreqa
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU04XA->KZN95XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1012
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+%DUQU15XA->KZN80XA Band:6E Chid:1009
+MERGE 24 - Must change equipment transmit field at originator.	Validate will use the originating transmit field for this value (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 3 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 7 warnings.
+The PDF 'owdtxfreqa' is validated for :UPDATE:
+
+PDF Validation Completed - 16:07
+* TS-PDF: owdtxfreqa, By ftPrint (160428-1416/64-D) at 2016.06.01 16:07:45
+*
+TT,U,OWDTXFREQA,,,,
+*##############################################################################
+SK,N,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  HOPEWELL PR  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU04XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,75.99,-7.05,54.3, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.76
+CK,U,U,%DUQU04XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , ,6885000.00,H,11,0.0, , ,778B3, ,11.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,N,U,%DUQU04XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,UNKNOWN, ,A0300, ,5,X
+CQ,0.0,-14.0, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  BEAVER VALL  ===== Ant Gain = 0.0, Dist Loss = 30.61, At. Loss = 0.01
+AK,U,U,%DUQU04XA,KZN95XA,6E,31,2016.06.01,15:28
+AQ,TR,20F24FZ%,76.0,56.73,-13.23,0.81,P,75.99,-7.05,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.76
+CK,U,U,%DUQU04XA,KZN95XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6885000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.3, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,N,U,%DUQU04XA,KZN95XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,31,0.0, , ,UNKNOWN, ,-14.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  SHIPPINGS P  ===== Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,U,U,%DUQU15XA,%DUQU04XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.76
+CK,U,U,%DUQU15XA,%DUQU04XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6885000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-14.1, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,N,U,%DUQU15XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,UNKNOWN, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  HOPEWELL SU  ===== Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,U,U,%DUQU15XA,KZN80XA,6E,11,2016.06.01,15:28
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.76
+CK,U,U,%DUQU15XA,KZN80XA,6E,1009,2016.06.01,15:28
+CT, , , ,6885000.00,H,11,0.0, , ,778B3, ,-14.1,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,N,U,%DUQU15XA,KZN80XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,N,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  HOPEWELL PR  ===== Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,N,U,KZN80XA,%DUQU15XA,6E,11,2016.06.01,15:28
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.76
+CK,U,U,KZN80XA,%DUQU15XA,6E,1009,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6885000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,-23.9, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,N,U,KZN80XA,%DUQU15XA,6E,1012,2016.06.01,15:28
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,N,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0,2016.06.01,15:28
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  SHIPPINGS P  ===== Ant Gain = 43.9, Dist Loss = 30.61, At. Loss = 0.01
+AK,N,U,KZN95XA,%DUQU04XA,6E,31,2016.06.01,15:28
+AQ,TR,PL10-65C,7.0,236.73,13.22,0.81,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.76
+CK,U,U,KZN95XA,%DUQU04XA,6E,1009,2014.02.07,08:30
+CT, , , ,6885000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,N,U,KZN95XA,%DUQU04XA,6E,1012,2016.06.01,15:28
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,UNKNOWN, ,A0300, ,5,X
+CQ,0.0,-23.7, , , , , ,
+CO, , ,17, , , , ,1982.09.27

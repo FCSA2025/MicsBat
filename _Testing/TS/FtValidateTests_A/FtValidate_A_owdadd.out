@@ -1,0 +1,282 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:15
+Project Code [HULME1_0] Process Id: 16596
+
+PDF Name: owdadd
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1012
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1009
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+KZN80XA->%DUQU15XA Band:6E Chid:1009
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+KZN95XA->%DUQU04XA Band:6E Chid:1012
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %DUQU04XA (SHIPPINGS P/DUQU) in proposed file ...
+Checking proposed file Site %DUQU04XA band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: ;C8874102 (AT&T PASSIVE/C88741) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	;C8874102 to WAA52601 band 6B chid AOYQ is first RX HiLo violation.
+	;C8874102 to WAA52604 band 6B chid AOYN is first TX HiLo violation.
+	;C8874102 has both tx and rx violations.  Stopping scanning band 6B.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: ;C8874104 (0605/C88741) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: ;C8874127 (AT&T PASSIVE/C88741) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	;C8874127 to WQGJ82901 band 6B chid AOYN is first RX HiLo violation.
+	;C8874127 to WQGJ82903 band 6B chid AOYN is first TX HiLo violation.
+	;C8874127 has both tx and rx violations.  Stopping scanning band 6B.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: WAA52603 (AT&T PASSIVE/C88741) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	WAA52603 to WAA52601 band 6B chid AOYQ is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: WAV69202 (0605/C88741) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	WAV69202 to WAV69201 band 6B chid AOYN is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: WQGJ82902 (AT&T PASSIVE/C88741) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	WQGJ82902 to WQGJ82901 band 6B chid AOYN is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 6 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking %DUQU15XA (HOPEWELL PR/DUQU) in proposed file ...
+Checking proposed file Site %DUQU15XA band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking KZN80XA (HOPEWELL SU/DUQU) in proposed file ...
+Checking proposed file Site KZN80XA band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking KZN95XA (BEAVER VALL/DUQU) in proposed file ...
+Checking proposed file Site KZN95XA band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: WAA52604 (BEAVER VALLEY/C88741) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	WAA52604 to ;C8874102 band 6B chid AOYN is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: WQGJ82901 (BEAVER VALLEY/C88741) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	WQGJ82901 to ;C8874127 band 6B chid AOYN is first TX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	WQGJ82901 to ;C8874123 band 6D chid AOYN is first TX HiLo violation.
+	Violation for Band 6D
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+4 Site(s) checked.
+There were 7 hilo violations.
+
+
+
+There were a total of 0 errors and 8 warnings.
+The PDF 'owdadd' is validated for :UPDATE:
+
+PDF Validation Completed - 16:15

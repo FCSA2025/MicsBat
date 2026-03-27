@@ -1,0 +1,14 @@
+D:\Users\ahulme\MICS#\Hold\bin\Release\Hold.exe.config
+D:\Users\ahulme\MICS#\Hold\obj\Release\Hold.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\Hold\bin\Release\Hold.exe
+D:\Users\ahulme\MICS#\Hold\bin\Release\Hold.pdb
+D:\Users\ahulme\MICS#\Hold\bin\Release\_Configuration.dll
+D:\Users\ahulme\MICS#\Hold\bin\Release\_NewLib.dll
+D:\Users\ahulme\MICS#\Hold\bin\Release\_Utillib.dll
+D:\Users\ahulme\MICS#\Hold\bin\Release\_DataStructures.dll
+D:\Users\ahulme\MICS#\Hold\bin\Release\_Configuration.pdb
+D:\Users\ahulme\MICS#\Hold\bin\Release\_NewLib.pdb
+D:\Users\ahulme\MICS#\Hold\bin\Release\_Utillib.pdb
+D:\Users\ahulme\MICS#\Hold\bin\Release\_DataStructures.pdb
+D:\Users\ahulme\MICS#\Hold\obj\Release\Hold.exe
+D:\Users\ahulme\MICS#\Hold\obj\Release\Hold.pdb

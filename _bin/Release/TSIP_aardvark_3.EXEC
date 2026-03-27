@@ -1,0 +1,42 @@
+                    FREQUENCY COORDINATION SYSTEM ASSOCIATION 230713-1303/64-R
+                      MICS TSIP Ts-Ts Execution Information
+   Inputs:
+             Project Code:         hulme1_0
+             Parameter File Name:  aardvark
+             TSIP Run Name:        3
+   Outputs:
+             Interference Tables
+                 tt_aardvark_3_parm Table
+                 tt_aardvark_3_site Table
+                 tt_aardvark_3_ante Table
+                 tt_aardvark_3_chan Table
+             Report files
+                 TSIP_aardvark_3.EXEC (Execution Report)
+                 TSIP_aardvark_3.STUDY (TSIP Study Report)
+                 TSIP_aardvark_3.STATSUM (Station Summary Report)
+                 TSIP_aardvark_3.CASEDET (Case Detail Report)
+                 TSIP_aardvark_3.CASESUM (Case Summary Report)
+                 TSIP_aardvark_3.AGGINTREP (Aggregate Interference Report)
+                 TSIP_aardvark_3_AGGINT.CSV (Aggregate Interference CSV)
+
+   Propagation Loss Calculation Model:  Free Space
+   Maximum Frequency Separation      :    300.0
+   Coordination Distance             :    200.0
+   Culling Margin used               :      0.0
+   Number of Station Groups Passed to Analysis:  309
+   Number of Interference Cases Reported:        0
+
+
+   Start of TSIP Run                                End of TSIP Run
+    Date: 2023.07.13                                 Date: 2023.07.13  
+    Time: 13:03                                      Time: 13:03       
+
+Cache info:-
+Cache       Calls  Hits  Size  Used
+Antennas.:   2190  2148   100    42
+Equipment:    958   939   100    19
+CTX Curve:      0     0   100     0
+CTX Xref.:     78     0   100     0
+Analog...:      0     0   100     0
+Digital..:    332   317   100    15
+

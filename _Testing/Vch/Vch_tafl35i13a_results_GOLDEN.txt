@@ -1,0 +1,3547 @@
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2019.07.25  14:13
+Project Code [hulme1_0]
+
+Checking file: tafl35i13a
+Full Listing Requested.
+Debugging Output Requested.
+-------------------------------------------------------------
+1) Site CKG647:-
+
+STONY MOUNTAIN AB (TELUS SITE) Oper: TRIDON 
+L/L: 56-22-36.00N/111-12-56.00W Grnd: 751.0m
+Links:-
+Site CKG647 name STONY MOUNTAIN AB (TELUS SITE) has 1 Link(s)...
+  To: CKG648 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-107
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKG648, band 11A:-
+--Other End...
+Site CKG648 name FT MCMURRAY AB GREGOIRE SITE has 3 Link(s)...
+  To: CKG647 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG649 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP8-107D
+      1 Ant index 2 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 1 chid 7997
+      1 Chan index 2 chid 9998
+  To: CKT912 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 98 acode HP8-107F
+      Channels:-
+      0 Chan index 3 chid 7999
+    Ground distance: 33.6125, azimuth: 347.5653, back-azimuth: 167.4669
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   15.000  347.5653    -0.7814    33.6178
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10895000.000  11385000.000    20.000   -38.464   0.500   0.500 
+
+-------------------------------------------------------------
+2) Site CKG648:-
+
+FT MCMURRAY AB GREGOIRE SITE Oper: TRIDON 
+L/L: 56-40-17.00N/111-20-01.00W Grnd: 364.0m
+Links:-
+Site CKG648 name FT MCMURRAY AB GREGOIRE SITE has 3 Link(s)...
+  To: CKG647 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG649 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP8-107D
+      1 Ant index 2 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 1 chid 7997
+      1 Chan index 2 chid 9998
+  To: CKT912 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 98 acode HP8-107F
+      Channels:-
+      0 Chan index 3 chid 7999
+
+  Link 0 to CKG647, band 11A:-
+--Other End...
+Site CKG647 name STONY MOUNTAIN AB (TELUS SITE) has 1 Link(s)...
+  To: CKG648 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-107
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 33.6125, azimuth: 167.4669, back-azimuth: 347.5653
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   10.000  167.4669     0.5548    33.6178
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11385000.000  10895000.000    20.000   -38.045   0.500   0.500 
+
+  Link 1 to CKG649, band 11A:-
+--Other End...
+Site CKG649 name FT MCMURRAY AB MANNIX SITE has 4 Link(s)...
+  To: CKG648 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-107D
+      1 Ant index 1 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 0 chid 7997
+      1 Chan index 1 chid 9998
+  To: CKG650 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 2 acode HP8-107F
+      Channels:-
+      0 Chan index 2 chid 8004
+      1 Chan index 3 chid 9998
+  To: VFG634 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 3 acode HP6-11
+      Channels:-
+      0 Chan index 4 chid 9997
+  To: VFG635 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 5 chid 8012
+    Ground distance: 34.2254, azimuth: 344.7152, back-azimuth: 164.5911
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   29.000  344.7152    -0.1539    34.2274
+  1   99   29.000  344.7152    -0.1539    34.2274
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 7997 10895000.000  11385000.000    20.000   -33.030   0.500   0.500 
+ 1( 2) 9998 10895000.000  11385000.000    20.000   -32.500   0.500   0.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.5000) vs (-33.0300).
+
+  Link 2 to CKT912, band 11A:-
+--Other End...
+Site CKT912 name CHEECHUM AB has 1 Link(s)...
+  To: CKG648 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 0 chid 7999
+    Ground distance: 51.8621, azimuth: 151.0797, back-azimuth: 331.4171
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   98   89.000  151.0797     0.1168    51.8674
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 3) 7999 10895000.000  11385000.000    28.000   -28.932   0.500   0.500 
+
+-------------------------------------------------------------
+3) Site CKG649:-
+
+FT MCMURRAY AB MANNIX SITE Oper: TRIDON 
+L/L: 56-58-04.00N/111-28-55.00W Grnd: 344.0m
+Links:-
+Site CKG649 name FT MCMURRAY AB MANNIX SITE has 4 Link(s)...
+  To: CKG648 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-107D
+      1 Ant index 1 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 0 chid 7997
+      1 Chan index 1 chid 9998
+  To: CKG650 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 2 acode HP8-107F
+      Channels:-
+      0 Chan index 2 chid 8004
+      1 Chan index 3 chid 9998
+  To: VFG634 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 3 acode HP6-11
+      Channels:-
+      0 Chan index 4 chid 9997
+  To: VFG635 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 5 chid 8012
+
+  Link 0 to CKG648, band 11A:-
+--Other End...
+Site CKG648 name FT MCMURRAY AB GREGOIRE SITE has 3 Link(s)...
+  To: CKG647 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG649 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP8-107D
+      1 Ant index 2 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 1 chid 7997
+      1 Chan index 2 chid 9998
+  To: CKT912 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 98 acode HP8-107F
+      Channels:-
+      0 Chan index 3 chid 7999
+    Ground distance: 34.2254, azimuth: 164.5911, back-azimuth: 344.7152
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   26.000  164.5911    -0.0769    34.2274
+  1   99   26.000  164.5911    -0.0769    34.2274
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 7997 11385000.000  10895000.000    20.000   -32.611   0.500   0.500 
+ 1( 1) 9998 11385000.000  10895000.000    20.000   -32.100   0.500   0.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.1000) vs (-32.6106).
+
+  Link 1 to CKG650, band 11A:-
+--Other End...
+Site CKG650 name FORT MACKAY AB SW-19-94-10 W4 has 1 Link(s)...
+  To: CKG649 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP6-11
+      Channels:-
+      0 Chan index 0 chid 8004
+      1 Chan index 1 chid 9998
+    Ground distance: 23.4265, azimuth: 341.9901, back-azimuth: 161.8896
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   60.000  341.9901    -0.2624    23.4279
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 8004 11385000.000  10895000.000    20.000   -36.951   0.500   0.500 
+ 1( 3) 9998 11385000.000  10895000.000    20.000   -36.600   0.500   0.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-36.6000) vs (-36.9510).
+
+  Link 2 to VFG634, band 11A:-
+--Other End...
+Site VFG634 name FT. MCMURRAY. AB. TRIDON SCL OFF has 1 Link(s)...
+  To: CKG649 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9997
+    Ground distance: 12.2393, azimuth: 309.2519, back-azimuth: 129.1210
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    3   89.000  309.2519    -0.5000    12.2404
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 4) 9997 10895000.000  11385000.000    20.000   -35.735   0.500   0.500 
+
+  Link 3 to VFG635, band 18A:-
+--Other End...
+Site VFG635 name FT. MCMURRAY AB. SUNCOR LOWER C has 1 Link(s)...
+  To: CKG649 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SP2-18
+      Channels:-
+      0 Chan index 0 chid 8012
+    Ground distance: 7.3729, azimuth: 347.8506, back-azimuth: 167.8291
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   78.000  347.8506    -0.7553     7.3739
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 5) 8012 17915000.000  19475000.000    21.000   -39.481   0.500   0.500 
+
+-------------------------------------------------------------
+4) Site CKG650:-
+
+FORT MACKAY AB SW-19-94-10 W4 Oper: TRIDON 
+L/L: 57-10-04.00N/111-36-06.00W Grnd: 267.0m
+Links:-
+Site CKG650 name FORT MACKAY AB SW-19-94-10 W4 has 1 Link(s)...
+  To: CKG649 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP6-11
+      Channels:-
+      0 Chan index 0 chid 8004
+      1 Chan index 1 chid 9998
+
+  Link 0 to CKG649, band 11A:-
+--Other End...
+Site CKG649 name FT MCMURRAY AB MANNIX SITE has 4 Link(s)...
+  To: CKG648 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-107D
+      1 Ant index 1 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 0 chid 7997
+      1 Chan index 1 chid 9998
+  To: CKG650 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 2 acode HP8-107F
+      Channels:-
+      0 Chan index 2 chid 8004
+      1 Chan index 3 chid 9998
+  To: VFG634 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 3 acode HP6-11
+      Channels:-
+      0 Chan index 4 chid 9997
+  To: VFG635 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 5 chid 8012
+    Ground distance: 23.4265, azimuth: 161.8896, back-azimuth: 341.9901
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   62.000  161.8896     0.1045    23.4279
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 8004 10895000.000  11385000.000    20.000   -37.359   0.500   0.500 
+ 1( 1) 9998 10895000.000  11385000.000    20.000   -37.000   0.500   0.500 
+    *ERROR* Rx Power 1 does not agree with calcs, (-37.0000) vs (-37.3587).
+
+-------------------------------------------------------------
+5) Site CKG700:-
+
+MASSET. BC Oper: GWAIIT 
+L/L: 54-02-28.00N/132-10-56.00W Grnd: 11.0m
+Links:-
+Site CKG700 name MASSET. BC has 1 Link(s)...
+  To: CKG701 band 8A with 1 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA12-78A
+      Channels:-
+      0 Chan index 0 chid 9643
+      1 Chan index 1 chid 9644
+      2 Chan index 2 chid 9645
+      3 Chan index 3 chid 9646
+      4 Chan index 4 chid 9999
+
+  Link 0 to CKG701, band 8A:-
+--Other End...
+Site CKG701 name MOUNT HAYS. BC (PRINCE RUPERT) has 1 Link(s)...
+  To: CKG700 band 8A with 1 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA12-78A
+      Channels:-
+      0 Chan index 0 chid 9643
+      1 Chan index 1 chid 9644
+      2 Chan index 2 chid 9645
+      3 Chan index 3 chid 9646
+      4 Chan index 4 chid 9999
+    Ground distance: 124.8900, azimuth: 76.7471, back-azimuth: 258.2604
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   53.000   76.7471    -0.1173   124.8975
+    *WARNING* It is recommended that the distance be between 0 and 90km.
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9643  8220000.000   7920000.000    29.000   -38.973   4.200   4.300 
+ 1( 1) 9644  8160000.000   7860000.000    33.000   -31.998   2.500   2.700 
+ 2( 2) 9645  8100000.000   7800000.000    29.000   -40.322   5.700   5.800 
+ 3( 3) 9646  8040000.000   7740000.000    33.000   -31.846   2.500   2.700 
+ 4( 4) 9999  8220000.000   7800000.000    29.000   -39.000   4.200   5.800 
+    *ERROR* Rx Power 1 does not agree with calcs, (-39.0000) vs (-40.3221).
+
+-------------------------------------------------------------
+6) Site CKG701:-
+
+MOUNT HAYS. BC (PRINCE RUPERT) Oper: GWAIIT 
+L/L: 54-17-02.00N/130-18-56.00W Grnd: 701.0m
+Links:-
+Site CKG701 name MOUNT HAYS. BC (PRINCE RUPERT) has 1 Link(s)...
+  To: CKG700 band 8A with 1 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA12-78A
+      Channels:-
+      0 Chan index 0 chid 9643
+      1 Chan index 1 chid 9644
+      2 Chan index 2 chid 9645
+      3 Chan index 3 chid 9646
+      4 Chan index 4 chid 9999
+
+  Link 0 to CKG700, band 8A:-
+--Other End...
+Site CKG700 name MASSET. BC has 1 Link(s)...
+  To: CKG701 band 8A with 1 antenna(s) and 5 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA12-78A
+      Channels:-
+      0 Chan index 0 chid 9643
+      1 Chan index 1 chid 9644
+      2 Chan index 2 chid 9645
+      3 Chan index 3 chid 9646
+      4 Chan index 4 chid 9999
+    Ground distance: 124.8900, azimuth: 258.2604, back-azimuth: 76.7471
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   25.000  258.2604    -0.7246   124.8975
+    *WARNING* It is recommended that the distance be between 0 and 90km.
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9643  7920000.000   8220000.000    29.000   -39.344   4.200   4.300 
+ 1( 1) 9644  7860000.000   8160000.000    33.000   -32.271   2.900   3.000 
+ 2( 2) 9645  7800000.000   8100000.000    29.000   -40.697   4.200   4.300 
+ 3( 3) 9646  7740000.000   8040000.000    33.000   -32.123   2.900   3.000 
+ 4( 4) 9999  7800000.000   8220000.000    29.000   -38.000   4.200   4.300 
+    *ERROR* Rx Power 1 does not agree with calcs, (-38.0000) vs (-39.3444).
+
+-------------------------------------------------------------
+7) Site CKG711:-
+
+ST. ISADORE. AB Oper: PENNW 
+L/L: 56-12-59.00N/117-06-37.00W Grnd: 571.0m
+Links:-
+Site CKG711 name ST. ISADORE. AB has 1 Link(s)...
+  To: CKJ320 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ320, band 11A:-
+--Other End...
+Site CKJ320 name HARMON VALLEY S.. AB 12-25 has 2 Link(s)...
+  To: CKG711 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ322 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode UXA8-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 27.8673, azimuth: 107.3933, back-azimuth: 287.7487
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   40.000  107.3933     0.2926    27.8710
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10775000.000  11265000.000    16.500   -33.941                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+8) Site CKG716:-
+
+CHIPEWYAN LAKE. AB. Oper: PATHCO 
+L/L: 56-56-17.00N/113-29-05.00W Grnd: 568.0m
+Links:-
+Site CKG716 name CHIPEWYAN LAKE. AB. has 1 Link(s)...
+  To: CKG717 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode AD11G-6
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKG717, band 11A:-
+--Other End...
+Site CKG717 name DOVER WEST. AB. PLANT (AOC) has 1 Link(s)...
+  To: CKG716 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode AD11G-6
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 47.1259, azimuth: 47.7265, back-azimuth: 228.2110
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   33.000   47.7265    -0.0324    47.1307
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11265000.000  10775000.000    22.000   -38.680   0.500   0.500 
+
+-------------------------------------------------------------
+9) Site CKG717:-
+
+DOVER WEST. AB. PLANT (AOC) Oper: PATHCO 
+L/L: 57-13-17.00N/112-54-27.00W Grnd: 644.0m
+Links:-
+Site CKG717 name DOVER WEST. AB. PLANT (AOC) has 1 Link(s)...
+  To: CKG716 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode AD11G-6
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKG716, band 11A:-
+--Other End...
+Site CKG716 name CHIPEWYAN LAKE. AB. has 1 Link(s)...
+  To: CKG717 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode AD11G-6
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 47.1259, azimuth: 228.2110, back-azimuth: 47.7265
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   61.000  228.2110    -0.2853    47.1307
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10775000.000  11265000.000    22.000   -39.117   0.500   0.500 
+
+-------------------------------------------------------------
+10) Site CKG733:-
+
+PELICAN NORTH Oper: 3CINFO 
+L/L: 56-11-10.00N/113-03-24.00W Grnd: 616.0m
+Links:-
+Site CKG733 name PELICAN NORTH has 1 Link(s)...
+  To: CKG734 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-6
+      Channels:-
+      0 Chan index 0 chid 7432
+      1 Chan index 1 chid 9999
+
+  Link 0 to CKG734, band 11A:-
+--Other End...
+Site CKG734 name PELICAN SOUTH has 1 Link(s)...
+  To: CKG733 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-6
+      Channels:-
+      0 Chan index 0 chid 7432
+      1 Chan index 1 chid 9999
+    Ground distance: 25.6999, azimuth: 247.3581, back-azimuth: 67.0416
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   45.000  247.3581    -0.0465    25.7026
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 7432 11425000.000  10935000.000    24.000   -32.225   1.000   1.000 
+ 1( 1) 9999 11425000.000  10935000.000    24.000   -31.800   1.000   1.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-31.8000) vs (-32.2250).
+
+-------------------------------------------------------------
+11) Site CKG734:-
+
+PELICAN SOUTH Oper: 3CINFO 
+L/L: 56-05-48.00N/113-26-16.00W Grnd: 624.0m
+Links:-
+Site CKG734 name PELICAN SOUTH has 1 Link(s)...
+  To: CKG733 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-6
+      Channels:-
+      0 Chan index 0 chid 7432
+      1 Chan index 1 chid 9999
+
+  Link 0 to CKG733, band 11A:-
+--Other End...
+Site CKG733 name PELICAN NORTH has 1 Link(s)...
+  To: CKG734 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-6
+      Channels:-
+      0 Chan index 0 chid 7432
+      1 Chan index 1 chid 9999
+    Ground distance: 25.6999, azimuth: 67.0416, back-azimuth: 247.3581
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   55.000   67.0416    -0.1267    25.7026
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 7432 10935000.000  11425000.000    24.000   -32.634   1.000   1.000 
+ 1( 1) 9999 10935000.000  11425000.000    24.000   -32.200   1.000   1.000 
+    *ERROR* Rx Power 1 does not agree with calcs, (-32.2000) vs (-32.6340).
+
+-------------------------------------------------------------
+12) Site CKG815:-
+
+FABYAN TOWER AB Oper: MARATH 
+L/L: 52-53-58.00N/111-02-43.00W Grnd: 701.0m
+Links:-
+Site CKG815 name FABYAN TOWER AB has 3 Link(s)...
+  To: CKG948 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG949 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+  To: CKG961 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 3 acode HP10-77GD
+      Channels:-
+      0 Chan index 2 chid 9997
+
+  Link 0 to CKG948, band 8A:-
+--Other End...
+Site CKG948 name HARDISTY E CAMPUS AB has 2 Link(s)...
+  To: CKG815 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG963 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 31.4388, azimuth: 207.1089, back-azimuth: 26.9404
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   57.000  207.1089    -0.1625    31.4425
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999                8255000.000            -31.780            0.500 
+
+  Link 1 to CKG949, band 8A:-
+--Other End...
+Site CKG949 name WAINWRIGHT TERMINAL OFFICE AB has 1 Link(s)...
+  To: CKG815 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 12.6287, azimuth: 120.0542, back-azimuth: 300.1836
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   31.000  120.0542    -0.1605    12.6301
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998  8255000.000                  27.500            0.500        
+
+  Link 2 to CKG961, band 8A:-
+--Other End...
+Site CKG961 name WILDMERE AB has 2 Link(s)...
+  To: CKG815 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-77GD
+      Channels:-
+      0 Chan index 0 chid 9997
+  To: CKG956 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 37.8856, azimuth: 58.2726, back-azimuth: 238.6565
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    3   55.000   58.2726    -0.1292    37.8900
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 9997                8255000.000            -26.871            0.500 
+
+-------------------------------------------------------------
+13) Site CKG942:-
+
+COLD LAKE AB Oper: MARATH 
+L/L: 54-28-33.00N/110-30-01.00W Grnd: 547.0m
+Links:-
+Site CKG942 name COLD LAKE AB has 1 Link(s)...
+  To: CKG943 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKG943, band 8A:-
+--Other End...
+Site CKG943 name MOOSE HILLS AB has 2 Link(s)...
+  To: CKG942 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG944 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 57.8653, azimuth: 201.6544, back-azimuth: 21.3903
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   53.000  201.6544     0.0723    57.8724
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999  8255000.000                  27.500            0.500        
+
+-------------------------------------------------------------
+14) Site CKG943:-
+
+MOOSE HILLS AB Oper: MARATH 
+L/L: 53-59-32.00N/110-49-33.00W Grnd: 809.0m
+Links:-
+Site CKG943 name MOOSE HILLS AB has 2 Link(s)...
+  To: CKG942 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG944 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKG942, band 8A:-
+--Other End...
+Site CKG942 name COLD LAKE AB has 1 Link(s)...
+  To: CKG943 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 57.8653, azimuth: 21.3903, back-azimuth: 201.6544
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   61.000   21.3903    -0.4623    57.8724
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999                8255000.000            -37.369            0.500 
+
+  Link 1 to CKG944, band 8A:-
+--Other End...
+Site CKG944 name MID POINT AB has 2 Link(s)...
+  To: CKG943 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKG945 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP8-77GD
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 27.7637, azimuth: 165.3578, back-azimuth: 345.4437
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   58.000  165.3578    -0.4691    27.7677
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998                8255000.000            -30.660            0.500 
+
+-------------------------------------------------------------
+15) Site CKG944:-
+
+MID POINT AB Oper: MARATH 
+L/L: 53-45-03.00N/110-43-10.00W Grnd: 640.0m
+Links:-
+Site CKG944 name MID POINT AB has 2 Link(s)...
+  To: CKG943 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKG945 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP8-77GD
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKG943, band 8A:-
+--Other End...
+Site CKG943 name MOOSE HILLS AB has 2 Link(s)...
+  To: CKG942 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG944 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 27.7637, azimuth: 345.4437, back-azimuth: 165.3578
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   45.000  345.4437     0.2820    27.7677
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998  8255000.000                  27.500            0.500        
+
+  Link 1 to CKG945, band 8A:-
+--Other End...
+Site CKG945 name MARWAYNE AB has 2 Link(s)...
+  To: CKG944 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-77GD
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKG946 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP10-77GD
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 35.1988, azimuth: 114.4636, back-azimuth: 294.8537
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   45.000  114.4636    -0.1528    35.2025
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998                8255000.000            -28.002            0.500 
+
+-------------------------------------------------------------
+16) Site CKG945:-
+
+MARWAYNE AB Oper: MARATH 
+L/L: 53-37-08.00N/110-14-07.00W Grnd: 618.0m
+Links:-
+Site CKG945 name MARWAYNE AB has 2 Link(s)...
+  To: CKG944 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-77GD
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKG946 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP10-77GD
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKG944, band 8A:-
+--Other End...
+Site CKG944 name MID POINT AB has 2 Link(s)...
+  To: CKG943 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKG945 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP8-77GD
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 35.1988, azimuth: 294.8537, back-azimuth: 114.4636
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   46.000  294.8537    -0.0845    35.2025
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998  8255000.000                  27.500            0.500        
+
+  Link 1 to CKG946, band 8A:-
+--Other End...
+Site CKG946 name BLACKFOOT WIMAX AB has 1 Link(s)...
+  To: CKG945 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-77GD
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 30.2678, azimuth: 169.2576, back-azimuth: 349.3257
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   60.000  169.2576    -0.0149    30.2711
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998                8255000.000            -24.837            0.500 
+
+-------------------------------------------------------------
+17) Site CKG946:-
+
+BLACKFOOT WIMAX AB Oper: MARATH 
+L/L: 53-21-06.00N/110-09-02.00W Grnd: 666.0m
+Links:-
+Site CKG946 name BLACKFOOT WIMAX AB has 1 Link(s)...
+  To: CKG945 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-77GD
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKG945, band 8A:-
+--Other End...
+Site CKG945 name MARWAYNE AB has 2 Link(s)...
+  To: CKG944 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-77GD
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKG946 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP10-77GD
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 30.2678, azimuth: 349.3257, back-azimuth: 169.2576
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   58.000  349.3257    -0.1891    30.2711
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998  8255000.000                  27.500            0.500        
+
+-------------------------------------------------------------
+18) Site CKG948:-
+
+HARDISTY E CAMPUS AB Oper: MARATH 
+L/L: 52-38-52.00N/111-15-25.00W Grnd: 674.0m
+Links:-
+Site CKG948 name HARDISTY E CAMPUS AB has 2 Link(s)...
+  To: CKG815 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG963 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKG815, band 8A:-
+--Other End...
+Site CKG815 name FABYAN TOWER AB has 3 Link(s)...
+  To: CKG948 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG949 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+  To: CKG961 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 3 acode HP10-77GD
+      Channels:-
+      0 Chan index 2 chid 9997
+    Ground distance: 31.4388, azimuth: 26.9404, back-azimuth: 207.1089
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   53.000   26.9404    -0.0495    31.4425
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999  8255000.000                  27.500            0.500        
+
+  Link 1 to CKG963, band 8A:-
+--Other End...
+Site CKG963 name HARDISTY MCC40 AB has 1 Link(s)...
+  To: CKG948 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 0.3706, azimuth: 234.2744, back-azimuth: 54.2708
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   55.000  234.2744    -9.9496     0.3763
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998                8255000.000            -21.898            0.500 
+
+-------------------------------------------------------------
+19) Site CKG949:-
+
+WAINWRIGHT TERMINAL OFFICE AB Oper: MARATH 
+L/L: 52-50-33.00N/110-52-59.00W Grnd: 676.0m
+Links:-
+Site CKG949 name WAINWRIGHT TERMINAL OFFICE AB has 1 Link(s)...
+  To: CKG815 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKG815, band 8A:-
+--Other End...
+Site CKG815 name FABYAN TOWER AB has 3 Link(s)...
+  To: CKG948 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG949 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+  To: CKG961 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 3 acode HP10-77GD
+      Channels:-
+      0 Chan index 2 chid 9997
+    Ground distance: 12.6287, azimuth: 300.1836, back-azimuth: 120.0542
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   30.000  300.1836     0.0754    12.6301
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998                8255000.000            -32.051            0.500 
+
+-------------------------------------------------------------
+20) Site CKG950:-
+
+SAND CAVERNS AB Oper: MARATH 
+L/L: 53-15-19.00N/109-56-17.00W Grnd: 636.0m
+Links:-
+Site CKG950 name SAND CAVERNS AB has 1 Link(s)...
+  To: CKG956 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKG956, band 8A:-
+--Other End...
+Site CKG956 name BLACKFOOT HILLS AB has 2 Link(s)...
+  To: CKG950 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG961 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP10-77GD
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 23.1447, azimuth: 220.2704, back-azimuth: 40.0917
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   36.000  220.2704     0.3032    23.1479
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999  8255000.000                  27.500            0.500        
+
+-------------------------------------------------------------
+21) Site CKG951:-
+
+TANGLEFLAGS TOWER AB Oper: MARATH 
+L/L: 53-24-01.00N/109-36-48.00W Grnd: 640.0m
+Links:-
+Site CKG951 name TANGLEFLAGS TOWER AB has 1 Link(s)...
+  To: CKG953 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKG953, band 8A:-
+--Other End...
+Site CKG953 name ENGLISHMAN LAKE AB has 1 Link(s)...
+  To: CKG951 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 24.7740, azimuth: 92.7118, back-azimuth: 273.0104
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   50.000   92.7118    -0.1459    24.7766
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999                8255000.000            -38.037            0.500 
+
+-------------------------------------------------------------
+22) Site CKG953:-
+
+ENGLISHMAN LAKE AB Oper: MARATH 
+L/L: 53-23-21.00N/109-14-29.00W Grnd: 610.0m
+Links:-
+Site CKG953 name ENGLISHMAN LAKE AB has 1 Link(s)...
+  To: CKG951 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKG951, band 8A:-
+--Other End...
+Site CKG951 name TANGLEFLAGS TOWER AB has 1 Link(s)...
+  To: CKG953 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 24.7740, azimuth: 273.0104, back-azimuth: 92.7118
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   53.000  273.0104    -0.0211    24.7766
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999  8255000.000                  27.500            0.500        
+
+-------------------------------------------------------------
+23) Site CKG956:-
+
+BLACKFOOT HILLS AB Oper: MARATH 
+L/L: 53-05-47.00N/110-09-41.00W Grnd: 755.0m
+Links:-
+Site CKG956 name BLACKFOOT HILLS AB has 2 Link(s)...
+  To: CKG950 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG961 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP10-77GD
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKG950, band 8A:-
+--Other End...
+Site CKG950 name SAND CAVERNS AB has 1 Link(s)...
+  To: CKG956 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 23.1447, azimuth: 40.0917, back-azimuth: 220.2704
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   71.000   40.0917    -0.4592    23.1479
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999                8255000.000            -29.029            0.500 
+
+  Link 1 to CKG961, band 8A:-
+--Other End...
+Site CKG961 name WILDMERE AB has 2 Link(s)...
+  To: CKG815 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-77GD
+      Channels:-
+      0 Chan index 0 chid 9997
+  To: CKG956 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 27.0874, azimuth: 265.7102, back-azimuth: 85.3880
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   67.000  265.7102    -0.2838    27.0909
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998                8255000.000            -30.438            0.500 
+
+-------------------------------------------------------------
+24) Site CKG961:-
+
+WILDMERE AB Oper: MARATH 
+L/L: 53-04-39.00N/110-33-52.00W Grnd: 685.0m
+Links:-
+Site CKG961 name WILDMERE AB has 2 Link(s)...
+  To: CKG815 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-77GD
+      Channels:-
+      0 Chan index 0 chid 9997
+  To: CKG956 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKG815, band 8A:-
+--Other End...
+Site CKG815 name FABYAN TOWER AB has 3 Link(s)...
+  To: CKG948 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG949 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+  To: CKG961 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 3 acode HP10-77GD
+      Channels:-
+      0 Chan index 2 chid 9997
+    Ground distance: 37.8856, azimuth: 238.6565, back-azimuth: 58.2726
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   70.000  238.6565    -0.1262    37.8900
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9997  8255000.000                  27.500            0.500        
+
+  Link 1 to CKG956, band 8A:-
+--Other End...
+Site CKG956 name BLACKFOOT HILLS AB has 2 Link(s)...
+  To: CKG950 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG961 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP10-77GD
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 27.0874, azimuth: 85.3880, back-azimuth: 265.7102
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   46.000   85.3880     0.1012    27.0909
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998  8255000.000                  27.500            0.500        
+
+-------------------------------------------------------------
+25) Site CKG963:-
+
+HARDISTY MCC40 AB Oper: MARATH 
+L/L: 52-38-45.00N/111-15-41.00W Grnd: 649.0m
+Links:-
+Site CKG963 name HARDISTY MCC40 AB has 1 Link(s)...
+  To: CKG948 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-77GA
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKG948, band 8A:-
+--Other End...
+Site CKG948 name HARDISTY E CAMPUS AB has 2 Link(s)...
+  To: CKG815 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP10-77GD
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG963 band 8A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-77GA
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 0.3706, azimuth: 54.2708, back-azimuth: 234.2744
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   15.000   54.2708     9.9471     0.3763
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998  8255000.000                   7.000            0.500        
+
+-------------------------------------------------------------
+26) Site CKJ274:-
+
+FORT MCMURRAY AB Oper: 3CINFO 
+L/L: 57-17-58.00N/111-31-31.00W Grnd: 297.0m
+Links:-
+Site CKJ274 name FORT MCMURRAY AB has 1 Link(s)...
+  To: CKJ275 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ275, band 11A:-
+--Other End...
+Site CKJ275 name BIRCH MOUNTAIN AB has 1 Link(s)...
+  To: CKJ274 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-2
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 47.8503, azimuth: 337.5310, back-azimuth: 157.2724
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   26.000  337.5310     0.4350    47.8571
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10785000.000  11275000.000    24.000   -51.070   1.000   1.000 
+
+-------------------------------------------------------------
+27) Site CKJ275:-
+
+BIRCH MOUNTAIN AB Oper: 3CINFO 
+L/L: 57-41-46.00N/111-49-55.00W Grnd: 793.0m
+Links:-
+Site CKJ275 name BIRCH MOUNTAIN AB has 1 Link(s)...
+  To: CKJ274 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-2
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ274, band 11A:-
+--Other End...
+Site CKJ274 name FORT MCMURRAY AB has 1 Link(s)...
+  To: CKJ275 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 47.8503, azimuth: 157.2724, back-azimuth: 337.5310
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   28.000  157.2724    -0.7575    47.8571
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11275000.000  10785000.000    24.000   -50.633   1.000   1.000 
+
+-------------------------------------------------------------
+28) Site CKJ320:-
+
+HARMON VALLEY S.. AB 12-25 Oper: PENNW 
+L/L: 56-08-27.00N/116-40-57.00W Grnd: 724.0m
+Links:-
+Site CKJ320 name HARMON VALLEY S.. AB 12-25 has 2 Link(s)...
+  To: CKG711 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ322 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode UXA8-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKG711, band 11A:-
+--Other End...
+Site CKG711 name ST. ISADORE. AB has 1 Link(s)...
+  To: CKJ320 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 27.8673, azimuth: 287.7487, back-azimuth: 107.3933
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   75.000  287.7487    -0.4804    27.8710
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11265000.000  10775000.000    16.500   -33.525                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+  Link 1 to CKJ322, band 11A:-
+--Other End...
+Site CKJ322 name SEAL FIELD OFFICE. AB 1-6 has 2 Link(s)...
+  To: CKJ320 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKJ323 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode UXA8-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 23.2073, azimuth: 108.6688, back-azimuth: 288.9619
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   60.000  108.6688    -0.1078    23.2101
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 11265000.000  10775000.000    16.500   -31.864                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+29) Site CKJ322:-
+
+SEAL FIELD OFFICE. AB 1-6 Oper: PENNW 
+L/L: 56-04-25.00N/116-19-46.00W Grnd: 722.0m
+Links:-
+Site CKJ322 name SEAL FIELD OFFICE. AB 1-6 has 2 Link(s)...
+  To: CKJ320 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKJ323 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode UXA8-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKJ320, band 11A:-
+--Other End...
+Site CKJ320 name HARMON VALLEY S.. AB 12-25 has 2 Link(s)...
+  To: CKG711 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ322 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode UXA8-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 23.2073, azimuth: 288.9619, back-azimuth: 108.6688
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   50.000  288.9619    -0.0486    23.2101
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 10775000.000  11265000.000    16.500   -32.275                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+  Link 1 to CKJ323, band 11A:-
+--Other End...
+Site CKJ323 name PEAVINE. AB SUPERNET POP has 1 Link(s)...
+  To: CKJ322 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 32.3793, azimuth: 176.5130, back-azimuth: 356.5390
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   60.000  176.5130    -0.1994    32.3831
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 10855000.000  11345000.000    16.500   -35.385                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+30) Site CKJ323:-
+
+PEAVINE. AB SUPERNET POP Oper: PENNW 
+L/L: 55-47-00.00N/116-17-53.00W Grnd: 671.0m
+Links:-
+Site CKJ323 name PEAVINE. AB SUPERNET POP has 1 Link(s)...
+  To: CKJ322 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKJ322, band 11A:-
+--Other End...
+Site CKJ322 name SEAL FIELD OFFICE. AB 1-6 has 2 Link(s)...
+  To: CKJ320 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA8-107A
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKJ323 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode UXA8-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 32.3793, azimuth: 356.5390, back-azimuth: 176.5130
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   60.000  356.5390    -0.0189    32.3831
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 11345000.000  10855000.000    16.500   -34.966                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+31) Site CKJ336:-
+
+RESTHAVEN AB Oper: MORAD 
+L/L: 54-10-21.00N/118-19-29.00W Grnd: 1248.0m
+Links:-
+Site CKJ336 name RESTHAVEN AB has 1 Link(s)...
+  To: CKJ337 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ337, band 11A:-
+--Other End...
+Site CKJ337 name MORAD MUSKEG AB has 2 Link(s)...
+  To: CKJ336 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ338 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-11
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 26.8757, azimuth: 225.6425, back-azimuth: 45.4051
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   44.000  225.6425     0.6639    26.8842
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11385000.000  10895000.000    19.000   -42.400                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+32) Site CKJ337:-
+
+MORAD MUSKEG AB Oper: MORAD 
+L/L: 54-00-12.00N/118-37-04.00W Grnd: 1618.0m
+Links:-
+Site CKJ337 name MORAD MUSKEG AB has 2 Link(s)...
+  To: CKJ336 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ338 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-11
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKJ336, band 11A:-
+--Other End...
+Site CKJ336 name RESTHAVEN AB has 1 Link(s)...
+  To: CKJ337 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 26.8757, azimuth: 45.4051, back-azimuth: 225.6425
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   28.000   45.4051    -0.8451    26.8842
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10895000.000  11385000.000    19.000   -42.811                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+  Link 1 to CKJ338, band 11A:-
+--Other End...
+Site CKJ338 name OBED MOUNTAIN AB has 1 Link(s)...
+  To: CKJ337 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP6-11
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 88.8620, azimuth: 121.4184, back-azimuth: 302.3422
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   30.000  121.4184    -0.3453    88.8838
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 10895000.000  11385000.000    19.000   -50.023                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+33) Site CKJ338:-
+
+OBED MOUNTAIN AB Oper: MORAD 
+L/L: 53-34-54.00N/117-28-22.00W Grnd: 1547.0m
+Links:-
+Site CKJ338 name OBED MOUNTAIN AB has 1 Link(s)...
+  To: CKJ337 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP6-11
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKJ337, band 11A:-
+--Other End...
+Site CKJ337 name MORAD MUSKEG AB has 2 Link(s)...
+  To: CKJ336 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ338 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP6-11
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 88.8620, azimuth: 302.3422, back-azimuth: 121.4184
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   30.000  302.3422    -0.2537    88.8838
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 11385000.000  10895000.000    19.000   -49.544                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+34) Site CKJ366:-
+
+SOUTH FRONTENAC(3356 ROUND LAKE) Oper: WTCCOM 
+L/L: 44-24-20.00N/076-26-48.00W Grnd: 155.0m
+Links:-
+Site CKJ366 name SOUTH FRONTENAC(3356 ROUND LAKE) has 2 Link(s)...
+  To: CKJ367 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ368 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKJ367, band 11A:-
+--Other End...
+Site CKJ367 name HARROWSMITH (3736 JAMIESON RD) O has 1 Link(s)...
+  To: CKJ366 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 15.4683, azimuth: 279.3689, back-azimuth: 99.2347
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   27.000  279.3689     0.1108    15.4688
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10855000.000  11345000.000    23.000   -33.790                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+  Link 1 to CKJ368, band 11A:-
+--Other End...
+Site CKJ368 name KINGSTON (2955 SAND HILL RD) ON has 1 Link(s)...
+  To: CKJ366 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 11.8679, azimuth: 103.1802, back-azimuth: 283.2817
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   27.000  103.1802    -0.0690    11.8682
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 10855000.000  11345000.000    23.000   -31.429                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+35) Site CKJ367:-
+
+HARROWSMITH (3736 JAMIESON RD) O Oper: WTCCOM 
+L/L: 44-25-41.00N/076-38-18.00W Grnd: 190.0m
+Links:-
+Site CKJ367 name HARROWSMITH (3736 JAMIESON RD) O has 1 Link(s)...
+  To: CKJ366 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ366, band 11A:-
+--Other End...
+Site CKJ366 name SOUTH FRONTENAC(3356 ROUND LAKE) has 2 Link(s)...
+  To: CKJ367 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ368 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 15.4683, azimuth: 99.2347, back-azimuth: 279.3689
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   36.000   99.2347    -0.2151    15.4688
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11345000.000  10855000.000    23.000   -33.389                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+36) Site CKJ368:-
+
+KINGSTON (2955 SAND HILL RD) ON Oper: WTCCOM 
+L/L: 44-22-52.00N/076-18-06.00W Grnd: 140.0m
+Links:-
+Site CKJ368 name KINGSTON (2955 SAND HILL RD) ON has 1 Link(s)...
+  To: CKJ366 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKJ366, band 11A:-
+--Other End...
+Site CKJ366 name SOUTH FRONTENAC(3356 ROUND LAKE) has 2 Link(s)...
+  To: CKJ367 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ368 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 11.8679, azimuth: 283.2817, back-azimuth: 103.1802
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   36.000  283.2817    -0.0110    11.8682
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 11345000.000  10855000.000    23.000   -31.033                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+37) Site CKJ381:-
+
+RAINBOW LAKE AB Oper: SWITCH 
+L/L: 58-30-35.00N/119-24-03.00W Grnd: 576.0m
+Links:-
+Site CKJ381 name RAINBOW LAKE AB has 1 Link(s)...
+  To: CKJ382 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-3
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ382, band 11A:-
+--Other End...
+Site CKJ382 name TIMBERWOLF AB has 1 Link(s)...
+  To: CKJ381 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-3
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 10.8307, azimuth: 214.3951, back-azimuth: 34.3059
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   19.000  214.3951    -0.2904    10.8318
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10755000.000  11245000.000    20.000   -39.139                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+38) Site CKJ382:-
+
+TIMBERWOLF AB Oper: SWITCH 
+L/L: 58-25-46.00N/119-30-20.00W Grnd: 515.0m
+Links:-
+Site CKJ382 name TIMBERWOLF AB has 1 Link(s)...
+  To: CKJ381 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-3
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ381, band 11A:-
+--Other End...
+Site CKJ381 name RAINBOW LAKE AB has 1 Link(s)...
+  To: CKJ382 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode A-ANT-11G-3
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 10.8307, azimuth: 34.3059, back-azimuth: 214.3951
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   32.000   34.3059     0.2174    10.8318
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11245000.000  10755000.000    20.000   -38.740                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+39) Site CKJ412:-
+
+WINNIPEG (BURNETT). MAN-SW 7 12 Oper: HSCROW 
+L/L: 49-59-48.00N/097-10-53.00W Grnd: 229.0m
+Links:-
+Site CKJ412 name WINNIPEG (BURNETT). MAN-SW 7 12 has 2 Link(s)...
+  To: CKJ413 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ494 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKJ413, band 11A:-
+--Other End...
+Site CKJ413 name WINNIPEG. MANITOBA-155 CARLTON S has 1 Link(s)...
+  To: CKJ412 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 12.2952, azimuth: 167.1487, back-azimuth: 347.1779
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   42.000  167.1487     0.1123    12.2958
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11225000.000  10735000.000    15.500   -38.747                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+  Link 1 to CKJ494, band 11A:-
+--Other End...
+Site CKJ494 name DEACONS CORNER. MAN.-SW 12 10 4 has 2 Link(s)...
+  To: CKJ412 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKJ495 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 26.6697, azimuth: 137.4618, back-azimuth: 317.6535
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   40.000  137.4618    -0.0877    26.6709
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 11265000.000  10775000.000    16.500   -44.724                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+40) Site CKJ413:-
+
+WINNIPEG. MANITOBA-155 CARLTON S Oper: HSCROW 
+L/L: 49-53-20.00N/097-08-36.00W Grnd: 227.0m
+Links:-
+Site CKJ413 name WINNIPEG. MANITOBA-155 CARLTON S has 1 Link(s)...
+  To: CKJ412 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ412, band 11A:-
+--Other End...
+Site CKJ412 name WINNIPEG (BURNETT). MAN-SW 7 12 has 2 Link(s)...
+  To: CKJ413 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ494 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 12.2952, azimuth: 347.1779, back-azimuth: 167.1487
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   77.000  347.1779    -0.1952    12.2958
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10735000.000  11225000.000    15.500   -39.148                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+41) Site CKJ473:-
+
+HOLBORN TOWER. AB Oper: PRKLND 
+L/L: 53-25-26.00N/114-05-24.00W Grnd: 734.0m
+Links:-
+Site CKJ473 name HOLBORN TOWER. AB has 1 Link(s)...
+  To: CKJ475 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ475, band 11A:-
+--Other End...
+Site CKJ475 name PIONEER TOWER. AB has 2 Link(s)...
+  To: CKJ473 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ474 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 1 chid 9999
+    Ground distance: 15.3679, azimuth: 98.3528, back-azimuth: 278.5363
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   40.000   98.3528    -0.1450    15.3697
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11225000.000  10735000.000    19.000   -31.432   0.500   0.500 
+
+-------------------------------------------------------------
+42) Site CKJ474:-
+
+ACHESON TOWER. AB Oper: PRKLND 
+L/L: 53-33-40.00N/113-47-06.00W Grnd: 692.0m
+Links:-
+Site CKJ474 name ACHESON TOWER. AB has 1 Link(s)...
+  To: CKJ475 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ475, band 11A:-
+--Other End...
+Site CKJ475 name PIONEER TOWER. AB has 2 Link(s)...
+  To: CKJ473 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ474 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 1 chid 9999
+    Ground distance: 18.2479, azimuth: 196.1660, back-azimuth: 16.1046
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   65.000  196.1660    -0.0866    18.2500
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11225000.000  10735000.000    19.000   -32.967   0.500   0.500 
+
+-------------------------------------------------------------
+43) Site CKJ475:-
+
+PIONEER TOWER. AB Oper: PRKLND 
+L/L: 53-24-13.00N/113-51-41.00W Grnd: 704.0m
+Links:-
+Site CKJ475 name PIONEER TOWER. AB has 2 Link(s)...
+  To: CKJ473 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ474 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 1 chid 9999
+
+  Link 0 to CKJ473, band 11A:-
+--Other End...
+Site CKJ473 name HOLBORN TOWER. AB has 1 Link(s)...
+  To: CKJ475 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 15.3679, azimuth: 278.5363, back-azimuth: 98.3528
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   45.000  278.5363     0.0414    15.3697
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10735000.000  11225000.000    19.000   -31.836   0.500   0.500 
+
+  Link 1 to CKJ474, band 11A:-
+--Other End...
+Site CKJ474 name ACHESON TOWER. AB has 1 Link(s)...
+  To: CKJ475 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 18.2479, azimuth: 16.1046, back-azimuth: 196.1660
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   45.000   16.1046    -0.0364    18.2500
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9999 10735000.000  11225000.000    19.000   -33.374   0.500   0.500 
+
+-------------------------------------------------------------
+44) Site CKJ494:-
+
+DEACONS CORNER. MAN.-SW 12 10 4 Oper: HSCROW 
+L/L: 49-49-11.00N/096-55-51.00W Grnd: 236.0m
+Links:-
+Site CKJ494 name DEACONS CORNER. MAN.-SW 12 10 4 has 2 Link(s)...
+  To: CKJ412 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKJ495 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKJ412, band 11A:-
+--Other End...
+Site CKJ412 name WINNIPEG (BURNETT). MAN-SW 7 12 has 2 Link(s)...
+  To: CKJ413 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ494 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 26.6697, azimuth: 317.6535, back-azimuth: 137.4618
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   34.000  317.6535    -0.0920    26.6709
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 10775000.000  11265000.000    16.500   -45.139                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+  Link 1 to CKJ495, band 11A:-
+--Other End...
+Site CKJ495 name LANDMARK (LINDEN). MAN.-SE 19 8 has 2 Link(s)...
+  To: CKJ494 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKJ503 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 16.7857, azimuth: 169.9561, back-azimuth: 349.9871
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   15.000  169.9561    -0.0566    16.7863
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 11025000.000  11515000.000    16.500   -41.157                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+45) Site CKJ495:-
+
+LANDMARK (LINDEN). MAN.-SE 19 8 Oper: HSCROW 
+L/L: 49-40-16.00N/096-53-25.00W Grnd: 236.0m
+Links:-
+Site CKJ495 name LANDMARK (LINDEN). MAN.-SE 19 8 has 2 Link(s)...
+  To: CKJ494 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKJ503 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKJ494, band 11A:-
+--Other End...
+Site CKJ494 name DEACONS CORNER. MAN.-SW 12 10 4 has 2 Link(s)...
+  To: CKJ412 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKJ495 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 16.7857, azimuth: 349.9871, back-azimuth: 169.9561
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   15.000  349.9871    -0.0566    16.7863
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 11515000.000  11025000.000    16.500   -40.761                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+  Link 1 to CKJ503, band 11A:-
+--Other End...
+Site CKJ503 name STEINBACH. MANITOBA-SE 4 7 6 E has 1 Link(s)...
+  To: CKJ495 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 19.8324, azimuth: 140.5279, back-azimuth: 320.6605
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   27.000  140.5279    -0.0177    19.8332
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 11545000.000  11055000.000    16.500   -42.282                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+46) Site CKJ503:-
+
+STEINBACH. MANITOBA-SE 4 7 6 E Oper: HSCROW 
+L/L: 49-32-00.00N/096-42-58.00W Grnd: 257.0m
+Links:-
+Site CKJ503 name STEINBACH. MANITOBA-SE 4 7 6 E has 1 Link(s)...
+  To: CKJ495 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKJ495, band 11A:-
+--Other End...
+Site CKJ495 name LANDMARK (LINDEN). MAN.-SE 19 8 has 2 Link(s)...
+  To: CKJ494 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9998
+  To: CKJ503 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP4-107
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 19.8324, azimuth: 320.6605, back-azimuth: 140.5279
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   23.000  320.6605    -0.1160    19.8332
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 11055000.000  11545000.000    16.500   -42.681                 
+    *WARNING* TX Feed System Loss is zero.
+    *WARNING* RX Feed System Loss is zero.
+
+-------------------------------------------------------------
+47) Site CKJ563:-
+
+LACOMBE AB 235 COLLEGE AVE Oper: GVALTA 
+L/L: 52-29-35.00N/113-44-18.00W Grnd: 865.0m
+Links:-
+Site CKJ563 name LACOMBE AB 235 COLLEGE AVE has 1 Link(s)...
+  To: CKJ564 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ564, band 11A:-
+--Other End...
+Site CKJ564 name RED DEER AB 284 RANGE ROAD has 1 Link(s)...
+  To: CKJ563 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 24.9921, azimuth: 217.0563, back-azimuth: 36.8814
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   33.000  217.0563     0.2023    24.9962
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11205000.000  10715000.000    21.000   -38.984   3.300   3.300 
+
+-------------------------------------------------------------
+48) Site CKJ564:-
+
+RED DEER AB 284 RANGE ROAD Oper: GVALTA 
+L/L: 52-18-49.00N/113-57-33.00W Grnd: 978.0m
+Links:-
+Site CKJ564 name RED DEER AB 284 RANGE ROAD has 1 Link(s)...
+  To: CKJ563 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ563, band 11A:-
+--Other End...
+Site CKJ563 name LACOMBE AB 235 COLLEGE AVE has 1 Link(s)...
+  To: CKJ564 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 24.9921, azimuth: 36.8814, back-azimuth: 217.0563
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   45.000   36.8814    -0.3708    24.9962
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10715000.000  11205000.000    21.000   -39.399   3.300   3.300 
+
+-------------------------------------------------------------
+49) Site CKJ565:-
+
+RED DEER AB HERMARY STREET Oper: GVALTA 
+L/L: 52-17-05.00N/113-49-26.00W Grnd: 886.0m
+Links:-
+Site CKJ565 name RED DEER AB HERMARY STREET has 1 Link(s)...
+  To: CKJ566 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ566, band 11A:-
+--Other End...
+Site CKJ566 name PINE LAKE AB 595 RANGE ROAD has 2 Link(s)...
+  To: CKJ565 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ567 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode DA6-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 13.1161, azimuth: 114.2865, back-azimuth: 294.4249
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   25.000  114.2865     0.4930    13.1187
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11215000.000  10725000.000    21.000   -40.214   3.300   3.300 
+
+-------------------------------------------------------------
+50) Site CKJ566:-
+
+PINE LAKE AB 595 RANGE ROAD Oper: GVALTA 
+L/L: 52-14-10.00N/113-38-56.00W Grnd: 1001.0m
+Links:-
+Site CKJ566 name PINE LAKE AB 595 RANGE ROAD has 2 Link(s)...
+  To: CKJ565 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ567 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode DA6-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKJ565, band 11A:-
+--Other End...
+Site CKJ565 name RED DEER AB HERMARY STREET has 1 Link(s)...
+  To: CKJ566 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 13.1161, azimuth: 294.4249, back-azimuth: 114.2865
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   33.000  294.4249    -0.5814    13.1187
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10725000.000  11215000.000    21.000   -40.616   3.300   3.300 
+
+  Link 1 to CKJ567, band 11A:-
+--Other End...
+Site CKJ567 name PINE LAKE AB 263 RANGE ROAD has 1 Link(s)...
+  To: CKJ566 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 19.5960, azimuth: 180.0557, back-azimuth: 0.0555
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   40.000  180.0557    -0.1245    19.5992
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 10715000.000  11205000.000    21.000   -37.199   3.300   3.300 
+
+-------------------------------------------------------------
+51) Site CKJ567:-
+
+PINE LAKE AB 263 RANGE ROAD Oper: GVALTA 
+L/L: 52-03-36.00N/113-38-57.00W Grnd: 981.0m
+Links:-
+Site CKJ567 name PINE LAKE AB 263 RANGE ROAD has 1 Link(s)...
+  To: CKJ566 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKJ566, band 11A:-
+--Other End...
+Site CKJ566 name PINE LAKE AB 595 RANGE ROAD has 2 Link(s)...
+  To: CKJ565 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ567 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode DA6-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 19.5960, azimuth: 0.0555, back-azimuth: 180.0557
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   40.000    0.0555    -0.0076    19.5992
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 11205000.000  10715000.000    21.000   -36.790   3.300   3.300 
+
+-------------------------------------------------------------
+52) Site CKJ568:-
+
+TELUS VERMILION TOWER Oper: 3CINFO 
+L/L: 53-22-01.00N/110-41-36.00W Grnd: 664.0m
+Links:-
+Site CKJ568 name TELUS VERMILION TOWER has 1 Link(s)...
+  To: CKJ569 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ569, band 11A:-
+--Other End...
+Site CKJ569 name MOOSE HILLS has 1 Link(s)...
+  To: CKJ568 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 70.5857, azimuth: 353.2413, back-azimuth: 173.1393
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   25.000  353.2413    -0.0934    70.5942
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10815000.000  11305000.000    23.000   -49.845   1.000   1.000 
+
+-------------------------------------------------------------
+53) Site CKJ569:-
+
+MOOSE HILLS Oper: 3CINFO 
+L/L: 53-59-48.00N/110-49-12.00W Grnd: 822.0m
+Links:-
+Site CKJ569 name MOOSE HILLS has 1 Link(s)...
+  To: CKJ568 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ568, band 11A:-
+--Other End...
+Site CKJ568 name TELUS VERMILION TOWER has 1 Link(s)...
+  To: CKJ569 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 70.5857, azimuth: 173.1393, back-azimuth: 353.2413
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   45.000  173.1393    -0.3824    70.5942
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11305000.000  10815000.000    23.000   -49.384   1.000   1.000 
+
+-------------------------------------------------------------
+54) Site CKJ570:-
+
+ST ALBERT AB VILLENEUVE ROAD Oper: GVALTA 
+L/L: 53-39-33.00N/113-40-29.00W Grnd: 686.0m
+Links:-
+Site CKJ570 name ST ALBERT AB VILLENEUVE ROAD has 1 Link(s)...
+  To: CKJ571 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ571, band 11A:-
+--Other End...
+Site CKJ571 name EDMONTON AB 17359 34 STREET NW has 2 Link(s)...
+  To: CKJ570 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ572 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode VHP4-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 18.8691, azimuth: 99.4121, back-azimuth: 279.6387
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   48.000   99.4121    -0.0818    18.8713
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10835000.000  11325000.000    21.000   -36.956   3.300   3.300 
+
+-------------------------------------------------------------
+55) Site CKJ571:-
+
+EDMONTON AB 17359 34 STREET NW Oper: GVALTA 
+L/L: 53-37-52.00N/113-23-36.00W Grnd: 662.0m
+Links:-
+Site CKJ571 name EDMONTON AB 17359 34 STREET NW has 2 Link(s)...
+  To: CKJ570 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ572 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode VHP4-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKJ570, band 11A:-
+--Other End...
+Site CKJ570 name ST ALBERT AB VILLENEUVE ROAD has 1 Link(s)...
+  To: CKJ571 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 18.8691, azimuth: 279.6387, back-azimuth: 99.4121
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   66.000  279.6387    -0.0454    18.8713
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11325000.000  10835000.000    21.000   -36.552   3.300   3.300 
+
+  Link 1 to CKJ572, band 11A:-
+--Other End...
+Site CKJ572 name EDMONTON AB SHERWOOD PARK has 1 Link(s)...
+  To: CKJ571 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 12.0828, azimuth: 163.6174, back-azimuth: 343.6587
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   30.000  163.6174     0.5425    12.0849
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 11235000.000  10745000.000    21.000   -39.502   3.300   3.300 
+
+-------------------------------------------------------------
+56) Site CKJ572:-
+
+EDMONTON AB SHERWOOD PARK Oper: GVALTA 
+L/L: 53-31-37.00N/113-20-31.00W Grnd: 718.0m
+Links:-
+Site CKJ572 name EDMONTON AB SHERWOOD PARK has 1 Link(s)...
+  To: CKJ571 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKJ571, band 11A:-
+--Other End...
+Site CKJ571 name EDMONTON AB 17359 34 STREET NW has 2 Link(s)...
+  To: CKJ570 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode DA6-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ572 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode VHP4-107A
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 12.0828, azimuth: 343.6587, back-azimuth: 163.6174
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   97.000  343.6587    -0.6239    12.0849
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 10745000.000  11235000.000    21.000   -39.902   3.300   3.300 
+
+-------------------------------------------------------------
+57) Site CKJ573:-
+
+EDMONTON AB 3604 93 STREET NW Oper: GVALTA 
+L/L: 53-28-13.00N/113-28-27.00W Grnd: 688.0m
+Links:-
+Site CKJ573 name EDMONTON AB 3604 93 STREET NW has 1 Link(s)...
+  To: CKJ575 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ575, band 11A:-
+--Other End...
+Site CKJ575 name EDMONTON AB 9502 199 STREET NW has 1 Link(s)...
+  To: CKJ573 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 14.2801, azimuth: 298.2376, back-azimuth: 118.0851
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   30.000  298.2376    -0.0521    14.2817
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10765000.000  11255000.000    21.000   -41.404   3.300   3.300 
+
+-------------------------------------------------------------
+58) Site CKJ575:-
+
+EDMONTON AB 9502 199 STREET NW Oper: GVALTA 
+L/L: 53-31-51.00N/113-39-50.00W Grnd: 687.0m
+Links:-
+Site CKJ575 name EDMONTON AB 9502 199 STREET NW has 1 Link(s)...
+  To: CKJ573 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ573, band 11A:-
+--Other End...
+Site CKJ573 name EDMONTON AB 3604 93 STREET NW has 1 Link(s)...
+  To: CKJ575 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHP4-107A
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 14.2801, azimuth: 118.0851, back-azimuth: 298.2376
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   30.000  118.0851    -0.0441    14.2817
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11255000.000  10765000.000    21.000   -41.003   3.300   3.300 
+
+-------------------------------------------------------------
+59) Site CKJ599:-
+
+MONTREAL QC (2065 AVENUE WILSO Oper: VMTRL 
+L/L: 45-28-07.00N/073-36-43.00W Grnd: 56.0m
+Links:-
+Site CKJ599 name MONTREAL QC (2065 AVENUE WILSO has 1 Link(s)...
+  To: CKJ629 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6079
+
+  Link 0 to CKJ629, band 14C:-
+--Other End...
+Site CKJ629 name MONT-ROYAL.QC (1100 CAMILIEN HOU has 4 Link(s)...
+  To: CKJ599 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6079
+  To: CKJ622 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 1 chid 9999
+  To: CKJ627 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 1 acode UXA4-107BB
+      1 Ant index 3 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 2 chid 6071
+      1 Chan index 3 chid 9999
+  To: CKJ630 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 2 acode UXA4-107B
+      Channels:-
+      0 Chan index 4 chid 6063
+    Ground distance: 4.7730, azimuth: 21.3358, back-azimuth: 201.3516
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   38.000   21.3358     2.3353     4.7772
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 6079 15050000.000  14575000.000    22.000   -24.436   1.000   1.000 
+
+-------------------------------------------------------------
+60) Site CKJ622:-
+
+LAVAL. QC (1 PL DE LA BELLERIVE Oper: VMTRL 
+L/L: 45-32-13.00N/073-43-32.00W Grnd: 18.0m
+Links:-
+Site CKJ622 name LAVAL. QC (1 PL DE LA BELLERIVE has 3 Link(s)...
+  To: CKJ624 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA4-107BB
+      1 Ant index 1 anum 99 acode UXA4-107BB
+      Channels:-
+      0 Chan index 0 chid 6073
+      1 Chan index 1 chid 9999
+  To: CKJ628 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 2 acode UXA4-107B
+      1 Ant index 3 anum 98 acode UXA4-107B
+      Channels:-
+      0 Chan index 2 chid 6065
+      1 Chan index 3 chid 9998
+  To: CKJ629 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 1 acode UXA4-107BB
+      Channels:-
+      0 Chan index 4 chid 9999
+
+  Link 0 to CKJ624, band 11A:-
+--Other End...
+Site CKJ624 name MONTREAL. QC (11170 RAY LAWSON) has 2 Link(s)...
+  To: CKJ622 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA4-107BB
+      1 Ant index 1 anum 99 acode UXA4-107BB
+      Channels:-
+      0 Chan index 0 chid 6073
+      1 Chan index 1 chid 9999
+  To: CKJ627 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 1 acode UXA4-107B
+      Channels:-
+      0 Chan index 2 chid 6069
+    Ground distance: 14.9472, azimuth: 49.6700, back-azimuth: 229.7744
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   75.000   49.6700    -0.0542    14.9475
+  1   99   75.000   49.6700    -0.0542    14.9475
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 6073 11205000.000  10715000.000    23.000   -34.966   1.000   1.000 
+ 1( 1) 9999 10795000.000  11285000.000    23.000   -35.435   1.000   1.000 
+
+  Link 1 to CKJ628, band 11A:-
+--Other End...
+Site CKJ628 name STE-ANNE BE BELLEVUE. QC has 1 Link(s)...
+  To: CKJ622 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA4-107BB
+      1 Ant index 1 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 0 chid 6065
+      1 Chan index 1 chid 9998
+    Ground distance: 22.2939, azimuth: 231.7349, back-azimuth: 51.5755
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   75.000  231.7349    -0.0983    22.2942
+  1   98   75.000  231.7349    -0.0983    22.2942
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 6065 11265000.000  10775000.000    23.000   -38.601   1.000   1.000 
+ 1( 3) 9998 10795000.000  11285000.000    23.000   -39.027   1.000   1.000 
+
+  Link 2 to CKJ629, band 14C:-
+--Other End...
+Site CKJ629 name MONT-ROYAL.QC (1100 CAMILIEN HOU has 4 Link(s)...
+  To: CKJ599 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6079
+  To: CKJ622 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 1 chid 9999
+  To: CKJ627 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 1 acode UXA4-107BB
+      1 Ant index 3 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 2 chid 6071
+      1 Chan index 3 chid 9999
+  To: CKJ630 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 2 acode UXA4-107B
+      Channels:-
+      0 Chan index 4 chid 6063
+    Ground distance: 11.0696, azimuth: 106.4791, back-azimuth: 286.5760
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   75.000  106.4791     0.8011    11.0711
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 4) 9999 15050000.000  14575000.000    22.000   -31.909   1.000   1.000 
+
+-------------------------------------------------------------
+61) Site CKJ624:-
+
+MONTREAL. QC (11170 RAY LAWSON) Oper: VMTRL 
+L/L: 45-37-26.00N/073-34-46.00W Grnd: 47.0m
+Links:-
+Site CKJ624 name MONTREAL. QC (11170 RAY LAWSON) has 2 Link(s)...
+  To: CKJ622 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA4-107BB
+      1 Ant index 1 anum 99 acode UXA4-107BB
+      Channels:-
+      0 Chan index 0 chid 6073
+      1 Chan index 1 chid 9999
+  To: CKJ627 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 1 acode UXA4-107B
+      Channels:-
+      0 Chan index 2 chid 6069
+
+  Link 0 to CKJ622, band 11A:-
+--Other End...
+Site CKJ622 name LAVAL. QC (1 PL DE LA BELLERIVE has 3 Link(s)...
+  To: CKJ624 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA4-107BB
+      1 Ant index 1 anum 99 acode UXA4-107BB
+      Channels:-
+      0 Chan index 0 chid 6073
+      1 Chan index 1 chid 9999
+  To: CKJ628 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 2 acode UXA4-107B
+      1 Ant index 3 anum 98 acode UXA4-107B
+      Channels:-
+      0 Chan index 2 chid 6065
+      1 Chan index 3 chid 9998
+  To: CKJ629 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 1 acode UXA4-107BB
+      Channels:-
+      0 Chan index 4 chid 9999
+    Ground distance: 14.9472, azimuth: 229.7744, back-azimuth: 49.6700
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   45.000  229.7744    -0.0465    14.9475
+  1   99   45.000  229.7744    -0.0465    14.9475
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 6073 10715000.000  11205000.000    23.000   -35.371   1.000   1.000 
+ 1( 1) 9999 11285000.000  10795000.000    23.000   -35.033   1.000   1.000 
+
+  Link 1 to CKJ627, band 14C:-
+--Other End...
+Site CKJ627 name MONTREAL.QC (12001 M. DUPLESSIS) has 2 Link(s)...
+  To: CKJ624 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6069
+  To: CKJ629 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UXA4-107BB
+      1 Ant index 2 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 1 chid 6071
+      1 Chan index 2 chid 9999
+    Ground distance: 7.1439, azimuth: 33.4610, back-azimuth: 213.4972
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   45.000   33.4610    -0.3850     7.1441
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 6069 15050000.000  14575000.000    22.000   -27.996   1.000   1.000 
+
+-------------------------------------------------------------
+62) Site CKJ627:-
+
+MONTREAL.QC (12001 M. DUPLESSIS) Oper: VMTRL 
+L/L: 45-40-39.00N/073-31-44.00W Grnd: 12.0m
+Links:-
+Site CKJ627 name MONTREAL.QC (12001 M. DUPLESSIS) has 2 Link(s)...
+  To: CKJ624 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6069
+  To: CKJ629 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UXA4-107BB
+      1 Ant index 2 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 1 chid 6071
+      1 Chan index 2 chid 9999
+
+  Link 0 to CKJ624, band 14C:-
+--Other End...
+Site CKJ624 name MONTREAL. QC (11170 RAY LAWSON) has 2 Link(s)...
+  To: CKJ622 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA4-107BB
+      1 Ant index 1 anum 99 acode UXA4-107BB
+      Channels:-
+      0 Chan index 0 chid 6073
+      1 Chan index 1 chid 9999
+  To: CKJ627 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 1 acode UXA4-107B
+      Channels:-
+      0 Chan index 2 chid 6069
+    Ground distance: 7.1439, azimuth: 213.4972, back-azimuth: 33.4610
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   35.000  213.4972     0.3368     7.1441
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 6069 14575000.000  15050000.000    22.000   -28.293   1.000   1.000 
+
+  Link 1 to CKJ629, band 11A:-
+--Other End...
+Site CKJ629 name MONT-ROYAL.QC (1100 CAMILIEN HOU has 4 Link(s)...
+  To: CKJ599 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6079
+  To: CKJ622 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 1 chid 9999
+  To: CKJ627 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 1 acode UXA4-107BB
+      1 Ant index 3 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 2 chid 6071
+      1 Chan index 3 chid 9999
+  To: CKJ630 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 2 acode UXA4-107B
+      Channels:-
+      0 Chan index 4 chid 6063
+    Ground distance: 19.3618, azimuth: 194.2132, back-azimuth: 14.1697
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   35.000  194.2132     0.5502    19.3634
+  1   98   35.000  194.2132     0.5502    19.3634
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 6071 11265000.000  10775000.000    23.000   -37.332   1.000   1.000 
+ 1( 2) 9999 11285000.000  10795000.000    23.000   -37.349   1.000   1.000 
+
+-------------------------------------------------------------
+63) Site CKJ628:-
+
+STE-ANNE BE BELLEVUE. QC Oper: VMTRL 
+L/L: 45-24-45.00N/073-56-57.00W Grnd: 34.0m
+Links:-
+Site CKJ628 name STE-ANNE BE BELLEVUE. QC has 1 Link(s)...
+  To: CKJ622 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA4-107BB
+      1 Ant index 1 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 0 chid 6065
+      1 Chan index 1 chid 9998
+
+  Link 0 to CKJ622, band 11A:-
+--Other End...
+Site CKJ622 name LAVAL. QC (1 PL DE LA BELLERIVE has 3 Link(s)...
+  To: CKJ624 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA4-107BB
+      1 Ant index 1 anum 99 acode UXA4-107BB
+      Channels:-
+      0 Chan index 0 chid 6073
+      1 Chan index 1 chid 9999
+  To: CKJ628 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 2 acode UXA4-107B
+      1 Ant index 3 anum 98 acode UXA4-107B
+      Channels:-
+      0 Chan index 2 chid 6065
+      1 Chan index 3 chid 9998
+  To: CKJ629 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 1 acode UXA4-107BB
+      Channels:-
+      0 Chan index 4 chid 9999
+    Ground distance: 22.2939, azimuth: 51.5755, back-azimuth: 231.7349
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   50.000   51.5755    -0.0520    22.2942
+  1   98   50.000   51.5755    -0.0520    22.2942
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 6065 10775000.000  11265000.000    23.000   -39.011   1.000   1.000 
+ 1( 1) 9998 11285000.000  10795000.000    23.000   -38.618   1.000   1.000 
+
+-------------------------------------------------------------
+64) Site CKJ629:-
+
+MONT-ROYAL.QC (1100 CAMILIEN HOU Oper: VMTRL 
+L/L: 45-30-31.00N/073-35-23.00W Grnd: 230.0m
+Links:-
+Site CKJ629 name MONT-ROYAL.QC (1100 CAMILIEN HOU has 4 Link(s)...
+  To: CKJ599 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6079
+  To: CKJ622 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 1 chid 9999
+  To: CKJ627 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 1 acode UXA4-107BB
+      1 Ant index 3 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 2 chid 6071
+      1 Chan index 3 chid 9999
+  To: CKJ630 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 2 acode UXA4-107B
+      Channels:-
+      0 Chan index 4 chid 6063
+
+  Link 0 to CKJ599, band 14C:-
+--Other End...
+Site CKJ599 name MONTREAL QC (2065 AVENUE WILSO has 1 Link(s)...
+  To: CKJ629 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6079
+    Ground distance: 4.7730, azimuth: 201.3516, back-azimuth: 21.3358
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   60.000  201.3516    -2.3675     4.7772
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 6079 14575000.000  15050000.000    22.000   -24.727   1.000   1.000 
+
+  Link 1 to CKJ622, band 14C:-
+--Other End...
+Site CKJ622 name LAVAL. QC (1 PL DE LA BELLERIVE has 3 Link(s)...
+  To: CKJ624 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode UXA4-107BB
+      1 Ant index 1 anum 99 acode UXA4-107BB
+      Channels:-
+      0 Chan index 0 chid 6073
+      1 Chan index 1 chid 9999
+  To: CKJ628 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 2 acode UXA4-107B
+      1 Ant index 3 anum 98 acode UXA4-107B
+      Channels:-
+      0 Chan index 2 chid 6065
+      1 Chan index 3 chid 9998
+  To: CKJ629 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 1 acode UXA4-107BB
+      Channels:-
+      0 Chan index 4 chid 9999
+    Ground distance: 11.0696, azimuth: 286.5760, back-azimuth: 106.4791
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   25.000  286.5760    -0.8757    11.0711
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9999 14575000.000  15050000.000    22.000   -32.215   1.000   1.000 
+
+  Link 2 to CKJ627, band 11A:-
+--Other End...
+Site CKJ627 name MONTREAL.QC (12001 M. DUPLESSIS) has 2 Link(s)...
+  To: CKJ624 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6069
+  To: CKJ629 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode UXA4-107BB
+      1 Ant index 2 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 1 chid 6071
+      1 Chan index 2 chid 9999
+    Ground distance: 19.3618, azimuth: 14.1697, back-azimuth: 194.2132
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   25.000   14.1697    -0.6807    19.3634
+  1   98   25.000   14.1697    -0.6807    19.3634
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 6071 10775000.000  11265000.000    23.000   -37.739   1.000   1.000 
+ 1( 3) 9999 10795000.000  11285000.000    23.000   -37.755   1.000   1.000 
+
+  Link 3 to CKJ630, band 18A:-
+--Other End...
+Site CKJ630 name MONTREAL QC (1035 RACHEL) has 1 Link(s)...
+  To: CKJ629 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SC2-190A
+      Channels:-
+      0 Chan index 0 chid 6063
+    Ground distance: 2.2444, azimuth: 31.4739, back-azimuth: 211.4846
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   40.000   31.4739    -5.1756     2.2537
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 4) 6063 19375000.000  17815000.000    19.000   -29.650   1.000   1.000 
+
+-------------------------------------------------------------
+65) Site CKJ630:-
+
+MONTREAL QC (1035 RACHEL) Oper: VMTRL 
+L/L: 45-31-33.00N/073-34-29.00W Grnd: 47.0m
+Links:-
+Site CKJ630 name MONTREAL QC (1035 RACHEL) has 1 Link(s)...
+  To: CKJ629 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SC2-190A
+      Channels:-
+      0 Chan index 0 chid 6063
+
+  Link 0 to CKJ629, band 18A:-
+--Other End...
+Site CKJ629 name MONT-ROYAL.QC (1100 CAMILIEN HOU has 4 Link(s)...
+  To: CKJ599 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 0 chid 6079
+  To: CKJ622 band 14C with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 1 acode SB4-142
+      Channels:-
+      0 Chan index 1 chid 9999
+  To: CKJ627 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 1 acode UXA4-107BB
+      1 Ant index 3 anum 98 acode UXA4-107BB
+      Channels:-
+      0 Chan index 2 chid 6071
+      1 Chan index 3 chid 9999
+  To: CKJ630 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 2 acode UXA4-107B
+      Channels:-
+      0 Chan index 4 chid 6063
+    Ground distance: 2.2444, azimuth: 211.4846, back-azimuth: 31.4739
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   20.000  211.4846     5.1605     2.2537
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 6063 17815000.000  19375000.000    19.000   -30.456   1.000   1.000 
+
+-------------------------------------------------------------
+66) Site CKJ661:-
+
+HIGHWAY 40 REPEATER AB Oper: BELW 
+L/L: 52-51-19.00N/116-20-39.00W Grnd: 1403.0m
+Links:-
+Site CKJ661 name HIGHWAY 40 REPEATER AB has 1 Link(s)...
+  To: CKJ666 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP2-105
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ666, band 11A:-
+--Other End...
+Site CKJ666 name KISIKO AWASIS SCHOOL AB has 1 Link(s)...
+  To: CKJ661 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP2-105
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 30.0962, azimuth: 265.2279, back-azimuth: 84.8732
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   39.000  265.2279     0.0204    30.1032
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11255000.000  10765000.000    21.000   -56.119   1.100   1.100 
+
+-------------------------------------------------------------
+67) Site CKJ666:-
+
+KISIKO AWASIS SCHOOL AB Oper: BELW 
+L/L: 52-49-55.00N/116-47-21.00W Grnd: 1482.0m
+Links:-
+Site CKJ666 name KISIKO AWASIS SCHOOL AB has 1 Link(s)...
+  To: CKJ661 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP2-105
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ661, band 11A:-
+--Other End...
+Site CKJ661 name HIGHWAY 40 REPEATER AB has 1 Link(s)...
+  To: CKJ666 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP2-105
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 30.0962, azimuth: 84.8732, back-azimuth: 265.2279
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   24.000   84.8732    -0.2233    30.1032
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10765000.000  11255000.000    21.000   -56.538   1.100   1.100 
+
+-------------------------------------------------------------
+68) Site CKJ805:-
+
+ATCO ELECTRIC IPIATIK. AB Oper: ACCPPL 
+L/L: 55-21-21.00N/111-02-27.00W Grnd: 727.0m
+Links:-
+Site CKJ805 name ATCO ELECTRIC IPIATIK. AB has 1 Link(s)...
+  To: CKJ806 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ806, band 11A:-
+--Other End...
+Site CKJ806 name MEG CHRISTINA. AB has 1 Link(s)...
+  To: CKJ805 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 40.2963, azimuth: 31.1089, back-azimuth: 211.3816
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   85.000   31.1089    -0.4088    40.3012
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10780000.000  11270000.000    23.000   -40.650   1.000   1.000 
+
+-------------------------------------------------------------
+69) Site CKJ806:-
+
+MEG CHRISTINA. AB Oper: ACCPPL 
+L/L: 55-39-55.00N/110-42-36.00W Grnd: 584.0m
+Links:-
+Site CKJ806 name MEG CHRISTINA. AB has 1 Link(s)...
+  To: CKJ805 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP6-11-6GR
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ805, band 11A:-
+--Other End...
+Site CKJ805 name ATCO ELECTRIC IPIATIK. AB has 1 Link(s)...
+  To: CKJ806 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 40.2963, azimuth: 211.3816, back-azimuth: 31.1089
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   36.000  211.3816     0.1372    40.3012
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11270000.000  10780000.000    23.000   -40.221   1.000   1.000 
+
+-------------------------------------------------------------
+70) Site CKJ947:-
+
+PINCHER CREEK AB - RANGE ROAD 11 Oper: WSTCAW 
+L/L: 49-22-06.00N/114-03-06.00W Grnd: 1705.0m
+Links:-
+Site CKJ947 name PINCHER CREEK AB - RANGE ROAD 11 has 2 Link(s)...
+  To: CKJ949 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ950 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 1 chid 9998
+
+  Link 0 to CKJ949, band 11A:-
+--Other End...
+Site CKJ949 name PINCHER CREEK AB - RANGE ROAD 30 has 1 Link(s)...
+  To: CKJ947 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 7.6470, azimuth: 150.7460, back-azimuth: 330.7849
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   25.000  150.7460    -1.2841     7.6508
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10755000.000  11245000.000    20.000   -30.667   0.500   0.500 
+
+  Link 1 to CKJ950, band 11A:-
+--Other End...
+Site CKJ950 name PINCHER CREEK AB - NO. 9 has 1 Link(s)...
+  To: CKJ947 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 26.3912, azimuth: 299.3395, back-azimuth: 119.0983
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   30.000  299.3395    -0.3798    26.3984
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 10755000.000  11245000.000    20.000   -41.729   0.500   0.500 
+
+-------------------------------------------------------------
+71) Site CKJ949:-
+
+PINCHER CREEK AB - RANGE ROAD 30 Oper: WSTCAW 
+L/L: 49-18-30.00N/114-00-01.00W Grnd: 1517.0m
+Links:-
+Site CKJ949 name PINCHER CREEK AB - RANGE ROAD 30 has 1 Link(s)...
+  To: CKJ947 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ947, band 11A:-
+--Other End...
+Site CKJ947 name PINCHER CREEK AB - RANGE ROAD 11 has 2 Link(s)...
+  To: CKJ949 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ950 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 7.6470, azimuth: 330.7849, back-azimuth: 150.7460
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   45.000  330.7849     1.2325     7.6508
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11245000.000  10755000.000    20.000   -30.272   0.500   0.500 
+
+-------------------------------------------------------------
+72) Site CKJ950:-
+
+PINCHER CREEK AB - NO. 9 Oper: WSTCAW 
+L/L: 49-29-03.00N/114-22-09.00W Grnd: 1571.0m
+Links:-
+Site CKJ950 name PINCHER CREEK AB - NO. 9 has 1 Link(s)...
+  To: CKJ947 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKJ947, band 11A:-
+--Other End...
+Site CKJ947 name PINCHER CREEK AB - RANGE ROAD 11 has 2 Link(s)...
+  To: CKJ949 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKJ950 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode VHLP4-11W3GL
+      Channels:-
+      0 Chan index 1 chid 9998
+    Ground distance: 26.3912, azimuth: 119.0983, back-azimuth: 299.3395
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   30.000  119.0983     0.2019    26.3984
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 11245000.000  10755000.000    20.000   -41.314   0.500   0.500 
+
+-------------------------------------------------------------
+73) Site CKJ998:-
+
+NEWCASTLE RIDGE. BC Oper: NILCOM 
+L/L: 50-24-14.00N/126-03-19.00W Grnd: 1278.0m
+Links:-
+Site CKJ998 name NEWCASTLE RIDGE. BC has 3 Link(s)...
+  To: CKT200 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-130A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKT201 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HPX6-130A
+      Channels:-
+      0 Chan index 1 chid 9998
+  To: CKT202 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 3 acode HPX6-107
+      Channels:-
+      0 Chan index 2 chid 9997
+
+  Link 0 to CKT200, band 11A:-
+--Other End...
+Site CKT200 name ELK FALLS. BC has 1 Link(s)...
+  To: CKJ998 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-130A
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 64.3484, azimuth: 129.8550, back-azimuth: 310.3848
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   20.000  129.8550    -1.0680    64.3635
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11545000.000  11055000.000    23.000   -39.510   0.700   1.500 
+
+  Link 1 to CKT201, band 11A:-
+--Other End...
+Site CKT201 name ALERT BAY. BC has 1 Link(s)...
+  To: CKJ998 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-130A
+      Channels:-
+      0 Chan index 0 chid 9998
+    Ground distance: 64.2821, azimuth: 288.0764, back-azimuth: 107.4107
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    2   20.000  288.0764    -1.2967    64.3003
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 1) 9998 11545000.000  11055000.000    23.000   -39.501   0.700   1.500 
+
+  Link 2 to CKT202, band 11A:-
+--Other End...
+Site CKT202 name WOSS MOUNTAIN. BC  ( KETA SITE) has 1 Link(s)...
+  To: CKJ998 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-107
+      Channels:-
+      0 Chan index 0 chid 9997
+    Ground distance: 45.5729, azimuth: 233.8098, back-azimuth: 53.4139
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    3   20.000  233.8098    -0.5609    45.5821
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 2) 9997 11470000.000  10980000.000    23.000   -39.150   0.700   1.500 
+
+-------------------------------------------------------------
+74) Site CKT200:-
+
+ELK FALLS. BC Oper: NILCOM 
+L/L: 50-01-52.00N/125-21-57.00W Grnd: 318.0m
+Links:-
+Site CKT200 name ELK FALLS. BC has 1 Link(s)...
+  To: CKJ998 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-130A
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKJ998, band 11A:-
+--Other End...
+Site CKJ998 name NEWCASTLE RIDGE. BC has 3 Link(s)...
+  To: CKT200 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-130A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKT201 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HPX6-130A
+      Channels:-
+      0 Chan index 1 chid 9998
+  To: CKT202 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 3 acode HPX6-107
+      Channels:-
+      0 Chan index 2 chid 9997
+    Ground distance: 64.3484, azimuth: 310.3848, back-azimuth: 129.8550
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   24.000  310.3848     0.6342    64.3635
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11055000.000  11545000.000    23.000   -39.959   0.700   1.500 
+
+-------------------------------------------------------------
+75) Site CKT201:-
+
+ALERT BAY. BC Oper: NILCOM 
+L/L: 50-34-48.00N/126-55-05.00W Grnd: 74.0m
+Links:-
+Site CKT201 name ALERT BAY. BC has 1 Link(s)...
+  To: CKJ998 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-130A
+      Channels:-
+      0 Chan index 0 chid 9998
+
+  Link 0 to CKJ998, band 11A:-
+--Other End...
+Site CKJ998 name NEWCASTLE RIDGE. BC has 3 Link(s)...
+  To: CKT200 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-130A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKT201 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HPX6-130A
+      Channels:-
+      0 Chan index 1 chid 9998
+  To: CKT202 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 3 acode HPX6-107
+      Channels:-
+      0 Chan index 2 chid 9997
+    Ground distance: 64.2821, azimuth: 107.4107, back-azimuth: 288.0764
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   12.000  107.4107     0.8634    64.3003
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9998 11055000.000  11545000.000    23.000   -39.950   0.700   1.500 
+
+-------------------------------------------------------------
+76) Site CKT202:-
+
+WOSS MOUNTAIN. BC  ( KETA SITE) Oper: NILCOM 
+L/L: 50-09-39.00N/126-34-12.00W Grnd: 950.0m
+Links:-
+Site CKT202 name WOSS MOUNTAIN. BC  ( KETA SITE) has 1 Link(s)...
+  To: CKJ998 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-107
+      Channels:-
+      0 Chan index 0 chid 9997
+
+  Link 0 to CKJ998, band 11A:-
+--Other End...
+Site CKJ998 name NEWCASTLE RIDGE. BC has 3 Link(s)...
+  To: CKT200 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-130A
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKT201 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HPX6-130A
+      Channels:-
+      0 Chan index 1 chid 9998
+  To: CKT202 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 3 acode HPX6-107
+      Channels:-
+      0 Chan index 2 chid 9997
+    Ground distance: 45.5729, azimuth: 53.4139, back-azimuth: 233.8098
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   24.000   53.4139     0.2537    45.5821
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9997 10980000.000  11470000.000    23.000   -39.580   0.700   1.500 
+
+-------------------------------------------------------------
+77) Site CKT261:-
+
+WEBERVILLE AB Oper: PATHCO 
+L/L: 56-23-08.00N/117-20-40.00W Grnd: 668.0m
+Links:-
+Site CKT261 name WEBERVILLE AB has 1 Link(s)...
+  To: CKT262 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKT262, band 11A:-
+--Other End...
+Site CKT262 name CLIFFDALE AB has 1 Link(s)...
+  To: CKT261 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 37.3545, azimuth: 105.9616, back-azimuth: 286.4444
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   65.000  105.9616    -0.1060    37.3588
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 10875000.000  11365000.000    26.000   -42.825   2.000   2.000 
+
+-------------------------------------------------------------
+78) Site CKT262:-
+
+CLIFFDALE AB Oper: PATHCO 
+L/L: 56-17-31.00N/116-45-52.00W Grnd: 663.0m
+Links:-
+Site CKT262 name CLIFFDALE AB has 1 Link(s)...
+  To: CKT261 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+
+  Link 0 to CKT261, band 11A:-
+--Other End...
+Site CKT261 name WEBERVILLE AB has 1 Link(s)...
+  To: CKT262 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9999
+    Ground distance: 37.3545, azimuth: 286.4444, back-azimuth: 105.9616
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   83.000  286.4444    -0.1458    37.3588
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9999 11365000.000  10875000.000    26.000   -42.402   2.000   2.000 
+
+-------------------------------------------------------------
+79) Site CKT912:-
+
+CHEECHUM AB Oper: TRIDON 
+L/L: 56-15-47.00N/110-55-44.00W Grnd: 594.0m
+Links:-
+Site CKT912 name CHEECHUM AB has 1 Link(s)...
+  To: CKG648 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 0 chid 7999
+
+  Link 0 to CKG648, band 11A:-
+--Other End...
+Site CKG648 name FT MCMURRAY AB GREGOIRE SITE has 3 Link(s)...
+  To: CKG647 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HPX6-107
+      Channels:-
+      0 Chan index 0 chid 9999
+  To: CKG649 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 1 anum 2 acode HP8-107D
+      1 Ant index 2 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 1 chid 7997
+      1 Chan index 2 chid 9998
+  To: CKT912 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 98 acode HP8-107F
+      Channels:-
+      0 Chan index 3 chid 7999
+    Ground distance: 51.8621, azimuth: 331.4171, back-azimuth: 151.0797
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   99  123.000  331.4171    -0.4664    51.8674
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 7999 11385000.000  10895000.000    28.000   -28.493   0.500   0.500 
+
+-------------------------------------------------------------
+80) Site VFG634:-
+
+FT. MCMURRAY. AB. TRIDON SCL OFF Oper: TRIDON 
+L/L: 57-02-14.00N/111-38-17.00W Grnd: 305.0m
+Links:-
+Site VFG634 name FT. MCMURRAY. AB. TRIDON SCL OFF has 1 Link(s)...
+  To: CKG649 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 0 chid 9997
+
+  Link 0 to CKG649, band 11A:-
+--Other End...
+Site CKG649 name FT MCMURRAY AB MANNIX SITE has 4 Link(s)...
+  To: CKG648 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-107D
+      1 Ant index 1 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 0 chid 7997
+      1 Chan index 1 chid 9998
+  To: CKG650 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 2 acode HP8-107F
+      Channels:-
+      0 Chan index 2 chid 8004
+      1 Chan index 3 chid 9998
+  To: VFG634 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 3 acode HP6-11
+      Channels:-
+      0 Chan index 4 chid 9997
+  To: VFG635 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 5 chid 8012
+    Ground distance: 12.2393, azimuth: 129.1210, back-azimuth: 309.2519
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   30.000  129.1210     0.4175    12.2404
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 9997 11385000.000  10895000.000    20.000   -35.339   0.500   0.500 
+
+-------------------------------------------------------------
+81) Site VFG635:-
+
+FT. MCMURRAY AB. SUNCOR LOWER C Oper: TRIDON 
+L/L: 57-01-57.00N/111-30-27.00W Grnd: 238.0m
+Links:-
+Site VFG635 name FT. MCMURRAY AB. SUNCOR LOWER C has 1 Link(s)...
+  To: CKG649 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode SP2-18
+      Channels:-
+      0 Chan index 0 chid 8012
+
+  Link 0 to CKG649, band 18A:-
+--Other End...
+Site CKG649 name FT MCMURRAY AB MANNIX SITE has 4 Link(s)...
+  To: CKG648 band 11A with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode HP8-107D
+      1 Ant index 1 anum 99 acode HP8-107D
+      Channels:-
+      0 Chan index 0 chid 7997
+      1 Chan index 1 chid 9998
+  To: CKG650 band 11A with 1 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 2 anum 2 acode HP8-107F
+      Channels:-
+      0 Chan index 2 chid 8004
+      1 Chan index 3 chid 9998
+  To: VFG634 band 11A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 3 anum 3 acode HP6-11
+      Channels:-
+      0 Chan index 4 chid 9997
+  To: VFG635 band 18A with 1 antenna(s) and 1 channel(s):
+      Antennas:-
+      0 Ant index 4 anum 1 acode HP4-107
+      Channels:-
+      0 Chan index 5 chid 8012
+    Ground distance: 7.3729, azimuth: 167.8291, back-azimuth: 347.8506
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   90.000  167.8291     0.7056     7.3739
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 8012 19475000.000  17915000.000    21.000   -38.493   0.500   0.500 
+
+---------------------------------------------------------------
+Sites Read...:     81
+Antennas Read:    122
+Channels Read:    134
+
+8 Errors were found
+50 Warnings were issued.
+

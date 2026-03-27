@@ -1,0 +1,1163 @@
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:41
+Project Code [fmda20] Process Id: 4296
+
+PDF Name: sadd
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: %TLUSBCX1
+Lat & Long for site is the same as for existing site:- 
+	%TLUSBC11 HARTELY BAY PASS TLUSBC
+Check to ensure coordinates are correct.
+
+Site Call: CGA276A
+Lat & Long for site is the same as for existing site:- 
+	CGA276 TRUTCH ISLAND TLUSBC
+Check to ensure coordinates are correct.
+
+Site Call: XOA699A
+Lat & Long for site is the same as for existing site:- 
+	XOA699 HARTLEY BAY CO TLUSBC
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 3 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 11 warnings.
+The PDF 'sadd' is validated for :UPDATE:
+
+PDF Validation Completed - 17:41
+
+* TS-PDF: sadd, By FtPrint (190919-1339/64-R) at 2019.09.19 17:41:46
+*
+TT,U,SADD,,NAD83,,
+*##############################################################################
+SK,A,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0, ,
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,A,U,%TLUSBCX1,CGA276A,7B,11, ,
+AQ,TR,10F16FA%,9.0,215.94,-0.41,47.48,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,A,U,%TLUSBCX1,CGA276A,7B,1001, ,
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,A,U,%TLUSBCX1,CGA276A,7B,1002, ,
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,A,U,%TLUSBCX1,XOA699A,7B,11, ,
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,A,U,%TLUSBCX1,XOA699A,7B,1001, ,
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,A,U,%TLUSBCX1,XOA699A,7B,1002, ,
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,A,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0, ,
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  ------ Not Found -----   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,A,U,CGA276A,%TLUSBCX1,7B,11, ,
+AQ,TR,HP10-71GE,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,A,U,CGA276A,%TLUSBCX1,7B,1001, ,
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,A,U,CGA276A,%TLUSBCX1,7B,1002, ,
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,A,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0, ,
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  ------ Not Found -----   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,A,U,XOA699A,%TLUSBCX1,7B,11, ,
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,A,U,XOA699A,%TLUSBCX1,7B,1001, ,
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,A,U,XOA699A,%TLUSBCX1,7B,1002, ,
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+Date: 2019.09.19            Build: 190919-1339/64-R            Time: 17:41
+          ****************** Master DataBase Update ******************
+          ***  PDF Name: sadd                  User Name: fwmda   ****
+
+	Site records added       : 3
+	Site records updated     : 0
+	Site records deleted     : 0
+	Site records modified by
+	  change of Call Sign    : 0
+	Site records processed   : 3
+
+	Antenna records added    : 4
+	Antenna records updated  : 0
+	Antenna records deleted  : 0
+	Antenna records modified by
+	  change of Call Sign    : 0
+	Antenna records processed: 4
+
+	Channel records added    : 8
+	Channel records updated  : 0
+	Channel records deleted  : 0
+	Channel records modified by
+	  change of Call Sign    : 0
+	Channel records processed: 8
+
+	Tower Notes records modified by
+	  change of Call Sign    : 0
+	Routes records modified by
+	  change of Call Sign    : 0
+
+Master DataBase Update succesfully completed.
+
+
+Audit Trail - Record has been made (D:\prod\files\audit\ts\sadd.20190919_1741) of changes to the database
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:41
+Project Code [fmda20] Process Id: 2492
+
+PDF Name: owsadd
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: $INLB01X
+Lat & Long for site is the same as for existing site:- 
+	XNR43 IRON MTN INLB
+Check to ensure coordinates are correct.
+
+Site Call: %INLB02X
+Lat & Long for site is the same as for existing site:- 
+	%INLB02 CLEARWATER INLB
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 2 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'owsadd' is validated for :UPDATE:
+
+PDF Validation Completed - 17:41
+
+* TS-PDF: owsadd, By FtPrint (190919-1339/64-R) at 2019.09.19 17:41:57
+*
+TT,U,OWSADD,,NAD83,2007.02.07,09:42
+*##############################################################################
+SK,A,U,$INLB01X,IRON MTN,50-02-59.53N,120-45-47.49W,676.0, ,
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  ------ Not Found -----   Ant Gain = 42.3, Dist Loss = 70.92, At. Loss = 0.78
+AK,A,U,$INLB01X,%INLB02X,6E,11, ,
+AQ,RX,P8-65D,6.0,32.31,0.04,83.82,N, , , , , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,A,U,$INLB01X,%INLB02X,6E,1001, ,
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,1.5,-66.2, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,A,U,%INLB02X,CLEARWATER,50-41-05.61N,120-07-45.48W,1146.0, ,
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1991.07.25,CT
+*====  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 70.92, At. Loss = 0.78
+AK,A,U,%INLB02X,$INLB01X,6E,11, ,
+AQ,TX,16F24FA%,5.0,212.80,-0.60,83.82,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,A,U,%INLB02X,$INLB01X,6E,1001, ,
+CT, , , ,6640000.00,V,11,0.0, , ,MA-6G, ,-6.6,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1991.07.25
+*----  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 54.64, At. Loss = 0.12
+AK,A,U,%INLB02X,XOD250A,6E,11, ,
+AQ,RX,16F24FA%,5.0,0.35,2.60,12.87,P,286.48,3.57,48.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.44
+CK,A,U,%INLB02X,XOD250A,6E,1001, ,
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6640000.00,V,11, , ,MA-6G, ,A5250,VID,5,X
+CQ,0.0,-6.6, , , , , ,
+CO, , , , , , , ,1991.07.25
+*##############################################################################
+SK,A,U,XOD250A,MT LOLO,50-48-01.61N,120-07-41.47W,1743.0,2006.12.20,14:58
+SD,BC,INLB,5, ,0-0000000, , ,1, ,0000,1989.12.06,CT
+*====  ------ Not Found -----   Ant Gain = 42.3, Dist Loss = 54.64, At. Loss = 0.12
+AK,A,U,XOD250A,%INLB02X,6E,11, ,
+AQ,TX,P8-65D,2.0,180.35,-2.69,12.87,N, , , , , , ,1989.12.06
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.44
+CK,A,U,XOD250A,%INLB02X,6E,1001, ,
+CT, , , ,6640000.00,V,11,1.5, , ,MA-6G, ,36.0,0.0,A5250,VID,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , , , , , , ,1989.12.06
+Date: 2019.09.19            Build: 190919-1339/64-R            Time: 17:41
+          ****************** Master DataBase Update ******************
+          ***  PDF Name: owsadd                User Name: fwmda   ****
+
+	Site records added       : 3
+	Site records updated     : 0
+	Site records deleted     : 0
+	Site records modified by
+	  change of Call Sign    : 0
+	Site records processed   : 3
+
+	Antenna records added    : 4
+	Antenna records updated  : 0
+	Antenna records deleted  : 0
+	Antenna records modified by
+	  change of Call Sign    : 0
+	Antenna records processed: 4
+
+	Channel records added    : 4
+	Channel records updated  : 0
+	Channel records deleted  : 0
+	Channel records modified by
+	  change of Call Sign    : 0
+	Channel records processed: 4
+
+	Tower Notes records modified by
+	  change of Call Sign    : 0
+	Routes records modified by
+	  change of Call Sign    : 0
+
+Master DataBase Update succesfully completed.
+
+
+Audit Trail - Record has been made (D:\prod\files\audit\ts\owsadd.20190919_1741) of changes to the database
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:41
+Project Code [fmda20] Process Id: 14216
+
+PDF Name: dbleadd
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 8 warnings.
+The PDF 'dbleadd' is validated for :UPDATE:
+
+PDF Validation Completed - 17:42
+
+* TS-PDF: dbleadd, By FtPrint (190919-1339/64-R) at 2019.09.19 17:42:08
+*
+TT,U,DBLEADD,,NAD83,,
+*##############################################################################
+SK,A,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0, ,
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,A,U,%TLUSBCX8,%TLUSBCX9,11A,11, ,
+AQ,TR,20F24FB%,8.0,259.93,0.63,26.15,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,A,U,%TLUSBCX8,%TLUSBCX9,11A,1001, ,
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,A,U,%TLUSBCX8,%TLUSBCX9,11A,1002, ,
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,20.3,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-8.7, , , , , ,
+CO, , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 40.95, At. Loss = 0.04
+AK,A,U,%TLUSBCX8,CGF981A,11A,11, ,
+AQ,TR,20F24FB%,8.0,5.79,-6.96,2.66,P,312.58,-5.24,56.6, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,A,U,%TLUSBCX8,CGF981A,11A,1001, ,
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,-8.8,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,A,U,%TLUSBCX8,CGF981A,11A,1002, ,
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,-8.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,20.3, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,%TLUSBCX9,LANDSLIP 5,54-57-53.07N,129-59-05.29W,674.0, ,
+SD,BC,TLUSBC,5,T545,0-0000000,4, ,1, ,0000,1991.07.25,FT
+*====  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 60.80, At. Loss = 0.42
+AK,A,U,%TLUSBCX9,%TLUSBCX8,11A,11, ,
+AQ,TR,20F24FB%,7.0,79.60,-0.80,26.15,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,A,U,%TLUSBCX9,%TLUSBCX8,11A,1001, ,
+CT,06,1,1,10735000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.9, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,A,U,%TLUSBCX9,%TLUSBCX8,11A,1002, ,
+CT,06,1,1,10815000.00,V,11, , , ,11G905,A,18.7,0.0,D7905, ,5,X
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,X
+CQ, ,-6.8, , , , , ,
+CO, , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 44.47, At. Loss = 0.06
+AK,A,U,%TLUSBCX9,CGF983A,11A,11, ,
+AQ,TR,20F24FB%,7.0,31.89,-9.63,3.99,P,55.93,-5.70,58.4, , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,A,U,%TLUSBCX9,CGF983A,11A,1001, ,
+CT,06,2,1,11225000.00,V,11, , , ,11G905,A,-6.9,0.0,D7905, ,5,X
+CR,10735000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,A,U,%TLUSBCX9,CGF983A,11A,1002, ,
+CT,06,2,1,11305000.00,V,11, , , ,11G905,A,-6.8,0.0,D7905, ,5,X
+CR,10815000.00,V,11, , ,11G905,A,D7905,28DS1,5,X
+CQ, ,18.7, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0, ,
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,1985.05.13,FT
+*====  ------ Not Found -----   Ant Gain = 49.8, Dist Loss = 40.95, At. Loss = 0.04
+AK,A,U,CGF981A,%TLUSBCX8,11A,11, ,
+AQ,TR,HP12-107C,8.0,185.79,6.94,2.66,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.00, Rx=80.62
+CK,A,U,CGF981A,%TLUSBCX8,11A,1001, ,
+CT,06,2,1,11225000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10735000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.6, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=81.07, Rx=80.68
+CK,A,U,CGF981A,%TLUSBCX8,11A,1002, ,
+CT,06,2,1,11305000.00,V,11,2.3, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,10815000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.3,-26.5, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,CGF983A,KINCOLITH,54-59-41.11N,129-57-08.34W,8.0, ,
+SD,BC,TLUSBC,5,T247,116-0948892,4, ,1,D116,0000,1984.11.30,FT
+*====  ------ Not Found -----   Ant Gain = 49.8, Dist Loss = 44.47, At. Loss = 0.06
+AK,A,U,CGF983A,%TLUSBCX9,11A,11, ,
+AQ,TR,HP12-107C,6.0,211.92,9.61,3.99,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.62, Rx=81.00
+CK,A,U,CGF983A,%TLUSBCX9,11A,1001, ,
+CT,06,1,1,10735000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11225000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=80.68, Rx=81.07
+CK,A,U,CGF983A,%TLUSBCX9,11A,1002, ,
+CT,06,1,1,10815000.00,V,11,2.1, , ,11G905,A,38.0,0.0,D7905,28DS1,5,H
+CR,11305000.00,V,11, , ,11G905,A,D7905, ,5,H
+CQ,2.1,-26.1, , , , , ,
+CO, , , , , , , ,
+Date: 2019.09.19            Build: 190919-1339/64-R            Time: 17:42
+          ****************** Master DataBase Update ******************
+          ***  PDF Name: dbleadd               User Name: fwmda   ****
+
+	Site records added       : 4
+	Site records updated     : 0
+	Site records deleted     : 0
+	Site records modified by
+	  change of Call Sign    : 0
+	Site records processed   : 4
+
+	Antenna records added    : 6
+	Antenna records updated  : 0
+	Antenna records deleted  : 0
+	Antenna records modified by
+	  change of Call Sign    : 0
+	Antenna records processed: 6
+
+	Channel records added    : 12
+	Channel records updated  : 0
+	Channel records deleted  : 0
+	Channel records modified by
+	  change of Call Sign    : 0
+	Channel records processed: 12
+
+	Tower Notes records modified by
+	  change of Call Sign    : 0
+	Routes records modified by
+	  change of Call Sign    : 0
+
+Master DataBase Update succesfully completed.
+
+
+Audit Trail - Record has been made (D:\prod\files\audit\ts\dbleadd.20190919_1742) of changes to the database
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:42
+Project Code [fmda20] Process Id: 5616
+
+PDF Name: owdadd
+
+
+
+                ----------- WARNINGS -----------
+
+
+%DUQU04XA->%DUQU15XA Band:6E Chid:1012
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+%DUQU15XA->%DUQU04XA Band:6E Chid:1009
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+KZN80XA->%DUQU15XA Band:6E Chid:1009
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+KZN95XA->%DUQU04XA Band:6E Chid:1012
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (UNKNOWN).
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: KZN80XA %DUQU15XA 6E 1009
+Afslrx1 is 0
+
+Channel: KZN80XA %DUQU15XA 6E 1012
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1009
+Afsltx1 is 0
+
+Channel: KZN95XA %DUQU04XA 6E 1012
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 8 warnings.
+The PDF 'owdadd' is validated for :UPDATE:
+
+PDF Validation Completed - 17:42
+
+* TS-PDF: owdadd, By FtPrint (190919-1339/64-R) at 2019.09.19 17:42:17
+*
+TT,U,OWDADD,,NAD83,,
+*##############################################################################
+SK,A,U,%DUQU04XA,SHIPPINGS P,40-37-01.17N,080-26-21.52W,344.0, ,
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,A,U,%DUQU04XA,%DUQU15XA,6E,11, ,
+AQ,TR,20F24FZ%,74.0,94.73,-0.12,16.61,P,75.99,-7.05,54.3, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,A,U,%DUQU04XA,%DUQU15XA,6E,1009, ,
+CT, , , ,6825000.00,H,11,0.0, , ,UNKNOWN, ,11.3,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,A,U,%DUQU04XA,%DUQU15XA,6E,1012, ,
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,UNKNOWN, ,A0300, ,5,X
+CQ,0.0,-14.0, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 30.61, At. Loss = 0.01
+AK,A,U,%DUQU04XA,KZN95XA,6E,31, ,
+AQ,TR,20F24FZ%,76.0,56.73,-13.23,0.81,P,75.99,-7.05,53.8, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,A,U,%DUQU04XA,KZN95XA,6E,1009, ,
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,31, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.3, , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,A,U,%DUQU04XA,KZN95XA,6E,1012, ,
+CT, , , ,6695000.00,H,31,0.0, , ,UNKNOWN, ,-14.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1991.07.25
+*##############################################################################
+SK,A,U,%DUQU15XA,HOPEWELL PR,40-36-16.16N,080-14-37.50W,356.0, ,
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1991.07.25,UT
+*====  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 56.86, At. Loss = 0.16
+AK,A,U,%DUQU15XA,%DUQU04XA,6E,11, ,
+AQ,TR,20F24FZ%,44.0,274.86,0.01,16.61,P,248.85,-5.29,54.1, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,A,U,%DUQU15XA,%DUQU04XA,6E,1009, ,
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6825000.00,H,11, , ,UNKNOWN, ,A0300, ,5,X
+CQ,0.0,-14.1, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,A,U,%DUQU15XA,%DUQU04XA,6E,1012, ,
+CT, , , ,6695000.00,H,11,0.0, , ,UNKNOWN, ,11.6,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*----  ------ Not Found -----   Ant Gain = 0.0, Dist Loss = 18.97, At. Loss = 0.00
+AK,A,U,%DUQU15XA,KZN80XA,6E,11, ,
+AQ,TR,20F24FZ%,44.0,222.45,-9.51,0.21,P,248.85,-5.29,48.9, , , ,1991.07.25
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,A,U,%DUQU15XA,KZN80XA,6E,1009, ,
+CT, , , ,6825000.00,H,11,0.0, , ,UNKNOWN, ,-14.1,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,A,U,%DUQU15XA,KZN80XA,6E,1012, ,
+CT, , , , , , , , , , , ,0.0,0.0, , , ,
+CR,6695000.00,H,11, , ,778B3, ,A0300, ,5,X
+CQ,0.0,11.6, , , , , ,
+CO, , ,21, , , , ,1991.07.25
+*##############################################################################
+SK,A,U,KZN80XA,HOPEWELL SU,40-36-11.16N,080-14-43.50W,353.0, ,
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1985.11.10,UT
+*====  ------ Not Found -----   Ant Gain = 42.3, Dist Loss = 18.97, At. Loss = 0.00
+AK,A,U,KZN80XA,%DUQU15XA,6E,11, ,
+AQ,TR,PL8-65C,12.0,42.45,9.51,0.21,N, , , , , , ,1985.11.10
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.68
+CK,A,U,KZN80XA,%DUQU15XA,6E,1009, ,
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6825000.00,H,11, , ,UNKNOWN, ,A0300, ,5,X
+CQ,0.0,-23.9, , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.52
+CK,A,U,KZN80XA,%DUQU15XA,6E,1012, ,
+CT, , , ,6695000.00,H,11,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,21, , , , ,1985.11.10
+*##############################################################################
+SK,A,U,KZN95XA,BEAVER VALL,40-37-15.17N,080-25-53.52W,228.0, ,
+SD,PA,DUQU,5, ,000-0000000, , ,1, ,0000,1982.09.27,UT
+*====  ------ Not Found -----   Ant Gain = 43.9, Dist Loss = 30.61, At. Loss = 0.01
+AK,A,U,KZN95XA,%DUQU04XA,6E,31, ,
+AQ,TR,PL10-65C,7.0,236.73,13.22,0.81,N, , , , , , ,1982.09.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.68
+CK,A,U,KZN95XA,%DUQU04XA,6E,1009, ,
+CT, , , ,6825000.00,H,31,0.0, , ,778B3, ,21.0,0.0,A0300, ,5,X
+CR, , , , , , , , , , ,
+CQ, , , , , , , ,
+CO, , ,17, , , , ,1982.09.27
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Rx=76.52
+CK,A,U,KZN95XA,%DUQU04XA,6E,1012, ,
+CT, , , , , , , , , , , , ,0.0, , , ,
+CR,6695000.00,H,31, , ,UNKNOWN, ,A0300, ,5,X
+CQ,0.0,-23.7, , , , , ,
+CO, , ,17, , , , ,1982.09.27
+Date: 2019.09.19            Build: 190919-1339/64-R            Time: 17:42
+          ****************** Master DataBase Update ******************
+          ***  PDF Name: owdadd                User Name: fwmda   ****
+
+	Site records added       : 4
+	Site records updated     : 0
+	Site records deleted     : 0
+	Site records modified by
+	  change of Call Sign    : 0
+	Site records processed   : 4
+
+	Antenna records added    : 6
+	Antenna records updated  : 0
+	Antenna records deleted  : 0
+	Antenna records modified by
+	  change of Call Sign    : 0
+	Antenna records processed: 6
+
+	Channel records added    : 12
+	Channel records updated  : 0
+	Channel records deleted  : 0
+	Channel records modified by
+	  change of Call Sign    : 0
+	Channel records processed: 12
+
+	Tower Notes records modified by
+	  change of Call Sign    : 0
+	Routes records modified by
+	  change of Call Sign    : 0
+
+Master DataBase Update succesfully completed.
+
+
+Audit Trail - Record has been made (D:\prod\files\audit\ts\owdadd.20190919_1742) of changes to the database
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:42
+Project Code [fmda20] Process Id: 11752
+
+PDF Name: regadd
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'regadd' is validated for :UPDATE:
+
+PDF Validation Completed - 17:42
+
+* TS-PDF: regadd, By FtPrint (190919-1339/64-R) at 2019.09.19 17:42:19
+*
+TT,U,REGADD,,NAD83,2008.04.24,14:14
+*##############################################################################
+SK,A,U,=TLUSMCR2,BC418,49-11-27.41N,122-31-03.68W,210.0, ,
+SD,BC,TLUSMC,5, ,029348563921,CL, , , , , ,FT
+*====  ------ Not Found -----   Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,A,U,=TLUSMCR2,=TLUSMCZZ,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,023457679-003
+*----  ------ Not Found -----   Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,A,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2001.08.03,10:41
+AQ,TR,P4-144D,55.0,270.54,-0.36,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.24, Rx=83.52
+CK,A,U,=TLUSMCR2,=TLUSMCZZ,14C,1, ,
+CT, , , ,14520000.00,V,1,2.4, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14995000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,3.8,-37.8, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.34, Rx=83.61
+CK,A,U,=TLUSMCR2,=TLUSMCZZ,14C,2,2001.08.03,10:40
+CT, , , ,14685000.00,V,2,2.4, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,15160000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,3.8,-37.9, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,=TLUSMCZZ,BC009,49-11-32.40N,122-47-56.71W,90.0, ,
+SD,BC,TLUSMC,5, , ,CL, , , , , ,FT
+*====  ------ Not Found -----   Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,A,U,=TLUSMCZZ,=TLUSMCR2,14C,1,2001.08.03,10:41
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 42.5, Dist Loss = 58.69, At. Loss = 0.60
+AK,A,U,=TLUSMCZZ,=TLUSMCR2,14C,2, ,
+AQ,TR,P4-144D,70.0,90.32,0.22,20.51,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.52, Rx=83.24
+CK,A,U,=TLUSMCZZ,=TLUSMCR2,14C,1, ,
+CT, , , ,14995000.00,V,1,3.2, , ,ATI45M15, ,27.0,0.0,D8045M, ,5,F
+CR,14520000.00,V,1, , ,ATI45M15, ,D8045M, ,5,F
+CQ,4.6,-37.5, , , , , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=83.61, Rx=83.34
+CK,A,U,=TLUSMCZZ,=TLUSMCR2,14C,2, ,
+CT, , , ,15160000.00,V,2,3.2, , ,ATI8D15G, ,27.0,0.0,D7128A, ,5,D
+CR,14685000.00,V,2, , ,ATI8D15G, ,D7128A, ,5,D
+CQ,4.6,-37.6, , , , , ,
+CO, , , , , , , ,
+Date: 2019.09.19            Build: 190919-1339/64-R            Time: 17:42
+          ****************** Master DataBase Update ******************
+          ***  PDF Name: regadd                User Name: fwmda   ****
+
+	Site records added       : 2
+	Site records updated     : 0
+	Site records deleted     : 0
+	Site records modified by
+	  change of Call Sign    : 0
+	Site records processed   : 2
+
+	Antenna records added    : 4
+	Antenna records updated  : 0
+	Antenna records deleted  : 0
+	Antenna records modified by
+	  change of Call Sign    : 0
+	Antenna records processed: 4
+
+	Channel records added    : 4
+	Channel records updated  : 0
+	Channel records deleted  : 0
+	Channel records modified by
+	  change of Call Sign    : 0
+	Channel records processed: 4
+
+	Tower Notes records modified by
+	  change of Call Sign    : 0
+	Routes records modified by
+	  change of Call Sign    : 0
+
+Master DataBase Update succesfully completed.
+
+
+Audit Trail - Record has been made (D:\prod\files\audit\ts\regadd.20190919_1742) of changes to the database
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:42
+Project Code [fmda20] Process Id: 10320
+
+PDF Name: regadddvant
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: XVBB567
+Lat & Long for site is the same as for existing site:- 
+	VBB567 JOUTEL T. HYQU
+Check to ensure coordinates are correct.
+
+Site Call: XXOJ737
+Lat & Long for site is the same as for existing site:- 
+	XOJ737 CASTAGNIER T. HYQU
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 2 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'regadddvant' is validated for :UPDATE:
+
+PDF Validation Completed - 17:42
+
+* TS-PDF: regadddvant, By FtPrint (190919-1339/64-R) at 2019.09.19 17:42:24
+*
+TT,U,REGADDDVANT,,,,
+*##############################################################################
+SK,A,U,XVBB567,JOUTEL T.,49-33-36.32N,078-06-52.11W,330.0,2008.05.03,10:12
+SD,QC,HYQU,5,1992,551-3708579,2F,3866,1, , ,1992.01.01,FT
+*====  ------ Not Found -----   Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,A,U,XVBB567,XXOJ737,2G,21,2012.12.13,07:24
+AQ,TR,PL8-23D,94.8,170.82,-0.21,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*----  ------ Not Found -----   Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,A,U,XVBB567,XXOJ737,2G,22,2012.12.13,07:24
+AQ,DV1,PL8-23D,116.8,170.82,-0.24,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.05, Rx=67.22
+CK,A,U,XVBB567,XXOJ737,2G,2001,2012.12.13,07:23
+CT, , , ,2525000.00,V,21,6.3, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2295000.00,V,21, , ,QDR254, ,D7007,4DS1,5,C
+CQ,6.7,-47.6, , , , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=68.25, Rx=67.44
+CK,A,U,XVBB567,XXOJ737,2G,2002,2012.12.13,07:23
+CT, , , ,2585000.00,V,21,6.3, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2355000.00,V,21,22, ,QDR254, ,D7007,4DS1,5,C
+CQ,6.7,-47.8,7.0,-48.1, , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*##############################################################################
+SK,A,U,XXOJ737,CASTAGNIER T.,48-50-17.33N,077-56-16.13W,396.2,2008.05.03,10:12
+SD,QC,HYQU,5,1979,551-2351485,2F,4032,1, , ,1979.01.01,FT
+*====  ------ Not Found -----   Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,A,U,XXOJ737,XVBB567,2G,21,2012.12.13,07:24
+AQ,DV1,PL8-23D,118.0,350.96,-0.34,81.32,N, , , , , , ,1996.08.30
+AO, , , , , , , , , , , , , ,1996,
+*----  ------ Not Found -----   Ant Gain = 33.4, Dist Loss = 70.65, At. Loss = 0.50
+AK,A,U,XXOJ737,XVBB567,2G,22,2012.12.13,07:24
+AQ,TR,PL8-23D,95.9,350.96,-0.31,81.32,N, , , , , , ,2005.05.30
+AO, , , , , , , , , , , , , ,1996,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.22, Rx=68.05
+CK,A,U,XXOJ737,XVBB567,2G,2001,2012.12.13,07:24
+CT, , , ,2295000.00,V,22,6.8, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2525000.00,V,22, , ,QDR254, ,D7007,4DS1,5,C
+CQ,6.0,-47.2, , , , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=67.44, Rx=68.25
+CK,A,U,XXOJ737,XVBB567,2G,2002,2012.12.13,07:24
+CT, , , ,2355000.00,V,22,6.8, , ,QDR254, ,37.5,0.0,D7007,4DS1,5,C
+CR,2585000.00,V,22,21, ,QDR254, ,D7007,4DS1,5,C
+CQ,6.0,-47.4,7.0,-48.4, , , ,
+CO,194, ,1, , , ,SPCE,1996.08.30
+Date: 2019.09.19            Build: 190919-1339/64-R            Time: 17:42
+          ****************** Master DataBase Update ******************
+          ***  PDF Name: regadddvant           User Name: fwmda   ****
+
+	Site records added       : 2
+	Site records updated     : 0
+	Site records deleted     : 0
+	Site records modified by
+	  change of Call Sign    : 0
+	Site records processed   : 2
+
+	Antenna records added    : 4
+	Antenna records updated  : 0
+	Antenna records deleted  : 0
+	Antenna records modified by
+	  change of Call Sign    : 0
+	Antenna records processed: 4
+
+	Channel records added    : 4
+	Channel records updated  : 0
+	Channel records deleted  : 0
+	Channel records modified by
+	  change of Call Sign    : 0
+	Channel records processed: 4
+
+	Tower Notes records modified by
+	  change of Call Sign    : 0
+	Routes records modified by
+	  change of Call Sign    : 0
+
+Master DataBase Update succesfully completed.
+
+
+Audit Trail - Record has been made (D:\prod\files\audit\ts\regadddvant.20190919_1742) of changes to the database
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  17:42
+Project Code [fmda20] Process Id: 13984
+
+PDF Name: testelevadddb
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: VAM878X
+Lat & Long for site is the same as for existing site:- 
+	VAM878 DOUGLAS RCTL
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'testelevadddb' is validated for :UPDATE:
+
+PDF Validation Completed - 17:42
+
+* TS-PDF: testelevadddb, By FtPrint (190919-1339/64-R) at 2019.09.19 17:42:25
+*
+TT,U,TESTELEVADDDB,,,,
+*##############################################################################
+SK,A,U,CGJ846X,EDMONTON,53-32-25.24N,113-29-48.63W,663.0,2008.05.03,11:03
+SD,AB,RCTL,5,W0012,223-2859439,E, ,1, ,1200,1992.01.22,FT
+*====  ------ Not Found -----   Ant Gain = 44.9, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,CGJ846X,VAM878X,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,208.14,0.02,6.34,N, , , , , , ,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 41.0, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,CGJ846X,VAM878X,18B,12,2010.02.12,12:12
+AQ,TR,VHPX2.5-180,120.0,208.14,-0.83,6.34,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.07, Rx=85.79
+CK,A,U,CGJ846X,VAM878X,18B,1001,2010.02.12,12:12
+CT, , , ,17920000.00,H,11,9.0, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,19480000.00,H,11, , ,DVM1845, ,D18G45, ,5,F
+CQ,9.0,-42.0,9.0, ,9.0, , ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.05, Rx=85.77
+CK,A,U,CGJ846X,VAM878X,18B,1002,2010.02.12,12:12
+CT, , , ,17880000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19440000.00,H,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4,3.0, ,3.0, , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.11, Rx=85.83
+CK,A,U,CGJ846X,VAM878X,18B,1003,2010.02.12,12:12
+CT, , , ,18000000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19560000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,VAM878X,DOUGLAS,53-29-24.28N,113-32-30.86W,668.0,2010.09.02,16:42
+SD,AB,RCTL,5,W0246,223-3605307, , ,1, ,0000,1992.09.16,FT
+*====  ------ Not Found -----   Ant Gain = 44.9, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,VAM878X,CGJ846X,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,28.10,-0.07,6.34,N, , , , , , ,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.5, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,VAM878X,CGJ846X,18B,12,2010.02.12,12:12
+AQ,TR,VHPX4-180A,26.0,28.10,0.78,6.34,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.79, Rx=85.07
+CK,A,U,VAM878X,CGJ846X,18B,1001,2010.02.12,12:12
+CT, , , ,19480000.00,H,11,10.9, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,17920000.00,H,11, , ,DVM1845, ,D18G45, ,5,F
+CQ,10.9,-41.0,9.0, ,9.0, , ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.77, Rx=85.05
+CK,A,U,VAM878X,CGJ846X,18B,1002,2010.02.12,12:12
+CT, , , ,19440000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,17880000.00,H,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.4,3.0, ,3.0, , ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.83, Rx=85.11
+CK,A,U,VAM878X,CGJ846X,18B,1003,2010.02.12,12:12
+CT, , , ,19560000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,18000000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.5, , , , , ,
+CO, , , , , , , ,
+Date: 2019.09.19            Build: 190919-1339/64-R            Time: 17:42
+          ****************** Master DataBase Update ******************
+          ***  PDF Name: testelevadddb         User Name: fwmda   ****
+
+	Site records added       : 2
+	Site records updated     : 0
+	Site records deleted     : 0
+	Site records modified by
+	  change of Call Sign    : 0
+	Site records processed   : 2
+
+	Antenna records added    : 4
+	Antenna records updated  : 0
+	Antenna records deleted  : 0
+	Antenna records modified by
+	  change of Call Sign    : 0
+	Antenna records processed: 4
+
+	Channel records added    : 6
+	Channel records updated  : 0
+	Channel records deleted  : 0
+	Channel records modified by
+	  change of Call Sign    : 0
+	Channel records processed: 6
+
+	Tower Notes records modified by
+	  change of Call Sign    : 0
+	Routes records modified by
+	  change of Call Sign    : 0
+
+Master DataBase Update succesfully completed.
+
+
+Audit Trail - Record has been made (D:\prod\files\audit\ts\testelevadddb.20190919_1742) of changes to the database

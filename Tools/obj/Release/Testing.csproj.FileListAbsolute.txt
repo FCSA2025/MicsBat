@@ -1,0 +1,11 @@
+D:\Users\ahulme\MICS#\Testing\bin\Release\Testing.exe.config
+D:\Users\ahulme\MICS#\Testing\bin\Release\Testing.exe
+D:\Users\ahulme\MICS#\Testing\bin\Release\Testing.pdb
+D:\Users\ahulme\MICS#\Testing\bin\Release\_NewLib.dll
+D:\Users\ahulme\MICS#\Testing\bin\Release\_NewLib.pdb
+D:\Users\ahulme\MICS#\_bin\Release\Testing.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\Testing.exe
+D:\Users\ahulme\MICS#\_bin\Release\Testing.pdb
+D:\Users\ahulme\MICS#\Testing\obj\Release\Testing.exe
+D:\Users\ahulme\MICS#\Testing\obj\Release\Testing.pdb
+D:\Users\ahulme\MICS#\Testing\obj\Release\Testing.csprojResolveAssemblyReference.cache

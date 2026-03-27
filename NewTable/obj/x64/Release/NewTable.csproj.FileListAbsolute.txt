@@ -1,0 +1,5 @@
+D:\Users\ahulme\MICS#\_bin\Release\NewTable.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\NewTable.exe
+D:\Users\ahulme\MICS#\_bin\Release\NewTable.pdb
+D:\Users\ahulme\MICS#\NewTable\obj\x64\Release\NewTable.exe
+D:\Users\ahulme\MICS#\NewTable\obj\x64\Release\NewTable.pdb

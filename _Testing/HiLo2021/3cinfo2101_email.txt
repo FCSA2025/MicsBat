@@ -1,0 +1,12 @@
+Thu., Jun. 3 at 1:53 p.m.
+
+Hi Andrew:
+
+ Attached are a TS file and a HiLo report for this file; this is a file of an analysis done for a client this year.
+
+ You will see in the report, that this file produces the 2 false reports that we are trying to correct.  First, the internal error of the file; violation against band 11B.  This band (11B) is not existing in the TS PDF.  The second error is against an MDB site; again a problem with band 11B, but in this case is due to the overlapping of the bands and wrong assignment of the band code to the site in the MDB.  The new version of the program would correct the first problem.
+
+ Regards,
+
+ Al Moreno
+

@@ -1,0 +1,16 @@
+D:\MicsBatchProgs\MICS#\MtPrint\obj\x64\Debug\MtPrint.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\MtPrint\obj\x64\Debug\MtPrint.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\MtPrint.exe.config
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\MtPrint.exe
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\MtPrint.pdb
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\_DataStructures.dll
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\_DataStructures.pdb
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\MtPrint\bin\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\MtPrint\obj\x64\Debug\MtPrint.csproj.Up2Date
+D:\MicsBatchProgs\MICS#\MtPrint\obj\x64\Debug\MtPrint.exe
+D:\MicsBatchProgs\MICS#\MtPrint\obj\x64\Debug\MtPrint.pdb

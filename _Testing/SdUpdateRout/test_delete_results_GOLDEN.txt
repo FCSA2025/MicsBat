@@ -1,0 +1,51 @@
+		SDB OPERATOR UPDATE REPORT Build 160720-1645/64-R		Date: 2019.06.24 09:51
+
+SDF Name: test_delete
+SDF Type: Route
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 6/24/2019 9:52:00 AM
+
+
+Route SDF: test_delete
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Route SDF test_delete is valid
+
+SDF Validation completed - 6/24/2019 9:52:00 AM
+
+		SDF ROUTE UPDATE RESULTS
+::	- Successful DELETE of route ACC/100
+::	- Successful DELETE of route ALAS/440
+::	- Successful DELETE of route ATT1/441
+::	- Successful DELETE of route BCHY/700
+
+ROUTE RECORD NO ACTION: :HYQU/152: 
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_delete      User Name: hulme1     *****
+
+
+	 Records Processed: 5
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 4
+	 Records No Action: 1insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'rout', 'test_delete', '2019.06.24', '09:52') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\rout\test_delete.20190624_0952) of changes to the database
+
+
+	************     End of Summary Information     ************

@@ -1,0 +1,45 @@
+		SDB OPERATOR UPDATE REPORT Build 160706-0720/64-R		Date: 2019.06.13 19:57
+
+SDF Name: test_add
+SDF Type: Operator
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 6/13/2019 7:57:48 PM
+
+
+Operator SDF: test_add
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Operator SDF test_add is valid
+
+SDF Validation completed - 6/13/2019 7:57:48 PM
+
+		SDF OPERATOR UPDATE RESULTS
+
+SDB UPDATE SUMMARY: 12 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_add         User Name: hulme1     *****
+
+
+	 Records Processed: 12
+	     Records Added: 12
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'oper', 'test_add', '2019.06.13', '19:57') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\oper\test_add.20190613_1957) of changes to the database
+
+
+	************     End of Summary Information     ************

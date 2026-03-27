@@ -1,0 +1,14 @@
+D:\MicsBatchProgs\MICS#\_OHloss\obj\x64\Debug\_OHloss.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\_OHloss\obj\x64\Debug\_OHloss.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\_OHloss\bin\x64\Debug\_OHloss.dll.config
+D:\MicsBatchProgs\MICS#\_OHloss\bin\x64\Debug\_OHloss.dll
+D:\MicsBatchProgs\MICS#\_OHloss\bin\x64\Debug\_OHloss.pdb
+D:\MicsBatchProgs\MICS#\_OHloss\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\_OHloss\bin\x64\Debug\_DataStructures.dll
+D:\MicsBatchProgs\MICS#\_OHloss\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\_OHloss\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\_OHloss\bin\x64\Debug\_DataStructures.pdb
+D:\MicsBatchProgs\MICS#\_OHloss\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\_OHloss\obj\x64\Debug\_OHloss.csproj.Up2Date
+D:\MicsBatchProgs\MICS#\_OHloss\obj\x64\Debug\_OHloss.dll
+D:\MicsBatchProgs\MICS#\_OHloss\obj\x64\Debug\_OHloss.pdb

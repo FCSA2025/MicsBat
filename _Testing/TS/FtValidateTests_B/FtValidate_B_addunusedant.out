@@ -1,0 +1,90 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:13
+Project Code [hulme1_0] Process Id: 15232
+
+PDF Name: addunusedant
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =TLUSMCR2
+
+Site does not exist in MDB
+
+                ----------- WARNINGS -----------
+
+
+addunusedant
+Site =TLUSMCR2 has no opposing site: =TLUSMCZZ in the PDF.
+This link will not be processed by TSIP.
+
+SUMMARY OF SITE RECORDS:  1 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=TLUSMCR2 =TLUSMCZZ 14C 1
+Antenna does not exist in MDB.
+
+=TLUSMCR2 =TLUSMCZZ 14C 2
+Antenna does not exist in MDB.
+
+=TLUSMCR2 =TLUSMCZZ 14C 3
+Could not retrieve remote Antenna
+
+SUMMARY OF ANTENNA RECORDS:  3 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =TLUSMCR2 =TLUSMCZZ 14C 1
+Channel does not exist in MDB
+
+Channel: =TLUSMCR2 =TLUSMCZZ 14C 2
+Channel does not exist in MDB
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+*ERROR* Antenna from =TLUSMCR2 to =TLUSMCZZ band 14C, anum 3 is not referenced by any channel.
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =TLUSMCR2 (BC418/TLUSMC) in proposed file ...
+Checking proposed file Site =TLUSMCR2 band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+1 Site(s) checked.
+WARNING - There were hilo processing errors in the file.
+
+
+
+There were a total of 7 errors and 1 warnings.
+The PDF 'addunusedant' is invalid
+PDF Validation Completed - 16:13

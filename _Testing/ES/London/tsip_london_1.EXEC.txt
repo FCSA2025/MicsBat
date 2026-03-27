@@ -1,0 +1,41 @@
+                    FREQUENCY COORDINATION SYSTEM ASSOCIATION 190624-1034/64-R
+                  MICS TSIP Es-Ts / Ts-Es Execution Information
+   Inputs:
+             Project Code:         FMDA20
+             Parameter File Name:  london
+             TSIP Run Name:        1
+   Outputs:
+             Interference Tables
+                 te_london_1_parm Table
+                 te_london_1_site Table
+                 te_london_1_ante Table
+                 te_london_1_chan Table
+             Report files
+                 tsip_london_1.EXEC (Execution Report)
+                 tsip_london_1.STUDY (TSIP Study Report)
+                 tsip_london_1.STATSUM (Station Summary Report)
+                 tsip_london_1.CASEDET (Case Detail Report)
+
+   Propagation Loss Calculation Model:  TSIP CCIR-SJM
+   Maximum Frequency Separation      :    300.0
+   Coordination Distance             :    300.0
+   Arc Step Value used               :      1.0
+   Number of TS->ES Station Groups Passed to Analysis:  3060
+   Number of ES->TS Station Groups Passed to Analysis:  6
+   Number of TS->ES Interference Cases Reported      :  6
+   Number of ES->TS Interference Cases Reported      :  0
+
+
+   Start of TSIP Run                                End of TSIP Run
+    Date: 2019.06.25                                 Date: 2019.06.25  
+    Time: 20:11                                      Time: 20:16       
+
+Cache info:-
+Cache       Calls  Hits  Size  Used
+Antennas.: 191717191639   100    78
+Equipment:  12996 12963   100    33
+CTX Curve:      0     0   100     0
+CTX Xref.:     68     0   100     0
+Analog...:      0     0   100     0
+Digital..:   3492  3468   100    24
+

@@ -1,0 +1,11 @@
+D:\users\ahulme\MICS#\_bin\Release\LAMLreports.exe.config
+D:\users\ahulme\MICS#\_bin\Release\LAMLreports.exe
+D:\users\ahulme\MICS#\_bin\Release\LAMLreports.pdb
+D:\users\ahulme\MICS#\LAMLreports\obj\x64\Release\CreateLAMLreports.csproj.AssemblyReference.cache
+D:\users\ahulme\MICS#\LAMLreports\obj\x64\Release\CreateLAMLreports.Form1.resources
+D:\users\ahulme\MICS#\LAMLreports\obj\x64\Release\LAMLreports.Properties.Resources.resources
+D:\users\ahulme\MICS#\LAMLreports\obj\x64\Release\CreateLAMLreports.csproj.GenerateResource.cache
+D:\users\ahulme\MICS#\LAMLreports\obj\x64\Release\CreateLAMLreports.csproj.CoreCompileInputs.cache
+D:\users\ahulme\MICS#\LAMLreports\obj\x64\Release\CreateLAMLreports.csproj.CopyComplete
+D:\users\ahulme\MICS#\LAMLreports\obj\x64\Release\LAMLreports.exe
+D:\users\ahulme\MICS#\LAMLreports\obj\x64\Release\LAMLreports.pdb

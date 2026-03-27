@@ -1,0 +1,5 @@
+D:\Users\ahulme\MICS#\WriteGate\bin\Release\WriteGate.exe.config
+D:\Users\ahulme\MICS#\WriteGate\bin\Release\WriteGate.exe
+D:\Users\ahulme\MICS#\WriteGate\bin\Release\WriteGate.pdb
+D:\Users\ahulme\MICS#\WriteGate\obj\Release\WriteGate.exe
+D:\Users\ahulme\MICS#\WriteGate\obj\Release\WriteGate.pdb

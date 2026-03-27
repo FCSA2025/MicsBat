@@ -1,0 +1,70 @@
+ES PDF VALIDATION REPORT    Build 190107-1935/64-R    DATE: 2019.01.07  20:05
+Project Code [HULME1_0] Process ID [8580]
+PDF Name: esvalccal04
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna: $CBC100 $CBC100
+A site that begins with '$' must be receive only
+
+SUMMARY OF ANTENNA RECORDS: 1 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: $CBC100 $CBC100 12B1.
+A call sign ($CBC100) that begins with '$' must have RX frequencies only.
+
+KEY: $CBC100 $CBC100 12B1
+Note (4B47) not present in SDB for Operator :CBC:
+TX Frequency invalid for this antenna (TX data must not be present).
+TX Polarization invalid for this antenna (TX data must not be present).
+Max TX Power invalid for this antenna (TX data must not be present).
+TX Power invalid for this antenna (TX data must not be present).
+TX Equipment invalid for this antenna (TX data must not be present).
+TX Traffic invalid for this antenna (TX data must not be present).
+TX Status invalid for this antenna (TX data must not be present).
+TX Fee code invalid for this antenna (TX data must not be present).
+TX Service invalid for this antenna (TX data must not be present).
+
+SUMMARY OF CHANNEL RECORDS: 11 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: $CBC100 to $VMX3329.
+A site beginning with '$' ($VMX3329) must have all RX frequencies.
+The operator code in the new call sign must be the same as the operator code for this site.
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 2 errors and 0 warnings.
+
+
+There were a total of 14 errors and 0 warnings.
+The PDF 'esvalccal04' is invalid
+PDF Validation Completed -  20:05

@@ -1,0 +1,518 @@
+
+Frequency Coordination System Association                                                                                    Page: 1
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :      1    Interferor from Proposed File               Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+XCIN228            WESTWOOD RD                        RCTL              332m       2.54     2.54        0.0    Main Beam
+         XVAD472   -> HANLON/24                              RCTL
+VAD472             HANLON/24                          RCTL              334m       2.54                 0.0    Main Beam
+         CIN228    -> WESTWOOD RD                            RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:   0.21 Az: 114.7|   Victim: Boresight    Elev: -0.23 Az: 294.7
+                  To Victim: Ant.Ht:  24m Elev:   0.21 Az: 114.7|   To Int: Ant.Ht:  32m Elev: -0.23 Az: 294.7
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 42.60 dB              |   Antenna #:   11         AUse: TR     Gain: 42.60 dB
+TX.Ant.Code: VHLP2.5-220   Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2.5-220    Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2.5-220   Discr. V CPol:  0.53 dB ___          |   X Ref. Ant : VHLP2.5-220    Discr. V CPol:  0.53 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP512329  D52329         Digital       |   Eqpt. Planned / Traffic: TP23G16T  DT2316           Digital
+Eqpt. X Ref.  / Traffic: TP512329  D52329  *B/W Used:  10.00    |   Eqpt. X Ref.  / Traffic: TP23G16T  DT2316
+           TX.Freq.Bnd : 22A                                    +              RX.Freq.Bnd : 22A
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 23,475.0000  H 23,465.0000  H 5 5    9.776 19.50  3.5  1.5 -28.74  0.00  0.00 H FSL    128.4   -28.7  ( -58.7)   -95.2   -66.5
+
+Frequency Coordination System Association                                                                                    Page: 2
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :      2    Interferor from Environment File            Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+VAD472             HANLON/24                          RCTL              334m       2.54     2.54        0.0    Main Beam
+         CIN228    -> WESTWOOD RD                            RCTL
+XCIN228            WESTWOOD RD                        RCTL              332m       2.54                 0.0    Main Beam
+         XVAD472   -> HANLON/24                              RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:  -0.23 Az: 294.7|   Victim: Boresight    Elev:  0.21 Az: 114.7
+                  To Victim: Ant.Ht:  32m Elev:  -0.23 Az: 294.7|   To Int: Ant.Ht:  24m Elev:  0.21 Az: 114.7
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 42.60 dB              |   Antenna #:   11         AUse: TR     Gain: 42.60 dB
+TX.Ant.Code: VHLP2.5-220   Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2.5-220    Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2.5-220   Discr. V CPol:  0.53 dB ___          |   X Ref. Ant : VHLP2.5-220    Discr. V CPol:  0.53 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP23G16T  DT2316         Digital       |   Eqpt. Planned / Traffic: TP512329  D52329           Digital
+Eqpt. X Ref.  / Traffic: TP23G16T  DT2316                       |   Eqpt. X Ref.  / Traffic: TP512329  D52329  *B/W Used:  10.00
+           TX.Freq.Bnd : 22A                                    +              RX.Freq.Bnd : 22A
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 22,265.0000  H 22,275.0000  H 5 5    9.776 19.50  3.5  1.5 -28.31  0.00  0.00 H FSL    128.0   -28.3  ( -58.3)   -80.4   -52.1
+
+Frequency Coordination System Association                                                                                    Page: 3
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :      3    Interferor from Proposed File               Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+XCIN229            CHRISTOPHERCOURT                   RCTL              335m       1.91     1.91        0.0    Main Beam
+         XVAD472   -> HANLON/24                              RCTL
+VAD472             HANLON/24                          RCTL              334m       1.91                 0.0    Main Beam
+         CIN229    -> CHRISTOPHERCOURT                       RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:   0.02 Az: 313.8|   Victim: Boresight    Elev: -0.04 Az: 133.8
+                  To Victim: Ant.Ht:  30m Elev:   0.02 Az: 313.8|   To Int: Ant.Ht:  32m Elev: -0.04 Az: 133.8
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 40.10 dB              |   Antenna #:   11         AUse: TR     Gain: 40.10 dB
+TX.Ant.Code: VHLP2-220     Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2-220      Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2-220     Discr. V CPol:  0.00 dB ___          |   X Ref. Ant : VHLP2-220      Discr. V CPol:  0.00 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP512329  D52329         Digital       |   Eqpt. Planned / Traffic: TP23G16T  DT2316           Digital
+Eqpt. X Ref.  / Traffic: TP512329  D52329  *B/W Used:  10.00    |   Eqpt. X Ref.  / Traffic: TP23G16T  DT2316
+           TX.Freq.Bnd : 22A                                    +              RX.Freq.Bnd : 22A
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 23,575.0000  H 23,575.0000  H 5 5    0.000 19.50 11.5  1.5 -39.18  0.00  0.00 H FSL    125.9   -39.2  ( -69.2)  -106.7   -67.5
+
+Frequency Coordination System Association                                                                                    Page: 4
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :      4    Interferor from Environment File            Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+VAD472             HANLON/24                          RCTL              334m       1.91     1.91        0.0    Main Beam
+         CIN229    -> CHRISTOPHERCOURT                       RCTL
+XCIN229            CHRISTOPHERCOURT                   RCTL              335m       1.91                 0.0    Main Beam
+         XVAD472   -> HANLON/24                              RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:  -0.04 Az: 133.8|   Victim: Boresight    Elev:  0.02 Az: 313.8
+                  To Victim: Ant.Ht:  32m Elev:  -0.04 Az: 133.8|   To Int: Ant.Ht:  30m Elev:  0.02 Az: 313.8
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 40.10 dB              |   Antenna #:   11         AUse: TR     Gain: 40.10 dB
+TX.Ant.Code: VHLP2-220     Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2-220      Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2-220     Discr. V CPol:  0.00 dB ___          |   X Ref. Ant : VHLP2-220      Discr. V CPol:  0.00 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP23G16T  DT2316         Digital       |   Eqpt. Planned / Traffic: TP512329  D52329           Digital
+Eqpt. X Ref.  / Traffic: TP23G16T  DT2316                       |   Eqpt. X Ref.  / Traffic: TP512329  D52329  *B/W Used:  10.00
+           TX.Freq.Bnd : 22A                                    +              RX.Freq.Bnd : 22A
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 22,375.0000  H 22,375.0000  H 5 5    0.000 19.50 11.5  1.5 -38.75  0.00  0.00 H FSL    125.4   -38.7  ( -68.7)  -106.9   -68.1
+
+Frequency Coordination System Association                                                                                    Page: 5
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :      5    Interferor from Proposed File               Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+XCIN362            VICTORIA@WODLAWN                   RCTL              349m       3.02    39.30        0.3    Main Beam
+         XXKU588   -> GUELPH                                 RCTL
+=XCI11064          2487793 ONTARIO INC                XCI               438m      10.11               -24.8    Main Beam
+         CHL683    -> SHANTZ                                 XCI
+ 
+Antenna Geometry: Interferer: Boresight   Elev:   0.42 Az: 316.2|   Victim: Boresight    Elev:  0.30 Az: 161.0
+                  To Victim: Ant.Ht:  25m Elev:  -0.02 Az: 316.5|   To Int: Ant.Ht:  14m Elev: -0.25 Az: 136.2
+                  Off-axis Angle:   0.5 deg.                    |   Off-Axis Angle:  24.8
+Antenna #:   11         AUse: TR    Gain: 38.70 dB              |   Antenna #:   11         AUse: TR     Gain: 38.90 dB
+TX.Ant.Code: VHLP2-180     Discr. H CPol:  0.60 dB ___          |   RX.Ant.Code: VHLPX2-18      Discr. H CPol: 38.74 dB ___
+X Ref. Ant : VHLP2-180     Discr. V CPol:  0.80 dB ___          |   X Ref. Ant : VHLPX2-18      Discr. V CPol: 38.87 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 55.20 dB ___
+Offaxis Angle:   0.5 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:  24.8 deg.   Discr. V XPol: 55.20 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP511829  D51829         Digital       |   Eqpt. Planned / Traffic: IPC18073  D18073           Digital
+Eqpt. X Ref.  / Traffic: TP511829  D51829  *B/W Used:  10.00    |   Eqpt. X Ref.  / Traffic: IPC18073  D18073
+           TX.Freq.Bnd : 18B                                    +              RX.Freq.Bnd : 18B
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 19,365.0000  H 19,365.0000  B 5 5    0.000 21.50  6.5  0.5 -40.40  0.00 39.34 H FSL    153.6  -100.9  (-117.3)  -103.3    -2.5
+
+Frequency Coordination System Association                                                                                    Page: 6
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :      6    Interferor from Environment File            Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+=XCI11064          2487793 ONTARIO INC                XCI               438m      10.11    39.30      -24.8    Main Beam
+         CHL683    -> SHANTZ                                 XCI
+XCIN362            VICTORIA@WODLAWN                   RCTL              349m       3.02                 0.3    Main Beam
+         XXKU588   -> GUELPH                                 RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:   0.30 Az: 161.0|   Victim: Boresight    Elev:  0.42 Az: 316.2
+                  To Victim: Ant.Ht:  14m Elev:  -0.25 Az: 136.2|   To Int: Ant.Ht:  25m Elev: -0.02 Az: 316.5
+                  Off-axis Angle:  24.8 deg.                    |   Off-Axis Angle:   0.5
+Antenna #:   11         AUse: TR    Gain: 38.90 dB              |   Antenna #:   11         AUse: TR     Gain: 38.70 dB
+TX.Ant.Code: VHLPX2-18     Discr. H CPol: 38.74 dB ___          |   RX.Ant.Code: VHLP2-180      Discr. H CPol:  0.60 dB ___
+X Ref. Ant : VHLPX2-18     Discr. V CPol: 38.87 dB ___          |   X Ref. Ant : VHLP2-180      Discr. V CPol:  0.80 dB ___
+Model:                     Discr. H XPol: 55.20 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:  24.8 deg.  Discr. V XPol: 55.20 dB ___          +   Offaxis Angle:   0.5 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: IPC18073  D18073         Digital       |   Eqpt. Planned / Traffic: TP511829  D51829           Digital
+Eqpt. X Ref.  / Traffic: IPC18073  D18073                       |   Eqpt. X Ref.  / Traffic: TP511829  D51829  *B/W Used:  10.00
+           TX.Freq.Bnd : 18B                                    +              RX.Freq.Bnd : 18B
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 17,805.0000  B 17,805.0000  H 5 5    0.000 22.00  0.5  1.5 -36.34  0.00 39.34 B FSL    151.5   -93.3  (-109.7)  -106.8   -13.5
+
+Frequency Coordination System Association                                                                                    Page: 7
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :      7    Interferor from Proposed File               Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+XCIN362            VICTORIA@WODLAWN                   RCTL              349m       3.02     3.02        0.0    Main Beam
+         XXKU588   -> GUELPH                                 RCTL
+XKU588             GUELPH                             RCTL              359m       3.02                 0.0    Main Beam
+         CIN362    -> VICTORIA@WODLAWN                       RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:   0.42 Az: 316.2|   Victim: Boresight    Elev: -0.44 Az: 136.2
+                  To Victim: Ant.Ht:  25m Elev:   0.42 Az: 316.2|   To Int: Ant.Ht:  38m Elev: -0.44 Az: 136.2
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 38.70 dB              |   Antenna #:   11         AUse: TR     Gain: 38.70 dB
+TX.Ant.Code: VHLP2-180     Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2-180      Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2-180     Discr. V CPol:  0.00 dB ___          |   X Ref. Ant : VHLP2-180      Discr. V CPol:  0.00 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP511829  D51829         Digital       |   Eqpt. Planned / Traffic: TP18G16D  DT1816           Digital
+Eqpt. X Ref.  / Traffic: TP511829  D51829  *B/W Used:  10.00    |   Eqpt. X Ref.  / Traffic: TP18G16D  DT1816
+           TX.Freq.Bnd : 18B                                    +              RX.Freq.Bnd : 18B
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 19,365.0000  H 19,375.0000  H 5 5    9.813 21.50  6.5  1.2 -36.58  0.00  0.00 H FSL    128.1   -36.9  ( -66.9)   -96.2   -59.3
+
+Frequency Coordination System Association                                                                                    Page: 8
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :      8    Interferor from Environment File            Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+XKU588             GUELPH                             RCTL              359m       3.02     3.02        0.0    Main Beam
+         CIN362    -> VICTORIA@WODLAWN                       RCTL
+XCIN362            VICTORIA@WODLAWN                   RCTL              349m       3.02                 0.0    Main Beam
+         XXKU588   -> GUELPH                                 RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:  -0.44 Az: 136.2|   Victim: Boresight    Elev:  0.42 Az: 316.2
+                  To Victim: Ant.Ht:  38m Elev:  -0.44 Az: 136.2|   To Int: Ant.Ht:  25m Elev:  0.42 Az: 316.2
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 38.70 dB              |   Antenna #:   11         AUse: TR     Gain: 38.70 dB
+TX.Ant.Code: VHLP2-180     Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2-180      Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2-180     Discr. V CPol:  0.00 dB ___          |   X Ref. Ant : VHLP2-180      Discr. V CPol:  0.00 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP18G16D  DT1816         Digital       |   Eqpt. Planned / Traffic: TP511829  D51829           Digital
+Eqpt. X Ref.  / Traffic: TP18G16D  DT1816                       |   Eqpt. X Ref.  / Traffic: TP511829  D51829  *B/W Used:  10.00
+           TX.Freq.Bnd : 18B                                    +              RX.Freq.Bnd : 18B
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 17,815.0000  H 17,805.0000  H 5 5    9.813 19.50  4.2  1.5 -36.34  0.00  0.00 H FSL    127.2   -36.0  ( -66.0)   -80.0   -44.0
+
+Frequency Coordination System Association                                                                                    Page: 9
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :      9    Interferor from Proposed File               Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+XVAD472            HANLON/24                          RCTL              334m       2.54     2.54        0.0    Main Beam
+         XCIN228   -> WESTWOOD RD                            RCTL
+CIN228             WESTWOOD RD                        RCTL              332m       2.54                 0.0    Main Beam
+         VAD472    -> HANLON/24                              RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:  -0.23 Az: 294.7|   Victim: Boresight    Elev:  0.21 Az: 114.7
+                  To Victim: Ant.Ht:  32m Elev:  -0.23 Az: 294.7|   To Int: Ant.Ht:  24m Elev:  0.21 Az: 114.7
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 42.60 dB              |   Antenna #:   11         AUse: TR     Gain: 42.60 dB
+TX.Ant.Code: VHLP2.5-220   Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2.5-220    Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2.5-220   Discr. V CPol:  0.53 dB ___          |   X Ref. Ant : VHLP2.5-220    Discr. V CPol:  0.53 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP512329  D52329         Digital       |   Eqpt. Planned / Traffic: TP23G16T  DT2316           Digital
+Eqpt. X Ref.  / Traffic: TP512329  D52329  *B/W Used:  10.00    |   Eqpt. X Ref.  / Traffic: TP23G16T  DT2316
+           TX.Freq.Bnd : 22A                                    +              RX.Freq.Bnd : 22A
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 22,275.0000  H 22,265.0000  H 5 5    9.776 19.50  3.5  1.5 -28.30  0.00  0.00 H FSL    128.0   -28.3  ( -58.3)   -95.2   -66.9
+
+Frequency Coordination System Association                                                                                   Page: 10
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :     10    Interferor from Environment File            Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+CIN228             WESTWOOD RD                        RCTL              332m       2.54     2.54        0.0    Main Beam
+         VAD472    -> HANLON/24                              RCTL
+XVAD472            HANLON/24                          RCTL              334m       2.54                 0.0    Main Beam
+         XCIN228   -> WESTWOOD RD                            RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:   0.21 Az: 114.7|   Victim: Boresight    Elev: -0.23 Az: 294.7
+                  To Victim: Ant.Ht:  24m Elev:   0.21 Az: 114.7|   To Int: Ant.Ht:  32m Elev: -0.23 Az: 294.7
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 42.60 dB              |   Antenna #:   11         AUse: TR     Gain: 42.60 dB
+TX.Ant.Code: VHLP2.5-220   Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2.5-220    Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2.5-220   Discr. V CPol:  0.53 dB ___          |   X Ref. Ant : VHLP2.5-220    Discr. V CPol:  0.53 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP23G16T  DT2316         Digital       |   Eqpt. Planned / Traffic: TP512329  D52329           Digital
+Eqpt. X Ref.  / Traffic: TP23G16T  DT2316                       |   Eqpt. X Ref.  / Traffic: TP512329  D52329  *B/W Used:  10.00
+           TX.Freq.Bnd : 22A                                    +              RX.Freq.Bnd : 22A
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 23,465.0000  H 23,475.0000  H 5 5    9.776 19.50  3.5  1.5 -28.75  0.00  0.00 H FSL    128.4   -28.7  ( -58.7)   -80.4   -51.6
+
+Frequency Coordination System Association                                                                                   Page: 11
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :     11    Interferor from Proposed File               Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+XVAD472            HANLON/24                          RCTL              334m       1.91     1.91        0.0    Main Beam
+         XCIN229   -> CHRISTOPHERCOURT                       RCTL
+CIN229             CHRISTOPHERCOURT                   RCTL              335m       1.91                 0.0    Main Beam
+         VAD472    -> HANLON/24                              RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:  -0.04 Az: 133.8|   Victim: Boresight    Elev:  0.02 Az: 313.8
+                  To Victim: Ant.Ht:  32m Elev:  -0.04 Az: 133.8|   To Int: Ant.Ht:  30m Elev:  0.02 Az: 313.8
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 40.10 dB              |   Antenna #:   11         AUse: TR     Gain: 40.10 dB
+TX.Ant.Code: VHLP2-220     Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2-220      Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2-220     Discr. V CPol:  0.00 dB ___          |   X Ref. Ant : VHLP2-220      Discr. V CPol:  0.00 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP512329  D52329         Digital       |   Eqpt. Planned / Traffic: TP23G16T  DT2316           Digital
+Eqpt. X Ref.  / Traffic: TP512329  D52329  *B/W Used:  10.00    |   Eqpt. X Ref.  / Traffic: TP23G16T  DT2316
+           TX.Freq.Bnd : 22A                                    +              RX.Freq.Bnd : 22A
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 22,375.0000  H 22,375.0000  H 5 5    0.000 19.50 11.5  1.5 -38.75  0.00  0.00 H FSL    125.4   -38.7  ( -68.7)  -106.7   -68.0
+
+Frequency Coordination System Association                                                                                   Page: 12
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :     12    Interferor from Environment File            Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+CIN229             CHRISTOPHERCOURT                   RCTL              335m       1.91     1.91        0.0    Main Beam
+         VAD472    -> HANLON/24                              RCTL
+XVAD472            HANLON/24                          RCTL              334m       1.91                 0.0    Main Beam
+         XCIN229   -> CHRISTOPHERCOURT                       RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:   0.02 Az: 313.8|   Victim: Boresight    Elev: -0.04 Az: 133.8
+                  To Victim: Ant.Ht:  30m Elev:   0.02 Az: 313.8|   To Int: Ant.Ht:  32m Elev: -0.04 Az: 133.8
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 40.10 dB              |   Antenna #:   11         AUse: TR     Gain: 40.10 dB
+TX.Ant.Code: VHLP2-220     Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2-220      Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2-220     Discr. V CPol:  0.00 dB ___          |   X Ref. Ant : VHLP2-220      Discr. V CPol:  0.00 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP23G16T  DT2316         Digital       |   Eqpt. Planned / Traffic: TP512329  D52329           Digital
+Eqpt. X Ref.  / Traffic: TP23G16T  DT2316                       |   Eqpt. X Ref.  / Traffic: TP512329  D52329  *B/W Used:  10.00
+           TX.Freq.Bnd : 22A                                    +              RX.Freq.Bnd : 22A
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 23,575.0000  H 23,575.0000  H 5 5    0.000 19.50 11.5  1.5 -39.18  0.00  0.00 H FSL    125.9   -39.2  ( -69.2)  -106.9   -67.7
+
+Frequency Coordination System Association                                                                                   Page: 13
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :     13    Interferor from Proposed File               Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+XXKU588            GUELPH                             RCTL              359m       3.02     3.02        0.0    Main Beam
+         XCIN362   -> VICTORIA@WODLAWN                       RCTL
+CIN362             VICTORIA@WODLAWN                   RCTL              349m       3.02                 0.0    Main Beam
+         XKU588    -> GUELPH                                 RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:  -0.44 Az: 136.2|   Victim: Boresight    Elev:  0.42 Az: 316.2
+                  To Victim: Ant.Ht:  38m Elev:  -0.44 Az: 136.2|   To Int: Ant.Ht:  25m Elev:  0.42 Az: 316.2
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 38.70 dB              |   Antenna #:   11         AUse: TR     Gain: 38.70 dB
+TX.Ant.Code: VHLP2-180     Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2-180      Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2-180     Discr. V CPol:  0.00 dB ___          |   X Ref. Ant : VHLP2-180      Discr. V CPol:  0.00 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP511829  D51829         Digital       |   Eqpt. Planned / Traffic: TP18G16D  DT1816           Digital
+Eqpt. X Ref.  / Traffic: TP511829  D51829  *B/W Used:  10.00    |   Eqpt. X Ref.  / Traffic: TP18G16D  DT1816
+           TX.Freq.Bnd : 18B                                    +              RX.Freq.Bnd : 18B
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 17,805.0000  H 17,815.0000  H 5 5    9.813 21.50  6.5  1.2 -35.75  0.00  0.00 H FSL    127.2   -36.0  ( -66.0)   -96.2   -60.2
+
+Frequency Coordination System Association                                                                                   Page: 14
+MASTER DATA BASE -- TSTS Interference Study Report - CASE DETAIL                                                    Date: 2023.07.13
+Project Code [hulme1_0]
+All Cases                                                                                                           Time:      13:42
+ 
+Case Number :     14    Interferor from Environment File            Environment  :  MDB_TS          Coord. Dist.: 200.00 km
+Propagation Loss Model: Free Space                                  Analysis Type:  CHAN            PDF_Run     : milangll_1
+Maximum Frequency Separation :  300.0                               Margin       :    0.0
++----                                    Site Geometry              |  Grnd   +-------- Site to Site --------+
+Call I   Call Irx | Station  I --> Station  Irx     | OP I   OP Irx | Int.    | I-Irx Km I-Vrx Km  I  Ang.DEG * Angle
+CALL Vrx Call V   | Station  Vrx --> Station  V     | OP Vrx OP V   | Victim  | Vrx-V Km          Vrx Ang.DEG * Ref.
++----------------- ---------------- ----------------  ------ ------ ----------  ----.--- ----.--- -------.--- +---------+
+CIN362             VICTORIA@WODLAWN                   RCTL              349m       3.02     3.02        0.0    Main Beam
+         XKU588    -> GUELPH                                 RCTL
+XXKU588            GUELPH                             RCTL              359m       3.02                 0.0    Main Beam
+         XCIN362   -> VICTORIA@WODLAWN                       RCTL
+ 
+Antenna Geometry: Interferer: Boresight   Elev:   0.42 Az: 316.2|   Victim: Boresight    Elev: -0.44 Az: 136.2
+                  To Victim: Ant.Ht:  25m Elev:   0.42 Az: 316.2|   To Int: Ant.Ht:  38m Elev: -0.44 Az: 136.2
+                  Off-axis Angle:   0.0 deg.                    |   Off-Axis Angle:   0.0
+Antenna #:   11         AUse: TR    Gain: 38.70 dB              |   Antenna #:   11         AUse: TR     Gain: 38.70 dB
+TX.Ant.Code: VHLP2-180     Discr. H CPol:  0.00 dB ___          |   RX.Ant.Code: VHLP2-180      Discr. H CPol:  0.00 dB ___
+X Ref. Ant : VHLP2-180     Discr. V CPol:  0.00 dB ___          |   X Ref. Ant : VHLP2-180      Discr. V CPol:  0.00 dB ___
+Model:                     Discr. H XPol: 30.00 dB ___          |   Model:                      Discr. H XPol: 30.00 dB ___
+Offaxis Angle:   0.0 deg.  Discr. V XPol: 30.00 dB ___          +   Offaxis Angle:   0.0 deg.   Discr. V XPol: 30.00 dB ___
+ 
+-- TX Interferer Sys.Eqp.CTX.Band Info  - Station I --- TS --- *+*  -- RX Victim Sys.Eqp.CTX.Band Info ----- Station Vrx --- TS --
+Eqpt. Planned / Traffic: TP18G16D  DT1816         Digital       |   Eqpt. Planned / Traffic: TP511829  D51829           Digital
+Eqpt. X Ref.  / Traffic: TP18G16D  DT1816                       |   Eqpt. X Ref.  / Traffic: TP511829  D51829  *B/W Used:  10.00
+           TX.Freq.Bnd : 18B                                    +              RX.Freq.Bnd : 18B
+SC
+UA   TX.Freq.    P  RX.Freq.    P Chn  Freq.  Int.  Int. Vic. Vic.                                                   CALC
+BS    (MHz)      O   (MHz)      O Sta  Sep.   TXPwr AFSL AFSL RXPwr   Tilt  TANT  T  CALC PATH   CALC  C/I  OR  -I   REQD.  MARGIN
+ E    Stn.I      L  Stn.Vrx     L T.R  (MHz)  (dBm) (dB) (dB) (dBm)   DISC  DISC  X     LOSS        CPol     XPol     (dB)    (dB)
+--- ------.----- - ------.----- - -.- ----.--- --.-- --.- --.- ---.-- --.-- --.-- - ------ ---.- -----.-- -----.--  ----.-  ----.-
+  1 19,375.0000  H 19,365.0000  H 5 5    9.813 19.50  4.2  1.5 -37.17  0.00  0.00 H FSL    128.1   -36.9  ( -66.9)   -80.0   -43.1

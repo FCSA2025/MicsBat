@@ -1,0 +1,130 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:09
+Project Code [hulme1_0] Process Id: 8976
+
+PDF Name: aunkn31
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+AP31 AP31 39A 1
+This is an Area Site.  Geometry will not be recalculated.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: AP31 AP31 39A 1
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 10
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 11
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 12
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 13
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 14
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 15
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 16
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 17
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 2
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 3
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 4
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 5
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 6
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 7
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 8
+Afsltx1 is 0
+Afslrx1 is 0
+
+Channel: AP31 AP31 39A 9
+Afsltx1 is 0
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 34 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking AP31 (ACIRCLE/UNKN) in proposed file ...
+Checking proposed file Site AP31 band 39A.
+AP31 to AP31 band 39A chid 10 is first TX HiLo violation.
+AP31 to AP31 band 39A chid 10 is first RX HiLo violation.
+  Band 39A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+1 Site(s) checked.
+There were 2 hilo violations.
+
+
+
+There were a total of 0 errors and 34 warnings.
+The PDF 'aunkn31' is validated for :UPDATE:
+
+PDF Validation Completed - 16:09

@@ -1,0 +1,53 @@
+		SDB CTX UPDATE REPORT Build 160705-2108/64-R		Date: 2019.05.21 19:52
+
+SDF Name: test_update
+SDF Type: CTX
+
+
+		SDF VALIDATION RESULTS
+
+
+		SDF CTX UPDATE RESULTS
+
+CTX RECORD UPDATE: :A0005/DRB147/LD1506: 
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/0.000: 
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/620.000: 
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/680.000: 
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/720.000: 
+
+  CTX POINT RECORD UPDATE: :A0005/DRB147/LD1506/760.000: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The UPDATE permission was denied on the object 'sd_ctx', database 'fcsa', schema 'main'.
+
+CTX RECORD UPDATE: :A0012/D75100/UNKNOWN: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/120.000: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/160.000: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/200.000: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/240.000: 
+
+  CTX POINT RECORD UPDATE: :A0012/D75100/UNKNOWN/280.000: 
+Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The UPDATE permission was denied on the object 'sd_ctx', database 'fcsa', schema 'main'.
+
+SDB UPDATE SUMMARY: 2 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_update      User Name: hulme1     *****
+
+
+	 Records Processed: 2
+	 ******** ALL CHANGES ROLLED BACK ***********
+
+
+	************     End of Summary Information     ************

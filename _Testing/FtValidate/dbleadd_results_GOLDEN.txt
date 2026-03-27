@@ -1,0 +1,113 @@
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.06.19  15:16
+Project Code [hulme1_0] Process Id: 11356
+
+PDF Name: test_dbleadd
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX8 CGF981A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: %TLUSBCX8 CGF981A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1001
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: %TLUSBCX9 CGF983A 11A 1002
+Local transmit (X) and Remote receive (H) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF981A %TLUSBCX8 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1001
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+Channel: CGF983A %TLUSBCX9 11A 1002
+Local transmit (H) and Remote receive (X) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %TLUSBCX8 (ISHKHEENICKH PAS/TLUSBC) in proposed file ...
+Checking proposed file Site %TLUSBCX8 band 11A.
+%TLUSBCX8 to CGF981A band 11A chid 1001 is first TX HiLo violation.
+%TLUSBCX8 to CGF981A band 11A chid 1001 is first RX HiLo violation.
+  Band 11A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking %TLUSBCX9 (LANDSLIP 5/TLUSBC) in proposed file ...
+Checking proposed file Site %TLUSBCX9 band 11A.
+%TLUSBCX9 to CGF983A band 11A chid 1001 is first TX HiLo violation.
+%TLUSBCX9 to CGF983A band 11A chid 1001 is first RX HiLo violation.
+  Band 11A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking CGF981A (GREENVILLE RADIO/TLUSBC) in proposed file ...
+Checking proposed file Site CGF981A band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  Adjacent Band 11B OK.
+  Adjacent Band 11C OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CGF983A (KINCOLITH/TLUSBC) in proposed file ...
+Checking proposed file Site CGF983A band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  Adjacent Band 11B OK.
+  Adjacent Band 11C OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+4 Site(s) checked.
+There were 4 hilo violations.
+
+
+
+There were a total of 0 errors and 8 warnings.
+The PDF 'test_dbleadd' is validated for :UPDATE:
+
+PDF Validation Completed - 15:16
+

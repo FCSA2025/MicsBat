@@ -1,0 +1,106 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:10
+Project Code [HULME1_0] Process Id: 23660
+
+PDF Name: b071030av2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking CFA717 (LASHBURN/RCTL) in proposed file ...
+Checking proposed file Site CFA717 band 6A.
+  Band 6A OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFA717 (LASHBURN/RCTL) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	CFA717 to VEL734 band 6A chid 1001 is first RX HiLo violation.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	CFA717 to CIJ422 band 6D chid 1001 is first TX HiLo violation.
+	Violation for Band 6D
+	Band 6E
+	Band 6E OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CFA718 (PAYNTON/RCTL) in proposed file ...
+Checking proposed file Site CFA718 band 6A.
+  Band 6A OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFA718 (PAYNTON/RCTL) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	CFA718 to VAK566 band 6A chid 1001 is first TX HiLo violation.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	CFA718 to CIJ422 band 6D chid 1001 is first TX HiLo violation.
+	Violation for Band 6D
+	Band 6E
+	Band 6E OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 2 hilo violations.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'b071030av2' is validated for :UPDATE:
+
+PDF Validation Completed - 16:10

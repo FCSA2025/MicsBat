@@ -1,0 +1,612 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:17
+Project Code [HULME1_0] Process Id: 17996
+
+PDF Name: taflinlb02
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+XOD250 VGP210 6D 99
+Could not retrieve remote Antenna
+
+%INLB02->XOD250 Band:6E
+SetPassiveNormals - Could not get other end of Passive link.
+
+                ----------- WARNINGS -----------
+
+
+CFY69 XOD250 6B 99
+Distance (94.9) is greater than 90km.
+
+XNR43 XOD250 6B 99
+Distance (90.9) is greater than 90km.
+
+XOD250 CFY69 6B 99
+Distance (94.9) is greater than 90km.
+
+XOD250 VGP210 6D 99
+Licence fields differ between XOD250 and VGP210.
+
+XOD250 XNR43 6B 99
+Distance (90.9) is greater than 90km.
+
+SUMMARY OF ANTENNA RECORDS:  2 errors and 5 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: %INLB02 XNR43 6E 1001
+No main TX Antenna for this channel.
+
+Channel: XNR43 %INLB02 6E 1001
+No Main RX Antenna for this channel
+
+
+Channel: XOD250 VGP210 6D A485
+Channel does not exist in MDB.
+
+                ----------- WARNINGS -----------
+
+
+Channel: %INLB02 XNR43 6E 1001
+Passive power calculations are incorrect for reason 16
+(suGetAnt - Invalid arguments)
+Passive power calculations are incorrect for reason 13
+(suGetAnt - Invalid arguments)
+
+Channel: %INLB02 XOD250 6E 1001
+Passive power calculations are incorrect for reason 13
+(suGetAnt - Invalid arguments)
+
+Channel: XNR43 %INLB02 6E 1001
+Passive power calculations are incorrect for reason 13
+(suGetAnt - Invalid arguments)
+
+Channel: XOD250 %INLB02 6E 1001
+Passive power calculations are incorrect for reason 16
+(suGetAnt - Invalid arguments)
+Passive power calculations are incorrect for reason 13
+(suGetAnt - Invalid arguments)
+
+
+SUMMARY OF CHANNEL RECORDS:  3 errors and 6 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %INLB02 (CLEARWATER/INLB) in proposed file ...
+Checking proposed file Site %INLB02 band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: %INLB02 (CLEARWATER/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: %INLB02X (CLEARWATER/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CFY69 (UNKNOWN/INLB) in proposed file ...
+Checking proposed file Site CFY69 band 6B.
+  Band 6B OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6A OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: $INLB01X (IRON MTN/INLB) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	$INLB01X to %INLB02X band 6E chid 1001 is first RX HiLo violation.
+	Violation for Band 6E
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: CFY69 (UNKNOWN/INLB) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: XLB943 (IRON MTN/TLUSMC) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	XLB943 to CFR275 band 6D chid 1 is first RX HiLo violation.
+	Violation for Band 6D
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 3 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VGP210 (DUFFERIN HILL BC/INLB) in proposed file ...
+Checking proposed file Site VGP210 band 6B.
+  Band 6B OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6A OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VFE959 (UNKNOWN/NLBRD) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: VGO911 (UNKNOWN/WCTV) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: VGP210 (DUFFERIN HILL BC/INLB) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	VGP210 to VGP211 band 6E chid 5388 is first TX HiLo violation.
+	Violation for Band 6E
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: XJT29 (UNKNOWN/NLBRD) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: XLB933 (DUFFERIN/RCTL) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	XLB933 to CFR266 band 6B chid 1004 is first TX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 5 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XNR43 (UNKNOWN/INLB) in proposed file ...
+Checking proposed file Site XNR43 band 6B.
+  Band 6B OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6A OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XNR43 (UNKNOWN/INLB) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	XNR43 to %INLB02 band 6E chid 1001 is first RX HiLo violation.
+	Violation for Band 6E
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site XNR43 band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XNR43 (UNKNOWN/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	XNR43 to XOD250 band 6B chid 9998 is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOD250 (MT. LOLO REPEATER BC/INLB) in proposed file ...
+Checking proposed file Site XOD250 band 6B.
+  Band 6B OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6A OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFW303 (MT LOLO/TLUSBC) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	CFW303 to XLB547 band 6A chid 1001 is first TX HiLo violation.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: XOD250 (MT. LOLO REPEATER BC/INLB) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	XOD250 to %INLB02 band 6E chid 1001 is first TX HiLo violation.
+	Violation for Band 6E
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: XOD250A (MT LOLO/INLB) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	XOD250A to %INLB02X band 6E chid 1001 is first TX HiLo violation.
+	Violation for Band 6E
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 3 nearby sites checked in the database.
+Checking proposed file Site XOD250 band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFW303 (MT LOLO/TLUSBC) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: XOD250 (MT. LOLO REPEATER BC/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: XOD250A (MT LOLO/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+There were 3 nearby sites checked in the database.
+Checking proposed file Site XOD250 band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFW303 (MT LOLO/TLUSBC) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: XOD250 (MT. LOLO REPEATER BC/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	XOD250 to CFY69 band 6B chid 9998 is first TX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: XOD250A (MT LOLO/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+There were 3 nearby sites checked in the database.
+
+---------------------------
+
+5 Site(s) checked.
+There were 10 hilo violations.
+
+
+
+There were a total of 5 errors and 11 warnings.
+The PDF 'taflinlb02' is invalid
+PDF Validation Completed - 21:17

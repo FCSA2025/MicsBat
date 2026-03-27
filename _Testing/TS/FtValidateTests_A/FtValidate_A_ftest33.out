@@ -1,0 +1,216 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:09
+Project Code [HULME1_0] Process Id: 2960
+
+PDF Name: ftest33
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: $BMCETCMA =BMCEBSMT 6A 1
+Afslrx1 is 0
+
+Channel: =BMCEBSMT $BMCETCMA 6A 1
+Afsltx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking $BMCETCMA (TACOMA WA/BMCE) in proposed file ...
+Checking proposed file Site $BMCETCMA band 6A.
+  Band 6A OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: WPTK88702 (2320 S 19TH/A25718) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: WPTK90002 (2320 S 19TH/A25718) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: WPTN66701 (2320 S 19TH/A25718) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: WPTN66801 (2320 S 19TH/A25718) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: WPWM28902 (TRAFTON/B79376) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: WPWM29001 (TRAFTON/B79376) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: WQHB24001 (19TH TRAFTON/A74781) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+	Database Site: WQHB25003 (19TH TRAFTON/A74781) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	WQHB25003 to WQHB25001 band 6E chid AOYO is first RX HiLo violation.
+	Violation for Band 6E
+        Site Has HiLo violation(s).
+
+	Database Site: WQSD59802 (2320 S 19TH/A25718) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+        Site OK
+
+There were 9 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =BMCEBSMT (BUSH MTN WA/BMCE) in proposed file ...
+Checking proposed file Site =BMCEBSMT band 6A.
+  Band 6A OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 1 hilo violations.
+
+
+
+There were a total of 0 errors and 2 warnings.
+The PDF 'ftest33' is validated for :UPDATE:
+
+PDF Validation Completed - 16:09

@@ -1,0 +1,91 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:40
+Project Code [HULME1_0] Process Id: 17452
+
+PDF Name: ftest3220jan2013
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+CHW962 CJX594 14C 1
+Antenna Code (P6-144DV) not present in the Antenna Table.
+
+CJX594 CHW962 14C 1
+Antenna Code (P6-144DV) not present in the Antenna Table.
+
+SUMMARY OF ANTENNA RECORDS:  2 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: CHW962 CJX594 14C 2
+Could not read remote channel's Antenna TX1 data.
+Could not read Antenna RX1 data.
+
+Channel: CHW962 CJX594 14C 3
+Could not read remote channel's Antenna TX1 data.
+Could not read Antenna RX1 data.
+
+Channel: CJX594 CHW962 14C 1
+Could not read remote channel's Antenna TX1 data.
+Could not read Antenna RX1 data.
+
+Channel: CJX594 CHW962 14C 2
+Could not read remote channel's Antenna TX1 data.
+Could not read Antenna RX1 data.
+
+Channel: CJX594 CHW962 14C 3
+Could not read remote channel's Antenna TX1 data.
+Could not read Antenna RX1 data.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 10 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking CHW962 (GREENWOOD ASR/DND) in proposed file ...
+Checking proposed file Site CHW962 band 14C.
+CHW962 to CJX594 band 14C chid 2 is first TX HiLo violation.
+  Band 14C HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking CJX594 (GREENWOOD IFRCC/DND) in proposed file ...
+Checking proposed file Site CJX594 band 14C.
+CJX594 to CHW962 band 14C chid 2 is first RX HiLo violation.
+  Band 14C HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+2 Site(s) checked.
+There were 2 hilo violations.
+
+
+
+There were a total of 2 errors and 10 warnings.
+The PDF 'ftest3220jan2013' is invalid
+PDF Validation Completed - 21:40

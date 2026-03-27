@@ -1,0 +1,19 @@
+Test #1:
+=======
+PFDcont fcsa P S VEL415 45-19-07.05N 075-54-46.40W 04F0406A 25 180 0 0 0 60.0 50 7125000 0.10 -114.0 -94.0 RCM D:\Inetpub\micstest\mics\userdirs\hulme\hulme1\p1519-2
+
+Test #2:
+=======
+PFDcont fcsa C S VEL415 45-19-07.05N 075-54-46.40W 04F0406A 25 180 0 0 0 60.0 50 7125000 0.10 -114.0 M RCM D:\Inetpub\micstest\mics\userdirs\hulme\hulme1\p1519-2
+
+Test #3:
+=======
+PFDcont fcsa P T VEL415 45-19-07.05N 075-54-46.40W 04F0406A 25 180 0 0 0 60.0 50 7125000 0.10 -114.0 -94.0 RCM D:\Inetpub\micstest\mics\userdirs\hulme\hulme1\p1519-2
+
+Test #4:
+=======
+PFDcont fcsa C T 0 45-19-07.05N 075-54-46.40W 04F0406A 25 180 0 0 0 60.0 50 7125000 0.10 -114.0 C RCM D:\Inetpub\micstest\mics\userdirs\hulme\hulme1\p1519-2
+
+Test #5:
+=======
+PFDcont fcsa C T 0 45-19-07.05N 075-54-46.40W 04F0406A 25 180 41.8 -9.8 300 60.0 50 7125000 0.10 -114.0 C RCM D:\Inetpub\micstest\mics\userdirs\hulme\hulme1\p1519-2

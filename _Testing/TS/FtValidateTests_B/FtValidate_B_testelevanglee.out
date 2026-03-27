@@ -1,0 +1,113 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2058/64-R
+RUN DATE: 2020.09.09  21:18
+Project Code [hulme1_0] Process Id: 10548
+
+PDF Name: testelevanglee
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: CGJ846X
+
+Site does not exist in MDB
+
+KEY: VAM878X
+
+Site does not exist in MDB
+
+SUMMARY OF SITE RECORDS:  2 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+CGJ846X VAM878X 18B 11
+Antenna to update does not exist in MDB
+
+CGJ846X VAM878X 18B 12
+Antenna to delete does not exist in MDB
+
+VAM878X CGJ846X 18B 11
+Antenna to delete does not exist in MDB
+
+VAM878X CGJ846X 18B 12
+Antenna to update does not exist in MDB
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: CGJ846X VAM878X 18B 1001
+Channel does not exist in MDB.
+
+Channel: CGJ846X VAM878X 18B 1002
+Channel does not exist in MDB.
+
+Channel: CGJ846X VAM878X 18B 1003
+Channel does not exist in MDB.
+
+Channel: VAM878X CGJ846X 18B 1001
+Channel does not exist in MDB.
+
+Channel: VAM878X CGJ846X 18B 1002
+Channel does not exist in MDB.
+
+Channel: VAM878X CGJ846X 18B 1003
+Channel does not exist in MDB
+
+
+SUMMARY OF CHANNEL RECORDS:  6 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking CGJ846X (EDMONTON/RCTL) in proposed file ...
+Checking proposed file Site CGJ846X band 18B.
+  Band 18B OK, checking adjacent bands.
+  Adjacent Band 18A OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VAM878X (DOUGLAS/RCTL) in proposed file ...
+Checking proposed file Site VAM878X band 18B.
+  Band 18B OK, checking adjacent bands.
+  Adjacent Band 18A OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 12 errors and 0 warnings.
+The PDF 'testelevanglee' is invalid
+PDF Validation Completed - 21:18

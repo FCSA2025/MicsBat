@@ -1,0 +1,35 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2058/64-R
+RUN DATE: 2020.09.09  21:13
+Project Code [hulme1_0] Process Id: 21112
+
+PDF Name: owsdel
+
+
+
+                *********** ERRORS ***********
+
+
+$INLB01->%INLB02 Band:6E Chid:1001
+MERGE 21 - No mdb channel.
+
+%INLB02->$INLB01 Band:6E Chid:1001
+MERGE 21 - No mdb channel.
+
+                ----------- WARNINGS -----------
+
+
+$INLB01->%INLB02 Band:6E Chid:1001
+MERGE 29 - Must change RX equipment field from remote active TX side.  Validate will use the value in the remote active TX equipment field (MA-6G).
+MERGE 30 - Must change RX traffic field from remote active TX side. Validate will use the value in the remote active TX traffic field (A5250).
+
+%INLB02->$INLB01 Band:6E Chid:1001
+MERGE 25 - Must change traffic transmit field at originator.
+	Validate will use the originating transmit field for this value ().
+
+%INLB02->XNR43 Band:6E Chid:1001
+MERGE 25 - Must change traffic transmit field at originator.
+	Validate will use the originating transmit field for this value ().
+
+Unable to merge passive data. Validate cancelled

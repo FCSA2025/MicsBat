@@ -1,0 +1,181 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2133/64-R
+RUN DATE: 2020.09.09  21:41
+Project Code [hulme1_0] Process Id: 20144
+
+PDF Name: nwtestelevangleb
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+CGJ846 VAM878 18B 12
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 11
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 12
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 3 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: CGJ846 VAM878 18B 1002
+Channel does not exist in MDB.
+
+Channel: VAM878 CGJ846 18B 1002
+Channel does not exist in MDB.
+
+                ----------- WARNINGS -----------
+
+
+Channel: CGJ846 VAM878 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: CGJ846 VAM878 18B 1003
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1003
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking CGJ846 (EDMONTON/RCTL) in proposed file ...
+Checking proposed file Site CGJ846 band 18B.
+  Band 18B OK, checking adjacent bands.
+  Adjacent Band 18A OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CGJ846 (EDMONTON/RCTL) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: CIJ610 (EDMONTON ALBERTA-10035 105 STRE/ATCO) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: VBF632 (EDMONTON AB ATCO CNTR 10035-105/NWUL) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: VYC967 (EDMONTON. AB. CWB BUIDLING 10303/CRAIG2) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: VYC968 (EDMONTON. AB. CWB BUIDLING 10303/CRAIG2) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+	Database Site: XOR776 (EDMONTON AB - 10303 JASPER AVE./CRAIG2) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 6 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VAM878 (DOUGLAS/RCTL) in proposed file ...
+Checking proposed file Site VAM878 band 18B.
+  Band 18B OK, checking adjacent bands.
+  Adjacent Band 18A OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VAM878 (DOUGLAS/RCTL) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 2 errors and 7 warnings.
+The PDF 'nwtestelevangleb' is invalid
+PDF Validation Completed - 21:41

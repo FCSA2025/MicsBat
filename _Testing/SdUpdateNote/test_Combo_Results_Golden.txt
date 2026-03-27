@@ -1,0 +1,43 @@
+		SDB NOTE UPDATE REPORT Build 160707-1617/64-R		Date: 2019.06.04 12:09
+
+SDF Name: test_combo
+SDF Type: Note
+
+
+		SDF VALIDATION RESULTS
+
+
+		SDF NOTE UPDATE RESULTS
+
+NOTE RECORD UPDATE: :AGNITI-IC1: 
+::	- Successful DELETE of note BCHY-2
+
+NOTE RECORD ADD: :DND-ABCD: 
+
+NOTE RECORD ADD: :HULME-EFGH: 
+
+NOTE RECORD NO ACTION: :HYQU-1171: 
+
+NOTE RECORD ADD: :VENN-IJKL: 
+
+SDB UPDATE SUMMARY: 4 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_combo       User Name: hulme1     *****
+
+
+	 Records Processed: 6
+	     Records Added: 3
+	   Records Updated: 1
+	   Records Deleted: 1
+	 Records No Action: 1insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'note', 'test_combo', '2019.06.04', '12:09') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\note\test_combo.20190604_1209) of changes to the database
+
+
+	************     End of Summary Information     ************

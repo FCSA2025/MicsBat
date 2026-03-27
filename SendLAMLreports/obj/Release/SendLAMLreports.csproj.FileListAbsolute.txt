@@ -1,0 +1,11 @@
+D:\users\ahulme\MICS#\_bin\Release\SendLAMLreports.exe.config
+D:\users\ahulme\MICS#\_bin\Release\SendLAMLreports.exe
+D:\users\ahulme\MICS#\_bin\Release\SendLAMLreports.pdb
+D:\users\ahulme\MICS#\SendLAMLreports\obj\Release\SendLAMLreports.MainForm.resources
+D:\users\ahulme\MICS#\SendLAMLreports\obj\Release\SendLAMLreports.Properties.Resources.resources
+D:\users\ahulme\MICS#\SendLAMLreports\obj\Release\SendLAMLreports.WriteOnlyConsoleForm.resources
+D:\users\ahulme\MICS#\SendLAMLreports\obj\Release\SendLAMLreports.csproj.GenerateResource.cache
+D:\users\ahulme\MICS#\SendLAMLreports\obj\Release\SendLAMLreports.csproj.CoreCompileInputs.cache
+D:\users\ahulme\MICS#\SendLAMLreports\obj\Release\SendLAMLreports.exe
+D:\users\ahulme\MICS#\SendLAMLreports\obj\Release\SendLAMLreports.pdb
+D:\users\ahulme\MICS#\SendLAMLreports\obj\Release\SendLAMLreports.csproj.AssemblyReference.cache

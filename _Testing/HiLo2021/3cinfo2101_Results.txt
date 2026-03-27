@@ -1,0 +1,81 @@
+File p15354-5.prn
+hilocheck program build 190201-1207/64-R started at Thu Jun  3 09:10:37 2021
+
+Proposed File: 3cinfo2101  with min dist of 5 secs of latitude (0.15Km).
+
+
+Checking CFY316 (GRANDE CACHE  AB - ATCO ELECTRIC/3CINFO) in proposed file ...
+Checking proposed file Site CFY316 band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  HiLo Failure in Band 11B
+  Adjacent Band 11C OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFY316 (GRANDE CACHE AB - ATCO ELECTRIC/3CINFO) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	CFY316 to CFY327 band 11B chid B999 is first RX HiLo violation.
+	Violation for Band 11B
+	Band 11C
+	Band 11C OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CFY327 (GRANDE CACHE  AB - 3CIS NOSE MTN/3CINFO) in proposed file ...
+Checking proposed file Site CFY327 band 11A.
+  Band 11A OK, checking adjacent bands.
+  Adjacent Band 10A OK.
+  HiLo Failure in Band 11B
+  Adjacent Band 11C OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFY327 (GRANDE CACHE AB 3CIS NOSE MTN/3CINFO) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	CFY327 to CFY316 band 11B chid B999 is first TX HiLo violation.
+	Violation for Band 11B
+	Band 11C
+	Band 11C OK
+        Site Has HiLo violation(s).
+
+	Database Site: CKT910 (NOSE MOUNTAIN AB/3CINFO) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	Band 11B OK
+	Band 11C
+	Band 11C OK
+        Site OK
+
+	Database Site: CZL414 (NOSE MOUNTAIN AB/CNRLMW) 
+	Band 10A
+	Band 10A OK
+	Band 11A
+	Band 11A OK
+	Band 11B
+	CZL414 to CZL415 band 11B chid B999 is first TX HiLo violation.
+	Violation for Band 11B
+	Band 11C
+	Band 11C OK
+        Site Has HiLo violation(s).
+
+There were 3 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+
+5 Hilo Violation(s) encountered.

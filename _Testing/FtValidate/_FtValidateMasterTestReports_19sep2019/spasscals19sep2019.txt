@@ -1,0 +1,2563 @@
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 7128
+
+PDF Name: slat
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %TLUSBCX1
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 24 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 25 warnings.
+The PDF 'slat' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: slat, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:18
+*
+TT,U,SLAT,,,,
+*##############################################################################
+SK,U,U,%TLUSBCX1,HARTELY BAY PASS,53-28-05.19N,129-15-09.10W,495.0,2014.02.07,08:30
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 66.52, At. Loss = 0.50
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,213.47,-0.40,50.53,P,197.97,-3.21,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,-2.0,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-24.0, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,-2.0,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-24.0, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 46.22, At. Loss = 0.05
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,182.40,-5.79,4.88,P,197.97,-3.21,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-24.0,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-2.0, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-24.0,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-2.0, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 66.52, At. Loss = 0.50
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,33.13,0.06,50.53,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-56.3, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-56.3, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 46.22, At. Loss = 0.05
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,2.40,5.76,4.88,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-56.3, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-56.3, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 4184
+
+PDF Name: slong
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %TLUSBCX1
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 24 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 25 warnings.
+The PDF 'slong' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: slong, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:19
+*
+TT,U,SLONG,,,,
+*##############################################################################
+SK,U,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-20-09.10W,495.0,2014.02.07,08:30
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.41, At. Loss = 0.44
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,210.08,-0.42,44.45,P,156.23,-4.74,48.2, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,-5.1,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-25.0, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,-5.1,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-25.0, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 47.22, At. Loss = 0.05
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,102.06,-5.16,5.48,P,156.23,-4.74,48.2, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-25.0,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-5.1, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-25.0,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-5.1, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.41, At. Loss = 0.44
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,29.81,0.12,44.45,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-60.4, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-60.4, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 47.22, At. Loss = 0.05
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,282.13,5.12,5.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-60.4, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-60.4, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 6916
+
+PDF Name: sgrnd
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %TLUSBCX1
+
+This Site record has been modified since you retrieved it.
+
+Site Call: %TLUSBCX1
+Lat & Long for site is the same as for existing site:- 
+	%TLUSBC11 HARTELY BAY PASS TLUSBC
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 2 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 24 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 26 warnings.
+The PDF 'sgrnd' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: sgrnd, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:20
+*
+TT,U,SGRND,,,,
+*##############################################################################
+SK,U,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,300.0,2014.02.07,08:30
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.17,47.47,P,203.22,-7.42,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,10.3,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.4, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,10.3,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.02, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-14.30,1.20,P,203.22,-7.42,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-23.4,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,10.3, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,10.3, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,35.60,-0.15,47.47,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-43.4, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-43.5, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.02, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,14.29,1.20,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-43.5, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-43.5, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 12068
+
+PDF Name: sacode
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+%TLUSBCX1 CGA276A 7B 11
+This Antenna record has been modified since you retrieved it.
+
+%TLUSBCX1 XOA699A 7B 11
+This Antenna record has been modified since you retrieved it.
+
+CGA276A %TLUSBCX1 7B 11
+This Antenna record has been modified since you retrieved it.
+
+XOA699A %TLUSBCX1 7B 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 24 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 28 warnings.
+The PDF 'sacode' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: sacode, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:22
+*
+TT,U,SACODE,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2014.02.07,08:30
+AQ,TR,12F16FA%,9.0,215.94,-0.41,47.48,P,203.55,-11.96,51.1, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,10.5,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-22.7, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,10.6,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-22.7, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2014.02.07,08:30
+AQ,TR,12F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-11.96,51.1, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-22.7,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,10.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-22.7,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,10.6, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2014.02.07,08:30
+AQ,TR,HP10-71GE,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-42.5, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-42.4, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2014.02.07,08:30
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-42.5, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-42.4, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 13220
+
+PDF Name: saht2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Antenna %TLUSBCX1 CGA276A 7B 11
+Antenna height (999.000000) outside recommended range of 0 to 300m
+
+Antenna %TLUSBCX1 XOA699A 7B 11
+Antenna height (999.000000) outside recommended range of 0 to 300m
+
+%TLUSBCX1 CGA276A 7B 11
+This Antenna record has been modified since you retrieved it.
+
+%TLUSBCX1 XOA699A 7B 11
+This Antenna record has been modified since you retrieved it.
+
+CGA276A %TLUSBCX1 7B 11
+This Antenna record has been modified since you retrieved it.
+
+XOA699A %TLUSBCX1 7B 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 6 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 24 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 30 warnings.
+The PDF 'saht2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: saht2, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:23
+*
+TT,U,SAHT2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2014.02.07,08:30
+AQ,TR,10F16FA%,999.0,215.94,-1.60,47.49,P,206.12,-27.31,50.0, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,6.0,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,6.0,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 37.94, At. Loss = 0.02
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2014.02.07,08:30
+AQ,TR,10F16FA%,999.0,190.08,-51.90,1.88,P,206.12,-27.31,50.0, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-23.8,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,6.0, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.8,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,6.0, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2014.02.07,08:30
+AQ,TR,HP10-71GE,7.0,35.60,1.28,47.49,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-48.1, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-48.1, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 37.94, At. Loss = 0.02
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2014.02.07,08:30
+AQ,TR,HP10-71GE,8.0,10.08,51.89,1.88,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-48.1, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-48.1, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 5540
+
+PDF Name: stxpwr
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 18 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 18 warnings.
+The PDF 'stxpwr' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: stxpwr, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:25
+*
+TT,U,STXPWR,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.41,47.48,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 12700
+
+PDF Name: stxfreq
+
+
+
+                *********** ERRORS ***********
+
+
+%TLUSBCX1->CGA276A Band:7B Chid:1001
+MERGE 22 - Must change transmit frequency field at the TX end.
+Power calculations will not be done.
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 19 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 19 warnings.
+The PDF 'stxfreq' is invalid
+PDF Validation Completed - 18:04
+
+* TS-PDF: stxfreq, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:26
+*
+TT,N,STXFREQ,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.41,47.48,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 12236
+
+PDF Name: slata
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: CGA276A
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 22 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 23 warnings.
+The PDF 'slata' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: slata, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:27
+*
+TT,U,SLATA,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 64.56, At. Loss = 0.40
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,223.64,-0.43,40.30,P,207.57,-12.18,50.2, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.7,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-22.1, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.7,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-22.1, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,207.57,-12.18,50.2, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-22.1,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.7, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-22.1,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.7, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,U,U,CGA276A,TRUTCH ISLAND,53-10-19.22N,129-40-06.08W,291.0,2014.02.07,08:30
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 64.56, At. Loss = 0.40
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,43.30,0.16,40.30,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-42.6, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-42.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-42.6, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-42.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 14108
+
+PDF Name: slonga
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: CGA276A
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 22 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 23 warnings.
+The PDF 'slonga' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: slonga, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:29
+*
+TT,U,SLONGA,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 64.91, At. Loss = 0.42
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,203.45,-0.42,41.96,P,197.04,-11.75,50.4, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.9,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-22.3, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.9,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-22.3, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,197.04,-11.75,50.4, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-22.3,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.9, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-22.3,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.9, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,U,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-30-06.08W,291.0,2014.02.07,08:30
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 64.91, At. Loss = 0.42
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,23.25,0.14,41.96,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-42.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-42.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-42.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-42.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 11568
+
+PDF Name: sgrnda
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: CGA276A
+
+This Site record has been modified since you retrieved it.
+
+Site Call: CGA276A
+Lat & Long for site is the same as for existing site:- 
+	CGA276 TRUTCH ISLAND TLUSBC
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 2 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 22 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 24 warnings.
+The PDF 'sgrnda' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: sgrnda, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:30
+*
+TT,U,SGRNDA,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.52,47.48,P,203.55,-12.01,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-12.01,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,U,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,200.0,2014.02.07,08:30
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,35.60,0.20,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 11516
+
+PDF Name: sacodea
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+CGA276A %TLUSBCX1 7B 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 22 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 23 warnings.
+The PDF 'sacodea' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: sacodea, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:31
+*
+TT,U,SACODEA,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.41,47.48,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.2, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.2, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-23.2,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.2,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.8, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2014.02.07,08:30
+AQ,TR,HP10-71G,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-43.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-43.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-43.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-43.7, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 9248
+
+PDF Name: sahtac
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+XOA699A %TLUSBCX1 7B 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 1 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 20 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 21 warnings.
+The PDF 'sahtac' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: sahtac, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:33
+*
+TT,U,SAHTAC,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.41,47.48,P,203.22,-7.61,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,10.3,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.4, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,10.3,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.03, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-14.44,1.20,P,203.22,-7.61,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-23.4,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,10.3, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2014.02.07,08:30
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,10.3, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-43.4, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-43.5, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.03, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2014.02.07,08:30
+AQ,TR,HP10-71GE,200.0,10.08,14.43,1.20,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-43.5, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2014.02.07,08:30
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-43.5, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 3820
+
+PDF Name: srxfslav2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 7 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 7 warnings.
+The PDF 'srxfslav2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: srxfslav2, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:34
+*
+TT,U,SRXFSLAV2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.41,47.48,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,N,U,%TLUSBCX1,CGA276A,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2019.09.19,17:41
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,N,U,%TLUSBCX1,XOA699A,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,N,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.0,-42.3, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,N,U,CGA276A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,N,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,N,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 6296
+
+PDF Name: stxfslav2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 17 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 17 warnings.
+The PDF 'stxfslav2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: stxfslav2, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:36
+*
+TT,U,STXFSLAV2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.41,47.48,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-22.1, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2019.09.19,17:41
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-22.1,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,3.0, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-42.6, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 820
+
+PDF Name: stxpwrav2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 CGA276A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1002
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: CGA276A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+Channel: XOA699A %TLUSBCX1 7B 1002
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 17 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 17 warnings.
+The PDF 'stxpwrav2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: stxpwrav2, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:37
+*
+TT,U,STXPWRAV2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.41,47.48,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-26.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,%TLUSBCX1,CGA276A,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2019.09.19,17:41
+CT, , , ,7368000.00,V,11,0.0, , ,MR4108, ,-26.5,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,%TLUSBCX1,XOA699A,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.35, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7368000.00,V,11,4.4, , ,MR4108, ,27.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,U,U,CGA276A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.35
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7368000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-47.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,U,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+
+PDF VALIDATION REPORT - Build 190919-1339/64-R
+RUN DATE: 2019.09.19  18:04
+Project Code [fmda20] Process Id: 3748
+
+PDF Name: stxfreqav2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %TLUSBCX1 CGA276A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: %TLUSBCX1 XOA699A 7B 1001
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+
+Channel: CGA276A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA699A %TLUSBCX1 7B 1001
+Local transmit (F) and Remote receive (X) fee codes do not agree.
+Local transmit (X) and Remote receive (F) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 9 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 9 warnings.
+The PDF 'stxfreqav2' is validated for :UPDATE:
+
+PDF Validation Completed - 18:04
+
+* TS-PDF: stxfreqav2, By FtPrint (190919-1339/64-R) at 2019.09.19 18:04:38
+*
+TT,U,STXFREQAV2,,,,
+*##############################################################################
+SK,N,U,%TLUSBCX1,HARTELY BAY PASS,53-26-05.19N,129-15-09.10W,495.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T108,0-0000000, , ,1, ,0000,1992.06.04,FT
+*====  TRUTCH ISLAND  === Ant Gain = 0.0, Dist Loss = 65.98, At. Loss = 0.47
+AK,U,U,%TLUSBCX1,CGA276A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,215.94,-0.41,47.48,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.69
+CK,U,U,%TLUSBCX1,CGA276A,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7664000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,N,U,%TLUSBCX1,CGA276A,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,0.0, , ,MR4108, ,9.8,0.0,D7457,1DS3,5,X
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,-23.5, , , , , ,
+CO, , , , , , , ,1992.06.04
+*----  HARTLEY BAY CO  == Ant Gain = 0.0, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,%TLUSBCX1,XOA699A,7B,11,2019.09.19,17:41
+AQ,TR,10F16FA%,9.0,190.08,-22.92,1.26,P,203.55,-11.96,50.3, , , ,1992.06.04
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.69, Rx=77.15
+CK,U,U,%TLUSBCX1,XOA699A,7B,1001,2019.09.19,17:41
+CT, , , ,7664000.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,N,U,%TLUSBCX1,XOA699A,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,0.0, , ,MR4108, ,-23.5,0.0,D7457,1DS3,5,X
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,X
+CQ,0.0,9.8, , , , , ,
+CO, , , , , , , ,1992.06.04
+*##############################################################################
+SK,N,U,CGA276A,TRUTCH ISLAND,53-05-19.22N,129-40-06.08W,291.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T139,116-0986557,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 65.98, At. Loss = 0.47
+AK,N,U,CGA276A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,7.0,35.60,0.09,47.48,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.69, Rx=77.15
+CK,U,U,CGA276A,%TLUSBCX1,7B,1001,2014.02.07,08:30
+CT, , , ,7664000.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7200500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.76, Rx=77.56
+CK,N,U,CGA276A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7722500.00,V,11,4.4, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7555000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,4.7,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*##############################################################################
+SK,N,U,XOA699A,HARTLEY BAY CO,53-25-28.20N,129-15-20.11W,5.0,2019.09.19,17:41
+SD,BC,TLUSBC,5,T099,116-3523275,4, ,1,D116,0000,1992.11.27,FT
+*====  HARTELY BAY PASS   Ant Gain = 44.5, Dist Loss = 34.46, At. Loss = 0.01
+AK,U,U,XOA699A,%TLUSBCX1,7B,11,2019.09.19,17:41
+AQ,TR,HP10-71GE,8.0,10.08,22.91,1.26,N, , , , , , ,1992.11.27
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.15, Rx=77.69
+CK,U,U,XOA699A,%TLUSBCX1,7B,1001,2019.09.19,17:41
+CT, , , ,7200500.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7664000.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=77.56, Rx=77.76
+CK,N,U,XOA699A,%TLUSBCX1,7B,1002,2019.09.19,17:41
+CT, , , ,7555000.00,V,11,3.1, , ,MR4108, ,30.0,0.0,D7457,1DS3,5,F
+CR,7722500.00,V,11, , ,MR4108, ,D7457,1DS3,5,F
+CQ,3.4,-44.0, , , , , ,
+CO, , , , , , , ,1992.11.27

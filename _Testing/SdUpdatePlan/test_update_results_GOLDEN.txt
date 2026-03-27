@@ -1,0 +1,66 @@
+
+sdUpdatePlan Build 160721-1353/64-R
+		SDB UPDATE REPORT Build 160721-1353/64-R		Date: 2019.06.17 19:38
+
+SDF Name: test_update
+SDF Type: Plan
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 6/17/2019 7:38:47 PM
+
+
+Plan SDF: test_update
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Plan SDF test_update is valid
+
+SDF Validation completed - 6/17/2019 7:38:47 PM
+
+		SDF UPDATE RESULTS
+
+Subsidiary Plan Update
+
+PLAN RECORD UPDATE: :10A:03: 
+
+  PLAN POINT RECORD UPDATE: :10A/03/1: 
+
+  PLAN POINT RECORD UPDATE: :10A/03/2: 
+
+  PLAN POINT RECORD UPDATE: :10A/03/3: 
+
+  PLAN POINT RECORD UPDATE: :10A/03/4: 
+
+  PLAN POINT RECORD UPDATE: :10A/03/5: 
+Updating Error on field: execution
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The UPDATE permission was denied on the object 'sd_plan', database 'fcsa', schema 'main'.
+
+SDB UPDATE SUMMARY: 1 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Plan Update ****
+	***** SDF Name: test_update      User Name: hulme1     *****
+	************            Master Records          ************
+
+	 Records Processed: 1
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************            Detail Records          ************
+
+	 Records Processed: 5
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************     End of Summary Information     ************

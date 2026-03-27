@@ -1,0 +1,65 @@
+
+sdUpdateTowr Build 160706-1102/64-R
+		SDB TOWER UPDATE REPORT Build 160706-1102/64-R		Date: 2019.07.09 20:49
+
+SDF Name: test_noop
+SDF Type: Tower
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/9/2019 8:49:39 PM
+
+
+Tower SDF: test_noop
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Tower SDF test_noop is valid
+
+SDF Validation completed - 7/9/2019 8:49:39 PM
+
+		SDF UPDATE RESULTS
+
+TOWER RECORD NO ACTION: :CP: 
+
+TOWER RECORD NO ACTION: :GS: 
+
+TOWER RECORD NO ACTION: :GY: 
+
+TOWER RECORD NO ACTION: :H: 
+
+TOWER RECORD NO ACTION: :MT: 
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'towr', 'test_noop', '2019.07.09', '20:49') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\towr\test_noop.20190709_2049) of changes to the database
+
+
+	************ Summary Information for SDB Tower Update ****
+	***** SDF Name: test_noop        User Name: hulme1     *****
+	************            Master Records          ************
+
+	 Records Processed: 5
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 5
+
+	************            Detail Records          ************
+
+	 Records Processed: 0
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************     End of Summary Information     ************

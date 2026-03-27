@@ -1,0 +1,41 @@
+                    FREQUENCY COORDINATION SYSTEM ASSOCIATION 190624-1034/64-R
+                  MICS TSIP Es-Ts / Ts-Es Execution Information
+   Inputs:
+             Project Code:         SES1901
+             Parameter File Name:  es140km
+             TSIP Run Name:        140k
+   Outputs:
+             Interference Tables
+                 te_es140km_140k_parm Table
+                 te_es140km_140k_site Table
+                 te_es140km_140k_ante Table
+                 te_es140km_140k_chan Table
+             Report files
+                 tsip_es140km_140k.EXEC (Execution Report)
+                 tsip_es140km_140k.STUDY (TSIP Study Report)
+                 tsip_es140km_140k.STATSUM (Station Summary Report)
+                 tsip_es140km_140k.CASEDET (Case Detail Report)
+
+   Propagation Loss Calculation Model:  TSIP CCIR-SJM
+   Maximum Frequency Separation      :    300.0
+   Coordination Distance             :    140.0
+   Arc Step Value used               :      1.0
+   Number of TS->ES Station Groups Passed to Analysis:  1713
+   Number of ES->TS Station Groups Passed to Analysis:  0
+   Number of TS->ES Interference Cases Reported      :  3
+   Number of ES->TS Interference Cases Reported      :  0
+
+
+   Start of TSIP Run                                End of TSIP Run
+    Date: 2019.06.26                                 Date: 2019.06.26  
+    Time: 06:26                                      Time: 06:32       
+
+Cache info:-
+Cache       Calls  Hits  Size  Used
+Antennas.: 121215121134   100    81
+Equipment:  14382 14342   100    40
+CTX Curve:      0     0   100     0
+CTX Xref.:    192     0   100     0
+Analog...:      0     0   100     0
+Digital..:   2286  2254   100    32
+

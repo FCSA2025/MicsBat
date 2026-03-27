@@ -1,0 +1,54 @@
+
+sdUpdateTowr Build 160706-1102/64-R
+		SDB TOWER UPDATE REPORT Build 160706-1102/64-R		Date: 2019.07.09 20:51
+
+SDF Name: test_combo
+SDF Type: Tower
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/9/2019 8:51:05 PM
+
+
+Tower SDF: test_combo
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Tower SDF test_combo is valid
+
+SDF Validation completed - 7/9/2019 8:51:05 PM
+
+		SDF UPDATE RESULTS
+::	- Successful DELETE of Tower CP
+
+TOWER RECORD NO ACTION: :H: 
+::	- Successful DELETE of Tower MT
+
+SDB UPDATE SUMMARY: 7 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Tower Update ****
+	***** SDF Name: test_combo       User Name: hulme1     *****
+	************            Master Records          ************
+
+	 Records Processed: 10
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 2
+	 Records No Action: 1
+
+	************            Detail Records          ************
+
+	 Records Processed: 0
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************     End of Summary Information     ************

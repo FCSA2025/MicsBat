@@ -1,0 +1,78 @@
+ES PDF VALIDATION REPORT    Build 190107-1935/64-R    DATE: 2019.01.07  20:03
+Project Code [HULME1_0] Process ID [1816]
+PDF Name: echgelat
+
+
+
+                      ES SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Location: IQLX
+Site does not exist in MDB
+
+SUMMARY OF SITE RECORDS: 1 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna: IQLX =TELSTTAX
+Antenna does not exist in MDB
+
+Antenna: IQLX XX346
+Antenna does not exist in MDB
+
+SUMMARY OF ANTENNA RECORDS: 2 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: IQLX =TELSTTAX 1
+Channel does not exist in MDB.
+
+KEY: IQLX XX346 1B
+Channel does not exist in MDB.
+
+SUMMARY OF CHANNEL RECORDS: 2 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: IQLX =TELSTTAX 0.0
+Azimuth does not exist in MDB.
+
+KEY: IQLX =TELSTTAX 180.0
+Azimuth does not exist in MDB.
+
+KEY: IQLX XX346 0.0
+Azimuth does not exist in MDB.
+
+KEY: IQLX XX346 180.0
+Azimuth does not exist in MDB.
+
+SUMMARY OF AZIMUTH RECORDS: 4 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 9 errors and 0 warnings.
+The PDF 'echgelat' is invalid
+PDF Validation Completed -  20:03

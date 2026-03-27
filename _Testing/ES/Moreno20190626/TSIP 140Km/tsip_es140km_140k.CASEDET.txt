@@ -1,0 +1,524 @@
+
+ 
+Number of reported ES-TS cases: 0
+
+Frequency Coordination System Association                                                                         Page:  1
+MASTER DATA BASE -- TS to ES Interference Study Report - Case Detail                                              Date:2019.06.26
+                                                                                                                  Time:     06:32
+                                                                     Environment  :  MDB_TS          Coord. Dist.: 0.00 km
+Maximum Frequency Separation:  300.00
+
+Case Number : 1              Interferer from Environment File        Analysis Type:  CHAN            PDF File    : es140km_140k
+                                                                     Margin       :    0.00
++-        Site Information                                                                          -+    Notes: Interference Case
+Call T    Call U   | Station  T       Station  U       | OP T   OP U   | Satellite Service | Radio/  |           Yes ____  No ____
+CALL E    Loc.Code | ES Site Name E   Satellite Name S | OP E   OP S   |  ARC 1     ARC 2  | Rain Zn |           Path Profile
++-------- --------- ---------------- -----------------   ------ ------    ---.---   --.---   ------- +           Yes ____  No ____
+VEM551    VAD461    SE LONDON                  126/401   RCTL   RCTL       67.00     3.00     A  2               Blockage: ____ dB
+=D12783A1 SESLNDN1  LONDON                      SES 17   D12783 SB        Longitude:  67.00 Deg. W               At K=___
+ 
++----                      Case Geometry                    ---*+*---          Geometry to Rain Volume          ----+
+  Site     Dist     Azmth     Elev  |        Angle   Total Ant. |   Dist to Vol:   on ES     on TU    Azmth      Elev
+ T -> E     7.64    209.99     0.00 |                  Discr.   |   T -> Vol:     11.66      7.91      0.00      0.23
+ T -> U     4.58    210.34     0.25 |  SET:  117.34     66.31   |   E -> Vol:      0.10      0.28    220.14     14.56
+ E -> U     3.05     29.43     1.00 |  UTE:    0.43      1.86   |
+ E -> T     7.64     29.96     0.22 |                           |     Angle SEV:  61.15       Scang:  61.15
+ E -> S             155.56    37.54 |                           +     Angle UTV:   0.83                         ----+
+ 
+-- TX Interferer Stn.Ant.Sys.Info  ----- Station T --- TS ---  *+*  -- RX   Victim   Stn.Ant.Sys.Info  ----- Station E   --- ES  -
+Antenna #: 12     AUse: TR     Gain: 44.7 dB                    |   Antenna #:                    Gain: 56.3 dB        Coord Dist.
+TX.Ant.Code: VHLP4-180         Model:VHLP4-180                  |   RX.Ant.Code: ITU580_4_2RX     Model:ITU580_4_2RX   Trop: 140 km
+Xref... Ant: VHLP4-180                                          |   Xref... Ant: ITU580_4_2TX                          Prec: 140 km
+  Ant.Elev.:  299.00 m (AMSL)   TX.Ant.Ht:   40.0 m (AGL)       |     Ant.Elev.:  266.00 m (AMSL)   RX.Ant.Ht:    4.0 m (AGL)
+  Stn.Elev.:  259.00 m (AMSL)                                   +     Stn.Elev.:  262.00 m (AMSL)
+
+-- TX Interferer Sys.Eqp.CTX.Band Info - Station T --- TS ---  *+*  -  RX Victim Sys.Eqp.CTX.Band Info ----- Station E   --- ES  -
+Eqpt. Planned / Traffic Code: TP18G16D  DT1816                  |   Eqpt. Planned / Traffic Code: DES100M   DES100
+      Default   Traffic Code:           DT1816                  |   Eqpt. Default / Traffic Code: DES100M   DES100
+                   Freq.Bnd : 18B                               +                      Freq.Bnd : 18A
+-                                                               -                                                                  -
+SC
+UA    TX.Freq.     RX.Freq.   Chn  Freq.   INT.   INT.   INT.   INT.   VIC.   VIC.  VIC.            Interference Req.: CCIR (CALC.)
+BS     (MHz)        (MHz)     Sts  Sep.    TXPwr  AFLS   Net    EIRP   Net    AFSL  RXPwr           Loss    CALC.    REQD.
+E      STN.T        STN.E     T.R  (MHz)   (dBm)         ATGn   (dBw)  AtGn         (dBw)           (dB)     -I       -I    Margin
+--- ------.----  ------.----  -.- ----.--  --.--  --.- ---.--  ---.-- ---.--  --.- ----.--          ---.-- ----.--  ----.-- ----.--
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+ 
++----                      Case Geometry                    ---*+*---          Geometry to Rain Volume          ----+
+  Site     Dist     Azmth     Elev  |        Angle   Total Ant. |   Dist to Vol:   on ES     on TU    Azmth      Elev
+ T -> E     7.64    209.99     0.00 |                  Discr.   |   T -> Vol:     11.66      7.91      0.00      0.23
+ T -> U     4.58    210.34     0.25 |  SET:  117.34     67.47   |   E -> Vol:      0.10      0.28    220.14     14.56
+ E -> U     3.05     29.43     1.00 |  UTE:    0.43      1.86   |
+ E -> T     7.64     29.96     0.22 |                           |     Angle SEV:  61.15       Scang:  61.15
+ E -> S             155.56    37.54 |                           +     Angle UTV:   0.83                         ----+
+ 
+-- TX Interferer Stn.Ant.Sys.Info  ----- Station T --- TS ---  *+*  -- RX   Victim   Stn.Ant.Sys.Info  ----- Station E   --- ES  -
+Antenna #: 12     AUse: TR     Gain: 44.7 dB                    |   Antenna #:                    Gain: 57.5 dB        Coord Dist.
+TX.Ant.Code: VHLP4-180         Model:VHLP4-180                  |   RX.Ant.Code: ITU580_4_8RX     Model:ITU580_4_8RX   Trop: 140 km
+Xref... Ant: VHLP4-180                                          |   Xref... Ant: ITU580_4_8TX                          Prec: 140 km
+  Ant.Elev.:  299.00 m (AMSL)   TX.Ant.Ht:   40.0 m (AGL)       |     Ant.Elev.:  266.00 m (AMSL)   RX.Ant.Ht:    4.0 m (AGL)
+  Stn.Elev.:  259.00 m (AMSL)                                   +     Stn.Elev.:  262.00 m (AMSL)
+
+-- TX Interferer Sys.Eqp.CTX.Band Info - Station T --- TS ---  *+*  -  RX Victim Sys.Eqp.CTX.Band Info ----- Station E   --- ES  -
+Eqpt. Planned / Traffic Code: TP18G16D  DT1816                  |   Eqpt. Planned / Traffic Code: DES100M   DES100
+      Default   Traffic Code:           DT1816                  |   Eqpt. Default / Traffic Code: DES100M   DES100
+                   Freq.Bnd : 18B                               +                      Freq.Bnd : 18A
+-                                                               -                                                                  -
+SC
+UA    TX.Freq.     RX.Freq.   Chn  Freq.   INT.   INT.   INT.   INT.   VIC.   VIC.  VIC.            Interference Req.: CCIR (CALC.)
+BS     (MHz)        (MHz)     Sts  Sep.    TXPwr  AFLS   Net    EIRP   Net    AFSL  RXPwr           Loss    CALC.    REQD.
+E      STN.T        STN.E     T.R  (MHz)   (dBm)         ATGn   (dBw)  AtGn         (dBw)           (dB)     -I       -I    Margin
+--- ------.----  ------.----  -.- ----.--  --.--  --.- ---.--  ---.-- ---.--  --.- ----.--          ---.-- ----.--  ----.-- ----.--
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+ 
++----                      Case Geometry                    ---*+*---          Geometry to Rain Volume          ----+
+  Site     Dist     Azmth     Elev  |        Angle   Total Ant. |   Dist to Vol:   on ES     on TU    Azmth      Elev
+ T -> E     7.64    209.99     0.00 |                  Discr.   |   T -> Vol:     11.66      7.91      0.00      0.23
+ T -> U     4.58    210.34     0.25 |  SET:  117.34     67.83   |   E -> Vol:      0.10      0.28    220.14     14.56
+ E -> U     3.05     29.43     1.00 |  UTE:    0.43      1.86   |
+ E -> T     7.64     29.96     0.22 |                           |     Angle SEV:  61.15       Scang:  61.15
+ E -> S             155.56    37.54 |                           +     Angle UTV:   0.83                         ----+
+ 
+-- TX Interferer Stn.Ant.Sys.Info  ----- Station T --- TS ---  *+*  -- RX   Victim   Stn.Ant.Sys.Info  ----- Station E   --- ES  -
+Antenna #: 12     AUse: TR     Gain: 44.7 dB                    |   Antenna #:                    Gain: 57.8 dB        Coord Dist.
+TX.Ant.Code: VHLP4-180         Model:VHLP4-180                  |   RX.Ant.Code: ITU580_5_0RX     Model:ITU580_5_0RX   Trop: 140 km
+Xref... Ant: VHLP4-180                                          |   Xref... Ant: ITU580_5_0TX                          Prec: 140 km
+  Ant.Elev.:  299.00 m (AMSL)   TX.Ant.Ht:   40.0 m (AGL)       |     Ant.Elev.:  266.00 m (AMSL)   RX.Ant.Ht:    4.0 m (AGL)
+  Stn.Elev.:  259.00 m (AMSL)                                   +     Stn.Elev.:  262.00 m (AMSL)
+
+-- TX Interferer Sys.Eqp.CTX.Band Info - Station T --- TS ---  *+*  -  RX Victim Sys.Eqp.CTX.Band Info ----- Station E   --- ES  -
+Eqpt. Planned / Traffic Code: TP18G16D  DT1816                  |   Eqpt. Planned / Traffic Code: DES100M   DES100
+      Default   Traffic Code:           DT1816                  |   Eqpt. Default / Traffic Code: DES100M   DES100
+                   Freq.Bnd : 18B                               +                      Freq.Bnd : 18A
+-                                                               -                                                                  -
+SC
+UA    TX.Freq.     RX.Freq.   Chn  Freq.   INT.   INT.   INT.   INT.   VIC.   VIC.  VIC.            Interference Req.: CCIR (CALC.)
+BS     (MHz)        (MHz)     Sts  Sep.    TXPwr  AFLS   Net    EIRP   Net    AFSL  RXPwr           Loss    CALC.    REQD.
+E      STN.T        STN.E     T.R  (MHz)   (dBm)         ATGn   (dBw)  AtGn         (dBw)           (dB)     -I       -I    Margin
+--- ------.----  ------.----  -.- ----.--  --.--  --.- ---.--  ---.-- ---.--  --.- ----.--          ---.-- ----.--  ----.-- ----.--
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+
+Case Number : 2              Interferer from Environment File        Analysis Type:  CHAN            PDF File    : es140km_140k
+                                                                     Margin       :    0.00
++-        Site Information                                                                          -+    Notes: Interference Case
+Call T    Call U   | Station  T       Station  U       | OP T   OP U   | Satellite Service | Radio/  |           Yes ____  No ____
+CALL E    Loc.Code | ES Site Name E   Satellite Name S | OP E   OP S   |  ARC 1     ARC 2  | Rain Zn |           Path Profile
++-------- --------- ---------------- -----------------   ------ ------    ---.---   --.---   ------- +           Yes ____  No ____
+VEM551    VAD461    SE LONDON                  126/401   RCTL   RCTL       67.00     3.00     A  2               Blockage: ____ dB
+=D12783A1 SESLNDN1  LONDON                      SES 17   D12783 SB        Longitude:  67.00 Deg. W               At K=___
+ 
++----                      Case Geometry                    ---*+*---          Geometry to Rain Volume          ----+
+  Site     Dist     Azmth     Elev  |        Angle   Total Ant. |   Dist to Vol:   on ES     on TU    Azmth      Elev
+ T -> E     7.64    209.99     0.00 |                  Discr.   |   T -> Vol:     11.66      7.91      0.00      0.23
+ T -> U     4.58    210.34     0.25 |  SET:  117.34     66.31   |   E -> Vol:      0.10      0.28    220.14     14.56
+ E -> U     3.05     29.43     1.00 |  UTE:    0.43      1.86   |
+ E -> T     7.64     29.96     0.22 |                           |     Angle SEV:  61.15       Scang:  61.15
+ E -> S             155.56    37.54 |                           +     Angle UTV:   0.83                         ----+
+ 
+-- TX Interferer Stn.Ant.Sys.Info  ----- Station T --- TS ---  *+*  -- RX   Victim   Stn.Ant.Sys.Info  ----- Station E   --- ES  -
+Antenna #: 12     AUse: TR     Gain: 44.7 dB                    |   Antenna #:                    Gain: 56.3 dB        Coord Dist.
+TX.Ant.Code: VHLP4-180         Model:VHLP4-180                  |   RX.Ant.Code: ITU580_4_2RX     Model:ITU580_4_2RX   Trop: 140 km
+Xref... Ant: VHLP4-180                                          |   Xref... Ant: ITU580_4_2TX                          Prec: 140 km
+  Ant.Elev.:  299.00 m (AMSL)   TX.Ant.Ht:   40.0 m (AGL)       |     Ant.Elev.:  266.00 m (AMSL)   RX.Ant.Ht:    4.0 m (AGL)
+  Stn.Elev.:  259.00 m (AMSL)                                   +     Stn.Elev.:  262.00 m (AMSL)
+
+-- TX Interferer Sys.Eqp.CTX.Band Info - Station T --- TS ---  *+*  -  RX Victim Sys.Eqp.CTX.Band Info ----- Station E   --- ES  -
+Eqpt. Planned / Traffic Code: TP18G16D  DT1816                  |   Eqpt. Planned / Traffic Code: DES100M   DES100
+      Default   Traffic Code:           DT1816                  |   Eqpt. Default / Traffic Code: DES100M   DES100
+                   Freq.Bnd : 18B                               +                      Freq.Bnd : 18A
+-                                                               -                                                                  -
+SC
+UA    TX.Freq.     RX.Freq.   Chn  Freq.   INT.   INT.   INT.   INT.   VIC.   VIC.  VIC.            Interference Req.: CCIR (CALC.)
+BS     (MHz)        (MHz)     Sts  Sep.    TXPwr  AFLS   Net    EIRP   Net    AFSL  RXPwr           Loss    CALC.    REQD.
+E      STN.T        STN.E     T.R  (MHz)   (dBm)         ATGn   (dBw)  AtGn         (dBw)           (dB)     -I       -I    Margin
+--- ------.----  ------.----  -.- ----.--  --.--  --.- ---.--  ---.-- ---.--  --.- ----.--          ---.-- ----.--  ----.-- ----.--
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+ 
++----                      Case Geometry                    ---*+*---          Geometry to Rain Volume          ----+
+  Site     Dist     Azmth     Elev  |        Angle   Total Ant. |   Dist to Vol:   on ES     on TU    Azmth      Elev
+ T -> E     7.64    209.99     0.00 |                  Discr.   |   T -> Vol:     11.66      7.91      0.00      0.23
+ T -> U     4.58    210.34     0.25 |  SET:  117.34     67.47   |   E -> Vol:      0.10      0.28    220.14     14.56
+ E -> U     3.05     29.43     1.00 |  UTE:    0.43      1.86   |
+ E -> T     7.64     29.96     0.22 |                           |     Angle SEV:  61.15       Scang:  61.15
+ E -> S             155.56    37.54 |                           +     Angle UTV:   0.83                         ----+
+ 
+-- TX Interferer Stn.Ant.Sys.Info  ----- Station T --- TS ---  *+*  -- RX   Victim   Stn.Ant.Sys.Info  ----- Station E   --- ES  -
+Antenna #: 12     AUse: TR     Gain: 44.7 dB                    |   Antenna #:                    Gain: 57.5 dB        Coord Dist.
+TX.Ant.Code: VHLP4-180         Model:VHLP4-180                  |   RX.Ant.Code: ITU580_4_8RX     Model:ITU580_4_8RX   Trop: 140 km
+Xref... Ant: VHLP4-180                                          |   Xref... Ant: ITU580_4_8TX                          Prec: 140 km
+  Ant.Elev.:  299.00 m (AMSL)   TX.Ant.Ht:   40.0 m (AGL)       |     Ant.Elev.:  266.00 m (AMSL)   RX.Ant.Ht:    4.0 m (AGL)
+  Stn.Elev.:  259.00 m (AMSL)                                   +     Stn.Elev.:  262.00 m (AMSL)
+
+-- TX Interferer Sys.Eqp.CTX.Band Info - Station T --- TS ---  *+*  -  RX Victim Sys.Eqp.CTX.Band Info ----- Station E   --- ES  -
+Eqpt. Planned / Traffic Code: TP18G16D  DT1816                  |   Eqpt. Planned / Traffic Code: DES100M   DES100
+      Default   Traffic Code:           DT1816                  |   Eqpt. Default / Traffic Code: DES100M   DES100
+                   Freq.Bnd : 18B                               +                      Freq.Bnd : 18A
+-                                                               -                                                                  -
+SC
+UA    TX.Freq.     RX.Freq.   Chn  Freq.   INT.   INT.   INT.   INT.   VIC.   VIC.  VIC.            Interference Req.: CCIR (CALC.)
+BS     (MHz)        (MHz)     Sts  Sep.    TXPwr  AFLS   Net    EIRP   Net    AFSL  RXPwr           Loss    CALC.    REQD.
+E      STN.T        STN.E     T.R  (MHz)   (dBm)         ATGn   (dBw)  AtGn         (dBw)           (dB)     -I       -I    Margin
+--- ------.----  ------.----  -.- ----.--  --.--  --.- ---.--  ---.-- ---.--  --.- ----.--          ---.-- ----.--  ----.-- ----.--
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+ 
++----                      Case Geometry                    ---*+*---          Geometry to Rain Volume          ----+
+  Site     Dist     Azmth     Elev  |        Angle   Total Ant. |   Dist to Vol:   on ES     on TU    Azmth      Elev
+ T -> E     7.64    209.99     0.00 |                  Discr.   |   T -> Vol:     11.66      7.91      0.00      0.23
+ T -> U     4.58    210.34     0.25 |  SET:  117.34     67.83   |   E -> Vol:      0.10      0.28    220.14     14.56
+ E -> U     3.05     29.43     1.00 |  UTE:    0.43      1.86   |
+ E -> T     7.64     29.96     0.22 |                           |     Angle SEV:  61.15       Scang:  61.15
+ E -> S             155.56    37.54 |                           +     Angle UTV:   0.83                         ----+
+ 
+-- TX Interferer Stn.Ant.Sys.Info  ----- Station T --- TS ---  *+*  -- RX   Victim   Stn.Ant.Sys.Info  ----- Station E   --- ES  -
+Antenna #: 12     AUse: TR     Gain: 44.7 dB                    |   Antenna #:                    Gain: 57.8 dB        Coord Dist.
+TX.Ant.Code: VHLP4-180         Model:VHLP4-180                  |   RX.Ant.Code: ITU580_5_0RX     Model:ITU580_5_0RX   Trop: 140 km
+Xref... Ant: VHLP4-180                                          |   Xref... Ant: ITU580_5_0TX                          Prec: 140 km
+  Ant.Elev.:  299.00 m (AMSL)   TX.Ant.Ht:   40.0 m (AGL)       |     Ant.Elev.:  266.00 m (AMSL)   RX.Ant.Ht:    4.0 m (AGL)
+  Stn.Elev.:  259.00 m (AMSL)                                   +     Stn.Elev.:  262.00 m (AMSL)
+
+-- TX Interferer Sys.Eqp.CTX.Band Info - Station T --- TS ---  *+*  -  RX Victim Sys.Eqp.CTX.Band Info ----- Station E   --- ES  -
+Eqpt. Planned / Traffic Code: TP18G16D  DT1816                  |   Eqpt. Planned / Traffic Code: DES100M   DES100
+      Default   Traffic Code:           DT1816                  |   Eqpt. Default / Traffic Code: DES100M   DES100
+                   Freq.Bnd : 18B                               +                      Freq.Bnd : 18A
+-                                                               -                                                                  -
+SC
+UA    TX.Freq.     RX.Freq.   Chn  Freq.   INT.   INT.   INT.   INT.   VIC.   VIC.  VIC.            Interference Req.: CCIR (CALC.)
+BS     (MHz)        (MHz)     Sts  Sep.    TXPwr  AFLS   Net    EIRP   Net    AFSL  RXPwr           Loss    CALC.    REQD.
+E      STN.T        STN.E     T.R  (MHz)   (dBm)         ATGn   (dBw)  AtGn         (dBw)           (dB)     -I       -I    Margin
+--- ------.----  ------.----  -.- ----.--  --.--  --.- ---.--  ---.-- ---.--  --.- ----.--          ---.-- ----.--  ----.-- ----.--
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+
+Case Number : 3              Interferer from Environment File        Analysis Type:  CHAN            PDF File    : es140km_140k
+                                                                     Margin       :    0.00
++-        Site Information                                                                          -+    Notes: Interference Case
+Call T    Call U   | Station  T       Station  U       | OP T   OP U   | Satellite Service | Radio/  |           Yes ____  No ____
+CALL E    Loc.Code | ES Site Name E   Satellite Name S | OP E   OP S   |  ARC 1     ARC 2  | Rain Zn |           Path Profile
++-------- --------- ---------------- -----------------   ------ ------    ---.---   --.---   ------- +           Yes ____  No ____
+VEM551    VAD461    SE LONDON                  126/401   RCTL   RCTL       67.00     3.00     A  2               Blockage: ____ dB
+=D12783A1 SESLNDN1  LONDON                      SES 17   D12783 SB        Longitude:  67.00 Deg. W               At K=___
+ 
++----                      Case Geometry                    ---*+*---          Geometry to Rain Volume          ----+
+  Site     Dist     Azmth     Elev  |        Angle   Total Ant. |   Dist to Vol:   on ES     on TU    Azmth      Elev
+ T -> E     7.64    209.99     0.00 |                  Discr.   |   T -> Vol:     11.66      7.91      0.00      0.23
+ T -> U     4.58    210.34     0.25 |  SET:  117.34     66.31   |   E -> Vol:      0.10      0.28    220.14     14.56
+ E -> U     3.05     29.43     1.00 |  UTE:    0.43      1.86   |
+ E -> T     7.64     29.96     0.22 |                           |     Angle SEV:  61.15       Scang:  61.15
+ E -> S             155.56    37.54 |                           +     Angle UTV:   0.83                         ----+
+ 
+-- TX Interferer Stn.Ant.Sys.Info  ----- Station T --- TS ---  *+*  -- RX   Victim   Stn.Ant.Sys.Info  ----- Station E   --- ES  -
+Antenna #: 12     AUse: TR     Gain: 44.7 dB                    |   Antenna #:                    Gain: 56.3 dB        Coord Dist.
+TX.Ant.Code: VHLP4-180         Model:VHLP4-180                  |   RX.Ant.Code: ITU580_4_2RX     Model:ITU580_4_2RX   Trop: 140 km
+Xref... Ant: VHLP4-180                                          |   Xref... Ant: ITU580_4_2TX                          Prec: 140 km
+  Ant.Elev.:  299.00 m (AMSL)   TX.Ant.Ht:   40.0 m (AGL)       |     Ant.Elev.:  266.00 m (AMSL)   RX.Ant.Ht:    4.0 m (AGL)
+  Stn.Elev.:  259.00 m (AMSL)                                   +     Stn.Elev.:  262.00 m (AMSL)
+
+-- TX Interferer Sys.Eqp.CTX.Band Info - Station T --- TS ---  *+*  -  RX Victim Sys.Eqp.CTX.Band Info ----- Station E   --- ES  -
+Eqpt. Planned / Traffic Code: TP18G16D  DT1816                  |   Eqpt. Planned / Traffic Code: DES100M   DES100
+      Default   Traffic Code:           DT1816                  |   Eqpt. Default / Traffic Code: DES100M   DES100
+                   Freq.Bnd : 18B                               +                      Freq.Bnd : 18A
+-                                                               -                                                                  -
+SC
+UA    TX.Freq.     RX.Freq.   Chn  Freq.   INT.   INT.   INT.   INT.   VIC.   VIC.  VIC.            Interference Req.: CCIR (CALC.)
+BS     (MHz)        (MHz)     Sts  Sep.    TXPwr  AFLS   Net    EIRP   Net    AFSL  RXPwr           Loss    CALC.    REQD.
+E      STN.T        STN.E     T.R  (MHz)   (dBm)         ATGn   (dBw)  AtGn         (dBw)           (dB)     -I       -I    Margin
+--- ------.----  ------.----  -.- ----.--  --.--  --.- ---.--  ---.-- ---.--  --.- ----.--          ---.-- ----.--  ----.-- ----.--
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+  1 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.51  0.50 -125.00   20% S: 135.12 -121.29  -138.33  -17.04
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.29  -138.33  -17.04
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.36 -160.36  -138.33   22.04
+ 
++----                      Case Geometry                    ---*+*---          Geometry to Rain Volume          ----+
+  Site     Dist     Azmth     Elev  |        Angle   Total Ant. |   Dist to Vol:   on ES     on TU    Azmth      Elev
+ T -> E     7.64    209.99     0.00 |                  Discr.   |   T -> Vol:     11.66      7.91      0.00      0.23
+ T -> U     4.58    210.34     0.25 |  SET:  117.34     67.47   |   E -> Vol:      0.10      0.28    220.14     14.56
+ E -> U     3.05     29.43     1.00 |  UTE:    0.43      1.86   |
+ E -> T     7.64     29.96     0.22 |                           |     Angle SEV:  61.15       Scang:  61.15
+ E -> S             155.56    37.54 |                           +     Angle UTV:   0.83                         ----+
+ 
+-- TX Interferer Stn.Ant.Sys.Info  ----- Station T --- TS ---  *+*  -- RX   Victim   Stn.Ant.Sys.Info  ----- Station E   --- ES  -
+Antenna #: 12     AUse: TR     Gain: 44.7 dB                    |   Antenna #:                    Gain: 57.5 dB        Coord Dist.
+TX.Ant.Code: VHLP4-180         Model:VHLP4-180                  |   RX.Ant.Code: ITU580_4_8RX     Model:ITU580_4_8RX   Trop: 140 km
+Xref... Ant: VHLP4-180                                          |   Xref... Ant: ITU580_4_8TX                          Prec: 140 km
+  Ant.Elev.:  299.00 m (AMSL)   TX.Ant.Ht:   40.0 m (AGL)       |     Ant.Elev.:  266.00 m (AMSL)   RX.Ant.Ht:    4.0 m (AGL)
+  Stn.Elev.:  259.00 m (AMSL)                                   +     Stn.Elev.:  262.00 m (AMSL)
+
+-- TX Interferer Sys.Eqp.CTX.Band Info - Station T --- TS ---  *+*  -  RX Victim Sys.Eqp.CTX.Band Info ----- Station E   --- ES  -
+Eqpt. Planned / Traffic Code: TP18G16D  DT1816                  |   Eqpt. Planned / Traffic Code: DES100M   DES100
+      Default   Traffic Code:           DT1816                  |   Eqpt. Default / Traffic Code: DES100M   DES100
+                   Freq.Bnd : 18B                               +                      Freq.Bnd : 18A
+-                                                               -                                                                  -
+SC
+UA    TX.Freq.     RX.Freq.   Chn  Freq.   INT.   INT.   INT.   INT.   VIC.   VIC.  VIC.            Interference Req.: CCIR (CALC.)
+BS     (MHz)        (MHz)     Sts  Sep.    TXPwr  AFLS   Net    EIRP   Net    AFSL  RXPwr           Loss    CALC.    REQD.
+E      STN.T        STN.E     T.R  (MHz)   (dBm)         ATGn   (dBw)  AtGn         (dBw)           (dB)     -I       -I    Margin
+--- ------.----  ------.----  -.- ----.--  --.--  --.- ---.--  ---.-- ---.--  --.- ----.--          ---.-- ----.--  ----.-- ----.--
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+  2 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.47  0.50 -125.00   20% S: 135.12 -121.25  -138.33  -17.08
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.25  -138.33  -17.08
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.32 -160.32  -138.33   22.00
+ 
++----                      Case Geometry                    ---*+*---          Geometry to Rain Volume          ----+
+  Site     Dist     Azmth     Elev  |        Angle   Total Ant. |   Dist to Vol:   on ES     on TU    Azmth      Elev
+ T -> E     7.64    209.99     0.00 |                  Discr.   |   T -> Vol:     11.66      7.91      0.00      0.23
+ T -> U     4.58    210.34     0.25 |  SET:  117.34     67.83   |   E -> Vol:      0.10      0.28    220.14     14.56
+ E -> U     3.05     29.43     1.00 |  UTE:    0.43      1.86   |
+ E -> T     7.64     29.96     0.22 |                           |     Angle SEV:  61.15       Scang:  61.15
+ E -> S             155.56    37.54 |                           +     Angle UTV:   0.83                         ----+
+ 
+-- TX Interferer Stn.Ant.Sys.Info  ----- Station T --- TS ---  *+*  -- RX   Victim   Stn.Ant.Sys.Info  ----- Station E   --- ES  -
+Antenna #: 12     AUse: TR     Gain: 44.7 dB                    |   Antenna #:                    Gain: 57.8 dB        Coord Dist.
+TX.Ant.Code: VHLP4-180         Model:VHLP4-180                  |   RX.Ant.Code: ITU580_5_0RX     Model:ITU580_5_0RX   Trop: 140 km
+Xref... Ant: VHLP4-180                                          |   Xref... Ant: ITU580_5_0TX                          Prec: 140 km
+  Ant.Elev.:  299.00 m (AMSL)   TX.Ant.Ht:   40.0 m (AGL)       |     Ant.Elev.:  266.00 m (AMSL)   RX.Ant.Ht:    4.0 m (AGL)
+  Stn.Elev.:  259.00 m (AMSL)                                   +     Stn.Elev.:  262.00 m (AMSL)
+
+-- TX Interferer Sys.Eqp.CTX.Band Info - Station T --- TS ---  *+*  -  RX Victim Sys.Eqp.CTX.Band Info ----- Station E   --- ES  -
+Eqpt. Planned / Traffic Code: TP18G16D  DT1816                  |   Eqpt. Planned / Traffic Code: DES100M   DES100
+      Default   Traffic Code:           DT1816                  |   Eqpt. Default / Traffic Code: DES100M   DES100
+                   Freq.Bnd : 18B                               +                      Freq.Bnd : 18A
+-                                                               -                                                                  -
+SC
+UA    TX.Freq.     RX.Freq.   Chn  Freq.   INT.   INT.   INT.   INT.   VIC.   VIC.  VIC.            Interference Req.: CCIR (CALC.)
+BS     (MHz)        (MHz)     Sts  Sep.    TXPwr  AFLS   Net    EIRP   Net    AFSL  RXPwr           Loss    CALC.    REQD.
+E      STN.T        STN.E     T.R  (MHz)   (dBm)         ATGn   (dBw)  AtGn         (dBw)           (dB)     -I       -I    Margin
+--- ------.----  ------.----  -.- ----.--  --.--  --.- ---.--  ---.-- ---.--  --.- ----.--          ---.-- ----.--  ----.-- ----.--
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+  3 17,815.0000  17,850.0000  5 3   34.35  19.00  7.50  35.34   24.34 -10.53  0.50 -125.00   20% S: 135.12 -121.31  -138.33  -17.02
+              Station U Ant. gain:         44.7                  Energy Dispersal:    0.00  .01% T: 135.12 -121.31  -138.33  -17.02
+                                                               20% RAC/TAC Factor:  -21.73  .01% P: 149.38 -160.38  -138.33   22.06
+ 
+Number of reported TS-ES cases: 3

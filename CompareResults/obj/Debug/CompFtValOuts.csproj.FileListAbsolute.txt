@@ -1,0 +1,5 @@
+D:\Users\ahulme\MyCsharp\CompFtValOuts\bin\Debug\CompFtValOuts.exe.config
+D:\Users\ahulme\MyCsharp\CompFtValOuts\bin\Debug\CompFtValOuts.exe
+D:\Users\ahulme\MyCsharp\CompFtValOuts\bin\Debug\CompFtValOuts.pdb
+D:\Users\ahulme\MyCsharp\CompFtValOuts\obj\Debug\CompFtValOuts.exe
+D:\Users\ahulme\MyCsharp\CompFtValOuts\obj\Debug\CompFtValOuts.pdb

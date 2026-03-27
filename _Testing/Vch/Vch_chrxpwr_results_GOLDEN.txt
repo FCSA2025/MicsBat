@@ -1,0 +1,85 @@
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2019.07.25  14:11
+Project Code [hulme1_0]
+
+Checking file: chrxpwr
+Full Listing Requested.
+Debugging Output Requested.
+-------------------------------------------------------------
+1) Site ;A3507304:-
+
+1765 Oper: A35073 
+L/L: 48-27-34.40N/121-33-55.40W Grnd: 318.8m
+Links:-
+Site ;A3507304 name 1765 has 1 Link(s)...
+  To: WEE37001 band 6D with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 3 acode TYP042G
+      1 Ant index 1 anum 4 acode TYP042G
+      Channels:-
+      0 Chan index 0 chid AOYP
+      1 Chan index 1 chid AOYQ
+
+  Link 0 to WEE37001, band 6D:-
+--Other End...
+Site WEE37001 name STATION has 1 Link(s)...
+  To: ;A3507304 band 6D with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 3 acode P6-65D
+      1 Ant index 1 anum 4 acode P6-65D
+      Channels:-
+      0 Chan index 0 chid AOYP
+      1 Chan index 1 chid AOYQ
+    Ground distance: 0.6808, azimuth: 356.5402, back-azimuth: 176.5398
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    3    7.000  356.5402   -19.9358     0.7242
+  1    4    4.900  356.5402   -19.3460     0.7215
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) AOYP                6715000.000            -12.195            0.100 
+    *ERROR* Rx Power 1 does not agree with calcs, (-12.1948) vs (-12.1629).
+ 1( 1) AOYQ                6815000.000             -8.191            0.100 
+
+-------------------------------------------------------------
+2) Site WEE37001:-
+
+STATION Oper: A35073 
+L/L: 48-27-56.40N/121-33-57.40W Grnd: 76.2m
+Links:-
+Site WEE37001 name STATION has 1 Link(s)...
+  To: ;A3507304 band 6D with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 3 acode P6-65D
+      1 Ant index 1 anum 4 acode P6-65D
+      Channels:-
+      0 Chan index 0 chid AOYP
+      1 Chan index 1 chid AOYQ
+
+  Link 0 to ;A3507304, band 6D:-
+--Other End...
+Site ;A3507304 name 1765 has 1 Link(s)...
+  To: WEE37001 band 6D with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 3 acode TYP042G
+      1 Ant index 1 anum 4 acode TYP042G
+      Channels:-
+      0 Chan index 0 chid AOYP
+      1 Chan index 1 chid AOYQ
+    Ground distance: 0.6808, azimuth: 176.5398, back-azimuth: 356.5402
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    3    2.700  176.5398    19.9312     0.7242
+  1    4    8.500  176.5398    19.3414     0.7215
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) AOYP  6715000.000                  29.000            0.100        
+ 1( 1) AOYQ  6815000.000                  28.700            0.100        
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      4
+Channels Read:      4
+
+1 Errors were found
+0 Warnings were issued.
+

@@ -1,0 +1,82 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:16
+Project Code [hulme1_0] Process Id: 23728
+
+PDF Name: delsadd
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %TLUSBCX1 (HARTELY BAY PASS/TLUSBC) in proposed file ...
+Checking proposed file Site %TLUSBCX1 band 7B.
+%TLUSBCX1 to XOA699A band 7B chid 1001 is first TX HiLo violation.
+%TLUSBCX1 to XOA699A band 7B chid 1001 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking CGA276A (TRUTCH ISLAND/TLUSBC) in proposed file ...
+Checking proposed file Site CGA276A band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOA699A (HARTLEY BAY CO/TLUSBC) in proposed file ...
+Checking proposed file Site XOA699A band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'delsadd' is validated for :UPDATE:
+
+PDF Validation Completed - 16:16

@@ -1,0 +1,150 @@
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                       DATE: 2023.07.13
+MASTER DATA BASE -- TSTS Interference Study Report - Station Summary   Page:   1
+Project Code [hulme1_0]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+ 
+          === FROM PROPOSED FILE ===
+ 
+HULME1    KANATA                           RCTL   45-19-59.00  075-53-59.99   135
+HULME2    OTTAWA                           RCTL   45-25-01.20  075-42-00.00  1325
+ 
+ 
+          === FROM ENVIRONMENT FILE ===
+ 
+CGA419    UNKNOWN                          CHUO   45-30-11.00  075-51-01.00   358
+CGC795    PLEVNA CO                        BELL   44-57-29.22  076-59-10.96   290
+CGC797    GRINDSTONE                       BELL   45-00-15.21  076-57-05.97   329
+CGC798    CROSS LAKE                       BELL   45-23-59.23  077-55-38.13   488
+CGC799    MCKEN LK N                       BELL   45-23-31.23  078-01-40.14   448
+CGE646    RIGAUD                           BMCE   45-27-04.30  074-17-39.65   221
+CGR624    TORONTO (301 FRONT ST) ON        CBC    43-38-33.00  079-23-15.00    82
+CIL636    GORRS MTN                        BELL   45-03-20.30  076-59-30.10   371
+CJX818    TORONTO (7 JACKES AVE) ON        CHUM   43-41-05.00  079-23-28.00   134
+CJX861    87 GEORGE STREET  OTTAWA         RAWL   45-25-40.00  075-41-27.00    60
+CJX870    OTTAWA (611 CUMBERLAND) ONTARIO  CHUO   45-25-26.00  075-41-02.00    70
+CJZ692K   OTTAWA (CKQB-FM) ONTARIO         CORUS  45-21-32.00  075-44-17.00    96
+CYZ222    UNKNOWN                          CORUS  45-30-11.00  075-51-01.00   358
+VAB854    MONTREAL  1310 GREENE AVE (STUDI CHUM   45-29-10.00  073-35-22.00    53
+VAF356    GRAND MERE                       BMCE   46-36-04.10  072-43-29.43   220
+VAN756    TORONTO ON                       RAWL   43-40-16.00  079-22-50.00   104
+VAN757    CHALKRIVER                       BMCE   46-03-19.21  077-23-07.06   220
+VAZ328    GILMOUR CO                       BELL   44-49-12.23  077-36-45.07   319
+VAZ329    LIM LK NW                        BELL   44-53-47.23  077-37-47.07   335
+VAZ330    LIM LK SE                        BELL   44-53-34.23  077-35-44.07   323
+VAZ656    GILMOUR RR                       BELL   44-49-39.43  077-36-21.47   320
+VAZ659    VENNACHAR                        BELL   45-03-07.21  077-11-39.02   411
+VAZ660    WESLEMKN LK R                    BELL   45-03-56.22  077-25-40.05   335
+VAZ661    WESLEMKN LK W                    BELL   45-01-02.22  077-25-36.05   320
+VAZ662    WESLEMKN LK S                    BELL   44-59-02.22  077-24-45.04   351
+VAZ663    WESLEMKN LK E                    BELL   45-02-55.22  077-24-04.05   320
+VAZ664    BUCKSHOT                         BELL   44-58-30.22  077-04-49.98   299
+VAZ665    FOYMOUNT CO                      BELL   45-26-05.22  077-18-09.05   434
+VAZ666    FOYMOUNT RR                      BELL   45-25-49.22  077-17-17.05   524
+VAZ667    LETTERKENNY                      BELL   45-21-40.22  077-25-47.07   418
+VAZ668    WOODHOUSE MTN                    BELL   45-24-06.22  077-26-28.07   415
+VBB905    COTEAU DU LAC                    BMCE   45-17-55.15  074-11-15.62    50
+VDJ898    RUISSEAU PLAT                    BELL   46-18-36.11  073-09-37.46   164
+VDJ899    BOIS-BLANC                       BELL   46-14-44.11  073-07-32.46    57
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2023.07.13
+MASTER DATA BASE -- Interference Study Report -                         Page:   2
+                    Proposed as Interferer - Station Summary
+Project Code [hulme1_0]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+VDJ900    LOUISEVILLE                      BELL   46-19-25.10  073-00-36.45    92
+VDJ901    LE GRAND RANG                    BELL   46-21-56.10  072-57-35.45    63
+VDJ902    RANG DE L'ILE                    BELL   46-20-53.14  073-58-49.55    60
+VDJ903    RANG ST-CHARLES                  BELL   46-20-30.10  072-59-56.45    62
+VEA438    BANCROFT BMC                     BELL   45-02-38.82  077-52-54.51   440
+VEA439    DETLOR                           BELL   45-02-01.22  077-44-08.09   325
+VEA440    SALMON TRT LK                    BELL   45-10-33.23  077-49-33.11   469
+VEA441    MACDONAL MR                      BELL   45-09-52.23  077-47-01.10   421
+VEA442    BOUTLER                          BELL   45-12-43.22  077-38-46.08   412
+VEA899    CLEAR LAKE 1                     BELL   45-26-57.21  077-10-09.02   242
+VEQ815    BRULE LAKE                       BELL   45-01-14.21  077-01-57.99   286
+VEQ875    SHAWENEGOG LAKE                  BELL   44-54-42.22  077-02-38.67   305
+VEQ879    GIN LAKE                         BELL   45-03-48.92  077-33-42.87   392
+VEQ880    MAYO LAKE SOUTH                  BELL   45-02-15.82  077-34-55.57   363
+VEU514    RENFREW                          BMCE   45-29-33.00  076-42-13.00   210
+VEU515    PEMBROKE                         BMCE   45-47-23.21  077-13-56.04   202
+VEU536    STAFFORD                         BMCE   45-42-42.20  077-00-24.00   184
+VFF448    GLANMIRE LK                      BELL   44-45-56.43  077-38-52.68   307
+VGB938    GOLDEN LK B                      BELL   45-33-16.22  077-22-04.06   177
+VOV881    PETERBOROUG                      BMCE   44-20-39.22  078-21-05.17   291
+VOV891    GALBRAITH                        BMCE   45-11-30.19  076-11-49.90   145
+VOV893    MORTON                           BMCE   44-33-04.21  076-12-07.88   138
+VOV896    DRUMMOND CT                      BMCE   44-59-54.20  076-14-13.89   141
+VX9FGU    IREQ BASE OUEST LHT-BS(A1)       HYQU   45-36-57.22  073-22-50.28    29
+VX9FGV    IREQ BASE NORD LHT-BS(A2)        HYQU   45-36-58.76  073-22-47.83    29
+VX9FGW    IREQ BASE EST LHT-BS(A3)         HYQU   45-36-56.69  073-22-45.18    29
+VX9FGX    IREQ BASE SUD LHT-BS(A4)         HYQU   45-36-55.15  073-22-47.63    29
+VX9FGY    IREQ CPE 01 (LDE-L1_2)           HYQU   45-36-56.00  073-23-05.00    32
+VX9FGZ    IREQ CPE 02 (LDE-L1_10)          HYQU   45-36-56.00  073-23-06.00    32
+VX9FHA    IREQ CPE 03 (LDE-L1_13)          HYQU   45-36-57.00  073-23-05.00    32
+VX9FHB    IREQ CPE 04 (LDE-L2_3)           HYQU   45-36-57.00  073-23-06.00    32
+VX9FHC    IREQ CPE 05 (LDE-L2_13)          HYQU   45-36-55.00  073-23-05.00    32
+VX9FHD    IREQ CPE 06 (LDE-L2_8)           HYQU   45-36-55.00  073-23-06.00    32
+VX9FHE    IREQ CPE 07 (SOLAIRE-2)          HYQU   45-36-59.23  073-23-12.23    30
+VX9FHF    IREQ CPE 08 (SOLAIRE-1)          HYQU   45-37-02.33  073-23-12.22    28
+VX9FHG    IREQ CPE 09 (TEST 1)             HYQU   45-37-16.00  073-22-48.00    27
+VX9FHH    IREQ CPE 10 (LAB MULTI)          HYQU   45-37-15.00  073-22-47.00    27
+VX9FHI    IREQ CPE 11 (TEST 2)             HYQU   45-37-15.00  073-22-48.00    27
+VX9FHJ    IREQ CPE 12 (TEST 3)             HYQU   45-37-16.00  073-22-47.00    27
+VX9FHK    IREQ CPE 13 (POSTE BOUCHERVILLE) HYQU   45-36-03.00  073-22-09.00    31
+VX9FHL    IREQ CPE 14 (STAR_ZRI2_WR)       HYQU   45-36-13.43  073-27-21.90     7
+VX9FHM    IREQ CPE 15 (TEST 4)             HYQU   45-37-14.00  073-22-47.00    27
+VX9GKE    IREQ CPE 16 (STAR_MLT1_WR)       HYQU   45-33-55.49  073-27-24.00    18
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION                        DATE: 2023.07.13
+MASTER DATA BASE -- Interference Study Report -                         Page:   3
+                    Proposed as Interferer - Station Summary
+Project Code [hulme1_0]
+ 
+Stations Passed To Analysis
+Call Sign Station Name                     Oper   Latitude     Longitude     Grnd
+                                                                              (m)
+--------- -------------------------------- ------ -----------  ------------ -----
+ 
+VX9GKF    IREQ CPE 17 (STAR_MLT2_WR)       HYQU   45-29-06.39  073-22-44.14    23
+VX9GKG    IREQ CPE 18 (STAR_MLT3_WR)       HYQU   45-40-59.02  073-18-02.87    40
+VX9GKH    IREQ CPE 19 (STAR_MLT4_WR)       HYQU   45-42-59.41  073-21-07.98    22
+VX9GKI    IREQ CPE 20 (STAR_MLT5_WR)       HYQU   45-35-51.04  073-25-46.63    18
+VX9GKJ    IREQ CPE 21 (STAR_ZRI1_WR)       HYQU   45-34-23.04  073-26-13.77    21
+VX9GKK    IREQ CPE 22 (STAR_ZRI3_WR)       HYQU   45-35-40.56  073-27-20.79    12
+VX9GKL    IREQ CPE 23 (STAR_ZRI4_WR)       HYQU   45-34-50.38  073-27-42.66    15
+VX9GKM    IREQ CPE 24 (STAR_ZRI5_WR)       HYQU   45-34-42.40  073-26-52.04    18
+WDV6401   WPBS STUDIO                      A09215 43-58-40.20  075-56-12.70   122
+WDV6402   WPBS TX SITE                     A09215 43-51-46.00  075-43-38.00   476
+WDV6501   WPBS TX SITE                     A09215 43-51-46.00  075-43-38.00   476
+WDV6502   WNPI TX SITE                     A09215 44-29-29.00  074-51-26.00   376
+WFD55701  WPBS TX SITE                     A09215 43-51-46.00  075-43-38.00   476
+WFD55702  WPBS STUDIO                      A09215 43-58-40.20  075-56-12.70   122
+WQOB47102 TERRY MT                         A31884 44-34-24.00  073-40-30.00   604
+XJ9AKK    MONTRÉAL  QC (3480 UNIVERSITY ST MCGILL 45-30-22.00  073-34-35.00    46
+XJ9AKL    MONTRÉAL  QC (3680 UNIVERSITY ST MCGILL 45-30-27.00  073-34-45.00    56
+XJ9AOG    MONTRÉAL  QC (600 BOULEVARD DR.- CMCELE 45-29-43.00  073-41-39.00    25
+XJ9AOH    UNKNOWN                          CMCELE 45-29-43.00  073-41-37.00    25
+XMS613    GANANOQUE                        BMCE   44-20-13.21  076-10-34.87    91
+XOJ638    ST-JEROME T.                     HYQU   45-46-24.15  074-01-25.56   106
+XOJ674    LES CEDRES P.                    HYQU   45-18-40.15  074-01-38.59    40
+XOJ907    STE-ANNE-PLAINES P.              HYQU   45-43-55.14  073-49-24.54    56
+XOJ908    BOUL LABELLE P.                  HYQU   45-39-23.14  073-51-08.54    69
+XOJ962    VALLEYFIELD P.                   HYQU   45-15-05.15  074-06-39.62    45
+XOJ964    DORION P.                        HYQU   45-22-25.15  074-02-37.58    21
+XOJ965    POINTE-DU-BUISSON B.A.           HYQU   45-19-01.15  073-58-15.57    32
+XOJ966    POINTE-DES-CASCADES B.A.         HYQU   45-19-14.15  073-56-37.57    27
+XOJ967    FERRY T.                         HYQU   45-17-26.15  074-07-31.61    40
+XOZ25     UNKNOWN                          RAWL   45-30-11.00  075-51-01.00   358
+XOZ37     UNKNOWN                          CHUM   45-17-43.00  073-43-18.00    53
+ 
+110 Records.

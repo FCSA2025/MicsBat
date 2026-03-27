@@ -1,0 +1,152 @@
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esadd.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\eschgecallsign.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\eschgelocation.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\eslargefile.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esmiss1.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esmiss2.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esmiss3.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esmiss4.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esmiss5.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esmiss6.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esmiss7.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esnoazimuth1.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\esnoazimuth2.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\eswarning1.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\eswarning2.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\tels.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AK_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AK_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AK_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AK_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AK_05 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AK_06 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AK_07 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AK_08 missing mandatory for Add.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AR_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AR_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AR_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AR_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AR_05 missing mandatory for Add.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AR_06 missing mandatory for Add.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AR_07 missing mandatory for Add.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AR_08 missing mandatory for Add.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AR_09 missing mandatory for Add.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AS_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AS_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AS_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AS_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AS_05 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AS_06 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AS_07 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AS_08 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_05 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_06 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_07 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_08 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_09 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_AT_10 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CK_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CK_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CK_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CK_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CK_05 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CK_06 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CK_07 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CK_08 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_05 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_06 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_07 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_08 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_09 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_10 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_11 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_12 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_13 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CR_14 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_05 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_06 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_07 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_08 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_09 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_10 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_11 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_12 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_CT_13 missing mandatory for ADD.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_DATES_01 both valid formats.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_DATES_02 invalid date.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_DATES_03 invalid date.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_DATES_04 invalid date.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_DATES_05 invalid date.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_DATES_06 invalid date.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_GENERAL_03 file empty.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_GENERAL_04 no parsable content.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_GENERAL_05 Invalid record qualifier.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_GK_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_GK_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_GK_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_GK_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_GK_05 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_GK_06 missing mandatory.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_LK_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_LK_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_LK_03 too many field.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_LK_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_LK_05 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_LK_06 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_LK_07 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_05 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_06 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_07 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_08 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_09 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SD_10 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SK_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SK_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SK_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SK_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SK_05 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SK_06 missing mandatory.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SK_07 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SK_08 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_SK_09 missing mandatory for ADD.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TD_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TD_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TD_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TD_04 out of sequence.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TE_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TE_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TE_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TE_04 out of sequence (TD then TE).txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TE_05 out of sequence (SD then TE).txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_TE_06 out of sequence (CK then TE).txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_VALID_01 golden.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_VALID_02 blank line.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_VALID_03 only mandatories.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_VALID_04 only mandatories for Add.txt
+S,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_01 missing.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_02 too few fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_03 too many fields.txt
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_04 out of sequence.txt 
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_05 missing mandatory.txt 
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_06 missing mandatory.txt 
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_07 missing mandatory.txt 
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_08 missing mandatory.txt 
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_09 missing mandatory.txt 
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_10 missing mandatory for ADD.txt 
+F,      D:\Users\ahulme\MICS#\TestData\ES\PDFs\EsImportTests\ES_ZK_11 missing mandatory for ADD.txt 

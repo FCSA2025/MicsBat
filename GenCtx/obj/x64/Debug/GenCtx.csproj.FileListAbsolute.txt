@@ -1,0 +1,16 @@
+D:\MicsBatchProgs\MICS#\GenCtx\obj\x64\Debug\GenCtx.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\GenCtx\obj\x64\Debug\GenCtx.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\GenCtx.exe.config
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\GenCtx.exe
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\GenCtx.pdb
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\_DataStructures.dll
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\_DataStructures.pdb
+D:\MicsBatchProgs\MICS#\GenCtx\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\GenCtx\obj\x64\Debug\GenCtx.csproj.Up2Date
+D:\MicsBatchProgs\MICS#\GenCtx\obj\x64\Debug\GenCtx.exe
+D:\MicsBatchProgs\MICS#\GenCtx\obj\x64\Debug\GenCtx.pdb

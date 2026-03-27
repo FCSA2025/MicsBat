@@ -1,0 +1,50 @@
+
+sdUpdateTowr Build 160706-1102/64-R
+		SDB TOWER UPDATE REPORT Build 160706-1102/64-R		Date: 2019.07.09 20:50
+
+SDF Name: test_update
+SDF Type: Tower
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/9/2019 8:50:19 PM
+
+
+Tower SDF: test_update
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Tower SDF test_update is valid
+
+SDF Validation completed - 7/9/2019 8:50:19 PM
+
+		SDF UPDATE RESULTS
+
+SDB UPDATE SUMMARY: 5 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Tower Update ****
+	***** SDF Name: test_update      User Name: hulme1     *****
+	************            Master Records          ************
+
+	 Records Processed: 5
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************            Detail Records          ************
+
+	 Records Processed: 0
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************     End of Summary Information     ************

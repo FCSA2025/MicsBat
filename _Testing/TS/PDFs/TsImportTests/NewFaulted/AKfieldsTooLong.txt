@@ -1,0 +1,10 @@
+* TS-PDF: tsImportTestAKfieldsTooLong, By ftPrint (070829-1705) at 2009.09.21 12:36:20 EDT
+*
+TT,N,DBLEADD, ,NAD83, ,
+*##############################################################################
+SK,A,U,%TLUSBCX8,ISHKHEENICKH PAS,55-00-23.26N,129-34-58.49W,347.0, ,
+SD,BC,TLUSBC,1, , , , , , , , ,FT
+*====  Name Not Available  ============== Ant Gain = 0.0, Dist Loss = 60.80
+AK,A!,U!,%TLUSBCX8!,%TLUSBCX9!,11A!!,119,03-aug-2000,15:46!
+AQ,TR,20F24FB%,8.0,,,,N,,,, , , ,
+AO, , , , , , , , , , , , , ,

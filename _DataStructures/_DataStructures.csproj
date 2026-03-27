@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35A1E0EF-230A-4575-B8E6-1AD62C88D470}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_DataStructures</RootNamespace>
+    <AssemblyName>_DataStructures</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\_bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\..\develbat\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AggIntLine.cs" />
+    <Compile Include="AuditTrail.cs" />
+    <Compile Include="AxLocation.cs" />
+    <Compile Include="AxStation.cs" />
+    <Compile Include="BandBits.cs" />
+    <Compile Include="ChanHiLo.cs" />
+    <Compile Include="ChanHiLoGroup.cs" />
+    <Compile Include="CTFA.cs" />
+    <Compile Include="CtxStruct.cs" />
+    <Compile Include="Ctx_Xref.cs" />
+    <Compile Include="EsTsSelRec.cs" />
+    <Compile Include="ExZoneCalc.cs" />
+    <Compile Include="FeAnte.cs" />
+    <Compile Include="FeAzim.cs" />
+    <Compile Include="FeCCal.cs" />
+    <Compile Include="FeChan.cs" />
+    <Compile Include="FeCLoc.cs" />
+    <Compile Include="FeSite.cs" />
+    <Compile Include="FeSiteStr.cs" />
+    <Compile Include="FeSiteStrNulls.cs" />
+    <Compile Include="FeTitl.cs" />
+    <Compile Include="LinkMatch.cs" />
+    <Compile Include="SqlMicsErrRec.cs" />
+    <Compile Include="TAFLintermediate.cs" />
+    <Compile Include="ProdBinConfig.cs" />
+    <Compile Include="FtAnte.cs" />
+    <Compile Include="FtAnteWN.cs" />
+    <Compile Include="FtChng.cs" />
+    <Compile Include="Cursor.cs" />
+    <Compile Include="FtChan.cs" />
+    <Compile Include="FtSite.cs" />
+    <Compile Include="FtSiteStrNulls.cs" />
+    <Compile Include="FtSiteStrNulls_OLD.cs" />
+    <Compile Include="FtSiteStr.cs" />
+    <Compile Include="FtSiteStr_OLD.cs" />
+    <Compile Include="FtTitl.cs" />
+    <Compile Include="GridStruct.cs" />
+    <Compile Include="HiLoPair.cs" />
+    <Compile Include="HiLoSense.cs" />
+    <Compile Include="HiLoSensePair.cs" />
+    <Compile Include="LargeInteger.cs" />
+    <Compile Include="MeAnte.cs" />
+    <Compile Include="MeAzim.cs" />
+    <Compile Include="MeChan.cs" />
+    <Compile Include="MeSite.cs" />
+    <Compile Include="MeSiteStr.cs" />
+    <Compile Include="MeSiteStrNulls.cs" />
+    <Compile Include="MicsUsers.cs" />
+    <Compile Include="MtAnte.cs" />
+    <Compile Include="MtChan.cs" />
+    <Compile Include="MtPhantomTxLink.cs" />
+    <Compile Include="MtSite.cs" />
+    <Compile Include="MtSiteStrNulls.cs" />
+    <Compile Include="MtSiteNull_OLD.cs" />
+    <Compile Include="MtSiteStr.cs" />
+    <Compile Include="MtSiteStr_OLD.cs" />
+    <Compile Include="Cvt.cs" />
+    <Compile Include="NewChan.cs" />
+    <Compile Include="OhLossXfer.cs" />
+    <Compile Include="Parm.cs" />
+    <Compile Include="ParmStrct.cs" />
+    <Compile Include="PatternStruct.cs" />
+    <Compile Include="ProfileXfer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SdAntd.cs" />
+    <Compile Include="SdAnte.cs" />
+    <Compile Include="SdBand.cs" />
+    <Compile Include="SdCtx.cs" />
+    <Compile Include="SdCtxD.cs" />
+    <Compile Include="SdEqpt.cs" />
+    <Compile Include="SdNote.cs" />
+    <Compile Include="SdOper.cs" />
+    <Compile Include="SdPlan.cs" />
+    <Compile Include="SdPlnd.cs" />
+    <Compile Include="SdRout.cs" />
+    <Compile Include="SdTown.cs" />
+    <Compile Include="SdTowr.cs" />
+    <Compile Include="SdTraf.cs" />
+    <Compile Include="SRSP.cs" />
+    <Compile Include="SuCtx.cs" />
+    <Compile Include="SuCtxD.cs" />
+    <Compile Include="SuCtxStruct.cs" />
+    <Compile Include="SuSatOper.cs" />
+    <Compile Include="SuTowr.cs" />
+    <Compile Include="TAFL.cs" />
+    <Compile Include="TcTxAnalog.cs" />
+    <Compile Include="TeAnte.cs" />
+    <Compile Include="TeChan.cs" />
+    <Compile Include="TeSite.cs" />
+    <Compile Include="TLink_OLD.cs" />
+    <Compile Include="TM.cs" />
+    <Compile Include="TsEsSelRec.cs" />
+    <Compile Include="TSIPQ.cs" />
+    <Compile Include="TsipReports.cs" />
+    <Compile Include="TsTsSelRec.cs" />
+    <Compile Include="SuAntd.cs" />
+    <Compile Include="SuAnte.cs" />
+    <Compile Include="SuAntStr.cs" />
+    <Compile Include="SuAntStr_OLD.cs" />
+    <Compile Include="SuBand.cs" />
+    <Compile Include="SuEqpt.cs" />
+    <Compile Include="SuFeeCode.cs" />
+    <Compile Include="SuNote.cs" />
+    <Compile Include="SuOper.cs" />
+    <Compile Include="SuPlan.cs" />
+    <Compile Include="SuPlnd.cs" />
+    <Compile Include="SuRout.cs" />
+    <Compile Include="SuTown.cs" />
+    <Compile Include="SuTraf.cs" />
+    <Compile Include="TabDef.cs" />
+    <Compile Include="TantKey.cs" />
+    <Compile Include="TLink.cs" />
+    <Compile Include="TpParm.cs" />
+    <Compile Include="TsTsSelRec4.cs" />
+    <Compile Include="TtAnte.cs" />
+    <Compile Include="TtChan.cs" />
+    <Compile Include="TtSite.cs" />
+    <Compile Include="TtTemp2.cs" />
+    <Compile Include="TcTxDigital.cs" />
+    <Compile Include="UserInfoData.cs" />
+    <Compile Include="UserTables.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_Configuration\_Configuration.csproj">
+      <Project>{7bd937cd-26c6-4622-817f-bda9f88ba8bc}</Project>
+      <Name>_Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_NewLib\_NewLib.csproj">
+      <Project>{A37061E1-FEAC-494F-9DA2-144350ED806D}</Project>
+      <Name>_NewLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,178 @@
+ES PDF VALIDATION REPORT    Build 160428-1318/64-D    DATE: 2019.01.07  20:05
+Project Code [HULME1_0] Process ID [3788]
+PDF Name: esvalchan
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS: 0 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =TELSUX !TELSUX 2.
+Invalid 1st character for Call Sign (!TELSUX).
+Energy Dispersal (-1.400000) must be between 0.0 and 50.0.
+TX Frequency (100000000.000000) must be between 0.0 and 99999999.9.
+MaxTXPower (100.000000) must be between -99.9 and 99.9.
+TX Power (-200.000000) must be between -99.99 and 99.99.
+RX Frequency (110000000.000000) must be between 0.0 and 99999999.9.
+RX Power (120.000000) must be between 0.0 and -999.9.
+RX Status (9) must be between 0 and 8.
+Interference Power (158.000000) must be between -999.9 and 0.0.
+Percipitation Interference (139.000000) must be between -999.9 and 0.0.
+Tropospheric Interference (138.000000) must be between -999.9 and 0.0.
+
+KEY: =TELSUX $TELSUX 3.
+A call sign ($TELSUX) that begins with '$' must have RX frequencies only.
+Energy Dispersal (51.400002) must be between 0.0 and 50.0.
+RX Power (-1000.000000) must be between 0.0 and -999.9.
+Interference Power (-1001.000000) must be between -999.9 and 0.0.
+Percipitation Interference (-1003.000000) must be between -999.9 and 0.0.
+Tropospheric Interference (-1002.000000) must be between -999.9 and 0.0.
+
+KEY: =TELSUX =TELSUX 1.
+Command (X) must be A, B, D, N or U.
+TX Frequency (-5945000.000000) must be between 0.0 and 99999999.9.
+TX Polarization (Z) must be H, V, B, L, R, C.
+MaxTXPower (-100.000000) must be between -99.9 and 99.9.
+TX Power (200.000000) must be between -99.99 and 99.99.
+TX Status (9) must be between 0 and 8.
+TX Fee (0) not recognized.
+RX Frequency (-3720000.000000) must be between 0.0 and 99999999.9.
+RX Polarization (A) must be H, V, B, L, R, C.
+
+KEY: =TELSUX =TELSVX 7.
+TX Polarization (Z) must be H, V, B, L, R, C.
+RX Polarization (A) must be H, V, B, L, R, C.
+
+KEY: =TELSXX =TELSUX 6.
+TX Polarization (Z) must be H, V, B, L, R, C.
+RX Polarization (A) must be H, V, B, L, R, C.
+
+KEY: =TELSUX !TELSUX 2
+No Antenna record for this channel.
+
+KEY: =TELSUX $TELSUX 3
+No Antenna record for this channel.
+
+KEY: =TELSUX =TELSUX 1
+Command (X) is invalid.
+
+KEY: =TELSUX =TELSUX 10
+TX Traffic not present in the SDB
+RX Frequency (4880000.00) out of range (3540000.00 to 4200000.00).
+
+KEY: =TELSUX =TELSUX 12
+Must Enter Interference Power field.
+Must Enter Precipitation Interference field.
+Must Enter Tropospheric Interference field.
+TX Traffic not present in the SDB
+
+KEY: =TELSUX =TELSUX 13
+Must Enter Interference Power field.
+Must Enter Precipitation Interference field.
+Must Enter Tropospheric Interference field.
+Must enter at least one TX or RX Frequency.
+
+KEY: =TELSUX =TELSUX 14
+Must Enter TX Polarization field
+Must Enter Max TX Power field
+Must Enter TX Power field.
+Must Enter TX Equipment field.
+Must Enter TX Status field.
+Must Enter TX Traffic field.
+Must Enter TX Fee Code field.
+Must Enter Energy Dispersal field.
+TX Equipment must be present
+TX Traffic must be present
+TX Polarization must be present.
+Max TX Power must be present.
+TX Power must be present.
+TX Status must be present.
+TX Fee must be present.
+
+KEY: =TELSUX =TELSUX 15
+Must Enter RX Power field.
+Must Enter RX Equipment field.
+Must Enter RX Status field.
+Must Enter RX Traffic field.
+Must Enter RX Fee Code field.
+Must Enter Interference Power field.
+Must Enter Precipitation Interference field.
+Must Enter Tropospheric Interference field.
+RX Equipment must be present.
+RX Traffic must be present.
+RX Power must be present.
+RX Status must be present.
+Interfer. Power must be present.
+Tropo. Interfer. must be present.
+Precipitation Interference must be present.
+RX Fee must be present.
+
+KEY: =TELSUX =TELSUX 18
+Channel does not exist in MDB
+
+KEY: =TELSUX =TELSUX 5
+Channel record already exists in MDB, cannot ADD
+Note (ETON) not present in SDB for Operator :TELS:
+TX Equipment (XX3600) not present in SDB
+RX Equipment (XY3600) not present in SDB.
+
+KEY: =TELSUX =TELSUX 9
+TX Traffic not present in the SDB
+TX Frequency (7105000.00) out of range (5850000.00 to 6425000.00).
+RX Traffic (B0000) not present in the SDB.
+
+KEY: =TELSUX =TELSUY 16
+Channel does not exist in MDB
+
+KEY: =TELSUX =TELSUY 17
+Channel does not exist in MDB.
+No Antenna record for this channel.
+
+KEY: =TELSUX =TELSVX 7
+No Antenna record for this channel.
+
+KEY: =TELSXX =TELSUX 6
+No Site exists for this channel
+
+                ----------- WARNINGS -----------
+
+
+KEY: =TELSUX =TELSUX 10
+RX Traffic/Eqpt pair (D5252/IS3600) not present in the SDB.
+
+KEY: =TELSUX =TELSUX 8
+TX Traffic/Eqpt pair (D5252/IS3600) not present in the SDB.
+
+SUMMARY OF CHANNEL RECORDS: 87 errors and 2 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 87 errors and 2 warnings.
+The PDF 'esvalchan' is invalid
+PDF Validation Completed -  20:05

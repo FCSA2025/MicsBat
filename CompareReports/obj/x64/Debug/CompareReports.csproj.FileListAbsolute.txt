@@ -1,0 +1,12 @@
+D:\MicsBatchProgs\MICS#\CompareReports\bin\x64\Debug\CompareReports.exe.config
+D:\MicsBatchProgs\MICS#\CompareReports\bin\x64\Debug\CompareReports.exe
+D:\MicsBatchProgs\MICS#\CompareReports\bin\x64\Debug\CompareReports.pdb
+D:\MicsBatchProgs\MICS#\CompareReports\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\CompareReports\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\CompareReports\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\CompareReports\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\CompareReports\obj\x64\Debug\CompareReports.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\CompareReports\obj\x64\Debug\CompareReports.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\CompareReports\obj\x64\Debug\CompareR.2D88BC78.Up2Date
+D:\MicsBatchProgs\MICS#\CompareReports\obj\x64\Debug\CompareReports.exe
+D:\MicsBatchProgs\MICS#\CompareReports\obj\x64\Debug\CompareReports.pdb

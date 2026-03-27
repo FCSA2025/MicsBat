@@ -1,0 +1,87 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:16
+Project Code [HULME1_0] Process Id: 24532
+
+PDF Name: delowsadd
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking $INLB01X (IRON MTN/INLB) in proposed file ...
+Checking proposed file Site $INLB01X band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking %INLB02X (CLEARWATER/INLB) in proposed file ...
+Checking proposed file Site %INLB02X band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOD250A (MT LOLO/INLB) in proposed file ...
+Checking proposed file Site XOD250A band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+WARNING - There were hilo processing errors in the file.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'delowsadd' is validated for :UPDATE:
+
+PDF Validation Completed - 16:16

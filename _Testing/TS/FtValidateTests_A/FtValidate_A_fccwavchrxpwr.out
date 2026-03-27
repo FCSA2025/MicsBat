@@ -1,0 +1,273 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:38
+Project Code [HULME1_0] Process Id: 6104
+
+PDF Name: fccwavchrxpwr
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: ;A3507304
+
+This Site record has been modified since you retrieved it.
+
+Site Call: ;A3507304
+Lat & Long for site is the same as for existing site:- 
+	;A3507301 PASSIVE A35073
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WBH47103 PASSIVE A35073
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WEE37002 1765 A35073
+Check to ensure coordinates are correct.
+
+KEY: WEE37001
+
+This Site record has been modified since you retrieved it.
+
+Site Call: WEE37001
+Lat & Long for site is the same as for existing site:- 
+	WBH47104 ROCKPORT A35073
+Check to ensure coordinates are correct.
+Lat & Long for site is the same as for existing site:- 
+	WED75004 329522253565 A35073
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 7 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+;A3507304 WEE37001 6D 3
+Antenna to update does not exist in MDB
+
+;A3507304 WEE37001 6D 4
+Antenna to update does not exist in MDB
+
+WEE37001 ;A3507304 6D 3
+Antenna to update does not exist in MDB
+
+WEE37001 ;A3507304 6D 4
+Antenna to update does not exist in MDB
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: ;A3507304 WEE37001 6D AOYP
+Channel does not exist in MDB.
+
+Channel: ;A3507304 WEE37001 6D AOYQ
+Channel does not exist in MDB.
+
+Channel: WEE37001 ;A3507304 6D AOYP
+Channel does not exist in MDB.
+
+Channel: WEE37001 ;A3507304 6D AOYQ
+Channel does not exist in MDB.
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking ;A3507304 (1765/A35073) in proposed file ...
+Checking proposed file Site ;A3507304 band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: ;A3507301 (PASSIVE/A35073) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	;A3507301 to WBH47101 band 6D chid AOYQ is first RX HiLo violation.
+	Violation for Band 6D
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: ;A3507303 (32952225/A35073) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	;A3507303 to ;A3507302 band 6E chid AOYO is first RX HiLo violation.
+	Violation for Band 6E
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: ;A3507304 (1765/A35073) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	;A3507304 to ;A3507303 band 6E chid AOYO is first RX HiLo violation.
+	Violation for Band 6E
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: WBH47103 (PASSIVE/A35073) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: WEE37002 (1765/A35073) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+There were 5 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking WEE37001 (STATION/A35073) in proposed file ...
+Checking proposed file Site WEE37001 band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: WBH47104 (ROCKPORT/A35073) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: WED75004 (329522253565/A35073) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: WEE37001 (STATION/A35073) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	WEE37001 to ;A3507304 band 6E chid AOYQ is first TX HiLo violation.
+	Violation for Band 6E
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 3 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 4 hilo violations.
+
+
+
+There were a total of 8 errors and 7 warnings.
+The PDF 'fccwavchrxpwr' is invalid
+PDF Validation Completed - 21:38

@@ -1,0 +1,13 @@
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\bin\Release\SendLAMLemailsToMembers.exe.config
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\bin\Release\SendLAMLemailsToMembers.exe
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\bin\Release\SendLAMLemailsToMembers.pdb
+D:\users\ahulme\MICS#\_bin\Release\SendLAMLemailsToMembers.exe.config
+D:\users\ahulme\MICS#\_bin\Release\SendLAMLemailsToMembers.exe
+D:\users\ahulme\MICS#\_bin\Release\SendLAMLemailsToMembers.pdb
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\obj\Release\SendLAMLemailsToMembers.csproj.AssemblyReference.cache
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\obj\Release\SendLAMLemailsToMembers.Form1.resources
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\obj\Release\SendLAMLemailsToMembers.Properties.Resources.resources
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\obj\Release\SendLAMLemailsToMembers.csproj.GenerateResource.cache
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\obj\Release\SendLAMLemailsToMembers.csproj.CoreCompileInputs.cache
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\obj\Release\SendLAMLemailsToMembers.exe
+D:\users\ahulme\MICS#\SendLAMLemailsToMembers\obj\Release\SendLAMLemailsToMembers.pdb

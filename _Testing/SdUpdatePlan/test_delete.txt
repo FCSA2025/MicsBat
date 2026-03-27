@@ -1,0 +1,16 @@
+*
+* Test import file for SdUpdatePlan.
+*
+* ========== Plan/Master records ==========
+*
+* sband,splan,srsp,srspiss,conform,uscan,mdate,mtime
+1,D,U,10A,03,AAAAAAAAAA,BB,Y,C,1993.01.25,12:34
+*
+* ========== Detail records ==========
+*
+* sband,splan,spno,set1,s1chid,set2,s2chid,set3,s3chid,set4,s4chid,mdate,mtime
+2,N,U,10A,03,1,123456.7,AAAA,9001,ABCD,57500,ABE,622500,FULL,1993.01.25,14:08 
+2,U,U,10A,03,2,123456.8,BBBB,9002,EFGH,67500,BILL,632500,GONE,1993.01.25,14:08 
+2,D,U,10A,03,3,123456.9,CCCC,9003,IJKL,77500,CHAS,642500,HILL,1993.01.25,14:08 
+*2,U,U,10A,03,4,123456.0,DDDD,9004,MNOP,87500,DAVE,652500,JACK,1993.01.25,14:08 
+*2,U,U,10A,03,5,123456.1,EEEE,9005,QRST,97500,ERIC,662500,KILL,1993.01.25,14:08 

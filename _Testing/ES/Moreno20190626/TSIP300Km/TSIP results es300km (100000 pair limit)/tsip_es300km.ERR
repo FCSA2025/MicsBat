@@ -1,0 +1,35 @@
+
+*
+* TSIP PARAMETER FILE NAME: es300km
+* Project Code [hulme1_0]
+
+FREQUENCY COORDINATION SYSTEM ASSOCIATION
+
+TSIP build 190626-1112/64-R Error Report for Run Name '1', at 2019.06.26 11:13
+Project Code [hulme1_0] Process ID 13068
+Proposed type...........: E
+Environment type........: MDB_TS
+Proposed Name...........: es300km
+Environment Name........: 
+TSORB Report............: N
+Loss Calculation Type...: 1
+Frequency Separation....: 300.00
+Coordination Distance...:- (by site)
+             SESLNDN1     Call1            Tropo Precip
+                        : =D12783A1    TX    300    300
+                                       RX    300    300
+                        : =D12783A2    TX    300    300
+                                       RX    300    300
+                        : =D12783A3    TX    300    300
+                                       RX    300    300
+Analysis Option.........: CHAN
+Margin Requested........: 0.00
+Channel Status Codes....: (10) 0,1,2,3,4,5,6,7,8,9
+Country Selection.......: ALL
+Site Selection..........: ALL
+Codes...................: (0) 
+Run Name................: 1
+Keyword Parameter Field.: ""
+Date....................: 2019.06.26
+Time....................: 10:37
+Working . . .

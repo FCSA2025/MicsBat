@@ -1,0 +1,42 @@
+*  first call chged lat, long, elev, status, wrong icaccount
+*  first antenna chged acode, aht, licence,azimuth, elev, dist, added licence
+*  first channel chged tx freq, pol,anum,fsl,eqpt, left txeqptnote blank,
+*  tx pwr, atpc, rx fsl, rte, rx freq, pol,antnumbrx1,rx2, eqpt,traf,stat,fee
+*  rx fsls,rx pwrs
+*  last diversity for call2 added licence
+* TS-PDF: ftest42ic1, By ftPrint (130107-1603/64-D) at 2014.08.13 09:11:06
+TT,U,FTEST42IC1,,,,
+*##############################################################################
+SK,N,U,CFX24,OTTER RPDS,50-14-41.38N,081-40-38.45W,215.0,2008.05.03,09:21
+SD,ON,ONT,3, ,r38294832k12, , ,1, ,0000,1984.02.18,FT
+*====  SMOKY FALLS  ===== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,CFX24,VEK982,6D,20,2008.05.03,09:21
+AQ,TR,HP8-65,90.0,249.91,-0.20,55.74,N, , , , , ,1,
+AO, , , , , , , , , , , , , , ,837432917-947
+*----  SMOKY FALLS  ===== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,CFX24,VEK982,6D,21,2008.05.03,09:21
+AQ,DV1,HP8-65E,70.1,255.91,-0.10,42.74,N, , , , , ,1,
+AO, , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.18, Rx=76.63
+CK,N,U,CFX24,VEK982,6D,1001,2008.05.03,09:21
+CT,03,1,2,6443000.00,h,22,5.0, , ,MR4108, ,31.0,3.0,X48MBS,OPG,5,X
+CR,6787000.00,v,21,20, ,MR41U6EC,B,X48MBS,OPG,3,F
+CQ,20.0,-38.7,4.8,-40.5, , , ,
+CO,ONT3346X,1,1, , , , ,2001.07.01
+*##############################################################################
+SK,N,U,VEK982,SMOKY FALLS,50-03-40.38N,082-10-07.49W,170.7,2008.05.03,09:21
+SD,ON,ONT,3, , , , ,1, , ,2001.03.23,FT
+*====  OTTER RPDS  ====== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,VEK982,CFX24,6D,20,2008.05.03,09:21
+AQ,TR,HP8-65E,86.9,70.50,-0.18,39.74,N, , , , , , ,
+AO, , , , , , , , , , , , , ,
+*----  OTTER RPDS  ====== Ant Gain = 42.3, Dist Loss = 64.43, At. Loss = 0.36
+AK,N,U,VEK982,CFX24,6D,21,2008.05.03,09:21
+AQ,DV1,HP8-65E,67.1,70.50,-0.15,39.74,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,diwe48329-2e2
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=76.63, Rx=76.18
+CK,N,U,VEK982,CFX24,6D,1001,2008.05.03,09:21
+CT,03,2,2,6785000.00,H,20,5.3, , ,MR41U6EC,B,29.0,0.0,D48MBS,OPG,3,F
+CR,6445000.00,H,23,25, ,MR41U6Ex,B,D48MBx,OPG,9,X
+CQ,5.3,-36.9,4.4,-36.0, , , ,
+CO,2,2,1, , , , ,2001.07.01

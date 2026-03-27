@@ -1,0 +1,235 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:12
+Project Code [HULME1_0] Process Id: 5860
+
+PDF Name: owsrxfsla
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: $INLB01X %INLB02X 6E 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 1 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking $INLB01X (IRON MTN/INLB) in proposed file ...
+Checking proposed file Site $INLB01X band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: $INLB01X (IRON MTN/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: CFY69 (UNKNOWN/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	CFY69 to XOD250 band 6B chid 9998 is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: XLB943 (IRON MTN/TLUSMC) 
+	Band 6A
+	XLB943 to VFG515 band 6A chid 1 is first RX HiLo violation.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 3 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking %INLB02X (CLEARWATER/INLB) in proposed file ...
+Checking proposed file Site %INLB02X band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: %INLB02 (CLEARWATER/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: %INLB02X (CLEARWATER/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOD250A (MT LOLO/INLB) in proposed file ...
+Checking proposed file Site XOD250A band 6E.
+  Band 6E OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFW303 (MT LOLO/TLUSBC) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+	Database Site: XOD250 (MT. LOLO REPEATER BC/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	XOD250 to CFY69 band 6B chid 9998 is first TX HiLo violation.
+	Violation for Band 6B
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: XOD250A (MT LOLO/INLB) 
+	Band 6A
+	Band 6A OK
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site OK
+
+There were 3 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 3 hilo violations.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'owsrxfsla' is validated for :UPDATE:
+
+PDF Validation Completed - 16:12

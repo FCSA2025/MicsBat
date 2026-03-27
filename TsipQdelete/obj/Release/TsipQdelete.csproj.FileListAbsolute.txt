@@ -1,0 +1,7 @@
+D:\Users\ahulme\MICS#\TsipQdelete\bin\Release\TsipQdelete.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\TsipQdelete.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\TsipQdelete.exe
+D:\Users\ahulme\MICS#\_bin\Release\TsipQdelete.pdb
+D:\Users\ahulme\MICS#\TsipQdelete\obj\Release\TsipQdelete.exe
+D:\Users\ahulme\MICS#\TsipQdelete\obj\Release\TsipQdelete.pdb
+D:\Users\ahulme\MICS#\TsipQdelete\obj\Release\TsipQdelete.csprojResolveAssemblyReference.cache

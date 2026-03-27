@@ -1,0 +1,55 @@
+		SDB OPERATOR UPDATE REPORT Build 160720-1645/64-R		Date: 2019.06.24 09:50
+
+SDF Name: test_noop
+SDF Type: Route
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 6/24/2019 9:50:22 AM
+
+
+Route SDF: test_noop
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Route SDF test_noop is valid
+
+SDF Validation completed - 6/24/2019 9:50:22 AM
+
+		SDF ROUTE UPDATE RESULTS
+
+ROUTE RECORD NO ACTION: :ACC/100: 
+
+ROUTE RECORD NO ACTION: :ALAS/440: 
+
+ROUTE RECORD NO ACTION: :ATT1/441: 
+
+ROUTE RECORD NO ACTION: :BCHY/700: 
+
+ROUTE RECORD NO ACTION: :HYQU/152: 
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_noop        User Name: hulme1     *****
+
+
+	 Records Processed: 5
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 5insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'rout', 'test_noop', '2019.06.24', '09:50') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\rout\test_noop.20190624_0950) of changes to the database
+
+
+	************     End of Summary Information     ************

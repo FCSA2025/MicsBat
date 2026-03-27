@@ -1,0 +1,46 @@
+ES PDF VALIDATION REPORT    Build 190107-1935/64-R    DATE: 2019.01.07  20:06
+Project Code [HULME1_0] Process ID [11232]
+PDF Name: warning3
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS: 0 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: T11K =TELST11K T33
+RX Traffic/Eqpt pair (DX952/IS3600A) not present in the SDB.
+
+SUMMARY OF CHANNEL RECORDS: 0 errors and 1 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'warning3' is validated for :UPDATE:
+
+PDF Validation Completed -  20:06

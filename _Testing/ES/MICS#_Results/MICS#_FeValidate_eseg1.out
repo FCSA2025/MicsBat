@@ -1,0 +1,57 @@
+ES PDF VALIDATION REPORT    Build 190107-1935/64-R    DATE: 2019.01.07  20:04
+Project Code [HULME1_0] Process ID [8608]
+PDF Name: eseg1
+
+
+
+                      ES SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Location: MCCOM
+SITE already exists in MDB, cannot ADD
+
+SUMMARY OF SITE RECORDS: 1 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS: 0 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+SUMMARY OF CHANNEL RECORDS: 0 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =ES01 to TELSNEW.
+SITE does not exist.
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 1 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =TELS23 to CGD326.
+Old CALL SIGN does not exist in the MDB.
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 1 errors and 0 warnings.
+
+
+There were a total of 3 errors and 0 warnings.
+The PDF 'eseg1' is invalid
+PDF Validation Completed -  20:04

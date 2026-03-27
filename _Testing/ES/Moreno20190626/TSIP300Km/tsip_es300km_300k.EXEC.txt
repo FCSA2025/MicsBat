@@ -1,0 +1,41 @@
+                    FREQUENCY COORDINATION SYSTEM ASSOCIATION 190624-1034/64-R
+                  MICS TSIP Es-Ts / Ts-Es Execution Information
+   Inputs:
+             Project Code:         SES1901
+             Parameter File Name:  es300km
+             TSIP Run Name:        300k
+   Outputs:
+             Interference Tables
+                 te_es300km_300k_parm Table
+                 te_es300km_300k_site Table
+                 te_es300km_300k_ante Table
+                 te_es300km_300k_chan Table
+             Report files
+                 tsip_es300km_300k.EXEC (Execution Report)
+                 tsip_es300km_300k.STUDY (TSIP Study Report)
+                 tsip_es300km_300k.STATSUM (Station Summary Report)
+                 tsip_es300km_300k.CASEDET (Case Detail Report)
+
+   Propagation Loss Calculation Model:  TSIP CCIR-SJM
+   Maximum Frequency Separation      :    300.0
+   Coordination Distance             :    300.0
+   Arc Step Value used               :      1.0
+   Number of TS->ES Station Groups Passed to Analysis:  3072
+   Number of ES->TS Station Groups Passed to Analysis:  6
+   Number of TS->ES Interference Cases Reported      :  0
+   Number of ES->TS Interference Cases Reported      :  0
+
+
+   Start of TSIP Run                                End of TSIP Run
+    Date: 2019.06.26                                 Date: 2019.06.26  
+    Time: 06:23                                      Time: 06:31       
+
+Cache info:-
+Cache       Calls  Hits  Size  Used
+Antennas.: 191890191812   100    78
+Equipment:  11016 10983   100    33
+CTX Curve:      0     0   100     0
+CTX Xref.:    120     0   100     0
+Analog...:      0     0   100     0
+Digital..:   1512  1489   100    23
+

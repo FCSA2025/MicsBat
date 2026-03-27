@@ -1,0 +1,115 @@
+PDF VALIDATION REPORT - Build 171030-1945/64-R
+RUN DATE: 2017.11.13  13:44
+Project Code [FMDA20] Process Id: 8076
+
+PDF Name: b070419a
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: %BTPAA2
+
+A site must have at least one antenna and one channel.
+
+KEY: KFK20
+
+A site must have at least one antenna and one channel.
+
+KEY: WDU620
+
+A site must have at least one antenna and one channel.
+
+SUMMARY OF SITE RECORDS:  3 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+%
+Cannot delete Antenna with channels. The channels are:
+Channel: %BTPAA2 -> KFK20 6A 11 1001:
+Cannot delete Antenna with channels. The channels are:
+Channel: %BTPAA2 -> WDU620 6A 11 1001:
+
+K
+Cannot delete Antenna with channels. The channels are:
+Channel: KFK20 -> %BTPAA2 6A 11 1001:
+
+W
+Cannot delete Antenna with channels. The channels are:
+Channel: WDU620 -> %BTPAA2 6A 11 1001:
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %BTPAA2 KFK20 6A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %BTPAA2 WDU620 6A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: KFK20 %BTPAA2 6A 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: WDU620 %BTPAA2 6A 1001
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %BTPAA2 (CLEARFLD PR/BTPA) in proposed file ...
+Checking proposed file Site %BTPAA2 band 6A.
+%BTPAA2 to KFK20 band 6A chid 1002 is first RX HiLo violation.
+%BTPAA2 to WDU620 band 6A chid 1001 is first TX HiLo violation.
+  Band 6A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking KFK20 (SNYDER/A01232) in proposed file ...
+Checking proposed file Site KFK20 band 6A.
+KFK20 to %BTPAA2 band 6A chid 1002 is first TX HiLo violation.
+  Band 6A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking WDU620 (CLEARFIELD/A01232) in proposed file ...
+Checking proposed file Site WDU620 band 6A.
+WDU620 to %BTPAA2 band 6A chid 1002 is first RX HiLo violation.
+  Band 6A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+3 Site(s) checked.
+There were 4 hilo violations.
+
+
+
+There were a total of 7 errors and 4 warnings.
+The PDF 'b070419a' is invalid
+PDF Validation Completed - 13:44

@@ -1,0 +1,4 @@
+D:\Users\ahulme\MICS\_Configuration\bin\Release\_Configuration.dll
+D:\Users\ahulme\MICS\_Configuration\bin\Release\_Configuration.pdb
+D:\Users\ahulme\MICS\_Configuration\obj\Release\_Configuration.dll
+D:\Users\ahulme\MICS\_Configuration\obj\Release\_Configuration.pdb

@@ -1,0 +1,160 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:15
+Project Code [HULME1_0] Process Id: 14516
+
+PDF Name: passive3dist
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: %BCHY74
+
+This Site record has been modified since you retrieved it.
+
+KEY: XOA504
+
+This Site record has been modified since you retrieved it.
+
+KEY: XOK990
+
+This Site record has been modified since you retrieved it.
+
+SUMMARY OF SITE RECORDS:  0 errors and 3 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+%BCHY74 XOA504 7B 11
+This Antenna record has been modified since you retrieved it.
+
+%BCHY74 XOK990 7B 11
+This Antenna record has been modified since you retrieved it.
+
+XOA504 %BCHY74 7B 11
+This Antenna record has been modified since you retrieved it.
+
+XOK990 %BCHY74 7B 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %BCHY74 XOA504 7B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %BCHY74 XOA504 7B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %BCHY74 XOA504 7B 2001
+This Channel record has been modified since you retrieved it.
+
+Channel: %BCHY74 XOA504 7B 2002
+This Channel record has been modified since you retrieved it.
+
+Channel: %BCHY74 XOK990 7B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %BCHY74 XOK990 7B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %BCHY74 XOK990 7B 2001
+This Channel record has been modified since you retrieved it.
+
+Channel: %BCHY74 XOK990 7B 2002
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA504 %BCHY74 7B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA504 %BCHY74 7B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: XOA504 %BCHY74 7B 2001
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: XOA504 %BCHY74 7B 2002
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: XOK990 %BCHY74 7B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOK990 %BCHY74 7B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: XOK990 %BCHY74 7B 2001
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+Channel: XOK990 %BCHY74 7B 2002
+This Channel record has been modified since you retrieved it.
+Afsltx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 20 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %BCHY74 (SODA CREEK PAS/BCHY) in proposed file ...
+Checking proposed file Site %BCHY74 band 7B.
+%BCHY74 to XOA504 band 7B chid 2001 is first TX HiLo violation.
+%BCHY74 to XOA504 band 7B chid 2001 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking XOA504 (SODA CREEK SS BC/BCHY) in proposed file ...
+Checking proposed file Site XOA504 band 7B.
+XOA504 to %BCHY74 band 7B chid 2001 is first TX HiLo violation.
+XOA504 to %BCHY74 band 7B chid 2001 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking XOK990 (TIMOTHY MOUNTAIN RPTR BC/BCHY) in proposed file ...
+Checking proposed file Site XOK990 band 7B.
+XOK990 to %BCHY74 band 7B chid 2001 is first TX HiLo violation.
+XOK990 to %BCHY74 band 7B chid 2001 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+3 Site(s) checked.
+There were 6 hilo violations.
+
+
+
+There were a total of 0 errors and 27 warnings.
+The PDF 'passive3dist' is validated for :UPDATE:
+
+PDF Validation Completed - 21:15

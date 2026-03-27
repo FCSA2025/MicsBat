@@ -1,0 +1,48 @@
+ 
+     FREQUENCY COORDINATION SYSTEM ASSOCIATION                        PAGE:   1
+     MASTER DATA BASE -- Interference Study Summary                       13:03
+          Project Code              : hulme1_0
+          PDF File Name             : aardvark
+          Run Name                  : 3
+          PDF Type                  : T
+          Environment Type          : MDB_TS
+          Environment Name          :
+          Country (CAN/USA/ALL)     : ALL
+          Selected Environment Sites: ALL
+          Operator Codes            : ALL
+          Call Sign Codes           : ALL
+ 
+          Study Date                : 2023.07.13
+          Study Time                : 13:03
+          CPU Time                  : 00:00:01.296
+          Elapsed Time              : 00:00:05
+ 
+          Geostationary Orbit Study  (Y/N): N
+          Propagation Loss Model          : Free Space
+          Maximum Frequency Separation :   300
+          Coordination Distance (km)   :   200
+          Analysis type                :  CHAN
+          Margin (dB)                  :   0.0
+          Channel Status Codes (0 - 9) : 0,1,2,3,4,5,6,7,8,9
+ 
+          Reports run:
+          Execution Report             : Y
+          Study Summary Report         : Y
+          Stations Analyzed Report     : Y
+          Case Detail Report           : Y
+          Case Summary Report          : Y
+          Aggregate Interference Report: Y
+          Aggregate Interference CSV   : Y
+ 
+          Number of Stations Passed :  309
+          Number of TS Cases        :    0
+          Number of ES Cases        :    0
+               Interference Tables:-
+                    tt_aardvark_3_parm Table
+                    tt_aardvark_3_erro Table
+                    tt_aardvark_3_site Table
+                    tt_aardvark_3_ante Table
+                    tt_aardvark_3_chan Table
+
+
+Aggregate Interference CSV report is in file: TSIP_aardvark_3.AGGINT.csv ... 

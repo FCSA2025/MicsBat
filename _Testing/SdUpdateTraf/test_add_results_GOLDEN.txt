@@ -1,0 +1,61 @@
+		SDB TRAFFIC UPDATE REPORT Build 160705-2122/64-R		Date: 2019.07.11 12:57
+
+SDF Name: test_add
+
+		TRAFFIC SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/11/2019 12:57:02 PM
+
+
+Traffic SDF: test_add
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Traffic SDF test_add is valid
+
+SDF Validation completed - 7/11/2019 12:57:02 PM
+
+		SDF TRAFFIC UPDATE RESULTS
+
+TRAFFIC RECORD ADD: :X5251/141CN1: 
+
+TRAFFIC RECORD ADD: :X5252/BMR2207P: 
+
+TRAFFIC RECORD ADD: :X5253/BMT1257P: 
+
+TRAFFIC RECORD ADD: :X5254/FLR6D-3L: 
+
+TRAFFIC RECORD ADD: :X5255/FLR6V: 
+
+TRAFFIC RECORD ADD: :X5256/FLR6V-3L: 
+
+TRAFFIC RECORD ADD: :X5257/FLR7V: 
+
+TRAFFIC RECORD ADD: :X5258/FLR7VD: 
+
+TRAFFIC RECORD ADD: :X5259/FLR7VD3L: 
+
+SDB UPDATE SUMMARY: 9 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_add         User Name: hulme1     *****
+
+
+	 Records Processed: 9
+	     Records Added: 9
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'traf', 'test_add', '2019.07.11', '12:57') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\traf\test_add.20190711_1257) of changes to the database
+
+
+	************     End of Summary Information     ************

@@ -1,0 +1,48 @@
+ES PDF VALIDATION REPORT    Build 160428-1318/64-D    DATE: 2019.01.07  20:06
+Project Code [HULME1_0] Process ID [10264]
+PDF Name: test2
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS: 0 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: YKEM =TELSYKEM 10.
+RX Fee (BZ) not recognized.
+
+KEY: YKEM =TELSYKEM 10
+TX Frequency (39177500.00) out of range (27000000.00 to 29500000.00).
+
+SUMMARY OF CHANNEL RECORDS: 2 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 2 errors and 0 warnings.
+The PDF 'test2' is invalid
+PDF Validation Completed -  20:06

@@ -1,0 +1,9 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:13
+Project Code [hulme1_0] Process Id: 11280
+
+PDF Name: adddivhigher
+
+ERROR - pdf 'adddivhigher' does not exist

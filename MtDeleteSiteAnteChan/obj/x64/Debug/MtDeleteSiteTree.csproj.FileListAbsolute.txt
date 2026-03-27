@@ -1,0 +1,16 @@
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\MtDeleteSiteTree.exe.config
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\MtDeleteSiteTree.exe
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\MtDeleteSiteTree.pdb
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\_Configuration.dll
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\_DataStructures.dll
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\_NewLib.dll
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\_Utillib.dll
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\_Configuration.pdb
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\_DataStructures.pdb
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\_NewLib.pdb
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\bin\x64\Debug\_Utillib.pdb
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\obj\x64\Debug\MtDeleteSiteTree.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\obj\x64\Debug\MtDeleteSiteTree.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\obj\x64\Debug\MtDelete.6AD75B4E.Up2Date
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\obj\x64\Debug\MtDeleteSiteTree.exe
+D:\MicsBatchProgs\MICS#\MtDeleteSiteAnteChan\obj\x64\Debug\MtDeleteSiteTree.pdb

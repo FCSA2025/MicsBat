@@ -1,0 +1,14 @@
+D:\Users\ahulme\MICS#\Hold\bin\Debug\Hold.exe.config
+D:\Users\ahulme\MICS#\Hold\bin\Debug\Hold.exe
+D:\Users\ahulme\MICS#\Hold\bin\Debug\Hold.pdb
+D:\Users\ahulme\MICS#\Hold\bin\Debug\_Configuration.dll
+D:\Users\ahulme\MICS#\Hold\bin\Debug\_NewLib.dll
+D:\Users\ahulme\MICS#\Hold\bin\Debug\_Utillib.dll
+D:\Users\ahulme\MICS#\Hold\bin\Debug\_DataStructures.dll
+D:\Users\ahulme\MICS#\Hold\bin\Debug\_Configuration.pdb
+D:\Users\ahulme\MICS#\Hold\bin\Debug\_NewLib.pdb
+D:\Users\ahulme\MICS#\Hold\bin\Debug\_Utillib.pdb
+D:\Users\ahulme\MICS#\Hold\bin\Debug\_DataStructures.pdb
+D:\Users\ahulme\MICS#\Hold\obj\Debug\Hold.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\Hold\obj\Debug\Hold.exe
+D:\Users\ahulme\MICS#\Hold\obj\Debug\Hold.pdb

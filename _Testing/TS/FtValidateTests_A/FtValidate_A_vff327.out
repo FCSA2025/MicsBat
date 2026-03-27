@@ -1,0 +1,165 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:20
+Project Code [HULME1_0] Process Id: 9644
+
+PDF Name: vff327
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+VFF327 VFF328 6B 50
+Antenna does not exist in MDB.
+
+VFF327 VFF328 6B 51
+Antenna does not exist in MDB.
+
+VFF328 VFF327 6B 50
+Antenna does not exist in MDB.
+
+VFF328 VFF327 6B 51
+Antenna does not exist in MDB.
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: VFF327 VFF328 6B 0296
+Channel does not exist in MDB
+
+Channel: VFF327 VFF328 6B 0300
+Channel does not exist in MDB
+
+Channel: VFF328 VFF327 6B 0296
+Channel does not exist in MDB
+
+Channel: VFF328 VFF327 6B 0300
+Channel does not exist in MDB
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking VFF327 (RYAN (HWY17/ PANCAKE BAY PROV PK/TBAY) in proposed file ...
+Checking proposed file Site VFF327 band 6B.
+  Band 6B OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6A OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: =BMCE3157 (RYAN/BMCE) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	=BMCE3157 to =BMCE3154 band 6A chid 1007 is first TX HiLo violation.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+	Database Site: VFF327 (RYAN (HWY17/ PANCAKE BAY PROV PK/TBAY) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	VFF327 to VFF326 band 6A chid A2 is first TX HiLo violation.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VFF328 (BELLEVUE ON/TBAY) in proposed file ...
+Checking proposed file Site VFF328 band 6B.
+  Band 6B OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6A OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VFF328 (BELLEVUE ON/TBAY) 
+	Band 5A
+	Band 5A OK
+	Band 6A
+	VFF328 to CHB932 band 6A chid A1 is first RX HiLo violation.
+	Violation for Band 6A
+	Band 6B
+	Band 6B OK
+	Band 6C
+	Band 6C OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+        Site Has HiLo violation(s).
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 3 hilo violations.
+
+
+
+There were a total of 8 errors and 0 warnings.
+The PDF 'vff327' is invalid
+PDF Validation Completed - 21:20

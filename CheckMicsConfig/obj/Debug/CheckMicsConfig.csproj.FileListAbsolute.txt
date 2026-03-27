@@ -1,0 +1,13 @@
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\bin\Debug\CheckMicsConfig.exe.config
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\bin\Debug\CheckMicsConfig.exe
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\bin\Debug\CheckMicsConfig.pdb
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\obj\Debug\CheckMicsConfig.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\obj\Debug\CheckMicsConfig.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\obj\Debug\CheckMicsConfig.exe
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\obj\Debug\CheckMicsConfig.pdb
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\bin\Release\CheckMicsConfig.exe.config
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\bin\Release\CheckMicsConfig.exe
+D:\MicsBatchProgs\MICS#\CheckMicsConfig\bin\Release\CheckMicsConfig.pdb
+D:\MicsBatchProgs\MICS#\bin\Release\CheckMicsConfig.exe.config
+D:\MicsBatchProgs\MICS#\bin\Release\CheckMicsConfig.exe
+D:\MicsBatchProgs\MICS#\bin\Release\CheckMicsConfig.pdb

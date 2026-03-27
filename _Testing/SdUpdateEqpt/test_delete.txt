@@ -1,0 +1,14 @@
+*
+* EQPT SDF NAME: test_delete
+*
+*1    2        3      4      5      6      7       8      9      10     11        12      13      14      15       16     17
+*cmd, recstat, ecode, estab, exref, emanu, emodel, edesc, etype, etraf, emission, e1stif, e2ndif, thhold, ebndcde, mdate, mtime
+*
+D,U,1013C1,0.005,DFLT30,,,,,,,,,,,1992.08.17,14:43,
+*U,U,1013C5,0.005,RD-11A,JERRLD,JMT-1013C5,JMT-1013C5,A,ETRAF2,EMISSION2,9.8,7.6,-5.4,12A,2003.11.21,11:36
+D,U,108A,0.01,RD-6A,,,,,,,,,,,2003.11.21,11:36
+
+
+
+
+

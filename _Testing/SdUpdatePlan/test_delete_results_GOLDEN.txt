@@ -1,0 +1,62 @@
+
+sdUpdatePlan Build 160721-1353/64-R
+		SDB UPDATE REPORT Build 160721-1353/64-R		Date: 2019.06.17 19:39
+
+SDF Name: test_delete
+SDF Type: Plan
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 6/17/2019 7:39:16 PM
+
+
+Plan SDF: test_delete
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Plan SDF test_delete is valid
+
+SDF Validation completed - 6/17/2019 7:39:16 PM
+
+		SDF UPDATE RESULTS
+
+Subsidiary Plan Update
+
+PLAN RECORD DELETE: :10A:03: 
+
+  PLAN POINT RECORD NO ACTION: :10A/03 (1):
+
+  PLAN POINT RECORD UPDATE: :10A/03/2: 
+
+  PLAN DETAIL RECORD DELETE: :10A/03 (3): 
+::	- Successful DELETE of PLAN Detail record
+::	- Successful DELETE of master and points records
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Plan Update ****
+	***** SDF Name: test_delete      User Name: hulme1     *****
+	************            Master Records          ************
+
+	 Records Processed: 1
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 1
+	 Records No Action: 0
+
+	************            Detail Records          ************
+
+	 Records Processed: 2
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 1
+	 Records No Action: 1
+
+	************     End of Summary Information     ************

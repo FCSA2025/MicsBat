@@ -1,0 +1,167 @@
+ES PDF VALIDATION REPORT    Build 190107-1935/64-R    DATE: 2019.01.07  20:05
+Project Code [HULME1_0] Process ID [6300]
+PDF Name: esvalante
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =TELSUX =TELSUX.
+Command (X) must be A, B, D, N or U.
+
+KEY: =TELSUY-2 ?CH751.
+Invalid 1st character for Call Sign (?CH751).
+
+KEY: 2104 $VB489.
+A call sign ($VB489) that begins with '$' must have RX frequencies only.
+Gain/Temp. (100.000000) must be between -99.9 and 99.9.
+Noise Temp. (1005.000000) must be between 0.0 and 999.9.
+Antenna Height (1001.000000) must be between 0.0 and 1000.0.
+Satellite Operator (ZZ) must be a valid code.
+Arc Orbit Center (181.000000) must be between -180.0 and 180.0.
+Arc Half Width (91.000000) must be between 0.0 and 90.0.
+Status (9) must be between 0 and 8.
+Antenna Reference (1000000) must be between 0 and 999999.
+TX Afsl (100.500000) must be between 0.0 and 99.9.
+TX Precip. Scatter Dist. (10300.000000) must be between 0.0 and 9999.99.
+TX Tropo. Scatter Dist. (11300.000000) must be between 0.0 and 9999.99.
+RX Afsl (100.000000) must be between 0.0 and 99.9.
+RX Precip. Scatter Dist. (11300.000000) must be between 0.0 and 9999.99.
+RX Tropo. Scatter Dist. (12300.000000) must be between 0.0 and 9999.99.
+
+KEY: 9RSB $CK989.
+A call sign ($CK989) that begins with '$' must have RX frequencies only.
+
+Antenna: =TELSUX =TELSUX
+Command (X) is invalid.
+
+Antenna: =TELSUX-2 #TELSUX
+Antenna does not exist in MDB
+
+Antenna: 2104 $VB489
+Characters following $ in Call Sign must agree with oper code field
+
+Antenna: 7UZZ VC365
+Antenna already exists in MDB, cannot ADD
+
+Antenna: 8DAW =CK987
+No site exists for this antenna
+Call Sign (=CK987) begins with Site Record operator code.
+Follow Ficticious Call Sign Rules.
+Note (FISH) not present in Note table for Operator ::
+RXBand (07B) not present in Band table.
+RX Antenna Code (TOSCA) not present in the Antenna table.
+TXBand (07A) not present in Band table.
+TX Antenna Code (SNAFU.406) not present in the Antenna table.
+
+Antenna: 9RSB $CK989
+Characters following $ in Call Sign must agree with oper code field
+Antenna Code RX position 5 must be a numeric if CCIR: CCIRA12B.
+Antenna Code RX position 8 must be a numeric if CCIR: CCIRA12B.
+Antenna Code TX position 5 must be a numeric if CCIR: CCIRUVXY.
+Antenna Code TX position 6 must be a numeric if CCIR: CCIRUVXY.
+Antenna Code TX position 7 must be a numeric if CCIR: CCIRUVXY.
+Antenna Code TX position 8 must be a numeric if CCIR: CCIRUVXY.
+
+$CK989
+A site that begins with '$' must be receive only
+
+Antenna: AKA TELSXXXX
+Antenna does not exist in MDB
+Cannot delete channel if being Added or Updated
+Cannot delete channel if being Added or Updated
+Cannot delete azimuth if being added or updated
+Cannot delete azimuth if being added or updated
+
+                ----------- WARNINGS -----------
+
+
+Antenna: =TELSUY-2 ?CH751
+This antenna will no longer have associated channels
+
+Antenna: 2104 $VB489
+This antenna will no longer have associated channels
+
+Antenna: 3KUU CF83
+Call Sign is already used in Location CRHRVU (CORAL HARBOUR, NU by NWT)
+This antenna will no longer have associated channels
+
+Antenna: 7UZZ VC365
+Call Sign is already used in Location 7UZZ (LABRIEVILLE, QC by TELS)
+
+Antenna: 8DAW =CK987
+This antenna will no longer have associated channels
+
+SUMMARY OF ANTENNA RECORDS: 42 errors and 6 warnings
+
+
+                      ES CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: 9RSB $CK989 11A1.
+A call sign ($CK989) that begins with '$' must have RX frequencies only.
+
+KEY: 9RSB $CK989 11A2.
+A call sign ($CK989) that begins with '$' must have RX frequencies only.
+
+KEY: 9RSB $CK989 11A3.
+A call sign ($CK989) that begins with '$' must have RX frequencies only.
+
+KEY: 9RSB $CK989 11A1
+Channel does not exist in MDB.
+
+KEY: 9RSB $CK989 11A2
+Channel does not exist in MDB.
+
+KEY: 9RSB $CK989 11A3
+Channel does not exist in MDB.
+
+KEY: AKA TELSXXXX 10G2
+Channel does not exist in MDB
+
+KEY: AKA TELSXXXX 10G3
+Channel does not exist in MDB
+
+SUMMARY OF CHANNEL RECORDS: 8 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: 9RSB $CK989 0.0
+Azimuth does not exist in MDB.
+
+KEY: 9RSB $CK989 180.0
+Azimuth does not exist in MDB.
+
+KEY: AKA TELSXXXX 360.0
+Azimuth does not exist in MDB.
+
+SUMMARY OF AZIMUTH RECORDS: 3 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 53 errors and 6 warnings.
+The PDF 'esvalante' is invalid
+PDF Validation Completed -  20:05

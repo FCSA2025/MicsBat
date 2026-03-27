@@ -1,0 +1,17 @@
+D:\MicsBatchProgs\MICS#\SendLAMLreports\bin\Debug\SendLAMLreports.exe.config
+D:\MicsBatchProgs\MICS#\SendLAMLreports\bin\Debug\SendLAMLreports.exe
+D:\MicsBatchProgs\MICS#\SendLAMLreports\bin\Debug\SendLAMLreports.pdb
+D:\MicsBatchProgs\MICS#\SendLAMLreports\obj\Debug\SendLAMLreports.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\SendLAMLreports\obj\Debug\SendLAMLreports.MainForm.resources
+D:\MicsBatchProgs\MICS#\SendLAMLreports\obj\Debug\SendLAMLreports.Properties.Resources.resources
+D:\MicsBatchProgs\MICS#\SendLAMLreports\obj\Debug\SendLAMLreports.WriteOnlyConsoleForm.resources
+D:\MicsBatchProgs\MICS#\SendLAMLreports\obj\Debug\SendLAMLreports.csproj.GenerateResource.cache
+D:\MicsBatchProgs\MICS#\SendLAMLreports\obj\Debug\SendLAMLreports.csproj.CoreCompileInputs.cache
+D:\MicsBatchProgs\MICS#\SendLAMLreports\obj\Debug\SendLAMLreports.exe
+D:\MicsBatchProgs\MICS#\SendLAMLreports\obj\Debug\SendLAMLreports.pdb
+D:\MicsBatchProgs\MICS#\SendLAMLreports\bin\Release\SendLAMLreports.exe.config
+D:\MicsBatchProgs\MICS#\SendLAMLreports\bin\Release\SendLAMLreports.exe
+D:\MicsBatchProgs\MICS#\SendLAMLreports\bin\Release\SendLAMLreports.pdb
+D:\MicsBatchProgs\MICS#\bin\Release\SendLAMLreports.exe.config
+D:\MicsBatchProgs\MICS#\bin\Release\SendLAMLreports.exe
+D:\MicsBatchProgs\MICS#\bin\Release\SendLAMLreports.pdb

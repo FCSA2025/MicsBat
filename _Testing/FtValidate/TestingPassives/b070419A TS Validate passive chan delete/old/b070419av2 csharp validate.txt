@@ -1,0 +1,69 @@
+PDF VALIDATION REPORT - Build 171030-1945/64-R
+RUN DATE: 2017.11.13  13:54
+Project Code [FMDA20] Process Id: 3268
+
+PDF Name: b070409av2
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: %BTPAA2
+
+A site must have at least one antenna and one channel.
+
+KEY: KFK20
+
+A site must have at least one antenna and one channel.
+
+KEY: WDU620
+
+A site must have at least one antenna and one channel.
+
+SUMMARY OF SITE RECORDS:  3 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+%
+Cannot delete Antenna with channels. The channels are:
+Channel: %BTPAA2 -> KFK20 6A 11 1001:
+Cannot delete Antenna with channels. The channels are:
+Channel: %BTPAA2 -> WDU620 6A 11 1001:
+
+K
+Cannot delete Antenna with channels. The channels are:
+Channel: KFK20 -> %BTPAA2 6A 11 1001:
+
+W
+Cannot delete Antenna with channels. The channels are:
+Channel: WDU620 -> %BTPAA2 6A 11 1001:
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 7 errors and 0 warnings.
+The PDF 'b070409av2' is invalid
+PDF Validation Completed - 13:54

@@ -1,0 +1,126 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:16
+Project Code [HULME1_0] Process Id: 12960
+
+PDF Name: delregadd
+
+
+
+
+                        TS SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Call: =TLUSMCR2
+Site does not exist in MDB
+
+SUMMARY OF SITE RECORDS:  1 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+=TLUSMCR2 =TLUSMCZZ 14C 1
+Antenna to delete does not exist in MDB
+
+=TLUSMCR2 =TLUSMCZZ 14C 2
+Antenna to delete does not exist in MDB
+
+=TLUSMCZZ =TLUSMCR2 14C 1
+Antenna to delete does not exist in MDB
+
+=TLUSMCZZ =TLUSMCR2 14C 2
+Antenna to delete does not exist in MDB
+
+SUMMARY OF ANTENNA RECORDS:  4 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =TLUSMCR2 =TLUSMCZZ 14C 1
+Channel does not exist in MDB.
+
+Channel: =TLUSMCR2 =TLUSMCZZ 14C 2
+Channel does not exist in MDB.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 1
+Channel does not exist in MDB.
+
+Channel: =TLUSMCZZ =TLUSMCR2 14C 2
+Channel does not exist in MDB.
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =TLUSMCR2 (BC418/TLUSMC) in proposed file ...
+Checking proposed file Site =TLUSMCR2 band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =TLUSMCZZ (BC009/TLUSMC) in proposed file ...
+Checking proposed file Site =TLUSMCZZ band 14C.
+  Band 14C OK, checking adjacent bands.
+  Adjacent Band 14A OK.
+  Adjacent Band 14B OK.
+
+There were 0 nearby sites checked in the database.
+Checking proposed file Site =TLUSMCZZ band 8A.
+  Band 8A OK, checking adjacent bands.
+  Adjacent Band 7B OK.
+  Adjacent Band 8B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking VEB444 (VULCAN/TLUSMC) in proposed file ...
+Checking proposed file Site VEB444 band 8A.
+  Band 8A OK, checking adjacent bands.
+  Adjacent Band 7B OK.
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: VEB444 (VULCAN/TLUSMC) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+WARNING - There were hilo processing errors in the file.
+
+
+
+There were a total of 9 errors and 0 warnings.
+The PDF 'delregadd' is invalid
+PDF Validation Completed - 16:16

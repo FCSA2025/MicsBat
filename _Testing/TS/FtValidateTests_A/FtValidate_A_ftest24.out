@@ -1,0 +1,88 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:08
+Project Code [HULME1_0] Process Id: 17984
+
+PDF Name: ftest24
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+TX Frequency present but no TX Power.
+TX Frequency present but no TX Equipment.
+No main TX Antenna for this channel.
+FeeTX must be 1-9 or A-T,V,X
+
+
+                ----------- WARNINGS -----------
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Local transmit () and Remote receive (D7138) traffic codes do not agree.
+Local transmit () and Remote receive (X) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  4 errors and 2 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =UNKNA (SITE A/UNKN) in proposed file ...
+Checking proposed file Site =UNKNA band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =UNKNB (SITE B/UNKN) in proposed file ...
+Checking proposed file Site =UNKNB band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 4 errors and 2 warnings.
+The PDF 'ftest24' is invalid
+PDF Validation Completed - 16:08

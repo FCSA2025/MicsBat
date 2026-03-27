@@ -1,0 +1,413 @@
+﻿using _Configuration;
+using _DataStructures;
+using _NewLib;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _Utillib
+{
+    using SQLCHAR = Byte;
+    using SQLCHARPTR = String;            //Invented to mimic (char *) for [In]  only.
+    using SQLCHARPTRINOUT = IntPtr;       //Invented to mimic (char *) for [In, Out].
+    using SQLHANDLE = IntPtr;
+    using SQLHDBC = IntPtr;
+    using SQLHENV = IntPtr;
+    using SQLHSTMT = IntPtr;
+    using SQLINTEGER = Int32;
+    using SQLINTEGERPTR = IntPtr;
+    using SQLLEN = Int64;
+    using SQLLENPTR = IntPtr;
+    using SQLPOINTER = IntPtr;
+    using SQLRETURN = Int16;
+    using SQLSETPOSIROW = UInt64;
+    using SQLSMALLINT = Int16;
+    using SQLSMALLINTPTR = IntPtr;
+    using SQLULEN = UInt64;
+    using SQLUSMALLINT = UInt16;
+
+    public class DynSqlMicsErrRec
+    {
+        private const string mSELECT = "SELECT * FROM {0} ";
+
+        //=================================================================================================================
+        // Using FtCursor here because it already exists and is a superset of what we need.
+        public static Cursor[] cursors = Arrays.CreateArrayUsingDefaultElementConstructor<Cursor>(Constant.NUM_CURSORS_FEW);
+        private static int nNextFreeCursor = 0;
+        //=================================================================================================================
+
+        // The reusable statement handle and the pointer arrays that will be bound to it.
+        private static SQLHANDLE mhStmt = SQLHANDLE.Zero;
+        private static SQLPOINTER[] mTgtValPtrs;
+        private static SQLPOINTER[] mNullIndPtrs;
+
+        // An integer that will be assigned to each separate call to 'select'
+        // and will allow the subsequent 'fetch' to determine contiguity.
+        private static int mMagicNumber = 0;
+
+        //=================================================================================================================
+
+        /// <summary>
+        /// This method returns the integer index of the next free (available) cursor object.
+        /// </summary>
+        /// <remarks>
+        ///  The user is responsible for populating the values of the cursor object 
+        ///  (e.g. hConn, hStmt etc). The user is also responsible for setting the field
+        ///  cursorOpen to true before using it and false to release it.
+        /// </remarks>
+        /// <returns></returns>
+        /// <para>- integer index of the next free cursor object.</para>
+        /// <para>- ErrorMessages.NO_CURSOR_AVAILABLE - reached limit for the number of cursors that can be open concurrently.</para>
+        private static int GetNextFreeCursor()
+        {
+            //Get next free cursor area.
+            int curHandle = -1;
+
+            //...Log2.v("\r\nDynSqlMicsErrRec.GetNextFreeCursor(): nNextFreeCursor = " + nNextFreeCursor);
+            if (nNextFreeCursor >= Constant.NUM_CURSORS_FEW)
+            {
+                //	Search for a free cursors in the list
+                for (int nInd = 0; nInd < Constant.NUM_CURSORS_FEW; nInd++)
+                {
+                    //...Log2.v("\r\nDynSqlMicsErrRec.GetNextFreeCursor(): nInd = " + nInd);
+                    if (!cursors[nInd].cursorOpen)
+                    {
+                        curHandle = nInd;
+                        break;
+                    }
+                }
+
+                if (curHandle == -1)
+                {
+                    // There are no more open cursors
+                    GenUtil.SetErr("DynSqlMicsErrRec01 -- No more open cursors.");
+                    Application.Exit("\r\nDynSqlMicsErrRec.GetNextFreeCursor(): ERROR: No available cursors.");
+                    return -1;
+                }
+
+            }
+            else
+            {
+                //	Just use the next available cursor
+                curHandle = nNextFreeCursor;
+                //  And increment the free cursor count.
+                nNextFreeCursor++;
+            }
+
+            //...Log2.v("\r\nDynSqlMicsErrRec.GetNextFreeCursor(): found available cursor: curHandle = " + curHandle);
+            cursors[curHandle].cursorOpen = true;
+
+            return curHandle;
+        }
+
+        /// <summary>
+        /// Selects records from the prescribed SqlMicsErrRec database table i.a.w.
+        /// the prescribed SQL search criteria and ordering clauses; the 
+        /// method returns an index to a cursor object that can be used by subsequent
+        /// calls to Fetch().
+        /// </summary>
+        /// <remarks>
+        /// If searchCriteria is NULL then all the rows are retrieved.
+        /// </remarks>
+        /// <param name="tableName"> - fully-qualified SQL table name.</param>
+        /// <param name="searchCriteria"> - SQL search criteria to follow the 'where' keyword.</param>
+        /// <param name="orderBy"> - SQL ordering criteria to follow the 'order by' keywords.</param>
+        /// <returns></returns>
+        /// <para>- non-negative value - the index of the cursor to be used for Fetch() calls.</para>
+        /// <para>- ErrorMessages.NO_CURSOR_AVAILABLE - reached limit for the number of cursors that can be open concurrently.</para>
+        /// <para>-   ErrorMessages.ODBC_EXECUTE_FAILED    - call to ODBC.SQLExecute() failed to return data. </para>
+        public static int Select(string tableName, string searchCriteria, string orderBy)
+        {
+            //...Log2.v("\n\nDynSqlMicsErrRec.SelectSqlMicsErrRec(): Entry");
+
+            SQLRETURN sqlRet;
+            SQLHDBC hConn = Ssutil.NewConn();
+
+            int curHandle = GetNextFreeCursor();
+
+            // If this is the very first time that this 'select' method is 
+            // called then we must instantiate the reusable statement handle
+            // and establish the bindings to it.
+            if (mhStmt == SQLHANDLE.Zero)
+            {
+                sqlRet = ODBC.SQLAllocHandle(ODBC.SQL_HANDLE_STMT, hConn, out mhStmt);
+
+                if (!ODBC.IsOK(sqlRet))
+                {
+                    Log2.e("\nDynSqlMicsErrRec.Select(): ERROR : Exit: call to SQLAllocHandle() failed, sqlRet = " + sqlRet);
+                    return Error.ODBC_SQLALLOCHANDLE_FAILED;
+                }
+
+                SqlMicsErrRec.BindPtrsToCols(mhStmt, out mTgtValPtrs, out mNullIndPtrs);
+            }
+
+            // If an active cursor still exists from a previous result set and we try to 
+            // re-use the statement handle in a subsequent SQLExec() or SQLExecDirect() to
+            // select, fetch or insert tables then we will get the following error:
+            // DIAG [24000] [Microsoft][SQL Server Native Client 11.0]Invalid cursor state (0).
+            //
+            // We need to close the statement handle's cursor before reusing the statement.
+            // Calling SQLFreeStmt with the SQL_CLOSE option is equivalent to calling
+            // SQLCloseCursor, except that SQLFreeStmt with SQL_CLOSE does not affect
+            // the application if no cursor is open on the statement. If no cursor is
+            // open, a call to SQLCloseCursor returns SQLSTATE 24000(Invalid cursor state).
+
+            sqlRet = ODBC.SQLFreeStmt(mhStmt, ODBC.SQL_CLOSE);
+            if (!ODBC.IsOK(sqlRet))
+            {
+                Log2.e("\nDynSqlMicsErrRec.Select(): ERROR : Exit: Attempt to close the cursor on the reusable statement handle failed.");
+                Application.Exit(666);
+            }
+
+            // Create the SQL query string.
+            string stmt_buf = String.Format(mSELECT, tableName);
+
+            // Construct the 'where' part of the select clause.
+            if (!String.IsNullOrWhiteSpace(searchCriteria))
+            {
+                // Search criteria was specified.
+                stmt_buf += " WHERE " + searchCriteria;
+            }
+
+            // If "order by" is specified then add order by clause.
+            if (!String.IsNullOrWhiteSpace(orderBy))
+            {
+                // Order by was specified.
+                stmt_buf += " ORDER BY " + orderBy;
+            }
+
+            //...Log2.v("\r\nDynSqlMicsErrRec.SelectSqlMicsErrRec(): stmt_buf = \r\n" + stmt_buf);
+
+            sqlRet = ODBC.SQLExecDirect(mhStmt, stmt_buf, stmt_buf.Length);
+
+            if (!ODBC.IsOK(sqlRet))
+            {
+                Log2.e("\nDynSqlMicsErrRec.Select(): ERROR : Exit: call to SQLExecDirect() failed, sqlRet = " + sqlRet);
+                return Error.ODBC_EXECDIRECT_FAILED;
+            }
+
+            mMagicNumber++;
+
+            // Populate the cursor handle structure
+            cursors[curHandle].pastLastRow = false;
+            cursors[curHandle].cursorOpen = ODBC.IsOK(sqlRet);
+            cursors[curHandle].hStmt = SQLHANDLE.Zero;
+            cursors[curHandle].hConn = SQLHANDLE.Zero;
+            cursors[curHandle].magicNumber = mMagicNumber;
+
+            //...Log2.v("\n\nDynSqlMicsErrRec.SelectSqlMicsErrRec(): Exit");
+            return (curHandle);
+        }
+
+        /// <summary>
+        /// Retrieves a single equipment record from the previously prescribed SqlMicsErrRec table using 
+        /// the cursor object created by a previous call to Select().
+        /// </summary>
+        /// <param name="nCursor"> - FtCursor object.</param>
+        /// <param name="sqlMicsErrRec"> - a SqlMicsErrRec object populated with data from the row.</param>
+        /// <param name="nullInds"> - array of ODBC nullInds for SqlMicsErrRec object.</param>
+        /// <returns></returns>
+        /// <para>-   Constant.SUCCESS                - fetch attempt was successful.</para>
+        /// <para>-   Constant.FAILURE                - fetch attempt failed.</para>
+        /// <para>-   ErrorMessages.DYN_CUR_NOT_OPEN  - FtCursor field cursorOpen is set to false.</para>
+        /// <para>-   ODBC.SQL_NO_DATA                - fetch attempt failed because there is no more data.</para>
+        /// <para>-   ErrorMessages.ODBC_GET_FAILED    - call to ODBC.SQLGetData() threw an exception. </para>
+        public static int Fetch(int nCursor, out SqlMicsErrRec sqlMicsErrRec, out SQLLEN[] nullInds)
+        {
+            // 'out' requirments.
+            sqlMicsErrRec = null;
+            nullInds = null;
+
+            //...Log2.v("\n\nDynSqlMicsErrRec.Fetch(): Entry");
+
+            int nRet = -666;
+
+            // Test for contiguity, i.e. that the previous select and 
+            // this fetch are a matched pair.
+            if (cursors[nCursor].magicNumber != mMagicNumber)
+            {
+                Log2.e("\n\nDynSqlMicsErrRec.Fetch(): Exit: ERROR: failed contiguity test.");
+
+                return -666;
+            }
+
+            // Fetch the next row of selected Town data.
+            SQLRETURN sqlRet = ODBC.SQLFetch(mhStmt);
+
+            // Check the SQLRETURN and act accordingly.
+            if (!ODBC.IsOK(sqlRet))
+            {
+                // If no more records available then break out the while-loop.
+                if (sqlRet == ODBC.SQL_NO_DATA)
+                {
+                    //...Log2.v("\n\nDynSqlMicsErrRec.Fetch(): Exit: sqlRet == ODBC.SQL_NO_DATA");
+                    return ODBC.SQL_NO_DATA;
+                }
+                else
+                {
+                    // We have an error.
+                    Log2.e("\n\nDynSqlMicsErrRec.Fetch(): Exit: ERROR: SQLFetch(): sqlRet = " + sqlRet);
+                    Ssutil.DbGetDiag(ODBC.SQL_HANDLE_STMT, mhStmt);
+                    return -11;
+                }
+            }
+            else
+            {
+                // We had a successful SQLFetch() call; now get the record's column data.
+                try
+                {
+                    SqlMicsErrRec.ReadColBindings(mTgtValPtrs, mNullIndPtrs, out sqlMicsErrRec, out nullInds);
+
+                    nRet = Constant.SUCCESS;
+                }
+                catch (Exception e)
+                {
+                    string str = String.Format("Fetch() failed for reason: " + e.Message);
+                    GenUtil.SetError(1011, str);
+                    Log2.e("\n\nDynSqlMicsErrRec.Fetch(): Exit: ERROR: call to ReadColBindings() threw an exception:\n" + e.Message);
+                    return -22;
+                } //try-catch
+
+            } //if-else
+
+            //...Log2.v(SqlMicsErrRec.ToStringWN(nullInds));
+
+            //...Log2.v("\n\nDynSqlMicsErrRec.Fetch(): Exit");
+            return nRet;
+        } //end of Fetch
+
+        /// <summary>
+        /// Closes (releases) a cursor instantiated by a previous call to Select(); 
+        /// the ODBC statement handle is released, the ODBC connection is closed and the
+        /// Cursor object's cursorOpen field is set to false.
+        /// </summary>
+        /// <param name="curHandle"> - index of the cursor object.</param>
+        /// <returns></returns>
+        /// <para>-   Constant.SUCCESS                - successful outcome.</para>
+        /// <para>-   ErrorMessages.DYN_CUR_NOT_OPEN  - FtCursor field cursorOpen is set to false.</para>
+        public static int Close(int curHandle)
+        {
+            if (curHandle >= cursors.Length || curHandle < 0)
+            {
+                /* Bad handle */
+                return (Error.DYN_CUR_NOT_OPEN);
+            }
+
+            if (!cursors[curHandle].cursorOpen)
+            {
+                /* Cursor isn't opened yet */
+                return (Error.DYN_CUR_NOT_OPEN);
+            }
+
+            /* Close the cursor */
+            Ssutil.DisConn(cursors[curHandle].hConn);
+            cursors[curHandle].hConn = IntPtr.Zero;
+            cursors[curHandle].cursorOpen = false;
+
+            return 0;
+        }
+
+        /// <summary>
+        /// Inserts a SqlMicsErrRec record into the database using column values prescribed 
+        /// by the fields of the SqlMicsErrRec object.
+        /// </summary>
+        /// <param name="tableName"> - name of the SQL table to INSERT into.</param>
+        /// <param name="sqlMicsErrRec"> - a SqlMicsErrRec object.</param>
+        /// <param name="nullInd"> - array of ODBC nullInds for pSite</param>
+        /// <returns></returns>
+        /// <para>-   Constant.SUCCESS                - insertion attempt was successful.</para>
+        /// <para>-   ErrorMessages.DYN_CUR_NOT_OPEN  - FtCursor field cursorOpen is set to false.</para>
+        /// <para>-   ErrorMessages.DYN_PAST_LAST_ROW - cursor is past the last row.</para>
+        /// <para>-   Constant.FAILURE                - deletion attempt failed - ODBC diagnostic information will be written to output.</para>
+        /// <para>-   ErrorMessages.ODBC_EXECDIRECT_FAILED    - call to ODBC.SQLExecDirect() failed. </para>
+        public static int Insert(string tableName, SqlMicsErrRec sqlMicsErrRec, SQLLEN[] nullInd)
+        {
+            //...Log2.v("\n\nDynSqlMicsErrRec.Insert(): Entry");
+
+            string update_buf;
+
+            SQLHANDLE hStmt;
+
+            SQLHANDLE hConn = Ssutil.NewConn();
+
+            ODBC.SQLAllocHandle(ODBC.SQL_HANDLE_STMT, hConn, out hStmt);
+
+            //Create the SQL insert statement.
+            update_buf = SqlMicsErrRec.BuildSqlInsertString(tableName);
+
+            //The ODBC library operates in 'native code', so we must use global (unmanaged) memory
+            //to contain the values to bind to. This neccessitates copying the values of the nullInd
+            //array elements into global memory with an SQLLENPTR pointer assigned to each one.
+            SQLLENPTR[] nullIndPtr = NullHelper.CreateArrayOfSQLLENPTRinGlobalMemory(nullInd);
+
+            //The ODBC library operates in 'native code', so we must use global (unmanaged) memory
+            //to contain the values to bind to. This necessitates copying the 'column' values of pSite
+            //into global memory with an SQLPOINTER pointer assigned to each one. FtSite provides
+            //a convenience method that does exactly this.
+            SQLPOINTER[] parameterValuePtr = sqlMicsErrRec.CopyToArrayOfSQLPOINTERinGlobalMemory();
+
+            // Bind the parameters.
+            // This integer is used to enumerate the binding sequence; ODBC definition is that first binding is N = 1;
+            int colNum = -1;
+            try
+            {
+                colNum = 1;
+                Ssutil.DbBindStringInput(hStmt, colNum, "DateTimeOfError", parameterValuePtr[colNum - 1], (SQLULEN)sqlMicsErrRec.DateTimeOfError.Length, nullIndPtr[colNum - 1]);
+
+                colNum = 2;
+                Ssutil.DbBindStringInput(hStmt, colNum, "Provenance", parameterValuePtr[colNum - 1], (SQLULEN)sqlMicsErrRec.Provenance.Length, nullIndPtr[colNum - 1]);
+
+                colNum = 3;
+                Ssutil.DbBindStringInput(hStmt, colNum, "ApplicationReportingError", parameterValuePtr[colNum - 1], (SQLULEN)sqlMicsErrRec.ApplicationReportingError.Length, nullIndPtr[colNum - 1]);
+
+                colNum = 4;
+                Ssutil.DbBindStringInput(hStmt, colNum, "MicsUserID", parameterValuePtr[colNum - 1], (SQLULEN)sqlMicsErrRec.MicsUserID.Length, nullIndPtr[colNum - 1]);
+
+                colNum = 5;
+                Ssutil.DbBindStringInput(hStmt, colNum, "ErrorMessage", parameterValuePtr[colNum - 1], (SQLULEN)sqlMicsErrRec.ErrorMessage.Length, nullIndPtr[colNum - 1]);
+
+                colNum = 6;
+                Ssutil.DbBindStringInput(hStmt, colNum, "RemedialAction", parameterValuePtr[colNum - 1], (SQLULEN)sqlMicsErrRec.RemedialAction.Length, nullIndPtr[colNum - 1]);
+
+            }
+            catch
+            {
+                Log2.e("\n\nDynSqlMicsErrRec.InsertSqlMicsErrRec(): ERROR: call to Ssutil.DbBindXXXInput() failed for colNum = {0}", colNum);
+                Ssutil.DisConnStmt(hConn, hStmt);
+                return -1;
+            }
+
+            //...Log2.v("nDynSqlMicsErrRec.InsertSqlMicsErrRec(): SQLExecDirect():\r\n" + update_buf);
+            SQLRETURN sqlRet;
+            sqlRet = ODBC.SQLExecDirect(hStmt, update_buf, update_buf.Length);
+
+            //...Log2.v("\r\nDynSqlMicsErrRec.InsertSqlMicsErrRec(): SQLExecDirect(): sqlRet = " + sqlRet);
+
+            if (!ODBC.IsOK(sqlRet))
+            {
+                Log2.e("\n\nDynSqlMicsErrRec.InsertSqlMicsErrRec(): ERROR: call to SQLExecDirect failed for query:\n{0}", update_buf);
+                Log2.e("\n" + ODBC.GetDiagnostics(hStmt, update_buf));
+                Log2.e("\n{0}", sqlMicsErrRec.ToString());
+                Ssutil.DisConnStmt(hConn, hStmt);
+                return -2;
+            }
+
+            //This method call releases hStmt, disconnects from the DB and then releases hConn.
+            Ssutil.DisConnStmt(hConn, hStmt);
+
+            //...Log2.v("\n\nDynSqlMicsErrRec.InsertSqlMicsErrRec(): Exit");
+            return 0;
+        }
+
+
+
+
+
+
+
+
+
+    }
+}

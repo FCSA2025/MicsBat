@@ -1,0 +1,126 @@
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.07.08  14:07
+Project Code [FMDA20] Process Id: 9832
+
+PDF Name: ftest45
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+                *********** ERRORS ***********
+
+
+Change Call Sign: :$BCTV019: to :$BCTV300:
+SITE does not exist.
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  1 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 1 errors and 0 warnings.
+The PDF 'ftest45' is invalid
+PDF Validation Completed - 14:07
+
+* TS-PDF: ftest45, By FtPrint (190701-1415/64-R) at 2019.07.08 14:07:34
+*
+TT,N,FTEST45,,,,
+GK,$BCTV019,$BCTV300,MT WASHINGTON
+GK,WLA5703,$BCTV301,MT WASHINGTO
+GK,=RCTL0713,$RCTL0713,BROADWAY & CAMBIE
+GK,=RCTL083,%RCTL083,RIDGEWOOD
+GK,$BCTV300,=BCTV300,MT HORNE
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2019.07.08  14:08
+Project Code [FMDA20] Process Id: 10192
+
+PDF Name: ftest45a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+                *********** ERRORS ***********
+
+
+Change Call Sign: :WLA5703: to :$BCTV301:
+The operator code in the new call sign must be the same as the operator code for this site.
+
+Change Call Sign: :=RCTL0713: to :$RCTL0713:
+A site beginning with '$' must have all RX frequencies.
+
+=RCTL083
+MDB antenna not passive in passive link.
+
+Change Call Sign: :=RCTL083: to :%RCTL083:
+A site beginning with '%' must have passive antennas only
+
+Change Call Sign: :$BCTV300: to :=BCTV300:
+SITE does not exist.
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  4 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 4 errors and 0 warnings.
+The PDF 'ftest45a' is invalid
+PDF Validation Completed - 14:08
+
+ODBC Diagnostic:
+[HY010] [Microsoft][ODBC Driver Manager] Function sequence error
+Diagnostic message:-
+ODBC Diagnostic:
+[HY010] [Microsoft][ODBC Driver Manager] Function sequence error
+  Ct  Ind Function                           Line/File
+Current Connection List:-
+  There were 0 open connections.
+
+* TS-PDF: ftest45a, By FtPrint (190701-1415/64-R) at 2019.07.08 14:08:53
+*
+TT,N,FTEST45,,,,
+GK,WLA5703,$BCTV301,MT WASHINGTO
+GK,=RCTL0713,$RCTL0713,BROADWAY & CAMBIE
+GK,=RCTL083,%RCTL083,RIDGEWOOD
+GK,$BCTV300,=BCTV300,MT HORNE
+

@@ -1,0 +1,17 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [storage_date]
+      ,[operator]
+      ,[micsid]
+      ,[project_code]
+      ,[filestorage]
+      ,[mdbstorage]
+      ,[operastorage]
+      ,[sitemdbstorage]
+      ,[siteoperastorage]
+      ,[chanmdbstorage]
+      ,[chanoperastorage]
+      ,[anazmdbstorage]
+      ,[anazoperastorage]
+      ,[miscoperastorage]
+      ,[create_time]
+  FROM [fcsa].[hulme].[daily_storage] ORDER BY storage_date DESC, operator, micsid

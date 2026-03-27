@@ -1,0 +1,63 @@
+
+sdUpdatePlan Build 160721-1353/64-R
+		SDB UPDATE REPORT Build 160721-1353/64-R		Date: 2019.06.17 19:37
+
+SDF Name: test_noop
+SDF Type: Plan
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 6/17/2019 7:37:19 PM
+
+
+Plan SDF: test_noop
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Plan SDF test_noop is valid
+
+SDF Validation completed - 6/17/2019 7:37:19 PM
+
+		SDF UPDATE RESULTS
+
+Subsidiary Plan Update
+
+PLAN RECORD NO ACTION: :08A:01: 
+
+PLAN RECORD NO ACTION: :08A:02: 
+
+PLAN RECORD NO ACTION: :10A:01: 
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'plan', 'test_noop', '2019.06.17', '19:37') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\plan\test_noop.20190617_1937) of changes to the database
+
+
+	************ Summary Information for SDB Plan Update ****
+	***** SDF Name: test_noop        User Name: hulme1     *****
+	************            Master Records          ************
+
+	 Records Processed: 3
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 3
+
+	************            Detail Records          ************
+
+	 Records Processed: 0
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************     End of Summary Information     ************

@@ -1,0 +1,84 @@
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2019.07.25  14:11
+Project Code [hulme1_0]
+
+Checking file: regadd
+Full Listing Requested.
+Debugging Output Requested.
+-------------------------------------------------------------
+1) Site =TLUSMCR2:-
+
+BC418 Oper: TLUSMC 
+L/L: 49-11-27.41N/122-31-03.68W Grnd: 210.0m
+Links:-
+Site =TLUSMCR2 name BC418 has 1 Link(s)...
+  To: =TLUSMCZZ band 14C with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode P4-144D
+      1 Ant index 1 anum 2 acode P4-144D
+      Channels:-
+      0 Chan index 0 chid 1
+      1 Chan index 1 chid 2
+
+  Link 0 to =TLUSMCZZ, band 14C:-
+--Other End...
+Site =TLUSMCZZ name BC009 has 1 Link(s)...
+  To: =TLUSMCR2 band 14C with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode P4-144D
+      1 Ant index 1 anum 2 acode P4-144D
+      Channels:-
+      0 Chan index 0 chid 1
+      1 Chan index 1 chid 2
+    Ground distance: 20.5119, azimuth: 270.5371, back-azimuth: 90.3241
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   55.000  270.5371    -0.3624    20.5128
+  1    2   55.000  270.5371    -0.3624    20.5128
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0)    1 14520000.000  14995000.000    27.000   -37.815   2.400   3.800 
+ 1( 1)    2 14685000.000  15160000.000    27.000   -37.929   2.400   3.800 
+
+-------------------------------------------------------------
+2) Site =TLUSMCZZ:-
+
+BC009 Oper: TLUSMC 
+L/L: 49-11-32.40N/122-47-56.71W Grnd: 90.0m
+Links:-
+Site =TLUSMCZZ name BC009 has 1 Link(s)...
+  To: =TLUSMCR2 band 14C with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode P4-144D
+      1 Ant index 1 anum 2 acode P4-144D
+      Channels:-
+      0 Chan index 0 chid 1
+      1 Chan index 1 chid 2
+
+  Link 0 to =TLUSMCR2, band 14C:-
+--Other End...
+Site =TLUSMCR2 name BC418 has 1 Link(s)...
+  To: =TLUSMCZZ band 14C with 2 antenna(s) and 2 channel(s):
+      Antennas:-
+      0 Ant index 0 anum 1 acode P4-144D
+      1 Ant index 1 anum 2 acode P4-144D
+      Channels:-
+      0 Chan index 0 chid 1
+      1 Chan index 1 chid 2
+    Ground distance: 20.5119, azimuth: 90.3241, back-azimuth: 270.5371
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0    1   70.000   90.3241     0.2242    20.5128
+  1    2   70.000   90.3241     0.2242    20.5128
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0)    1 14995000.000  14520000.000    27.000   -37.485   3.200   4.600 
+ 1( 1)    2 15160000.000  14685000.000    27.000   -37.600   3.200   4.600 
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      4
+Channels Read:      4
+
+0 Errors were found
+0 Warnings were issued.
+

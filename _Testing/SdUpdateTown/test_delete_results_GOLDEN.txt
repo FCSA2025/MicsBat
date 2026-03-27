@@ -1,0 +1,49 @@
+		SDB TOWER NOTES UPDATE REPORT Build 160705-2101/64-R		Date: 2019.07.08 13:38
+
+SDF Name: test_delete
+
+		TOWER NOTES SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/8/2019 1:38:21 PM
+
+
+Tower Note SDF: test_delete
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Tower note SDF test_delete is valid
+
+SDF Validation completed - 7/8/2019 1:38:21 PM
+
+		SDF TOWER NOTES UPDATE RESULTS
+::	- Successful DELETE of Tower Note: %CF02/1
+::	- Successful DELETE of Tower Note: %HYQU05/1
+::	- Successful DELETE of Tower Note: %HYQU06/1
+::	- Successful DELETE of Tower Note: %HYQU07/1
+::	- Successful DELETE of Tower Note: %HYQU10/1
+::	- Successful DELETE of Tower Note: %HYQU11/1
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_delete      User Name: hulme1     *****
+
+
+	 Records Processed: 6
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 6
+	 Records No Action: 0insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'town', 'test_delete', '2019.07.08', '13:38') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\town\test_delete.20190708_1338) of changes to the database
+
+
+	************     End of Summary Information     ************

@@ -1,0 +1,7 @@
+D:\Users\ahulme\MICS#\FeValidate\bin\Release\FeValidate.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\FeValidate.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\FeValidate.exe
+D:\Users\ahulme\MICS#\_bin\Release\FeValidate.pdb
+D:\Users\ahulme\MICS#\FeValidate\obj\Release\FeValidate.exe
+D:\Users\ahulme\MICS#\FeValidate\obj\Release\FeValidate.pdb
+D:\Users\ahulme\MICS#\FeValidate\obj\Release\FeValidate.csprojResolveAssemblyReference.cache

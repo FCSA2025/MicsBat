@@ -1,0 +1,10 @@
+D:\inetpub\micsdev\mics\DBAccess\bin\Release\DBAccess.dll
+D:\inetpub\micsdev\mics\DBAccess\bin\Release\DBAccess.pdb
+D:\inetpub\micsdev\mics\DBAccess\obj\Release\DBAccess.csprojResolveAssemblyReference.cache
+D:\inetpub\micsdev\mics\DBAccess\obj\Release\DBAccess.dll
+D:\inetpub\micsdev\mics\DBAccess\obj\Release\DBAccess.pdb
+D:\inetpub\micsdev1\mics\DBAccess\bin\Release\DBAccess.dll
+D:\inetpub\micsdev1\mics\DBAccess\bin\Release\DBAccess.pdb
+D:\inetpub\micsdev1\mics\DBAccess\obj\Release\DBAccess.csprojResolveAssemblyReference.cache
+D:\inetpub\micsdev1\mics\DBAccess\obj\Release\DBAccess.dll
+D:\inetpub\micsdev1\mics\DBAccess\obj\Release\DBAccess.pdb

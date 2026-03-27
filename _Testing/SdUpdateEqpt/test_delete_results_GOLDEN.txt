@@ -1,0 +1,47 @@
+		SDB EQUIPMENT UPDATE REPORT Build 160705-2112/64-R		Date: 2019.05.29 12:19
+
+SDF Name: test_delete
+SDF Type: Equipment
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 5/29/2019 12:19:21 PM
+
+
+Equipment SDF: test_delete
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Equipment SDF test_delete is valid
+
+SDF Validation completed - 5/29/2019 12:19:21 PM
+
+		SDF EQUIPMENT UPDATE RESULTS
+::	- Successful DELETE of equipment 1013C1
+::	- Successful DELETE of equipment 108A
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_delete      User Name: hulme1     *****
+
+
+	 Records Processed: 2
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 2
+	 Records No Action: 0insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'eqpt', 'test_delete', '2019.05.29', '12:19') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\eqpt\test_delete.20190529_1219) of changes to the database
+
+
+	************     End of Summary Information     ************

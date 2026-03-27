@@ -1,0 +1,127 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:09
+Project Code [HULME1_0] Process Id: 4796
+
+PDF Name: licence1
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+XOJ710 XOJ711 7B 15
+Licence fields differ between XOJ710 and XOJ711.
+
+XOJ711 XOJ710 7B 15
+Licence fields differ between XOJ711 and XOJ710.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 2 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: XOJ710 XOJ711 7B 1001
+Route ONT3345X not defined for operator ONT.
+
+Channel: XOJ711 XOJ710 7B 1001
+Route X33_4 not defined for operator ONT.
+
+
+SUMMARY OF CHANNEL RECORDS:  2 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking XOJ710 (PENTECOTE T./ONT) in proposed file ...
+Checking proposed file Site XOJ710 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOJ710 (PENTECOTE T./HYQU) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	XOJ710 to XOJ711 band 8A chid 1081 is first TX HiLo violation.
+	XOJ710 to XOJ711 band 8A chid 1081 is first RX HiLo violation.
+	XOJ710 has both tx and rx violations.  Stopping scanning band 8A.
+	Violation for Band 8A
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOJ711 (STE-MARGUERITE T/ONT) in proposed file ...
+Checking proposed file Site XOJ711 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOJ711 (STE-MARGUERITE T/HYQU) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	XOJ711 to XOJ710 band 8A chid 1081 is first TX HiLo violation.
+	XOJ711 to XOJ710 band 8A chid 1081 is first RX HiLo violation.
+	XOJ711 has both tx and rx violations.  Stopping scanning band 8A.
+	Violation for Band 8A
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 2 hilo violations.
+
+
+
+There were a total of 2 errors and 2 warnings.
+The PDF 'licence1' is invalid
+PDF Validation Completed - 16:09

@@ -1,0 +1,159 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:15
+Project Code [HULME1_0] Process Id: 14496
+
+PDF Name: passive4dist
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+%HYQU14 XOE538 7B 11
+This Antenna record has been modified since you retrieved it.
+
+%HYQU14 XOE539 7B 11
+This Antenna record has been modified since you retrieved it.
+
+XOE538 %HYQU14 7B 11
+This Antenna record has been modified since you retrieved it.
+
+XOE539 %HYQU14 7B 11
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: %HYQU14 XOE538 7B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %HYQU14 XOE538 7B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: %HYQU14 XOE539 7B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: %HYQU14 XOE539 7B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: XOE538 %HYQU14 7B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOE538 %HYQU14 7B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: XOE539 %HYQU14 7B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: XOE539 %HYQU14 7B 1002
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 8 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking %HYQU14 (GODEFROY PAS/HYQU) in proposed file ...
+Checking proposed file Site %HYQU14 band 7B.
+%HYQU14 to XOE539 band 7B chid 1001 is first TX HiLo violation.
+%HYQU14 to XOE539 band 7B chid 1001 is first RX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking XOE538 (HOPE T./HYQU) in proposed file ...
+Checking proposed file Site XOE538 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOE538 (HOPE T./HYQU) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking XOE539 (HART-JAUNE T./HYQU) in proposed file ...
+Checking proposed file Site XOE539 band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: XOE539 (HART-JAUNE T./HYQU) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	XOE539 to %HYQU32 band 8A chid 1081 is first TX HiLo violation.
+	XOE539 to %HYQU32 band 8A chid 1081 is first RX HiLo violation.
+	XOE539 has both tx and rx violations.  Stopping scanning band 8A.
+	Violation for Band 8A
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 3 hilo violations.
+
+
+
+There were a total of 0 errors and 12 warnings.
+The PDF 'passive4dist' is validated for :UPDATE:
+
+PDF Validation Completed - 21:15

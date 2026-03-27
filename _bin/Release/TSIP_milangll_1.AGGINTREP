@@ -1,0 +1,23 @@
+                  FREQUENCY CO-ORDINATION SYSTEM ASSOCIATION
+                       Aggregate Interference Report
+                       for milangll_1, Culling Margin:    2.0
+
+Victim    From        Ant  Frequency Rx Pwr C   AggInt   RqCo Margin
+
+=XCI11064 CHL683       11   19365000  -40.4 I   -100.9 -103.3   -2.5
+CIN228    VAD472       11   22265000  -28.3 I    -39.8 -106.7  -66.9
+CIN229    VAD472       11   22375000  -38.7 I    -38.7 -106.7  -68.0
+CIN362    XKU588       11   17815000  -35.7 I    -46.3 -106.5  -60.2
+VAD472    CIN228       11   23465000  -28.7 I    -40.2 -106.7  -66.5
+VAD472    CIN229       11   23575000  -39.2 I    -39.2 -106.7  -67.5
+XCIN228   XVAD472      11   22275000  -28.3 I    -54.8 -106.9  -52.1
+XCIN229   XVAD472      11   22375000  -38.7 I    -38.7 -106.9  -68.1
+XCIN362   XXKU588      11   17805000  -36.3 I    -62.9 -106.9  -44.0
+XKU588    CIN362       11   19375000  -36.6 I    -47.2 -106.5  -59.3
+XVAD472   XCIN228      11   23475000  -28.7 I    -55.2 -106.9  -51.6
+XVAD472   XCIN229      11   23575000  -39.2 I    -39.2 -106.9  -67.7
+XXKU588   XCIN362      11   19365000  -37.2 I    -63.7 -106.9  -43.1
+
+Records Read........:    14
+Records Passing Cull:    14
+

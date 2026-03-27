@@ -1,0 +1,74 @@
+ES PDF VALIDATION REPORT    Build 160428-1318/64-D    DATE: 2019.01.07  20:05
+Project Code [HULME1_0] Process ID [11640]
+PDF Name: esvalazim
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS: 0 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+SUMMARY OF CHANNEL RECORDS: 0 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: =TELSUA =TELSUX 190.0.
+Elevation (100.000000) must be between -90.00 and 90.00.
+
+KEY: =TELSUX =TELSUX 180.0.
+Elevation (-91.000000) must be between -90.00 and 90.00.
+Distance (1000.000000) must be between 0.00 and 999.99.
+
+KEY: =TELSUX =TELSUX 217.6.
+Command (X) must be A, U, D, B, or N.
+
+KEY: =TELSUA =TELSUX 190.0
+No antenna exists for this azimuth.
+Elevation must be between -90.00 and 90.00
+
+KEY: =TELSUX =TELSUX 180.0
+Azimuth record already exists in MDB, cannot ADD.
+Elevation must be between -90.00 and 90.00
+Distance must be between 0.00 and 999.99
+
+KEY: =TELSUX =TELSUX 217.6
+Command (X) is invalid.
+
+SUMMARY OF AZIMUTH RECORDS: 10 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 10 errors and 0 warnings.
+The PDF 'esvalazim' is invalid
+PDF Validation Completed -  20:05
+
+ODBC Diagnostic:
+[HY010] [Microsoft][ODBC Driver Manager] Function sequence error
+Diagnostic message:-
+ODBC Diagnostic:
+[HY010] [Microsoft][ODBC Driver Manager] Function sequence error
+  Ct  Ind Function                           Line/File
+Current Connection List:-
+   1    1 feUpdateAzim                     311   124/..\dynfeAzim.cpp                                                      
+  There were 1 open connections.

@@ -1,0 +1,67 @@
+ES PDF VALIDATION REPORT    Build 160428-1318/64-D    DATE: 2019.01.07  20:05
+Project Code [HULME1_0] Process ID [9972]
+PDF Name: esnoazimuth1
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: 9RSB $CK989.
+A call sign ($CK989) that begins with '$' must have RX frequencies only.
+
+Antenna: 9RSB $CK989
+Characters following $ in Call Sign must agree with oper code field
+Antenna Code RX position 5 must be a numeric if CCIR: CCIRR345.
+
+$CK989
+A site that begins with '$' must be receive only
+
+                ----------- WARNINGS -----------
+
+
+Antenna: 9RSB CK989
+This antenna will no longer have associated channels
+
+SUMMARY OF ANTENNA RECORDS: 4 errors and 1 warnings
+
+
+                      ES CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: 9RSB $CK989 11A1.
+A call sign ($CK989) that begins with '$' must have RX frequencies only.
+
+KEY: 9RSB $CK989 11A1
+TX Frequency (16354300.00) out of range (5850000.00 to 6425000.00).
+
+SUMMARY OF CHANNEL RECORDS: 2 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 6 errors and 1 warnings.
+The PDF 'esnoazimuth1' is invalid
+PDF Validation Completed -  20:05

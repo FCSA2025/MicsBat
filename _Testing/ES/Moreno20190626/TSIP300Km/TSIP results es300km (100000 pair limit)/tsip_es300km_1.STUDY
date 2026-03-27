@@ -1,0 +1,47 @@
+ 
+     FREQUENCY COORDINATION SYSTEM ASSOCIATION                        PAGE:   1
+     MASTER DATA BASE -- ES-TS Interference Study Summary                 11:27
+          Project Number                 : hulme1_0
+          PDF File Name                  : es300km
+          Run Name                       : 1
+          PDF Type                       : E
+          Environment Type               : MDB_TS
+          Environment Name               :
+          Country (CAN/USA/ALL)          : ALL
+          Selected Environment Sites     : ALL
+          Operator Codes                 : ALL
+          Call Sign Codes                : ALL
+ 
+          Study Date                     : 2019.06.26
+          Study Time                     : 11:13
+          CPU Time                       : 00:02:39.390
+          Elapsed Time                   : 00:14:01
+ 
+          Geostationary Orbit Study (Y/N): N
+          Propagation Loss Model         : TSIP CCIR-SJM
+          Maximum Frequency Separation   : 300
+          TX Tropospheric Dist.          : 300   km
+          RX Tropospheric Dist.          : 300   km
+          TX Precipitation Dist.         : 300   km
+          RX Precipitation Dist.         : 300   km
+          Analysis type                  : CHAN
+          Margin (dB)                    : 0.0
+          Channel Status Codes (0 - 9)   : 0,1,2,3,4,5,6,7,8,9
+ 
+          Reports run:
+          Execution Report               : Y
+          Study Summary Report           : Y
+          Stations Analyzed Report       : Y
+          Case Detail Report             : Y
+          Case Summary Report            : N
+ 
+          Number of TS-ES Stations Passed: 7089
+          Number of ES-TS Stations Passed: 18
+          Number of TS Cases             : 0
+          Number of ES Cases             : 3
+               Interference Tables:-
+                    tt_es300km_1_parm Table
+                    tt_es300km_1_erro Table
+                    tt_es300km_1_site Table
+                    tt_es300km_1_ante Table
+                    tt_es300km_1_chan Table

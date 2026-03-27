@@ -1,0 +1,11 @@
+D:\Users\ahulme\MICS#\CTE\bin\Release\CTE.dll.config
+D:\Users\ahulme\MICS#\CTE\bin\Release\CTE.dll
+D:\Users\ahulme\MICS#\CTE\bin\Release\CTE.pdb
+D:\Users\ahulme\MICS#\CTE\bin\Release\_Configuration.dll
+D:\Users\ahulme\MICS#\CTE\bin\Release\_DataStructures.dll
+D:\Users\ahulme\MICS#\CTE\bin\Release\_NewLib.dll
+D:\Users\ahulme\MICS#\CTE\bin\Release\_Configuration.pdb
+D:\Users\ahulme\MICS#\CTE\bin\Release\_DataStructures.pdb
+D:\Users\ahulme\MICS#\CTE\bin\Release\_NewLib.pdb
+D:\Users\ahulme\MICS#\CTE\obj\Release\CTE.dll
+D:\Users\ahulme\MICS#\CTE\obj\Release\CTE.pdb

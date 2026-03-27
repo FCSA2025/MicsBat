@@ -1,0 +1,5 @@
+*
+* BAND SDF NAME: test_NoOp
+* no error should be reported
+* update must add the bit
+N,U,08A,1,700000,830000,960000,08A;09A,,

@@ -1,0 +1,345 @@
+ES PDF VALIDATION REPORT    Build 160428-1318/64-D    DATE: 2019.01.07  20:05
+Project Code [HULME1_0] Process ID [9092]
+PDF Name: tels
+
+
+
+                      ES SITE RECORDS
+
+                *********** ERRORS ***********
+
+
+Location: E10
+Site does not exist in MDB
+
+Location: E10K
+Site does not exist in MDB
+
+Location: HFD05
+Site does not exist in MDB
+
+Location: HFDK
+Site does not exist in MDB
+
+SUMMARY OF SITE RECORDS: 4 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna: E10 VX902
+Antenna does not exist in MDB
+
+Antenna: E10K =TELSE10K
+Antenna does not exist in MDB
+
+Antenna: HFD05 =TELSHFD
+Antenna does not exist in MDB
+
+Antenna: HFDK =TELSHFDK
+Antenna does not exist in MDB
+
+SUMMARY OF ANTENNA RECORDS: 4 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: E10 VX902 1
+Channel does not exist in MDB.
+
+KEY: E10 VX902 10
+Channel does not exist in MDB.
+
+KEY: E10 VX902 10B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 11
+Channel does not exist in MDB.
+
+KEY: E10 VX902 11B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 12
+Channel does not exist in MDB.
+
+KEY: E10 VX902 12B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 1B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 2
+Channel does not exist in MDB.
+
+KEY: E10 VX902 2B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 3
+Channel does not exist in MDB.
+
+KEY: E10 VX902 3B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 4
+Channel does not exist in MDB.
+
+KEY: E10 VX902 4B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 5
+Channel does not exist in MDB.
+
+KEY: E10 VX902 5B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 6
+Channel does not exist in MDB.
+
+KEY: E10 VX902 6B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 7
+Channel does not exist in MDB.
+
+KEY: E10 VX902 7B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 8
+Channel does not exist in MDB.
+
+KEY: E10 VX902 8B
+Channel does not exist in MDB.
+
+KEY: E10 VX902 9
+Channel does not exist in MDB.
+
+KEY: E10 VX902 9B
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T33
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T34
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T35
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T36
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T37
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T38
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T39
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T40
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T41
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T42
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T43
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T44
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T45
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T46
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T47
+Channel does not exist in MDB.
+
+KEY: E10K =TELSE10K T48
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 10A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 10B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 11A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 11B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 12A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 12B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 1A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 1B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 2A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 2B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 3A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 3B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 4A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 4B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 5A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 5B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 6A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 6B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 7A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 7B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 8A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 8B
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 9A
+Channel does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 9B
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T33
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T34
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T35
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T36
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T37
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T38
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T39
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T40
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T41
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T42
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T43
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T44
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T45
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T46
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T47
+Channel does not exist in MDB.
+
+KEY: HFDK =TELSHFDK T48
+Channel does not exist in MDB.
+
+SUMMARY OF CHANNEL RECORDS: 80 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: E10 VX902 0.0
+Azimuth does not exist in MDB.
+
+KEY: E10 VX902 177.0
+Azimuth does not exist in MDB.
+
+KEY: E10 VX902 180.0
+Azimuth does not exist in MDB.
+
+KEY: E10K =TELSE10K 0.0
+Azimuth does not exist in MDB.
+
+KEY: E10K =TELSE10K 360.0
+Azimuth does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 0.0
+Azimuth does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 180.0
+Azimuth does not exist in MDB.
+
+KEY: HFD05 =TELSHFD 233.7
+Azimuth does not exist in MDB.
+
+KEY: HFDK =TELSHFDK 0.0
+Azimuth does not exist in MDB.
+
+KEY: HFDK =TELSHFDK 360.0
+Azimuth does not exist in MDB.
+
+SUMMARY OF AZIMUTH RECORDS: 10 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 98 errors and 0 warnings.
+The PDF 'tels' is invalid
+PDF Validation Completed -  20:05

@@ -1,0 +1,7 @@
+D:\Users\ahulme\MICS#\CompareResults\bin\x64\Release\CompareResults.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\CompareResults.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\CompareResults.exe
+D:\Users\ahulme\MICS#\_bin\Release\CompareResults.pdb
+D:\Users\ahulme\MICS#\CompareResults\obj\x64\Release\CompareResults.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\CompareResults\obj\x64\Release\CompareResults.exe
+D:\Users\ahulme\MICS#\CompareResults\obj\x64\Release\CompareResults.pdb

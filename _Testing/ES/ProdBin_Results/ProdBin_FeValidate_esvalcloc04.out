@@ -1,0 +1,51 @@
+ES PDF VALIDATION REPORT    Build 160428-1318/64-D    DATE: 2019.01.07  20:05
+Project Code [HULME1_0] Process ID [4244]
+PDF Name: esvalcloc04
+
+
+
+                      ES SITE RECORDS
+
+SUMMARY OF SITE RECORDS: 0 errors and 0 warnings
+
+
+                      ES ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS: 0 errors and 0 warnings
+
+
+                      ES CHANNEL RECORDS
+
+SUMMARY OF CHANNEL RECORDS: 0 errors and 0 warnings.
+
+
+                      ES AZIMUTH RECORDS
+
+SUMMARY OF AZIMUTH RECORDS: 0 errors and 0 warnings.
+
+
+                      ES CHANGE OF LOCATION RECORDS
+
+                *********** ERRORS ***********
+
+
+KEY: $DND41 to CG649.
+Invalid LOCATION - NAME combination.
+
+                ----------- WARNINGS -----------
+
+
+KEY: $DND41 to CG649.
+New Location exists in MDB. PDF may fail MDB update.
+
+SUMMARY OF CHANGE OF LOCATON RECORDS: 1 errors and 1 warnings.
+
+
+                      ES CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS: 0 errors and 0 warnings.
+
+
+There were a total of 1 errors and 1 warnings.
+The PDF 'esvalcloc04' is invalid
+PDF Validation Completed -  20:05

@@ -1,0 +1,110 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:05
+Project Code [HULME1_0] Process Id: 144
+
+PDF Name: bandwddelreghop
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking CGD091 (WUMMUMMIN LAKE/BELL) in proposed file ...
+Checking proposed file Site CGD091 band 1A.
+  Band 1A OK, checking adjacent bands.
+  Adjacent Band 1B OK.
+  Adjacent Band 1C OK.
+  Adjacent Band 1D OK.
+  Adjacent Band 1E OK.
+  Adjacent Band 2A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CGD091 (WUMMUMMIN LAKE/BELL) 
+	Band 1A
+	Band 1A OK
+	Band 1B
+	Band 1B OK
+	Band 1C
+	Band 1C OK
+	Band 1D
+	Band 1D OK
+	Band 1E
+	Band 1E OK
+	Band 2A
+	Band 2A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site CGD091 band 3C.
+CGD091 to CGG418 band 3C chid D008 is first TX HiLo violation.
+  Band 3C HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+
+Checking CGG418 (SUMMER BEAVER/BELL) in proposed file ...
+Checking proposed file Site CGG418 band 1A.
+  Band 1A OK, checking adjacent bands.
+  Adjacent Band 1B OK.
+  Adjacent Band 1C OK.
+  Adjacent Band 1D OK.
+  Adjacent Band 1E OK.
+  Adjacent Band 2A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CGG418 (SUMMER BEAVER/BELL) 
+	Band 1A
+	Band 1A OK
+	Band 1B
+	Band 1B OK
+	Band 1C
+	Band 1C OK
+	Band 1D
+	Band 1D OK
+	Band 1E
+	Band 1E OK
+	Band 2A
+	Band 2A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+Checking proposed file Site CGG418 band 3C.
+CGG418 to CGD091 band 3C chid D008 is first RX HiLo violation.
+  Band 3C HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+
+---------------------------
+
+2 Site(s) checked.
+There were 2 hilo violations.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'bandwddelreghop' is validated for :UPDATE:
+
+PDF Validation Completed - 16:05

@@ -1,0 +1,5 @@
+D:\Users\ahulme\MICS#\WsatAze\bin\Release\WsatAze.exe.config
+D:\Users\ahulme\MICS#\WsatAze\bin\Release\WsatAze.exe
+D:\Users\ahulme\MICS#\WsatAze\bin\Release\WsatAze.pdb
+D:\Users\ahulme\MICS#\WsatAze\obj\Release\WsatAze.exe
+D:\Users\ahulme\MICS#\WsatAze\obj\Release\WsatAze.pdb

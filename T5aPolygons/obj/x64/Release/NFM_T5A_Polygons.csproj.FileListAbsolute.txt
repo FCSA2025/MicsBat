@@ -1,0 +1,9 @@
+D:\Users\ahulme\MICS#\_bin\Release\NFM_T5A_Polygons.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\NFM_T5A_Polygons.exe
+D:\Users\ahulme\MICS#\_bin\Release\NFM_T5A_Polygons.pdb
+D:\Users\ahulme\MICS#\ImportISEDtier5Areas\obj\x64\Release\NFM_T5A_Polygons.csprojResolveAssemblyReference.cache
+D:\Users\ahulme\MICS#\ImportISEDtier5Areas\obj\x64\Release\NFM_T5A_Polygons.exe
+D:\Users\ahulme\MICS#\ImportISEDtier5Areas\obj\x64\Release\NFM_T5A_Polygons.pdb
+D:\Users\ahulme\MICS#\NFM_T5A_Polygons\obj\x64\Release\NFM_T5A_Polygons.exe
+D:\Users\ahulme\MICS#\NFM_T5A_Polygons\obj\x64\Release\NFM_T5A_Polygons.pdb
+D:\Users\ahulme\MICS#\NFM_T5A_Polygons\obj\x64\Release\NFM_T5A_Polygons.csprojResolveAssemblyReference.cache

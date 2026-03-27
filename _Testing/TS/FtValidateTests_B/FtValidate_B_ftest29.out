@@ -1,0 +1,17 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:08
+Project Code [hulme1_0] Process Id: 12180
+
+PDF Name: ftest29
+
+
+                *********** ERRORS ***********
+
+
+=UNKNA->=UNKNB Band:6D
+PURGE 13 - Antenna has at least one of call1, call2, band code, or anum blank.
+
+
+The above errors in the first pass preclude continuing.

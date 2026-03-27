@@ -1,0 +1,2 @@
+D:\MicsBatchProgs\MICS#\Tools\obj\x64\Debug\Tools.csproj.AssemblyReference.cache
+D:\MicsBatchProgs\MICS#\Tools\obj\x64\Debug\Tools.csproj.CoreCompileInputs.cache

@@ -1,0 +1,88 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:08
+Project Code [hulme1_0] Process Id: 11796
+
+PDF Name: ftest29b
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                *********** ERRORS ***********
+
+
+Antenna =UNKNA =UNKNB 6D 2
+Antenna Use (XV1) must be TX, STX, TR, RX, DV1, DV2.
+Antenna height (1001.00) must be greater than 0m and no more than 1000m
+
+=UNKNA =UNKNB 6D 2
+Could not retrieve remote Antenna
+
+SUMMARY OF ANTENNA RECORDS:  3 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: =UNKNA =UNKNB 6D 1A
+Invalid ause (XV1) for RX or DV1 Antenna 2
+
+
+SUMMARY OF CHANNEL RECORDS:  1 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =UNKNA (SITE A/UNKN) in proposed file ...
+Checking proposed file Site =UNKNA band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =UNKNB (SITE B/UNKN) in proposed file ...
+Checking proposed file Site =UNKNB band 6D.
+  Band 6D OK, checking adjacent bands.
+  Adjacent Band 6A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 7B OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 4 errors and 0 warnings.
+The PDF 'ftest29b' is invalid
+PDF Validation Completed - 16:08

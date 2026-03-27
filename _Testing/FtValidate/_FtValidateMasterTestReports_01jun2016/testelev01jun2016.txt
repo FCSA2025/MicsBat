@@ -1,0 +1,1352 @@
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0] Process Id: 7324
+
+PDF Name: testelevadd
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: VAM878X
+Lat & Long for site is the same as for existing site:- 
+	VAM878 DOUGLAS RCTL
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 1 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 1 warnings.
+The PDF 'testelevadd' is validated for :UPDATE:
+
+PDF Validation Completed - 16:05
+* TS-PDF: testelevadd, By ftPrint (160428-1416/64-D) at 2016.06.01 16:05:06
+*
+TT,U,TESTELEVADD,,,,
+*##############################################################################
+SK,A,U,CGJ846X,EDMONTON,53-32-25.24N,113-29-48.63W,663.0,2008.05.03,11:03
+SD,AB,RCTL,5,W0012,223-2859439,E, ,1, ,1200,1992.01.22,FT
+*====  ------ Not Found -----   Ant Gain = 44.9, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,CGJ846X,VAM878X,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,208.14,0.34,6.34,N, , , , , , ,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 41.0, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,CGJ846X,VAM878X,18B,12,2010.02.12,12:12
+AQ,TR,VHPX2.5-180,120.0,208.14,0.29,6.34,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 41.0, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,CGJ846X,VAM878X,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX2.5-180,50.0,208.14,0.61,6.34,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 41.0, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,CGJ846X,VAM878X,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX2.5-180,150.0,208.14,-0.29,6.34,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.07, Rx=85.79
+CK,A,U,CGJ846X,VAM878X,18B,1001,2010.02.12,12:12
+CT, , , ,17920000.00,H,11,9.0, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,19480000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,9.0,-42.0,9.0,-45.9,9.0,-45.9, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.05, Rx=85.77
+CK,A,U,CGJ846X,VAM878X,18B,1002,2010.02.12,12:12
+CT, , , ,17880000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19440000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4,3.0,-34.4,3.0,-34.4, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.11, Rx=85.83
+CK,A,U,CGJ846X,VAM878X,18B,1003,2010.02.12,12:12
+CT, , , ,18000000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19560000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,A,U,VAM878X,DOUGLAS,53-29-24.28N,113-32-30.86W,668.0,2010.09.02,16:42
+SD,AB,RCTL,5,W0246,223-3605307, , ,1, ,0000,1992.09.16,FT
+*====  ------ Not Found -----   Ant Gain = 44.9, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,VAM878X,CGJ846X,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,28.10,0.25,6.34,N, , , , , , ,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.5, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,VAM878X,CGJ846X,18B,12,2010.02.12,12:12
+AQ,TR,VHPX4-180A,26.0,28.10,1.05,6.34,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.5, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,VAM878X,CGJ846X,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX4-180A,20.0,28.10,0.84,6.34,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  ------ Not Found -----   Ant Gain = 44.5, Dist Loss = 48.50, At. Loss = 0.46
+AK,A,U,VAM878X,CGJ846X,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX4-180A,150.0,28.10,-0.34,6.34,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.79, Rx=85.07
+CK,A,U,VAM878X,CGJ846X,18B,1001,2010.02.12,12:12
+CT, , , ,19480000.00,H,11,10.9, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,17920000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,10.9,-41.0,9.0,-39.5,9.0,-39.5, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.77, Rx=85.05
+CK,A,U,VAM878X,CGJ846X,18B,1002,2010.02.12,12:12
+CT, , , ,19440000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,17880000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.4,3.0,-33.4,3.0,-33.4, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.83, Rx=85.11
+CK,A,U,VAM878X,CGJ846X,18B,1003,2010.02.12,12:12
+CT, , , ,19560000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,18000000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.5, , , , , ,
+CO, , , , , , , ,
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0]
+
+Checking file: testelevadd
+-------------------------------------------------------------
+1) Site CGJ846X:-
+
+EDMONTON Oper: RCTL 
+L/L: 53-32-25.24N/113-29-48.63W Grnd: 663.0m
+
+  Link 0 to VAM878X, band 18B:-
+    Ground distance: 6.3431, azimuth: 208.1353, back-azimuth: 28.0991
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000  208.1353     0.3399     6.3440
+  1   12  120.000  208.1353     0.2947     6.3440
+  2   13   50.000  208.1353     0.6108     6.3442
+  3   14  150.000  208.1353    -0.2923     6.3439
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 17920000.000  19480000.000    23.000   -41.982   9.000   9.000 
+ 1( 1) 1002 17880000.000  19440000.000    21.000   -34.357   3.000   3.000 
+ 2( 2) 1003 18000000.000  19560000.000    21.000   -34.435   3.000   3.000 
+
+-------------------------------------------------------------
+2) Site VAM878X:-
+
+DOUGLAS Oper: RCTL 
+L/L: 53-29-24.28N/113-32-30.86W Grnd: 668.0m
+
+  Link 0 to CGJ846X, band 18B:-
+    Ground distance: 6.3431, azimuth: 28.0991, back-azimuth: 208.1353
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000   28.0991     0.2496     6.3439
+  1   12   26.000   28.0991     1.0533     6.3449
+  2   13   20.000   28.0991     0.8366     6.3445
+  3   14  150.000   28.0991    -0.3375     6.3440
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 19480000.000  17920000.000    23.000   -41.030  10.900  10.900 
+ 1( 1) 1002 19440000.000  17880000.000    21.000   -33.406   3.000   3.000 
+ 2( 2) 1003 19560000.000  18000000.000    21.000   -33.477   3.000   3.000 
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      8
+Channels Read:      6
+
+0 Errors were found
+0 Warnings were issued.
+
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0] Process Id: 4736
+
+PDF Name: testelevanglea
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: CGJ846 VAM878 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: CGJ846 VAM878 18B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1002
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 4 warnings.
+The PDF 'testelevanglea' is validated for :UPDATE:
+
+PDF Validation Completed - 16:05
+* TS-PDF: testelevanglea, By ftPrint (160428-1416/64-D) at 2016.06.01 16:05:09
+*
+TT,U,TESTELEVANGLEA,,,,
+*##############################################################################
+SK,N,U,CGJ846,EDMONTON,53-32-26.00N,113-29-53.00W,663.0,2012.08.07,09:09
+SD,AB,RCTL,5,W0012,223-2859439,E, ,1, ,1200,1992.01.22,FT
+*====  DOUGLAS  ========= Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,N,U,CGJ846,VAM878,18B,11,2012.07.10,15:33
+AQ,TR,HP4-180E,115.0,207.39,0.02,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,N,U,CGJ846,VAM878,18B,12,2012.07.10,15:33
+AQ,TR,VHPX2.5-180,116.0,207.39,-0.79,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX2.5-180,50.0,207.39,0.61,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX2.5-180,150.0,207.39,-0.29,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.07, Rx=85.79
+CK,U,U,CGJ846,VAM878,18B,1001,2010.02.12,12:12
+CT, , , ,17920000.00,H,11,9.0, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,19480000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,9.0,-42.0,9.0,-45.9,9.0,-45.9, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.05, Rx=85.77
+CK,U,U,CGJ846,VAM878,18B,1002,2010.02.12,12:12
+CT, , , ,17880000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19440000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.3,3.0,-34.3,3.0,-34.3, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.11, Rx=85.83
+CK,N,U,CGJ846,VAM878,18B,1003,2012.07.10,15:33
+CT, , , ,18000000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19560000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,VAM878,DOUGLAS,53-29-24.28N,113-32-30.86W,668.0,2012.05.24,19:04
+SD,AB,RCTL,5,W0246,223-3605307, , ,1, ,0000,1992.09.16,FT
+*====  EDMONTON  ======== Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,N,U,VAM878,CGJ846,18B,11,2012.07.10,15:33
+AQ,TR,HP4-180E,115.0,27.36,-0.07,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,N,U,VAM878,CGJ846,18B,12,2012.07.10,15:33
+AQ,TR,VHPX4-180A,26.0,27.36,0.75,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX4-180A,20.0,27.36,0.80,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX4-180A,150.0,27.36,-0.37,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.79, Rx=85.07
+CK,U,U,VAM878,CGJ846,18B,1001,2010.02.12,12:12
+CT, , , ,19480000.00,H,11,10.9, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,17920000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,10.9,-41.0,9.0,-39.5,9.0,-39.5, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.77, Rx=85.05
+CK,U,U,VAM878,CGJ846,18B,1002,2010.02.12,12:12
+CT, , , ,19440000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,17880000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.4,3.0,-33.4,3.0,-33.4, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.83, Rx=85.11
+CK,N,U,VAM878,CGJ846,18B,1003,2012.07.10,15:33
+CT, , , ,19560000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,18000000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.5, , , , , ,
+CO, , , , , , , ,
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0]
+
+Checking file: testelevanglea
+-------------------------------------------------------------
+1) Site CGJ846:-
+
+EDMONTON Oper: RCTL 
+L/L: 53-32-26.00N/113-29-53.00W Grnd: 663.0m
+
+  Link 0 to VAM878, band 18B:-
+    Ground distance: 6.3264, azimuth: 207.3912, back-azimuth: 27.3560
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000  207.3912     0.3409     6.3273
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: 0.0240
+  1   12  116.000  207.3912     0.3318     6.3273
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: -0.7910
+  2   13   50.000  207.3912     0.6126     6.3275
+  3   14  150.000  207.3912    -0.2930     6.3272
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 17920000.000  19480000.000    23.000   -41.957   9.000   9.000 
+ 1( 1) 1002 17880000.000  19440000.000    21.000   -34.332   3.000   3.000 
+ 2( 2) 1003 18000000.000  19560000.000    21.000   -34.409   3.000   3.000 
+
+-------------------------------------------------------------
+2) Site VAM878:-
+
+DOUGLAS Oper: RCTL 
+L/L: 53-29-24.28N/113-32-30.86W Grnd: 668.0m
+
+  Link 0 to CGJ846, band 18B:-
+    Ground distance: 6.3264, azimuth: 27.3560, back-azimuth: 207.3912
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000   27.3560     0.2503     6.3272
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: -0.0666
+  1   12   26.000   27.3560     1.0562     6.3282
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: 0.7484
+  2   13   20.000   27.3560     0.8027     6.3278
+  3   14  150.000   27.3560    -0.3745     6.3273
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 19480000.000  17920000.000    23.000   -41.006  10.900  10.900 
+ 1( 1) 1002 19440000.000  17880000.000    21.000   -33.383   3.000   3.000 
+ 2( 2) 1003 19560000.000  18000000.000    21.000   -33.454   3.000   3.000 
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      8
+Channels Read:      6
+
+4 Errors were found
+0 Warnings were issued.
+
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0] Process Id: 952
+
+PDF Name: testelevanglea2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+CGJ846 VAM878 18B 11
+This Antenna record has been modified since you retrieved it.
+
+CGJ846 VAM878 18B 12
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 11
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 12
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: CGJ846 VAM878 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: CGJ846 VAM878 18B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1002
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 8 warnings.
+The PDF 'testelevanglea2' is validated for :UPDATE:
+
+PDF Validation Completed - 16:05
+* TS-PDF: testelevanglea2, By ftPrint (160428-1416/64-D) at 2016.06.01 16:05:12
+*
+TT,U,TESTELEVANGLEA,,,,
+*##############################################################################
+SK,N,U,CGJ846,EDMONTON,53-32-26.00N,113-29-53.00W,663.0,2012.08.07,09:09
+SD,AB,RCTL,5,W0012,223-2859439,E, ,1, ,1200,1992.01.22,FT
+*====  DOUGLAS  ========= Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,CGJ846,VAM878,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,207.39,0.34,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,CGJ846,VAM878,18B,12,2010.02.12,12:12
+AQ,TR,VHPX2.5-180,116.0,207.39,0.33,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX2.5-180,50.0,207.39,0.61,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX2.5-180,150.0,207.39,-0.29,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.07, Rx=85.79
+CK,U,U,CGJ846,VAM878,18B,1001,2010.02.12,12:12
+CT, , , ,17920000.00,H,11,9.0, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,19480000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,9.0,-42.0,9.0,-45.9,9.0,-45.9, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.05, Rx=85.77
+CK,U,U,CGJ846,VAM878,18B,1002,2010.02.12,12:12
+CT, , , ,17880000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19440000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.3,3.0,-34.3,3.0,-34.3, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.11, Rx=85.83
+CK,N,U,CGJ846,VAM878,18B,1003,2012.07.10,15:33
+CT, , , ,18000000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19560000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,VAM878,DOUGLAS,53-29-24.28N,113-32-30.86W,668.0,2012.05.24,19:04
+SD,AB,RCTL,5,W0246,223-3605307, , ,1, ,0000,1992.09.16,FT
+*====  EDMONTON  ======== Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,VAM878,CGJ846,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,27.36,0.25,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.48, At. Loss = 0.46
+AK,U,U,VAM878,CGJ846,18B,12,2010.02.12,12:12
+AQ,TR,VHPX4-180A,26.0,27.36,1.06,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX4-180A,20.0,27.36,0.80,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX4-180A,150.0,27.36,-0.37,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.79, Rx=85.07
+CK,U,U,VAM878,CGJ846,18B,1001,2010.02.12,12:12
+CT, , , ,19480000.00,H,11,10.9, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,17920000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,10.9,-41.0,9.0,-39.5,9.0,-39.5, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.77, Rx=85.05
+CK,U,U,VAM878,CGJ846,18B,1002,2010.02.12,12:12
+CT, , , ,19440000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,17880000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.4,3.0,-33.4,3.0,-33.4, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.83, Rx=85.11
+CK,N,U,VAM878,CGJ846,18B,1003,2012.07.10,15:33
+CT, , , ,19560000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,18000000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.5, , , , , ,
+CO, , , , , , , ,
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0]
+
+Checking file: testelevanglea2
+-------------------------------------------------------------
+1) Site CGJ846:-
+
+EDMONTON Oper: RCTL 
+L/L: 53-32-26.00N/113-29-53.00W Grnd: 663.0m
+
+  Link 0 to VAM878, band 18B:-
+    Ground distance: 6.3264, azimuth: 207.3912, back-azimuth: 27.3560
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000  207.3912     0.3409     6.3273
+  1   12  116.000  207.3912     0.3318     6.3273
+  2   13   50.000  207.3912     0.6126     6.3275
+  3   14  150.000  207.3912    -0.2930     6.3272
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 17920000.000  19480000.000    23.000   -41.957   9.000   9.000 
+ 1( 1) 1002 17880000.000  19440000.000    21.000   -34.333   3.000   3.000 
+ 2( 2) 1003 18000000.000  19560000.000    21.000   -34.409   3.000   3.000 
+
+-------------------------------------------------------------
+2) Site VAM878:-
+
+DOUGLAS Oper: RCTL 
+L/L: 53-29-24.28N/113-32-30.86W Grnd: 668.0m
+
+  Link 0 to CGJ846, band 18B:-
+    Ground distance: 6.3264, azimuth: 27.3560, back-azimuth: 207.3912
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000   27.3560     0.2503     6.3272
+  1   12   26.000   27.3560     1.0562     6.3282
+  2   13   20.000   27.3560     0.8027     6.3278
+  3   14  150.000   27.3560    -0.3745     6.3273
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 19480000.000  17920000.000    23.000   -41.006  10.900  10.900 
+ 1( 1) 1002 19440000.000  17880000.000    21.000   -33.383   3.000   3.000 
+ 2( 2) 1003 19560000.000  18000000.000    21.000   -33.454   3.000   3.000 
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      8
+Channels Read:      6
+
+0 Errors were found
+0 Warnings were issued.
+
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0] Process Id: 2352
+
+PDF Name: testelevangleb
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+CGJ846 VAM878 18B 12
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 11
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 12
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 3 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: CGJ846 VAM878 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: CGJ846 VAM878 18B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: CGJ846 VAM878 18B 1003
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1003
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 6 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 9 warnings.
+The PDF 'testelevangleb' is validated for :UPDATE:
+
+PDF Validation Completed - 16:05
+* TS-PDF: testelevangleb, By ftPrint (160428-1416/64-D) at 2016.06.01 16:05:16
+*
+TT,U,TESTELEVANGLEB,,,,
+*##############################################################################
+SK,N,U,CGJ846,EDMONTON,53-32-26.00N,113-29-53.00W,663.0,2012.08.07,09:09
+SD,AB,RCTL,5,W0012,223-2859439,E, ,1, ,1200,1992.01.22,FT
+*====  DOUGLAS  ========= Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,CGJ846,VAM878,18B,11,2012.07.10,15:33
+AQ,TR,HP4-180E,115.0,207.39,0.34,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,CGJ846,VAM878,18B,12,2010.02.12,12:12
+AQ,TR,VHPX2.5-180,120.0,207.39,0.30,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX2.5-180,50.0,207.39,0.61,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX2.5-180,150.0,207.39,-0.29,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.07, Rx=85.79
+CK,U,U,CGJ846,VAM878,18B,1001,2010.02.12,12:12
+CT, , , ,17920000.00,H,11,9.0, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,19480000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,9.0,-42.0,9.0,-45.9,9.0,-45.9, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.05, Rx=85.77
+CK,U,U,CGJ846,VAM878,18B,1002,2010.02.12,12:12
+CT, , , ,17880000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19440000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.3,3.0,-34.3,3.0,-34.3, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.11, Rx=85.83
+CK,U,U,CGJ846,VAM878,18B,1003,2010.02.12,12:12
+CT, , , ,18000000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19560000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,VAM878,DOUGLAS,53-29-24.28N,113-32-30.86W,668.0,2012.05.24,19:04
+SD,AB,RCTL,5,W0246,223-3605307, , ,1, ,0000,1992.09.16,FT
+*====  EDMONTON  ======== Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,VAM878,CGJ846,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,27.36,0.25,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.48, At. Loss = 0.46
+AK,U,U,VAM878,CGJ846,18B,12,2010.02.12,12:12
+AQ,TR,VHPX4-180A,26.0,27.36,1.06,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.48, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX4-180A,20.0,27.36,0.84,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX4-180A,150.0,27.36,-0.34,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.79, Rx=85.07
+CK,U,U,VAM878,CGJ846,18B,1001,2010.02.12,12:12
+CT, , , ,19480000.00,H,11,10.9, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,17920000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,10.9,-41.0,9.0,-39.5,9.0,-39.5, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.77, Rx=85.05
+CK,U,U,VAM878,CGJ846,18B,1002,2010.02.12,12:12
+CT, , , ,19440000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,17880000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.4,3.0,-33.4,3.0,-33.4, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.83, Rx=85.11
+CK,U,U,VAM878,CGJ846,18B,1003,2010.02.12,12:12
+CT, , , ,19560000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,18000000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.5, , , , , ,
+CO, , , , , , , ,
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0]
+
+Checking file: testelevangleb
+-------------------------------------------------------------
+1) Site CGJ846:-
+
+EDMONTON Oper: RCTL 
+L/L: 53-32-26.00N/113-29-53.00W Grnd: 663.0m
+
+  Link 0 to VAM878, band 18B:-
+    Ground distance: 6.3264, azimuth: 207.3912, back-azimuth: 27.3560
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000  207.3912     0.3409     6.3273
+  1   12  120.000  207.3912     0.2956     6.3273
+  2   13   50.000  207.3912     0.6126     6.3275
+  3   14  150.000  207.3912    -0.2930     6.3272
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 17920000.000  19480000.000    23.000   -41.957   9.000   9.000 
+ 1( 1) 1002 17880000.000  19440000.000    21.000   -34.333   3.000   3.000 
+ 2( 2) 1003 18000000.000  19560000.000    21.000   -34.410   3.000   3.000 
+
+-------------------------------------------------------------
+2) Site VAM878:-
+
+DOUGLAS Oper: RCTL 
+L/L: 53-29-24.28N/113-32-30.86W Grnd: 668.0m
+
+  Link 0 to CGJ846, band 18B:-
+    Ground distance: 6.3264, azimuth: 27.3560, back-azimuth: 207.3912
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000   27.3560     0.2503     6.3272
+  1   12   26.000   27.3560     1.0562     6.3282
+  2   13   20.000   27.3560     0.8389     6.3278
+  3   14  150.000   27.3560    -0.3383     6.3273
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 19480000.000  17920000.000    23.000   -41.006  10.900  10.900 
+ 1( 1) 1002 19440000.000  17880000.000    21.000   -33.383   3.000   3.000 
+ 2( 2) 1003 19560000.000  18000000.000    21.000   -33.453   3.000   3.000 
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      8
+Channels Read:      6
+
+0 Errors were found
+0 Warnings were issued.
+
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0] Process Id: 1064
+
+PDF Name: testelevanglec
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+CGJ846 VAM878 18B 12
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 11
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 12
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 3 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: CGJ846 VAM878 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: CGJ846 VAM878 18B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: CGJ846 VAM878 18B 1003
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1003
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 6 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 9 warnings.
+The PDF 'testelevanglec' is validated for :UPDATE:
+
+PDF Validation Completed - 16:05
+* TS-PDF: testelevanglec, By ftPrint (160428-1416/64-D) at 2016.06.01 16:05:19
+*
+TT,U,TESTELEVANGLEC,,,,
+*##############################################################################
+SK,N,U,CGJ846,EDMONTON,53-32-26.00N,113-29-53.00W,663.0,2012.08.07,09:09
+SD,AB,RCTL,5,W0012,223-2859439,E, ,1, ,1200,1992.01.22,FT
+*====  DOUGLAS  ========= Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,CGJ846,VAM878,18B,11,2012.07.10,15:33
+AQ,TR,HP4-180E,115.0,207.39,0.02,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,CGJ846,VAM878,18B,12,2010.02.12,12:12
+AQ,TR,VHPX2.5-180,120.0,207.39,0.30,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX2.5-180,50.0,207.39,0.61,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX2.5-180,150.0,207.39,-0.29,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.07, Rx=85.79
+CK,U,U,CGJ846,VAM878,18B,1001,2010.02.12,12:12
+CT, , , ,17920000.00,H,11,9.0, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,19480000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,9.0,-42.0,9.0,-45.9,9.0,-45.9, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.05, Rx=85.77
+CK,U,U,CGJ846,VAM878,18B,1002,2010.02.12,12:12
+CT, , , ,17880000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19440000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.3,3.0,-34.3,3.0,-34.3, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.11, Rx=85.83
+CK,U,U,CGJ846,VAM878,18B,1003,2010.02.12,12:12
+CT, , , ,18000000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19560000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,VAM878,DOUGLAS,53-29-24.28N,113-32-30.86W,668.0,2012.05.24,19:04
+SD,AB,RCTL,5,W0246,223-3605307, , ,1, ,0000,1992.09.16,FT
+*====  EDMONTON  ======== Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,VAM878,CGJ846,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,27.36,0.25,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.48, At. Loss = 0.46
+AK,U,U,VAM878,CGJ846,18B,12,2010.02.12,12:12
+AQ,TR,VHPX4-180A,26.0,27.36,1.06,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.48, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX4-180A,20.0,27.36,0.84,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX4-180A,150.0,27.36,-0.34,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.79, Rx=85.07
+CK,U,U,VAM878,CGJ846,18B,1001,2010.02.12,12:12
+CT, , , ,19480000.00,H,11,10.9, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,17920000.00,H,11,13, ,DVM1845, ,D18G45, ,5,F
+CQ,10.9,-41.0,10.9,-41.4, , , ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.77, Rx=85.05
+CK,U,U,VAM878,CGJ846,18B,1002,2010.02.12,12:12
+CT, , , ,19440000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,17880000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.4,3.0,-33.4,3.0,-33.4, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.83, Rx=85.11
+CK,U,U,VAM878,CGJ846,18B,1003,2010.02.12,12:12
+CT, , , ,19560000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,18000000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.5, , , , , ,
+CO, , , , , , , ,
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0]
+
+Checking file: testelevanglec
+-------------------------------------------------------------
+1) Site CGJ846:-
+
+EDMONTON Oper: RCTL 
+L/L: 53-32-26.00N/113-29-53.00W Grnd: 663.0m
+
+  Link 0 to VAM878, band 18B:-
+    Ground distance: 6.3264, azimuth: 207.3912, back-azimuth: 27.3560
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000  207.3912     0.0240     6.3271
+  1   12  120.000  207.3912     0.2956     6.3273
+  2   13   50.000  207.3912     0.6126     6.3275
+  3   14  150.000  207.3912    -0.2930     6.3272
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 17920000.000  19480000.000    23.000   -41.957   9.000   9.000 
+ 1( 1) 1002 17880000.000  19440000.000    21.000   -34.333   3.000   3.000 
+ 2( 2) 1003 18000000.000  19560000.000    21.000   -34.410   3.000   3.000 
+
+-------------------------------------------------------------
+2) Site VAM878:-
+
+DOUGLAS Oper: RCTL 
+L/L: 53-29-24.28N/113-32-30.86W Grnd: 668.0m
+
+  Link 0 to CGJ846, band 18B:-
+    Ground distance: 6.3264, azimuth: 27.3560, back-azimuth: 207.3912
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000   27.3560     0.2503     6.3272
+  1   12   26.000   27.3560     1.0562     6.3282
+  2   13   20.000   27.3560     0.8389     6.3278
+  3   14  150.000   27.3560    -0.3383     6.3273
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 19480000.000  17920000.000    23.000   -41.006  10.900  10.900 
+ 1( 1) 1002 19440000.000  17880000.000    21.000   -33.383   3.000   3.000 
+ 2( 2) 1003 19560000.000  18000000.000    21.000   -33.453   3.000   3.000 
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      8
+Channels Read:      6
+
+0 Errors were found
+0 Warnings were issued.
+
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0] Process Id: 4168
+
+PDF Name: testelevangled
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: CGJ846 VAM878 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: CGJ846 VAM878 18B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1002
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 4 warnings.
+The PDF 'testelevangled' is validated for :UPDATE:
+
+PDF Validation Completed - 16:05
+* TS-PDF: testelevangled, By ftPrint (160428-1416/64-D) at 2016.06.01 16:05:22
+*
+TT,U,TESTELEVANGLED,,,,
+*##############################################################################
+SK,N,U,CGJ846,EDMONTON,53-32-26.00N,113-29-53.00W,663.0,2012.08.07,09:09
+SD,AB,RCTL,5,W0012,223-2859439,E, ,1, ,1200,1992.01.22,FT
+*====  DOUGLAS  ========= Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,N,U,CGJ846,VAM878,18B,11,2012.07.10,15:33
+AQ,TR,HP4-180E,115.0,207.39,0.02,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,N,U,CGJ846,VAM878,18B,12,2012.07.10,15:33
+AQ,TR,VHPX2.5-180,116.0,207.39,-0.79,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX2.5-180,50.0,207.39,0.61,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX2.5-180,110.0,207.39,0.07,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.07, Rx=85.79
+CK,U,U,CGJ846,VAM878,18B,1001,2010.02.12,12:12
+CT, , , ,17920000.00,H,11,9.0, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,19480000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,9.0,-42.0,9.0,-45.9,9.0,-45.9, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.05, Rx=85.77
+CK,U,U,CGJ846,VAM878,18B,1002,2010.02.12,12:12
+CT, , , ,17880000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19440000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.3,3.0,-34.3,3.0,-34.3, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.11, Rx=85.83
+CK,N,U,CGJ846,VAM878,18B,1003,2012.07.10,15:33
+CT, , , ,18000000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19560000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,VAM878,DOUGLAS,53-29-24.28N,113-32-30.86W,668.0,2012.05.24,19:04
+SD,AB,RCTL,5,W0246,223-3605307, , ,1, ,0000,1992.09.16,FT
+*====  EDMONTON  ======== Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,N,U,VAM878,CGJ846,18B,11,2012.07.10,15:33
+AQ,TR,HP4-180E,115.0,27.36,-0.07,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,N,U,VAM878,CGJ846,18B,12,2012.07.10,15:33
+AQ,TR,VHPX4-180A,26.0,27.36,0.75,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX4-180A,20.0,27.36,0.80,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX4-180A,80.0,27.36,0.26,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.79, Rx=85.07
+CK,U,U,VAM878,CGJ846,18B,1001,2010.02.12,12:12
+CT, , , ,19480000.00,H,11,10.9, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,17920000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,10.9,-41.0,9.0,-39.5,9.0,-39.5, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.77, Rx=85.05
+CK,U,U,VAM878,CGJ846,18B,1002,2010.02.12,12:12
+CT, , , ,19440000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,17880000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.4,3.0,-33.4,3.0,-33.4, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.83, Rx=85.11
+CK,N,U,VAM878,CGJ846,18B,1003,2012.07.10,15:33
+CT, , , ,19560000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,18000000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.5, , , , , ,
+CO, , , , , , , ,
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0]
+
+Checking file: testelevangled
+-------------------------------------------------------------
+1) Site CGJ846:-
+
+EDMONTON Oper: RCTL 
+L/L: 53-32-26.00N/113-29-53.00W Grnd: 663.0m
+
+  Link 0 to VAM878, band 18B:-
+    Ground distance: 6.3264, azimuth: 207.3912, back-azimuth: 27.3560
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000  207.3912     0.0240     6.3271
+  1   12  116.000  207.3912    -0.3021     6.3272
+    *ERROR* Calculated elevation angle differs by more than 0.01 degree from stored: -0.7910
+  2   13   50.000  207.3912     0.6126     6.3275
+  3   14  110.000  207.3912     0.0692     6.3272
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 17920000.000  19480000.000    23.000   -41.957   9.000   9.000 
+ 1( 1) 1002 17880000.000  19440000.000    21.000   -34.332   3.000   3.000 
+ 2( 2) 1003 18000000.000  19560000.000    21.000   -34.409   3.000   3.000 
+
+-------------------------------------------------------------
+2) Site VAM878:-
+
+DOUGLAS Oper: RCTL 
+L/L: 53-29-24.28N/113-32-30.86W Grnd: 668.0m
+
+  Link 0 to CGJ846, band 18B:-
+    Ground distance: 6.3264, azimuth: 27.3560, back-azimuth: 207.3912
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000   27.3560    -0.0666     6.3271
+  1   12   26.000   27.3560     0.7484     6.3277
+  2   13   20.000   27.3560     0.8027     6.3278
+  3   14   80.000   27.3560     0.2594     6.3272
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 19480000.000  17920000.000    23.000   -41.006  10.900  10.900 
+ 1( 1) 1002 19440000.000  17880000.000    21.000   -33.383   3.000   3.000 
+ 2( 2) 1003 19560000.000  18000000.000    21.000   -33.454   3.000   3.000 
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      8
+Channels Read:      6
+
+1 Errors were found
+0 Warnings were issued.
+
+ftValidate.exe: Build Configuration: DEBUG
+
+PDF VALIDATION REPORT - Build 160524-1059/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0] Process Id: 7276
+
+PDF Name: testelevangled2
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+CGJ846 VAM878 18B 11
+This Antenna record has been modified since you retrieved it.
+
+CGJ846 VAM878 18B 12
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 11
+This Antenna record has been modified since you retrieved it.
+
+VAM878 CGJ846 18B 12
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: CGJ846 VAM878 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: CGJ846 VAM878 18B 1002
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1001
+This Channel record has been modified since you retrieved it.
+
+Channel: VAM878 CGJ846 18B 1002
+This Channel record has been modified since you retrieved it.
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 4 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+No HiLoCheck will be done.
+
+
+
+There were a total of 0 errors and 8 warnings.
+The PDF 'testelevangled2' is validated for :UPDATE:
+
+PDF Validation Completed - 16:05
+* TS-PDF: testelevangled2, By ftPrint (160428-1416/64-D) at 2016.06.01 16:05:25
+*
+TT,U,TESTELEVANGLED,,,,
+*##############################################################################
+SK,N,U,CGJ846,EDMONTON,53-32-26.00N,113-29-53.00W,663.0,2012.08.07,09:09
+SD,AB,RCTL,5,W0012,223-2859439,E, ,1, ,1200,1992.01.22,FT
+*====  DOUGLAS  ========= Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,CGJ846,VAM878,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,207.39,0.02,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,CGJ846,VAM878,18B,12,2010.02.12,12:12
+AQ,TR,VHPX2.5-180,116.0,207.39,-0.30,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX2.5-180,50.0,207.39,0.61,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  DOUGLAS  ========= Ant Gain = 41.0, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,CGJ846,VAM878,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX2.5-180,110.0,207.39,0.07,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.07, Rx=85.79
+CK,U,U,CGJ846,VAM878,18B,1001,2010.02.12,12:12
+CT, , , ,17920000.00,H,11,9.0, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,19480000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,9.0,-42.0,9.0,-45.9,9.0,-45.9, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.05, Rx=85.77
+CK,U,U,CGJ846,VAM878,18B,1002,2010.02.12,12:12
+CT, , , ,17880000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19440000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.3,3.0,-34.3,3.0,-34.3, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.11, Rx=85.83
+CK,N,U,CGJ846,VAM878,18B,1003,2012.07.10,15:33
+CT, , , ,18000000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,19560000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-34.4, , , , , ,
+CO, , , , , , , ,
+*##############################################################################
+SK,N,U,VAM878,DOUGLAS,53-29-24.28N,113-32-30.86W,668.0,2012.05.24,19:04
+SD,AB,RCTL,5,W0246,223-3605307, , ,1, ,0000,1992.09.16,FT
+*====  EDMONTON  ======== Ant Gain = 44.9, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,VAM878,CGJ846,18B,11,2010.02.12,12:12
+AQ,TR,HP4-180E,115.0,27.36,-0.07,6.33,N, , , , , ,1,1992.01.22
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,U,U,VAM878,CGJ846,18B,12,2010.02.12,12:12
+AQ,TR,VHPX4-180A,26.0,27.36,0.75,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,13,2010.02.12,12:12
+AQ,DV1,VHPX4-180A,20.0,27.36,0.80,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*----  EDMONTON  ======== Ant Gain = 44.5, Dist Loss = 48.47, At. Loss = 0.46
+AK,A,U,VAM878,CGJ846,18B,14,2010.02.12,12:12
+AQ,DV2,VHPX4-180A,80.0,27.36,0.26,6.33,N, , , , , , ,
+AO, , , , , , , , , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.79, Rx=85.07
+CK,U,U,VAM878,CGJ846,18B,1001,2010.02.12,12:12
+CT, , , ,19480000.00,H,11,10.9, , ,DVM1845, ,23.0,0.0,D18G45, ,5,F
+CR,17920000.00,H,11,13,14,DVM1845, ,D18G45, ,5,F
+CQ,10.9,-41.0,9.0,-39.5,9.0,-39.5, ,
+CO, , , , , , , ,1992.01.22
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.77, Rx=85.05
+CK,U,U,VAM878,CGJ846,18B,1002,2010.02.12,12:12
+CT, , , ,19440000.00,H,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,17880000.00,H,12,13,14,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.4,3.0,-33.4,3.0,-33.4, ,
+CO, , , , , , , ,
+*+++++++++++++++++++++++++++++++++++++++++++++ Freq Loss: Tx=85.83, Rx=85.11
+CK,N,U,VAM878,CGJ846,18B,1003,2012.07.10,15:33
+CT, , , ,19560000.00,V,12,3.0, , ,TP5118OC, ,21.0, ,DOC318,OC3,5,L
+CR,18000000.00,V,12, , ,TP5118OC, ,DOC318,OC3,5,L
+CQ,3.0,-33.5, , , , , ,
+CO, , , , , , , ,
+
+PDF POST VALIDATION REPORT - Build 160526-1434/64-D
+RUN DATE: 2016.06.01  16:05
+Project Code [FMDA0]
+
+Checking file: testelevangled2
+-------------------------------------------------------------
+1) Site CGJ846:-
+
+EDMONTON Oper: RCTL 
+L/L: 53-32-26.00N/113-29-53.00W Grnd: 663.0m
+
+  Link 0 to VAM878, band 18B:-
+    Ground distance: 6.3264, azimuth: 207.3912, back-azimuth: 27.3560
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000  207.3912     0.0240     6.3271
+  1   12  116.000  207.3912    -0.3021     6.3272
+  2   13   50.000  207.3912     0.6126     6.3275
+  3   14  110.000  207.3912     0.0692     6.3272
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 17920000.000  19480000.000    23.000   -41.957   9.000   9.000 
+ 1( 1) 1002 17880000.000  19440000.000    21.000   -34.332   3.000   3.000 
+ 2( 2) 1003 18000000.000  19560000.000    21.000   -34.409   3.000   3.000 
+
+-------------------------------------------------------------
+2) Site VAM878:-
+
+DOUGLAS Oper: RCTL 
+L/L: 53-29-24.28N/113-32-30.86W Grnd: 668.0m
+
+  Link 0 to CGJ846, band 18B:-
+    Ground distance: 6.3264, azimuth: 27.3560, back-azimuth: 207.3912
+Ant  Anum  Height   Azimuth  Elevation   Distance
+                                 Angle
+  0   11  115.000   27.3560    -0.0666     6.3271
+  1   12   26.000   27.3560     0.7484     6.3277
+  2   13   20.000   27.3560     0.8027     6.3278
+  3   14   80.000   27.3560     0.2594     6.3272
+  Chan Chid Tx Frequency  Rx Frequency  Tx Power  Rx Power  Tx Fsl  Rx Fsl
+ 0( 0) 1001 19480000.000  17920000.000    23.000   -41.006  10.900  10.900 
+ 1( 1) 1002 19440000.000  17880000.000    21.000   -33.383   3.000   3.000 
+ 2( 2) 1003 19560000.000  18000000.000    21.000   -33.454   3.000   3.000 
+
+---------------------------------------------------------------
+Sites Read...:      2
+Antennas Read:      8
+Channels Read:      6
+
+0 Errors were found
+0 Warnings were issued.
+

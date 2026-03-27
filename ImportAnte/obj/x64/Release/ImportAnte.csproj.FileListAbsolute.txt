@@ -1,0 +1,6 @@
+D:\Users\ahulme\MICS#\_bin\Release\ImportAnte.exe.config
+D:\Users\ahulme\MICS#\_bin\Release\ImportAnte.exe
+D:\Users\ahulme\MICS#\_bin\Release\ImportAnte.pdb
+D:\Users\ahulme\MICS#\ImportAnte\obj\x64\Release\ImportAnte.exe
+D:\Users\ahulme\MICS#\ImportAnte\obj\x64\Release\ImportAnte.pdb
+D:\Users\ahulme\MICS#\ImportAnte\obj\x64\Release\ImportAnte.csprojResolveAssemblyReference.cache

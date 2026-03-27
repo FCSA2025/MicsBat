@@ -1,0 +1,95 @@
+
+sdUpdatePlan Build 160721-1353/64-R
+		SDB UPDATE REPORT Build 160721-1353/64-R		Date: 2019.06.17 19:38
+
+SDF Name: test_add
+SDF Type: Plan
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 6/17/2019 7:38:06 PM
+
+
+Plan SDF: test_add
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Plan SDF test_add is valid
+
+SDF Validation completed - 6/17/2019 7:38:06 PM
+
+		SDF UPDATE RESULTS
+
+Subsidiary Plan Update
+
+PLAN RECORD ADD: :XXX:101: 
+
+  PLAN ARRAY RECORD ADD: :XXX/101 (1):
+
+  PLAN ARRAY RECORD ADD: :XXX/101 (2):
+::	- Warning no inflection points for the current record
+Error on field: execute
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_plan', database 'fcsa', schema 'main'.
+
+PLAN RECORD ADD: :XXX:102: 
+
+  PLAN ARRAY RECORD ADD: :XXX/102 (1):
+
+  PLAN ARRAY RECORD ADD: :XXX/102 (2):
+::	- Warning no inflection points for the current record
+Error on field: execute
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_plan', database 'fcsa', schema 'main'.
+
+PLAN RECORD ADD: :YYY:201: 
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (1):
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (2):
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (3):
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (4):
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (5):
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (6):
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (7):
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (8):
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (9):
+
+  PLAN ARRAY RECORD ADD: :YYY/201 (10):
+::	- Warning no inflection points for the current record
+Error on field: execute
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'sd_plan', database 'fcsa', schema 'main'.
+
+SDB UPDATE SUMMARY: 3 errors and 3 warnings
+
+
+
+
+	************ Summary Information for SDB Plan Update ****
+	***** SDF Name: test_add         User Name: hulme1     *****
+	************            Master Records          ************
+
+	 Records Processed: 3
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************            Detail Records          ************
+
+	 Records Processed: 14
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0
+
+	************     End of Summary Information     ************

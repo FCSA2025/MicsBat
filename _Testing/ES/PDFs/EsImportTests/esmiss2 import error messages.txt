@@ -1,0 +1,15 @@
+esmiss2
+
+errors are in popups
+
+1) The following location(s) occur in your antenna records, but there is no corresponding site
+in your file.
+LOCAX
+
+After clicking ok another popup is displayed
+
+This contains a variation of the above message for azimuth records
+
+After clicking ok another popup is displayed
+
+This contains a variation of the above message for channel records

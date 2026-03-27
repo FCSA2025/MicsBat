@@ -1,0 +1,59 @@
+		SDB TOWER NOTES UPDATE REPORT Build 160705-2101/64-R		Date: 2019.07.08 13:36
+
+SDF Name: test_noop
+
+		TOWER NOTES SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 7/8/2019 1:36:08 PM
+
+
+Tower Note SDF: test_noop
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Tower note SDF test_noop is valid
+
+SDF Validation completed - 7/8/2019 1:36:08 PM
+
+		SDF TOWER NOTES UPDATE RESULTS
+
+TOWER NOTES RECORD NO ACTION: :%CF01/1: 
+
+TOWER NOTES RECORD NO ACTION: :%CF02/1: 
+
+TOWER NOTES RECORD NO ACTION: :%HYQU04/1: 
+
+TOWER NOTES RECORD NO ACTION: :%HYQU05/1: 
+
+TOWER NOTES RECORD NO ACTION: :%HYQU06/1: 
+
+TOWER NOTES RECORD NO ACTION: :%HYQU07/1: 
+
+TOWER NOTES RECORD NO ACTION: :%HYQU10/1: 
+
+TOWER NOTES RECORD NO ACTION: :%HYQU11/1: 
+
+SDB UPDATE SUMMARY: 0 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_noop        User Name: hulme1     *****
+
+
+	 Records Processed: 8
+	     Records Added: 0
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 8insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'town', 'test_noop', '2019.07.08', '13:36') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\town\test_noop.20190708_1336) of changes to the database
+
+
+	************     End of Summary Information     ************

@@ -1,0 +1,70 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.14  16:03
+Project Code [HULME1_0] Process Id: 18476
+
+PDF Name: tstest6a
+
+
+
+
+                        TS SITE RECORDS
+
+SUMMARY OF SITE RECORDS:  0 errors and 0 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 0 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =TLUSAB1A (SNUFF MTN/TLUSAB) in proposed file ...
+Checking proposed file Site =TLUSAB1A band 6A.
+  Band 6A OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =TLUSAB2A (VALLEYVIEW/TLUSAB) in proposed file ...
+Checking proposed file Site =TLUSAB2A band 6A.
+  Band 6A OK, checking adjacent bands.
+  Adjacent Band 5A OK.
+  Adjacent Band 6B OK.
+  Adjacent Band 6C OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'tstest6a' is validated for :UPDATE:
+
+PDF Validation Completed - 16:03

@@ -1,0 +1,359 @@
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking =CGUARD1A (TURN POINT LH/CGUARD) in proposed file ...
+Checking proposed file Site =CGUARD1A band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+
+There were 0 nearby sites checked in the database.
+Checking proposed file Site =CGUARD1A band 8A.
+  Band 8A OK, checking adjacent bands.
+  Adjacent Band 7B OK.
+  Adjacent Band 8B OK.
+
+There were 0 nearby sites checked in the database.
+Checking proposed file Site =CGUARD1A band 8B.
+  Band 8B OK, checking adjacent bands.
+  Adjacent Band 8A OK.
+
+There were 0 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =CGUARD1B (MT. NEWTON/CGUARD) in proposed file ...
+Checking proposed file Site =CGUARD1B band 7B.
+=CGUARD1B to =CGUARD1C band 7B chid 01 is first TX HiLo violation.
+  Band 7B HiLo failure, not checking adjacent bands.
+    WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+  There were violations in the site.  Adjacent sites will not be checked.
+Checking proposed file Site =CGUARD1B band 8A.
+=CGUARD1B to =CGUARD1C band 8A chid 01 is first RX HiLo violation.
+  Band 8A HiLo failure, not checking adjacent bands.
+  There were violations in the site.  Adjacent sites will not be checked.
+Checking proposed file Site =CGUARD1B band 8B.
+  Band 8B OK, checking adjacent bands.
+  HiLo Failure in Band 8A
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CFL618 (SAANICH BC MT NEWTON (CCG2)/TC4) 
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: VAS3L (SAANICH BC MT NEWTON (CCG2)/TC6) 
+	Band 8A
+	VAS3L to USGHOST-B band 8A chid B999 is first TX HiLo violation.
+	VAS3L to USGHOST-B band 8A chid B999 is first RX HiLo violation.
+	VAS3L has both tx and rx violations.  Stopping scanning band 8A.
+	Violation for Band 8A
+	Band 8B
+	Band 8B OK
+        Site Has HiLo violation(s).
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking =CGUARD1C (MT. CONSTITUTION/CGUARD) in proposed file ...
+Checking proposed file Site =CGUARD1C band 7B.
+  Band 7B OK, checking adjacent bands.
+  Adjacent Band 6B OK.
+  Adjacent Band 6D OK.
+  Adjacent Band 6E OK.
+  Adjacent Band 7A OK.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: KOW9202 (MOUNT CONSTITUTION/V94091) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: WLK85002 (MT CONSTITU/A02167) 
+	Band 6B
+	WLK85002 to WLK85001 band 6B chid AOYO is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+	Database Site: WLW23801 (WA1MTCONSTN/A01536) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: WLW23902 (WA1MTCONSTN/C70093) 
+	Band 6B
+	WLW23902 to WLW23901 band 6B chid AOYN is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+	Database Site: WLW23904 (WA1MTCONSTN/A00722) 
+	Band 6B
+	WLW23904 to WLW23901 band 6B chid AOYQ is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+	Database Site: WNEQ51902 (ORCAS ISLE/O85668) 
+	Band 6B
+	Band 6B OK
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site OK
+
+	Database Site: WNEQ52001 (ORCAS ISLE/O85668) 
+	Band 6B
+	WNEQ52001 to WNEQ52003 band 6B chid AOYO is first TX HiLo violation.
+	Violation for Band 6B
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+	Database Site: WNEQ52102 (ORCAS ISLE/O85668) 
+	Band 6B
+	WNEQ52102 to WNEQ52101 band 6B chid AOYN is first RX HiLo violation.
+	Violation for Band 6B
+	Band 6D
+	Band 6D OK
+	Band 6E
+	Band 6E OK
+	Band 7A
+	Band 7A OK
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+        Site Has HiLo violation(s).
+          WARNING: the program could report erroneous HiLo violations for one-way channels in the 7B band.
+
+There were 8 nearby sites checked in the database.
+Checking proposed file Site =CGUARD1C band 8A.
+  Band 8A OK, checking adjacent bands.
+  Adjacent Band 7B OK.
+  Adjacent Band 8B OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: KOW9202 (MOUNT CONSTITUTION/V94091) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WLK85002 (MT CONSTITU/A02167) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WLW23801 (WA1MTCONSTN/A01536) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WLW23902 (WA1MTCONSTN/C70093) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WLW23904 (WA1MTCONSTN/A00722) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WNEQ51902 (ORCAS ISLE/O85668) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WNEQ52001 (ORCAS ISLE/O85668) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WNEQ52102 (ORCAS ISLE/O85668) 
+	Band 7B
+	Band 7B OK
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+There were 8 nearby sites checked in the database.
+Checking proposed file Site =CGUARD1C band 8B.
+  Band 8B OK, checking adjacent bands.
+  Adjacent Band 8A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: KOW9202 (MOUNT CONSTITUTION/V94091) 
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WLK85002 (MT CONSTITU/A02167) 
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WLW23801 (WA1MTCONSTN/A01536) 
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WLW23902 (WA1MTCONSTN/C70093) 
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WLW23904 (WA1MTCONSTN/A00722) 
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WNEQ51902 (ORCAS ISLE/O85668) 
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WNEQ52001 (ORCAS ISLE/O85668) 
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+	Database Site: WNEQ52102 (ORCAS ISLE/O85668) 
+	Band 8A
+	Band 8A OK
+	Band 8B
+	Band 8B OK
+        Site OK
+
+There were 8 nearby sites checked in the database.
+
+---------------------------
+
+3 Site(s) checked.
+There were 9 hilo violations.
+
+
+
+There were a total of 0 errors and 0 warnings.
+The PDF 'testhilo' is validated for :UPDATE:
+
+PDF Validation Completed - 21:37

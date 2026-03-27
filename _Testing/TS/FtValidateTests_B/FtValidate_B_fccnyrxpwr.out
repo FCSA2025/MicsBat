@@ -1,0 +1,155 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200909-2133/64-R
+RUN DATE: 2020.09.09  21:38
+Project Code [hulme1_0] Process Id: 8888
+
+PDF Name: fccnyrxpwr
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KEY: KMK4201
+
+This Site record has been modified since you retrieved it.
+
+Site Call: KMK4201
+Lat & Long for site is the same as for existing site:- 
+	KMI5802 3372 A73995
+Check to ensure coordinates are correct.
+
+KEY: KMK4202
+
+This Site record has been modified since you retrieved it.
+
+Site Call: KMK4202
+Lat & Long for site is the same as for existing site:- 
+	KMI5801 STATION A73995
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 4 warnings
+
+
+                         TS ANTENNA RECORDS
+
+                ----------- WARNINGS -----------
+
+
+KMK4201 KMK4202 22A 1
+This Antenna record has been modified since you retrieved it.
+
+KMK4201 KMK4202 22A 2
+This Antenna record has been modified since you retrieved it.
+
+KMK4202 KMK4201 22A 1
+This Antenna record has been modified since you retrieved it.
+
+KMK4202 KMK4201 22A 2
+This Antenna record has been modified since you retrieved it.
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 4 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Channel: KMK4201 KMK4202 22A AOYN
+This Channel record has been modified since you retrieved it.
+
+Channel: KMK4201 KMK4202 22A AOYO
+This Channel record has been modified since you retrieved it.
+
+Channel: KMK4202 KMK4201 22A AOYN
+This Channel record has been modified since you retrieved it.
+
+Channel: KMK4202 KMK4201 22A AOYO
+This Channel record has been modified since you retrieved it.
+Afslrx1 is 0
+
+
+SUMMARY OF CHANNEL RECORDS:  0 errors and 5 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking KMK4201 (STATION/A73995) in proposed file ...
+Checking proposed file Site KMK4201 band 22A.
+  Band 22A OK, checking adjacent bands.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: KMI5802 (3372/A73995) 
+	Band 22A
+	Band 22A OK
+        Site OK
+
+	Database Site: KMK4201 (STATION/A73995) 
+	Band 22A
+	Band 22A OK
+        Site OK
+
+	Database Site: WNEE39501 (STATION/A73995) 
+	Band 22A
+	Band 22A OK
+        Site OK
+
+	Database Site: WNEE39602 (1552/A73995) 
+	Band 22A
+	Band 22A OK
+        Site OK
+
+	Database Site: WQTW50501 (LANLINE/S30631) 
+	Band 22A
+	Band 22A OK
+        Site OK
+
+	Database Site: WQTW50602 (LANLINE/S30631) 
+	Band 22A
+	Band 22A OK
+        Site OK
+
+There were 6 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking KMK4202 (1572/A73995) in proposed file ...
+Checking proposed file Site KMK4202 band 22A.
+  Band 22A OK, checking adjacent bands.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: KMI5801 (STATION/A73995) 
+	Band 22A
+	Band 22A OK
+        Site OK
+
+	Database Site: KMK4202 (1572/A73995) 
+	Band 22A
+	Band 22A OK
+        Site OK
+
+There were 2 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 0 errors and 13 warnings.
+The PDF 'fccnyrxpwr' is validated for :UPDATE:
+
+PDF Validation Completed - 21:38

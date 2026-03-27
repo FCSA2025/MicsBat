@@ -1,0 +1,6 @@
+* TS-PDF: tsImportTestSKextraField, By ftPrint (070829-1705) at 2009.09.21 12:36:20 EDT
+*
+TT,N,DBLEADD, ,NAD83, ,
+*##############################################################################
+SK,A,U,CGF981A,GREENVILLE RADIO,55-01-48.25N,129-34-43.49W,25.0, ,,
+SD,BC,TLUSBC,5,T234,116-0948890,4, ,1,D116,0000,13-may-1985,FT

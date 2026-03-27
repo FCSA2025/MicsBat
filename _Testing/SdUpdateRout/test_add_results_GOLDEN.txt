@@ -1,0 +1,111 @@
+		SDB OPERATOR UPDATE REPORT Build 160720-1645/64-R		Date: 2019.06.24 09:50
+
+SDF Name: test_add
+SDF Type: Route
+
+
+		SDF VALIDATION RESULTS
+
+		SDF VALIDATION REPORT 6/24/2019 9:50:56 AM
+
+
+Route SDF: test_add
+
+
+
+There were a total of 0 errors and 0 warnings
+
+
+The Route SDF test_add is valid
+
+SDF Validation completed - 6/24/2019 9:50:56 AM
+
+		SDF ROUTE UPDATE RESULTS
+
+ROUTE RECORD ADD: :ALPHA/700: 
+
+ROUTE RECORD ADD: :ALPHA/701: 
+
+ROUTE RECORD ADD: :ALPHA/750: 
+
+ROUTE RECORD ADD: :ALPHA/800: 
+
+ROUTE RECORD ADD: :ALPHA/801: 
+
+ROUTE RECORD ADD: :ALPHA/802: 
+
+ROUTE RECORD ADD: :ALPHA/803: 
+
+ROUTE RECORD ADD: :ALPHA/804: 
+
+ROUTE RECORD ADD: :ALPHA/805: 
+
+ROUTE RECORD ADD: :ALPHA/806: 
+
+ROUTE RECORD ADD: :ALPHA/807: 
+
+ROUTE RECORD ADD: :ALPHA/900: 
+
+ROUTE RECORD ADD: :ALPHA/901: 
+
+ROUTE RECORD ADD: :ALPHA/902: 
+
+ROUTE RECORD ADD: :ALPHA/903: 
+
+ROUTE RECORD ADD: :BETA/240: 
+
+ROUTE RECORD ADD: :DELTA/290: 
+
+ROUTE RECORD ADD: :DELTA/291: 
+
+ROUTE RECORD ADD: :DELTA/440: 
+
+ROUTE RECORD ADD: :DELTA/441: 
+
+ROUTE RECORD ADD: :DELTA/442: 
+
+ROUTE RECORD ADD: :DELTA/443: 
+
+ROUTE RECORD ADD: :DELTA/444: 
+
+ROUTE RECORD ADD: :DELTA/593: 
+
+ROUTE RECORD ADD: :DELTA/690: 
+
+ROUTE RECORD ADD: :EPSILO/256: 
+
+ROUTE RECORD ADD: :EPSILO/290: 
+
+ROUTE RECORD ADD: :EPSILO/291: 
+
+ROUTE RECORD ADD: :EPSILO/440: 
+
+ROUTE RECORD ADD: :EPSILO/441: 
+
+ROUTE RECORD ADD: :GAMMA/444: 
+
+ROUTE RECORD ADD: :ZETA/593: 
+
+ROUTE RECORD ADD: :ZETA/690: 
+
+SDB UPDATE SUMMARY: 33 errors and 0 warnings
+
+
+
+
+	************ Summary Information for SDB Update ************
+	***** SDF Name: test_add         User Name: hulme1     *****
+
+
+	 Records Processed: 33
+	     Records Added: 33
+	   Records Updated: 0
+	   Records Deleted: 0
+	 Records No Action: 0insert into adm.audit_trail (ultrixid, micsid, tabletype, file_name, mdate, mtime) values ('hulme', 'hulme1', 'rout', 'test_add', '2019.06.24', '09:50') 
+atRecordChng: Error inserting into audit trail:
+(42000) [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT permission was denied on the object 'audit_trail', database 'fcsa', schema 'adm'.
+
+Audit Trail - Record has been made (D:\prod\files\audit\rout\test_add.20190624_0950) of changes to the database
+
+
+	************     End of Summary Information     ************

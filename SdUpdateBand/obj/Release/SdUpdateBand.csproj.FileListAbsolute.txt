@@ -1,0 +1,13 @@
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\SdUpdateBand.exe.config
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\SdUpdateBand.exe
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\SdUpdateBand.pdb
+D:\Users\ahulme\MICS#\SdUpdateBand\obj\Release\SdUpdateBand.exe
+D:\Users\ahulme\MICS#\SdUpdateBand\obj\Release\SdUpdateBand.pdb
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\_Configuration.dll
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\_DataStructures.dll
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\_NewLib.dll
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\_Utillib.dll
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\_Configuration.pdb
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\_DataStructures.pdb
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\_NewLib.pdb
+D:\Users\ahulme\MICS#\SdUpdateBand\bin\Release\_Utillib.pdb

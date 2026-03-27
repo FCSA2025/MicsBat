@@ -1,0 +1,9 @@
+FtValidate.exe: Build Configuration: RELEASE
+
+PDF VALIDATION REPORT - Build C#, .NET 4.5.2, 200914-1558/64-R
+RUN DATE: 2020.09.14  16:07
+Project Code [hulme1_0] Process Id: 13132
+
+PDF Name: ftest1
+
+ERROR - pdf 'ftest1' does not exist

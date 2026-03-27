@@ -1,0 +1,7 @@
+D:\Users\ahulme\MICS#\_bin\Release\_Auxlib.dll
+D:\Users\ahulme\MICS#\_bin\Release\_Auxlib.pdb
+D:\Users\ahulme\MICS#\Auxlib\obj\x64\Debug\_Auxlib.dll
+D:\Users\ahulme\MICS#\Auxlib\obj\x64\Debug\_Auxlib.pdb
+D:\Users\ahulme\MICS#\_bin\Debug\_Auxlib.dll
+D:\Users\ahulme\MICS#\_bin\Debug\_Auxlib.pdb
+D:\Users\ahulme\MICS#\Auxlib\obj\x64\Debug\Auxlib.csprojResolveAssemblyReference.cache

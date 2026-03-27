@@ -1,0 +1,4 @@
+D:\Users\ahulme\MICS\_bin\Release\auxlib.dll
+D:\Users\ahulme\MICS\_bin\Release\auxlib.pdb
+D:\Users\ahulme\MICS\auxlib\obj\Release\auxlib.dll
+D:\Users\ahulme\MICS\auxlib\obj\Release\auxlib.pdb

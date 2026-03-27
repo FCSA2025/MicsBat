@@ -1,0 +1,136 @@
+
+PDF VALIDATION REPORT - Build 200904-1634/64-R
+RUN DATE: 2020.09.09  21:39
+Project Code [HULME1_0] Process Id: 21808
+
+PDF Name: ftest27b
+
+
+
+
+                        TS SITE RECORDS
+
+                ----------- WARNINGS -----------
+
+
+Site Call: CHL426X
+Lat & Long for site is the same as for existing site:- 
+	CHL426 FORESTBURG AB (ALNC01) COCOM
+Check to ensure coordinates are correct.
+
+Site Call: CHL427X
+Lat & Long for site is the same as for existing site:- 
+	CHL427 FORESTBURG AB (FSBG01) COCOM
+Check to ensure coordinates are correct.
+
+SUMMARY OF SITE RECORDS:  0 errors and 2 warnings
+
+
+                         TS ANTENNA RECORDS
+
+SUMMARY OF ANTENNA RECORDS:  0 errors and 0 warnings
+
+
+                         TS CHANNEL RECORDS
+
+                *********** ERRORS ***********
+
+
+Channel: CHL426X CHL427X 18A 9998
+AFSLTX1 must be present.
+
+Channel: CHL427X CHL426X 18A 7502
+AFSLRX1 must be present.
+
+Channel: CHL427X CHL426X 18A 7503
+AFSLTX1 must be present.
+AFSLRX1 must be present.
+Must add Both sides of Channel at the same time.
+
+Channel: CHL427X CHL426X 18A 9998
+RX Equipment not present.
+
+RX Traffic not present.
+
+                ----------- WARNINGS -----------
+
+
+Channel: CHL426X CHL427X 18A 7502
+Afsltx1 is 0
+
+Channel: CHL426X CHL427X 18A 9998
+Local transmit (D7520) and Remote receive () traffic codes do not agree.
+Local transmit (X) and Remote receive () fee codes do not agree.
+Afslrx1 is 0
+
+Channel: CHL427X CHL426X 18A 7502
+Local transmit () and Remote receive (D7550) traffic codes do not agree.
+Local transmit () and Remote receive (X) fee codes do not agree.
+
+
+SUMMARY OF CHANNEL RECORDS:  7 errors and 6 warnings.
+
+
+                         TS CHANGE OF CALL SIGN RECORDS
+
+SUMMARY OF CHANGE OF CALL SIGN RECORDS:  0 errors and 0 warnings.
+
+
+HiLoCheck for distance: 0.22Km (7 Seconds)
+
+
+Checking CHL426X (FORESTBURG  AB  (ALNC01)/COCOM) in proposed file ...
+Checking proposed file Site CHL426X band 18A.
+  Band 18A OK, checking adjacent bands.
+  Adjacent Band 18B OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHL426 (FORESTBURG AB (ALNC01)/COCOM) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+
+Checking CHL427X (FORESTBURG  AB./COCOM) in proposed file ...
+Checking proposed file Site CHL427X band 18A.
+  Band 18A OK, checking adjacent bands.
+  Adjacent Band 18B OK.
+  Adjacent Band 18C OK.
+  Adjacent Band 19A OK.
+  Checking database nearby for this band and adjacent bands ...
+
+	Database Site: CHL427 (FORESTBURG AB (FSBG01)/COCOM) 
+	Band 18A
+	Band 18A OK
+	Band 18B
+	Band 18B OK
+	Band 18C
+	Band 18C OK
+	Band 19A
+	Band 19A OK
+        Site OK
+
+There were 1 nearby sites checked in the database.
+
+---------------------------
+
+2 Site(s) checked.
+There were 0 hilo violations.
+
+
+
+There were a total of 7 errors and 8 warnings.
+The PDF 'ftest27b' is invalid
+PDF Validation Completed - 21:39
