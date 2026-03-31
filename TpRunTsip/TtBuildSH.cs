@@ -311,12 +311,13 @@ namespace TpRunTsip
                                             string startDate,
                                             string startTime)
         {
-            Console.Write("\nTtBuildSH.TtBuildSHTable(): Entry");
+            Console.Write("\nTtBuildSH.TtBuildSHTable()a: Entry\n");
 
             int rc;
             string ttParmName;  /* TSIP parm table name */
 
             /* create empty SH TABLES */
+            Console.Write("Before TtCreateTsipTables" + tsipName + "\n");
             rc = TtCreateTsipTables(tsipName);
 
             if (rc != Constant.SUCCESS)
@@ -379,20 +380,25 @@ namespace TpRunTsip
         /// <returns></returns>
         public static int TtCreateTsipTables(string tsipName)
         {
+            Console.WriteLine("in TtCreateTsipTables for " + tsipName);
             int rc;     /* return code from drop or create */
 
             /* create TSIP SH TABLE */
             if (Ssutil.UtTableExist(Constant.TT, tsipName))
             {
+                Console.WriteLine("UtTableExist for " + Constant.TT + ":" +  tsipName);
                 if ((rc = Ssutil.UtDropTable(Constant.TT, tsipName)) != Constant.SUCCESS)
                 {
-                    Log2.e("\nTtBuildSH.TtCreateTsipTables(): ERROR: call to Ssutil.UtDropTable() failed, rc = " + rc);
-                    return (rc);
+                    //Console.WriteLine("UtDropTable failed for " + tsipName);
+                    //Log2.e("\nTtBuildSH.TtCreateTsipTables(): ERROR: call to Ssutil.UtDropTable() failed, rc = " + rc);
+                    //return (rc);
                 }
             }
 
             if ((rc = Ssutil.UtCreateTable(Constant.TT, tsipName)) != Constant.SUCCESS)
             {
+                Console.WriteLine("UtCreateTable failed for new table" + tsipName);
+
                 Log2.e("\nTtBuildSH.TtCreateTsipTables(): ERROR: call to Ssutil.UtCreateTable() failed, rc = " + rc);
                 return (rc);
             }

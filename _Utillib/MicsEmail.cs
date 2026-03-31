@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Data;
+using System.Data.Odbc;
 using System.IO;
 using System.Net.Mail;
 using _NewLib;
 using _Configuration;
 using System.Text;
 using Microsoft.Win32;
-using System.Configuration;
+
 using System.Text.RegularExpressions;
 using System.Net;
 

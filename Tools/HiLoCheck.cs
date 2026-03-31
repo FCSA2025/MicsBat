@@ -140,8 +140,9 @@ namespace Tools
                 // Terminate the FCSA user's DB session.
                 Ssutil.UtDisconnect(1);
 
+                // this was commented out 2026/03/30 as it caused error if TSORB report was checked
                 // Flush/close the TextWriter stream.
-                mTW.Close();
+                //mTW.Close();
 
                 Application.ExitQuietly(0);
 

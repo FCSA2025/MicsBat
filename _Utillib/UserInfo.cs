@@ -146,8 +146,8 @@ namespace _Utillib
         /// <para> - Any other value - the attempt failed.</para>
         public static int UtUpdateCentralTable(string cCmd, string pdfName, int nTableType, string cValidStat, string cMark)
         {
-            Log2.v("\nUserInfo.UtUpdateCentralTable(): Entry:");
-            Log2.v(String.Format("\nUserInfo.UtUpdateCentralTable(): |{0}|{1}|{2}|{3}|{4}|", cCmd, pdfName, nTableType, cValidStat, cMark));
+            Console.WriteLine("\nUserInfo.UtUpdateCentralTable(): Entry:");
+            Console.WriteLine(String.Format("\nUserInfo.UtUpdateCentralTable(): |{0}|{1}|{2}|{3}|{4}|", cCmd, pdfName, nTableType, cValidStat, cMark));
 
             SQLRETURN sqlRet;
             SQLHDBC hConn = Ssutil.NewConn();
@@ -162,7 +162,7 @@ namespace _Utillib
             nRet = UtGetUserInfo(out tInfo);
             if (nRet < 0)
             {
-                Log2.e("\nUserInfo.UtUpdateCentralTable(): ERROR: call to UtGetUserInfo() failed, nRet = " + nRet);
+                Console.WriteLine("\nUserInfo.UtUpdateCentralTable(): ERROR: call to UtGetUserInfo() failed, nRet = " + nRet);
                 GenUtil.SetErr("updateCentralTable: Could not get user info: %d", nRet.ToString());
                 return -1;
             }
@@ -183,7 +183,7 @@ namespace _Utillib
                 case 'A':
                     if (IsAlreadyThere)
                     {
-                        Log2.e("\nUserInfo.UtUpdateCentralTable(): ERROR: 'A': web.user_tables: cSQL = " + cSQL + ".  IsAlreadyThere = " + IsAlreadyThere);
+                        Console.WriteLine("\nUserInfo.UtUpdateCentralTable(): ERROR: 'A': web.user_tables: cSQL = " + cSQL + ".  IsAlreadyThere = " + IsAlreadyThere);
                         nRet = -2;
                     }
                     else

@@ -1126,9 +1126,9 @@ namespace _Utillib
         /// <returns> - true if table is found; else false.</returns>
         public static bool UtTableExist(int tableType, string tableName)
         {
-            //...Log2.v("\n\nSsutil.UtTableExist(): Entry");
-            //...Log2.v("\nSsutil.UtTableExist(): tableType = " + tableType);
-            //...Log2.v("\nSsutil.UtTableExist(): tableName = " + tableName);
+            Console.Write("\n\nSsutil.UtTableExist(): Entry\n");
+            Console.Write("\nSsutil.UtTableExist(): tableType = " + tableType + "\n");
+            Console.Write("\nSsutil.UtTableExist(): tableName = " + tableName + "\n");
 
             bool rc = false;
             mIntName = null;
@@ -1143,7 +1143,7 @@ namespace _Utillib
             switch (tableType)
             {
                 case Constant.FT:
-                    //...Log2.v("\r\nSsutil.UtTableExist(): case Constant.FT");
+                    Console.Write("\r\nSsutil.UtTableExist() case " + Constant.FT + "\n");
                     GenUtil.UtCvtName(Constant.FT_TITL, tableName, out mIntName);
                     GenUtil.UtCvtName(Constant.FT_SHRL, tableName, out mIntName1);
                     GenUtil.UtCvtName(Constant.FT_SITE, tableName, out mIntName2);
@@ -1159,7 +1159,7 @@ namespace _Utillib
                     break;
 
                 case Constant.FE:
-                    //...Log2.v("\r\nSsutil.UtTableExist(): case Constant.FE");
+                    Console.Write("\r\nSsutil.UtTableExist(): case " + Constant.FE + "\n");
                     GenUtil.UtCvtName(Constant.FE_TITL, tableName, out mIntName);
                     GenUtil.UtCvtName(Constant.FE_SHRL, tableName, out mIntName1);
                     GenUtil.UtCvtName(Constant.FE_SITE, tableName, out mIntName2);
@@ -1366,7 +1366,7 @@ namespace _Utillib
                     break;
             } //switch (tableType)
 
-            //...Log2.v("\n\nSsutil.UtTableExist(): Exit, returned " + rc);
+            Console.WriteLine("\n\nSsutil.UtTableExist(): Exit, returned " + rc + "\n");
             return (rc);
         }
 
@@ -1414,7 +1414,7 @@ namespace _Utillib
         /// <returns></returns>
         public static bool IntTableExist(string tabName)
         {
-            //...Log2.v("\nSsutil.IntTableExist(): tabName = {0}", tabName);
+            Console.WriteLine("\nIn Ssutil.IntTableExist() : tabName = {0}", tabName);
 
             int nCount = 0;
             string cSQL;
@@ -1438,14 +1438,14 @@ namespace _Utillib
                 cSQL = "TABLE_SCHEMA='" + Info.GlobalSchema + "' and TABLE_NAME='" + tabName + "'";
             }
 
-            //...Log2.v("\nSsutil.IntTableExist(): cSQL= {0}", cSQL);
+            Console.WriteLine("\nSsutil.IntTableExist(): cSQL= {0}", cSQL);
 
             nCount = DbCountRows("INFORMATION_SCHEMA.TABLES", cSQL);
 
             result = nCount > 0;
 
-            //...Log2.v("\n\n" + cSQL);
-            //...Log2.v(String.Format("\nSsutil.IntTableExist(): tabName = {0}, nCount = {1}, result = {2}", tabName, nCount, result));
+            Console.WriteLine("\n\n" + cSQL);
+            Console.WriteLine(String.Format("\nSsutil.IntTableExist(): tabName = {0}, nCount = {1}, result = {2}", tabName, nCount, result));
             return result;
         }
 
@@ -3908,8 +3908,8 @@ namespace _Utillib
             string intName;
             int rc = Constant.FAILURE;
 
-            //...Log2.v("\nSsutil.UtCreateTable(): tableType = " + tableType);
-            //...Log2.v("\nSsutil.UtCreateTable(): tableName = " + tableName);
+            Console.WriteLine("\nSsutil.UtCreateTable(): tableType = " + tableType);
+            Console.WriteLine("\nSsutil.UtCreateTable(): tableName = " + tableName);
 
             switch (tableType)
             {
@@ -3939,14 +3939,16 @@ namespace _Utillib
                     if ((rc = CreateTab(Constant.FT_ANTE, intName)) != Constant.SUCCESS)
                     {
                         UtCleanupTables(tableType, tableName);
-                        //...Log2.v("\nSsutil.UtCreateTable(): return: D");
+                        Console.WriteLine("\nSsutil.UtCreateTable(): return: D");
+                        Log2.v("\nSsutil.UtCreateTable(): return: D");
                         return (rc);
                     }
                     GenUtil.UtCvtName(Constant.FT_CHAN, tableName, out intName);
                     if ((rc = CreateTab(Constant.FT_CHAN, intName)) != Constant.SUCCESS)
                     {
                         UtCleanupTables(tableType, tableName);
-                        //...Log2.v("\nSsutil.UtCreateTable(): return: E");
+                        Console.WriteLine("\nSsutil.UtCreateTable(): return: E");
+                        Log2.v("\nSsutil.UtCreateTable(): return: E");
                         return (rc);
                     }
                     GenUtil.UtCvtName(Constant.FT_CHNG_CALL, tableName, out intName);
@@ -4283,7 +4285,7 @@ namespace _Utillib
                     if (rc != Constant.SUCCESS)
                     {
                         UtCleanupTables(tableType, tableName);
-                        //...Log2.v("\nSsutil.UtCreateTable(): return: AO");
+                        Console.WriteLine("\nSsutil.UtCreateTable(): return: AO");
                         return (rc);
                     }
 

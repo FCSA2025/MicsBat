@@ -1,14 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.IO;
-using System.Net.Mail;
-using System.Configuration;
+﻿using _Configuration;
 using _NewLib;
-using _Configuration;
-using System.Text;
-using Microsoft.Win32;
 using _Utillib;
+using Microsoft.Win32;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data.Odbc;
+using System.IO;
+using System.Linq;
+using System.Net.Mail;
+using System.Security.Principal;
+using System.Text;
 
 namespace TsipInitiator
 {
@@ -295,6 +297,149 @@ namespace TsipInitiator
             if (retVal == Constant.SUCCESS) Console.WriteLine("\nEmail sent.");
 
             return retVal;
+        }
+        public static bool send_email_sql(MailMessage inMessage)
+        {
+            // this routine assumes that inMessage contains all info 
+           
+            string dbgfile = "D:\\extractlogs\\SendTsipEmailSql.txt";
+            StreamWriter sw = new StreamWriter(dbgfile, false);
+            DateTime logTime = DateTime.Now;
+            sw.WriteLine("LOGTIME:" + logTime.ToString("yyyyMMddHHmmss.ffff"));
+            // set mandatory FROM address
+            inMessage.From = new MailAddress("mics@fcsa.ca");
+
+            // build SQL
+            //sw.WriteLine("Before try");
+            //string attachfiles = "\\\\EC2AMAZ-2013EDB\\REMICS-D\\inetpub\\remicsdev\\mics\\userdirs\\venn\\venn1\\tsip_tcomm2502a_TS1.HILO";
+
+            if (inMessage.From.ToString() == "")
+            {
+                sw.WriteLine("From is empty");
+                sw.Close();
+                return false;
+            }
+            else
+            {
+                sw.WriteLine(inMessage.From.ToString());
+            }
+
+
+            if (inMessage.To.ToString() == "")
+            {
+                sw.WriteLine("To is empty");
+                sw.Close();
+                return false;
+            }
+            else
+            {
+                sw.WriteLine(inMessage.To.ToString());
+            }
+
+            if (inMessage.Subject.ToString() == "")
+            {
+                sw.WriteLine("Subject is empty");
+                sw.Close();
+                return false;
+            }
+            else
+            {
+                sw.WriteLine(inMessage.Subject.ToString());
+            }
+
+            if (inMessage.Body.ToString() == "")
+            {
+                sw.WriteLine("Body is empty");
+                sw.Close();
+                return false;
+            }
+            else
+            {
+                sw.WriteLine(inMessage.Body.ToString());
+                sw.Flush();
+            }
+
+            // split attachment list from body
+            string body1;
+            string body2;
+            int ATTptr;
+
+            ATTptr = inMessage.Body.ToString().IndexOf("^^^");
+            if (ATTptr == -1) // no attachments
+            {
+                body1 = inMessage.Body.ToString();
+                body2 = "";
+            }
+            else
+            {
+                body1 = inMessage.Body.ToString().Substring(0, ATTptr);
+                body2 = inMessage.Body.ToString().Substring(ATTptr + 3).Replace("^", ";");
+            }
+
+            inMessage.Body = body1;
+            sw.WriteLine(body1);
+            sw.WriteLine(body2);
+            sw.Flush();
+
+            try
+            {
+                using (WindowsImpersonationContext WIC = ((WindowsIdentity)wp.Identity).Impersonate())
+                {
+                    using (OdbcConnection cn = new OdbcConnection(ctx.Session["s_cnString"].ToString()))
+                    {
+                        cn.Open();
+                        //attachfiles = "\\\\EC2AMAZ-2013EDB\\REMICS-D\\inetpub\\remicsdev\\mics\\userdirs\\venn\\venn1\\tsip_tcomm2502a_TS1.HILO";
+
+                        string strSql = "INSERT INTO adm.t_EmailQueue " +
+                                " (mailFrom, mailTo, mailCC, mailSubject, mailBody, mailAttachments) " +
+                                " VALUES ('" + inMessage.From +
+                                "','" + inMessage.To +
+                                "','" + inMessage.CC +
+                                "','" + inMessage.Subject +
+                                "','" + body1 +
+                                "','" + body2 + "')";
+
+                        sw.WriteLine(strSql);
+                        sw.Flush();
+                        //string attachfiles = "\\\\EC2AMAZ-2013EDB\\REMICS-D\\inetpub\\remicsdev\\mics\\userdirs\\venn\\venn1\\area402.kml";
+                        //string attachfiles = "\\\\EC2AMAZ-2013EDB\\REMICS-D\\inetpub\\remicsdev\\mics\\userdirs\\venn\\venn1\\tsip_tcomm2502a_TS1.HILO";
+                        //sw.WriteLine("Attachments:" + inMessage.Attachments);
+
+                        sw.WriteLine(strSql);
+                        sw.Flush();
+
+                        using (OdbcCommand sendmail = new OdbcCommand(strSql, cn))
+                        {
+                            sendmail.ExecuteNonQuery();
+                        }
+                    }
+                    sw.Close();
+                    return true;
+                }
+            }
+            catch (Exception)   // write error log and notify user
+            {
+                /* try
+                 {
+                     sw.WriteLine("From:" + inMessage.From);
+                     sw.WriteLine("TO:" + inMessage.To);
+                     sw.WriteLine("CC:" + inMessage.CC);
+                     sw.WriteLine("mailSubject:" + inMessage.mailSubject);
+                     sw.WriteLine("Body:" + inMessage.Body);
+                     //sw.WriteLine("Attachments:" + inMessage.Body);
+                     sw.WriteLine("ERROR:" + em1.Message);
+                     sw.WriteLine("");
+                 }
+                 catch (Exception ea)
+                 {
+                     sw.WriteLine("Error writing email info (send_email_message2):" + ea.Message);
+                 }
+                */
+                sw.Close();
+                //inMessage.Dispose();
+                return false;
+            }
+
         }
 
 

@@ -643,7 +643,7 @@ namespace _Utillib
                 Log2.e("\r\nGenUtil.UtCvtName(): ERROR: construction of DB internal table name failed: tabType, pdfName = " + tabType + ", " + pdfName);
             }
 
-            //...Log2.v("\nGenUtil.UtCvtName(): internalTableName = " + internalTableName);
+            Console.Write("\nGenUtil.UtCvtName(): internalTableName = " + internalTableName);
             return (result);
         }
 

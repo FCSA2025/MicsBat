@@ -534,7 +534,7 @@ namespace TpRunTsip
                     }
                     else  /*********************************************************/
                     {
-                        Console.Write("Processing TT record ");
+                        Console.Write("Processing TT record\n ");
                         isTS = true;
                         GenUtil.UtCvtName(Constant.TT_PARM, viewName, out parmName);
                         GenUtil.UtCvtName(Constant.TT_SITE, viewName, out siteName);
