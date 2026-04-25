@@ -17,7 +17,7 @@ namespace Tools
             {
                 // Enable or disable developmental run-time logging.
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\TestDatabaseConnection.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\TestDatabaseConnection.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

@@ -10,7 +10,7 @@ namespace Tools
 {
     public class FileCharsScan
     {
-        private const string OUT_FILE_PATH = @"d:\MicsBatchLog\FileCharsScanOut.txt";
+        private const string OUT_FILE_PATH = @"d:\MicsBatchLogs\FileCharsScanOut.txt";
         public class Tally
         {
             public char mChar = (char)0;

@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateBand\obj\x64\Release\SdUpdateBand.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdateBand\obj\x64\Release\SdUpdate.32FCDA70.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateBand\obj\x64\Release\SdUpdateBand.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateBand\obj\x64\Release\SdUpdateBand.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateBand\obj\x64\Release\SdUpdateBand.exe.config

@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\Interpol\obj\x64\Release\Interpol.csproj.CoreCompileIn
 D:\MicsBatchProgs\MicsBat\Interpol\obj\x64\Release\Interpol.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\Interpol\obj\x64\Release\Interpol.exe
 D:\MicsBatchProgs\MicsBat\Interpol\obj\x64\Release\Interpol.pdb
+D:\MicsBatchProgs\MicsBat\Interpol\obj\x64\Release\Interpol.exe.config

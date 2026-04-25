@@ -64,7 +64,7 @@ namespace Tools
             {
 #if false
                 // Turn on developmental logging.
-                string mLog2FilePath = @"d:\MicsBatchLog\Test_FtPrint.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\Test_FtPrint.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

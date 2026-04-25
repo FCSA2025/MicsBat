@@ -43,3 +43,4 @@ D:\MicsBatchProgs\MicsBat\FePrint\obj\x64\Release\FePrint.csproj.CoreCompileInpu
 D:\MicsBatchProgs\MicsBat\FePrint\obj\x64\Release\FePrint.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\FePrint\obj\x64\Release\FePrint.exe
 D:\MicsBatchProgs\MicsBat\FePrint\obj\x64\Release\FePrint.pdb
+D:\MicsBatchProgs\MicsBat\FePrint\obj\x64\Release\FePrint.exe.config

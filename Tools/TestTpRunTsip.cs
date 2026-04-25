@@ -669,7 +669,7 @@ namespace Tools
 
             }
 
-            WriteAllLinesABToFile(@"d:\MicsBatchLog\armadilo.txt", allLines);
+            WriteAllLinesABToFile(@"d:\MicsBatchLogs\armadilo.txt", allLines);
         }
 
         /// <summary>

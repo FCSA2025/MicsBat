@@ -129,7 +129,7 @@ Note:
 
 
 
-                    string outputFilePath = @"d:\MicsBatchLog\" + "PhantomLinks - " + oper + ".csv";
+                    string outputFilePath = @"d:\MicsBatchLogs\" + "PhantomLinks - " + oper + ".csv";
                     File.WriteAllLines(outputFilePath, csvLines);
                 }
 

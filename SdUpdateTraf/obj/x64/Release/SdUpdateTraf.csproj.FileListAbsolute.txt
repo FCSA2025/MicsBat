@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateTraf\obj\x64\Release\SdUpdateTraf.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdateTraf\obj\x64\Release\SdUpdate.31D6284C.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateTraf\obj\x64\Release\SdUpdateTraf.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateTraf\obj\x64\Release\SdUpdateTraf.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateTraf\obj\x64\Release\SdUpdateTraf.exe.config

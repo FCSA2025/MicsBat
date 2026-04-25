@@ -17,7 +17,7 @@ namespace _NewLib
     /// </summary>
     public class KML
     {
-        public const string PATH_TO_CSV_FILE = @"D:\MicsBatchLog\Comsearch50kmSpecial.csv";
+        public const string PATH_TO_CSV_FILE = @"D:\MicsBatchLogs\Comsearch50kmSpecial.csv";
 
         public static string beginning = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<kml xmlns = \"http://www.google.com/earth/kml/2\">\n<Document>\n<name>kml_sample1.kml</name>";
 

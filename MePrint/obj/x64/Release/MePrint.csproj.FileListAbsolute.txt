@@ -37,3 +37,4 @@ D:\MicsBatchProgs\MicsBat\MePrint\obj\x64\Release\MePrint.pdb
 D:\develbat\MePrint.exe.config
 D:\develbat\MePrint.exe
 D:\develbat\MePrint.pdb
+D:\MicsBatchProgs\MicsBat\MePrint\obj\x64\Release\MePrint.exe.config

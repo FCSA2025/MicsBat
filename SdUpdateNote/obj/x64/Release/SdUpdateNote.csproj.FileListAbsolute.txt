@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateNote\obj\x64\Release\SdUpdateNote.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdateNote\obj\x64\Release\SdUpdate.07F1F2CE.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateNote\obj\x64\Release\SdUpdateNote.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateNote\obj\x64\Release\SdUpdateNote.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateNote\obj\x64\Release\SdUpdateNote.exe.config

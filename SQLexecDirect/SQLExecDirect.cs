@@ -54,7 +54,7 @@ namespace SQLExecDirect
             {
                 // Enable or disable developmental run-time logging.
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\SQLExecDirect.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\SQLExecDirect.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

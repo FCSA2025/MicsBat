@@ -39,7 +39,7 @@ namespace SdUpdateTowr
             {
                 // Enable or disable developmental run-time logging.
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\SdUpdateTowr.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\SdUpdateTowr.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

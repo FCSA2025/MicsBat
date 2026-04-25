@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateTown\obj\x64\Release\SdUpdateTown.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdateTown\obj\x64\Release\SdUpdate.8AC0FD21.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateTown\obj\x64\Release\SdUpdateTown.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateTown\obj\x64\Release\SdUpdateTown.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateTown\obj\x64\Release\SdUpdateTown.exe.config

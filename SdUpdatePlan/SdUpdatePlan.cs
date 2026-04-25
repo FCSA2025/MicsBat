@@ -38,7 +38,7 @@ namespace SdUpdatePlan
             {
                 // Enable or disable developmental run-time logging.
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\SdUpdatePlan.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\SdUpdatePlan.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

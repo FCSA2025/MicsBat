@@ -39,3 +39,4 @@ D:\MicsBatchProgs\MicsBat\FtImport\obj\x64\Release\FtImport.csproj.CoreCompileIn
 D:\MicsBatchProgs\MicsBat\FtImport\obj\x64\Release\FtImport.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\FtImport\obj\x64\Release\FtImport.exe
 D:\MicsBatchProgs\MicsBat\FtImport\obj\x64\Release\FtImport.pdb
+D:\MicsBatchProgs\MicsBat\FtImport\obj\x64\Release\FtImport.exe.config

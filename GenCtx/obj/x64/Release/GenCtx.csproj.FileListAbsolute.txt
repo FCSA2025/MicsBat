@@ -43,3 +43,4 @@ D:\MicsBatchProgs\MicsBat\GenCtx\obj\x64\Release\GenCtx.csproj.CoreCompileInputs
 D:\MicsBatchProgs\MicsBat\GenCtx\obj\x64\Release\GenCtx.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\GenCtx\obj\x64\Release\GenCtx.exe
 D:\MicsBatchProgs\MicsBat\GenCtx\obj\x64\Release\GenCtx.pdb
+D:\MicsBatchProgs\MicsBat\GenCtx\obj\x64\Release\GenCtx.exe.config

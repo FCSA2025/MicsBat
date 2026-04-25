@@ -229,7 +229,7 @@ namespace _NewLib
             InterpolateBetweenVertices(mSouthernBorderVertices, MAX_VERTEX_SEPARATION, out mSouthernBorderVertices);
             InterpolateBetweenVertices(mAlaskanBorderVertices, MAX_VERTEX_SEPARATION, out mAlaskanBorderVertices);
 
-            //WriteVerticesToFile(@"d:\MicsBatchLog\interpolatedVertices.csv");
+            //WriteVerticesToFile(@"d:\MicsBatchLogs\interpolatedVertices.csv");
 
             mDetails.mKmlFileIsOK = true;
             return true;
@@ -392,7 +392,7 @@ namespace _NewLib
                 if (i != reorderedPairs.Length - 1) sb.Append(" ");
             }
 
-            File.WriteAllText(@"d:\MicsBatchLog\clickbait.txt", sb.ToString());
+            File.WriteAllText(@"d:\MicsBatchLogs\clickbait.txt", sb.ToString());
             return;
         }
 

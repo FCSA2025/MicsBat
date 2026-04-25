@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateCtx\obj\x64\Release\SdUpdateCtx.csproj.CoreCom
 D:\MicsBatchProgs\MicsBat\SdUpdateCtx\obj\x64\Release\SdUpdate.C972CA1F.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateCtx\obj\x64\Release\SdUpdateCtx.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateCtx\obj\x64\Release\SdUpdateCtx.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateCtx\obj\x64\Release\SdUpdateCtx.exe.config

@@ -1,16 +1,16 @@
-﻿using System;
+﻿using _Configuration;
+using _NewLib;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
 using System.IO;
-using System.Net.Mail;
-using _NewLib;
-using _Configuration;
-using System.Text;
-using Microsoft.Win32;
-
-using System.Text.RegularExpressions;
 using System.Net;
+using System.Net.Mail;
+using System.Runtime.Remoting.Messaging;
+using System.Text;
+using System.Text.RegularExpressions;
 
 namespace _Utillib
 {
@@ -136,72 +136,59 @@ namespace _Utillib
                     return errorCode;
                 }
 
-                // Instantiate a SmtpClient object using the constructor that requires the
-                // SMTP host server's URL and the prescribed port number.
-                client = new SmtpClient(SMTP_HOST, SMTP_PORT);
-
-                // Transport Layer Security (TLS), the successor of the now-deprecated Secure Sockets Layer (SSL), 
-                // is a cryptographic protocol designed to provide communications security over a computer network.
-                // The SmtpClient class only supports the SMTP Service Extension for Secure SMTP over TLS as 
-                // defined in RFC 3207. In this mode, the SMTP session begins on an unencrypted channel, then a 
-                // STARTTLS command is issued by the client to the server to switch to secure communication using SSL.
-                // Use of "smtp.office365.com" requires us to enable SSL in our SMTP client.
-                client.DeliveryMethod = SmtpDeliveryMethod.Network;
-                client.EnableSsl = true;
-
-                // Get the SMTP password from the known registry key.
-                string pwd;
-                retVal = GetKeyValue(out pwd);
-                if (retVal != Constant.SUCCESS)
-                {
-                    errMsg = String.Format("ERROR: call to GetKeyValue() failed.");
-                    Console.WriteLine("\n{0}\n", errMsg);
-                    Log2.e("\n\nMicsEmail.Main(): " + errMsg + "\n");
-                    return 127;
-                }
-
-                //...Log2.v("\nMicsEmail.Main(): pwd = " + pwd);
-
-                // Set the SMTP client's network credentials.
-                var credentials = new System.Net.NetworkCredential(USERNAME, pwd);
-                client.Credentials = credentials;
-
                 // Instantiate 'to' and 'from' MailAddress objects.
                 MailAddress fromMA = new MailAddress(FROM, DISPLAY_NAME);
                 MailAddress toMA = new MailAddress(to);
 
                 // Start to build the final email message.
-                // Specify the message body content.
-                message = new MailMessage(fromMA, toMA);
-                message.Body = body;
+                
 
+                
+
+                message = new MailMessage(fromMA, toMA);
                 // Specify the subject of the email.
                 message.Subject = subject;
+                // Specify the message body content.
+                message.Body = body;
 
+                // for SQL mail the attachments are appended to the body as a string
+                // preceeded with ^^^ and individual files separated by a single ^
+
+                StringBuilder strAttach = new StringBuilder("^^^",100);
+                string fileseparator = "";
+                string IISServer = @"\\EC2AMAZ-2013EDB\REMICS-D\";
                 // Attach the prescribed files to the email message.
                 foreach (string attachmentFilePath in attachmentFilePaths)
                 {
-                    Attachment Att = new Attachment(attachmentFilePath);
+                    Console.WriteLine(fileseparator + IISServer + attachmentFilePath);
+                    strAttach.Append(fileseparator + IISServer + attachmentFilePath);
+                    fileseparator = "^";
 
                     // If the filename does not have the extension '.txt' the caller can elect to add this so
                     // that it is easier for the member to open the attachments with a text editor.
-                    if (addTxtExtn)
-                    {
-                        if (!Att.Name.Trim().ToLower().EndsWith(".txt"))
-                        {
-                            Att.Name = Att.Name + ".txt";
-                        }
-                    }
 
-                    message.Attachments.Add(Att);
+                    //string Att = 
+                    //if (addTxtExtn)
+                    //{
+                    //    if (!Att.Name.Trim().ToLower().EndsWith(".txt"))
+                    //    {
+                    //        Att.Name = Att.Name + ".txt";
+                    //    }
+                    //}
+
+                    //strAttach.Append(Att);
 
                 }
 
-                // Office 365 now requires the use of the TLS1.2 security protocol.
-                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                // build sql email send record
+                //attachfiles = "\\\\EC2AMAZ-2013EDB\\REMICS-D\\inetpub\\remicsdev\\mics\\userdirs\\venn\\venn1\\tsip_tcomm2502a_TS1.HILO";
 
-                // Send the email message.
-                client.Send(message);
+                string strSql = "INSERT INTO adm.t_EmailQueue " +
+                        " (mailFrom, mailTo, mailCC, mailSubject, mailBody, mailAttachments) " +
+                        " VALUES ('mics@fcsa.ca'" + 
+                        "','" + to +
+                        "','" + subject +
+                        "','" + body + "')";
 
             }
             catch (Exception e)
@@ -284,86 +271,5 @@ namespace _Utillib
 
             return Send(to, subject, body, attachFilePaths, false, out errMsg);
         }
-
-        /// <summary>
-        /// Intentionally undocumented.
-        /// </summary>
-        /// <returns></returns>
-        public static int GetKeyValue(out string keyValue)
-        {
-            // 'out' requirement.
-            keyValue = "";
-
-            int retVal = Constant.FAILURE;
-
-            string subKeyDirPath = Path.GetDirectoryName(CLAVIS_SEMITA);
-            string keyName = Path.GetFileName(CLAVIS_SEMITA);
-
-            try
-            {
-                using (RegistryKey key = Registry.LocalMachine.OpenSubKey(subKeyDirPath))
-                //using (RegistryKey key = RegistryKey.OpenRemoteBaseKey(RegistryHive.LocalMachine, "Fcsaweb3").OpenSubKey(subKeyDirPath))
-                {
-                    if (key != null)
-                    {
-
-                        Object obj = key.GetValue(keyName);
-                        if (obj != null)
-                        {
-                            keyValue = (string)obj;
-                            if (!String.IsNullOrWhiteSpace(keyValue))
-                            {
-                                retVal = Constant.SUCCESS;
-                            }
-                        }
-                        else
-                        {
-                            Log2.e("\n\nMicsEmail.GetKeyValue(): ERROR: obj == null");
-                        }
-                    }
-                    else
-                    {
-                        Log2.e("\n\nMicsEmail.GetKeyValue(): ERROR: : key == null");
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                Log2.e("\n\nMicsEmail.GetKeyValue(): ERROR: exception: " + e.Message + "\n" + e.StackTrace);
-                TsipQ.WriteToTsipLog("\nMicsEmail.GetKeyValue(): ERROR: exception: " + e.Message + "\n" + e.StackTrace);
-            }
-
-            return retVal;
-        }
-
-        /// <summary>
-        /// This method returns the MD5 hash string for the current path to the Registry
-        /// key that stores the password for the mics@fcsa.ca email account; it is used
-        /// in the 'command line usage' text for MICS# program TsipInitiator.exe
-        /// </summary>
-        /// <returns></returns>
-        public static string GetMD5OfKeyPath()
-        {
-            string input = CLAVIS_SEMITA;
-
-            // Use input string to calculate MD5 hash
-            using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
-            {
-                byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
-                byte[] hashBytes = md5.ComputeHash(inputBytes);
-
-                // Convert the byte array to hexadecimal string
-                StringBuilder sb = new StringBuilder();
-                for (int i = 0; i < hashBytes.Length; i++)
-                {
-                    sb.Append(hashBytes[i].ToString("X2"));
-                }
-                return sb.ToString();
-            }
-        }
-
-
-
-
     }
 }

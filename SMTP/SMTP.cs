@@ -70,9 +70,9 @@ namespace SMTP
                 string subject = "Zen and the Art of Motorcycle Maintenance.";
                 string body = "This is the body.";
 
-                string filePath1 = @"d:\MicsBatchLog\attach1.txt";
-                string filePath2 = @"d:\MicsBatchLog\attach2.txt";
-                string filePath3 = @"d:\MicsBatchLog\attach3.txt";
+                string filePath1 = @"d:\MicsBatchLogs\attach1.txt";
+                string filePath2 = @"d:\MicsBatchLogs\attach2.txt";
+                string filePath3 = @"d:\MicsBatchLogs\attach3.txt";
 
                 File.WriteAllText(filePath1, "One.");
                 File.WriteAllText(filePath2, "Two.");

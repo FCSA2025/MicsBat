@@ -45,9 +45,9 @@ namespace TsipInitiator
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-#if false
+#if true
             // Turn on developmental logging.
-            string mLog2FilePath = @"d:\users\ahulme\temp\TsipInitiator.log";
+            string mLog2FilePath = @"d:\MicsBatchLogs\TsipInitiator.log";
             if (Log2.SetLogFilePath(mLog2FilePath))
             {
                 Log2.Erase();

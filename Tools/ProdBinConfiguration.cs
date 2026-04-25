@@ -153,9 +153,9 @@ namespace Tools
         //private const string WEB_6D_PROD_BIN_DIR = @"\\fcsaWEB6D\d$\prod\bin_20220920(configuration controlled)";
         //private const string WEB_3_PROD_BIN_DIR = @"\\fcsaWEB3\d$\prod\bin";
         private const string PROD_BIN_A = @"D:\prod\bin";
-        private const string PROD_BIN_B = @"D:\MicsBatchLog\CloudMicsProd_Prod_Bin";
+        private const string PROD_BIN_B = @"D:\MicsBatchLogs\CloudMicsProd_Prod_Bin";
         //private const string PROD_BIN_CONFIG_REFERENCE = @"d:\prod\bin_20220920(configuration controlled)";
-        //private const string KOZA_PROD_BIN = @"D:\MicsBatchLog\prod_bin_KOZA_production_server\bin";
+        //private const string KOZA_PROD_BIN = @"D:\MicsBatchLogs\prod_bin_KOZA_production_server\bin";
 
         public static void Go(string[] args)
         {

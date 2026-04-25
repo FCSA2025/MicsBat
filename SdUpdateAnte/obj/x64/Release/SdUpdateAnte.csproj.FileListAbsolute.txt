@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateAnte\obj\x64\Release\SdUpdateAnte.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdateAnte\obj\x64\Release\SdUpdate.03330B6F.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateAnte\obj\x64\Release\SdUpdateAnte.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateAnte\obj\x64\Release\SdUpdateAnte.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateAnte\obj\x64\Release\SdUpdateAnte.exe.config

@@ -42,7 +42,23 @@ namespace TpRunTsip
         private const string SPACE = " ";
         private const string LEFT_PARENTHESIS = "(";
         private const string RIGHT_PARENTHESIS = ")";
-        private static string SELECT_TEMPLATE = "SELECT a.interferer, a.caseno, subcaseno, a.subcases, a.intcall1, a.intcall2, a.intoper, a.intoper2, a.intname1, a.intname2, a.viccall1, a.viccall2, a.vicoper, a.vicoper2, a.vicname1, a.vicname2, a.int1int2dist, a.vic1vic2dist, a.int1vic1dist, a.intoffax, a.vicoffax, a.intgrnd, a.vicgrnd, b.intaoffax, b.inthopaz, b.intantaz, b.intoffantax, b.vicaoffax, b.vichopaz, b.vicantaz, b.vicoffantax, intvicaz, vicintaz, b.intbndcde, b.intanum, intacode, intause, intgain, vicgain, b.vicbndcde, b.vicanum, vicacode, vicause, adiscctxh, adiscctxv, adisccrxh, adisccrxv, adiscxtxh, adiscxtxv, adiscxrxh, adiscxrxv, totantdisc, intchid,(intfreqtx / 1000) as intfreqtxr,intpolar,intstattx,vicchid,(vicfreqrx / 1000) as vicfreqrxr,vicpolar,vicstatrx,inttraftx,inteqpttx,victrafrx,viceqptrx,vicpwrrx,intpwrtx,intafsltx,vicafslrx,ctxinttraftx,ctxvictrafrx,ctxeqpt,(freqsep / 1000) as freqsepr,patloss,a.distadv,eirpadv,calcico,calcixp,reqdcalc,resti,calctype,rxant,txant,intaxref,intamodel,vicaxref,vicamodel,intelev,vicelev,intvicel,vicintel,intaht,vicaht,tiltdisc,pathloss80,calcico80,calcixp80,reqd80,resti80,pathloss99,calcico99,calcixp99,reqd99,resti99,ohresult,ctxinteqpt,inteqtype,viceqtype,intbwchans,vicbwchans from tt_{0}_site a, tt_{0}_ante b, tt_{0}_chan c where a.intcall1 = b.intcall1 and a.intcall2 = b.intcall2 and a.viccall1 = b.viccall1 and a.viccall2 = b.viccall2 and a.caseno   = b.caseno and a.interferer = b.interferer and c.intcall1 = b.intcall1 and c.intcall2 = b.intcall2 and c.viccall1 = b.viccall1 and c.viccall2 = b.viccall2 and c.caseno   = b.caseno and c.interferer = b.interferer and c.intanum = b.intanum and c.vicanum = b.vicanum and c.intbndcde = b.intbndcde";
+        private static string SELECT_TEMPLATE = "SELECT a.interferer, a.caseno, subcaseno, a.subcases, a.intcall1, a.intcall2, a.intoper, " +
+            "a.intoper2, a.intname1, a.intname2, a.viccall1, a.viccall2, a.vicoper, a.vicoper2, a.vicname1, a.vicname2, a.int1int2dist, " +
+            "a.vic1vic2dist, a.int1vic1dist, a.intoffax, a.vicoffax, a.intgrnd, a.vicgrnd, b.intaoffax, b.inthopaz, b.intantaz, " +
+            "b.intoffantax, b.vicaoffax, b.vichopaz, b.vicantaz, b.vicoffantax, intvicaz, vicintaz, b.intbndcde, b.intanum, " +
+            "intacode, intause, intgain, vicgain, b.vicbndcde, b.vicanum, vicacode, vicause, adiscctxh, adiscctxv, adisccrxh, " +
+            "adisccrxv, adiscxtxh, adiscxtxv, adiscxrxh, adiscxrxv, totantdisc, intchid,(intfreqtx / 1000) as intfreqtxr,intpolar," +
+            "intstattx,vicchid,(vicfreqrx / 1000) as vicfreqrxr,vicpolar,vicstatrx,inttraftx,inteqpttx,victrafrx,viceqptrx," +
+            "vicpwrrx,intpwrtx,intafsltx,vicafslrx,ctxinttraftx,ctxvictrafrx,ctxeqpt,(freqsep / 1000) as freqsepr,patloss," +
+            "a.distadv,eirpadv,calcico,calcixp,reqdcalc,resti,calctype,rxant,txant,intaxref,intamodel,vicaxref,vicamodel," +
+            "intelev,vicelev,intvicel,vicintel,intaht,vicaht,tiltdisc,pathloss80,calcico80,calcixp80,reqd80,resti80," +
+            "pathloss99,calcico99,calcixp99,reqd99,resti99,ohresult,ctxinteqpt,inteqtype,viceqtype,intbwchans,vicbwchans " +
+            "FROM {0}.tt_{1}_site a, {0}.tt_{1}_ante b, {0}.tt_{1}_chan c " +
+            "WHERE a.intcall1 = b.intcall1 and a.intcall2 = b.intcall2 " +
+            "and a.viccall1 = b.viccall1 and a.viccall2 = b.viccall2 and a.caseno   = b.caseno and a.interferer = b.interferer " +
+            "and c.intcall1 = b.intcall1 and c.intcall2 = b.intcall2 and c.viccall1 = b.viccall1 and c.viccall2 = b.viccall2 " +
+            "and c.caseno   = b.caseno and c.interferer = b.interferer and c.intanum = b.intanum and c.vicanum = b.vicanum " +
+            "and c.intbndcde = b.intbndcde";
 
         /// <summary>
         /// This method retrieves TSIP results data from the DB and produces
@@ -76,7 +92,9 @@ namespace TpRunTsip
 
             sqlRet = ODBC.SQLAllocHandle(ODBC.SQL_HANDLE_STMT, hConn, out hStmt);
 
-            cSQL = String.Format(SELECT_TEMPLATE, ttName);
+            cSQL = String.Format(SELECT_TEMPLATE, Info.GlobalSchema, ttName);
+
+            Console.Write(cSQL);
 
             //	Now check for the ohonly type of report;
             if (IsOhOnly)

@@ -37,7 +37,7 @@ namespace SdUpdateBand
             {
                 // Enable or disable developmental run-time logging.
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\SdUpdateBand.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\SdUpdateBand.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

@@ -22,7 +22,10 @@ D:\MicsBatchProgs\MICS#\Tools\obj\x64\Release\Tools.csproj.CoreCompileInputs.cac
 D:\MicsBatchProgs\MICS#\Tools\obj\x64\Release\Tools.exe
 D:\MicsBatchProgs\MICS#\Tools\obj\x64\Release\Tools.pdb
 D:\MicsBatchProgs\MicsBat\Tools\obj\x64\Release\Tools.csproj.AssemblyReference.cache
-D:\MicsBatchProgs\MicsBat\Tools\obj\x64\Release\Tools.exe.config
 D:\MicsBatchProgs\MicsBat\Tools\obj\x64\Release\Tools.csproj.CoreCompileInputs.cache
 D:\MicsBatchProgs\MicsBat\Tools\obj\x64\Release\Tools.exe
 D:\MicsBatchProgs\MicsBat\Tools\obj\x64\Release\Tools.pdb
+D:\develbat\Tools.exe.config
+D:\develbat\Tools.exe
+D:\develbat\Tools.pdb
+D:\MicsBatchProgs\MicsBat\Tools\obj\x64\Release\Tools.csproj.Up2Date

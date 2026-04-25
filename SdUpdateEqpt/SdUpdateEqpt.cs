@@ -41,7 +41,7 @@ namespace SdUpdateEqpt
             {
                 // Enable or disable developmental run-time logging.
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\SdUpdateEqpt.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\SdUpdateEqpt.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

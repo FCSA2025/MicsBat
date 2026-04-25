@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateEqpt\obj\x64\Release\SdUpdateEqpt.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdateEqpt\obj\x64\Release\SdUpdate.5A5538D8.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateEqpt\obj\x64\Release\SdUpdateEqpt.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateEqpt\obj\x64\Release\SdUpdateEqpt.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateEqpt\obj\x64\Release\SdUpdateEqpt.exe.config

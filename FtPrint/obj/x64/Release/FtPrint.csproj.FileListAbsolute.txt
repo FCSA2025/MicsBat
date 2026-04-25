@@ -42,3 +42,4 @@ D:\MicsBatchProgs\MicsBat\FtPrint\obj\x64\Release\FtPrint.csproj.CoreCompileInpu
 D:\MicsBatchProgs\MicsBat\FtPrint\obj\x64\Release\FtPrint.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\FtPrint\obj\x64\Release\FtPrint.exe
 D:\MicsBatchProgs\MicsBat\FtPrint\obj\x64\Release\FtPrint.pdb
+D:\MicsBatchProgs\MicsBat\FtPrint\obj\x64\Release\FtPrint.exe.config

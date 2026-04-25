@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateRout\obj\x64\Release\SdUpdateRout.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdateRout\obj\x64\Release\SdUpdate.0C437C95.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateRout\obj\x64\Release\SdUpdateRout.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateRout\obj\x64\Release\SdUpdateRout.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateRout\obj\x64\Release\SdUpdateRout.exe.config

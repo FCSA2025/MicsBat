@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\WriteGate\obj\x64\Release\WriteGate.csproj.CoreCompile
 D:\MicsBatchProgs\MicsBat\WriteGate\obj\x64\Release\WriteGate.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\WriteGate\obj\x64\Release\WriteGate.exe
 D:\MicsBatchProgs\MicsBat\WriteGate\obj\x64\Release\WriteGate.pdb
+D:\MicsBatchProgs\MicsBat\WriteGate\obj\x64\Release\WriteGate.exe.config

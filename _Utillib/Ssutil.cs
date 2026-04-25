@@ -140,7 +140,7 @@ namespace _Utillib
         /// <returns> - number of rows found.</returns>
         public static int DbCountRows(string cTable, string cCondition)
         {
-            //...Log2.v("\n\nSsutil.DbCountRows(): Entry");
+            Console.Write("\n\nSsutil.DbCountRows(): Entry ctable:" + cTable + " cCondition:" + cCondition);
 
             //char cBuf[1000];
             int nCount = 0;
@@ -169,7 +169,7 @@ namespace _Utillib
 
             SQLCHARPTR cBuf = sb.ToString();
 
-            //...Log2.v("\r\nSsutil.DbCountRows(): cBuf = " + cBuf);
+            Console.WriteLine("\r\nSsutil.DbCountRows(): sb = " + sb);
 
             try
             {
@@ -3055,7 +3055,7 @@ namespace _Utillib
         /// <param name="tableName"></param>
         public static void UtCleanupTables(int tableType, string tableName)
         {
-            //...Log2.v("\nSsutil.UtCleanupTables(): Entry: " + tableType + "  " + tableName);
+            Console.WriteLine("\nSsutil.UtCleanupTables(): Entry: " + tableType + "  " + tableName);
 
             string intName;
 
@@ -3072,8 +3072,8 @@ namespace _Utillib
                     DropTable(intName);
                     GenUtil.UtCvtName(Constant.FT_CHAN, tableName, out intName);
                     DropTable(intName);
-                    GenUtil.UtCvtName(Constant.FT_CHNG_CALL, tableName, out intName);
-                    DropTable(intName);
+                    //GenUtil.UtCvtName(Constant.FT_CHNG_CALL, tableName, out intName);
+                    //DropTable(intName);
                     break;
 
                 case Constant.FE:
@@ -4280,12 +4280,13 @@ namespace _Utillib
                     }
                     GenUtil.UtCvtName(Constant.TT_CHAN, tableName, out intName);
                     rc = CreateTab(Constant.TT_CHAN, intName);
-
+//////////////////////////////////////////////
+                    Console.WriteLine("Before UtUpdateCentralTable-A: " + tableName + " " + tableType);
                     rc = UserInfo.UtUpdateCentralTable("A", tableName, tableType, " ", "N");
                     if (rc != Constant.SUCCESS)
                     {
                         UtCleanupTables(tableType, tableName);
-                        Console.WriteLine("\nSsutil.UtCreateTable(): return: AO");
+                        Console.WriteLine("\nSsutil.UtCleanupTables(): return: AO");
                         return (rc);
                     }
 

@@ -52,7 +52,7 @@ namespace WsatAze
             {
                 // Enable or disable developmental run-time logging.
 #if true
-                string mLog2FilePath = @"d:\MicsBatchLog\WsatAze.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\WsatAze.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

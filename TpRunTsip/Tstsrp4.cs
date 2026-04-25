@@ -68,7 +68,8 @@ namespace TpRunTsip
         /// <returns></returns>
         public static int TsTsRp4(TextWriter tw, string ttName)
         {
-            //...Log2.v("\nTstsrp4.TsTsRp4(): Entry");
+            Console.WriteLine("\nTstsrp4.TsTsRp4(): Entry");
+            Console.WriteLine("\nTstsrp4.TsTsRp4(): TW:" + tw + " ttName:" + ttName);
 
             PrintLine4 pl = new PrintLine4();
             pl.OutFile(tw);
@@ -88,14 +89,24 @@ namespace TpRunTsip
             SQLHANDLE hStmt;
             SQLRETURN sqlRet;
 
-            cSQL = String.Format("SELECT a.caseno, subcaseno, intname1, a.interferer, vicname1, int1vic1dist, intoffax, vicoffax, vicpwrrx, calctype, intpolar, vicpolar, intfreqtx, freqsep, calcico,	calcixp, reqdcalc, resti, intname2, vicname2	FROM	tt_{0}_site a,tt_{1}_ante b,tt_{2}_chan c WHERE	a.intcall1 = b.intcall1 and a.intcall2 = b.intcall2 and a.viccall1 = b.viccall1 and a.viccall2 = b.viccall2 and a.caseno   = b.caseno and a.interferer = b.interferer and c.intcall1 = b.intcall1 and c.intcall2 = b.intcall2 and c.viccall1 = b.viccall1 and c.viccall2 = b.viccall2 and c.caseno   = b.caseno and c.interferer = b.interferer and c.intanum = b.intanum and c.vicanum = b.vicanum and c.intbndcde = b.intbndcde and c.vicbndcde = b.vicbndcde ORDER BY caseno, subcaseno, resti ",
-                            ttName, ttName, ttName);
+            cSQL = String.Format("SELECT a.caseno, subcaseno, intname1, a.interferer, vicname1, int1vic1dist, intoffax, vicoffax, " +
+                "vicpwrrx, calctype, intpolar, vicpolar, intfreqtx, freqsep, calcico,	calcixp, reqdcalc, resti, intname2, vicname2	" +
+                "FROM {0}.tt_{1}_site a,{0}.tt_{1}_ante b,{0}.tt_{1}_chan c " +
+                "WHERE	a.intcall1 = b.intcall1 and a.intcall2 = b.intcall2 " +
+                "and a.viccall1 = b.viccall1 and a.viccall2 = b.viccall2 and a.caseno   = b.caseno and a.interferer = b.interferer " +
+                "and c.intcall1 = b.intcall1 and c.intcall2 = b.intcall2 and c.viccall1 = b.viccall1 and c.viccall2 = b.viccall2 " +
+                "and c.caseno   = b.caseno and c.interferer = b.interferer and c.intanum = b.intanum and c.vicanum = b.vicanum " +
+                "and c.intbndcde = b.intbndcde and c.vicbndcde = b.vicbndcde ORDER BY caseno, subcaseno, resti ",
+                   Info.GlobalSchema, ttName);
+
+            Console.Write(cSQL);
 
             sqlRet = ODBC.SQLAllocHandle(ODBC.SQL_HANDLE_STMT, hConn, out hStmt);
 
             sqlRet = ODBC.SQLExecDirect(hStmt, cSQL, cSQL.Length);
             if (!ODBC.IsOK(sqlRet))
             {
+                Console.WriteLine("\nTstsrp4.TsTsRp4(): ERROR: SQLExecDirect() failed on query:\n" + cSQL);
                 Log2.e("\nTstsrp4.TsTsRp4(): ERROR: SQLExecDirect() failed on query:\n" + cSQL);
                 Ssutil.DbGetDiagStmt(hStmt, "tstsrp401: Could not execute statement:-\n" + cSQL);
                 return Error.ODBC_EXECDIRECT_FAILED;
@@ -111,6 +122,7 @@ namespace TpRunTsip
                 }
                 else if (!ODBC.IsOK(sqlRet))
                 {
+                    Console.WriteLine("\nTstsrp4.TsTsRp4()(): ERROR: SQLFetch() failed.");
                     Log2.e("\nTstsrp4.TsTsRp4()(): ERROR: SQLFetch() failed.");
                     Ssutil.DbGetDiagStmt(hStmt, "tstsrp402: Failed Fetch:");
                     return Error.ODBC_FETCH_FAILED;
@@ -147,6 +159,7 @@ namespace TpRunTsip
                 }
                 catch (Exception e)
                 {
+                    Console.WriteLine("\nTstsrp4.TsTsRp4()(): ERROR: ODBC 'Get' attempt failed: " + e.Message);
                     Log2.e("\nTstsrp4.TsTsRp4()(): ERROR: ODBC 'Get' attempt failed: " + e.Message);
                     Ssutil.DbGetDiagStmt(hStmt, "tstsrp402: Error retrieving field " + e.Message + ".");
                     return Error.ODBC_GET_FAILED;
@@ -228,7 +241,7 @@ namespace TpRunTsip
         {
             string cDate;
             string cTime;
-
+            Console.WriteLine("In TsTsRp4Page");
             GenUtil.UtGetDateTime(out cDate, out cTime);
 
             pl.PageBefore();

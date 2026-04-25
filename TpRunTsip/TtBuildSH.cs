@@ -397,7 +397,7 @@ namespace TpRunTsip
 
             if ((rc = Ssutil.UtCreateTable(Constant.TT, tsipName)) != Constant.SUCCESS)
             {
-                Console.WriteLine("UtCreateTable failed for new table" + tsipName);
+                Console.WriteLine("UtCreateTable failed for new table: " + tsipName);
 
                 Log2.e("\nTtBuildSH.TtCreateTsipTables(): ERROR: call to Ssutil.UtCreateTable() failed, rc = " + rc);
                 return (rc);

@@ -92,8 +92,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>COPY D:\MicsBatchProgs\MicsBat\_bin\Release\MtPrint.exe D:\develbat\MtPrint.exe
+COPY D:\MicsBatchProgs\MicsBat\_bin\Release\MtUpdate.pdb D:\develbat\MtPrint.pdb</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -37,7 +37,7 @@ namespace SdUpdateAnte
             {
                 // Enable or disable developmental run-time logging.
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\SdUpdateAnte.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\SdUpdateAnte.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

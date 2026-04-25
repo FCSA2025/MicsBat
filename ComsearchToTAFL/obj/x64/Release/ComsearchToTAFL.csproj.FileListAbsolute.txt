@@ -64,3 +64,4 @@ D:\MicsBatchProgs\MicsBat\ComsearchToTAFL\obj\x64\Release\ComsearchToTAFL.pdb
 D:\develbat\ComsearchToTAFL.exe.config
 D:\develbat\ComsearchToTAFL.exe
 D:\develbat\ComsearchToTAFL.pdb
+D:\MicsBatchProgs\MicsBat\ComsearchToTAFL\obj\x64\Release\ComsearchToTAFL.exe.config

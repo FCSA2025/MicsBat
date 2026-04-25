@@ -50,7 +50,7 @@ namespace TsipQdelete
                 }
 #if false
                 // Turn on developmental logging.
-                string mLog2FilePath = @"d:\MicsBatchLog\TsipQdelete.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\TsipQdelete.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

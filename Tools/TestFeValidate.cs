@@ -71,7 +71,7 @@ namespace Tools
             {
 #if false
                 // Turn on developmental logging.
-                string mLog2FilePath = @"d:\MicsBatchLog\Test_FeValidate.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\Test_FeValidate.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

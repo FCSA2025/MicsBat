@@ -38,7 +38,7 @@ namespace SdUpdateOper
             {
                 // Enable or disable developmental run-time logging.
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\SdUpdateOper.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\SdUpdateOper.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

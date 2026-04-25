@@ -42,3 +42,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateOper\obj\x64\Release\SdUpdateOper.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdateOper\obj\x64\Release\SdUpdate.03D4275D.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateOper\obj\x64\Release\SdUpdateOper.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateOper\obj\x64\Release\SdUpdateOper.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateOper\obj\x64\Release\SdUpdateOper.exe.config

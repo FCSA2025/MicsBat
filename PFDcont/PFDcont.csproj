@@ -105,8 +105,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>COPY D:\MicsBatchProgs\MicsBat\_bin\Release\PFDcont.exe D:\develbat\PFDcont.exe
+COPY D:\MicsBatchProgs\MicsBat\_bin\Release\PFDcont.pdb D:\develbat\PFDcont.pdb</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

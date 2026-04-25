@@ -42,3 +42,4 @@ D:\MicsBatchProgs\MicsBat\TsipQdelete\obj\x64\Release\TsipQdelete.csproj.CoreCom
 D:\MicsBatchProgs\MicsBat\TsipQdelete\obj\x64\Release\TsipQdel.357F81BB.Up2Date
 D:\MicsBatchProgs\MicsBat\TsipQdelete\obj\x64\Release\TsipQdelete.exe
 D:\MicsBatchProgs\MicsBat\TsipQdelete\obj\x64\Release\TsipQdelete.pdb
+D:\MicsBatchProgs\MicsBat\TsipQdelete\obj\x64\Release\TsipQdelete.exe.config

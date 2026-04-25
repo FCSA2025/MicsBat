@@ -119,7 +119,7 @@ ISED TAFL data (CSV file)  :  http://www.ic.gc.ca/engineering/SMS_TAFL_Files/TAF
 
                     DynTAFL.CloseTAFL(handle);
 
-                    string outputFilePath = @"d:\MicsBatchLog\" + "MissingLinks - " + oper + ".csv";
+                    string outputFilePath = @"d:\MicsBatchLogs\" + "MissingLinks - " + oper + ".csv";
                     File.WriteAllLines(outputFilePath, csvLines);
                 }
 

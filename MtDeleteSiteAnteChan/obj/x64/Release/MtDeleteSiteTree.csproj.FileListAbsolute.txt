@@ -28,3 +28,4 @@ D:\MicsBatchProgs\MicsBat\MtDeleteSiteAnteChan\obj\x64\Release\MtDeleteSiteTree.
 D:\MicsBatchProgs\MicsBat\MtDeleteSiteAnteChan\obj\x64\Release\MtDelete.6AD75B4E.Up2Date
 D:\MicsBatchProgs\MicsBat\MtDeleteSiteAnteChan\obj\x64\Release\MtDeleteSiteTree.exe
 D:\MicsBatchProgs\MicsBat\MtDeleteSiteAnteChan\obj\x64\Release\MtDeleteSiteTree.pdb
+D:\MicsBatchProgs\MicsBat\MtDeleteSiteAnteChan\obj\x64\Release\MtDeleteSiteTree.exe.config

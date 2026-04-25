@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdatePlan\obj\x64\Release\SdUpdatePlan.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdatePlan\obj\x64\Release\SdUpdate.FE601853.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdatePlan\obj\x64\Release\SdUpdatePlan.exe
 D:\MicsBatchProgs\MicsBat\SdUpdatePlan\obj\x64\Release\SdUpdatePlan.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdatePlan\obj\x64\Release\SdUpdatePlan.exe.config

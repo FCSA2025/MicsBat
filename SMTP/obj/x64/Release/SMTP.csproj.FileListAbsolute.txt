@@ -23,3 +23,4 @@ D:\MicsBatchProgs\MicsBat\SMTP\obj\x64\Release\SMTP.csproj.CoreCompileInputs.cac
 D:\MicsBatchProgs\MicsBat\SMTP\obj\x64\Release\SMTP.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\SMTP\obj\x64\Release\SMTP.exe
 D:\MicsBatchProgs\MicsBat\SMTP\obj\x64\Release\SMTP.pdb
+D:\MicsBatchProgs\MicsBat\SMTP\obj\x64\Release\SMTP.exe.config

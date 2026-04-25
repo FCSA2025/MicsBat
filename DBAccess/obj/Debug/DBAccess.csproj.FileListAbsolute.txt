@@ -33,3 +33,5 @@ D:\MicsBatchProgs\MicsBat\DBAccess\obj\Debug\DBAccess.csproj.CoreCompileInputs.c
 D:\MicsBatchProgs\MicsBat\DBAccess\obj\Debug\DBAccess.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\DBAccess\obj\Debug\DBAccess.dll
 D:\MicsBatchProgs\MicsBat\DBAccess\obj\Debug\DBAccess.pdb
+D:\develbat\DBAccess.dll
+D:\develbat\DBAccess.pdb

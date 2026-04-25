@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\MtPrint\obj\x64\Release\MtPrint.csproj.CoreCompileInpu
 D:\MicsBatchProgs\MicsBat\MtPrint\obj\x64\Release\MtPrint.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\MtPrint\obj\x64\Release\MtPrint.exe
 D:\MicsBatchProgs\MicsBat\MtPrint\obj\x64\Release\MtPrint.pdb
+D:\MicsBatchProgs\MicsBat\MtPrint\obj\x64\Release\MtPrint.exe.config

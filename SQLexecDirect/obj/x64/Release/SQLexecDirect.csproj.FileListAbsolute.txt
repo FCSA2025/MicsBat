@@ -39,3 +39,4 @@ D:\MicsBatchProgs\MicsBat\SQLexecDirect\obj\x64\Release\SQLExecDirect.csproj.Cor
 D:\MicsBatchProgs\MicsBat\SQLexecDirect\obj\x64\Release\SQLExecD.34A27AB6.Up2Date
 D:\MicsBatchProgs\MicsBat\SQLexecDirect\obj\x64\Release\SQLExecDirect.exe
 D:\MicsBatchProgs\MicsBat\SQLexecDirect\obj\x64\Release\SQLExecDirect.pdb
+D:\MicsBatchProgs\MicsBat\SQLexecDirect\obj\x64\Release\SQLExecDirect.exe.config

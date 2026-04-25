@@ -151,6 +151,7 @@ namespace _Utillib
                 sqlRet = ODBC.SQLExecDirect(hStmt, cSQL, cSQL.Length);
                 if (!ODBC.IsOK(sqlRet))
                 {
+                    Log2.e(cSQL);
                     Log2.e("\nTsipQ.InsertTsipQ(): ERROR: call to ODBC.SQLExecDirect() failed.");
                     string str = String.Format("tsipQ: ERROR - Could not insert Job {0}, {1}",
                                     nJob, cFileName);

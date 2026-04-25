@@ -63,7 +63,7 @@ namespace T5aPolygons
             {
                 // Enable or disable developmental run-time logging.
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\T5aPolygons.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\T5aPolygons.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

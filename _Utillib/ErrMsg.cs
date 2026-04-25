@@ -104,10 +104,15 @@ namespace _Utillib
         /// <param name="paramArray"> - user-defined inline error messages.</param>
         public static int UtPrintMessage(int errorNumber, params string[] paramArray)
         {
-            // Write fully-assembled error message to stdout.
-            string str = AssembleErrorMessage(errorNumber, paramArray);
-            mTW.WriteLine(str);
-
+            try
+            { // Write fully-assembled error message to stdout.
+                string str = AssembleErrorMessage(errorNumber, paramArray);
+                mTW.WriteLine(str);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("UtPrintMessage1:" + ex.Message);
+            }
             return 0;
         }
 
@@ -119,12 +124,16 @@ namespace _Utillib
         /// <param name="tW"> - caller prescribed TextWriter object to write to.</param>
         public static int UtPrintMessage(int errorNumber, string param, TextWriter tW)
         {
-            // Write fully-assembled error message to prescribed TextWriter object.
-            string[] paramArray = new string[1];
-            paramArray[0] = param;
-            string str = AssembleErrorMessage(errorNumber, paramArray);
-            tW.WriteLine(str);
-
+            try { // Write fully-assembled error message to prescribed TextWriter object.
+                string[] paramArray = new string[1];
+                paramArray[0] = param;
+                string str = AssembleErrorMessage(errorNumber, paramArray);
+                tW.WriteLine(str);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("UtPrintMessage2:" + ex.Message);
+            }
             return 0;
         }
 
@@ -136,10 +145,14 @@ namespace _Utillib
         /// <param name="paramArray"> - user-defined inline error messages.</param>
         public static int UtPrintMessage(TextWriter tw, int errorNumber, params string[] paramArray)
         {
-            // Write fully-assembled error message to stdout.
-            string str = AssembleErrorMessage(errorNumber, paramArray);
-            tw.WriteLine(str);
-
+            try { // Write fully-assembled error message to stdout.
+                string str = AssembleErrorMessage(errorNumber, paramArray);
+                tw.WriteLine(str);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("UtPrintMessage3:" + ex.Message);
+            }
             return 0;
         }
 

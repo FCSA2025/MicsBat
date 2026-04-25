@@ -29,3 +29,4 @@ D:\MicsBatchProgs\MicsBat\CompareReports\obj\x64\Release\CompareReports.csproj.C
 D:\MicsBatchProgs\MicsBat\CompareReports\obj\x64\Release\CompareR.2D88BC78.Up2Date
 D:\MicsBatchProgs\MicsBat\CompareReports\obj\x64\Release\CompareReports.exe
 D:\MicsBatchProgs\MicsBat\CompareReports\obj\x64\Release\CompareReports.pdb
+D:\MicsBatchProgs\MicsBat\CompareReports\obj\x64\Release\CompareReports.exe.config

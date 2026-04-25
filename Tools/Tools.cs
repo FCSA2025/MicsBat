@@ -49,7 +49,7 @@ namespace Tools
                 //Console.Write("\n{0}", tafl.ToStringAsCSVexport(nullInds));
                 //Application.ExitQuietly(0);
 #if false
-                string mLog2FilePath = @"d:\MicsBatchLog\Tools.log";
+                string mLog2FilePath = @"d:\MicsBatchLogs\Tools.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();

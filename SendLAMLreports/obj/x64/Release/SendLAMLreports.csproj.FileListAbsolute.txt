@@ -35,3 +35,4 @@ D:\MicsBatchProgs\MicsBat\SendLAMLreports\obj\x64\Release\SendLAMLreports.csproj
 D:\MicsBatchProgs\MicsBat\SendLAMLreports\obj\x64\Release\SendLAMLreports.csproj.CoreCompileInputs.cache
 D:\MicsBatchProgs\MicsBat\SendLAMLreports\obj\x64\Release\SendLAMLreports.exe
 D:\MicsBatchProgs\MicsBat\SendLAMLreports\obj\x64\Release\SendLAMLreports.pdb
+D:\MicsBatchProgs\MicsBat\SendLAMLreports\obj\x64\Release\SendLAMLreports.exe.config

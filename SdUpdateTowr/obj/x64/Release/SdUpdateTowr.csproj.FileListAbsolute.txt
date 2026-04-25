@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\SdUpdateTowr\obj\x64\Release\SdUpdateTowr.csproj.CoreC
 D:\MicsBatchProgs\MicsBat\SdUpdateTowr\obj\x64\Release\SdUpdate.E3A4FD21.Up2Date
 D:\MicsBatchProgs\MicsBat\SdUpdateTowr\obj\x64\Release\SdUpdateTowr.exe
 D:\MicsBatchProgs\MicsBat\SdUpdateTowr\obj\x64\Release\SdUpdateTowr.pdb
+D:\MicsBatchProgs\MicsBat\SdUpdateTowr\obj\x64\Release\SdUpdateTowr.exe.config

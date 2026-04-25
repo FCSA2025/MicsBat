@@ -102,11 +102,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>ECHO ##### Touching TsipInitiator.exe.config #####
-REM ECHO %25%25TMP%25%25=%25TMP%25
-ECHO OFF
-SET bin=D:\users\ahulme\bin
-%25bin%25\Touch D:\Users\ahulme\MICS#\_bin\Release TsipInitiator.exe.config &lt; %25bin%25\touchY.txt &gt;%25TMP%25\TouchOut.txt</PostBuildEvent>
+    <PostBuildEvent>COPY D:\MicsBatchProgs\MicsBat\_bin\Release\TsipInitiator.exe D:\develbat\TsipInitiator.exe
+COPY D:\MicsBatchProgs\MicsBat\_bin\Release\TsipInitiator.pdb D:\develbat\sipInitiator.pdb</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

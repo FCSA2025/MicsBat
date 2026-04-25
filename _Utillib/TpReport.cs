@@ -39,7 +39,7 @@ namespace _Utillib
         public static int CreateTTStatRep(string proposed, string siteName, out string cStatTab)
         {
             string str = String.Format("\nTpReport.CreateTTStatRep(): Entry: proposed = {0},   siteName = {1}", proposed, siteName);
-            //...Log2.v(str);
+            Console.WriteLine(str);
 
             string sqlstmt;
 
@@ -71,7 +71,7 @@ namespace _Utillib
             sqlstmt = String.Format("create table {0} (  tmpinter 	varchar(1),  tmpcall1 	varchar(10),  tmpname 	varchar(32),  tmpoper 	varchar(6), 	tmplatit 	int, 	tmplongit int, 	tmpgrnd 	float)",
                             cStatTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet))
@@ -91,7 +91,7 @@ namespace _Utillib
 
             sqlstmt = String.Format("insert into {0} (tmpinter, tmpcall1) select distinct 'P', viccall1 from {1} where interferer = 'E'", cStatTab, siteName);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet) && !ODBC.IsNoData(sqlRet))
@@ -107,7 +107,7 @@ namespace _Utillib
 
             sqlstmt = String.Format("insert into {0} (tmpinter, tmpcall1) select distinct 'E', viccall1 from {1} where interferer = 'P'", cStatTab, siteName);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet) && !ODBC.IsNoData(sqlRet))
@@ -124,7 +124,7 @@ namespace _Utillib
             sqlstmt = String.Format("insert into {0} (tmpinter, tmpcall1) select distinct interferer, intcall1 from {1} where not exists (select * from {2} where intcall1 = tmpcall1)",
                             cStatTab, siteName, cStatTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet) && !ODBC.IsNoData(sqlRet))
@@ -145,7 +145,7 @@ namespace _Utillib
             sqlstmt = String.Format("create view {0} (inter, intcall, intname1, intoper, intlatit, intlongit, intgrnd) as Select interferer, intcall1, min(intname1), min(intoper), min(intlatit), min(intlongit), min(intgrnd) From {1} Group By interferer, intcall1",
                     x_cStatTab, siteName);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet) && !ODBC.IsNoData(sqlRet))
@@ -164,7 +164,7 @@ namespace _Utillib
             sqlstmt = String.Format("create view {0} (inter, viccall, vicname1, vicoper, viclatit, viclongit, vicgrnd) as Select interferer, viccall1, min(vicname1), min(vicoper), min(viclatit), min(viclongit), min(vicgrnd) From {1} Group By interferer, viccall1",
                     y_cStatTab, siteName);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet) && !ODBC.IsNoData(sqlRet))
@@ -181,7 +181,7 @@ namespace _Utillib
             sqlstmt = String.Format("update {0} set tmpname = intname1, tmpoper = intoper, tmplatit = intlatit, tmplongit = intlongit, tmpgrnd = intgrnd from {1} where inter = 'P' and tmpcall1 = intcall",
                    cStatTab, x_cStatTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet) && !ODBC.IsNoData(sqlRet))
@@ -198,7 +198,7 @@ namespace _Utillib
             sqlstmt = String.Format("update {0} set tmpname = vicname1, tmpoper = vicoper, tmplatit = viclatit, tmplongit = viclongit, tmpgrnd = vicgrnd from {1} where inter = 'P' and tmpcall1 = viccall",
                     cStatTab, y_cStatTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet) && !ODBC.IsNoData(sqlRet))
@@ -223,7 +223,7 @@ namespace _Utillib
             sqlstmt = String.Format("update {0} set tmpname = vicname1, tmpoper = vicoper, tmplatit = viclatit, tmplongit = viclongit, tmpgrnd = vicgrnd from {1} where inter = 'E' and tmpcall1 = viccall",
                     cStatTab, y_cStatTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet) && !ODBC.IsNoData(sqlRet))
@@ -240,7 +240,7 @@ namespace _Utillib
             sqlstmt = String.Format("update {0} set tmpname = name, tmpoper = oper, tmplatit = latit, tmplongit = longit, tmpgrnd = grnd from main.mt_site where tmpinter = 'E' and tmpcall1 = call1 and tmpname is null",
                             cStatTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet) && !ODBC.IsNoData(sqlRet))
@@ -256,7 +256,7 @@ namespace _Utillib
 
             sqlstmt = String.Format("DROP view {0}, {1}", x_cStatTab, y_cStatTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
             if (!ODBC.IsOK(sqlRet))
@@ -272,7 +272,7 @@ namespace _Utillib
             ODBC.SQLFreeHandle(ODBC.SQL_HANDLE_STMT, hStmt);
             Ssutil.DisConn(hConn);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): Exit");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): Exit");
             return 0;
         }
 
@@ -290,7 +290,7 @@ namespace _Utillib
                                          out string cPropTab,
                                          out string cEnvTab)
         {
-            //...Log2.v("\nTpReport.CreateETStatRep(): Entry");
+            Console.WriteLine("\nTpReport.CreateETStatRep(): Entry");
 
             SQLHANDLE hStmt;
             SQLRETURN sqlRet;
@@ -327,7 +327,7 @@ namespace _Utillib
                             cPropTab);
             sqlRet = ODBC.SQLAllocHandle(ODBC.SQL_HANDLE_STMT, hConn, out hStmt);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -339,7 +339,7 @@ namespace _Utillib
             sqlstmt = String.Format("create table {0} ( 	tmpinter 	varchar(1), 	tmplocat 	varchar(11), 	tmpcall1 	varchar(10), 	tmpname 	varchar(32), 	tmpoper 	varchar(6), 	tmplatit 	int, 	tmplongit int, 	tmpgrnd 	real)",
                             cEnvTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -356,7 +356,7 @@ namespace _Utillib
 
             sqlstmt = String.Format("DROP view {0}", x_cPropTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -364,7 +364,7 @@ namespace _Utillib
 
             sqlstmt = String.Format("create view {0} (earthlocation,earthname, earthoper, earthlatit, earthlongit, earthgrnd ) as select earthlocation, min(earthname) , min(earthoper) , min(earthlatit), min(earthlongit), min(earthgrnd) from {1} group by earthlocation", x_cPropTab, siteName);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -372,7 +372,7 @@ namespace _Utillib
 
             sqlstmt = String.Format("DROP view {0}", y_cPropTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -380,7 +380,7 @@ namespace _Utillib
 
             sqlstmt = String.Format("create view {0} (terrcall1,terrname1, terroper, terrlatit, terrlongit, terrgrnd ) as select terrcall1, min(terrname1) , min(terroper) , min(terrlatit), min(terrlongit), min(terrgrnd) from {1} group by terrcall1", y_cPropTab, siteName);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -393,7 +393,7 @@ namespace _Utillib
                 sqlstmt = String.Format("insert into {0}  (tmpinter, tmplocat, tmpcall1) select distinct  'I', terrcall1, terrcall1  from {1} where interferer = 'T'",
                                 cPropTab, anteName);
 
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -402,7 +402,7 @@ namespace _Utillib
                 sqlstmt = String.Format("insert into {0} (tmpinter, tmplocat, tmpcall1) select distinct  'V', earthlocation, earthcall1  from {1} where interferer = 'T'",
                                 cPropTab, anteName);
 
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -410,7 +410,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("insert into {0}  (tmpinter, tmplocat, tmpcall1) select distinct  'I', earthlocation, earthcall1 from {1} where interferer = 'E'",
                                                 cEnvTab, anteName);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -418,7 +418,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("insert into {0}  (tmpinter, tmplocat, tmpcall1) select distinct  'V', terrcall1, terrcall1 from {1} where interferer = 'E'",
                                 cEnvTab, anteName);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -430,7 +430,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = terrname1, tmpoper = terroper, tmplatit = terrlatit, tmplongit = terrlongit, tmpgrnd = terrgrnd from {1} where tmpinter = 'I' and tmpcall1 = terrcall1",
                                 cPropTab, y_cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -438,7 +438,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = terrname1, tmpoper = terroper, tmplatit = terrlatit, tmplongit = terrlongit, tmpgrnd = terrgrnd from {1} where tmpinter = 'V' and tmpcall1 = terrcall1",
                                 cEnvTab, y_cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -453,7 +453,7 @@ namespace _Utillib
                 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
                 sqlstmt = String.Format("update {0} set tmpname = earthname, tmpoper = earthoper, tmplatit = earthlatit, tmplongit = earthlongit, tmpgrnd = earthgrnd from {1} where tmpinter = 'V' and tmplocat=earthlocation",
                                 cPropTab, x_cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -461,7 +461,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = name, tmpoper = oper, tmplatit = latit, tmplongit = longit, tmpgrnd = grnd from main.me_site where tmpinter = 'V' and tmplocat = location and tmpname is null",
                                 cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -469,7 +469,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = earthname, tmpoper = earthoper, tmplatit = earthlatit, tmplongit = earthlongit, tmpgrnd = earthgrnd from {1} where tmpinter = 'I' and tmplocat=earthlocation",
                                 cEnvTab, x_cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -477,7 +477,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = name, tmpoper = oper, tmplatit = latit, tmplongit = longit, tmpgrnd = grnd from main.me_site where tmpinter = 'I' and tmplocat = location and tmpname is null",
                                 cEnvTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -486,7 +486,7 @@ namespace _Utillib
             {
                 sqlstmt = String.Format("insert into {0} (tmpinter, tmplocat, tmpcall1) select distinct 'I', earthlocation, earthcall1 from {1} where interferer = 'E'",
                                 cPropTab, anteName);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -494,7 +494,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("insert into {0} (tmpinter, tmplocat, tmpcall1) select distinct 'V', terrcall1, terrcall1 from {1} where interferer = 'E'",
                                 cPropTab, anteName);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -502,7 +502,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("insert into {0} (tmpinter, tmplocat, tmpcall1) select distinct 'I', terrcall1, terrcall1 from {1} where interferer = 'T'",
                                 cEnvTab, anteName);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -510,7 +510,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("insert into {0} (tmpinter, tmplocat, tmpcall1) select distinct 'V', earthlocation, earthcall1 from {1} where interferer = 'T'",
                                 cEnvTab, anteName);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -522,7 +522,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = earthname,     tmpoper = earthoper,     tmplatit = earthlatit,     tmplongit = earthlongit,     tmpgrnd = earthgrnd from {1} where tmpinter = 'I' and tmplocat=earthlocation",
                                     cPropTab, x_cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -530,7 +530,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = earthname, tmpoper = earthoper, tmplatit = earthlatit, tmplongit = earthlongit, tmpgrnd = earthgrnd from {1} where tmpinter = 'V' and tmplocat=earthlocation",
                                 cEnvTab, x_cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -538,7 +538,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = terrname1, tmpoper = terroper, tmplatit = terrlatit, tmplongit = terrlongit, tmpgrnd = terrgrnd from {1} where tmpinter = 'V' and tmpcall1 = terrcall1",
                                 cPropTab, y_cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -546,7 +546,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = name, tmpoper = oper, tmplatit = latit, tmplongit = longit, tmpgrnd = grnd from main.mt_site where tmpinter = 'V' and tmpcall1 = call1 and tmpname is null",
                                 cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -554,7 +554,7 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = terrname1, tmpoper = terroper, tmplatit = terrlatit, tmplongit = terrlongit, tmpgrnd = terrgrnd from {1} where tmpinter = 'I' and tmpcall1 = terrcall1",
                                 cEnvTab, y_cPropTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -562,14 +562,14 @@ namespace _Utillib
 
                 sqlstmt = String.Format("update {0} set tmpname = name, tmpoper = oper, tmplatit = latit, tmplongit = longit, tmpgrnd = grnd from main.mt_site where tmpinter = 'I' and tmpcall1 = call1 and tmpname is null",
                                 cEnvTab);
-                //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+                Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
                 sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
             }
             sqlstmt = String.Format("Drop view {0}, {1}", x_cPropTab, y_cPropTab);
 
-            //...Log2.v("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
+            Console.WriteLine("\nTpReport.CreateTTStatRep(): SQLExecDirect():\n" + sqlstmt + "\n");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, sqlstmt, sqlstmt.Length);
 
@@ -577,7 +577,7 @@ namespace _Utillib
             sqlRet = ODBC.SQLFreeHandle(ODBC.SQL_HANDLE_STMT, hStmt);
             Ssutil.DisConn(hConn);
 
-            //...Log2.v("\nTpReport.CreateETStatRep(): Exit");
+            Console.WriteLine("\nTpReport.CreateETStatRep(): Exit");
         }
 
 

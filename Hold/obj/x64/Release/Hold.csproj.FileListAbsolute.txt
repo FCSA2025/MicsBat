@@ -32,3 +32,4 @@ D:\MicsBatchProgs\MicsBat\Hold\obj\x64\Release\Hold.csproj.CoreCompileInputs.cac
 D:\MicsBatchProgs\MicsBat\Hold\obj\x64\Release\Hold.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\Hold\obj\x64\Release\Hold.exe
 D:\MicsBatchProgs\MicsBat\Hold\obj\x64\Release\Hold.pdb
+D:\MicsBatchProgs\MicsBat\Hold\obj\x64\Release\Hold.exe.config

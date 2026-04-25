@@ -151,8 +151,8 @@ namespace TpRunTsip
 
             try
             {
-#if false
-                string mLog2FilePath = @"d:\users\ahulme\temp\TpRunTsip.log";
+#if true
+                string mLog2FilePath = @"d:\MicsBatchLogs\TpRunTsip.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {
                     Log2.Erase();
@@ -451,7 +451,7 @@ namespace TpRunTsip
                     Console.WriteLine("Before parmrec init");
                     if ((rc = ParmRecInit(currParm)) != Constant.SUCCESS)
                     {
-                        Console.WriteLine("Before parmrec init failed");
+                        Console.WriteLine("Parmrec init failed");
                         if (rc != Constant.FAILURE)
                         {
                             ErrMsg.UtPrintMessage(rc);
@@ -1585,6 +1585,7 @@ namespace TpRunTsip
             {
                 t = "N";
             }
+            Console.WriteLine("ReportStudy1 t=" + t);
             Console.WriteLine("ReportStudy2");
             if ((mReports.TtStudy) ||
                (mReports.TeStudy) ||
@@ -1596,13 +1597,14 @@ namespace TpRunTsip
             {
                 u = "N";
             }
-
+            Console.WriteLine("ReportStudy2 u=" + u);
             /*	Pass in the max coordination distances for an ETSTUDY  */
             Console.WriteLine("ReportStudy3");
             if (mReports.EtStudy)
             {
                 cDistStr = String.Format("\",txtro=\"{0:F0}\",txpre=\"{1:F0}\",rxtro=\"{2:F0}\",rxpre=\"{3:F0}",
                                 mdTxTro, mdTxPre, mdRxTro, mdRxPre);
+                Console.WriteLine(cDistStr);
             }
 
             Console.WriteLine("ReportStudy4");
@@ -1616,6 +1618,7 @@ namespace TpRunTsip
             {
                 v = "N";
             }
+            Console.WriteLine("ReportStudy4 v=" + v);
             Console.WriteLine("ReportStudy5");
             if ((mReports.TsTsDet) ||
                (mReports.TsEsCase) ||
@@ -1627,6 +1630,7 @@ namespace TpRunTsip
             {
                 w = "N";
             }
+            Console.WriteLine("ReportStudy5 w=" + w);
             Console.WriteLine("ReportStudy6");
             if ((mReports.TsTsSum) ||
                (mReports.EsTsSum) ||
@@ -1638,7 +1642,7 @@ namespace TpRunTsip
             {
                 x = "N";
             }
-
+            Console.WriteLine("ReportStudy6 x=" + x);
             /*	The aggregate interference reports are carried in a two character field */
             Console.WriteLine("ReportStudy7");
             if ((mReports.AggIntRep))
@@ -1649,6 +1653,7 @@ namespace TpRunTsip
             {
                 y = "N";
             }
+            Console.WriteLine("ReportStudy7 y=" + y);
             Console.WriteLine("ReportStudy8");
             if ((mReports.AggIntCsv))
             {
@@ -1658,6 +1663,7 @@ namespace TpRunTsip
             {
                 y += "N";
             }
+            Console.WriteLine("ReportStudy8 y=" + y);
 
             cTableName = String.Format("{0}_{1}", tempname, currParm.parmStruct.runname);
             if (cTableName.Length > Constant.MAX_DISP_TAB_LEN)
@@ -1785,7 +1791,7 @@ namespace TpRunTsip
                     Application.Exit(666);
                 }
 
-                //Console.WriteLine("\n\nTpRunTsip.OpenReportStreams()2:\n");
+                Console.WriteLine("\n\nTpRunTsip.OpenReportStreams()2:\n");
 
                 /* specify table names for storing TSIP results in database */
                 tblAGGINTREP = "venn.tsipAGGINTREPStoredef";
@@ -2458,6 +2464,7 @@ namespace TpRunTsip
                         destname, tempName, currParm.runname);
                 }
 
+                Console.WriteLine("TpRunTsip 2461 TsTs:" + mReports.TsTsStn + " TsEs " + mReports.TsEsStn + " EsTs " + mReports.EsTsStn);
                 if (mReports.TsTsStn ||
                     mReports.TsEsStn ||
                     mReports.EsTsStn)

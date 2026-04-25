@@ -12,9 +12,9 @@ namespace Tools
 {
     public class MicsSolnSourceCodeHashes
     {
-        private const string pathToSourceCodeFilesList = @"D:\MicsBatchLog\MICS#SourceCodeFiles.txt";
-        private const string pathToHashResultsFile = @"D:\MicsBatchLog\MICS#SourceCodeFileHashes.txt";
-        private const string tempFilePath = @"D:\MicsBatchLog\temp.txt";
+        private const string pathToSourceCodeFilesList = @"D:\MicsBatchLogs\MICS#SourceCodeFiles.txt";
+        private const string pathToHashResultsFile = @"D:\MicsBatchLogs\MICS#SourceCodeFileHashes.txt";
+        private const string tempFilePath = @"D:\MicsBatchLogs\temp.txt";
         public static void Go(string[] args)
         {
             try

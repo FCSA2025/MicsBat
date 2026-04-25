@@ -23,3 +23,4 @@ D:\MicsBatchProgs\MicsBat\IsedTaflToTable\obj\x64\Release\IsedTaflToTable.csproj
 D:\MicsBatchProgs\MicsBat\IsedTaflToTable\obj\x64\Release\IsedTafl.EBFA3108.Up2Date
 D:\MicsBatchProgs\MicsBat\IsedTaflToTable\obj\x64\Release\IsedTaflToTable.exe
 D:\MicsBatchProgs\MicsBat\IsedTaflToTable\obj\x64\Release\IsedTaflToTable.pdb
+D:\MicsBatchProgs\MicsBat\IsedTaflToTable\obj\x64\Release\IsedTaflToTable.exe.config
