@@ -561,7 +561,8 @@ namespace _Configuration
         public const int CTX_XREF_XREF_TFCI = 4;
         public const int CTX_XREF_XREF_RXEQP = 5;
         public const int CTX_XREF_SIZE_ = 6;
-        public const string DEFAULT_MICS_SYSTEM_DIR = "/prod/bin";
+        //public const string DEFAULT_MICS_SYSTEM_DIR = "/prod/bin";
+        public const string DEFAULT_MICS_SYSTEM_DIR = "develbat";
         public const string DEFAULT_MICS_FILES_DIR = "/prod/files";
         public const string MICS_SYSTEM_DIR_ENV_VAR = "MICS_SYSTEM_DIR";
         public const string MICS_FILES_DIR_ENV_VAR = "MICS_FILES_DIR";

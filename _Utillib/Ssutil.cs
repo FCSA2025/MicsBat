@@ -140,7 +140,7 @@ namespace _Utillib
         /// <returns> - number of rows found.</returns>
         public static int DbCountRows(string cTable, string cCondition)
         {
-            Console.Write("\n\nSsutil.DbCountRows(): Entry ctable:" + cTable + " cCondition:" + cCondition);
+            //...Log2.v("\n\nSsutil.DbCountRows(): Entry ctable:" + cTable + " cCondition:" + cCondition);
 
             //char cBuf[1000];
             int nCount = 0;
@@ -169,7 +169,7 @@ namespace _Utillib
 
             SQLCHARPTR cBuf = sb.ToString();
 
-            Console.WriteLine("\r\nSsutil.DbCountRows(): sb = " + sb);
+            //...Log2.v("\r\nSsutil.DbCountRows(): sb = " + sb);
 
             try
             {
@@ -1126,9 +1126,9 @@ namespace _Utillib
         /// <returns> - true if table is found; else false.</returns>
         public static bool UtTableExist(int tableType, string tableName)
         {
-            Console.Write("\n\nSsutil.UtTableExist(): Entry\n");
-            Console.Write("\nSsutil.UtTableExist(): tableType = " + tableType + "\n");
-            Console.Write("\nSsutil.UtTableExist(): tableName = " + tableName + "\n");
+            //...Log2.v("\n\nSsutil.UtTableExist(): Entry\n");
+            //...Log2.v("\nSsutil.UtTableExist(): tableType = " + tableType + "\n");
+            //...Log2.v("\nSsutil.UtTableExist(): tableName = " + tableName + "\n");
 
             bool rc = false;
             mIntName = null;
@@ -1143,7 +1143,7 @@ namespace _Utillib
             switch (tableType)
             {
                 case Constant.FT:
-                    Console.Write("\r\nSsutil.UtTableExist() case " + Constant.FT + "\n");
+                    //...Log2.v("\r\nSsutil.UtTableExist() case " + Constant.FT + "\n");
                     GenUtil.UtCvtName(Constant.FT_TITL, tableName, out mIntName);
                     GenUtil.UtCvtName(Constant.FT_SHRL, tableName, out mIntName1);
                     GenUtil.UtCvtName(Constant.FT_SITE, tableName, out mIntName2);
@@ -1159,7 +1159,7 @@ namespace _Utillib
                     break;
 
                 case Constant.FE:
-                    Console.Write("\r\nSsutil.UtTableExist(): case " + Constant.FE + "\n");
+                    //...Log2.v("\r\nSsutil.UtTableExist(): case " + Constant.FE + "\n");
                     GenUtil.UtCvtName(Constant.FE_TITL, tableName, out mIntName);
                     GenUtil.UtCvtName(Constant.FE_SHRL, tableName, out mIntName1);
                     GenUtil.UtCvtName(Constant.FE_SITE, tableName, out mIntName2);
@@ -1414,7 +1414,7 @@ namespace _Utillib
         /// <returns></returns>
         public static bool IntTableExist(string tabName)
         {
-            Console.WriteLine("\nIn Ssutil.IntTableExist() : tabName = {0}", tabName);
+            //Log2.v("\nIn Ssutil.IntTableExist() : tabName = {0}", tabName);
 
             int nCount = 0;
             string cSQL;
@@ -1438,14 +1438,14 @@ namespace _Utillib
                 cSQL = "TABLE_SCHEMA='" + Info.GlobalSchema + "' and TABLE_NAME='" + tabName + "'";
             }
 
-            Console.WriteLine("\nSsutil.IntTableExist(): cSQL= {0}", cSQL);
+            //Log2.v("\nSsutil.IntTableExist(): cSQL= {0}", cSQL);
 
             nCount = DbCountRows("INFORMATION_SCHEMA.TABLES", cSQL);
 
             result = nCount > 0;
 
-            Console.WriteLine("\n\n" + cSQL);
-            Console.WriteLine(String.Format("\nSsutil.IntTableExist(): tabName = {0}, nCount = {1}, result = {2}", tabName, nCount, result));
+            //Log2.v("\n\n" + cSQL);
+            //Log2.v(String.Format("\nSsutil.IntTableExist(): tabName = {0}, nCount = {1}, result = {2}", tabName, nCount, result));
             return result;
         }
 
@@ -3732,7 +3732,7 @@ namespace _Utillib
             }
 
             /* add in data to the new title table (only 1 rec allowed) */
-            sqlCommand = String.Format("insert into {0} (validated, namef, mdate, mtime) values ('N', '%s', '%s', '%s')",
+            sqlCommand = String.Format("insert into " + Info.GlobalSchema+ ".{0} (validated, namef, mdate, mtime) values ('N', '%s', '%s', '%s')",
                 intTitleName, destName, curDate, curTime);
             SQLHANDLE hStmt;
             SQLHDBC hConn = Ssutil.NewConn();
@@ -3908,8 +3908,8 @@ namespace _Utillib
             string intName;
             int rc = Constant.FAILURE;
 
-            Console.WriteLine("\nSsutil.UtCreateTable(): tableType = " + tableType);
-            Console.WriteLine("\nSsutil.UtCreateTable(): tableName = " + tableName);
+            //Console.WriteLine("\nSsutil.UtCreateTable(): tableType = " + tableType);
+            //Console.WriteLine("\nSsutil.UtCreateTable(): tableName = " + tableName);
 
             switch (tableType)
             {
@@ -3940,7 +3940,7 @@ namespace _Utillib
                     {
                         UtCleanupTables(tableType, tableName);
                         Console.WriteLine("\nSsutil.UtCreateTable(): return: D");
-                        Log2.v("\nSsutil.UtCreateTable(): return: D");
+                        //...Log2.v("\nSsutil.UtCreateTable(): return: D");
                         return (rc);
                     }
                     GenUtil.UtCvtName(Constant.FT_CHAN, tableName, out intName);
@@ -3948,7 +3948,7 @@ namespace _Utillib
                     {
                         UtCleanupTables(tableType, tableName);
                         Console.WriteLine("\nSsutil.UtCreateTable(): return: E");
-                        Log2.v("\nSsutil.UtCreateTable(): return: E");
+                        //...Log2.v("\nSsutil.UtCreateTable(): return: E");
                         return (rc);
                     }
                     GenUtil.UtCvtName(Constant.FT_CHNG_CALL, tableName, out intName);
@@ -4774,9 +4774,11 @@ namespace _Utillib
                     Application.Exit(Error.MICSBINDIRNOTSET);
                 }
             }
-
+            // OVERRIDE to work in devel env //
+            mMicsBinDirPath = "D:\\develbat";
             // Construct the full path to the prescribed .exe file.
             string path = Path.Combine(mMicsBinDirPath, micsProgramName + ".exe");
+            Log2.v("binpath:" + path);
 
             // Check that this file path exists.
             if (!File.Exists(path))
@@ -4806,7 +4808,7 @@ namespace _Utillib
 
             mMicsBinDirPath = binDirPath;
 
-            //...Log2.v("\nSsutil.SetMicsBinDirPath(): mMicsBinDirPath = " + mMicsBinDirPath);
+            Log2.v("\nSsutil.SetMicsBinDirPath(): mMicsBinDirPath = " + mMicsBinDirPath);
         }
 
         /// <summary>
@@ -4827,6 +4829,7 @@ namespace _Utillib
                                     out string tsip_email,
                                     out string cDelMail)
         {
+            Log2.v("\nin Ssutils.EmailAddr");
             // 'out' requirements:
             cEmailAddr = "";
             tsip_email = "";
@@ -4855,6 +4858,7 @@ namespace _Utillib
             }
 
             cSQL = String.Format("select email, tsip_email, auto_delete from adm.account_details where micsid='{0}'", cMicsId);
+            Log2.v("\nin Ssutils.EmailAddr selecting user email");
 
             sqlRet = ODBC.SQLExecDirect(hStmt, cSQL, cSQL.Length);
             if (!ODBC.IsOK(sqlRet))
@@ -4883,12 +4887,14 @@ namespace _Utillib
                 }
             }
 
+            Log2.v("\nin Ssutils.EmailAddr getting fetched data");
             // Try to get the fetched data.
             try
             {
                 Ssutil.DbGetString(hStmt, 1, "email", out cEmailAddr, nMaxLen, out nNull);
                 Ssutil.DbGetString(hStmt, 2, "tsip_email", out tsip_email, 2, out nNull);
                 Ssutil.DbGetString(hStmt, 3, "auto_delete", out cDelMail, 2, out nNull);
+                Log2.v("\nin Ssutils.EmailAddr fetched data " + cEmailAddr + " " + tsip_email +" " +cDelMail);
                 nRet = 0;
             }
             catch (Exception e)

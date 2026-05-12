@@ -158,6 +158,7 @@ namespace _Utillib
                     Ssutil.DbGetDiagStmt(hStmt, str);
                     nRet = Constant.FAILURE;
                 }
+                Log2.v("\nTsip queue entry added");
             }
             else
             {

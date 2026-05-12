@@ -60,7 +60,7 @@ namespace _Utillib
                                          string orderBy         /* how is selection to be ordered */
                                         )
         {
-            //...Log2.v("\nTpDynParm.TpSelectParm(): Entry");
+            //...Log2.v("\nTpDynParm.TpSelectParm(): Entry-" + table + " " + searchCriteria + " " + orderBy);
 
             int curHandle;                  /* cursor handle */
 

@@ -1,14 +1,10 @@
 ﻿using _Configuration;
 using _NewLib;
-using _Utillib;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.Odbc;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Xml.Linq;
 
 namespace TsipInitiator
 {
@@ -19,7 +15,6 @@ namespace TsipInitiator
     /// </summary>
     public static class TsipEmail
     {
-        private const string CLAVIS_SEMITA = @"SOFTWARE\AlphaSoft\PDFconverter\Local\Defaults\Nuntius";
         private static string mTsipFileFolder;
         private static string mTsipFileRoot;
         private static string mEmailAddress;
@@ -124,36 +119,10 @@ namespace TsipInitiator
             return sb.ToString();
         }
 
-
-        /// <summary>
-        /// This method returns the MD5 hash string for the current path to the Registry
-        /// key that stores the password for the mics@fcsa.ca email account; it is used
-        /// in the 'command line usage' text for MICS# program TsipInitiator.exe
-        /// </summary>
-        /// <returns></returns>
-        public static string GetMD5OfKeyPath()
-        {
-            string input = CLAVIS_SEMITA;
-
-            // Use input string to calculate MD5 hash
-            using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
-            {
-                byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
-                byte[] hashBytes = md5.ComputeHash(inputBytes);
-
-                // Convert the byte array to hexadecimal string
-                StringBuilder sb = new StringBuilder();
-                for (int i = 0; i < hashBytes.Length; i++)
-                {
-                    sb.Append(hashBytes[i].ToString("X2"));
-                }
-                return sb.ToString();
-            }
-        }
-
+               
         /// <summary>
         /// This method implements the sending of TSIP result reports to the user's
-        /// email address using an SMTP server.
+        /// email address using a SQL email server.
         /// </summary>
         /// <param name="errMsg"></param>
         /// <returns></returns>
@@ -204,10 +173,9 @@ namespace TsipInitiator
                 // attached to the email.
                 //List<string> attachmentFilePaths = new List<string>();
 
-                // Construct a string to hold a list of hat separated file paths
-                StringBuilder filelist = new StringBuilder("^^^",100);
-                string hat = "";
-                
+                // Construct a string to hold a list ofsemicolon separated file paths
+                StringBuilder filelist = new StringBuilder("", 100);
+
                 // Scan the body for the name of the first file in the err report
                 int nInd = body.IndexOf("Proposed Name...........:") + 26;
                 //	Now find the end of the file name.
@@ -219,7 +187,7 @@ namespace TsipInitiator
                     nInd1 = nInd + FILE_LENGTH;
                 }
                 String cFileName = body.Substring(nInd, nInd1 - nInd);
-                 
+
                 if (mDelFlag != "D")
                 {
                     subject = "TSIP output for " + mTsipFileRoot + ", first filename: " + cFileName + " at " + theNu.ToString();
@@ -229,6 +197,7 @@ namespace TsipInitiator
                     if (dDir.Exists)
                     {
                         int nEndmark = mTsipFileRoot.Length;
+                        string semicolon = "";
 
                         foreach (string run in mRuns)
                         {
@@ -237,8 +206,9 @@ namespace TsipInitiator
                             {
                                 string str = fiFile.FullName;
 
-                                filelist.Append(hat + fiFile.FullName);
-                                hat = "^";
+                                filelist.Append(semicolon + "\\\\" + System.Environment.MachineName + "\\REMICS-" + fiFile.FullName);
+                                semicolon = ";";
+                                Log2.v(filelist.ToString() + "\n");
 
                                 if (IsDel)
                                 {
@@ -250,15 +220,16 @@ namespace TsipInitiator
                         {
                             fiDeleteList.Add(new FileInfo(cBodyfile));
                         }
-
+                        body = "No Errors";
                     }
                     else
                     {
                         //	Send the err file anyway.
-                        body = "No files found, this is the .ERR file:-\n\n";
-                        BodyFile = new StreamReader(cBodyfile);
-                        body += BodyFile.ReadToEnd();
-                        BodyFile.Close();
+                        //body = "No files found, this is the .ERR file:-\n\n";
+                        //BodyFile = new StreamReader(cBodyfile);
+                        //body = BodyFile.ReadToEnd();
+                        body = "No Errors";
+                        //BodyFile.Close();
                     }
                 }
                 else
@@ -267,35 +238,56 @@ namespace TsipInitiator
                     body = "See Subject.";
                 }
 
+                StreamWriter sw = new StreamWriter(@"d:\MicsBatchLogs\TsipEmail.log");
                 // show the email message
-                Console.WriteLine("To: ablesonb@icloud.com");
-                Console.WriteLine("Subject: " + subject);
-                Console.WriteLine("Body: " + body);
-                Console.WriteLine("Files: " + filelist.ToString());
+                sw.WriteLine("To: ablesonb@icloud.com");
+                sw.WriteLine("Subject: " + subject);
+                sw.WriteLine("Body: " + body);
+                sw.WriteLine("Files: " + filelist.ToString());
 
 
-                // Send the email message.
-                //send_email_sql("ablesonb@icloud.com", subject, body, filelist.ToString(), true, out errMsg);
+                // insert record into adm.t_EmailQueue
+                try
+                {
+                    string cnstr = "DSN=remicsdev;DATABASE=remicsdev;Trusted_Connection=yes";
+                    using (OdbcConnection cn = new OdbcConnection(cnstr))
+                    {
+                        cn.Open();
 
-                //if (retVal != Constant.SUCCESS)
-                //{
-                //    string msg = String.Format("\n\nTsipEmail.Send(): ERROR: call to MicsEmail.Send() FAILED, retVal = {0}\n{1}", retVal, Error.MsgForCode(retVal));
-                //    Console.Write(msg);
-                //    Log2.e(msg);
-                //}
+                        //string strSql = "INSERT INTO adm.t_EmailQueue " +
+                        //            " (mailFrom, mailTo, mailSubject, mailBody, mailAttachments) " +
+                        //            " VALUES ('mics@fcsa.ca','ablesonb@icloud.com','" + subject + "','" + body + "','" + filelist.ToString() + "')";
+                        string strSql = String.Format("INSERT INTO adm.t_EmailQueue (mailFrom, mailTo, mailSubject, mailBody, mailAttachments) " +
+                                     " VALUES ('mics@fcsa.ca','ablesonb@icloud.com','{0}','{1}','{2}')",subject,body,filelist.ToString());
+                        
+                        OdbcCommand addemail = new OdbcCommand(strSql,cn);
 
-                //if (fiDeleteList.Count() > 0)
-                //{
-                //    foreach (FileInfo fi in fiDeleteList)
-                //    {
-                        //	The delete switch was set.  We have to save the file names and delete them
-                        //	after sending because they are not included in the message until they are
-                        //	sent, and so are kept open and locked.
-                //        fi.Delete();
-                //    }
-                //    Console.WriteLine("Deleted {0} files.", fiDeleteList.Count());
-                //}
+                        retVal = addemail.ExecuteNonQuery();
+                        sw.WriteLine("SQL=" + strSql);
+                        sw.Close();
 
+                    }
+                    if (retVal != 1)
+                    {
+                        string msg = String.Format("\n\nTsipEmail.Send(): ERROR: call to MicsEmail.Send() FAILED, retVal = {0}\n{1}", retVal, Error.MsgForCode(retVal));
+                        Log2.e(msg);
+                    }
+
+                    //if (fiDeleteList.Count() > 0)
+                    //{
+                    //    foreach (FileInfo fi in fiDeleteList)
+                    //    {
+                    //	The delete switch was set.  We have to save the file names and delete them
+                    //	after sending because they are not included in the message until they are
+                    //	sent, and so are kept open and locked.
+                    //        fi.Delete();
+                    //    }
+                    //    Console.WriteLine("Deleted {0} files.", fiDeleteList.Count());
+                    //}
+
+                }
+                catch (Exception)
+                { }
             }
             catch (Exception e)
             {
@@ -308,8 +300,9 @@ namespace TsipInitiator
 
             return retVal;
         }
+
         /*
-        public static bool send_email_sql(string ToAddress, string subject, string body, List<string> attachmentFilePaths, bool retval, out string errMsg)
+        public static bool send_email_sql(string ToAddress, string subject, string body, bool retval, out string errMsg)
         {
             string dbgfile = "D:\\MicsBatchLogs\\SendTsipEmailSql.txt";
             StreamWriter sw = new StreamWriter(dbgfile, false);
@@ -318,10 +311,6 @@ namespace TsipInitiator
 
             // set mandatory FROM addres
             string From = "mics@fcsa.ca";
-
-            // build SQL
-            //sw.WriteLine("Before try");
-            //string attachfiles = "\\\\EC2AMAZ-2013EDB\\REMICS-D\\inetpub\\remicsdev\\mics\\userdirs\\venn\\venn1\\tsip_tcomm2502a_TS1.HILO";
 
             if (From == "")
             {
@@ -338,14 +327,14 @@ namespace TsipInitiator
 
             if (ToAddress.ToString() == "")
             {
-                sw.WriteLine("To is empty");
+                sw.WriteLine("ToAddress is empty");
                 sw.Close();
-                errMsg = "No To address was specified";
+                errMsg = "No ToAddress was specified";
                 return false;
             }
             else
             {
-                sw.WriteLine(To.ToString());
+                sw.WriteLine(ToAddress.ToString());
             }
 
             if (subject == "")
@@ -360,11 +349,11 @@ namespace TsipInitiator
                 sw.WriteLine(subject);
             }
 
-            if (Body == "")
+            if (body == "")
             {
-                sw.WriteLine("Body is empty");
+                sw.WriteLine("body is empty");
                 sw.Close();
-                errMsg = "No Body was specified";
+                errMsg = "No body was specified";
                 return false;
             }
             else
@@ -373,6 +362,8 @@ namespace TsipInitiator
                 sw.Flush();
             }
 
+            string mailCC = "";
+            
             // split attachment list from body
             string body1;
             string body2;
@@ -395,54 +386,43 @@ namespace TsipInitiator
             sw.WriteLine(body2);
             sw.Flush();
             string strSql;
-
                        
             try
             {
-                //string cnstr = "DSN=remicsdev;DATABASE=remicsdev;Trusted_Connection=yes";
-                //using (OdbcConnection cn = new OdbcConnection(cnstr)
+                string cnstr = "DSN=remicsdev;DATABASE=remicsdev;Trusted_Connection=yes";
+                using (OdbcConnection cn = new OdbcConnection(cnstr))
+                {
+                    cn.Open();
 
-                 //cn.Open();
-
-                        strSql = "INSERT INTO adm.t_EmailQueue " +
+                    strSql = "INSERT INTO adm.t_EmailQueue " +
                                 " (mailFrom, mailTo, mailCC, mailSubject, mailBody, mailAttachments) " +
                                 " VALUES ('mics@fcsa.ca" +
                                 "','" + ToAddress +
                                 "','" + subject +
-                                "','" + body +
+                                "','" + mailCC +
                                 "','" + body1 +
                                 "','" + body2 + "')";
 
-                        sw.WriteLine(strSql);
-                        sw.Flush();
-                        //string attachfiles = "\\\\EC2AMAZ-2013EDB\\REMICS-D\\inetpub\\remicsdev\\mics\\userdirs\\venn\\venn1\\area402.kml";
-                        //string attachfiles = "\\\\EC2AMAZ-2013EDB\\REMICS-D\\inetpub\\remicsdev\\mics\\userdirs\\venn\\venn1\\tsip_tcomm2502a_TS1.HILO";
-                        //sw.WriteLine("Attachments:" + inMessage.Attachments);
+                    sw.WriteLine(strSql);
+                    sw.Flush();
 
-                        sw.WriteLine(strSql);
-                        sw.Flush();
-
-                        using (OdbcCommand sendmail = new OdbcCommand(strSql, TsipEmail.connection))
-                
-                    sendmail.ExecuteNonQuery();
                 }
 
                 sw.Close();
+                errMsg = "";
                 return true;
             }
-            }
-            catch (Exception)   // write error log and notify user
+            catch (Exception em1)   // write error log and notify user
             {
-     
-                 {
-                     sw.WriteLine("From:" + inMessage.From);
-                     sw.WriteLine("TO:" + inMessage.To);
-                     sw.WriteLine("CC:" + inMessage.CC);
-                     sw.WriteLine("mailSubject:" + inMessage.mailSubject);
-                     sw.WriteLine("Body:" + inMessage.Body);
-                     //sw.WriteLine("Attachments:" + inMessage.Body);
-                     sw.WriteLine("ERROR:" + em1.Message);
-                     sw.WriteLine("");
+                try
+                {   sw.WriteLine("From:" + From);
+                    sw.WriteLine("TO:" + ToAddress);
+                    sw.WriteLine("CC:" + mailCC);
+                    sw.WriteLine("mailSubject:" + subject);
+                    sw.WriteLine("Body:" + body1);
+                    sw.WriteLine("Attachments:" + body2);
+                    sw.WriteLine("ERROR:" + em1.Message);
+                    sw.WriteLine("");
                  }
                  catch (Exception ea)
                  {
@@ -450,13 +430,11 @@ namespace TsipInitiator
                  }
   
                 sw.Close();
-                //inMessage.Dispose();
+                errMsg = em1.Message;
                 return false;
             }
-
+        
         }
         */
-
-
     }
 }

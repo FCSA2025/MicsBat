@@ -623,7 +623,7 @@ namespace TpRunTsip
 
                     if (isTS)
                     {
-                        Console.WriteLine("Main1");
+                        //...Log2.v("\nMain1");
                         GenUtil.UtCvtName(Constant.TT_ANTE, viewName, out anteName);
                         GenUtil.UtCvtName(Constant.TT_CHAN, viewName, out chanName);
 
@@ -635,7 +635,7 @@ namespace TpRunTsip
                     }
                     else
                     {
-                        Console.WriteLine("Main2");
+                        //...Log2.v("\nMain2");
                         GenUtil.UtCvtName(Constant.TE_SITE, viewName, out siteName);
                         GenUtil.UtCvtName(Constant.TE_ANTE, viewName, out anteName);
                         GenUtil.UtCvtName(Constant.TE_CHAN, viewName, out chanName);
@@ -643,7 +643,7 @@ namespace TpRunTsip
                         TpReport.CreateETStatRep(currParm.parmStruct.protype, siteName, anteName,
                                                         out cUnique, out cUniqueEnv);
                     }
-                    Console.WriteLine("Main3");
+                    //...Log2.v("\nMain3");
                     rc = ReportNew(Info.DbName, Info.PdfName, currParm, numIntCases,
                         numTeIntCases, numStnGroups, viewName, Info.DestName,
                         cUnique, cUniqueEnv, isTS);
@@ -661,7 +661,7 @@ namespace TpRunTsip
                             ErrMsg.UtPrintMessage(Error.GENERROR, "No interference cases to report");
                         }
                     }
-                    Console.WriteLine("Main4");
+                    //...Log2.v("\nMain4");
                     /* if user requested an execution report, write it */
                     if (mReports.Exec)
                     {
@@ -675,70 +675,71 @@ namespace TpRunTsip
                                   EsTsStnGroups, numIntCases, numTeIntCases,
                                   currParm.parmStruct.tsorbout, Info.DestName);
                     }
-                    Console.WriteLine("Main5");
+                    //...Log2.v("\nMain5");
                     /* Write the EXPORT report */
                     if (mReports.Export)
                     {
                         mReports.ExportWritten = true;
                         // commented out BA 2026/03/26
-                       // TpExportRpt(currParm.parmStruct.proname, currParm.parmStruct.protype);
+                        TpExportRpt(currParm.parmStruct.proname, currParm.parmStruct.protype);
                     }
 
-                    Console.WriteLine("\n\nTpRunTsip.Main(): mReports = " + mReports);
+                    //...Log2.v("\n\nTpRunTsip.Main(): mReports = " + mReports);
 
                     /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                     + We can now remove the temporary table tsip_stat_rep
                     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-                    Console.WriteLine("Main6");
+                    //...Log2.v("\nMain6");
                     Ssutil.KillTable(cUnique);
 
                     GenUtil.FileGateClose(cLockFile);  /* Allow others to run this combo */
 
-                    Console.WriteLine("Main7");
+                    //...Log2.v("\nMain7");
                     // Report sets are 'per-record' so we need to close the TextWriter
                     // streams and tidy-up.
                     Console.Write("\n{0}", mReports.ToString());
                     CloseReportStreams();
                     DeleteUnwantedReportFiles();
 
-                    Console.WriteLine("Main8");
+                    //...Log2.v("\nMain8");
                     // Calculate and write normalized report content MD5 checksums into a table.
                     mReports.WritePerRunReportsToDbTable();
-                    Console.WriteLine("Main9");
+
+                    //...Log2.v("\nMain9");
                 } /* end for (each parameter record) */
 
                 // Close the error stream.
                 mTW_ERR.Close();
-                Console.WriteLine("Main10");
+                //...Log2.v("\nMain10");
                 // There is one ERR report created that encompasses multiple runs.
                 // We can only calculate the normalized MD5 checksum of the ERR report
                 // after all runs have been completed and its textwriter has been closed.
                 mReports.WriteRunReportToDbTable(TsipReportHelper.ErrFilePath);
 
-                Console.WriteLine("Main11");
+                //...Log2.v("\nMain11");
                 // Insert a final record in the TsipReports table that provides a
                 // "checksum of all checksums".
                 mReports.InsertFinalMD5allRunsandReports();
 
-                Console.WriteLine("Main12");
+                //...Log2.v("\nMain12");
                 // We have a normal completion of Main() - perform final housekeeping and exit.
                 BiUtil.BiBillingRec(Constant.BI_END, "");
 
-                Console.WriteLine("Main13");
+                //...Log2.v("\nMain13");
                 Ssutil.UtDisconnect(userSession);
 
-                Console.WriteLine("Main14");
+                Log2.v("\nMain14");
                 Qutils.ExitQueue(Info.DbName, "READ");
 
                 Console.Out.Flush();
 
                 Application.Exit("Successful normal exit from TpRunTsip.Main()", exitCode);
             }
-                catch (Exception e)
+            catch (Exception e)
             {
                 Qutils.ExitQueue(Info.DbName, "READ");
 
-                Console.WriteLine("\n\nTpRunTsip.Main(): exception caught: " + e.Message);
+                Log2.v("\n\nTpRunTsip.Main(): exception caught: " + e.Message);
                 Console.WriteLine("\n\nTpRunTsip.Main(): stack trace: \n\n" + e.StackTrace);
 
                 Application.Exit(Error.FATAL_EXCEPTION);
@@ -1215,7 +1216,7 @@ namespace TpRunTsip
         /// <returns></returns>
         public static int ParmRecInit(ParmTableWN currParm)
         {
-            Log2.v("\nTpRunTsip.ParmRecInit(): Entry");
+            //...Log2.v("\nTpRunTsip.ParmRecInit(): Entry");
 
             bool isValid;         /* return code from TsipValid */
             string type;    /* ES or TS - type of pdf */

@@ -684,8 +684,8 @@ namespace _Utillib
                     cName = "validated";
                     sqlRet = (SQLRETURN)Ssutil.DbGetString(hStmt, 1, cName, out pTitle.validated, Constant.FTTITLE_VALIDATED_SZ, out nNull);
 
-                    Log2.v("\r\nFtUtils.FtGetTitle(): Ssutil.DbGetString(): returned " + sqlRet + " for FtTitle field: " + cName);
-                    Log2.v("\r\nFtUtils.FtGetTitle(): returned validate value " + pTitle.validated);
+                    //...Log2.v("\r\nFtUtils.FtGetTitle(): Ssutil.DbGetString(): returned " + sqlRet + " for FtTitle field: " + cName);
+                    //...Log2.v("\r\nFtUtils.FtGetTitle(): returned validate value " + pTitle.validated);
                     /*
                     if (!ODBC.IsOK(sqlRet)) throw new Exception();
 

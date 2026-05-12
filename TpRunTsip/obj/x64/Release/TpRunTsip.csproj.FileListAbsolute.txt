@@ -45,8 +45,8 @@ D:\MicsBatchProgs\MicsBat\_bin\Release\TpRunTsip.exe.config
 D:\MicsBatchProgs\MicsBat\_bin\Release\TpRunTsip.exe
 D:\MicsBatchProgs\MicsBat\_bin\Release\TpRunTsip.pdb
 D:\MicsBatchProgs\MicsBat\TpRunTsip\obj\x64\Release\TpRunTsip.csproj.AssemblyReference.cache
-D:\MicsBatchProgs\MicsBat\TpRunTsip\obj\x64\Release\TpRunTsip.exe.config
 D:\MicsBatchProgs\MicsBat\TpRunTsip\obj\x64\Release\TpRunTsip.csproj.CoreCompileInputs.cache
 D:\MicsBatchProgs\MicsBat\TpRunTsip\obj\x64\Release\TpRunTsip.csproj.Up2Date
 D:\MicsBatchProgs\MicsBat\TpRunTsip\obj\x64\Release\TpRunTsip.exe
 D:\MicsBatchProgs\MicsBat\TpRunTsip\obj\x64\Release\TpRunTsip.pdb
+D:\MicsBatchProgs\MicsBat\TpRunTsip\obj\x64\Release\TpRunTsip.exe.config

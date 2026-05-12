@@ -22,8 +22,6 @@ namespace _Utillib
     {
         private const string mINSERT = "INSERT INTO {0} ({1}) VALUES ({2}) ";
         private const string mDROP = "IF OBJECT_ID('{0}') IS NOT NULL DROP TABLE {0}";
-
-        /// <summary>
         /// Inserts a record into a database table whose columns are isomorphic with the
         /// public members of a TsipReports class object.
         /// </summary>
@@ -38,7 +36,13 @@ namespace _Utillib
         /// <para>-   ErrorMessages.ODBC_EXECDIRECT_FAILED    - call to ODBC.SQLExecDirect() failed. </para>
         public static int Insert(string tableName, TsipReports tsipReports, SQLLEN[] nullInd)
         {
-            //...Log2.v("\n\nTsipReports.Insert(): Entry");
+            // debug only
+            tableName = "tsipparm2_tsip_reports";
+
+            //Log2.v("\n\nTsipReports.Insert(): Entry1" + tableName);
+            tableName  = Info.GlobalSchema + "." + tableName;
+            //Log2.v("\n\nTsipReports.Insert(): Entry2" + tableName);
+            //Console.WriteLine("tablename: " + tableName);
 
             string cSQL;
             SQLRETURN sqlRet;
@@ -50,11 +54,12 @@ namespace _Utillib
             if (!ODBC.IsOK(sqlRet))
             {
                 Log2.e("\n\nTsipReports.Insert(): ERROR: call to SQLAllocHandle() failed.");
-                return Error.ODBC_SQLALLOCHANDLE_FAILED;
+                return Error.ODBC_SQLALLOCHANDLE_FAILED; 
             }
 
             //Create the SQL insert statement.
-            cSQL = String.Format(mINSERT, tableName, TsipReports.AllColumnsForSqlSelect, tsipReports.ToStringAsCSV(nullInd));
+            cSQL = String.Format("INSERT INTO {0} ({1}) VALUES ({2}) ", tableName, TsipReports.AllColumnsForSqlSelect, tsipReports.ToStringAsCSV(nullInd));
+            //cSQL = String.Format("INSERT INTO " + Info.GlobalSchema + ".{0} ({1}) VALUES ({2})", tableName, TsipReports.AllColumnsForSqlSelect, tsipReports.ToStringAsCSV(nullInd));
 
             sqlRet = ODBC.SQLExecDirect(hStmt, cSQL, cSQL.Length);
 
@@ -72,7 +77,7 @@ namespace _Utillib
 
             Ssutil.DisConn(hConn);
 
-            //...Log2.v("\n\nTsipReports.Insert(): Exit");
+            //Log2.v("\n\nTsipReports.Insert(): Exit");
             return Constant.SUCCESS;
         }
 
@@ -112,7 +117,7 @@ namespace _Utillib
 
             Ssutil.DisConn(hConn);
 
-            //...Log2.v("\n\nTsipReports.Insert(): Exit");
+            Log2.v("\n\nTsipReports.DropTables(): Exit");
             return Constant.SUCCESS;
         }
 
@@ -152,7 +157,7 @@ namespace _Utillib
 
             Ssutil.DisConn(hConn);
 
-            //...Log2.v("\n\nTsipReports.Insert(): Exit");
+            Log2.v("\n\nTsipReports.CreateTable(): Exit");
             return Constant.SUCCESS;
         }
 

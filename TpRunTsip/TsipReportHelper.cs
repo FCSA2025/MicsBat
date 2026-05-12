@@ -47,7 +47,7 @@ namespace TpRunTsip
     {
         // Static members.
         private static bool mOutputToFiles = false;
-        private static bool mOutputToReportsTable = false;
+        private static bool mOutputToReportsTable = true;
         private static bool mReportsTableAlreadyCreated = false;
         private static string mReportsTableName = "";
 
@@ -405,12 +405,14 @@ namespace TpRunTsip
 
         private static void CreateTsipReportsTable()
         {
-            Console.Write("\n\nTsipReportHelper.CreateTsipReportsTable(): Entry");
-
+            Log2.v("\n\nTsipReportHelper.CreateTsipReportsTable(): Entry");
+            Log2.v(" " + mOutputToReportsTable);
             if (!mOutputToReportsTable) return;
 
+            Log2.v(" " + mReportsTableAlreadyCreated);
             if (!mReportsTableAlreadyCreated)
             {
+                //mReportsTableName = String.Format(Info.GlobalSchema + ".{0}.{1}_tsip_reports", Info.GlobalSchema, Info.PdfName);
                 mReportsTableName = String.Format("{0}.{1}_tsip_reports", Info.GlobalSchema, Info.PdfName);
                 DynTsipReports.DropTableIfExists(mReportsTableName);
                 DynTsipReports.CreateTable(mReportsTableName);
@@ -421,6 +423,8 @@ namespace TpRunTsip
 
         public void WritePerRunReportsToDbTable()
         {
+            Log2.v("\nin  WritePerRunReportsToDbTable-mOutputToReportsTable= " + mOutputToReportsTable);
+            
             if (!mOutputToReportsTable) return;
 
             CreateTsipReportsTable();
@@ -484,6 +488,7 @@ namespace TpRunTsip
 
         public void WriteRunReportToDbTable(string reportFilePath)
         {
+            Log2.v("in WriteRunReportToDbTable");
             if (!mOutputToReportsTable) return;
 
             CreateTsipReportsTable();
@@ -493,6 +498,9 @@ namespace TpRunTsip
 
         public string CalculateMD5ofReport(string reportFilePath)
         {
+            Log2.v("CalculateMD5ofReport-reportFilePath:" + reportFilePath);
+            Console.WriteLine("in CalculateMD5ofReport");
+
             string md5 = "";
 
             StringBuilder sb = new StringBuilder();
@@ -526,7 +534,6 @@ namespace TpRunTsip
                 TsipReports tsipReports = new TsipReports();
 
                 tsipReports.date = Info.Date;
-                tsipReports.time = Info.Time;
                 tsipReports.paramFile = Info.PdfName;
                 tsipReports.runID = runID;
                 tsipReports.reportType = reportType;
@@ -534,7 +541,6 @@ namespace TpRunTsip
                 tsipReports.line = md5;
 
                 SQLLEN[] nullInds = NullHelper.CreateArrayOfNullInd(TsipReports.NUM_COLUMNS, NullHelper.ColumnStatus.NOT_NULL);
-
                 DynTsipReports.Insert(mReportsTableName, tsipReports, nullInds);
 
                 int lineNum = 1;
@@ -549,7 +555,6 @@ namespace TpRunTsip
                     tsipReports.reportType = reportType;
                     tsipReports.lineNum = lineNum++;
                     tsipReports.line = normalizedLine;
-
                     DynTsipReports.Insert(mReportsTableName, tsipReports, nullInds);
                 }
 
@@ -826,7 +831,6 @@ namespace TpRunTsip
                 tsipReports.line = md5AllRunsandReports;
 
                 SQLLEN[] nullInds = NullHelper.CreateArrayOfNullInd(TsipReports.NUM_COLUMNS, NullHelper.ColumnStatus.NOT_NULL);
-
                 DynTsipReports.Insert(mReportsTableName, tsipReports, nullInds);
 
             }

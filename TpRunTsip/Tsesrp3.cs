@@ -73,6 +73,7 @@ namespace TpRunTsip
         public static int TsEsRp3(TextWriter tw, string ttName, TpParm tpParm)
         {
             //...Log2.v("\nTsesrp3.TsEsRp3(): Entry");
+            //...Log2.v("ttName:" + ttName);
 
             SQLHDBC hConn = Ssutil.NewConn();
             SQLHANDLE hStmt;
@@ -97,8 +98,23 @@ namespace TpRunTsip
             //mFile is 'global' and so can be accessed by the PageHeader override.
             mFile = ttName;
 
-            cSQL = String.Format("SELECT protype,envtype,coordist,fsep,analopt,margin,a.terrcall1,a.terrcall2,a.earthlocation,terrname1,terrname2,earthname,terroper,terroper2,earthoper,terrlatit,terrlongit, terrgrnd,earthlatit,earthlongit,earthgrnd,radiozone,rainzone,a.etreport,a.tereport,etcaseno,tecaseno,etsubcases,tesubcases,intreq,etdist,etazim,teazim,tudist,tuazim,utazim,eudist,euazim,ueazim,a.processed,b.interferer,b.terrbndcde,b.terranum,b.earthcall1,earthband,terracode,earthacode,satname, satoper,satlongit,txpre,txtro,rxpre,rxtro,sarc1,sarc2,mode1,mode2,intause,b.etreport,b.tereport,b.processed,etsubcaseno,tesubcaseno,esazim,eselev,teelev,etelev,tuelev,utelev,euelev,ediscang,tdiscang,adisc_set,adisc_ute,terrht,earthht,tvazim,evazim,tvelev,evelev,tvdistes,tvdisttu,evdistes,evdisttu,angleutv,anglesev,terrchid,earthchid,inttraftx,victrafrx,inteqpttx,viceqptrx,intfreqtx,vicfreqrx,freqsep,inttxpwr,inttxafls,inttxpwr2,inttxafls2,vicpwrrx,vicrxafls,c.etreport,c.tereport,ctxinttraftx,ctxvictrafrx,ctxeqpt,calctype,earthmdsc,terrmdsc,eartheirp,terreirp,scang,loss20mode1,calci20mode1,reqd20mode1,marg20mode1,loss01mode1,calci01mode1,reqd01mode1,marg01mode1,loss01mode2,calci01mode2,reqd01mode2,marg01mode2,stattx,statrx,energy,c.processed,terrant,terraxref,terramodel,terragain,earthaxref,earthamodel,earthagain,remterragain,tsoffaxis,tstrueaz,tstrueel,angleute,angleuta,angleeta,angleatv,adisc_atv	FROM 	te_{0}_site a,te_{1}_ante b,te_{2}_chan c,te_{3}_parm WHERE a.terrcall1 = b.terrcall1 and a.terrcall2 = b.terrcall2 and a.earthlocation = b.earthlocation and b.terrcall1 = c.terrcall1 and b.terrcall2 = c.terrcall2 and b.terranum = c.terranum and b.terrbndcde = c.terrbndcde and b.earthlocation = c.earthlocation and b.earthcall1 = c.earthcall1 and b.interferer = c.interferer and c.tereport != 0 and c.interferer = 'T' ORDER BY tecaseno, tesubcaseno, freqsep ",
-                                ttName, ttName, ttName, ttName);
+
+            cSQL = String.Format("SELECT protype,envtype,coordist,fsep,analopt,margin,a.terrcall1,a.terrcall2,a.earthlocation,terrname1,terrname2,earthname,terroper,terroper2,earthoper,terrlatit,terrlongit," +
+                " terrgrnd,earthlatit,earthlongit,earthgrnd,radiozone,rainzone,a.etreport,a.tereport,etcaseno,tecaseno,etsubcases,tesubcases,intreq,etdist,etazim,teazim,tudist,tuazim,utazim,eudist,euazim,ueazim," +
+                "a.processed,b.interferer,b.terrbndcde,b.terranum,b.earthcall1,earthband,terracode,earthacode,satname, satoper,satlongit,txpre,txtro,rxpre,rxtro,sarc1,sarc2,mode1,mode2,intause,b.etreport,b.tereport" +
+                ",b.processed,etsubcaseno,tesubcaseno,esazim,eselev,teelev,etelev,tuelev,utelev,euelev,ediscang,tdiscang,adisc_set,adisc_ute,terrht,earthht,tvazim,evazim,tvelev,evelev,tvdistes,tvdisttu,evdistes,evdisttu," +
+                "angleutv,anglesev,terrchid,earthchid,inttraftx,victrafrx,inteqpttx,viceqptrx,intfreqtx,vicfreqrx,freqsep,inttxpwr,inttxafls,inttxpwr2,inttxafls2,vicpwrrx,vicrxafls,c.etreport,c.tereport,ctxinttraftx," +
+                "ctxvictrafrx,ctxeqpt,calctype,earthmdsc,terrmdsc,eartheirp,terreirp,scang,loss20mode1,calci20mode1,reqd20mode1,marg20mode1,loss01mode1,calci01mode1,reqd01mode1,marg01mode1,loss01mode2,calci01mode2," +
+                "reqd01mode2,marg01mode2,stattx,statrx,energy,c.processed,terrant,terraxref,terramodel,terragain,earthaxref,earthamodel,earthagain,remterragain,tsoffaxis,tstrueaz,tstrueel,angleute,angleuta,angleeta,angleatv,adisc_atv" +
+                "	FROM " +
+                Info.GlobalSchema + ".te_{0}_site a," + 
+                Info.GlobalSchema + ".te_{0}_ante b," + 
+                Info.GlobalSchema + ".te_{0}_chan c," + 
+                Info.GlobalSchema + ".te_{0}_parm " +
+                "WHERE a.terrcall1 = b.terrcall1 " +
+                "and a.terrcall2 = b.terrcall2 and a.earthlocation = b.earthlocation and b.terrcall1 = c.terrcall1 and b.terrcall2 = c.terrcall2 and b.terranum = c.terranum and b.terrbndcde = c.terrbndcde and " +
+                "b.earthlocation = c.earthlocation and b.earthcall1 = c.earthcall1 and b.interferer = c.interferer and c.tereport != 0 and c.interferer = 'T' ORDER BY tecaseno, tesubcaseno, freqsep ",
+                                ttName);
 
             //...Log2.v("\n\nTsesrp3.TsEsRp3(): ttName = " + ttName);
             //...Log2.v("\n\nTsesrp3.TsEsRp3(): cSQL = " + cSQL);
@@ -106,7 +122,7 @@ namespace TpRunTsip
             sqlRet = ODBC.SQLExecDirect(hStmt, cSQL, cSQL.Length);
             if (!ODBC.IsOK(sqlRet))
             {
-                Log2.e("\nTsesrp3.TsEsRp3(): ERROR: SQLExecDirect() failed on query:\n" + cSQL);
+                //...Log2.e("\nTsesrp3.TsEsRp3(): ERROR: SQLExecDirect() failed on query:\n" + cSQL);
                 Ssutil.DbGetDiagStmt(hStmt, "tsesrp301: Failed to Execute:-");
                 return Error.ODBC_EXECDIRECT_FAILED;
             }
@@ -121,7 +137,7 @@ namespace TpRunTsip
                 }
                 else if (!ODBC.IsOK(sqlRet))
                 {
-                    Log2.e("\nTsesrp3.TsEsRp3(): ERROR: SQLFetch() failed.");
+                   //... Log2.e("\nTsesrp3.TsEsRp3(): ERROR: SQLFetch() failed.");
                     Ssutil.DbGetDiagStmt(hStmt, "tsesrp302: Failed Fetch:");
                     return -2;
                 }

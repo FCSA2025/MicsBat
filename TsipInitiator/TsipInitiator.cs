@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
+using System.Data.Odbc;
+
 
 /// <summary>
 /// This application is run by WebMICS whenever a user requests a TSIP run. 
@@ -312,7 +314,7 @@ namespace TsipInitiator
                         // Open the console file for writing.
                         string consoleFilePath = Path.Combine(destPath, consoleFileName);
 
-                        //...Log2.v("\nTsipInitiator.Main(): consoleFilePath = " + consoleFilePath);
+                        Log2.v("\nTsipInitiator.Main(): consoleFilePath = " + consoleFilePath);
 
                         try
                         {
@@ -342,7 +344,7 @@ namespace TsipInitiator
                         if (tsipProcessID > 0)
                         {
                             //	If the TpRunTsip process started correctly then wait here for it to finish.
-                            //...Log2.v("\n\nTsipInitiator.Main(): call to TsipQ.StartTsip() was successful.");
+                            Log2.v("\n\nTsipInitiator.Main(): call to TsipQ.StartTsip() was successful.");
                             tsipProcess.WaitForExit();
 
                             tpRunTsipExitCode = nRet = tsipProcess.ExitCode;
@@ -427,11 +429,12 @@ namespace TsipInitiator
                 // If TpRunTsip succesfully completed then send reports to the
                 // WebMICS user as attachments to an email.
 
+                Log2.v("\nGetting user email");
                 nRet = Ssutil.EmailAddr(userid, userInfo.micsUser.micsid, out cEmail, nMaxLen, out tsip_email, out cDelFlag);
 
-                //...Log2.v("\nTsipInitiator.Main(): cEmail     = " + cEmail);
-                //...Log2.v("\nTsipInitiator.Main(): tsip_email = " + tsip_email);
-                //...Log2.v("\nTsipInitiator.Main(): cDelFlag   = " + cDelFlag);
+                Log2.v("\nTsipInitiator.Main(): cEmail     = " + cEmail);
+                Log2.v("\nTsipInitiator.Main(): tsip_email = " + tsip_email);
+                Log2.v("\nTsipInitiator.Main(): cDelFlag   = " + cDelFlag);
 
                 if (!IsDeleted && (nRet == 0) && (tpRunTsipExitCode == 0))
                 {
@@ -444,7 +447,7 @@ namespace TsipInitiator
                     {
                         // To get here !IsDeleted would have to be true, i.e. IsDeleted is false.
                         // Thus, the final argument in this call is redundant.
-                        //...Log2.v("\nTsipInitiator.Main(): the user wants email.");
+                        Log2.v("\nTsipInitiator.Main(): the user wants email.");
 
                         sendEmailRetVal = EmailReportsToUser(paramFileName, cDelFlag, dbName, destPath, cFileRoot, cEmail, IsDeleted);
                     }
@@ -452,7 +455,7 @@ namespace TsipInitiator
                     {
                         // User does not want email.
                         TsipQ.WriteToTsipLog(String.Format("\nNo tsip email requested for {0}\n", userInfo.micsUser.micsid));
-                        //...Log2.v("\nTsipInitiator.Main(): No tsip email desired for " + userInfo.micsUser.micsid);
+                        Log2.v("\nTsipInitiator.Main(): No tsip email desired for " + userInfo.micsUser.micsid);
                     }
 
                 }
@@ -549,6 +552,8 @@ namespace TsipInitiator
         {
             int retVal = Constant.SUCCESS;
 
+            Log2.v("\n in EmailReportsToUser");
+
             //	Set up the array of arguments to pass to the tsipemail program.  We fill in the
             //	first with the normal parameters and the runnames follow after.
             List<string> runs = new List<string>();
@@ -561,6 +566,7 @@ namespace TsipInitiator
             string str;
 
             delFlag = delFlag.ToUpper();
+            Log2.v("\n in EmailReportsToUser-delFlag: " + delFlag);
 
             // Enhancement 180301A - email send capability absorbed int0 TsipInitiator.exe
             //string cEmailProg = Ssutil.GetBinPath("tsipemail", database);
@@ -586,7 +592,7 @@ namespace TsipInitiator
 
             // The setting of usage-specific TSIP email parameters and the actual sending 
             // via SMTP are encapsulated in the static class TsipEmail. The email parameters
-            // are all checked for validity prior to attempting the SMTP send.
+            // are all checked for validity prior to attempting the SQL send.
 
             TsipEmail.TsipFileFolder = destPath;
             TsipEmail.TsipFileRoot = fileRoot;
@@ -669,8 +675,8 @@ namespace TsipInitiator
             Console.Write("\r\n Notes:");
             Console.Write("\r\n       1. This program *must* be called with qty. 3 command-line arguments.");
             Console.Write("\r\n       2. Options can appear in any order at any position.");
-            Console.Write("\r\n       3. This version has the 20210306 email password enhancement,");
-            Console.Write("\r\n          with checksum: " + TsipEmail.GetMD5OfKeyPath());
+            Console.Write("\r\n       3. This version has the 20260505 email password enhancement,");
+            Console.Write("\r\n          with using SQL email");
             Console.Write("\r\n");
             Console.Write("\r\n\r\n Build: {0}\r\n", Info.ManagedBuildInfo());
         }

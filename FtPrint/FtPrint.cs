@@ -77,7 +77,7 @@ namespace FtPrint
             try
             {
                 // Enable or disable developmental run-time logging.
-#if false
+#if true
                 string mLog2FilePath = @"d:\MicsBatchLogs\FtPrint.log";
                 if (Log2.SetLogFilePath(mLog2FilePath))
                 {

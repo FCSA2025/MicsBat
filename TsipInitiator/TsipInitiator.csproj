@@ -103,7 +103,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>COPY D:\MicsBatchProgs\MicsBat\_bin\Release\TsipInitiator.exe D:\develbat\TsipInitiator.exe
-COPY D:\MicsBatchProgs\MicsBat\_bin\Release\TsipInitiator.pdb D:\develbat\sipInitiator.pdb</PostBuildEvent>
+COPY D:\MicsBatchProgs\MicsBat\_bin\Release\TsipInitiator.pdb D:\develbat\TsipInitiator.pdb</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
