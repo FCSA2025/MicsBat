@@ -34,4 +34,3 @@ jobs:
       - name: Sync Markdown Output to Amazon S3
         run: |
           aws s3 sync ./rag_output s3://knowledgebasetestforai/codebase/ --Your S3 Bucket
-
