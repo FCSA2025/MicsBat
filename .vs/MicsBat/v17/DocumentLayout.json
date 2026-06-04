@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\MicsBatchProgs\\MicsBat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63A4E2E6-6CAE-4F60-BF5F-205E56BCC727}|sdfImport\\sdfImport.csproj|d:\\micsbatchprogs\\micsbat\\sdfimport\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A4E2E6-6CAE-4F60-BF5F-205E56BCC727}|sdfImport\\sdfImport.csproj|solutionrelative:sdfimport\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|d:\\micsbatchprogs\\micsbat\\tsipinitiator\\tsipemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|solutionrelative:tsipinitiator\\tsipemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -122,11 +126,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Ssutil.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\_Utillib\\Ssutil.cs",
               "RelativeDocumentMoniker": "_Utillib\\Ssutil.cs",
@@ -136,6 +140,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T16:31:31.771Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\sdfImport\\Program.cs",
+              "RelativeDocumentMoniker": "sdfImport\\Program.cs",
+              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\sdfImport\\Program.cs",
+              "RelativeToolTip": "sdfImport\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T15:38:30.187Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Settings.settings",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.settings",
               "RelativeDocumentMoniker": "TsipInitiator\\Properties\\Settings.settings",
@@ -163,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Settings.Designer.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.Designer.cs",
               "RelativeDocumentMoniker": "TsipInitiator\\Properties\\Settings.Designer.cs",
@@ -175,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TpRunTsip.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TpRunTsip\\TpRunTsip.cs",
               "RelativeDocumentMoniker": "TpRunTsip\\TpRunTsip.cs",
@@ -187,12 +204,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TsipEmail.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\TsipEmail.cs",
               "RelativeDocumentMoniker": "TsipInitiator\\TsipEmail.cs",
-              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\TsipEmail.cs*",
-              "RelativeToolTip": "TsipInitiator\\TsipEmail.cs*",
+              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\TsipEmail.cs",
+              "RelativeToolTip": "TsipInitiator\\TsipEmail.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAiwJ8BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-22T14:49:36.726Z",
@@ -200,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SQLExecDirect.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\SQLexecDirect\\SQLExecDirect.cs",
               "RelativeDocumentMoniker": "SQLexecDirect\\SQLExecDirect.cs",
@@ -212,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "KML.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\_NewLib\\KML.cs",
               "RelativeDocumentMoniker": "_NewLib\\KML.cs",
@@ -224,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "KML.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\Tools\\KML.cs",
               "RelativeDocumentMoniker": "Tools\\KML.cs",
@@ -236,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "GenUtil.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\_Utillib\\GenUtil.cs",
               "RelativeDocumentMoniker": "_Utillib\\GenUtil.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ErrMsg.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\_Utillib\\ErrMsg.cs",
               "RelativeDocumentMoniker": "_Utillib\\ErrMsg.cs",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "FtImport.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\FtImport\\FtImport.cs",
               "RelativeDocumentMoniker": "FtImport\\FtImport.cs",
@@ -272,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FeImport.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\FeImport\\FeImport.cs",
               "RelativeDocumentMoniker": "FeImport\\FeImport.cs",
@@ -284,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MeUpdate.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\MeUpdate\\MeUpdate.cs",
               "RelativeDocumentMoniker": "MeUpdate\\MeUpdate.cs",
@@ -296,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MtUpdate.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\MtUpdate\\MtUpdate.cs",
               "RelativeDocumentMoniker": "MtUpdate\\MtUpdate.cs",
@@ -308,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SMTP.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\SMTP\\SMTP.cs",
               "RelativeDocumentMoniker": "SMTP\\SMTP.cs",
@@ -320,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SqlEmail.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\utilities\\SqlEmail.cs",
               "RelativeDocumentMoniker": "utilities\\SqlEmail.cs",
@@ -332,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TtBuildSH.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TpRunTsip\\TtBuildSH.cs",
               "RelativeDocumentMoniker": "TpRunTsip\\TtBuildSH.cs",
@@ -344,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Spoofing.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\SdUpdateTraf\\Spoofing.cs",
               "RelativeDocumentMoniker": "SdUpdateTraf\\Spoofing.cs",
@@ -356,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Spoofing.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\SdUpdateCtx\\Spoofing.cs",
               "RelativeDocumentMoniker": "SdUpdateCtx\\Spoofing.cs",
@@ -368,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MyForm.resx",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\SetEmailPassword\\MyForm.resx",
               "RelativeDocumentMoniker": "SetEmailPassword\\MyForm.resx",
@@ -380,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "MainForm.resx",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\SendLAMLreports\\MainForm.resx",
               "RelativeDocumentMoniker": "SendLAMLreports\\MainForm.resx",
@@ -392,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "EmissionDesignator.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\ComsearchToTAFL\\EmissionDesignator.cs",
               "RelativeDocumentMoniker": "ComsearchToTAFL\\EmissionDesignator.cs",
@@ -404,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "DynCTFA.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\_Utillib\\DynCTFA.cs",
               "RelativeDocumentMoniker": "_Utillib\\DynCTFA.cs",
@@ -416,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FtValidate.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\FtValidate\\FtValidate.cs",
               "RelativeDocumentMoniker": "FtValidate\\FtValidate.cs",
@@ -428,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "FeValidate.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\FeValidate\\FeValidate.cs",
               "RelativeDocumentMoniker": "FeValidate\\FeValidate.cs",
@@ -440,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "BiUtil.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\_Utillib\\BiUtil.cs",
               "RelativeDocumentMoniker": "_Utillib\\BiUtil.cs",
@@ -452,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Tstsrp4.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TpRunTsip\\Tstsrp4.cs",
               "RelativeDocumentMoniker": "TpRunTsip\\Tstsrp4.cs",
@@ -464,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Tstsrp3.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TpRunTsip\\Tstsrp3.cs",
               "RelativeDocumentMoniker": "TpRunTsip\\Tstsrp3.cs",

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\MicsBatchProgs\\MicsBat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|D:\\MicsBatchProgs\\MicsBat\\tsipinitiator\\tsipemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|d:\\micsbatchprogs\\micsbat\\tsipinitiator\\tsipemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|solutionrelative:tsipinitiator\\tsipemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5707F2AE-910F-4522-A9A6-8BB3B472547E}|TpRunTsip\\TpRunTsip.csproj|d:\\micsbatchprogs\\micsbat\\tpruntsip\\tpruntsip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5707F2AE-910F-4522-A9A6-8BB3B472547E}|TpRunTsip\\TpRunTsip.csproj|D:\\MicsBatchProgs\\MicsBat\\tpruntsip\\tpruntsip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5707F2AE-910F-4522-A9A6-8BB3B472547E}|TpRunTsip\\TpRunTsip.csproj|solutionrelative:tpruntsip\\tpruntsip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,11 +27,11 @@
       "RelativeMoniker": "D:0:0:{9C18BD59-6DA7-4E8F-9550-71B3AC086C74}|_Utillib\\_Utillib.csproj|solutionrelative:_utillib\\ssutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|d:\\micsbatchprogs\\micsbat\\tsipinitiator\\properties\\settings.settings||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|D:\\MicsBatchProgs\\MicsBat\\tsipinitiator\\properties\\settings.settings||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|solutionrelative:tsipinitiator\\properties\\settings.settings||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|d:\\micsbatchprogs\\micsbat\\tsipinitiator\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|D:\\MicsBatchProgs\\MicsBat\\tsipinitiator\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28FBD0C2-A266-4305-8A32-C72B41F8AEB1}|TsipInitiator\\TsipInitiator.csproj|solutionrelative:tsipinitiator\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -135,47 +135,7 @@
               "ViewState": "AgIAAJQBAAAAAAAAAAAlwM8BAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T16:31:31.771Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "TsipInitiator\\Properties\\Settings.settings",
-              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.settings",
-              "RelativeToolTip": "TsipInitiator\\Properties\\Settings.settings",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2026-05-26T12:46:07.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Settings.Designer.cs",
-              "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.Designer.cs",
-              "RelativeDocumentMoniker": "TsipInitiator\\Properties\\Settings.Designer.cs",
-              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.Designer.cs",
-              "RelativeToolTip": "TsipInitiator\\Properties\\Settings.Designer.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBsAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T12:45:33.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TpRunTsip.cs",
-              "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TpRunTsip\\TpRunTsip.cs",
-              "RelativeDocumentMoniker": "TpRunTsip\\TpRunTsip.cs",
-              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TpRunTsip\\TpRunTsip.cs",
-              "RelativeToolTip": "TpRunTsip\\TpRunTsip.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAlwO0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T12:41:34.46Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -191,13 +151,49 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "TsipInitiator\\Properties\\Settings.settings",
+              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.settings",
+              "RelativeToolTip": "TsipInitiator\\Properties\\Settings.settings",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2026-05-26T12:46:07.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "TsipInitiator\\Properties\\Settings.Designer.cs",
+              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "TsipInitiator\\Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBsAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T12:45:33.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TpRunTsip.cs",
+              "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TpRunTsip\\TpRunTsip.cs",
+              "RelativeDocumentMoniker": "TpRunTsip\\TpRunTsip.cs",
+              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TpRunTsip\\TpRunTsip.cs",
+              "RelativeToolTip": "TpRunTsip\\TpRunTsip.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAlwO0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T12:41:34.46Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TsipEmail.cs",
               "DocumentMoniker": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\TsipEmail.cs",
               "RelativeDocumentMoniker": "TsipInitiator\\TsipEmail.cs",
-              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\TsipEmail.cs",
-              "RelativeToolTip": "TsipInitiator\\TsipEmail.cs",
-              "ViewState": "AgIAABcBAAAAAAAAAAAiwDsBAAAkAAAAAAAAAA==",
+              "ToolTip": "D:\\MicsBatchProgs\\MicsBat\\TsipInitiator\\TsipEmail.cs*",
+              "RelativeToolTip": "TsipInitiator\\TsipEmail.cs*",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAiwJ8BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-22T14:49:36.726Z",
               "EditorCaption": ""
@@ -212,8 +208,7 @@
               "RelativeToolTip": "SQLexecDirect\\SQLExecDirect.cs",
               "ViewState": "AgIAAH4AAAAAAAAAAAAlwKEAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T18:44:27.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T18:44:27.962Z"
             },
             {
               "$type": "Document",
@@ -297,8 +292,7 @@
               "RelativeToolTip": "MeUpdate\\MeUpdate.cs",
               "ViewState": "AgIAAOoAAAAAAAAAAAAlwA0BAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T19:49:16.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T19:49:16.277Z"
             },
             {
               "$type": "Document",
@@ -310,8 +304,7 @@
               "RelativeToolTip": "MtUpdate\\MtUpdate.cs",
               "ViewState": "AgIAAJ8BAAAAAAAAAAAlwMIBAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T19:49:51.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T19:49:51.419Z"
             },
             {
               "$type": "Document",
