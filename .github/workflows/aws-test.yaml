@@ -29,7 +29,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::400485161087:role/GitHubActionsWorkflowRole
           aws-region: us-east-1
-          audience: ://amazonaws.com
+          audience: sts.amazonaws.com
 
       - name: Sync Markdown Output to Amazon S3
         run: aws s3 sync ./rag_output s3://knowledgebasetestforai/codebase/ --delete
