@@ -36,7 +36,7 @@ jobs:
 
       - name: Trigger Amazon Bedrock Knowledge Base Sync
         run: |
-          aws bedrock start-ingestion-job \
+          aws bedrock-agent start-ingestion-job \
             --knowledge-base-id JLKZWJRBUQ \
             --data-source-id AD8Q4H8R2Q \
             --region us-east-1
