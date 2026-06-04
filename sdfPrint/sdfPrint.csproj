@@ -85,6 +85,9 @@ copy D:\inetpub\remicsdev\mics\bin\Release\DBAccess.pdb D:\develbat\DBAccess.pdb
 
 </PostBuildEvent>
   </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>conn</PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

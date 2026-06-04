@@ -122,7 +122,7 @@ namespace TsipInitiator
                
         /// <summary>
         /// This method implements the sending of TSIP result reports to the user's
-        /// email address using a SQL email server.
+        /// email address using SQL email server.
         /// </summary>
         /// <param name="errMsg"></param>
         /// <returns></returns>
@@ -136,6 +136,9 @@ namespace TsipInitiator
 
             int retVal = Constant.SUCCESS;
 
+            // set up log file
+            StreamWriter sw = new StreamWriter(@"d:\MicsBatchLogs\TsipEmail.log");
+            
             try
             {
                 bool IsDel;
@@ -143,7 +146,7 @@ namespace TsipInitiator
                 List<FileInfo> fiDeleteList = new List<FileInfo>();
 
                 DateTime theNu = DateTime.Now;
-                Console.WriteLine("\nSending TSIP reports to user via email with timestamp: {0}", theNu);
+                sw.WriteLine("\nSending TSIP reports to user via email with timestamp: {0}", theNu);
 
                 if (mDelFlag == "D")
                 {
@@ -154,12 +157,12 @@ namespace TsipInitiator
                     cBodyfile = mTsipFileFolder + "\\" + mTsipFileRoot + ".ERR";
                     if (File.Exists(cBodyfile))
                     {
-                        Console.Write("\nSending files:- {0}\n", mTsipFileFolder + "\\" + mTsipFileRoot + "_" + mRuns[0]);
+                        sw.WriteLine("\nSending files:- {0}\n", mTsipFileFolder + "\\" + mTsipFileRoot + "_" + mRuns[0]);
                     }
                     else
                     {
                         errMsg = String.Format("Could not find files for: {0}", mTsipFileFolder + "\\" + mTsipFileRoot + "_" + mRuns[0]);
-                        Console.Write("\n\n{0}\n", errMsg);
+                        sw.WriteLine("\n\n{0}\n", errMsg);
                         return 126;
                     }
                 }
@@ -225,11 +228,11 @@ namespace TsipInitiator
                     else
                     {
                         //	Send the err file anyway.
-                        //body = "No files found, this is the .ERR file:-\n\n";
-                        //BodyFile = new StreamReader(cBodyfile);
-                        //body = BodyFile.ReadToEnd();
-                        body = "No Errors";
-                        //BodyFile.Close();
+                        body = "No files found, this is the .ERR file:-\n\n";
+                        BodyFile = new StreamReader(cBodyfile);
+                        body = BodyFile.ReadToEnd();
+                        //body = "No Errors";
+                        BodyFile.Close();
                     }
                 }
                 else
@@ -238,7 +241,7 @@ namespace TsipInitiator
                     body = "See Subject.";
                 }
 
-                StreamWriter sw = new StreamWriter(@"d:\MicsBatchLogs\TsipEmail.log");
+
                 // show the email message
                 sw.WriteLine("To: ablesonb@icloud.com");
                 sw.WriteLine("Subject: " + subject);
@@ -249,7 +252,11 @@ namespace TsipInitiator
                 // insert record into adm.t_EmailQueue
                 try
                 {
-                    string cnstr = "DSN=remicsdev;DATABASE=remicsdev;Trusted_Connection=yes";
+                    // this command assumes that DSN and DATABASE are the same
+                    //string cnstr = "DSN=remicsdev;DATABASE=remicsdev;Trusted_Connection=yes";
+                    string cnstr = String.Format("DSN={0};DATABASE={0};Trusted_Connection=yes",Info.DbName);
+                    sw.WriteLine("Connection=" + cnstr);
+
                     using (OdbcConnection cn = new OdbcConnection(cnstr))
                     {
                         cn.Open();
@@ -259,7 +266,8 @@ namespace TsipInitiator
                         //            " VALUES ('mics@fcsa.ca','ablesonb@icloud.com','" + subject + "','" + body + "','" + filelist.ToString() + "')";
                         string strSql = String.Format("INSERT INTO adm.t_EmailQueue (mailFrom, mailTo, mailSubject, mailBody, mailAttachments) " +
                                      " VALUES ('mics@fcsa.ca','ablesonb@icloud.com','{0}','{1}','{2}')",subject,body,filelist.ToString());
-                        
+                        sw.WriteLine(strSql);
+
                         OdbcCommand addemail = new OdbcCommand(strSql,cn);
 
                         retVal = addemail.ExecuteNonQuery();
@@ -282,23 +290,30 @@ namespace TsipInitiator
                     //	sent, and so are kept open and locked.
                     //        fi.Delete();
                     //    }
-                    //    Console.WriteLine("Deleted {0} files.", fiDeleteList.Count());
+                    //    sw.WriteLine("Deleted {0} files.", fiDeleteList.Count());
                     //}
 
                 }
-                catch (Exception)
-                { }
+                catch (Exception ex)
+                {
+                    Log2.e("Error inserting tsip queue record: " + ex.Message);
+                }
             }
             catch (Exception e)
             {
                 retVal = 314259;
                 Log2.e("\n\nTsipEmail.Send(): ERROR: exception: " + e.Message);
                 errMsg = e.Message + "\n" + e.StackTrace;
+                return retVal;
             }
 
-            if (retVal == Constant.SUCCESS) Console.WriteLine("\nEmail sent.");
-
-            return retVal;
+            if (retVal == Constant.SUCCESS)
+            {
+                Console.WriteLine("\nEmail sent.");
+                sw.WriteLine("\nEmail sent.");
+                return retVal;
+            }
+            return Constant.SUCCESS;
         }
 
         /*
@@ -309,20 +324,8 @@ namespace TsipInitiator
             DateTime logTime = DateTime.Now;
             sw.WriteLine("LOGTIME:" + logTime.ToString("yyyyMMddHHmmss.ffff"));
 
-            // set mandatory FROM addres
+            // set mandatory FROM address
             string From = "mics@fcsa.ca";
-
-            if (From == "")
-            {
-                sw.WriteLine("From is empty");
-                sw.Close();
-                errMsg = "No From address was specified";
-                return false;
-            }
-            else
-            {
-                sw.WriteLine(From.ToString());
-            }
 
 
             if (ToAddress.ToString() == "")
