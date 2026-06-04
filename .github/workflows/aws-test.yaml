@@ -1,24 +1,37 @@
-name: AWS Connection Test
+name: Sync Codebase to Bedrock S3
 
 on:
   push:
     branches:
-      - main  # Triggers when you push to your main branch
+      - main  # Triggers the crawl and sync automatically whenever code hits main
 
 permissions:
   id-token: write
   contents: read
 
 jobs:
-  test-connection:
+  build-and-sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate RAG Markdown and Metadata
+        run: python .github/scripts/generate_rag_docs.py
+
       - name: Configure AWS Credentials via OIDC
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::400485161087:role/GitHubActionsWorkflowRole
-          aws-region: ca-central-1  # Change to your bucket's AWS region
+          aws-region: ca-central-1  # Change to your Bedrock API region if different
           audience: ://amazonaws.com
 
-      - name: Verify AWS Login
-        run: aws sts get-caller-identity
+      - name: Sync Markdown Output to Amazon S3
+        run: |
+          aws s3 sync ./rag_output s3://knowledgebasetestforai/codebase/ --Your S3 Bucket
+
