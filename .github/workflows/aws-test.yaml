@@ -33,3 +33,10 @@ jobs:
 
       - name: Sync Markdown Output to Amazon S3
         run: aws s3 sync ./rag_output s3://knowledgebasetestforai/codebase/ --delete
+
+      - name: Trigger Amazon Bedrock Knowledge Base Sync
+        run: |
+          aws bedrock start-ingestion-job \
+            --knowledge-base-id JLKZWJRBUQ \
+            --data-source-id AD8Q4H8R2Q \
+            --region us-east-1
