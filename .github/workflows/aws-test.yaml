@@ -17,7 +17,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::400485161087:role/GitHubActionsWorkflowRole
-          aws-region: Canada (Central) ca-central-1  # Change to your bucket's AWS region
+          aws-region: ca-central-1  # Change to your bucket's AWS region
           audience: ://amazonaws.com
 
       - name: Verify AWS Login
