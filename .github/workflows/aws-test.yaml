@@ -3,7 +3,7 @@ name: AWS Connection Test
 on:
   push:
     branches:
-      - feature/bedrock-rag-pipeline  # Triggers when you push to your local branch
+      - main  # Triggers when you push to your main branch
 
 permissions:
   id-token: write
