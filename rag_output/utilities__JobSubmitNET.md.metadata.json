@@ -1,0 +1,10 @@
+{
+  "metadataAttributes": {
+    "file_name": "JobSubmitNET.cs",
+    "repo_path": "utilities\\JobSubmitNET.cs",
+    "folder_layer": "utilities",
+    "sub_layer": "None",
+    "namespace": "JobSubmission",
+    "language": "CSharp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "metadataAttributes": {
+    "file_name": "AssemblyInfo.cs",
+    "repo_path": "_Kernel32Lib\\Properties\\AssemblyInfo.cs",
+    "folder_layer": "_Kernel32Lib",
+    "sub_layer": "Properties",
+    "namespace": "Global",
+    "language": "CSharp"
+  }
+}

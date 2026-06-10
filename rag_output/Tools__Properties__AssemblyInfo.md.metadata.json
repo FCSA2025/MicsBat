@@ -1,0 +1,10 @@
+{
+  "metadataAttributes": {
+    "file_name": "AssemblyInfo.cs",
+    "repo_path": "Tools\\Properties\\AssemblyInfo.cs",
+    "folder_layer": "Tools",
+    "sub_layer": "Properties",
+    "namespace": "Global",
+    "language": "CSharp"
+  }
+}

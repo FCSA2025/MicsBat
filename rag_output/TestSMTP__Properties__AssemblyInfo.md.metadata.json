@@ -1,0 +1,10 @@
+{
+  "metadataAttributes": {
+    "file_name": "AssemblyInfo.cs",
+    "repo_path": "TestSMTP\\Properties\\AssemblyInfo.cs",
+    "folder_layer": "TestSMTP",
+    "sub_layer": "Properties",
+    "namespace": "Global",
+    "language": "CSharp"
+  }
+}

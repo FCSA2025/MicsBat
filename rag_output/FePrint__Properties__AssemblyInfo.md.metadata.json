@@ -1,0 +1,10 @@
+{
+  "metadataAttributes": {
+    "file_name": "AssemblyInfo.cs",
+    "repo_path": "FePrint\\Properties\\AssemblyInfo.cs",
+    "folder_layer": "FePrint",
+    "sub_layer": "Properties",
+    "namespace": "Global",
+    "language": "CSharp"
+  }
+}
